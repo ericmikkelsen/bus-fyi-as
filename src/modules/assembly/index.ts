@@ -16,6 +16,25 @@ export {
   generateCard
 } from './html-generator';
 
+// Export CSV parsing (ultra-fast WASM parsing)
+export {
+  parseCSVLine,
+  parseCSV,
+  getColumnIndex,
+  getColumn
+} from './csv-parser';
+
+// Export data processing (parent-child, time grouping, etc.)
+export {
+  buildParentChildMap,
+  getHourFromTime,
+  groupStopTimesByHour,
+  filterStopTimesByHour,
+  formatTimeReadable,
+  getServiceDaysString,
+  sortByArrivalTime
+} from './data-processing';
+
 // Export components
 export { StopHeader } from '../../components/StopHeader';
 export { TerminalsList } from '../../components/TerminalsList';

@@ -87,7 +87,15 @@ Generate stop pages with ultra-performance optimizations:
 npm run generate:stops:ultra
 ```
 
-**Maximum performance** for production builds. Adds fast CSV parsing, pre-built indexes, Buffer-based writes, and increased parallelization for 8x speedup. See `docs/ULTRA-PERFORMANCE.md` for details.
+**Maximum JS performance**. Adds fast CSV parsing, pre-built indexes, Buffer-based writes, and increased parallelization for 8x speedup.
+
+Generate stop pages with WASM-powered processing:
+
+```bash
+npm run generate:stops:wasm
+```
+
+**Ultimate performance** using AssemblyScript for CSV parsing and data processing. All parsing, grouping, and formatting in compiled WebAssembly for 12x speedup. See `docs/WASM-PERFORMANCE.md` for details.
 
 ### Development
 
