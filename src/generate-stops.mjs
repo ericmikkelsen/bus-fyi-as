@@ -1,9 +1,10 @@
-// Maximum Performance Generator - Uses AssemblyScript for all data processing
+// Maximum Performance Generator - Uses streaming for large files + AssemblyScript
 import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { cpus } from 'os';
 import { getAgencies } from './modules/gtfs-parser-fast.mjs';
+import { streamParseStopTimes, streamParseGTFS, getLineCount } from './modules/streaming-gtfs-parser.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -229,36 +230,51 @@ async function generateStopPages() {
     
     const parseStart = Date.now();
     
-    // Load CSV files
-    console.log('  📥 Loading CSV files...');
-    const stopsContent = loadCSVForWASM(join(agencyPath, 'stops.txt'));
-    const routesContent = loadCSVForWASM(join(agencyPath, 'routes.txt'));
-    const tripsContent = loadCSVForWASM(join(agencyPath, 'trips.txt'));
-    const stopTimesContent = loadCSVForWASM(join(agencyPath, 'stop_times.txt'));
-    const calendarContent = loadCSVForWASM(join(agencyPath, 'calendar.txt'));
-    console.log('  ✓ Files loaded');
-    
-    // Parse using WASM
-    console.log('  🔧 Parsing CSV with AssemblyScript...');
+    // Parse smaller files using WASM (fast and efficient)
+    console.log('  🔧 Parsing CSV files...');
     const csvParseStart = Date.now();
+    
+    const stopsContent = loadCSVForWASM(join(agencyPath, 'stops.txt'));
     const stops = parseCSVWithWASM(stopsContent, wasmModule);
     console.log(`    ✓ stops.txt (${stops.length} rows) - ${((Date.now() - csvParseStart) / 1000).toFixed(2)}s`);
     
     const routesParseStart = Date.now();
+    const routesContent = loadCSVForWASM(join(agencyPath, 'routes.txt'));
     const routes = parseCSVWithWASM(routesContent, wasmModule);
     console.log(`    ✓ routes.txt (${routes.length} rows) - ${((Date.now() - routesParseStart) / 1000).toFixed(2)}s`);
     
     const tripsParseStart = Date.now();
+    const tripsContent = loadCSVForWASM(join(agencyPath, 'trips.txt'));
     const trips = parseCSVWithWASM(tripsContent, wasmModule);
     console.log(`    ✓ trips.txt (${trips.length} rows) - ${((Date.now() - tripsParseStart) / 1000).toFixed(2)}s`);
     
-    const stopTimesParseStart = Date.now();
-    const stopTimes = parseCSVWithWASM(stopTimesContent, wasmModule);
-    console.log(`    ✓ stop_times.txt (${stopTimes.length} rows) - ${((Date.now() - stopTimesParseStart) / 1000).toFixed(2)}s`);
-    
     const calendarParseStart = Date.now();
+    const calendarContent = loadCSVForWASM(join(agencyPath, 'calendar.txt'));
     const calendar = parseCSVWithWASM(calendarContent, wasmModule);
     console.log(`    ✓ calendar.txt (${calendar.length} rows) - ${((Date.now() - calendarParseStart) / 1000).toFixed(2)}s`);
+    
+    // Stream parse stop_times.txt (can be 300MB+, millions of rows)
+    // This approach doesn't load the entire file into memory
+    console.log('  🌊 Streaming stop_times.txt (large file)...');
+    const stopTimesFile = join(agencyPath, 'stop_times.txt');
+    const stopTimesLineCount = await getLineCount(stopTimesFile);
+    console.log(`    Expected ~${stopTimesLineCount.toLocaleString()} lines`);
+    
+    const stopTimesParseStart = Date.now();
+    let lastProgressTime = Date.now();
+    const stopTimesMap = await streamParseStopTimes(stopTimesFile, (processed, total) => {
+      const now = Date.now();
+      if (now - lastProgressTime >= 5000) { // Progress every 5 seconds
+        const percent = ((processed / total) * 100).toFixed(1);
+        const rate = processed / ((now - stopTimesParseStart) / 1000);
+        const eta = ((total - processed) / rate) * 1000;
+        console.log(`    Processing: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
+        lastProgressTime = now;
+      }
+    });
+    
+    const stopTimesCount = Object.values(stopTimesMap).reduce((sum, arr) => sum + arr.length, 0);
+    console.log(`    ✓ stop_times.txt (${stopTimesCount.toLocaleString()} rows indexed by stop) - ${((Date.now() - stopTimesParseStart) / 1000).toFixed(2)}s`);
     
     const parseTime = ((Date.now() - parseStart) / 1000).toFixed(2);
     
@@ -267,27 +283,11 @@ async function generateStopPages() {
       continue;
     }
     
-    console.log(`  ✅ All CSV parsed with WASM in ${parseTime}s`);
+    console.log(`  ✅ All CSV parsed in ${((Date.now() - parseStart) / 1000).toFixed(2)}s`);
     
-    // Build indexes
-    console.log('  🔗 Building data indexes...');
+    // Build parent-child relationships
+    console.log('  🔗 Building stop relationships...');
     const indexStart = Date.now();
-    const stopTimesMap = {};
-    
-    let lastLog = Date.now();
-    for (let i = 0; i < stopTimes.length; i++) {
-      const stopTime = stopTimes[i];
-      if (!stopTimesMap[stopTime.stop_id]) {
-        stopTimesMap[stopTime.stop_id] = [];
-      }
-      stopTimesMap[stopTime.stop_id].push(stopTime);
-      
-      // Log progress every 60 seconds for large datasets
-      if (stopTimes.length > 100000 && Date.now() - lastLog > 60000) {
-        logProgress(i + 1, stopTimes.length, 'Indexing stop_times', indexStart);
-        lastLog = Date.now();
-      }
-    }
     
     // Build parent-child relationships in JavaScript
     // (AssemblyScript Map is not directly accessible from JavaScript -
@@ -317,7 +317,8 @@ async function generateStopPages() {
     }
     
     const indexTime = ((Date.now() - indexStart) / 1000).toFixed(2);
-    console.log(`  ✓ Indexes built in ${indexTime}s`);
+    console.log(`  ✓ Relationships built in ${indexTime}s`);
+    console.log(`  💾 Memory: stop_times indexed by ${Object.keys(stopTimesMap).length} stops`);
     
     // Process stops
     console.log(`  🔧 Generating pages with WASM...`);
@@ -345,9 +346,16 @@ async function generateStopPages() {
     
     console.log(`  📄 Processing ${stopsToProcess.length} stops...`);
     
-    lastLog = Date.now();
+    let lastLog = Date.now();
+    const processStartTime = Date.now();
     for (let i = 0; i < stopsToProcess.length; i++) {
       const { stop, stopTimesForStop, childStops, parentStop } = stopsToProcess[i];
+      
+      // Progress logging every 60 seconds
+      if (Date.now() - lastLog > 60000) {
+        logProgress(i + 1, stopsToProcess.length, 'Generating pages', processStartTime);
+        lastLog = Date.now();
+      }
       
       promises.push(
         processStopWithWASM(
