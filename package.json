@@ -1,0 +1,29 @@
+{
+  "name": "bus-fyi-as",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run asbuild && npm run generate && vite build",
+    "generate": "npm run asbuild && node src/generator.mjs",
+    "preview": "vite preview",
+    "asbuild:debug": "asc src/assembly/index.ts --target debug",
+    "asbuild:release": "asc src/assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:debug && npm run asbuild:release",
+    "test": "node tests",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "@assemblyscript/loader": "^0.28.9",
+    "assemblyscript": "^0.28.9",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/release.js",
+      "types": "./dist/release.d.ts"
+    }
+  }
+}
