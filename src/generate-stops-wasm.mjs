@@ -240,7 +240,8 @@ async function generateStopPages() {
     }
     
     // Build parent-child relationships in JavaScript
-    // (WASM Map can't be directly used in JS)
+    // (AssemblyScript Map is not directly accessible from JavaScript -
+    // WASM only exports primitive types and typed arrays, not complex objects)
     const childrenMap = {};
     const stopMap = {};
     const parentMap = {};
@@ -266,7 +267,7 @@ async function generateStopPages() {
     }
     
     const indexTime = ((Date.now() - indexStart) / 1000).toFixed(2);
-    console.log(`  ✓ Built relationships with WASM in ${indexTime}s`);
+    console.log(`  ✓ Built relationships in ${indexTime}s`);
     
     // Process stops
     console.log(`  🔧 Generating pages with WASM...`);
