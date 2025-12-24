@@ -9,6 +9,7 @@
     "generate": "npm run asbuild && node src/generator.mjs",
     "generate:stops": "node src/generate-stops.mjs",
     "generate:stops:fast": "node src/generate-stops-optimized.mjs",
+    "generate:stops:ultra": "node src/generate-stops-ultra.mjs",
     "preview": "vite preview",
     "asbuild:debug": "asc src/modules/assembly/index.ts --target debug",
     "asbuild:release": "asc src/modules/assembly/index.ts --target release",

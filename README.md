@@ -79,7 +79,15 @@ Generate stop pages with performance optimizations (parallel processing):
 npm run generate:stops:fast
 ```
 
-**Recommended for large datasets** (10,000+ stops). Uses worker threads and write streams for 5x speedup. See `docs/PERFORMANCE.md` for details.
+**Recommended for large datasets** (10,000+ stops). Uses worker threads and write streams for 5x speedup.
+
+Generate stop pages with ultra-performance optimizations:
+
+```bash
+npm run generate:stops:ultra
+```
+
+**Maximum performance** for production builds. Adds fast CSV parsing, pre-built indexes, Buffer-based writes, and increased parallelization for 8x speedup. See `docs/ULTRA-PERFORMANCE.md` for details.
 
 ### Development
 
