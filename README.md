@@ -49,7 +49,9 @@ npm install
    npm run generate:stops
    ```
 
-4. View the generated stop pages at `dist/stops/[stop-id]/index.html`
+4. View the generated stop pages:
+   - Parent/regular stops: `dist/stops/[stop-id]/index.html`
+   - Child stops (platforms): `dist/stops/[parent-id]/[child-id]/index.html`
 
 ### Build AssemblyScript Modules
 
@@ -136,7 +138,8 @@ Place your GTFS data in the `data/` directory with one subdirectory per transit 
 
 - 🚀 Fast builds with Vite
 - ⚡ High-performance WebAssembly modules
-- 📊 GTFS data processing
+- 📊 GTFS data processing with parent-child stop relationships
+- 🗂️ Nested directory structure for transit platforms/terminals
 - 🎨 Responsive design
 - 📱 Mobile-friendly
 - 🌙 Dark/light mode support

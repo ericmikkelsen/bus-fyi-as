@@ -82,6 +82,8 @@ This means:
    - Reads GTFS data with Node.js
    - Calls AS functions to generate HTML
    - Writes files to `dist/stops/`
+     - Parent/regular stops: `dist/stops/[stop-id]/index.html`
+     - Child stops (platforms): `dist/stops/[parent-id]/[child-id]/index.html`
 
 ## Example: Creating a New Component
 
