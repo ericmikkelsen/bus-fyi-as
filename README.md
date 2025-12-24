@@ -73,6 +73,14 @@ Generate stop pages from GTFS data:
 npm run generate:stops
 ```
 
+Generate stop pages with performance optimizations (parallel processing):
+
+```bash
+npm run generate:stops:fast
+```
+
+**Recommended for large datasets** (10,000+ stops). Uses worker threads and write streams for 5x speedup. See `docs/PERFORMANCE.md` for details.
+
 ### Development
 
 Start the development server:

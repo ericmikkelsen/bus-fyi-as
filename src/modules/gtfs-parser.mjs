@@ -133,3 +133,18 @@ export function groupStopTimesByHour(stopTimes) {
   
   return grouped;
 }
+
+/**
+ * Get service days from calendar entry
+ */
+export function getServiceDays(calendarEntry) {
+  const days = [];
+  if (calendarEntry.monday === '1') days.push('Mon');
+  if (calendarEntry.tuesday === '1') days.push('Tue');
+  if (calendarEntry.wednesday === '1') days.push('Wed');
+  if (calendarEntry.thursday === '1') days.push('Thu');
+  if (calendarEntry.friday === '1') days.push('Fri');
+  if (calendarEntry.saturday === '1') days.push('Sat');
+  if (calendarEntry.sunday === '1') days.push('Sun');
+  return days;
+}
