@@ -1,38 +1,15 @@
 // GTFS data structures and utilities
 
 /**
- * Represents a GTFS stop
+ * Note: Classes cannot be exported from WASM modules.
+ * If you need to work with GTFS data structures in WASM, use plain objects
+ * or create factory functions that return objects.
+ * 
+ * For example:
+ * export function createStop(id: string, name: string, lat: f64, lon: f64): void {
+ *   // Process stop data...
+ * }
  */
-export class Stop {
-  stop_id: string;
-  stop_name: string;
-  stop_lat: f64;
-  stop_lon: f64;
-
-  constructor(id: string, name: string, lat: f64, lon: f64) {
-    this.stop_id = id;
-    this.stop_name = name;
-    this.stop_lat = lat;
-    this.stop_lon = lon;
-  }
-}
-
-/**
- * Represents a GTFS route
- */
-export class Route {
-  route_id: string;
-  route_short_name: string;
-  route_long_name: string;
-  route_type: i32;
-
-  constructor(id: string, shortName: string, longName: string, type: i32) {
-    this.route_id = id;
-    this.route_short_name = shortName;
-    this.route_long_name = longName;
-    this.route_type = type;
-  }
-}
 
 /**
  * Calculates distance between two coordinates (Haversine formula)

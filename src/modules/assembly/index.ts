@@ -5,7 +5,9 @@ export function add(a: i32, b: i32): i32 {
 }
 
 // Export GTFS utilities
-export { Stop, Route, calculateDistance } from './gtfs';
+// Note: Stop and Route classes removed as they cannot be exported from WASM
+// Use plain objects instead if needed
+export { calculateDistance } from './gtfs';
 
 // Export HTML generation utilities (legacy)
 export {
