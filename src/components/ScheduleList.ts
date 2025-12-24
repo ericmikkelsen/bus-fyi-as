@@ -3,6 +3,7 @@
 
 /**
  * Formats time from GTFS format (HH:MM:SS) to readable format
+ * Using simple string concatenation to avoid WASM reference counting issues
  */
 export function formatTime(gtfsTime: string): string {
   if (gtfsTime === '') return '';
@@ -21,11 +22,12 @@ export function formatTime(gtfsTime: string): string {
   const period = hours >= 12 ? 'PM' : 'AM';
   const displayHours = hours === 0 ? 12 : (hours > 12 ? hours - 12 : hours);
   
-  return `${displayHours}:${minutes} ${period}`;
+  return displayHours.toString() + ':' + minutes + ' ' + period;
 }
 
 /**
  * Generates hour header
+ * Using simple string concatenation to avoid WASM reference counting issues
  */
 export function HourHeader(hour: i32): string {
   let displayHour = hour;
@@ -36,18 +38,19 @@ export function HourHeader(hour: i32): string {
   const period = displayHour >= 12 ? 'PM' : 'AM';
   const hourDisplay = displayHour === 0 ? 12 : (displayHour > 12 ? displayHour - 12 : displayHour);
   
-  return `\n  <h3>${hourDisplay}:00 ${period}</h3>\n`;
+  return '\n  <h3>' + hourDisplay.toString() + ':00 ' + period + '</h3>\n';
 }
 
 /**
  * Generates a single schedule entry
+ * Using simple string concatenation to avoid WASM reference counting issues
  */
 export function ScheduleEntry(time: string, routeName: string, headsign: string): string {
-  let html = `    <li>${time} - ${routeName}`;
+  let html = '    <li>' + time + ' - ' + routeName;
   if (headsign !== '') {
-    html += ` to ${headsign}`;
+    html += ' to ' + headsign;
   }
-  html += `</li>\n`;
+  html += '</li>\n';
   return html;
 }
 
@@ -55,9 +58,9 @@ export function ScheduleEntry(time: string, routeName: string, headsign: string)
  * Generates ordered list wrapper
  */
 export function ScheduleListStart(): string {
-  return `  <ol>\n`;
+  return '  <ol>\n';
 }
 
 export function ScheduleListEnd(): string {
-  return `  </ol>\n`;
+  return '  </ol>\n';
 }
