@@ -9,8 +9,8 @@
     "generate": "npm run asbuild && node src/generator.mjs",
     "generate:stops": "node src/generate-stops.mjs",
     "preview": "vite preview",
-    "asbuild:debug": "asc src/assembly/index.ts --target debug",
-    "asbuild:release": "asc src/assembly/index.ts --target release",
+    "asbuild:debug": "asc src/modules/assembly/index.ts --target debug",
+    "asbuild:release": "asc src/modules/assembly/index.ts --target release",
     "asbuild": "npm run asbuild:debug && npm run asbuild:release",
     "test": "node tests",
     "start": "npx serve ."

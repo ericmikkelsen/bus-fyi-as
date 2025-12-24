@@ -1,22 +1,21 @@
-// Stop Pages Generator - Creates HTML pages for each stop
+// Stop Pages Generator - Creates HTML pages for each stop using AssemblyScript components
 import { writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import {
   loadGTFSData,
   getAgencies,
-  formatTime,
   groupStopTimesByHour
-} from './gtfs-parser.mjs';
+} from './modules/gtfs-parser.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const rootDir = join(__dirname, '..');
 
 /**
- * Generate HTML for a stop schedule
+ * Generate HTML for a stop schedule using AssemblyScript components
  */
-function generateStopHTML(stop, stopTimes, routes, trips, childStops, parentStop) {
+async function generateStopHTML(stop, stopTimes, routes, trips, childStops, parentStop, wasmModule) {
   // Create a map of trip_id to route info
   const tripToRoute = {};
   for (const trip of trips) {
@@ -37,84 +36,54 @@ function generateStopHTML(stop, stopTimes, routes, trips, childStops, parentStop
   // Group by hour
   const timesByHour = groupStopTimesByHour(sortedStopTimes);
   
-  // Determine if this is a parent stop (has children)
-  const isParentStop = childStops && childStops.length > 0;
+  // Prepare data for AssemblyScript
+  const childStopIds = childStops ? childStops.map(c => c.stop_id) : [];
+  const childStopNames = childStops ? childStops.map(c => c.stop_name) : [];
+  const parentStopId = parentStop ? parentStop.stop_id : '';
+  const parentStopName = parentStop ? parentStop.stop_name : '';
+  const hasRoutes = sortedStopTimes.length > 0;
   
-  // Generate HTML
-  let html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${stop.stop_name}</title>
-</head>
-<body>
-  <h1>${stop.stop_name}</h1>
-`;
-
-  // If this is a child stop, show link to parent
-  if (parentStop) {
-    html += `  <p><a href="/stops/${parentStop.stop_id}/index.html">← Back to ${parentStop.stop_name}</a></p>\n`;
-  }
-
-  html += `  <p>Stop ID: ${stop.stop_id}</p>\n`;
-
-  // If this is a parent stop with children, list them
-  if (isParentStop) {
-    html += `\n  <h2>Terminals</h2>\n`;
-    html += `  <ul>\n`;
-    for (const child of childStops) {
-      html += `    <li><a href="/stops/${child.stop_id}/index.html">${child.stop_name}</a></li>\n`;
-    }
-    html += `  </ul>\n`;
-  }
-
-  // Generate schedule by hour (if there are any stop times)
+  // Generate base page structure using AssemblyScript
+  let html = wasmModule.generateStopPage(
+    stop.stop_name,
+    stop.stop_id,
+    parentStopId,
+    parentStopName,
+    childStopIds,
+    childStopNames,
+    hasRoutes
+  );
+  
+  // Add schedule using AssemblyScript components
   const hours = Object.keys(timesByHour).map(Number).sort((a, b) => a - b);
   
-  if (hours.length > 0) {
-    if (isParentStop) {
-      html += `\n  <h2>Routes at ${stop.stop_name}</h2>\n`;
+  // Build schedule content
+  let scheduleContent = '';
+  
+  for (const hour of hours) {
+    const times = timesByHour[hour];
+    
+    scheduleContent = wasmModule.addScheduleHour(scheduleContent, hour);
+    
+    for (const stopTime of times) {
+      const trip = tripToRoute[stopTime.trip_id];
+      const route = trip ? routeMap[trip.route_id] : null;
+      
+      const routeName = route ? 
+        (route.route_short_name || route.route_long_name) : 
+        'Unknown Route';
+      
+      const time = wasmModule.formatTime(stopTime.arrival_time);
+      const headsign = trip?.trip_headsign || '';
+      
+      scheduleContent = wasmModule.addScheduleEntry(scheduleContent, time, routeName, headsign);
     }
     
-    for (const hour of hours) {
-      const times = timesByHour[hour];
-      
-      // Format hour header
-      let displayHour = hour;
-      if (hour >= 24) {
-        displayHour = hour - 24;
-      }
-      const period = displayHour >= 12 ? 'PM' : 'AM';
-      const hourDisplay = displayHour === 0 ? 12 : (displayHour > 12 ? displayHour - 12 : displayHour);
-      
-      html += `\n  <h3>${hourDisplay}:00 ${period}</h3>\n`;
-      html += `  <ol>\n`;
-      
-      for (const stopTime of times) {
-        const trip = tripToRoute[stopTime.trip_id];
-        const route = trip ? routeMap[trip.route_id] : null;
-        
-        const routeName = route ? 
-          (route.route_short_name || route.route_long_name) : 
-          'Unknown Route';
-        
-        const time = formatTime(stopTime.arrival_time);
-        const headsign = trip?.trip_headsign || '';
-        
-        html += `    <li>${time} - ${routeName}`;
-        if (headsign) {
-          html += ` to ${headsign}`;
-        }
-        html += `</li>\n`;
-      }
-      
-      html += `  </ol>\n`;
-    }
+    scheduleContent = wasmModule.closeScheduleHour(scheduleContent);
   }
   
-  html += `</body>
-</html>`;
+  // Insert schedule before closing body tag
+  html = html.replace('</body>', scheduleContent + '</body>');
   
   return html;
 }
@@ -123,7 +92,11 @@ function generateStopHTML(stop, stopTimes, routes, trips, childStops, parentStop
  * Generate stop pages for an agency
  */
 async function generateStopPages() {
-  console.log('Generating stop pages from GTFS data...');
+  console.log('Generating stop pages from GTFS data using AssemblyScript...');
+  
+  // Load AssemblyScript WASM module
+  console.log('Loading AssemblyScript module...');
+  const wasmModule = await import(join(rootDir, 'dist', 'release.js'));
   
   const dataDir = join(rootDir, 'data');
   const distDir = join(rootDir, 'dist');
@@ -210,7 +183,7 @@ async function generateStopPages() {
         continue;
       }
       
-      const html = generateStopHTML(stop, stopTimes, gtfsData.routes, gtfsData.trips, childStops, parentStop);
+      const html = await generateStopHTML(stop, stopTimes, gtfsData.routes, gtfsData.trips, childStops, parentStop, wasmModule);
       
       // Create directory structure
       const stopDir = join(distDir, 'stops', stop.stop_id);
