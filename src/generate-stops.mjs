@@ -16,7 +16,7 @@ const rootDir = join(__dirname, '..');
 /**
  * Generate HTML for a stop schedule
  */
-function generateStopHTML(stop, stopTimes, routes, trips) {
+function generateStopHTML(stop, stopTimes, routes, trips, childStops, parentStop) {
   // Create a map of trip_id to route info
   const tripToRoute = {};
   for (const trip of trips) {
@@ -37,6 +37,9 @@ function generateStopHTML(stop, stopTimes, routes, trips) {
   // Group by hour
   const timesByHour = groupStopTimesByHour(sortedStopTimes);
   
+  // Determine if this is a parent stop (has children)
+  const isParentStop = childStops && childStops.length > 0;
+  
   // Generate HTML
   let html = `<!DOCTYPE html>
 <html lang="en">
@@ -47,45 +50,67 @@ function generateStopHTML(stop, stopTimes, routes, trips) {
 </head>
 <body>
   <h1>${stop.stop_name}</h1>
-  <p>Stop ID: ${stop.stop_id}</p>
 `;
 
-  // Generate schedule by hour
+  // If this is a child stop, show link to parent
+  if (parentStop) {
+    html += `  <p><a href="/stops/${parentStop.stop_id}/index.html">← Back to ${parentStop.stop_name}</a></p>\n`;
+  }
+
+  html += `  <p>Stop ID: ${stop.stop_id}</p>\n`;
+
+  // If this is a parent stop with children, list them
+  if (isParentStop) {
+    html += `\n  <h2>Terminals</h2>\n`;
+    html += `  <ul>\n`;
+    for (const child of childStops) {
+      html += `    <li><a href="/stops/${child.stop_id}/index.html">${child.stop_name}</a></li>\n`;
+    }
+    html += `  </ul>\n`;
+  }
+
+  // Generate schedule by hour (if there are any stop times)
   const hours = Object.keys(timesByHour).map(Number).sort((a, b) => a - b);
   
-  for (const hour of hours) {
-    const times = timesByHour[hour];
-    
-    // Format hour header
-    let displayHour = hour;
-    if (hour >= 24) {
-      displayHour = hour - 24;
+  if (hours.length > 0) {
+    if (isParentStop) {
+      html += `\n  <h2>Routes at ${stop.stop_name}</h2>\n`;
     }
-    const period = displayHour >= 12 ? 'PM' : 'AM';
-    const hourDisplay = displayHour === 0 ? 12 : (displayHour > 12 ? displayHour - 12 : displayHour);
     
-    html += `\n  <h3>${hourDisplay}:00 ${period}</h3>\n`;
-    html += `  <ol>\n`;
-    
-    for (const stopTime of times) {
-      const trip = tripToRoute[stopTime.trip_id];
-      const route = trip ? routeMap[trip.route_id] : null;
+    for (const hour of hours) {
+      const times = timesByHour[hour];
       
-      const routeName = route ? 
-        (route.route_short_name || route.route_long_name) : 
-        'Unknown Route';
-      
-      const time = formatTime(stopTime.arrival_time);
-      const headsign = trip?.trip_headsign || '';
-      
-      html += `    <li>${time} - ${routeName}`;
-      if (headsign) {
-        html += ` to ${headsign}`;
+      // Format hour header
+      let displayHour = hour;
+      if (hour >= 24) {
+        displayHour = hour - 24;
       }
-      html += `</li>\n`;
+      const period = displayHour >= 12 ? 'PM' : 'AM';
+      const hourDisplay = displayHour === 0 ? 12 : (displayHour > 12 ? displayHour - 12 : displayHour);
+      
+      html += `\n  <h3>${hourDisplay}:00 ${period}</h3>\n`;
+      html += `  <ol>\n`;
+      
+      for (const stopTime of times) {
+        const trip = tripToRoute[stopTime.trip_id];
+        const route = trip ? routeMap[trip.route_id] : null;
+        
+        const routeName = route ? 
+          (route.route_short_name || route.route_long_name) : 
+          'Unknown Route';
+        
+        const time = formatTime(stopTime.arrival_time);
+        const headsign = trip?.trip_headsign || '';
+        
+        html += `    <li>${time} - ${routeName}`;
+        if (headsign) {
+          html += ` to ${headsign}`;
+        }
+        html += `</li>\n`;
+      }
+      
+      html += `  </ol>\n`;
     }
-    
-    html += `  </ol>\n`;
   }
   
   html += `</body>
@@ -149,16 +174,43 @@ async function generateStopPages() {
       stopTimesMap[stopTime.stop_id].push(stopTime);
     }
     
+    // Build parent-child relationships
+    const stopMap = {};
+    const childrenMap = {}; // parent_id -> [child stops]
+    const parentMap = {}; // child_id -> parent stop
+    
+    for (const stop of gtfsData.stops) {
+      stopMap[stop.stop_id] = stop;
+      
+      // Check if this stop has a parent
+      if (stop.parent_station && stop.parent_station.trim() !== '') {
+        const parentId = stop.parent_station;
+        if (!childrenMap[parentId]) {
+          childrenMap[parentId] = [];
+        }
+        childrenMap[parentId].push(stop);
+      }
+    }
+    
+    // Build reverse lookup for parent stations
+    for (const [parentId, children] of Object.entries(childrenMap)) {
+      for (const child of children) {
+        parentMap[child.stop_id] = stopMap[parentId];
+      }
+    }
+    
     // Generate page for each stop
     for (const stop of gtfsData.stops) {
       const stopTimes = stopTimesMap[stop.stop_id] || [];
+      const childStops = childrenMap[stop.stop_id] || [];
+      const parentStop = parentMap[stop.stop_id] || null;
       
-      if (stopTimes.length === 0) {
-        // Skip stops with no scheduled times
+      // Skip stops with no scheduled times AND no children (unless they have a parent)
+      if (stopTimes.length === 0 && childStops.length === 0 && !parentStop) {
         continue;
       }
       
-      const html = generateStopHTML(stop, stopTimes, gtfsData.routes, gtfsData.trips);
+      const html = generateStopHTML(stop, stopTimes, gtfsData.routes, gtfsData.trips, childStops, parentStop);
       
       // Create directory structure
       const stopDir = join(distDir, 'stops', stop.stop_id);
