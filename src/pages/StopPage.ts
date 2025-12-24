@@ -1,35 +1,8 @@
 // StopPage
-// Generates a complete stop page using components and layout
+// Generates schedule components using AssemblyScript
+// Note: This is designed to work in both Node.js and service workers
 
-import { BaseLayout } from '../layouts/BaseLayout';
-import { StopHeader } from '../components/StopHeader';
-import { TerminalsList } from '../components/TerminalsList';
 import { HourHeader, ScheduleListStart, ScheduleListEnd, ScheduleEntry } from '../components/ScheduleList';
-
-/**
- * Generates a complete stop page
- * Note: This is designed to work in both Node.js and service workers
- */
-export function generateStopPage(
-  stopName: string,
-  stopId: string,
-  parentStopId: string,
-  parentStopName: string,
-  childStopIds: string[],
-  childStopNames: string[],
-  hasRoutes: bool
-): string {
-  let content = StopHeader(stopName, stopId, parentStopId, parentStopName);
-  // Pass stopId as parentStopId for TerminalsList to create nested paths
-  content += TerminalsList(stopId, childStopIds, childStopNames);
-  
-  // Add routes section header if this is a parent with routes
-  if (hasRoutes && childStopIds.length > 0) {
-    content += `\n  <h2>Routes at ${stopName}</h2>\n`;
-  }
-  
-  return BaseLayout(stopName, content);
-}
 
 /**
  * Builds schedule HTML for a single hour
@@ -73,11 +46,4 @@ export function buildCompleteSchedule(
   }
   
   return html;
-}
-
-/**
- * Wraps content in layout
- */
-export function wrapInLayout(title: string, content: string): string {
-  return BaseLayout(title, content);
 }

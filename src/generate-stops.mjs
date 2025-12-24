@@ -59,23 +59,22 @@ async function processStopWithWASM(
     mkdirSync(stopDir, { recursive: true });
   }
   
-  // Use WASM to build parent-child relationships
-  const childStopIds = childStopData.map(c => c.id);
-  const childStopNames = childStopData.map(c => c.name);
+  // Build header HTML using WASM (returns primitive string)
   const parentStopId = parentId || '';
   const parentStopName = parentName || '';
-  const hasRoutes = stopTimesForThisStop.length > 0;
+  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName);
   
-  // Generate HTML using WASM
-  let html = wasmModule.generateStopPage(
-    stopName,
-    stopId,
-    parentStopId,
-    parentStopName,
-    childStopIds,
-    childStopNames,
-    hasRoutes
-  );
+  // Build terminals list HTML using WASM (returns primitive string)
+  const childStopIds = childStopData.map(c => c.id);
+  const childStopNames = childStopData.map(c => c.name);
+  const terminalsHtml = wasmModule.TerminalsList(stopId, childStopIds, childStopNames);
+  
+  // Build routes section header if parent with routes
+  const hasRoutes = stopTimesForThisStop.length > 0;
+  let routesSectionHeader = '';
+  if (hasRoutes && childStopIds.length > 0) {
+    routesSectionHeader = `\n  <h2>Routes at ${stopName}</h2>\n`;
+  }
   
   // Use WASM to group stop times by hour
   const arrivalTimes = stopTimesForThisStop.map(st => st.arrival_time);
@@ -129,15 +128,17 @@ async function processStopWithWASM(
     hourHeadsigns.push(headsignsForHour);
   }
   
-  // Build complete schedule HTML in WASM - all string manipulation happens there
-  const scheduleContent = wasmModule.buildCompleteSchedule(
+  // Build complete schedule HTML using WASM - all string concatenation in WASM
+  const scheduleHtml = wasmModule.buildCompleteSchedule(
     hours,
     hourArrivalTimes,
     hourRouteNames,
     hourHeadsigns
   );
   
-  html = html.replace('</body>', scheduleContent + '</body>');
+  // Assemble complete page HTML using WASM
+  const pageContent = stopHeaderHtml + terminalsHtml + routesSectionHeader + scheduleHtml;
+  const html = wasmModule.BaseLayout(stopName, pageContent);
   
   // Generate CSV with service days using WASM
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
