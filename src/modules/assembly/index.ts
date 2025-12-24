@@ -54,9 +54,8 @@ export { BaseLayout } from '../../layouts/BaseLayout';
 // Export pages
 export {
   generateStopPage,
-  getScheduleHourStart,
-  getScheduleEntry,
-  getScheduleHourEnd,
+  buildScheduleForHour,
+  buildCompleteSchedule,
   wrapInLayout
 } from '../../pages/StopPage';
 

@@ -32,28 +32,47 @@ export function generateStopPage(
 }
 
 /**
- * Adds a schedule hour block to content
- * Returns the hour header and list start separately to avoid intermediate string concatenation
+ * Builds schedule HTML for a single hour
+ * All string manipulation happens in AssemblyScript
  */
-export function getScheduleHourStart(hour: i32): string {
-  const header = HourHeader(hour);
-  const listStart = ScheduleListStart();
-  return header + listStart;
+export function buildScheduleForHour(
+  hour: i32,
+  arrivalTimes: string[],
+  routeNames: string[],
+  headsigns: string[]
+): string {
+  let html = HourHeader(hour) + ScheduleListStart();
+  
+  for (let i = 0; i < arrivalTimes.length; i++) {
+    html += ScheduleEntry(arrivalTimes[i], routeNames[i], headsigns[i]);
+  }
+  
+  html += ScheduleListEnd();
+  return html;
 }
 
 /**
- * Gets a schedule entry HTML
- * Returns the entry HTML without concatenation to avoid reference counting issues
+ * Builds complete schedule HTML for all hours
+ * All string manipulation happens in AssemblyScript
  */
-export function getScheduleEntry(time: string, routeName: string, headsign: string): string {
-  return ScheduleEntry(time, routeName, headsign);
-}
-
-/**
- * Gets the schedule hour closing tag
- */
-export function getScheduleHourEnd(): string {
-  return ScheduleListEnd();
+export function buildCompleteSchedule(
+  hours: i32[],
+  hourArrivalTimes: string[][],
+  hourRouteNames: string[][],
+  hourHeadsigns: string[][]
+): string {
+  let html = '';
+  
+  for (let i = 0; i < hours.length; i++) {
+    html += buildScheduleForHour(
+      hours[i],
+      hourArrivalTimes[i],
+      hourRouteNames[i],
+      hourHeadsigns[i]
+    );
+  }
+  
+  return html;
 }
 
 /**

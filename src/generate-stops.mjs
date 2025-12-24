@@ -84,8 +84,10 @@ async function processStopWithWASM(
   // Get unique hours using WASM
   const hours = wasmModule.groupStopTimesByHour(arrivalTimes);
   
-  // Build schedule content in JavaScript to avoid WASM memory management issues
-  const scheduleContentParts = [];
+  // Prepare data for each hour - organize in JavaScript, build strings in WASM
+  const hourArrivalTimes = [];
+  const hourRouteNames = [];
+  const hourHeadsigns = [];
   
   for (let i = 0; i < hours.length; i++) {
     const hour = hours[i];
@@ -94,8 +96,9 @@ async function processStopWithWASM(
     const indicesForHour = wasmModule.filterStopTimesByHour(arrivalTimes, hour);
     const sortedIndices = wasmModule.sortByArrivalTime(indicesForHour, arrivalTimes);
     
-    // Get hour header and list start from WASM
-    scheduleContentParts.push(wasmModule.getScheduleHourStart(hour));
+    const timesForHour = [];
+    const routesForHour = [];
+    const headsignsForHour = [];
     
     for (let j = 0; j < sortedIndices.length; j++) {
       const idx = sortedIndices[j];
@@ -110,16 +113,24 @@ async function processStopWithWASM(
       const time = wasmModule.formatTimeReadable(stopTime.arrival_time);
       const headsign = trip?.trip_headsign || '';
       
-      // Get entry HTML from WASM and add to parts array
-      scheduleContentParts.push(wasmModule.getScheduleEntry(time, routeName, headsign));
+      timesForHour.push(time);
+      routesForHour.push(routeName);
+      headsignsForHour.push(headsign);
     }
     
-    // Close the hour block
-    scheduleContentParts.push(wasmModule.getScheduleHourEnd());
+    hourArrivalTimes.push(timesForHour);
+    hourRouteNames.push(routesForHour);
+    hourHeadsigns.push(headsignsForHour);
   }
   
-  // Join all parts in JavaScript to avoid repeated WASM string concatenation
-  const scheduleContent = scheduleContentParts.join('');
+  // Build complete schedule HTML in WASM - all string manipulation happens there
+  const scheduleContent = wasmModule.buildCompleteSchedule(
+    hours,
+    hourArrivalTimes,
+    hourRouteNames,
+    hourHeadsigns
+  );
+  
   html = html.replace('</body>', scheduleContent + '</body>');
   
   // Generate CSV with service days using WASM
