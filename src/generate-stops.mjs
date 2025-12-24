@@ -94,7 +94,13 @@ async function processStopWithWASM(
     
     // Use WASM to filter stop times for this hour
     const indicesForHour = wasmModule.filterStopTimesByHour(arrivalTimes, hour);
-    const sortedIndices = wasmModule.sortByArrivalTime(indicesForHour, arrivalTimes);
+    
+    // Sort in JavaScript to avoid WASM memory management issues
+    const sortedIndices = indicesForHour.slice().sort((a, b) => {
+      const time1 = arrivalTimes[a];
+      const time2 = arrivalTimes[b];
+      return time1.localeCompare(time2);
+    });
     
     const timesForHour = [];
     const routesForHour = [];
