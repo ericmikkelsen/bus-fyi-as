@@ -1,10 +1,9 @@
 // ScheduleList Component
-// Returns templates - NO string concatenation with parameters
-// JavaScript will handle variable substitution
+// Generates schedule entries for a specific hour
+// Using as-bind for proper WASM memory management
 
 /**
  * Formats time from GTFS format (HH:MM:SS) to readable format
- * This is pure logic with no memory management issues
  */
 export function formatTime(gtfsTime: string): string {
   if (gtfsTime === '') return '';
@@ -27,7 +26,7 @@ export function formatTime(gtfsTime: string): string {
 }
 
 /**
- * Generates hour header template
+ * Generates hour header
  */
 export function HourHeader(hour: i32): string {
   let displayHour = hour;
@@ -38,23 +37,28 @@ export function HourHeader(hour: i32): string {
   const period = displayHour >= 12 ? 'PM' : 'AM';
   const hourDisplay = displayHour === 0 ? 12 : (displayHour > 12 ? displayHour - 12 : displayHour);
   
-  return '<h3>' + hourDisplay.toString() + ':00 ' + period + '</h3>';
+  return '<h3>' + hourDisplay.toString() + ':00 ' + period + '</h3>\n';
 }
 
 /**
- * Returns the schedule entry template
+ * Generates a single schedule entry
  */
-export function ScheduleEntryTemplate(): string {
-  return '    <li>{{TIME}} - {{ROUTE}}{{HEADSIGN}}</li>';
+export function ScheduleEntry(time: string, routeName: string, headsign: string): string {
+  let html = '    <li>' + time + ' - ' + routeName;
+  if (headsign !== '') {
+    html += ' to ' + headsign;
+  }
+  html += '</li>\n';
+  return html;
 }
 
 /**
  * Generates ordered list wrapper
  */
 export function ScheduleListStart(): string {
-  return '  <ol>';
+  return '  <ol>\n';
 }
 
 export function ScheduleListEnd(): string {
-  return '  </ol>';
+  return '  </ol>\n';
 }

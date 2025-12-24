@@ -38,12 +38,12 @@ export {
 } from './data-processing';
 
 // Export components
-export { StopHeaderWithParent, StopHeaderNoParent } from '../../components/StopHeader';
-export { TerminalsListItem, TerminalsListStart, TerminalsListEnd } from '../../components/TerminalsList';
+export { StopHeader } from '../../components/StopHeader';
+export { TerminalsList } from '../../components/TerminalsList';
 export { 
   formatTime,
   HourHeader, 
-  ScheduleEntryTemplate,
+  ScheduleEntry,
   ScheduleListStart,
   ScheduleListEnd
 } from '../../components/ScheduleList';

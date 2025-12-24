@@ -59,35 +59,15 @@ async function processStopWithWASM(
     mkdirSync(stopDir, { recursive: true });
   }
   
-  // Build header HTML - get template from WASM, substitute variables in JS
-  let stopHeaderHtml;
-  if (parentId && parentName) {
-    stopHeaderHtml = wasmModule.StopHeaderWithParent()
-      .replace('{{STOP_NAME}}', stopName)
-      .replace('{{PARENT_ID}}', parentId)
-      .replace('{{PARENT_NAME}}', parentName)
-      .replace('{{STOP_ID}}', stopId);
-  } else {
-    stopHeaderHtml = wasmModule.StopHeaderNoParent()
-      .replace('{{STOP_NAME}}', stopName)
-      .replace('{{STOP_ID}}', stopId);
-  }
+  // Build header HTML using WASM with as-bind handling memory
+  const parentStopId = parentId || '';
+  const parentStopName = parentName || '';
+  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName);
   
-  // Build terminals list HTML - build in JS using templates from WASM
-  let terminalsHtml = '';
-  if (childStopData.length > 0) {
-    const items = [];
-    items.push(wasmModule.TerminalsListStart());
-    for (const child of childStopData) {
-      const item = wasmModule.TerminalsListItem()
-        .replace('{{PARENT_ID}}', stopId)
-        .replace('{{CHILD_ID}}', child.id)
-        .replace('{{CHILD_NAME}}', child.name);
-      items.push(item);
-    }
-    items.push(wasmModule.TerminalsListEnd());
-    terminalsHtml = items.join('');
-  }
+  // Build terminals list HTML using WASM with as-bind handling memory
+  const childStopIds = childStopData.map(c => c.id);
+  const childStopNames = childStopData.map(c => c.name);
+  const terminalsHtml = wasmModule.TerminalsList(stopId, childStopIds, childStopNames);
   
   // Build routes section header if parent with routes
   const hasRoutes = stopTimesForThisStop.length > 0;
@@ -250,11 +230,20 @@ async function generateStopPages() {
   console.log('🚀 Maximum Performance Generator (WASM-powered)');
   console.log(`💪 Using ${NUM_WORKERS} CPU cores + AssemblyScript`);
   
-  // Load WASM module
-  console.log('⚡ Loading AssemblyScript module...');
+  // Load WASM module using as-bind for proper memory management
+  console.log('⚡ Loading AssemblyScript module with as-bind...');
   const wasmLoadStart = Date.now();
-  const wasmModule = await import(join(rootDir, 'dist', 'release.js'));
-  console.log(`  ✓ WASM loaded in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
+  
+  // Import as-bind
+  const AsBind = await import('as-bind');
+  
+  // Load WASM with as-bind
+  const wasmPath = join(rootDir, 'dist', 'release.wasm');
+  const wasmBinary = readFileSync(wasmPath);
+  const asBindInstance = await AsBind.instantiate(wasmBinary);
+  const wasmModule = asBindInstance.exports;
+  
+  console.log(`  ✓ WASM loaded with as-bind in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
   
   const dataDir = join(rootDir, 'data');
   const distDir = join(rootDir, 'dist');

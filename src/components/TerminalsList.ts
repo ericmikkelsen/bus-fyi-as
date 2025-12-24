@@ -1,21 +1,23 @@
 // TerminalsList Component
-// Returns a template - NO string concatenation with parameters
-// JavaScript will handle variable substitution and building the list
+// Generates a list of child terminals for a parent stop
+// Using as-bind for proper WASM memory management
 
 /**
- * Returns the terminal list item template
+ * Generates a list of terminals
+ * Parent stop ID is needed to construct nested paths for child stops
  */
-export function TerminalsListItem(): string {
-  return '<li><a href="/stops/{{PARENT_ID}}/{{CHILD_ID}}/index.html">{{CHILD_NAME}}</a></li>';
-}
-
-/**
- * Returns the terminals section wrapper
- */
-export function TerminalsListStart(): string {
-  return '<h2>Terminals</h2>  <ul>';
-}
-
-export function TerminalsListEnd(): string {
-  return '  </ul>';
+export function TerminalsList(parentStopId: string, childStopIds: string[], childStopNames: string[]): string {
+  if (childStopIds.length === 0) {
+    return '';
+  }
+  
+  let html = '<h2>Terminals</h2>\n  <ul>\n';
+  
+  for (let i = 0; i < childStopIds.length; i++) {
+    html += '    <li><a href="/stops/' + parentStopId + '/' + childStopIds[i] + '/index.html">' + childStopNames[i] + '</a></li>\n';
+  }
+  
+  html += '  </ul>\n';
+  
+  return html;
 }
