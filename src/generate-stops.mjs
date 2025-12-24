@@ -59,15 +59,35 @@ async function processStopWithWASM(
     mkdirSync(stopDir, { recursive: true });
   }
   
-  // Build header HTML using WASM (returns primitive string)
-  const parentStopId = parentId || '';
-  const parentStopName = parentName || '';
-  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName);
+  // Build header HTML - get template from WASM, substitute variables in JS
+  let stopHeaderHtml;
+  if (parentId && parentName) {
+    stopHeaderHtml = wasmModule.StopHeaderWithParent()
+      .replace('{{STOP_NAME}}', stopName)
+      .replace('{{PARENT_ID}}', parentId)
+      .replace('{{PARENT_NAME}}', parentName)
+      .replace('{{STOP_ID}}', stopId);
+  } else {
+    stopHeaderHtml = wasmModule.StopHeaderNoParent()
+      .replace('{{STOP_NAME}}', stopName)
+      .replace('{{STOP_ID}}', stopId);
+  }
   
-  // Build terminals list HTML using WASM (returns primitive string)
-  const childStopIds = childStopData.map(c => c.id);
-  const childStopNames = childStopData.map(c => c.name);
-  const terminalsHtml = wasmModule.TerminalsList(stopId, childStopIds, childStopNames);
+  // Build terminals list HTML - build in JS using templates from WASM
+  let terminalsHtml = '';
+  if (childStopData.length > 0) {
+    const items = [];
+    items.push(wasmModule.TerminalsListStart());
+    for (const child of childStopData) {
+      const item = wasmModule.TerminalsListItem()
+        .replace('{{PARENT_ID}}', stopId)
+        .replace('{{CHILD_ID}}', child.id)
+        .replace('{{CHILD_NAME}}', child.name);
+      items.push(item);
+    }
+    items.push(wasmModule.TerminalsListEnd());
+    terminalsHtml = items.join('');
+  }
   
   // Build routes section header if parent with routes
   const hasRoutes = stopTimesForThisStop.length > 0;

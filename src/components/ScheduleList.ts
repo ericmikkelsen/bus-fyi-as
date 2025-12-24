@@ -1,9 +1,10 @@
 // ScheduleList Component
-// Generates schedule entries for a specific hour
+// Returns templates - NO string concatenation with parameters
+// JavaScript will handle variable substitution
 
 /**
  * Formats time from GTFS format (HH:MM:SS) to readable format
- * Using simple string concatenation to avoid WASM reference counting issues
+ * This is pure logic with no memory management issues
  */
 export function formatTime(gtfsTime: string): string {
   if (gtfsTime === '') return '';
@@ -26,8 +27,7 @@ export function formatTime(gtfsTime: string): string {
 }
 
 /**
- * Generates hour header
- * Using simple string concatenation to avoid WASM reference counting issues
+ * Generates hour header template
  */
 export function HourHeader(hour: i32): string {
   let displayHour = hour;
@@ -42,16 +42,10 @@ export function HourHeader(hour: i32): string {
 }
 
 /**
- * Generates a single schedule entry
- * Using simple string concatenation to avoid WASM reference counting issues
+ * Returns the schedule entry template
  */
-export function ScheduleEntry(time: string, routeName: string, headsign: string): string {
-  let html = '    <li>' + time + ' - ' + routeName;
-  if (headsign !== '') {
-    html += ' to ' + headsign;
-  }
-  html += '</li>';
-  return html;
+export function ScheduleEntryTemplate(): string {
+  return '    <li>{{TIME}} - {{ROUTE}}{{HEADSIGN}}</li>';
 }
 
 /**

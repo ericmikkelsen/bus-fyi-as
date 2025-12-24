@@ -2,11 +2,11 @@
 // Generates schedule components using AssemblyScript
 // Note: This is designed to work in both Node.js and service workers
 
-import { HourHeader, ScheduleListStart, ScheduleListEnd, ScheduleEntry } from '../components/ScheduleList';
+import { HourHeader, ScheduleListStart, ScheduleListEnd, ScheduleEntryTemplate } from '../components/ScheduleList';
 
 /**
  * Builds schedule HTML for a single hour
- * All string manipulation happens in AssemblyScript
+ * Returns template strings - NO concatenation with parameters from outside
  */
 export function buildScheduleForHour(
   hour: i32,
@@ -16,8 +16,16 @@ export function buildScheduleForHour(
 ): string {
   let html = HourHeader(hour) + ScheduleListStart();
   
+  // Build each entry using template
+  const template = ScheduleEntryTemplate();
   for (let i = 0; i < arrivalTimes.length; i++) {
-    html += ScheduleEntry(arrivalTimes[i], routeNames[i], headsigns[i]);
+    // Use template placeholders
+    let entry = template;
+    entry = entry.replace('{{TIME}}', arrivalTimes[i]);
+    entry = entry.replace('{{ROUTE}}', routeNames[i]);
+    const headsignPart = headsigns[i] !== '' ? ' to ' + headsigns[i] : '';
+    entry = entry.replace('{{HEADSIGN}}', headsignPart);
+    html += entry;
   }
   
   html += ScheduleListEnd();
