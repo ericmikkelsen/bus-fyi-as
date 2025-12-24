@@ -84,7 +84,9 @@ async function processStopWithWASM(
   // Get unique hours using WASM
   const hours = wasmModule.groupStopTimesByHour(arrivalTimes);
   
-  let scheduleContent = '';
+  // Build schedule content in JavaScript to avoid WASM memory management issues
+  const scheduleContentParts = [];
+  
   for (let i = 0; i < hours.length; i++) {
     const hour = hours[i];
     
@@ -92,7 +94,8 @@ async function processStopWithWASM(
     const indicesForHour = wasmModule.filterStopTimesByHour(arrivalTimes, hour);
     const sortedIndices = wasmModule.sortByArrivalTime(indicesForHour, arrivalTimes);
     
-    scheduleContent = wasmModule.addScheduleHour(scheduleContent, hour);
+    // Get hour header and list start from WASM
+    scheduleContentParts.push(wasmModule.getScheduleHourStart(hour));
     
     for (let j = 0; j < sortedIndices.length; j++) {
       const idx = sortedIndices[j];
@@ -107,12 +110,16 @@ async function processStopWithWASM(
       const time = wasmModule.formatTimeReadable(stopTime.arrival_time);
       const headsign = trip?.trip_headsign || '';
       
-      scheduleContent = wasmModule.addScheduleEntry(scheduleContent, time, routeName, headsign);
+      // Get entry HTML from WASM and add to parts array
+      scheduleContentParts.push(wasmModule.getScheduleEntry(time, routeName, headsign));
     }
     
-    scheduleContent = wasmModule.closeScheduleHour(scheduleContent);
+    // Close the hour block
+    scheduleContentParts.push(wasmModule.getScheduleHourEnd());
   }
   
+  // Join all parts in JavaScript to avoid repeated WASM string concatenation
+  const scheduleContent = scheduleContentParts.join('');
   html = html.replace('</body>', scheduleContent + '</body>');
   
   // Generate CSV with service days using WASM

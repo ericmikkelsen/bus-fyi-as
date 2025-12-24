@@ -33,23 +33,27 @@ export function generateStopPage(
 
 /**
  * Adds a schedule hour block to content
+ * Returns the hour header and list start separately to avoid intermediate string concatenation
  */
-export function addScheduleHour(content: string, hour: i32): string {
-  return content + HourHeader(hour) + ScheduleListStart();
+export function getScheduleHourStart(hour: i32): string {
+  const header = HourHeader(hour);
+  const listStart = ScheduleListStart();
+  return header + listStart;
 }
 
 /**
- * Adds a schedule entry to content
+ * Gets a schedule entry HTML
+ * Returns the entry HTML without concatenation to avoid reference counting issues
  */
-export function addScheduleEntry(content: string, time: string, routeName: string, headsign: string): string {
-  return content + ScheduleEntry(time, routeName, headsign);
+export function getScheduleEntry(time: string, routeName: string, headsign: string): string {
+  return ScheduleEntry(time, routeName, headsign);
 }
 
 /**
- * Closes a schedule hour block
+ * Gets the schedule hour closing tag
  */
-export function closeScheduleHour(content: string): string {
-  return content + ScheduleListEnd();
+export function getScheduleHourEnd(): string {
+  return ScheduleListEnd();
 }
 
 /**
