@@ -45,6 +45,11 @@ This will:
 2. Save it to `data/cta/`
 3. Automatically extract the zip file
 
+**Note:** If the automatic download fails due to network restrictions, you can manually download the CTA GTFS data:
+1. Download from: https://www.transitchicago.com/downloads/sch_data/google_transit.zip
+2. Extract the zip file
+3. Place the extracted files in `data/cta/` directory
+
 **Using custom GTFS URLs:**
 
 ```bash
