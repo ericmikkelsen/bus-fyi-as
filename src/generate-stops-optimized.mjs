@@ -100,7 +100,17 @@ async function processBatch(stops, wasmModule, gtfsData, stopTimesMap, childrenM
     }
     
     // Prepare stop directory
-    const stopDir = join(distDir, 'stops', stop.stop_id);
+    // Child stops: /stops/[parent_id]/[stop_id]/index.html
+    // Parent/regular stops: /stops/[stop_id]/index.html
+    let stopDir;
+    if (parentStop) {
+      // This is a child stop - create nested path
+      stopDir = join(distDir, 'stops', parentStop.stop_id, stop.stop_id);
+    } else {
+      // This is a parent or regular stop
+      stopDir = join(distDir, 'stops', stop.stop_id);
+    }
+    
     if (!existsSync(stopDir)) {
       mkdirSync(stopDir, { recursive: true });
     }

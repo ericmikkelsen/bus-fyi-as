@@ -38,11 +38,22 @@ function loadCSVForWASM(filePath) {
  * Process a single stop using WASM for all logic
  */
 async function processStopWithWASM(
-  stopId, stopName, parentId, childStopData,
+  stopId, stopName, parentId, parentName, childStopData,
   stopTimesForThisStop, routesData, tripsData, calendarData,
   wasmModule, distDir
 ) {
-  const stopDir = join(distDir, 'stops', stopId);
+  // Prepare stop directory
+  // Child stops: /stops/[parent_id]/[stop_id]/index.html
+  // Parent/regular stops: /stops/[stop_id]/index.html
+  let stopDir;
+  if (parentId) {
+    // This is a child stop - create nested path
+    stopDir = join(distDir, 'stops', parentId, stopId);
+  } else {
+    // This is a parent or regular stop
+    stopDir = join(distDir, 'stops', stopId);
+  }
+  
   if (!existsSync(stopDir)) {
     mkdirSync(stopDir, { recursive: true });
   }
@@ -51,7 +62,7 @@ async function processStopWithWASM(
   const childStopIds = childStopData.map(c => c.id);
   const childStopNames = childStopData.map(c => c.name);
   const parentStopId = parentId || '';
-  const parentStopName = parentId ? (stopName + ' Station') : '';
+  const parentStopName = parentName || '';
   const hasRoutes = stopTimesForThisStop.length > 0;
   
   // Generate HTML using WASM
@@ -228,24 +239,26 @@ async function generateStopPages() {
       stopTimesMap[stopTime.stop_id].push(stopTime);
     }
     
-    // Use WASM to build parent-child relationships
-    const stopIds = stops.map(s => s.stop_id);
-    const parentStations = stops.map(s => s.parent_station || '');
-    const childrenMapWASM = wasmModule.buildParentChildMap(stopIds, parentStations);
-    
-    // Convert WASM Map to JS object
+    // Build parent-child relationships in JavaScript
+    // (WASM Map can't be directly used in JS)
     const childrenMap = {};
     const stopMap = {};
     const parentMap = {};
     
     for (const stop of stops) {
       stopMap[stop.stop_id] = stop;
-      const children = childrenMapWASM.get(stop.stop_id);
-      if (children && children.length > 0) {
-        childrenMap[stop.stop_id] = children.map(childId => stopMap[childId] || { stop_id: childId, stop_name: childId });
+      
+      // Build children map
+      if (stop.parent_station && stop.parent_station.trim() !== '') {
+        const parentId = stop.parent_station;
+        if (!childrenMap[parentId]) {
+          childrenMap[parentId] = [];
+        }
+        childrenMap[parentId].push(stop);
       }
     }
     
+    // Build parent map
     for (const stop of stops) {
       if (stop.parent_station && stop.parent_station.trim() !== '') {
         parentMap[stop.stop_id] = stopMap[stop.parent_station];
@@ -271,7 +284,9 @@ async function generateStopPages() {
       
       promises.push(
         processStopWithWASM(
-          stop.stop_id, stop.stop_name, parentStop ? parentStop.stop_id : null,
+          stop.stop_id, stop.stop_name, 
+          parentStop ? parentStop.stop_id : null,
+          parentStop ? parentStop.stop_name : null,
           childStops, stopTimesForStop, routes, trips, calendar,
           wasmModule, distDir
         )

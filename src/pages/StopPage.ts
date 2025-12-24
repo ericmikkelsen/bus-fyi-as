@@ -20,7 +20,8 @@ export function generateStopPage(
   hasRoutes: bool
 ): string {
   let content = StopHeader(stopName, stopId, parentStopId, parentStopName);
-  content += TerminalsList(childStopIds, childStopNames);
+  // Pass stopId as parentStopId for TerminalsList to create nested paths
+  content += TerminalsList(stopId, childStopIds, childStopNames);
   
   // Add routes section header if this is a parent with routes
   if (hasRoutes && childStopIds.length > 0) {
