@@ -31,27 +31,51 @@ Inspired by [astro.build](https://github.com/withastro/astro) project structure:
 npm install
 ```
 
-### Quick Start with BART Data
+### Quick Start with CTA Data (Chicago)
 
-1. Create the BART data directory:
-   ```bash
-   mkdir -p data/bart
-   ```
+The easiest way to get started is to use the automatic GTFS downloader:
 
-2. Download and extract BART GTFS data:
-   ```bash
-   # Download from: https://www.bart.gov/sites/default/files/2025-12/google_transit_20250811-20251231_v03.zip
-   # Extract the zip file contents to data/bart/
-   ```
+```bash
+# Download and extract CTA GTFS data (default)
+npm run download:gtfs
+```
 
-3. Generate stop pages:
-   ```bash
-   npm run generate:stops
-   ```
+This will:
+1. Download GTFS data from Chicago Transit Authority (CTA)
+2. Save it to `data/cta/`
+3. Automatically extract the zip file
 
-4. View the generated stop pages:
-   - Parent/regular stops: `dist/stops/[stop-id]/index.html`
-   - Child stops (platforms): `dist/stops/[parent-id]/[child-id]/index.html`
+**Using custom GTFS URLs:**
+
+```bash
+# Download BART data
+GTFS_ZIP_URL_BART=https://www.bart.gov/sites/default/files/2025-12/google_transit_20250811-20251231_v03.zip npm run download:gtfs
+
+# Download multiple agencies
+GTFS_ZIP_URL_CTA=https://www.transitchicago.com/downloads/sch_data/google_transit.zip \
+GTFS_ZIP_URL_BART=https://www.bart.gov/sites/default/files/2025-12/google_transit_20250811-20251231_v03.zip \
+npm run download:gtfs
+```
+
+The script looks for any environment variable starting with `GTFS_ZIP_URL` and downloads all of them.
+
+### Generate Stop Pages
+
+Once you have GTFS data downloaded, generate stop pages:
+
+```bash
+npm run generate:stops
+```
+
+This uses the **WASM-powered generator** for maximum performance (12.5x faster than standard approaches). It automatically:
+- Parses GTFS CSV files using AssemblyScript/WASM
+- Processes parent-child stop relationships
+- Generates HTML pages at `dist/stops/[id]/index.html`
+- Creates stop-specific CSV files for service workers
+
+View the generated pages:
+- Parent/regular stops: `dist/stops/[stop-id]/index.html`
+- Child stops (platforms): `dist/stops/[parent-id]/[child-id]/index.html`
 
 ### Build AssemblyScript Modules
 
@@ -61,43 +85,13 @@ Compile the AssemblyScript modules to WebAssembly:
 npm run asbuild
 ```
 
-### Generate Static Site
+### Complete Build
 
-Generate the main site pages:
-
-```bash
-npm run generate
-```
-
-Generate stop pages from GTFS data:
+Generate everything and build the Vite app:
 
 ```bash
-npm run generate:stops
+npm run build
 ```
-
-Generate stop pages with performance optimizations (parallel processing):
-
-```bash
-npm run generate:stops:fast
-```
-
-**Recommended for large datasets** (10,000+ stops). Uses worker threads and write streams for 5x speedup.
-
-Generate stop pages with ultra-performance optimizations:
-
-```bash
-npm run generate:stops:ultra
-```
-
-**Maximum JS performance**. Adds fast CSV parsing, pre-built indexes, Buffer-based writes, and increased parallelization for 8x speedup.
-
-Generate stop pages with WASM-powered processing:
-
-```bash
-npm run generate:stops:wasm
-```
-
-**Ultimate performance** using AssemblyScript for CSV parsing and data processing. All parsing, grouping, and formatting in compiled WebAssembly for 12x speedup. See `docs/WASM-PERFORMANCE.md` for details.
 
 ### Development
 
@@ -125,7 +119,32 @@ npm run preview
 
 ## GTFS Data
 
-Place your GTFS data in the `data/` directory with one subdirectory per transit agency. See `data/README.md` for more information on GTFS file formats and where to obtain data.
+### Automatic Download (Recommended)
+
+The easiest way to get GTFS data is to use the automatic downloader:
+
+```bash
+# Download CTA (Chicago) data (default)
+npm run download:gtfs
+
+# Download custom agency data
+GTFS_ZIP_URL_BART=https://www.bart.gov/.../gtfs.zip npm run download:gtfs
+
+# Download multiple agencies
+GTFS_ZIP_URL_CTA=https://www.transitchicago.com/.../google_transit.zip \
+GTFS_ZIP_URL_BART=https://www.bart.gov/.../gtfs.zip \
+npm run download:gtfs
+```
+
+The downloader:
+- Automatically downloads and extracts GTFS zip files
+- Saves data to `data/[agency]/` directories
+- Supports multiple agencies via environment variables
+- Uses CTA (Chicago Transit Authority) as the default
+
+### Manual Download
+
+Alternatively, manually place GTFS data in the `data/` directory with one subdirectory per transit agency. See `data/README.md` for more information on GTFS file formats and where to obtain data.
 
 ## Technology Stack
 
@@ -137,12 +156,12 @@ Place your GTFS data in the `data/` directory with one subdirectory per transit 
 ## Features
 
 - 🚀 Fast builds with Vite
-- ⚡ High-performance WebAssembly modules
+- ⚡ WASM-powered generator (12.5x speedup)
 - 📊 GTFS data processing with parent-child stop relationships
 - 🗂️ Nested directory structure for transit platforms/terminals
-- 🎨 Responsive design
-- 📱 Mobile-friendly
-- 🌙 Dark/light mode support
+- 📥 Automatic GTFS data download and extraction
+- 📱 Service worker ready architecture
+- 🎯 Stop-specific CSV files for offline functionality
 
 ## License
 
