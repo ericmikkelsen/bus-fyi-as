@@ -37,7 +37,22 @@ export function getHourFromTime(timeStr: string): i32 {
   if (colonIndex < 0) return 0;
   
   const hourStr = timeStr.substring(0, colonIndex);
-  return I32.parseInt(hourStr);
+  if (hourStr.length == 0) return 0;
+  
+  // Manual parsing to avoid unreachable errors
+  let hour: i32 = 0;
+  for (let i = 0; i < hourStr.length; i++) {
+    const charCode = hourStr.charCodeAt(i);
+    // Check if it's a digit (0-9)
+    if (charCode >= 48 && charCode <= 57) {
+      hour = hour * 10 + (charCode - 48);
+    } else {
+      // Invalid character, return 0
+      return 0;
+    }
+  }
+  
+  return hour;
 }
 
 /**
@@ -92,7 +107,23 @@ export function formatTimeReadable(timeStr: string): string {
   const parts = timeStr.split(':');
   if (parts.length < 2) return timeStr;
   
-  let hours = I32.parseInt(parts[0]);
+  // Validate hour string before parsing
+  const hourStr = parts[0];
+  if (hourStr.length == 0) return timeStr;
+  
+  // Manual parsing to avoid unreachable errors
+  let hours: i32 = 0;
+  for (let i = 0; i < hourStr.length; i++) {
+    const charCode = hourStr.charCodeAt(i);
+    // Check if it's a digit (0-9)
+    if (charCode >= 48 && charCode <= 57) {
+      hours = hours * 10 + (charCode - 48);
+    } else {
+      // Invalid character, return original string
+      return timeStr;
+    }
+  }
+  
   const minutes = parts[1];
   
   // Handle times >= 24:00:00 (next day service)
