@@ -136,9 +136,18 @@ async function processStopWithWASM(
     hourHeadsigns
   );
   
-  // Assemble complete page HTML using WASM
+  // Assemble complete page HTML in JavaScript (avoid WASM template literal issues)
   const pageContent = stopHeaderHtml + terminalsHtml + routesSectionHeader + scheduleHtml;
-  const html = wasmModule.BaseLayout(stopName, pageContent);
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${stopName}</title>
+</head>
+<body>
+${pageContent}</body>
+</html>`;
   
   // Generate CSV with service days using WASM
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
