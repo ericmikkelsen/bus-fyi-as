@@ -38,7 +38,7 @@ export function HourHeader(hour: i32): string {
   const period = displayHour >= 12 ? 'PM' : 'AM';
   const hourDisplay = displayHour === 0 ? 12 : (displayHour > 12 ? displayHour - 12 : displayHour);
   
-  return '\n  <h3>' + hourDisplay.toString() + ':00 ' + period + '</h3>\n';
+  return '<h3>' + hourDisplay.toString() + ':00 ' + period + '</h3>';
 }
 
 /**
@@ -50,7 +50,7 @@ export function ScheduleEntry(time: string, routeName: string, headsign: string)
   if (headsign !== '') {
     html += ' to ' + headsign;
   }
-  html += '</li>\n';
+  html += '</li>';
   return html;
 }
 
@@ -58,9 +58,9 @@ export function ScheduleEntry(time: string, routeName: string, headsign: string)
  * Generates ordered list wrapper
  */
 export function ScheduleListStart(): string {
-  return '  <ol>\n';
+  return '  <ol>';
 }
 
 export function ScheduleListEnd(): string {
-  return '  </ol>\n';
+  return '  </ol>';
 }
