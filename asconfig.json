@@ -12,8 +12,18 @@
       "sourceMap": true,
       "optimizeLevel": 3,
       "shrinkLevel": 0,
-      "converge": false,
-      "noAssert": false
+      "converge": true,
+      "noAssert": true,
+      "runtime": "stub"
+    },
+    "service-worker": {
+      "outFile": "dist/sw.wasm",
+      "sourceMap": false,
+      "optimizeLevel": 3,
+      "shrinkLevel": 2,
+      "converge": true,
+      "noAssert": true,
+      "runtime": "stub"
     }
   },
   "options": {

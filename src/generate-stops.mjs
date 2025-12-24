@@ -169,6 +169,29 @@ function parseCSVWithWASM(content, wasmModule) {
 }
 
 /**
+ * Format elapsed time for logging
+ */
+function formatTime(ms) {
+  const seconds = ms / 1000;
+  if (seconds < 60) return `${seconds.toFixed(1)}s`;
+  const minutes = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${minutes}m ${secs}s`;
+}
+
+/**
+ * Log progress for long-running loops
+ */
+function logProgress(current, total, label, startTime) {
+  const percent = ((current / total) * 100).toFixed(1);
+  const elapsed = Date.now() - startTime;
+  const rate = current / (elapsed / 1000);
+  const eta = ((total - current) / rate) * 1000;
+  
+  console.log(`    ${label}: ${current}/${total} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
+}
+
+/**
  * Generate stop pages with maximum WASM usage
  */
 async function generateStopPages() {
@@ -177,7 +200,9 @@ async function generateStopPages() {
   
   // Load WASM module
   console.log('⚡ Loading AssemblyScript module...');
+  const wasmLoadStart = Date.now();
   const wasmModule = await import(join(rootDir, 'dist', 'release.js'));
+  console.log(`  ✓ WASM loaded in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
   
   const dataDir = join(rootDir, 'data');
   const distDir = join(rootDir, 'dist');
@@ -189,7 +214,7 @@ async function generateStopPages() {
   const agencies = getAgencies(dataDir);
   
   if (agencies.length === 0) {
-    console.log('⚠ No agencies found');
+    console.log('⚠ No agencies found. Run `npm run download:gtfs` to download CTA data.');
     return;
   }
   
@@ -205,19 +230,35 @@ async function generateStopPages() {
     const parseStart = Date.now();
     
     // Load CSV files
+    console.log('  📥 Loading CSV files...');
     const stopsContent = loadCSVForWASM(join(agencyPath, 'stops.txt'));
     const routesContent = loadCSVForWASM(join(agencyPath, 'routes.txt'));
     const tripsContent = loadCSVForWASM(join(agencyPath, 'trips.txt'));
     const stopTimesContent = loadCSVForWASM(join(agencyPath, 'stop_times.txt'));
     const calendarContent = loadCSVForWASM(join(agencyPath, 'calendar.txt'));
+    console.log('  ✓ Files loaded');
     
     // Parse using WASM
-    console.log('  🔧 Parsing with AssemblyScript...');
+    console.log('  🔧 Parsing CSV with AssemblyScript...');
+    const csvParseStart = Date.now();
     const stops = parseCSVWithWASM(stopsContent, wasmModule);
+    console.log(`    ✓ stops.txt (${stops.length} rows) - ${((Date.now() - csvParseStart) / 1000).toFixed(2)}s`);
+    
+    const routesParseStart = Date.now();
     const routes = parseCSVWithWASM(routesContent, wasmModule);
+    console.log(`    ✓ routes.txt (${routes.length} rows) - ${((Date.now() - routesParseStart) / 1000).toFixed(2)}s`);
+    
+    const tripsParseStart = Date.now();
     const trips = parseCSVWithWASM(tripsContent, wasmModule);
+    console.log(`    ✓ trips.txt (${trips.length} rows) - ${((Date.now() - tripsParseStart) / 1000).toFixed(2)}s`);
+    
+    const stopTimesParseStart = Date.now();
     const stopTimes = parseCSVWithWASM(stopTimesContent, wasmModule);
+    console.log(`    ✓ stop_times.txt (${stopTimes.length} rows) - ${((Date.now() - stopTimesParseStart) / 1000).toFixed(2)}s`);
+    
+    const calendarParseStart = Date.now();
     const calendar = parseCSVWithWASM(calendarContent, wasmModule);
+    console.log(`    ✓ calendar.txt (${calendar.length} rows) - ${((Date.now() - calendarParseStart) / 1000).toFixed(2)}s`);
     
     const parseTime = ((Date.now() - parseStart) / 1000).toFixed(2);
     
@@ -226,17 +267,26 @@ async function generateStopPages() {
       continue;
     }
     
-    console.log(`  ✓ Parsed with WASM in ${parseTime}s`);
-    console.log(`  📦 ${stops.length} stops, ${stopTimes.length} stop times`);
+    console.log(`  ✅ All CSV parsed with WASM in ${parseTime}s`);
     
     // Build indexes
+    console.log('  🔗 Building data indexes...');
     const indexStart = Date.now();
     const stopTimesMap = {};
-    for (const stopTime of stopTimes) {
+    
+    let lastLog = Date.now();
+    for (let i = 0; i < stopTimes.length; i++) {
+      const stopTime = stopTimes[i];
       if (!stopTimesMap[stopTime.stop_id]) {
         stopTimesMap[stopTime.stop_id] = [];
       }
       stopTimesMap[stopTime.stop_id].push(stopTime);
+      
+      // Log progress every 60 seconds for large datasets
+      if (stopTimes.length > 100000 && Date.now() - lastLog > 60000) {
+        logProgress(i + 1, stopTimes.length, 'Indexing stop_times', indexStart);
+        lastLog = Date.now();
+      }
     }
     
     // Build parent-child relationships in JavaScript
@@ -267,13 +317,15 @@ async function generateStopPages() {
     }
     
     const indexTime = ((Date.now() - indexStart) / 1000).toFixed(2);
-    console.log(`  ✓ Built relationships in ${indexTime}s`);
+    console.log(`  ✓ Indexes built in ${indexTime}s`);
     
     // Process stops
     console.log(`  🔧 Generating pages with WASM...`);
     const genStart = Date.now();
     
     const promises = [];
+    const stopsToProcess = [];
+    
     for (const stop of stops) {
       const stopTimesForStop = stopTimesMap[stop.stop_id] || [];
       const childStops = (childrenMap[stop.stop_id] || []).map(c => ({ id: c.stop_id, name: c.stop_name }));
@@ -282,6 +334,20 @@ async function generateStopPages() {
       if (stopTimesForStop.length === 0 && childStops.length === 0 && !parentStop) {
         continue;
       }
+      
+      stopsToProcess.push({
+        stop,
+        stopTimesForStop,
+        childStops,
+        parentStop
+      });
+    }
+    
+    console.log(`  📄 Processing ${stopsToProcess.length} stops...`);
+    
+    lastLog = Date.now();
+    for (let i = 0; i < stopsToProcess.length; i++) {
+      const { stop, stopTimesForStop, childStops, parentStop } = stopsToProcess[i];
       
       promises.push(
         processStopWithWASM(
@@ -292,6 +358,12 @@ async function generateStopPages() {
           wasmModule, distDir
         )
       );
+      
+      // Log progress every 60 seconds for large datasets
+      if (stopsToProcess.length > 1000 && Date.now() - lastLog > 60000) {
+        logProgress(i + 1, stopsToProcess.length, 'Generating pages', genStart);
+        lastLog = Date.now();
+      }
     }
     
     await Promise.all(promises);
