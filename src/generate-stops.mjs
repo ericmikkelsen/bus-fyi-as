@@ -40,7 +40,7 @@ function loadCSVForWASM(filePath) {
  */
 async function processStopWithWASM(
   stopId, stopName, parentId, parentName, childStopData,
-  stopTimesForThisStop, routesData, tripsData, calendarData,
+  stopTimesForThisStop, routeMap, tripMap, calendarMap,
   wasmModule, distDir
 ) {
   // Prepare stop directory
@@ -105,9 +105,9 @@ async function processStopWithWASM(
       const stopTime = stopTimesForThisStop[idx];
       const tripId = tripIds[idx];
       
-      // Find trip and route
-      const trip = tripsData.find(t => t.trip_id === tripId);
-      const route = trip ? routesData.find(r => r.route_id === trip.route_id) : null;
+      // Fast lookup trip and route using Maps
+      const trip = tripMap.get(tripId);
+      const route = trip ? routeMap.get(trip.route_id) : null;
       
       const routeName = route ? (route.route_short_name || route.route_long_name) : 'Unknown';
       const time = wasmModule.formatTimeReadable(stopTime.arrival_time);
@@ -138,20 +138,17 @@ async function processStopWithWASM(
   
   for (let i = 0; i < stopTimesForThisStop.length; i++) {
     const stopTime = stopTimesForThisStop[i];
-    const trip = tripsData.find(t => t.trip_id === stopTime.trip_id);
-    const route = trip ? routesData.find(r => r.route_id === trip.route_id) : null;
-    const calendar = trip ? calendarData.find(c => c.service_id === trip.service_id) : null;
+    const trip = tripMap.get(stopTime.trip_id);
+    const route = trip ? routeMap.get(trip.route_id) : null;
+    const calendar = trip ? calendarMap.get(trip.service_id) : null;
     
     if (route && calendar) {
       const routeShort = (route.route_short_name || '').replace(/,/g, ' ');
       const routeLong = (route.route_long_name || '').replace(/,/g, ' ');
       const headsign = (trip.trip_headsign || '').replace(/,/g, ' ');
       
-      // Use WASM to format service days
-      const serviceDays = wasmModule.getServiceDaysString(
-        calendar.monday, calendar.tuesday, calendar.wednesday,
-        calendar.thursday, calendar.friday, calendar.saturday, calendar.sunday
-      );
+      // Use pre-computed service days string
+      const serviceDays = calendar._serviceDays;
       
       csvLines.push(`${stopTime.arrival_time},${routeShort},${routeLong},${headsign},${serviceDays}`);
     }
@@ -334,9 +331,35 @@ async function generateStopPages() {
       }
     }
     
+    // Build fast lookup maps for trips and routes
+    const tripMap = new Map();
+    const routeMap = new Map();
+    
+    for (const trip of trips) {
+      tripMap.set(trip.trip_id, trip);
+    }
+    
+    for (const route of routes) {
+      routeMap.set(route.route_id, route);
+    }
+    
+    for (const cal of calendar) {
+      // Pre-compute service day string for each calendar entry
+      cal._serviceDays = wasmModule.getServiceDaysString(
+        cal.monday, cal.tuesday, cal.wednesday,
+        cal.thursday, cal.friday, cal.saturday, cal.sunday
+      );
+    }
+    
+    const calendarMap = new Map();
+    for (const cal of calendar) {
+      calendarMap.set(cal.service_id, cal);
+    }
+    
     const indexTime = ((Date.now() - indexStart) / 1000).toFixed(2);
     console.log(`  ✓ Relationships built in ${indexTime}s`);
     console.log(`  💾 Memory: stop_times indexed by ${Object.keys(stopTimesMap).length} stops`);
+    console.log(`  💾 Memory: ${tripMap.size} trips, ${routeMap.size} routes, ${calendarMap.size} calendars indexed`);
     
     // Process stops
     console.log(`  🔧 Generating pages with WASM...`);
@@ -380,7 +403,7 @@ async function generateStopPages() {
           stop.stop_id, stop.stop_name, 
           parentStop ? parentStop.stop_id : null,
           parentStop ? parentStop.stop_name : null,
-          childStops, stopTimesForStop, routes, trips, calendar,
+          childStops, stopTimesForStop, routeMap, tripMap, calendarMap,
           wasmModule, distDir
         )
       );
