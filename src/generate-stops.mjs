@@ -230,20 +230,14 @@ async function generateStopPages() {
   console.log('🚀 Maximum Performance Generator (WASM-powered)');
   console.log(`💪 Using ${NUM_WORKERS} CPU cores + AssemblyScript`);
   
-  // Load WASM module using as-bind for proper memory management
-  console.log('⚡ Loading AssemblyScript module with as-bind...');
+  // Load WASM module using ESM bindings (handles string memory automatically)
+  console.log('⚡ Loading AssemblyScript module with ESM bindings...');
   const wasmLoadStart = Date.now();
   
-  // Import as-bind
-  const AsBind = await import('as-bind');
+  // Use generated ESM wrapper
+  const wasmModule = await import(join(rootDir, 'dist', 'release.js'));
   
-  // Load WASM with as-bind
-  const wasmPath = join(rootDir, 'dist', 'release.wasm');
-  const wasmBinary = readFileSync(wasmPath);
-  const asBindInstance = await AsBind.instantiate(wasmBinary);
-  const wasmModule = asBindInstance.exports;
-  
-  console.log(`  ✓ WASM loaded with as-bind in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
+  console.log(`  ✓ WASM loaded with ESM bindings in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
   
   const dataDir = join(rootDir, 'data');
   const distDir = join(rootDir, 'dist');
