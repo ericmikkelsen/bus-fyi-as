@@ -2,20 +2,44 @@
 
 This directory contains GTFS (General Transit Feed Specification) data from transit agencies.
 
+## Quick Start with BART Data
+
+To get started with BART (Bay Area Rapid Transit) data:
+
+1. Download the GTFS file:
+   ```bash
+   curl -L -o data/bart/google_transit.zip "https://www.bart.gov/sites/default/files/2025-12/google_transit_20250811-20251231_v03.zip"
+   ```
+
+2. Extract the files:
+   ```bash
+   cd data/bart
+   unzip google_transit.zip
+   rm google_transit.zip
+   cd ../..
+   ```
+
+3. Generate stop pages:
+   ```bash
+   npm run generate:stops
+   ```
+
+4. View the generated pages in `dist/stops/[stop-id]/index.html`
+
 ## Structure
 
 Each agency should have its own subdirectory:
 
 ```
 data/
-├── agency-1/
+├── bart/              # BART transit data
 │   ├── agency.txt
 │   ├── routes.txt
 │   ├── stops.txt
 │   ├── trips.txt
 │   ├── stop_times.txt
 │   └── calendar.txt
-├── agency-2/
+├── sample-transit/    # Sample data for testing
 │   └── ...
 └── README.md
 ```

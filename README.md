@@ -31,6 +31,26 @@ Inspired by [astro.build](https://github.com/withastro/astro) project structure:
 npm install
 ```
 
+### Quick Start with BART Data
+
+1. Create the BART data directory:
+   ```bash
+   mkdir -p data/bart
+   ```
+
+2. Download and extract BART GTFS data:
+   ```bash
+   # Download from: https://www.bart.gov/sites/default/files/2025-12/google_transit_20250811-20251231_v03.zip
+   # Extract the zip file contents to data/bart/
+   ```
+
+3. Generate stop pages:
+   ```bash
+   npm run generate:stops
+   ```
+
+4. View the generated stop pages at `dist/stops/[stop-id]/index.html`
+
 ### Build AssemblyScript Modules
 
 Compile the AssemblyScript modules to WebAssembly:
@@ -41,10 +61,16 @@ npm run asbuild
 
 ### Generate Static Site
 
-Generate HTML files from GTFS data:
+Generate the main site pages:
 
 ```bash
 npm run generate
+```
+
+Generate stop pages from GTFS data:
+
+```bash
+npm run generate:stops
 ```
 
 ### Development
