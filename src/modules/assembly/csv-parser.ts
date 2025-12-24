@@ -6,6 +6,11 @@
  * Handles quoted values with commas
  */
 export function parseCSVLine(line: string): string[] {
+  // Handle empty lines
+  if (line.length == 0) {
+    return [];
+  }
+  
   const result: string[] = [];
   let current = '';
   let inQuotes = false;
@@ -23,6 +28,7 @@ export function parseCSVLine(line: string): string[] {
     }
   }
   
+  // Always push the last value
   result.push(current.trim());
   return result;
 }
@@ -32,6 +38,11 @@ export function parseCSVLine(line: string): string[] {
  * First row is treated as headers
  */
 export function parseCSV(content: string): string[][] {
+  // Handle empty or whitespace-only content
+  if (content.length == 0 || content.trim().length == 0) {
+    return [];
+  }
+  
   const lines: string[] = [];
   let start = 0;
   
@@ -47,15 +58,26 @@ export function parseCSV(content: string): string[][] {
   }
   
   // Add last line if not empty
-  const lastLine = content.substring(start).trim();
-  if (lastLine.length > 0) {
-    lines.push(lastLine);
+  if (start < content.length) {
+    const lastLine = content.substring(start).trim();
+    if (lastLine.length > 0) {
+      lines.push(lastLine);
+    }
+  }
+  
+  // Return empty if no lines found
+  if (lines.length == 0) {
+    return [];
   }
   
   // Parse each line
   const rows: string[][] = [];
   for (let i = 0; i < lines.length; i++) {
-    rows.push(parseCSVLine(lines[i]));
+    const parsedLine = parseCSVLine(lines[i]);
+    // Only add non-empty rows
+    if (parsedLine.length > 0) {
+      rows.push(parsedLine);
+    }
   }
   
   return rows;
@@ -78,9 +100,19 @@ export function getColumnIndex(headers: string[], columnName: string): i32 {
  */
 export function getColumn(rows: string[][], columnIndex: i32): string[] {
   const result: string[] = [];
+  
+  // Validate input
+  if (rows.length == 0 || columnIndex < 0) {
+    return result;
+  }
+  
   for (let i = 1; i < rows.length; i++) { // Skip header row
-    if (columnIndex < rows[i].length) {
+    // Check bounds before accessing
+    if (i < rows.length && rows[i].length > 0 && columnIndex < rows[i].length) {
       result.push(rows[i][columnIndex]);
+    } else {
+      // Add empty string for missing values
+      result.push('');
     }
   }
   return result;
