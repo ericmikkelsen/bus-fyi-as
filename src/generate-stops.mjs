@@ -359,7 +359,9 @@ async function generateStopPages() {
   console.log(`  ✓ WASM loaded with ESM bindings in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
   
   const dataDir = join(rootDir, 'data');
-  const distDir = join(rootDir, 'dist');
+  // Use public directory so Vite includes generated files in build
+  // Vite automatically serves public/ in dev and includes it in dist/ during build
+  const distDir = join(rootDir, 'public');
   
   if (!existsSync(distDir)) {
     mkdirSync(distDir, { recursive: true });
@@ -560,8 +562,9 @@ async function generateStopPages() {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`\n🎉 Complete: ${totalStops} stops in ${elapsed}s`);
   console.log(`⚡ Average: ${(totalStops / elapsed).toFixed(0)} pages/second`);
-  console.log(`🚀 WASM-powered for maximum performance!`);
-  console.log(`📁 Output: dist/stops/[stop-id]/index.html + schedule.csv`);
+  console.log(`🚀 Hybrid JavaScript/WASM architecture for stability + performance!`);
+  console.log(`📁 Output: public/stops/[stop-id]/index.html + schedule.csv`);
+  console.log(`   Vite will serve these files in dev mode and include them in the build`);
 }
 
 generateStopPages().catch(console.error);
