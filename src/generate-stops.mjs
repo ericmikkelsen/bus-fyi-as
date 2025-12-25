@@ -192,6 +192,7 @@ ${pageContent}</body>
 /**
  * Parse CSV in JavaScript (not WASM) to avoid string memory pressure
  * JavaScript handles strings natively without reference counting
+ * Handles quoted fields with commas properly
  */
 function parseCSVInJS(content) {
   if (!content || content.trim().length === 0) {
@@ -201,8 +202,32 @@ function parseCSVInJS(content) {
   const lines = content.trim().split('\n');
   if (lines.length === 0) return [];
   
+  // Parse a single CSV line handling quoted fields
+  function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+      
+      if (char === '"') {
+        inQuotes = !inQuotes;
+      } else if (char === ',' && !inQuotes) {
+        result.push(current.trim());
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    
+    // Push the last field
+    result.push(current.trim());
+    return result;
+  }
+  
   // Parse header
-  const headers = lines[0].split(',').map(h => h.trim());
+  const headers = parseCSVLine(lines[0]);
   
   // Parse rows
   const records = [];
@@ -210,11 +235,12 @@ function parseCSVInJS(content) {
     const line = lines[i].trim();
     if (line.length === 0) continue;
     
-    const values = line.split(',').map(v => v.trim());
+    const values = parseCSVLine(line);
     const record = {};
     
+    // Ensure we handle rows with fewer columns than headers
     for (let j = 0; j < headers.length; j++) {
-      record[headers[j]] = values[j] || '';
+      record[headers[j]] = (j < values.length) ? values[j] : '';
     }
     
     records.push(record);
