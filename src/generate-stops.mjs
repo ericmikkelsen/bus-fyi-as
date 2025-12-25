@@ -13,11 +13,12 @@ const rootDir = join(__dirname, '..');
 const NUM_WORKERS = cpus().length;
 
 /**
- * Write file using streams with Buffer
+ * Write file using streams with Buffer - optimized for batching
  */
 async function writeFileStreamFast(filePath, buffer) {
   return new Promise((resolve, reject) => {
-    const stream = createWriteStream(filePath, { highWaterMark: 64 * 1024 });
+    // Larger buffer for better throughput
+    const stream = createWriteStream(filePath, { highWaterMark: 256 * 1024 });
     stream.write(buffer);
     stream.end();
     stream.on('finish', resolve);
@@ -100,6 +101,21 @@ function formatHourDisplay(hour) {
   return hourDisplay + ':00 ' + period;
 }
 
+/**
+ * Get service days string from calendar entry (pure JavaScript)
+ */
+function getServiceDaysString(monday, tuesday, wednesday, thursday, friday, saturday, sunday) {
+  const days = [];
+  if (monday === '1') days.push('Monday');
+  if (tuesday === '1') days.push('Tuesday');
+  if (wednesday === '1') days.push('Wednesday');
+  if (thursday === '1') days.push('Thursday');
+  if (friday === '1') days.push('Friday');
+  if (saturday === '1') days.push('Saturday');
+  if (sunday === '1') days.push('Sunday');
+  return days.join(', ');
+}
+
 
 /**
  * Load CSV file and let WASM parse it
@@ -112,13 +128,13 @@ function loadCSVForWASM(filePath) {
 }
 
 /**
- * Process a single stop using WASM for all logic
+ * Process a single stop using pure JavaScript for all logic
  * Reads from pre-split stop_times files to avoid large array processing
  */
 async function processStopWithWASM(
   stopId, stopName, parentId, parentName, childStopData,
   agency, agencyPath, routeMap, tripMap, calendarMap,
-  wasmModule, distDir
+  distDir
 ) {
   // Read stop-specific stop_times from split file (much smaller dataset)
   const stopTimesFilePath = join(agencyPath, 'stop_times_by_stop', `${stopId}-stop_times.csv`);
@@ -261,59 +277,60 @@ async function processStopWithWASM(
     hourDisplays.push(formatHourDisplay(hour));
   }
   
-  // 3. Build HTML in JavaScript
+  // 3. Build HTML in JavaScript using array join (faster than concatenation)
   // After extensive testing, JavaScript is better for string-heavy HTML generation
   // WASM is great for computation but creates memory pressure with string concatenation
-  let html = '<!DOCTYPE html>\n<html lang="en">\n<head>\n';
-  html += '  <meta charset="UTF-8">\n';
-  html += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
-  html += '  <title>' + stopName + '</title>\n';
-  html += '</head>\n<body>\n';
+  const htmlParts = [
+    '<!DOCTYPE html>\n<html lang="en">\n<head>\n',
+    '  <meta charset="UTF-8">\n',
+    '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n',
+    '  <title>', stopName, '</title>\n',
+    '</head>\n<body>\n',
+    '<h1>', stopName, '</h1>\n'
+  ];
   
-  // Stop header
-  html += '<h1>' + stopName + '</h1>\n';
   if (parentId && parentName) {
-    html += '<p><a href="/' + agency + '/stops/' + parentId + '/">← Back to ' + parentName + '</a></p>\n';
+    htmlParts.push('<p><a href="/', agency, '/stops/', parentId, '/">← Back to ', parentName, '</a></p>\n');
   }
-  html += '<p>Stop ID: ' + stopId + '</p>\n';
+  htmlParts.push('<p>Stop ID: ', stopId, '</p>\n');
   
   // Terminals list
   if (childStopIds.length > 0) {
-    html += '<h2>Terminals</h2>\n<ul>\n';
+    htmlParts.push('<h2>Terminals</h2>\n<ul>\n');
     for (let i = 0; i < childStopIds.length; i++) {
-      html += '  <li><a href="/' + agency + '/stops/' + stopId + '/' + childStopIds[i] + '/">' + childStopNames[i] + '</a></li>\n';
+      htmlParts.push('  <li><a href="/', agency, '/stops/', stopId, '/', childStopIds[i], '/">', childStopNames[i], '</a></li>\n');
     }
-    html += '</ul>\n';
+    htmlParts.push('</ul>\n');
   }
   
   // Routes section
   if (hourDisplays.length > 0) {
-    html += '<h2>Routes at ' + stopName + '</h2>\n';
+    htmlParts.push('<h2>Routes at ', stopName, '</h2>\n');
     
     // Build schedule for each hour
     for (let i = 0; i < hourDisplays.length; i++) {
       const startIdx = hourStartIndices[i];
       const endIdx = (i + 1 < hourStartIndices.length) ? hourStartIndices[i + 1] : flatFormattedTimes.length;
       
-      html += '<h3>' + hourDisplays[i] + '</h3>\n';
-      html += '<ol>\n';
+      htmlParts.push('<h3>', hourDisplays[i], '</h3>\n<ol>\n');
       
       for (let j = startIdx; j < endIdx; j++) {
-        html += '  <li><time datetime="' + flatDatetimes[j] + '">' + flatFormattedTimes[j] + '</time> - ' + flatRouteNames[j];
+        htmlParts.push('  <li><time datetime="', flatDatetimes[j], '">', flatFormattedTimes[j], '</time> - ', flatRouteNames[j]);
         if (flatHeadsigns[j]) {
-          html += ' to ' + flatHeadsigns[j];
+          htmlParts.push(' to ', flatHeadsigns[j]);
         }
         if (flatServiceDays[j]) {
-          html += ' ' + flatServiceDays[j];
+          htmlParts.push(' ', flatServiceDays[j]);
         }
-        html += '</li>\n';
+        htmlParts.push('</li>\n');
       }
       
-      html += '</ol>\n';
+      htmlParts.push('</ol>\n');
     }
   }
   
-  html += '</body>\n</html>';
+  htmlParts.push('</body>\n</html>');
+  const html = htmlParts.join('');
   
   // Generate CSV with service days using WASM
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
@@ -457,20 +474,11 @@ function logProgress(current, total, label, startTime) {
 }
 
 /**
- * Generate stop pages with maximum WASM usage
+ * Generate stop pages with optimized parallel batching
  */
 async function generateStopPages() {
-  console.log('🚀 Maximum Performance Generator (WASM-powered)');
-  console.log(`💪 Using ${NUM_WORKERS} CPU cores + AssemblyScript`);
-  
-  // Load WASM module using ESM bindings (handles string memory automatically)
-  console.log('⚡ Loading AssemblyScript module with ESM bindings...');
-  const wasmLoadStart = Date.now();
-  
-  // Use generated ESM wrapper
-  const wasmModule = await import(join(rootDir, 'dist', 'release.js'));
-  
-  console.log(`  ✓ WASM loaded with ESM bindings in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
+  console.log('🚀 Maximum Performance Generator (Pure JavaScript)');
+  console.log(`💪 Using optimized batched parallel processing`);
   
   const dataDir = join(rootDir, 'data');
   // Use public directory so Vite includes generated files in build
@@ -601,7 +609,7 @@ async function generateStopPages() {
     
     for (const cal of calendar) {
       // Pre-compute service day string for each calendar entry
-      cal._serviceDays = wasmModule.getServiceDaysString(
+      cal._serviceDays = getServiceDaysString(
         cal.monday, cal.tuesday, cal.wednesday,
         cal.thursday, cal.friday, cal.saturday, cal.sunday
       );
@@ -637,35 +645,44 @@ async function generateStopPages() {
     
     console.log(`  📄 Processing ${stopsToProcess.length} stops...`);
     
+    // OPTIMIZATION: Batch processing in parallel to maximize I/O throughput
+    // Process stops in batches of 100 to avoid overwhelming the file system
+    const BATCH_SIZE = 100;
+    let processed = 0;
     let lastLog = Date.now();
     const processStartTime = Date.now();
-    for (let i = 0; i < stopsToProcess.length; i++) {
-      const { stop, childStops, parentStop } = stopsToProcess[i];
+    
+    for (let batchStart = 0; batchStart < stopsToProcess.length; batchStart += BATCH_SIZE) {
+      const batchEnd = Math.min(batchStart + BATCH_SIZE, stopsToProcess.length);
+      const batch = stopsToProcess.slice(batchStart, batchEnd);
       
-      // Progress logging every 60 seconds
-      if (Date.now() - lastLog > 60000) {
-        logProgress(i + 1, stopsToProcess.length, 'Generating pages', processStartTime);
-        lastLog = Date.now();
-      }
-      
-      promises.push(
+      // Process batch in parallel
+      const batchPromises = batch.map(({ stop, childStops, parentStop }) => 
         processStopWithWASM(
           stop.stop_id, stop.stop_name, 
           parentStop ? parentStop.stop_id : null,
           parentStop ? parentStop.stop_name : null,
           childStops, agency, agencyPath, routeMap, tripMap, calendarMap,
-          wasmModule, distDir
+          distDir
         )
       );
       
-      // Log progress every 60 seconds for large datasets
-      if (stopsToProcess.length > 1000 && Date.now() - lastLog > 60000) {
-        logProgress(i + 1, stopsToProcess.length, 'Generating pages', genStart);
+      await Promise.all(batchPromises);
+      processed += batch.length;
+      
+      // Progress logging every 5 seconds for faster feedback
+      if (Date.now() - lastLog > 5000) {
+        const elapsed = (Date.now() - processStartTime) / 1000;
+        const rate = processed / elapsed;
+        const remaining = stopsToProcess.length - processed;
+        const eta = remaining / rate;
+        const percent = ((processed / stopsToProcess.length) * 100).toFixed(1);
+        console.log(`    ${processed.toLocaleString()}/${stopsToProcess.length.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatElapsedTime(eta * 1000)}`);
         lastLog = Date.now();
       }
     }
     
-    await Promise.all(promises);
+    promises.push(true); // Keep for counting
     
     const genTime = ((Date.now() - genStart) / 1000).toFixed(2);
     totalStops += promises.length;
@@ -676,7 +693,7 @@ async function generateStopPages() {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`\n🎉 Complete: ${totalStops} stops in ${elapsed}s`);
   console.log(`⚡ Average: ${(totalStops / elapsed).toFixed(0)} pages/second`);
-  console.log(`🚀 Hybrid JavaScript/WASM architecture for stability + performance!`);
+  console.log(`🚀 Pure JavaScript architecture for maximum stability + performance!`);
   console.log(`📁 Output: public/stops/[stop-id]/index.html + schedule.csv`);
   console.log(`   Vite will serve these files in dev mode and include them in the build`);
 }
