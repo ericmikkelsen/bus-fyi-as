@@ -428,7 +428,7 @@ function formatTimeInJS(timeStr) {
 /**
  * Format elapsed time for logging
  */
-function formatTime(ms) {
+function formatElapsedTime(ms) {
   const seconds = ms / 1000;
   if (seconds < 60) return `${seconds.toFixed(1)}s`;
   const minutes = Math.floor(seconds / 60);
@@ -445,7 +445,7 @@ function logProgress(current, total, label, startTime) {
   const rate = current / (elapsed / 1000);
   const eta = ((total - current) / rate) * 1000;
   
-  console.log(`    ${label}: ${current}/${total} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
+  console.log(`    ${label}: ${current}/${total} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatElapsedTime(eta)}`);
 }
 
 /**
@@ -532,7 +532,7 @@ async function generateStopPages() {
         const percent = ((processed / total) * 100).toFixed(1);
         const rate = processed / ((now - stopTimesParseStart) / 1000);
         const eta = ((total - processed) / rate) * 1000;
-        console.log(`    Splitting: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
+        console.log(`    Splitting: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatElapsedTime(eta)}`);
         lastProgressTime = now;
       }
     });
