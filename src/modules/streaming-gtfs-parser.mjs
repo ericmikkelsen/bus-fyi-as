@@ -1,7 +1,8 @@
 // Streaming GTFS parser for handling large files (300MB+)
-import { createReadStream } from 'fs';
+import { createReadStream, createWriteStream, mkdirSync, existsSync as fileExists } from 'fs';
 import { createInterface } from 'readline';
 import { existsSync } from 'fs';
+import { join } from 'path';
 
 /**
  * Parse CSV line efficiently
@@ -198,6 +199,125 @@ export async function getLineCount(filePath) {
     
     rl.on('line', () => count++);
     rl.on('close', () => resolve(count));
+    rl.on('error', reject);
+  });
+}
+
+/**
+ * Split stop_times.txt into separate files by stop and by route
+ * This prevents WASM memory issues by processing smaller datasets
+ */
+export async function splitStopTimesByStopAndRoute(stopTimesFilePath, tripsFilePath, outputDir, onProgress) {
+  // First, load trips to get route_id for each trip_id
+  console.log('  📖 Loading trips data...');
+  const trips = await streamParseGTFS(tripsFilePath);
+  const tripToRoute = new Map();
+  for (const trip of trips) {
+    tripToRoute.set(trip.trip_id, trip.route_id);
+  }
+  console.log(`  ✓ Loaded ${trips.length} trips`);
+  
+  // Create output directories
+  const stopTimesDir = join(outputDir, 'stop_times_by_stop');
+  const routeTimesDir = join(outputDir, 'stop_times_by_route');
+  
+  if (!fileExists(stopTimesDir)) {
+    mkdirSync(stopTimesDir, { recursive: true });
+  }
+  if (!fileExists(routeTimesDir)) {
+    mkdirSync(routeTimesDir, { recursive: true });
+  }
+  
+  // Track file streams by stop and route
+  const stopStreams = new Map();
+  const routeStreams = new Map();
+  const stopHeaders = new Map();
+  const routeHeaders = new Map();
+  
+  console.log('  🔄 Splitting stop_times.txt by stop and route...');
+  
+  return new Promise((resolve, reject) => {
+    let headers = null;
+    let lineCount = 0;
+    let processedCount = 0;
+    let lastProgress = Date.now();
+    
+    const fileStream = createReadStream(stopTimesFilePath, {
+      encoding: 'utf-8',
+      highWaterMark: 512 * 1024
+    });
+    
+    const rl = createInterface({
+      input: fileStream,
+      crlfDelay: Infinity
+    });
+    
+    rl.on('line', (line) => {
+      lineCount++;
+      
+      if (!headers) {
+        headers = line.split(',').map(h => h.trim());
+        return;
+      }
+      
+      const values = parseCSVLine(line, headers.length);
+      const stopIdIndex = headers.indexOf('stop_id');
+      const tripIdIndex = headers.indexOf('trip_id');
+      
+      if (stopIdIndex < 0 || tripIdIndex < 0) {
+        return;
+      }
+      
+      const stopId = values[stopIdIndex];
+      const tripId = values[tripIdIndex];
+      const routeId = tripToRoute.get(tripId) || 'unknown';
+      
+      if (!stopId) return;
+      
+      // Write to stop-specific file
+      if (!stopStreams.has(stopId)) {
+        const stopFilePath = join(stopTimesDir, `${stopId}-stop_times.csv`);
+        const stream = createWriteStream(stopFilePath, { flags: 'a' });
+        stopStreams.set(stopId, stream);
+        // Write header
+        stream.write(headers.join(',') + '\n');
+      }
+      stopStreams.get(stopId).write(line + '\n');
+      
+      // Write to route-specific file
+      if (!routeStreams.has(routeId)) {
+        const routeFilePath = join(routeTimesDir, `${routeId}-stop_times.csv`);
+        const stream = createWriteStream(routeFilePath, { flags: 'a' });
+        routeStreams.set(routeId, stream);
+        // Write header
+        stream.write(headers.join(',') + '\n');
+      }
+      routeStreams.get(routeId).write(line + '\n');
+      
+      processedCount++;
+      
+      // Progress logging
+      if (onProgress && Date.now() - lastProgress > 5000) {
+        onProgress(processedCount, lineCount);
+        lastProgress = Date.now();
+      }
+    });
+    
+    rl.on('close', async () => {
+      // Close all streams
+      const allStreams = [...stopStreams.values(), ...routeStreams.values()];
+      await Promise.all(allStreams.map(stream => new Promise(resolve => {
+        stream.end(resolve);
+      })));
+      
+      if (onProgress) {
+        onProgress(processedCount, lineCount);
+      }
+      
+      console.log(`  ✓ Split into ${stopStreams.size} stop files and ${routeStreams.size} route files`);
+      resolve({ stopCount: stopStreams.size, routeCount: routeStreams.size });
+    });
+    
     rl.on('error', reject);
   });
 }

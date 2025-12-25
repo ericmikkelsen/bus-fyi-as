@@ -4,7 +4,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { cpus } from 'os';
 import { getAgencies } from './modules/gtfs-parser-fast.mjs';
-import { streamParseStopTimes, streamParseGTFS, getLineCount } from './modules/streaming-gtfs-parser.mjs';
+import { streamParseStopTimes, streamParseGTFS, getLineCount, splitStopTimesByStopAndRoute } from './modules/streaming-gtfs-parser.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -37,12 +37,22 @@ function loadCSVForWASM(filePath) {
 
 /**
  * Process a single stop using WASM for all logic
+ * Reads from pre-split stop_times files to avoid large array processing
  */
 async function processStopWithWASM(
   stopId, stopName, parentId, parentName, childStopData,
-  stopTimesForThisStop, routeMap, tripMap, calendarMap,
+  agencyPath, routeMap, tripMap, calendarMap,
   wasmModule, distDir
 ) {
+  // Read stop-specific stop_times from split file (much smaller dataset)
+  const stopTimesFilePath = join(agencyPath, 'stop_times_by_stop', `${stopId}-stop_times.csv`);
+  let stopTimesForThisStop = [];
+  
+  if (existsSync(stopTimesFilePath)) {
+    const content = readFileSync(stopTimesFilePath, 'utf-8');
+    stopTimesForThisStop = parseCSVWithWASM(content, wasmModule);
+  }
+  
   // Prepare stop directory
   // Child stops: /stops/[parent_id]/[stop_id]/index.html
   // Parent/regular stops: /stops/[stop_id]/index.html
@@ -288,27 +298,29 @@ async function generateStopPages() {
     console.log(`    ✓ calendar.txt (${calendar.length} rows) - ${((Date.now() - calendarParseStart) / 1000).toFixed(2)}s`);
     
     // Stream parse stop_times.txt (can be 300MB+, millions of rows)
-    // This approach doesn't load the entire file into memory
-    console.log('  🌊 Streaming stop_times.txt (large file)...');
+    // Split into smaller files by stop and route to prevent WASM memory issues
+    console.log('  🌊 Processing stop_times.txt (large file)...');
     const stopTimesFile = join(agencyPath, 'stop_times.txt');
+    const tripsFile = join(agencyPath, 'trips.txt');
     const stopTimesLineCount = await getLineCount(stopTimesFile);
     console.log(`    Expected ~${stopTimesLineCount.toLocaleString()} lines`);
     
     const stopTimesParseStart = Date.now();
     let lastProgressTime = Date.now();
-    const stopTimesMap = await streamParseStopTimes(stopTimesFile, (processed, total) => {
+    
+    // Split stop_times into separate files by stop and route
+    await splitStopTimesByStopAndRoute(stopTimesFile, tripsFile, agencyPath, (processed, total) => {
       const now = Date.now();
       if (now - lastProgressTime >= 5000) { // Progress every 5 seconds
         const percent = ((processed / total) * 100).toFixed(1);
         const rate = processed / ((now - stopTimesParseStart) / 1000);
         const eta = ((total - processed) / rate) * 1000;
-        console.log(`    Processing: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
+        console.log(`    Splitting: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
         lastProgressTime = now;
       }
     });
     
-    const stopTimesCount = Object.values(stopTimesMap).reduce((sum, arr) => sum + arr.length, 0);
-    console.log(`    ✓ stop_times.txt (${stopTimesCount.toLocaleString()} rows indexed by stop) - ${((Date.now() - stopTimesParseStart) / 1000).toFixed(2)}s`);
+    console.log(`    ✓ stop_times.txt split by stop and route - ${((Date.now() - stopTimesParseStart) / 1000).toFixed(2)}s`);
     
     const parseTime = ((Date.now() - parseStart) / 1000).toFixed(2);
     
@@ -377,7 +389,6 @@ async function generateStopPages() {
     
     const indexTime = ((Date.now() - indexStart) / 1000).toFixed(2);
     console.log(`  ✓ Relationships built in ${indexTime}s`);
-    console.log(`  💾 Memory: stop_times indexed by ${Object.keys(stopTimesMap).length} stops`);
     console.log(`  💾 Memory: ${tripMap.size} trips, ${routeMap.size} routes, ${calendarMap.size} calendars indexed`);
     
     // Process stops
@@ -388,17 +399,12 @@ async function generateStopPages() {
     const stopsToProcess = [];
     
     for (const stop of stops) {
-      const stopTimesForStop = stopTimesMap[stop.stop_id] || [];
       const childStops = (childrenMap[stop.stop_id] || []).map(c => ({ id: c.stop_id, name: c.stop_name }));
       const parentStop = parentMap[stop.stop_id];
       
-      if (stopTimesForStop.length === 0 && childStops.length === 0 && !parentStop) {
-        continue;
-      }
-      
+      // Check if stop has data - we'll check the file existence in processStopWithWASM
       stopsToProcess.push({
         stop,
-        stopTimesForStop,
         childStops,
         parentStop
       });
@@ -409,7 +415,7 @@ async function generateStopPages() {
     let lastLog = Date.now();
     const processStartTime = Date.now();
     for (let i = 0; i < stopsToProcess.length; i++) {
-      const { stop, stopTimesForStop, childStops, parentStop } = stopsToProcess[i];
+      const { stop, childStops, parentStop } = stopsToProcess[i];
       
       // Progress logging every 60 seconds
       if (Date.now() - lastLog > 60000) {
@@ -422,7 +428,7 @@ async function generateStopPages() {
           stop.stop_id, stop.stop_name, 
           parentStop ? parentStop.stop_id : null,
           parentStop ? parentStop.stop_name : null,
-          childStops, stopTimesForStop, routeMap, tripMap, calendarMap,
+          childStops, agencyPath, routeMap, tripMap, calendarMap,
           wasmModule, distDir
         )
       );
