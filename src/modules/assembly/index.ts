@@ -54,3 +54,8 @@ export {
   buildStopPageHTML
 } from '../../pages/StopPage';
 
+// Export main processor (JavaScript only reads/writes files, WASM does ALL processing)
+export {
+  processStopAndGenerateHTML
+} from '../../pages/StopPageProcessor';
+

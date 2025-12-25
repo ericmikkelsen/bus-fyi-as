@@ -69,29 +69,220 @@ async function processStopWithWASM(
     mkdirSync(stopDir, { recursive: true });
   }
   
-  // Extract child stop data
+  // Build header HTML using WASM with as-bind handling memory
+  const parentStopId = parentId || '';
+  const parentStopName = parentName || '';
+  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName, agencyName);
+  
+  // Build terminals list HTML using WASM with as-bind handling memory
   const childStopIds = childStopData.map(c => c.id);
   const childStopNames = childStopData.map(c => c.name);
+  const terminalsHtml = wasmModule.TerminalsList(agencyName, stopId, childStopIds, childStopNames);
   
-  // Call WASM to do ALL processing: CSV parsing, data processing, HTML generation
-  // JavaScript ONLY reads files and writes result!
-  const html = wasmModule.processStopAndGenerateHTML(
-    stopName,
-    stopId,
-    parentId || '',
-    parentName || '',
-    agencyName,
-    childStopIds,
-    childStopNames,
-    stopTimesCSV,
-    tripDataCSV,
-    routeDataCSV,
-    calendarDataCSV
-  );
+  // Build routes section header if parent with routes
+  const hasRoutes = stopTimesForThisStop.length > 0;
+  let routesSectionHeader = '';
+  if (hasRoutes && childStopIds.length > 0) {
+    routesSectionHeader = `\n  <h2>Routes at ${stopName}</h2>\n`;
+  }
   
-  // Write HTML file
-  const htmlFile = join(stopDir, 'index.html');
-  await writeFileStreamFast(htmlFile, Buffer.from(html, 'utf-8'));
+  // Use WASM to group stop times by hour
+  const arrivalTimes = stopTimesForThisStop.map(st => st.arrival_time);
+  const tripIds = stopTimesForThisStop.map(st => st.trip_id);
+  
+  // Group by hour in JavaScript (avoid passing large arrays to WASM)
+  function getHourFromTime(timeStr) {
+    if (!timeStr || timeStr.length === 0) return 0;
+    const colonIndex = timeStr.indexOf(':');
+    if (colonIndex < 0) return 0;
+    const hourStr = timeStr.substring(0, colonIndex);
+    const hour = parseInt(hourStr, 10);
+    return isNaN(hour) ? 0 : hour;
+  }
+  
+  // Group stop times by hour
+  const hoursSet = new Set();
+  for (let i = 0; i < arrivalTimes.length; i++) {
+    hoursSet.add(getHourFromTime(arrivalTimes[i]));
+  }
+  const hours = Array.from(hoursSet).sort((a, b) => a - b);
+  
+  // Prepare data for each hour - organize in JavaScript, build strings in WASM
+  const hourArrivalTimes = [];
+  const hourRouteNames = [];
+  const hourHeadsigns = [];
+  
+  for (let i = 0; i < hours.length; i++) {
+    const hour = hours[i];
+    
+    // Filter in JavaScript (avoid WASM)
+    const indicesForHour = [];
+    for (let j = 0; j < arrivalTimes.length; j++) {
+      if (getHourFromTime(arrivalTimes[j]) === hour) {
+        indicesForHour.push(j);
+      }
+    }
+    
+    // Sort in JavaScript
+    const sortedIndices = indicesForHour.sort((a, b) => {
+      const time1 = arrivalTimes[a];
+      const time2 = arrivalTimes[b];
+      return time1.localeCompare(time2);
+    });
+    
+    const timesForHour = [];
+    const routesForHour = [];
+    const headsignsForHour = [];
+    
+    for (let j = 0; j < sortedIndices.length; j++) {
+      const idx = sortedIndices[j];
+      const stopTime = stopTimesForThisStop[idx];
+      const tripId = tripIds[idx];
+      
+      // Fast lookup trip and route using Maps
+      const trip = tripMap.get(tripId);
+      const route = trip ? routeMap.get(trip.route_id) : null;
+      
+      const routeName = route ? (route.route_short_name || route.route_long_name) : 'Unknown';
+      // Format time in JavaScript (avoid WASM issues with malformed data)
+      const time = formatTimeInJS(stopTime.arrival_time);
+      const headsign = trip?.trip_headsign || '';
+      
+      timesForHour.push(time);
+      routesForHour.push(routeName);
+      headsignsForHour.push(headsign);
+    }
+    
+    hourArrivalTimes.push(timesForHour);
+    hourRouteNames.push(routesForHour);
+    hourHeadsigns.push(headsignsForHour);
+  }
+  
+    // Build complete schedule HTML in JavaScript (avoid large data to WASM)
+    let scheduleHtml = '';
+    for (let i = 0; i < hours.length; i++) {
+      const hour = hours[i];
+      const times = hourArrivalTimes[i];
+      const routes = hourRouteNames[i];
+      const headsigns = hourHeadsigns[i];
+      const indicesForHour = []; // Track original indices for this hour
+      
+      // Find original indices for this hour
+      for (let k = 0; k < arrivalTimes.length; k++) {
+        if (getHourFromTime(arrivalTimes[k]) === hour) {
+          indicesForHour.push(k);
+        }
+      }
+      // Sort by time
+      indicesForHour.sort((a, b) => arrivalTimes[a].localeCompare(arrivalTimes[b]));
+      
+      // Format hour header using WASM (single string, safe)
+      const hourHeader = wasmModule.HourHeader(hour);
+      scheduleHtml += hourHeader;
+      
+      // Group entries by time+route+headsign to deduplicate and collect service days
+      const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
+      
+      for (let j = 0; j < times.length; j++) {
+        const time = times[j] || '';
+        const route = routes[j] || '';
+        const headsign = headsigns[j] || '';
+        
+        // Get the corresponding stopTime using original index
+        const originalIdx = indicesForHour[j];
+        const stopTime = stopTimesForThisStop[originalIdx];
+        const tripId = stopTime.trip_id;
+        const trip = tripMap.get(tripId);
+        const calendar = trip ? calendarMap.get(trip.service_id) : null;
+      
+      const key = `${time}|${route}|${headsign}`;
+      
+      if (!entryMap.has(key)) {
+        entryMap.set(key, {
+          time,
+          route,
+          headsign,
+          serviceDaysSet: new Set()
+        });
+      }
+      
+      // Add service days from calendar
+      if (calendar && calendar._serviceDays) {
+        const daysArray = calendar._serviceDays.split(', ');
+        for (const day of daysArray) {
+          entryMap.get(key).serviceDaysSet.add(day);
+        }
+      }
+    }
+    
+    // Build entries in JavaScript to avoid passing large arrays to WASM
+    scheduleHtml += '<ol>\n';
+    for (const entry of entryMap.values()) {
+      const time = entry.time;
+      const route = entry.route;
+      const headsign = entry.headsign;
+      
+      // Convert service days Set to sorted array and join
+      const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      const serviceDaysArray = Array.from(entry.serviceDaysSet).sort((a, b) => {
+        return dayOrder.indexOf(a) - dayOrder.indexOf(b);
+      });
+      const serviceDaysStr = serviceDaysArray.join(', ');
+      
+      // Build HTML directly in JavaScript
+      scheduleHtml += '  <li>' + time + ' - ' + route;
+      if (headsign) {
+        scheduleHtml += ' to ' + headsign;
+      }
+      if (serviceDaysStr) {
+        scheduleHtml += ' ' + serviceDaysStr;
+      }
+      scheduleHtml += '</li>\n';
+    }
+    scheduleHtml += '</ol>\n';
+  }
+  
+  // Assemble complete page HTML in JavaScript (avoid WASM template literal issues)
+  const pageContent = stopHeaderHtml + terminalsHtml + routesSectionHeader + scheduleHtml;
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${stopName}</title>
+</head>
+<body>
+${pageContent}</body>
+</html>`;
+  
+  // Generate CSV with service days using WASM
+  const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
+  
+  for (let i = 0; i < stopTimesForThisStop.length; i++) {
+    const stopTime = stopTimesForThisStop[i];
+    const trip = tripMap.get(stopTime.trip_id);
+    const route = trip ? routeMap.get(trip.route_id) : null;
+    const calendar = trip ? calendarMap.get(trip.service_id) : null;
+    
+    if (route && calendar) {
+      const routeShort = (route.route_short_name || '').replace(/,/g, ' ');
+      const routeLong = (route.route_long_name || '').replace(/,/g, ' ');
+      const headsign = (trip.trip_headsign || '').replace(/,/g, ' ');
+      
+      // Use pre-computed service days string
+      const serviceDays = calendar._serviceDays;
+      
+      csvLines.push(`${stopTime.arrival_time},${routeShort},${routeLong},${headsign},${serviceDays}`);
+    }
+  }
+  
+  const csvBuffer = Buffer.from(csvLines.join('\n'));
+  
+  // Write both files
+  await Promise.all([
+    writeFileStreamFast(join(stopDir, 'index.html'), Buffer.from(html)),
+    writeFileStreamFast(join(stopDir, 'schedule.csv'), csvBuffer)
+  ]);
 }
 
 /**
