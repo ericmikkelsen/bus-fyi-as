@@ -127,28 +127,17 @@ async function processStopWithWASM(
     mkdirSync(stopDir, { recursive: true });
   }
   
-  // Build header HTML using WASM with as-bind handling memory
-  const parentStopId = parentId || '';
-  const parentStopName = parentName || '';
-  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName, agency);
+  // Prepare all data in JavaScript, then make ONE WASM call for entire page
+  // This minimizes JavaScript/WASM boundary crossings for better performance
   
-  // Build terminals list HTML using WASM with as-bind handling memory
+  // 1. Prepare terminal data
   const childStopIds = childStopData.map(c => c.id);
   const childStopNames = childStopData.map(c => c.name);
-  const terminalsHtml = wasmModule.TerminalsList(agency, stopId, childStopIds, childStopNames);
   
-  // Build routes section header if parent with routes
-  const hasRoutes = stopTimesForThisStop.length > 0;
-  let routesSectionHeader = '';
-  if (hasRoutes && childStopIds.length > 0) {
-    routesSectionHeader = `\n  <h2>Routes at ${stopName}</h2>\n`;
-  }
-  
-  // Use WASM to group stop times by hour
+  // 2. Process schedule data - group, deduplicate, add service days
   const arrivalTimes = stopTimesForThisStop.map(st => st.arrival_time);
   const tripIds = stopTimesForThisStop.map(st => st.trip_id);
   
-  // Group by hour in JavaScript (avoid passing large arrays to WASM)
   function getHourFromTime(timeStr) {
     if (!timeStr || timeStr.length === 0) return 0;
     const colonIndex = timeStr.indexOf(':');
@@ -165,15 +154,16 @@ async function processStopWithWASM(
   }
   const hours = Array.from(hoursSet).sort((a, b) => a - b);
   
-  // Prepare data for each hour - organize in JavaScript, build strings in WASM
+  // Prepare deduplicated data for each hour
   const hourArrivalTimes = [];
   const hourRouteNames = [];
   const hourHeadsigns = [];
+  const hourServiceDays = [];
   
   for (let i = 0; i < hours.length; i++) {
     const hour = hours[i];
     
-    // Filter in JavaScript (avoid WASM)
+    // Filter stop times for this hour
     const indicesForHour = [];
     for (let j = 0; j < arrivalTimes.length; j++) {
       if (getHourFromTime(arrivalTimes[j]) === hour) {
@@ -181,73 +171,34 @@ async function processStopWithWASM(
       }
     }
     
-    // Sort in JavaScript
+    // Sort by arrival time
     const sortedIndices = indicesForHour.sort((a, b) => {
-      const time1 = arrivalTimes[a];
-      const time2 = arrivalTimes[b];
-      return time1.localeCompare(time2);
+      return arrivalTimes[a].localeCompare(arrivalTimes[b]);
     });
     
-    const timesForHour = [];
-    const routesForHour = [];
-    const headsignsForHour = [];
+    // Deduplicate by time+route+headsign and collect service days
+    const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
     
     for (let j = 0; j < sortedIndices.length; j++) {
       const idx = sortedIndices[j];
       const stopTime = stopTimesForThisStop[idx];
       const tripId = tripIds[idx];
       
-      // Fast lookup trip and route using Maps
+      // Fast lookup using Maps
       const trip = tripMap.get(tripId);
       const route = trip ? routeMap.get(trip.route_id) : null;
-      
-      const routeName = route ? (route.route_short_name || route.route_long_name) : 'Unknown';
-      // Format time in JavaScript (avoid WASM issues with malformed data)
-      const time = formatTimeInJS(stopTime.arrival_time);
-      const headsign = trip?.trip_headsign || '';
-      
-      timesForHour.push(time);
-      routesForHour.push(routeName);
-      headsignsForHour.push(headsign);
-    }
-    
-    hourArrivalTimes.push(timesForHour);
-    hourRouteNames.push(routesForHour);
-    hourHeadsigns.push(headsignsForHour);
-  }
-  
-  // Build complete schedule HTML in JavaScript (avoid large data to WASM)
-  let scheduleHtml = '';
-  for (let i = 0; i < hours.length; i++) {
-    const hour = hours[i];
-    const times = hourArrivalTimes[i];
-    const routes = hourRouteNames[i];
-    const headsigns = hourHeadsigns[i];
-    
-    // Format hour header using WASM (single string, safe)
-    const hourHeader = wasmModule.HourHeader(hour);
-    scheduleHtml += hourHeader;
-    
-    // Group entries by time+route+headsign to deduplicate and collect service days
-    const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
-    
-    for (let j = 0; j < times.length; j++) {
-      const time = times[j] || '';
-      const route = routes[j] || '';
-      const headsign = headsigns[j] || '';
-      
-      // Get the corresponding stopTime to find service_id
-      const stopTime = stopTimesForThisStop[j];
-      const tripId = stopTime.trip_id;
-      const trip = tripMap.get(tripId);
       const calendar = trip ? calendarMap.get(trip.service_id) : null;
       
-      const key = `${time}|${route}|${headsign}`;
+      const routeName = route ? (route.route_short_name || route.route_long_name) : 'Unknown';
+      const time = stopTime.arrival_time;  // Keep GTFS format, WASM will format it
+      const headsign = trip?.trip_headsign || '';
+      
+      const key = `${time}|${routeName}|${headsign}`;
       
       if (!entryMap.has(key)) {
         entryMap.set(key, {
           time,
-          route,
+          routeName,
           headsign,
           serviceDaysSet: new Set()
         });
@@ -262,30 +213,48 @@ async function processStopWithWASM(
       }
     }
     
-    // Build entries using WASM ScheduleEntry component
-    scheduleHtml += '<ol>\n';
+    // Convert deduplicated entries to arrays
+    const timesForHour = [];
+    const routesForHour = [];
+    const headsignsForHour = [];
+    const serviceDaysForHour = [];
+    
+    const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    
     for (const entry of entryMap.values()) {
-      const gtfsTime = entry.time;
-      const route = entry.route;
-      const headsign = entry.headsign;
+      timesForHour.push(entry.time);
+      routesForHour.push(entry.routeName);
+      headsignsForHour.push(entry.headsign);
       
-      // Convert service days Set to sorted array and join in JavaScript
-      const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      // Convert service days Set to sorted, comma-separated string
       const serviceDaysArray = Array.from(entry.serviceDaysSet).sort((a, b) => {
         return dayOrder.indexOf(a) - dayOrder.indexOf(b);
       });
-      const serviceDaysStr = serviceDaysArray.join(', ');
-      
-      // Use WASM ScheduleEntry component - passes raw GTFS time
-      // ScheduleEntry will handle time formatting and Time component internally
-      const entryHtml = wasmModule.ScheduleEntry(gtfsTime, route, headsign, serviceDaysStr);
-      scheduleHtml += entryHtml;
+      serviceDaysForHour.push(serviceDaysArray.join(', '));
     }
-    scheduleHtml += '</ol>\n';
+    
+    hourArrivalTimes.push(timesForHour);
+    hourRouteNames.push(routesForHour);
+    hourHeadsigns.push(headsignsForHour);
+    hourServiceDays.push(serviceDaysForHour);
   }
   
-  // Assemble complete page HTML in JavaScript (avoid WASM template literal issues)
-  const pageContent = stopHeaderHtml + terminalsHtml + routesSectionHeader + scheduleHtml;
+  // 3. Make ONE WASM call to generate entire page content
+  // All HTML generation happens in AssemblyScript - minimal boundary crossing
+  const pageContent = wasmModule.buildStopPageContent(
+    stopName,
+    stopId,
+    parentId || '',      // parentStopId (empty if no parent)
+    parentName || '',    // parentStopName (empty if no parent)
+    agency,
+    childStopIds,
+    childStopNames,
+    hours,
+    hourArrivalTimes,
+    hourRouteNames,
+    hourHeadsigns,
+    hourServiceDays
+  );
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
