@@ -83,6 +83,24 @@ function formatTime(gtfsTime) {
   return { formatted, datetime };
 }
 
+function formatHourDisplay(hour) {
+  let displayHour = hour;
+  if (hour >= 24) {
+    displayHour = hour - 24;
+  }
+  
+  const period = displayHour >= 12 ? 'PM' : 'AM';
+  let hourDisplay = displayHour;
+  if (displayHour > 12) {
+    hourDisplay = displayHour - 12;
+  } else if (displayHour === 0) {
+    hourDisplay = 12;
+  }
+  
+  return hourDisplay + ':00 ' + period;
+}
+
+
 /**
  * Load CSV file and let WASM parse it
  */
@@ -155,7 +173,9 @@ async function processStopWithWASM(
   const hours = Array.from(hoursSet).sort((a, b) => a - b);
   
   // Prepare deduplicated data for each hour
-  const hourArrivalTimes = [];
+  const hourDisplays = [];
+  const hourFormattedTimes = [];
+  const hourDatetimes = [];
   const hourRouteNames = [];
   const hourHeadsigns = [];
   const hourServiceDays = [];
@@ -213,8 +233,9 @@ async function processStopWithWASM(
       }
     }
     
-    // Convert deduplicated entries to arrays
+    // Convert deduplicated entries to arrays, FORMAT TIMES IN JAVASCRIPT
     const timesForHour = [];
+    const datetimesForHour = [];
     const routesForHour = [];
     const headsignsForHour = [];
     const serviceDaysForHour = [];
@@ -222,7 +243,11 @@ async function processStopWithWASM(
     const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
     
     for (const entry of entryMap.values()) {
-      timesForHour.push(entry.time);
+      // Format time in JavaScript (no string operations in WASM!)
+      const timeFormatted = formatTime(entry.time);
+      timesForHour.push(timeFormatted.formatted);
+      datetimesForHour.push(timeFormatted.datetime);
+      
       routesForHour.push(entry.routeName);
       headsignsForHour.push(entry.headsign);
       
@@ -233,15 +258,19 @@ async function processStopWithWASM(
       serviceDaysForHour.push(serviceDaysArray.join(', '));
     }
     
-    hourArrivalTimes.push(timesForHour);
+    // Format hour display in JavaScript (no string operations in WASM!)
+    hourDisplays.push(formatHourDisplay(hour));
+    hourFormattedTimes.push(timesForHour);
+    hourDatetimes.push(datetimesForHour);
     hourRouteNames.push(routesForHour);
     hourHeadsigns.push(headsignsForHour);
     hourServiceDays.push(serviceDaysForHour);
   }
   
-  // 3. Make ONE WASM call to generate entire page content
+  // 3. Make ONE WASM call to generate COMPLETE HTML (including <html>, <head>, <body>)
   // All HTML generation happens in AssemblyScript - minimal boundary crossing
-  const pageContent = wasmModule.buildStopPageContent(
+  // JavaScript only prepares data - NO string operations in WASM
+  const html = wasmModule.buildStopPageHTML(
     stopName,
     stopId,
     parentId || '',      // parentStopId (empty if no parent)
@@ -249,22 +278,13 @@ async function processStopWithWASM(
     agency,
     childStopIds,
     childStopNames,
-    hours,
-    hourArrivalTimes,
+    hourDisplays,        // Pre-formatted hour displays (e.g., "9:00 AM")
+    hourFormattedTimes,  // Pre-formatted times (e.g., ["9:00 AM", "9:30 AM"])
+    hourDatetimes,       // Datetime attributes (e.g., ["09:00", "09:30"])
     hourRouteNames,
     hourHeadsigns,
     hourServiceDays
   );
-  const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${stopName}</title>
-</head>
-<body>
-${pageContent}</body>
-</html>`;
   
   // Generate CSV with service days using WASM
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];

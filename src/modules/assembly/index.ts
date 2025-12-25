@@ -51,6 +51,6 @@ export { BaseLayout } from '../../layouts/BaseLayout';
 
 // Export pages
 export {
-  buildStopPageContent
+  buildStopPageHTML
 } from '../../pages/StopPage';
 

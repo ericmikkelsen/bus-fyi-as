@@ -8,9 +8,10 @@ import { StopHeader } from '../components/StopHeader';
 import { TerminalsList } from '../components/TerminalsList';
 
 /**
- * Builds complete stop page content (everything inside <body>)
+ * Builds COMPLETE stop page HTML (including <html>, <head>, <body> tags)
  * This is called ONCE per stop page to minimize JavaScript/WASM boundary crossings
- * All HTML generation happens in AssemblyScript
+ * All HTML generation and formatting happens in AssemblyScript
+ * JavaScript only prepares data - NO string operations
  * 
  * @param stopName - Name of the stop
  * @param stopId - Stop ID
@@ -19,13 +20,14 @@ import { TerminalsList } from '../components/TerminalsList';
  * @param agency - Agency name
  * @param terminalStops - Array of terminal stop IDs
  * @param terminalNames - Array of terminal stop names (parallel to terminalStops)
- * @param hours - Array of hours with schedules
- * @param hourArrivalTimes - Array of GTFS times for each hour (e.g., "09:00:00")
+ * @param hourDisplays - Array of PRE-FORMATTED hour displays (e.g., "9:00 AM")
+ * @param hourFormattedTimes - Array of PRE-FORMATTED times (e.g., "9:00 AM", "9:30 AM")
+ * @param hourDatetimes - Array of datetime attributes (e.g., "09:00", "09:30")
  * @param hourRouteNames - Array of route names for each hour
  * @param hourHeadsigns - Array of headsigns for each hour
  * @param hourServiceDays - Array of service day strings for each hour
  */
-export function buildStopPageContent(
+export function buildStopPageHTML(
   stopName: string,
   stopId: string,
   parentStopId: string,
@@ -33,14 +35,22 @@ export function buildStopPageContent(
   agency: string,
   terminalStops: string[],
   terminalNames: string[],
-  hours: i32[],
-  hourArrivalTimes: string[][],
+  hourDisplays: string[],
+  hourFormattedTimes: string[][],
+  hourDatetimes: string[][],
   hourRouteNames: string[][],
   hourHeadsigns: string[][],
   hourServiceDays: string[][]
 ): string {
+  // Start HTML document
+  let html = '<!DOCTYPE html>\n<html lang="en">\n<head>\n';
+  html += '  <meta charset="UTF-8">\n';
+  html += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
+  html += '  <title>' + stopName + '</title>\n';
+  html += '</head>\n<body>\n';
+  
   // Build stop header (with parent link if applicable)
-  let html = StopHeader(stopName, stopId, parentStopId, parentStopName, agency);
+  html += StopHeader(stopName, stopId, parentStopId, parentStopName, agency);
   
   // Build terminals list if there are any
   if (terminalStops.length > 0) {
@@ -48,27 +58,31 @@ export function buildStopPageContent(
   }
   
   // Build routes section header (only if there are routes)
-  if (hours.length > 0) {
+  if (hourDisplays.length > 0) {
     html += '<h2>Routes at ' + stopName + '</h2>\n';
   }
   
   // Build schedule for each hour
-  for (let i = 0; i < hours.length; i++) {
-    const hour = hours[i];
-    const times = hourArrivalTimes[i];
+  for (let i = 0; i < hourDisplays.length; i++) {
+    const hourDisplay = hourDisplays[i];
+    const formattedTimes = hourFormattedTimes[i];
+    const datetimes = hourDatetimes[i];
     const routes = hourRouteNames[i];
     const headsigns = hourHeadsigns[i];
     const serviceDays = hourServiceDays[i];
     
-    html += HourHeader(hour);
+    html += HourHeader(hourDisplay);
     html += ScheduleListStart();
     
-    for (let j = 0; j < times.length; j++) {
-      html += ScheduleEntry(times[j], routes[j], headsigns[j], serviceDays[j]);
+    for (let j = 0; j < formattedTimes.length; j++) {
+      html += ScheduleEntry(formattedTimes[j], datetimes[j], routes[j], headsigns[j], serviceDays[j]);
     }
     
     html += ScheduleListEnd();
   }
+  
+  // Close HTML document
+  html += '</body>\n</html>';
   
   return html;
 }
