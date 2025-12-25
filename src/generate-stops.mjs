@@ -170,18 +170,62 @@ async function processStopWithWASM(
     const hourHeader = wasmModule.HourHeader(hour);
     scheduleHtml += hourHeader;
     
-    // Build entries in JavaScript to avoid passing large arrays to WASM
-    scheduleHtml += '<ol>\n';
+    // Group entries by time+route+headsign to deduplicate and collect service days
+    const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
+    
     for (let j = 0; j < times.length; j++) {
-      // Build entry in JavaScript (avoid WASM issues)
       const time = times[j] || '';
       const route = routes[j] || '';
       const headsign = headsigns[j] || '';
+      
+      // Get the corresponding stopTime to find service_id
+      const idx = sortedIndices[j];
+      const stopTime = stopTimesForThisStop[idx];
+      const tripId = tripIds[idx];
+      const trip = tripMap.get(tripId);
+      const calendar = trip ? calendarMap.get(trip.service_id) : null;
+      
+      const key = `${time}|${route}|${headsign}`;
+      
+      if (!entryMap.has(key)) {
+        entryMap.set(key, {
+          time,
+          route,
+          headsign,
+          serviceDaysSet: new Set()
+        });
+      }
+      
+      // Add service days from calendar
+      if (calendar && calendar._serviceDays) {
+        const daysArray = calendar._serviceDays.split(', ');
+        for (const day of daysArray) {
+          entryMap.get(key).serviceDaysSet.add(day);
+        }
+      }
+    }
+    
+    // Build entries in JavaScript to avoid passing large arrays to WASM
+    scheduleHtml += '<ol>\n';
+    for (const entry of entryMap.values()) {
+      const time = entry.time;
+      const route = entry.route;
+      const headsign = entry.headsign;
+      
+      // Convert service days Set to sorted array and join
+      const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      const serviceDaysArray = Array.from(entry.serviceDaysSet).sort((a, b) => {
+        return dayOrder.indexOf(a) - dayOrder.indexOf(b);
+      });
+      const serviceDaysStr = serviceDaysArray.join(', ');
       
       // Build HTML directly in JavaScript
       scheduleHtml += '  <li>' + time + ' - ' + route;
       if (headsign) {
         scheduleHtml += ' to ' + headsign;
+      }
+      if (serviceDaysStr) {
+        scheduleHtml += ' ' + serviceDaysStr;
       }
       scheduleHtml += '</li>\n';
     }
