@@ -26,6 +26,64 @@ async function writeFileStreamFast(filePath, buffer) {
 }
 
 /**
+ * Format GTFS time string to readable format in JavaScript
+ * @param {string} gtfsTime - Time in GTFS format (HH:MM:SS, can be > 24 for times past midnight)
+ * @returns {{formatted: string, datetime: string}} - Formatted time and ISO datetime
+ */
+function formatTime(gtfsTime) {
+  if (!gtfsTime || gtfsTime.length === 0) {
+    return { formatted: '--:--', datetime: '00:00' };
+  }
+  
+  // Parse time (HH:MM:SS format)
+  const parts = gtfsTime.split(':');
+  if (parts.length < 2) {
+    return { formatted: gtfsTime, datetime: '00:00' };
+  }
+  
+  let hour = parseInt(parts[0], 10);
+  const minute = parseInt(parts[1], 10);
+  
+  if (isNaN(hour) || isNaN(minute)) {
+    return { formatted: gtfsTime, datetime: '00:00' };
+  }
+  
+  // Handle times past midnight (25:00 = 1:00 AM next day)
+  let displayHour = hour;
+  if (hour >= 24) {
+    displayHour = hour - 24;
+  }
+  
+  // Determine AM/PM
+  let period = 'AM';
+  if (displayHour >= 12) {
+    period = 'PM';
+    if (displayHour > 12) {
+      displayHour = displayHour - 12;
+    }
+  }
+  
+  if (displayHour === 0) {
+    displayHour = 12;
+  }
+  
+  // Format minute with leading zero
+  const minuteFormatted = minute < 10 ? '0' + minute : minute.toString();
+  
+  // Build ISO time for datetime attribute
+  let isoHour = hour;
+  if (isoHour >= 24) {
+    isoHour = isoHour - 24;
+  }
+  const isoHourStr = isoHour < 10 ? '0' + isoHour : isoHour.toString();
+  const datetime = isoHourStr + ':' + minuteFormatted;
+  
+  const formatted = displayHour + ':' + minuteFormatted + ' ' + period;
+  
+  return { formatted, datetime };
+}
+
+/**
  * Load CSV file and let WASM parse it
  */
 function loadCSVForWASM(filePath) {
@@ -218,8 +276,12 @@ async function processStopWithWASM(
       });
       const serviceDaysStr = serviceDaysArray.join(', ');
       
-      // Build HTML directly in JavaScript using Time component from WASM
-      const timeHtml = wasmModule.Time(time);
+      // Format time in JavaScript to avoid WASM string operations
+      const timeFormatted = formatTime(time);
+      
+      // Use WASM Time component to wrap in semantic HTML
+      const timeHtml = wasmModule.Time(timeFormatted.formatted, timeFormatted.datetime);
+      
       scheduleHtml += '  <li>' + timeHtml + ' - ' + route;
       if (headsign) {
         scheduleHtml += ' to ' + headsign;
