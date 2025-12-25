@@ -13,12 +13,13 @@ export function buildScheduleForHour(
   hour: i32,
   arrivalTimes: string[],
   routeNames: string[],
-  headsigns: string[]
+  headsigns: string[],
+  serviceDays: string[]
 ): string {
   let html = HourHeader(hour) + ScheduleListStart();
   
   for (let i = 0; i < arrivalTimes.length; i++) {
-    html += ScheduleEntry(arrivalTimes[i], routeNames[i], headsigns[i]);
+    html += ScheduleEntry(arrivalTimes[i], routeNames[i], headsigns[i], serviceDays[i]);
   }
   
   html += ScheduleListEnd();
@@ -33,7 +34,8 @@ export function buildCompleteSchedule(
   hours: i32[],
   hourArrivalTimes: string[][],
   hourRouteNames: string[][],
-  hourHeadsigns: string[][]
+  hourHeadsigns: string[][],
+  hourServiceDays: string[][]
 ): string {
   let html = '';
   
@@ -42,7 +44,8 @@ export function buildCompleteSchedule(
       hours[i],
       hourArrivalTimes[i],
       hourRouteNames[i],
-      hourHeadsigns[i]
+      hourHeadsigns[i],
+      hourServiceDays[i]
     );
   }
   

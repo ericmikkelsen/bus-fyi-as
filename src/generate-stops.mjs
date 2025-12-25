@@ -262,34 +262,24 @@ async function processStopWithWASM(
       }
     }
     
-    // Build entries in JavaScript to avoid passing large arrays to WASM
+    // Build entries using WASM ScheduleEntry component
     scheduleHtml += '<ol>\n';
     for (const entry of entryMap.values()) {
-      const time = entry.time;
+      const gtfsTime = entry.time;
       const route = entry.route;
       const headsign = entry.headsign;
       
-      // Convert service days Set to sorted array and join
+      // Convert service days Set to sorted array and join in JavaScript
       const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
       const serviceDaysArray = Array.from(entry.serviceDaysSet).sort((a, b) => {
         return dayOrder.indexOf(a) - dayOrder.indexOf(b);
       });
       const serviceDaysStr = serviceDaysArray.join(', ');
       
-      // Format time in JavaScript to avoid WASM string operations
-      const timeFormatted = formatTime(time);
-      
-      // Use WASM Time component to wrap in semantic HTML
-      const timeHtml = wasmModule.Time(timeFormatted.formatted, timeFormatted.datetime);
-      
-      scheduleHtml += '  <li>' + timeHtml + ' - ' + route;
-      if (headsign) {
-        scheduleHtml += ' to ' + headsign;
-      }
-      if (serviceDaysStr) {
-        scheduleHtml += ' ' + serviceDaysStr;
-      }
-      scheduleHtml += '</li>\n';
+      // Use WASM ScheduleEntry component - passes raw GTFS time
+      // ScheduleEntry will handle time formatting and Time component internally
+      const entryHtml = wasmModule.ScheduleEntry(gtfsTime, route, headsign, serviceDaysStr);
+      scheduleHtml += entryHtml;
     }
     scheduleHtml += '</ol>\n';
   }
