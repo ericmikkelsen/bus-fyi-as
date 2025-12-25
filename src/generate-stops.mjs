@@ -90,8 +90,22 @@ async function processStopWithWASM(
   const arrivalTimes = stopTimesForThisStop.map(st => st.arrival_time);
   const tripIds = stopTimesForThisStop.map(st => st.trip_id);
   
-  // Get unique hours using WASM
-  const hours = wasmModule.groupStopTimesByHour(arrivalTimes);
+  // Group by hour in JavaScript (avoid passing large arrays to WASM)
+  function getHourFromTime(timeStr) {
+    if (!timeStr || timeStr.length === 0) return 0;
+    const colonIndex = timeStr.indexOf(':');
+    if (colonIndex < 0) return 0;
+    const hourStr = timeStr.substring(0, colonIndex);
+    const hour = parseInt(hourStr, 10);
+    return isNaN(hour) ? 0 : hour;
+  }
+  
+  // Group stop times by hour
+  const hoursSet = new Set();
+  for (let i = 0; i < arrivalTimes.length; i++) {
+    hoursSet.add(getHourFromTime(arrivalTimes[i]));
+  }
+  const hours = Array.from(hoursSet).sort((a, b) => a - b);
   
   // Prepare data for each hour - organize in JavaScript, build strings in WASM
   const hourArrivalTimes = [];
@@ -101,11 +115,16 @@ async function processStopWithWASM(
   for (let i = 0; i < hours.length; i++) {
     const hour = hours[i];
     
-    // Use WASM to filter stop times for this hour
-    const indicesForHour = wasmModule.filterStopTimesByHour(arrivalTimes, hour);
+    // Filter in JavaScript (avoid WASM)
+    const indicesForHour = [];
+    for (let j = 0; j < arrivalTimes.length; j++) {
+      if (getHourFromTime(arrivalTimes[j]) === hour) {
+        indicesForHour.push(j);
+      }
+    }
     
-    // Sort in JavaScript to avoid WASM memory management issues
-    const sortedIndices = indicesForHour.slice().sort((a, b) => {
+    // Sort in JavaScript
+    const sortedIndices = indicesForHour.sort((a, b) => {
       const time1 = arrivalTimes[a];
       const time2 = arrivalTimes[b];
       return time1.localeCompare(time2);
@@ -125,7 +144,8 @@ async function processStopWithWASM(
       const route = trip ? routeMap.get(trip.route_id) : null;
       
       const routeName = route ? (route.route_short_name || route.route_long_name) : 'Unknown';
-      const time = wasmModule.formatTimeReadable(stopTime.arrival_time);
+      // Format time in JavaScript (avoid WASM issues with malformed data)
+      const time = formatTimeInJS(stopTime.arrival_time);
       const headsign = trip?.trip_headsign || '';
       
       timesForHour.push(time);
@@ -138,13 +158,35 @@ async function processStopWithWASM(
     hourHeadsigns.push(headsignsForHour);
   }
   
-  // Build complete schedule HTML using WASM - all string concatenation in WASM
-  const scheduleHtml = wasmModule.buildCompleteSchedule(
-    hours,
-    hourArrivalTimes,
-    hourRouteNames,
-    hourHeadsigns
-  );
+  // Build complete schedule HTML in JavaScript (avoid large data to WASM)
+  let scheduleHtml = '';
+  for (let i = 0; i < hours.length; i++) {
+    const hour = hours[i];
+    const times = hourArrivalTimes[i];
+    const routes = hourRouteNames[i];
+    const headsigns = hourHeadsigns[i];
+    
+    // Format hour header using WASM (single string, safe)
+    const hourHeader = wasmModule.HourHeader(hour);
+    scheduleHtml += hourHeader;
+    
+    // Build entries in JavaScript to avoid passing large arrays to WASM
+    scheduleHtml += '<ol>\n';
+    for (let j = 0; j < times.length; j++) {
+      // Build entry in JavaScript (avoid WASM issues)
+      const time = times[j] || '';
+      const route = routes[j] || '';
+      const headsign = headsigns[j] || '';
+      
+      // Build HTML directly in JavaScript
+      scheduleHtml += '  <li>' + time + ' - ' + route;
+      if (headsign) {
+        scheduleHtml += ' to ' + headsign;
+      }
+      scheduleHtml += '</li>\n';
+    }
+    scheduleHtml += '</ol>\n';
+  }
   
   // Assemble complete page HTML in JavaScript (avoid WASM template literal issues)
   const pageContent = stopHeaderHtml + terminalsHtml + routesSectionHeader + scheduleHtml;
@@ -250,6 +292,34 @@ function parseCSVInJS(content) {
 }
 
 /**
+ * Format time from HH:MM:SS to readable format in JavaScript
+ * This avoids WASM issues with malformed data
+ */
+function formatTimeInJS(timeStr) {
+  if (!timeStr || timeStr.trim().length === 0) return '';
+  
+  const parts = timeStr.split(':');
+  if (parts.length < 2) return timeStr;
+  
+  const hours = parseInt(parts[0], 10);
+  const minutes = parts[1];
+  
+  if (isNaN(hours)) return timeStr;
+  
+  // Handle times >= 24:00:00 (next day service)
+  let displayHours = hours >= 24 ? hours - 24 : hours;
+  
+  const period = displayHours >= 12 ? 'PM' : 'AM';
+  if (displayHours === 0) {
+    displayHours = 12;
+  } else if (displayHours > 12) {
+    displayHours = displayHours - 12;
+  }
+  
+  return `${displayHours}:${minutes} ${period}`;
+}
+
+/**
  * Format elapsed time for logging
  */
 function formatTime(ms) {
@@ -318,22 +388,22 @@ async function generateStopPages() {
     const csvParseStart = Date.now();
     
     const stopsContent = loadCSVForWASM(join(agencyPath, 'stops.txt'));
-    const stops = parseCSVWithWASM(stopsContent, wasmModule);
+    const stops = parseCSVInJS(stopsContent);
     console.log(`    ✓ stops.txt (${stops.length} rows) - ${((Date.now() - csvParseStart) / 1000).toFixed(2)}s`);
     
     const routesParseStart = Date.now();
     const routesContent = loadCSVForWASM(join(agencyPath, 'routes.txt'));
-    const routes = parseCSVWithWASM(routesContent, wasmModule);
+    const routes = parseCSVInJS(routesContent);
     console.log(`    ✓ routes.txt (${routes.length} rows) - ${((Date.now() - routesParseStart) / 1000).toFixed(2)}s`);
     
     const tripsParseStart = Date.now();
     const tripsContent = loadCSVForWASM(join(agencyPath, 'trips.txt'));
-    const trips = parseCSVWithWASM(tripsContent, wasmModule);
+    const trips = parseCSVInJS(tripsContent);
     console.log(`    ✓ trips.txt (${trips.length} rows) - ${((Date.now() - tripsParseStart) / 1000).toFixed(2)}s`);
     
     const calendarParseStart = Date.now();
     const calendarContent = loadCSVForWASM(join(agencyPath, 'calendar.txt'));
-    const calendar = parseCSVWithWASM(calendarContent, wasmModule);
+    const calendar = parseCSVInJS(calendarContent);
     console.log(`    ✓ calendar.txt (${calendar.length} rows) - ${((Date.now() - calendarParseStart) / 1000).toFixed(2)}s`);
     
     // Stream parse stop_times.txt (can be 300MB+, millions of rows)

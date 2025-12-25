@@ -102,14 +102,21 @@ export function filterStopTimesByHour(
  * Format time from HH:MM:SS to readable format (e.g., "6:00 AM")
  */
 export function formatTimeReadable(timeStr: string): string {
-  if (timeStr.length == 0) return '';
+  // Extra safety: check for null/empty/whitespace
+  if (timeStr.length == 0 || timeStr.trim().length == 0) return '';
   
-  const parts = timeStr.split(':');
-  if (parts.length < 2) return timeStr;
+  // Find colons manually instead of using split
+  const firstColon = timeStr.indexOf(':');
+  if (firstColon < 0 || firstColon == 0) return timeStr;
   
-  // Validate hour string before parsing
-  const hourStr = parts[0];
-  if (hourStr.length == 0) return timeStr;
+  const secondColon = timeStr.indexOf(':', firstColon + 1);
+  if (secondColon < 0) return timeStr;
+  
+  // Extract hour and minute strings
+  const hourStr = timeStr.substring(0, firstColon);
+  const minutes = timeStr.substring(firstColon + 1, secondColon);
+  
+  if (hourStr.length == 0 || minutes.length == 0) return timeStr;
   
   // Manual parsing to avoid unreachable errors
   let hours: i32 = 0;
@@ -123,8 +130,6 @@ export function formatTimeReadable(timeStr: string): string {
       return timeStr;
     }
   }
-  
-  const minutes = parts[1];
   
   // Handle times >= 24:00:00 (next day service)
   if (hours >= 24) {
