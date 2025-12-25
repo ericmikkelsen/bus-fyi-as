@@ -11,13 +11,13 @@ export function TerminalsList(parentStopId: string, childStopIds: string[], chil
     return '';
   }
   
-  let html = '<h2>Terminals</h2>\n  <ul>\n';
+  let html = '<h2>Terminals</h2> <ul>';
   
   for (let i = 0; i < childStopIds.length; i++) {
-    html += '    <li><a href="/stops/' + parentStopId + '/' + childStopIds[i] + '/index.html">' + childStopNames[i] + '</a></li>\n';
+    html += '    <li><a href="/stops/' + parentStopId + '/' + childStopIds[i] + '/index.html">' + childStopNames[i] + '</a></li>';
   }
   
-  html += '  </ul>\n';
+  html += '  </ul>';
   
   return html;
 }
