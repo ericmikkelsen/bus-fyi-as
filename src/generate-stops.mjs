@@ -172,6 +172,23 @@ async function processStopWithWASM(
   const arrivalTimes = stopTimesForThisStop.map(st => st.arrival_time);
   const tripIds = stopTimesForThisStop.map(st => st.trip_id);
   
+  // OPTIMIZATION: Pre-cache trip/route/calendar data for this stop to avoid repeated Map lookups
+  const stopTimeCache = new Array(stopTimesForThisStop.length);
+  for (let i = 0; i < stopTimesForThisStop.length; i++) {
+    const trip = tripMap.get(tripIds[i]);
+    const route = trip ? routeMap.get(trip.route_id) : null;
+    const calendar = trip ? calendarMap.get(trip.service_id) : null;
+    
+    stopTimeCache[i] = {
+      time: arrivalTimes[i],
+      routeName: route ? (route.route_short_name || route.route_long_name) : 'Unknown',
+      headsign: trip?.trip_headsign || '',
+      serviceDays: calendar?._serviceDays || '',
+      routeShortName: route?.route_short_name || '',
+      routeLongName: route?.route_long_name || ''
+    };
+  }
+  
   function getHourFromTime(timeStr) {
     if (!timeStr || timeStr.length === 0) return 0;
     const colonIndex = timeStr.indexOf(':');
@@ -332,24 +349,18 @@ async function processStopWithWASM(
   htmlParts.push('</body>\n</html>');
   const html = htmlParts.join('');
   
-  // Generate CSV with service days using WASM
+  // Generate CSV using pre-cached data (MUCH faster!)
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
   
   for (let i = 0; i < stopTimesForThisStop.length; i++) {
-    const stopTime = stopTimesForThisStop[i];
-    const trip = tripMap.get(stopTime.trip_id);
-    const route = trip ? routeMap.get(trip.route_id) : null;
-    const calendar = trip ? calendarMap.get(trip.service_id) : null;
+    const cached = stopTimeCache[i];
     
-    if (route && calendar) {
-      const routeShort = (route.route_short_name || '').replace(/,/g, ' ');
-      const routeLong = (route.route_long_name || '').replace(/,/g, ' ');
-      const headsign = (trip.trip_headsign || '').replace(/,/g, ' ');
+    if (cached.serviceDays) {
+      const routeShort = cached.routeShortName.replace(/,/g, ' ');
+      const routeLong = cached.routeLongName.replace(/,/g, ' ');
+      const headsign = cached.headsign.replace(/,/g, ' ');
       
-      // Use pre-computed service days string
-      const serviceDays = calendar._serviceDays;
-      
-      csvLines.push(`${stopTime.arrival_time},${routeShort},${routeLong},${headsign},${serviceDays}`);
+      csvLines.push(`${stopTimesForThisStop[i].arrival_time},${routeShort},${routeLong},${headsign},${cached.serviceDays}`);
     }
   }
   
@@ -646,8 +657,8 @@ async function generateStopPages() {
     console.log(`  📄 Processing ${stopsToProcess.length} stops...`);
     
     // OPTIMIZATION: Batch processing in parallel to maximize I/O throughput
-    // Process stops in batches of 100 to avoid overwhelming the file system
-    const BATCH_SIZE = 100;
+    // Smaller batch size (50) for more frequent progress updates and better tuning
+    const BATCH_SIZE = 50;
     let processed = 0;
     let lastLog = Date.now();
     const processStartTime = Date.now();
@@ -670,8 +681,8 @@ async function generateStopPages() {
       await Promise.all(batchPromises);
       processed += batch.length;
       
-      // Progress logging every 5 seconds for faster feedback
-      if (Date.now() - lastLog > 5000) {
+      // Progress logging every 3 seconds for faster feedback
+      if (Date.now() - lastLog > 3000) {
         const elapsed = (Date.now() - processStartTime) / 1000;
         const rate = processed / elapsed;
         const remaining = stopsToProcess.length - processed;
@@ -682,12 +693,10 @@ async function generateStopPages() {
       }
     }
     
-    promises.push(true); // Keep for counting
-    
     const genTime = ((Date.now() - genStart) / 1000).toFixed(2);
-    totalStops += promises.length;
+    totalStops += stopsToProcess.length;
     
-    console.log(`  ✅ Generated ${promises.length} stops in ${genTime}s (${(promises.length / genTime).toFixed(0)} pages/sec)`);
+    console.log(`  ✅ Generated ${stopsToProcess.length.toLocaleString()} stops in ${genTime}s (${(stopsToProcess.length / genTime).toFixed(0)} pages/sec)`);
   }
   
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
