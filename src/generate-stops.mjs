@@ -158,31 +158,42 @@ async function processStopWithWASM(
     hourHeadsigns.push(headsignsForHour);
   }
   
-  // Build complete schedule HTML in JavaScript (avoid large data to WASM)
-  let scheduleHtml = '';
-  for (let i = 0; i < hours.length; i++) {
-    const hour = hours[i];
-    const times = hourArrivalTimes[i];
-    const routes = hourRouteNames[i];
-    const headsigns = hourHeadsigns[i];
-    
-    // Format hour header using WASM (single string, safe)
-    const hourHeader = wasmModule.HourHeader(hour);
-    scheduleHtml += hourHeader;
-    
-    // Group entries by time+route+headsign to deduplicate and collect service days
-    const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
-    
-    for (let j = 0; j < times.length; j++) {
-      const time = times[j] || '';
-      const route = routes[j] || '';
-      const headsign = headsigns[j] || '';
+    // Build complete schedule HTML in JavaScript (avoid large data to WASM)
+    let scheduleHtml = '';
+    for (let i = 0; i < hours.length; i++) {
+      const hour = hours[i];
+      const times = hourArrivalTimes[i];
+      const routes = hourRouteNames[i];
+      const headsigns = hourHeadsigns[i];
+      const indicesForHour = []; // Track original indices for this hour
       
-      // Get the corresponding stopTime to find service_id
-      const stopTime = stopTimesForThisStop[j];
-      const tripId = stopTime.trip_id;
-      const trip = tripMap.get(tripId);
-      const calendar = trip ? calendarMap.get(trip.service_id) : null;
+      // Find original indices for this hour
+      for (let k = 0; k < arrivalTimes.length; k++) {
+        if (getHourFromTime(arrivalTimes[k]) === hour) {
+          indicesForHour.push(k);
+        }
+      }
+      // Sort by time
+      indicesForHour.sort((a, b) => arrivalTimes[a].localeCompare(arrivalTimes[b]));
+      
+      // Format hour header using WASM (single string, safe)
+      const hourHeader = wasmModule.HourHeader(hour);
+      scheduleHtml += hourHeader;
+      
+      // Group entries by time+route+headsign to deduplicate and collect service days
+      const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
+      
+      for (let j = 0; j < times.length; j++) {
+        const time = times[j] || '';
+        const route = routes[j] || '';
+        const headsign = headsigns[j] || '';
+        
+        // Get the corresponding stopTime using original index
+        const originalIdx = indicesForHour[j];
+        const stopTime = stopTimesForThisStop[originalIdx];
+        const tripId = stopTime.trip_id;
+        const trip = tripMap.get(tripId);
+        const calendar = trip ? calendarMap.get(trip.service_id) : null;
       
       const key = `${time}|${route}|${headsign}`;
       
@@ -589,7 +600,7 @@ async function generateStopPages() {
       
       // Log progress every 60 seconds for large datasets
       if (stopsToProcess.length > 1000 && Date.now() - lastLog > 60000) {
-        logProgress(i + 1, stopsToProcess.length, 'Generating pages', genStart);
+        logProgress(i + 1, stopsToProcess.length, 'Generating pages', processStartTime);
         lastLog = Date.now();
       }
     }
@@ -597,9 +608,9 @@ async function generateStopPages() {
     await Promise.all(promises);
     
     const genTime = ((Date.now() - genStart) / 1000).toFixed(2);
-    totalStops += promises.length;
+    totalStops += stopsToProcess.length;
     
-    console.log(`  ✅ Generated ${promises.length} stops in ${genTime}s (${(promises.length / genTime).toFixed(0)} pages/sec)`);
+    console.log(`  ✅ Generated ${stopsToProcess.length} stops in ${genTime}s (${(stopsToProcess.length / (Date.now() - genStart) * 1000).toFixed(0)} pages/sec)`);
   }
   
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
