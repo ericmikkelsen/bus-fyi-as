@@ -1,0 +1,573 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+08:45:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+11:02:37,91,Austin,,Sat
+09:02:00,91,Austin,,Sat
+11:06:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:09:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+23:14:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:40:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:51:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+08:38:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:04:33,91,Austin,,Sat
+11:05:57,81W,West Lawrence,,Sun
+18:38:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:19:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:17:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:18:27,81W,West Lawrence,,Sat
+14:35:57,81W,West Lawrence,,Sun
+09:42:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:11:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:19:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:13:33,91,Austin,,Sat
+16:13:33,91,Austin,,Sat
+09:59:27,81W,West Lawrence,,Sat
+17:08:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+21:49:03,91,Austin,,Sat
+06:46:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:08:03,91,Austin,,Sat
+20:35:50,81W,West Lawrence,,Sun
+21:08:07,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:08:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+08:27:27,81W,West Lawrence,,Sat
+17:48:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:30:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:37:30,91,Austin,,Sun
+19:36:27,81W,West Lawrence,,Sat
+16:11:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:04:07,91,Austin,,Sat
+07:40:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:20:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:25:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:10:30,91,Austin,,Sun
+13:26:27,81W,West Lawrence,,Sat
+18:13:03,91,Austin,,Sat
+19:33:27,81W,West Lawrence,,Sun
+09:07:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:02:37,91,Austin,,Sun
+10:06:27,81W,West Lawrence,,Sat
+07:12:33,91,Austin,,Sat
+14:29:07,91,Austin,,Sat
+15:08:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:35:57,81W,West Lawrence,,Sun
+12:24:37,91,Austin,,Sat
+21:08:03,91,Austin,,Sat
+05:49:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:41:00,91,Austin,,Sat
+06:46:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:53:03,91,Austin,,Sun
+10:33:27,81W,West Lawrence,,Sun
+06:11:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:38:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:10:30,91,Austin,,Sun
+17:03:27,81W,West Lawrence,,Sun
+07:12:33,91,Austin,,Sat
+14:38:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:48:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:18:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:35:37,91,Austin,,Sun
+09:44:00,91,Austin,,Sun
+05:41:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:08:33,91,Austin,,Sun
+12:24:37,91,Austin,,Sat
+13:01:37,91,Austin,,Sat
+22:31:00,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:57:03,91,Austin,,Sat
+22:06:27,81W,West Lawrence,,Sat
+19:31:33,91,Austin,,Sat
+08:13:30,91,Austin,,Sun
+12:27:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:09:30,91,Austin,,Sat
+11:03:27,81W,West Lawrence,,Sun
+21:48:30,91,Austin,,Mon,Tue,Wed,Thu,Fri
+05:39:27,81W,West Lawrence,,Sat
+10:43:07,91,Austin,,Sat
+15:56:37,91,Austin,,Sat
+12:27:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:05:50,81W,West Lawrence,,Sun
+10:23:37,91,Austin,,Sat
+09:36:27,81W,West Lawrence,,Sat
+15:46:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:37:37,91,Austin,,Sun
+07:36:27,81W,West Lawrence,,Sat
+15:44:27,81W,West Lawrence,,Sat
+17:38:37,91,Austin,,Sat
+22:01:27,81W,West Lawrence,,Sun
+19:25:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:52:03,91,Austin,,Sat
+11:22:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:11:33,91,Austin,,Sat
+11:54:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:17:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:54:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:29:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:17:27,81W,West Lawrence,,Sat
+19:06:27,81W,West Lawrence,,Sat
+10:51:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+08:08:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:10:30,91,Austin,,Sun
+08:27:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:16:37,91,Austin,,Sun
+17:39:27,81W,West Lawrence,,Sat
+21:08:07,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:55:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:12:33,91,Austin,,Sun
+07:50:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:30:33,91,Austin,,Sat
+07:25:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:42:07,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:52:27,81W,West Lawrence,,Sat
+16:35:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:59:37,91,Austin,,Sun
+15:04:07,91,Austin,,Sat
+12:40:27,81W,West Lawrence,,Sat
+22:49:37,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:03:34,81W,West Lawrence,,Sun
+07:43:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:53:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:33:27,81W,West Lawrence,,Sun
+13:37:37,91,Austin,,Sun
+15:36:27,81W,West Lawrence,,Sat
+20:20:27,81W,West Lawrence,,Sat
+05:49:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:04:07,91,Austin,,Sat
+07:40:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:06:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:05:57,81W,West Lawrence,,Sun
+15:05:57,81W,West Lawrence,,Sun
+22:31:00,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:04:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:01:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+20:57:00,91,Austin,,Sun
+13:01:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:50:33,91,Austin,,Sun
+12:40:37,91,Austin,,Sun
+09:54:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:21:30,91,Austin,,Sun
+13:54:07,91,Austin,,Sat
+17:16:27,81W,West Lawrence,,Sat
+14:54:33,91,Austin,,Sun
+15:23:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:06:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:36:37,91,Austin,,Sat
+16:33:27,81W,West Lawrence,,Sun
+08:18:33,91,Austin,,Sat
+18:50:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:58:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:05:57,81W,West Lawrence,,Sun
+18:57:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:45:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:06:50,81W,West Lawrence,,Sun
+15:46:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:36:27,81W,West Lawrence,,Sat
+13:18:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:13:03,91,Austin,,Sat
+18:02:27,81W,West Lawrence,,Sat
+16:58:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:47:33,91,Austin,,Sat
+12:05:37,91,Austin,,Sat
+08:23:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:36:27,81W,West Lawrence,,Sat
+17:36:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:07:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:50:33,91,Austin,,Sun
+09:19:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:04:33,91,Austin,,Sat
+19:32:00,91,Austin,,Sun
+21:44:00,91,Austin,,Sun
+14:22:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:27:00,91,Austin,,Sun
+22:49:37,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:53:27,81W,West Lawrence,,Sat
+15:21:27,81W,West Lawrence,,Sat
+11:22:40,91,Austin,,Sat
+19:14:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:51:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:45:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:43:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:24:03,91,Austin,,Sat
+19:03:27,81W,West Lawrence,,Sun
+13:01:37,91,Austin,,Sat
+05:26:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:35:57,81W,West Lawrence,,Sun
+13:49:27,81W,West Lawrence,,Sat
+14:46:37,91,Austin,,Sat
+08:57:30,91,Austin,,Sun
+19:06:50,81W,West Lawrence,,Sun
+13:56:37,91,Austin,,Sun
+07:43:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:03:27,81W,West Lawrence,,Sun
+14:06:27,81W,West Lawrence,,Sat
+20:06:27,81W,West Lawrence,,Sat
+18:32:33,91,Austin,,Sat
+08:59:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:44:37,91,Austin,,Sun
+14:58:27,81W,West Lawrence,,Sat
+08:04:27,81W,West Lawrence,,Sat
+08:03:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:20:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:33:34,81W,West Lawrence,,Sun
+11:44:37,91,Austin,,Sun
+12:06:27,81W,West Lawrence,,Sat
+18:36:50,81W,West Lawrence,,Sun
+06:28:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:07:27,81W,West Lawrence,,Sat
+11:43:10,91,Austin,,Sat
+06:32:27,81W,West Lawrence,,Sat
+13:35:57,81W,West Lawrence,,Sun
+20:09:07,91,Austin,,Sat
+21:06:27,81W,West Lawrence,,Sat
+18:50:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:29:33,91,Austin,,Sun
+16:30:33,91,Austin,,Sat
+16:56:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:53:30,91,Austin,,Sun
+17:56:07,91,Austin,,Sat
+08:17:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:43:07,91,Austin,,Sat
+08:06:27,81W,West Lawrence,,Sat
+18:52:03,91,Austin,,Sat
+18:26:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:55:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:19:00,91,Austin,,Sun
+19:50:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:54:07,91,Austin,,Sat
+11:22:40,91,Austin,,Sat
+18:03:27,81W,West Lawrence,,Sun
+20:48:03,91,Austin,,Sat
+13:06:27,81W,West Lawrence,,Sat
+09:24:03,91,Austin,,Sat
+16:32:03,91,Austin,,Sun
+22:10:30,91,Austin,,Sun
+19:37:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:59:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:40:37,91,Austin,,Sun
+20:35:00,91,Austin,,Sun
+07:41:27,81W,West Lawrence,,Sat
+21:19:00,91,Austin,,Sun
+22:36:27,81W,West Lawrence,,Sat
+13:18:37,91,Austin,,Sat
+13:39:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:53:03,91,Austin,,Sun
+18:48:27,81W,West Lawrence,,Sat
+09:21:30,91,Austin,,Sun
+11:02:37,91,Austin,,Sat
+21:03:27,81W,West Lawrence,,Sun
+05:56:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+15:17:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+06:57:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+06:09:27,81W,West Lawrence,,Sat
+08:03:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:51:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:06:27,81W,West Lawrence,,Sat
+10:06:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:05:30,91,Austin,,Sun
+21:30:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:33:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:14:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:21:37,91,Austin,,Sun
+15:39:07,91,Austin,,Sat
+15:17:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:55:00,91,Austin,,Sat
+09:44:07,91,Austin,,Sat
+16:49:37,91,Austin,,Sun
+18:29:33,91,Austin,,Sun
+17:28:07,91,Austin,,Sun
+13:56:37,91,Austin,,Sun
+15:03:34,81W,West Lawrence,,Sun
+10:27:00,91,Austin,,Sun
+14:11:07,91,Austin,,Sat
+10:49:33,91,Austin,,Sun
+20:33:27,81W,West Lawrence,,Sun
+13:18:37,91,Austin,,Sun
+19:32:00,91,Austin,,Sun
+19:11:33,91,Austin,,Sat
+08:41:00,91,Austin,,Sat
+07:34:03,91,Austin,,Sat
+17:08:37,91,Austin,,Sun
+06:51:03,91,Austin,,Sat
+07:27:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:28:03,91,Austin,,Sun
+22:09:30,91,Austin,,Sat
+17:56:07,91,Austin,,Sat
+10:22:27,81W,West Lawrence,,Sat
+08:57:30,91,Austin,,Sun
+16:47:33,91,Austin,,Sat
+13:18:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:35:57,81W,West Lawrence,,Sun
+14:54:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:11:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+05:56:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:25:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:06:27,81W,West Lawrence,,Sat
+07:07:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:09:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:28:03,91,Austin,,Sat
+17:06:27,81W,West Lawrence,,Sat
+15:14:03,91,Austin,,Sun
+11:07:33,91,Austin,,Sun
+12:45:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+21:06:27,81W,West Lawrence,,Sat
+19:50:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:38:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:03:34,81W,West Lawrence,,Sun
+13:36:27,81W,West Lawrence,,Sat
+19:49:37,91,Austin,,Sat
+10:04:07,91,Austin,,Sat
+13:34:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:34:27,81W,West Lawrence,,Sat
+08:36:27,81W,West Lawrence,,Sat
+15:38:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+21:49:03,91,Austin,,Sat
+22:15:37,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:09:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:30:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:35:50,81W,West Lawrence,,Sun
+19:35:50,81W,West Lawrence,,Sun
+08:18:33,91,Austin,,Sat
+15:23:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:45:27,81W,West Lawrence,,Sat
+06:36:27,81W,West Lawrence,,Sat
+12:02:37,91,Austin,,Sun
+08:17:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:37:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+21:28:03,91,Austin,,Sat
+22:37:30,91,Austin,,Sun
+19:20:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:36:50,81W,West Lawrence,,Sun
+14:53:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+20:57:00,91,Austin,,Sun
+15:53:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:57:27,81W,West Lawrence,,Sat
+16:21:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:57:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:26:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:45:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+11:43:10,91,Austin,,Sat
+16:49:37,91,Austin,,Sun
+09:19:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:09:30,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:36:27,81W,West Lawrence,,Sat
+17:40:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:36:27,81W,West Lawrence,,Sat
+15:21:37,91,Austin,,Sat
+08:50:27,81W,West Lawrence,,Sat
+11:25:33,91,Austin,,Sun
+17:47:37,91,Austin,,Sun
+12:59:37,91,Austin,,Sun
+11:09:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+11:07:33,91,Austin,,Sun
+12:49:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+11:54:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+20:18:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:38:37,91,Austin,,Sat
+18:18:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:44:00,91,Austin,,Sun
+09:09:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:33:34,81W,West Lawrence,,Sun
+17:05:57,81W,West Lawrence,,Sun
+14:35:37,91,Austin,,Sun
+18:26:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:35:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:07:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:05:57,81W,West Lawrence,,Sun
+10:34:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:02:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+06:42:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:59:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:34:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:45:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:37:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:11:27,81W,West Lawrence,,Sat
+06:28:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+07:07:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:38:27,81W,West Lawrence,,Sat
+08:48:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:08:33,91,Austin,,Sun
+20:48:03,91,Austin,,Sat
+06:51:03,91,Austin,,Sat
+13:03:27,81W,West Lawrence,,Sat
+20:06:14,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:25:27,81W,West Lawrence,,Sat
+06:55:27,81W,West Lawrence,,Sat
+22:15:37,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:59:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:29:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:49:37,91,Austin,,Sat
+21:31:27,81W,West Lawrence,,Sun
+14:46:37,91,Austin,,Sat
+15:33:33,91,Austin,,Sun
+11:08:27,81W,West Lawrence,,Sat
+21:10:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:33:34,81W,West Lawrence,,Sun
+13:14:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:04:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:08:37,91,Austin,,Sun
+17:47:37,91,Austin,,Sun
+16:21:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:06:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:34:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:11:07,91,Austin,,Sat
+09:03:20,81W,West Lawrence,,Sun
+11:54:27,81W,West Lawrence,,Sat
+11:06:27,81W,West Lawrence,,Sat
+21:42:07,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:56:37,91,Austin,,Sat
+21:29:27,81W,West Lawrence,,Sat
+10:19:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:43:07,91,Austin,,Sat
+17:27:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:34:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:31:33,91,Austin,,Sat
+09:07:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:55:00,91,Austin,,Sat
+17:59:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:30:27,81W,West Lawrence,,Sat
+22:31:27,81W,West Lawrence,,Sun
+11:36:27,81W,West Lawrence,,Sat
+20:43:27,81W,West Lawrence,,Sat
+18:13:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+10:51:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:53:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:34:03,91,Austin,,Sat
+18:06:27,81W,West Lawrence,,Sat
+08:38:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+21:10:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:21:07,91,Austin,,Sat
+20:52:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:15:27,81W,West Lawrence,,Sat
+18:49:30,91,Austin,,Sun
+09:44:00,91,Austin,,Sun
+11:34:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:11:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+06:06:27,81W,West Lawrence,,Sat
+16:56:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:06:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+15:08:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+15:35:57,81W,West Lawrence,,Sun
+13:51:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+06:42:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+08:27:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:54:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+15:19:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:35:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:48:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:24:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:43:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:33:27,81W,West Lawrence,,Sun
+17:21:07,91,Austin,,Sat
+11:59:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:04:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:05:37,91,Austin,,Sat
+11:22:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:32:00,91,Austin,,Sat
+08:35:30,91,Austin,,Sun
+22:35:50,81W,West Lawrence,,Sun
+16:06:27,81W,West Lawrence,,Sat
+18:49:30,91,Austin,,Sun
+10:23:37,91,Austin,,Sat
+20:34:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+06:57:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+16:36:27,81W,West Lawrence,,Sat
+08:23:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:14:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:53:30,91,Austin,,Sun
+18:37:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:28:03,91,Austin,,Sat
+15:38:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:29:07,91,Austin,,Sat
+18:01:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:30:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:43:07,91,Austin,,Sat
+18:01:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:24:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:34:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:27:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+15:14:03,91,Austin,,Sun
+08:35:30,91,Austin,,Sun
+20:03:27,81W,West Lawrence,,Sun
+07:50:10,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:30:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+11:38:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:21:37,91,Austin,,Sun
+10:49:33,91,Austin,,Sun
+20:18:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:57:03,91,Austin,,Sat
+07:59:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:36:27,81W,West Lawrence,,Sat
+20:52:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+05:41:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+20:28:03,91,Austin,,Sat
+20:06:14,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:09:30,91,Austin,,Mon,Tue,Wed,Thu,Fri
+11:25:33,91,Austin,,Sun
+20:13:30,91,Austin,,Sun
+20:05:50,81W,West Lawrence,,Sun
+12:03:34,81W,West Lawrence,,Sun
+16:11:17,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:20:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:45:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:02:00,91,Austin,,Sat
+06:26:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+23:14:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:42:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+18:38:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+17:36:43,91,Austin,,Mon,Tue,Wed,Thu,Fri
+21:36:27,81W,West Lawrence,,Sat
+09:44:07,91,Austin,,Sat
+15:33:33,91,Austin,,Sun
+06:26:07,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:18:37,91,Austin,,Sun
+14:33:34,81W,West Lawrence,,Sun
+13:18:37,91,Austin,,Sat
+18:32:33,91,Austin,,Sat
+12:49:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:08:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:54:33,91,Austin,,Sun
+08:45:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+07:11:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:05:57,81W,West Lawrence,,Sun
+16:12:33,91,Austin,,Sun
+16:33:13,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:12:27,81W,West Lawrence,,Sat
+20:09:07,91,Austin,,Sat
+10:35:57,81W,West Lawrence,,Sun
+07:27:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+13:39:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:39:07,91,Austin,,Sat
+14:35:27,81W,West Lawrence,,Sat
+20:04:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+19:02:33,91,Austin,,Mon,Tue,Wed,Thu,Fri
+12:33:34,81W,West Lawrence,,Sun
+16:32:03,91,Austin,,Sun
+20:13:30,91,Austin,,Sun
+18:13:40,91,Austin,,Mon,Tue,Wed,Thu,Fri
+09:13:27,81W,West Lawrence,,Sat
+14:36:27,81W,West Lawrence,,Sat
+20:35:00,91,Austin,,Sun
+22:32:00,91,Austin,,Sat
+21:05:50,81W,West Lawrence,,Sun
+05:36:27,81W,West Lawrence,,Sat
+09:09:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+22:05:50,81W,West Lawrence,,Sun
+11:59:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:06:27,81W,West Lawrence,,Sat
+15:21:37,91,Austin,,Sat
+14:03:34,81W,West Lawrence,,Sun
+17:28:07,91,Austin,,Sun
+10:05:30,91,Austin,,Sun
+11:31:27,81W,West Lawrence,,Sat
+13:36:37,91,Austin,,Sat
+10:05:50,81W,West Lawrence,,Sun
+08:13:30,91,Austin,,Sun
+14:22:37,91,Austin,,Mon,Tue,Wed,Thu,Fri
+15:19:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:36:27,81W,West Lawrence,,Sat
+21:30:03,91,Austin,,Mon,Tue,Wed,Thu,Fri
+07:28:03,91,Austin,,Sun
+20:35:40,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:48:30,91,Austin,,Mon,Tue,Wed,Thu,Fri
+14:16:37,91,Austin,,Sun
+09:33:27,81W,West Lawrence,,Sun
+17:19:47,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:35:50,81W,West Lawrence,,Sun
+12:11:07,91,Austin,,Mon,Tue,Wed,Thu,Fri

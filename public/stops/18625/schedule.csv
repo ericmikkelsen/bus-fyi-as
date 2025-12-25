@@ -1,0 +1,836 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+16:27:19,9,Ashland,,Sat
+07:58:39,9,Ashland,,Sat
+08:38:09,9,Ashland,,Sat
+18:48:01,9,Ashland,,Sat
+18:41:49,9,Ashland,,Sat
+08:16:39,9,Ashland,,Sun
+07:17:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:08:39,9,Ashland,,Sat
+11:43:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:53:01,9,Ashland,,Sat
+11:24:39,9,Ashland,,Sun
+07:50:39,9,Ashland,,Sun
+18:28:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:40:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:04:49,9,Ashland,,Thu
+17:01:01,9,Ashland,,Sat
+17:56:49,9,Ashland,,Sat
+18:04:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:21:19,9,Ashland,,Sat
+15:29:27,9,Ashland,,Sun
+16:36:19,9,Ashland,,Sat
+10:02:44,9,Ashland,,Sat
+13:54:39,9,Ashland,,Sun
+05:49:04,9,Ashland,,Sun
+20:44:49,9,Ashland,,Sat
+12:48:49,9,Ashland,,Sat
+19:41:49,9,Ashland,,Sat
+16:01:24,9,Ashland,,Thu
+01:37:34,9,Ashland,,Sun
+18:34:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+17:05:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:28:31,9,Ashland,,Sat
+05:31:17,9,Ashland,,Sun
+21:12:01,9,Ashland,,Sat
+07:22:57,9,Ashland,,Sat
+13:13:57,9,Ashland,,Sun
+14:58:54,9,Ashland,,Thu
+09:10:27,9,Ashland,,Sat
+20:34:39,9,Ashland,,Sat
+00:25:52,9,Ashland,,Mon
+14:55:31,9,Ashland,,Sat
+13:39:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:01:24,9,Ashland,,Mon,Tue,Wed,Fri
+09:40:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:09:49,9,Ashland,,Sat
+16:30:39,9,Ashland,,Sun
+23:27:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:09:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:53:14,9,Ashland,,Sat
+06:25:04,9,Ashland,,Sun
+15:24:39,9,Ashland,,Sun
+11:14:39,9,Ashland,,Sun
+07:27:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:54:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+04:05:34,9,Ashland,,Sun
+16:09:19,9,Ashland,,Sat
+21:23:52,9,Ashland,,Sun
+12:39:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:40:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:26:39,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:48:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:54:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:35:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:07:57,9,Ashland,,Sat
+16:18:19,9,Ashland,,Sat
+17:43:39,9,Ashland,,Sun
+09:08:26,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+22:14:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:03:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:22:31,9,Ashland,,Sat
+08:59:26,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+15:51:54,9,Ashland,,Thu
+13:43:31,9,Ashland,,Sat
+14:54:39,9,Ashland,,Sun
+23:47:34,9,Ashland,,Sun
+18:43:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+15:04:49,9,Ashland,,Mon,Tue,Wed,Fri
+09:44:39,9,Ashland,,Sun
+07:38:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:45:54,9,Ashland,,Thu
+11:54:39,9,Ashland,,Sun
+08:47:27,9,Ashland,,Sun
+19:46:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+12:12:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:30:01,9,Ashland,,Sat
+07:46:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:29:27,9,Ashland,,Sun
+18:46:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:39:09,9,Ashland,,Sat
+06:42:52,9,Ashland,,Sun
+13:54:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:01:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+19:50:49,9,Ashland,,Sat
+16:50:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+05:20:04,9,Ashland,,Sat
+10:03:09,9,Ashland,,Sat
+09:59:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+08:07:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+15:48:49,9,Ashland,,Thu
+17:33:01,9,Ashland,,Sat
+08:37:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:10:01,9,Ashland,,Sat
+10:18:27,9,Ashland,,Sun
+12:31:01,9,Ashland,,Sat
+13:15:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:59:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:28:04,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+21:22:31,9,Ashland,,Sat
+13:34:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:06:22,9,Ashland,,Sat
+18:14:19,9,Ashland,,Sat
+21:03:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:39:39,9,Ashland,,Sun
+07:48:39,9,Ashland,,Sat
+14:03:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:34:39,9,Ashland,,Sun
+18:05:01,9,Ashland,,Sat
+17:25:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:46:27,9,Ashland,,Sun
+10:23:14,9,Ashland,,Sat
+09:50:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:48:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:45:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:29:27,9,Ashland,,Sun
+08:46:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:55:27,9,Ashland,,Sun
+15:57:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:15:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+24:12:09,9,Ashland,,Sat
+08:06:39,9,Ashland,,Sun
+11:49:27,9,Ashland,,Sun
+06:53:05,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+07:06:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+17:23:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:49:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:50:39,9,Ashland,,Sun
+18:13:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:59:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:41:01,9,Ashland,,Sat
+08:05:27,9,Ashland,,Sun
+05:49:34,9,Ashland,,Sun
+15:14:19,9,Ashland,,Sat
+18:51:19,9,Ashland,,Sat
+16:55:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:14:39,9,Ashland,,Sun
+15:32:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:38:22,9,Ashland,,Sat
+11:09:27,9,Ashland,,Sun
+18:01:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:00:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:16:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:40:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+02:10:34,9,Ashland,,Mon
+14:30:57,9,Ashland,,Sun
+16:04:39,9,Ashland,,Sun
+11:59:27,9,Ashland,,Sun
+00:40:04,9,Ashland,,Mon
+18:51:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:35:39,9,Ashland,,Sun
+02:13:47,9,Ashland,,Sun
+12:29:19,9,Ashland,,Sat
+15:14:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+11:05:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:00:52,9,Ashland,,Mon
+11:43:01,9,Ashland,,Sat
+16:00:19,9,Ashland,,Sat
+18:22:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:33:14,9,Ashland,,Sat
+11:00:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:56:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:40:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+19:11:39,9,Ashland,,Sun
+18:32:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+11:24:09,9,Ashland,,Sat
+12:58:31,9,Ashland,,Sat
+10:59:27,9,Ashland,,Sun
+20:27:09,9,Ashland,,Sat
+10:39:27,9,Ashland,,Sun
+20:34:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:32:49,9,Ashland,,Sat
+12:02:31,9,Ashland,,Sat
+15:26:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:04:39,9,Ashland,,Sun
+09:30:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:54:39,9,Ashland,,Sat
+09:39:39,9,Ashland,,Sat
+18:05:19,9,Ashland,,Sat
+10:34:39,9,Ashland,,Sun
+20:09:39,9,Ashland,,Sun
+07:42:39,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+04:55:17,9,Ashland,,Sun
+11:11:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+09:30:09,9,Ashland,,Sat
+15:45:19,9,Ashland,,Sat
+19:55:39,9,Ashland,,Sun
+10:39:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:51:04,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+06:52:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:54:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+16:03:27,9,Ashland,,Sun
+13:29:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:37:57,9,Ashland,,Sat
+13:52:31,9,Ashland,,Sat
+22:53:09,9,Ashland,,Sat
+16:34:39,9,Ashland,,Sun
+11:44:39,9,Ashland,,Sun
+13:19:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:51:39,9,Ashland,,Sat
+09:23:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+04:37:17,9,Ashland,,Sun
+03:37:17,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:21:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+24:22:34,9,Ashland,,Sun
+12:39:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:44:39,9,Ashland,,Sun
+17:51:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+23:30:04,9,Ashland,,Sun
+06:07:09,9,Ashland,,Sat
+07:19:39,9,Ashland,,Sat
+03:35:34,9,Ashland,,Sun
+07:54:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+16:05:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:34:39,9,Ashland,,Sun
+10:00:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+03:37:17,9,Ashland,,Sat
+14:33:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:40:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:22:39,9,Ashland,,Sat
+20:15:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:15:27,9,Ashland,,Sun
+12:29:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+11:06:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+18:06:39,9,Ashland,,Sun
+21:50:39,9,Ashland,,Sun
+20:59:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:56:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:13:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+05:54:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:08:49,9,Ashland,,Sat
+20:53:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:18:22,9,Ashland,,Mon
+09:55:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:13:14,9,Ashland,,Sat
+16:28:49,9,Ashland,,Sat
+07:05:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:54:39,9,Ashland,,Sun
+13:34:49,9,Ashland,,Sat
+08:26:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:51:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+05:51:09,9,Ashland,,Sat
+22:03:57,9,Ashland,,Sat
+19:51:09,9,Ashland,,Sun
+06:28:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:34:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:57:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:14:39,9,Ashland,,Sun
+03:08:34,9,Ashland,,Sun
+08:06:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:52:52,9,Ashland,,Mon
+04:34:04,9,Ashland,,Sat
+11:23:01,9,Ashland,,Sat
+20:59:39,9,Ashland,,Sun
+16:15:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:32:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+05:25:04,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:31:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:37:57,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+22:01:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:17:01,9,Ashland,,Sat
+20:44:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:17:49,9,Ashland,,Sat
+18:18:39,9,Ashland,,Sun
+11:29:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:52:14,9,Ashland,,Sat
+07:17:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:21:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+09:09:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:36:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:14:39,9,Ashland,,Sun
+01:05:34,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+21:45:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:44:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:37:31,9,Ashland,,Sat
+12:31:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:23:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:25:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:08:22,9,Ashland,,Sat
+14:41:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:11:49,9,Ashland,,Mon,Tue,Wed,Fri
+13:07:31,9,Ashland,,Sat
+13:06:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:35:22,9,Ashland,,Mon
+13:25:49,9,Ashland,,Sat
+00:57:34,9,Ashland,,Mon
+15:52:49,9,Ashland,,Sat
+15:44:39,9,Ashland,,Sun
+08:35:09,9,Ashland,,Sun
+15:59:49,9,Ashland,,Sat
+16:19:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:49:27,9,Ashland,,Sun
+16:21:39,9,Ashland,,Sun
+17:10:09,9,Ashland,,Sun
+16:45:19,9,Ashland,,Sat
+08:02:57,9,Ashland,,Sat
+05:07:34,9,Ashland,,Sat
+12:02:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:34:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+13:09:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:04:39,9,Ashland,,Sat
+05:44:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:27:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+12:09:27,9,Ashland,,Sun
+16:26:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+22:29:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:10:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+15:11:24,9,Ashland,,Mon,Tue,Wed,Fri
+09:04:39,9,Ashland,,Sun
+03:08:04,9,Ashland,,Mon
+22:19:57,9,Ashland,,Sat
+20:10:09,9,Ashland,,Sat
+17:24:39,9,Ashland,,Sun
+17:21:19,9,Ashland,,Sat
+14:46:31,9,Ashland,,Sat
+17:09:01,9,Ashland,,Sat
+23:23:39,9,Ashland,,Sat
+00:46:09,9,Ashland,,Sun
+15:45:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:26:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+07:47:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+14:17:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:45:39,9,Ashland,,Sun
+19:08:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:50:01,9,Ashland,,Sat
+01:51:04,9,Ashland,,Mon
+09:21:27,9,Ashland,,Sat
+22:41:22,9,Ashland,,Sun
+18:59:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:19:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:19:01,9,Ashland,,Sat
+07:30:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:20:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+05:53:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:20:39,9,Ashland,,Sun
+12:49:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:21:31,9,Ashland,,Sat
+18:40:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:54:39,9,Ashland,,Sun
+18:23:09,9,Ashland,,Sun
+04:36:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:23:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:18:39,9,Ashland,,Sun
+23:33:22,9,Ashland,,Sun
+15:50:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+01:52:22,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+07:00:52,9,Ashland,,Sun
+22:58:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+22:15:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:44:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+02:37:04,9,Ashland,,Sun
+07:20:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+06:40:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+11:39:27,9,Ashland,,Sun
+10:11:39,9,Ashland,,Sat
+15:34:39,9,Ashland,,Sun
+15:11:49,9,Ashland,,Thu
+08:54:39,9,Ashland,,Sun
+17:54:39,9,Ashland,,Sun
+09:24:39,9,Ashland,,Sun
+07:50:57,9,Ashland,,Sat
+13:34:31,9,Ashland,,Sat
+10:57:09,9,Ashland,,Sat
+13:44:39,9,Ashland,,Sun
+12:57:49,9,Ashland,,Sat
+21:23:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+08:37:27,9,Ashland,,Sat
+23:58:52,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:54:39,9,Ashland,,Sun
+05:53:22,9,Ashland,,Sat
+11:29:27,9,Ashland,,Sun
+20:18:09,9,Ashland,,Sat
+04:37:17,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+02:14:34,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+04:57:17,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+22:05:39,9,Ashland,,Sat
+19:44:19,9,Ashland,,Sat
+15:20:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:34:09,9,Ashland,,Sat
+08:14:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+18:31:39,9,Ashland,,Sun
+17:15:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:16:49,9,Ashland,,Sat
+12:40:31,9,Ashland,,Sat
+08:18:39,9,Ashland,,Sat
+18:43:09,9,Ashland,,Sun
+23:12:04,9,Ashland,,Sun
+17:12:19,9,Ashland,,Sat
+09:18:39,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+17:11:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+20:01:57,9,Ashland,,Sat
+17:12:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:10:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+06:23:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+23:42:52,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+24:20:52,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:38:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:54:39,9,Ashland,,Sat
+07:58:39,9,Ashland,,Sun
+08:14:57,9,Ashland,,Sat
+15:04:39,9,Ashland,,Sun
+06:56:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:02:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+01:30:39,9,Ashland,,Sun
+08:44:39,9,Ashland,,Sun
+15:51:19,9,Ashland,,Mon,Tue,Wed,Fri
+10:47:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:14:39,9,Ashland,,Sun
+01:20:22,9,Ashland,,Sun
+18:31:49,9,Ashland,,Sat
+12:09:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:51:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+07:36:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:11:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+22:58:22,9,Ashland,,Sun
+06:20:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:04:39,9,Ashland,,Sun
+04:35:34,9,Ashland,,Sat
+21:13:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:00:19,9,Ashland,,Sat
+15:04:31,9,Ashland,,Sat
+11:33:31,9,Ashland,,Sat
+24:05:04,9,Ashland,,Sun
+17:49:01,9,Ashland,,Sat
+11:49:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:25:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:33:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+19:00:19,9,Ashland,,Sat
+08:54:26,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+12:09:19,9,Ashland,,Sat
+20:44:09,9,Ashland,,Sat
+16:25:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+03:07:04,9,Ashland,,Sun
+16:49:09,9,Ashland,,Sun
+18:21:01,9,Ashland,,Sat
+06:42:39,9,Ashland,,Sun
+21:23:09,9,Ashland,,Sat
+03:05:04,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+20:53:39,9,Ashland,,Sat
+20:50:39,9,Ashland,,Sun
+08:59:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:01:27,9,Ashland,,Sun
+19:41:39,9,Ashland,,Sun
+17:33:39,9,Ashland,,Sun
+02:36:34,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+08:19:27,9,Ashland,,Sun
+18:41:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:52:49,9,Ashland,,Sat
+16:57:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:14:39,9,Ashland,,Sun
+14:27:49,9,Ashland,,Sat
+10:47:39,9,Ashland,,Sat
+23:13:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:14:39,9,Ashland,,Sun
+06:58:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:23:57,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:41:49,9,Ashland,,Sat
+17:53:39,9,Ashland,,Sun
+17:01:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+22:08:52,9,Ashland,,Sun
+08:28:39,9,Ashland,,Sat
+17:21:09,9,Ashland,,Sun
+12:28:57,9,Ashland,,Sun
+08:48:27,9,Ashland,,Sat
+15:54:39,9,Ashland,,Sun
+23:22:22,9,Ashland,,Sat
+14:34:39,9,Ashland,,Sun
+05:15:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:19:27,9,Ashland,,Sun
+10:29:09,9,Ashland,,Sat
+20:10:39,9,Ashland,,Sun
+17:43:09,9,Ashland,,Sun
+06:53:09,9,Ashland,,Sat
+19:17:19,9,Ashland,,Sat
+10:21:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+18:58:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:26:27,9,Ashland,,Sat
+03:06:34,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+11:23:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:50:52,9,Ashland,,Sun
+15:24:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:19:39,9,Ashland,,Sun
+24:26:09,9,Ashland,,Sat
+16:24:39,9,Ashland,,Sun
+11:33:01,9,Ashland,,Sat
+11:03:14,9,Ashland,,Sat
+08:16:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+24:08:22,9,Ashland,,Sun
+15:58:49,9,Ashland,,Thu
+15:44:49,9,Ashland,,Mon,Tue,Wed,Fri
+17:41:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+07:08:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:03:09,9,Ashland,,Sat
+19:21:09,9,Ashland,,Sun
+17:31:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+00:43:22,9,Ashland,,Mon
+05:38:22,9,Ashland,,Sat
+11:42:19,9,Ashland,,Sat
+14:01:01,9,Ashland,,Sat
+11:04:39,9,Ashland,,Sun
+14:49:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+02:13:04,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+22:44:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:54:39,9,Ashland,,Sun
+06:04:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:34:39,9,Ashland,,Sun
+15:37:49,9,Ashland,,Sat
+21:09:39,9,Ashland,,Sun
+10:30:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:39:19,9,Ashland,,Sat
+15:32:49,9,Ashland,,Sat
+19:58:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+14:46:19,9,Ashland,,Sat
+07:34:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+11:34:39,9,Ashland,,Sun
+19:36:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+05:04:34,9,Ashland,,Sat
+10:32:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+13:31:57,9,Ashland,,Sun
+13:25:31,9,Ashland,,Sat
+16:14:19,9,Ashland,,Sat
+16:37:01,9,Ashland,,Sat
+13:14:39,9,Ashland,,Sun
+23:43:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:58:54,9,Ashland,,Mon,Tue,Wed,Fri
+17:44:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:15:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:42:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+22:28:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+00:42:34,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+14:22:57,9,Ashland,,Sun
+16:35:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:32:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:59:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:23:19,9,Ashland,,Sat
+19:34:49,9,Ashland,,Sat
+22:35:09,9,Ashland,,Sat
+09:17:26,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+16:12:27,9,Ashland,,Sun
+18:39:01,9,Ashland,,Sat
+01:54:47,9,Ashland,,Sun
+09:31:27,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+02:38:47,9,Ashland,,Sun
+03:09:04,9,Ashland,,Mon
+14:06:57,9,Ashland,,Sun
+17:03:19,9,Ashland,,Sat
+14:46:57,9,Ashland,,Sun
+07:05:09,9,Ashland,,Sat
+02:39:04,9,Ashland,,Mon
+06:07:04,9,Ashland,,Sun
+19:56:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+04:06:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:38:05,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+14:13:54,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:23:09,9,Ashland,,Sat
+14:38:57,9,Ashland,,Sun
+07:00:39,9,Ashland,,Sun
+01:15:04,9,Ashland,,Mon
+14:14:57,9,Ashland,,Sun
+14:59:49,9,Ashland,,Thu
+09:20:39,9,Ashland,,Sat
+19:49:27,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:24:39,9,Ashland,,Sun
+07:18:39,9,Ashland,,Sun
+20:35:49,9,Ashland,,Sat
+09:06:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:57:52,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:57:49,9,Ashland,,Mon,Tue,Wed,Fri
+06:38:09,9,Ashland,,Sat
+17:45:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+06:07:04,9,Ashland,,Sun
+05:13:34,9,Ashland,,Sun
+09:01:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+21:47:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:14:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+07:10:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:03:09,9,Ashland,,Sun
+21:53:52,9,Ashland,,Sun
+18:03:39,9,Ashland,,Sun
+12:19:19,9,Ashland,,Sat
+04:35:34,9,Ashland,,Sun
+10:44:39,9,Ashland,,Sun
+13:49:57,9,Ashland,,Sun
+05:13:17,9,Ashland,,Sun
+08:46:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+19:41:09,9,Ashland,,Sun
+19:25:49,9,Ashland,,Sat
+19:27:39,9,Ashland,,Sun
+21:33:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+12:21:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+18:17:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:12:27,9,Ashland,,Sun
+17:30:19,9,Ashland,,Sat
+19:26:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:10:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+20:46:57,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:04:57,9,Ashland,,Sun
+24:10:09,9,Ashland,,Sat
+11:59:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:59:09,9,Ashland,,Sun
+17:09:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+18:54:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+18:53:09,9,Ashland,,Sun
+09:35:39,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+09:29:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+06:37:39,9,Ashland,,Sat
+19:49:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+06:28:05,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+04:51:34,9,Ashland,,Sat
+11:53:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:13:05,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+11:19:27,9,Ashland,,Sun
+16:21:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:50:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+21:11:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+04:56:04,9,Ashland,,Sun
+00:29:09,9,Ashland,,Sun
+10:10:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+08:56:09,9,Ashland,,Sat
+12:55:57,9,Ashland,,Sun
+14:08:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:54:19,9,Ashland,,Sat
+09:47:39,9,Ashland,,Sat
+20:25:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:07:19,9,Ashland,,Sat
+15:13:31,9,Ashland,,Sat
+06:28:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:37:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+17:57:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:48:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:19:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+05:34:52,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:15:09,9,Ashland,,Sun
+13:40:57,9,Ashland,,Sun
+11:19:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:04:24,9,Ashland,,Thu
+20:12:27,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:13:09,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:54:57,9,Ashland,,Sun
+05:31:04,9,Ashland,,Sun
+08:30:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+11:15:09,9,Ashland,,Sat
+12:39:19,9,Ashland,,Sat
+23:08:39,9,Ashland,,Sat
+12:59:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+11:51:19,9,Ashland,,Sat
+16:45:24,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:43:27,9,Ashland,,Sun
+10:27:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+01:32:34,9,Ashland,,Mon
+19:38:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:56:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+02:38:04,9,Ashland,,Mon
+19:22:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+19:05:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+09:39:39,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+10:06:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+00:59:09,9,Ashland,,Sun
+15:20:57,9,Ashland,,Sun
+03:37:04,9,Ashland,,Sun
+23:15:52,9,Ashland,,Sun
+10:29:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:40:39,9,Ashland,,Sun
+23:55:22,9,Ashland,,Sat
+18:13:01,9,Ashland,,Sat
+05:06:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:53:19,9,Ashland,,Sat
+17:57:01,9,Ashland,,Sat
+19:26:27,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:37:57,9,Ashland,,Sun
+11:09:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+11:13:01,9,Ashland,,Sat
+19:14:57,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:29:52,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+04:49:34,9,Ashland,,Sat
+18:59:39,9,Ashland,,Sun
+18:12:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+09:49:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:53:49,9,Ashland,,Sat
+08:36:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:35:27,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+08:25:39,9,Ashland,,Sun
+19:46:44,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:23:49,9,Ashland,,Sat
+08:37:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+21:34:39,9,Ashland,,Sat
+15:52:54,9,Ashland,,Mon,Tue,Wed,Fri
+20:08:49,9,Ashland,,Sat
+11:39:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:30:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:01:19,9,Ashland,,Sat
+04:07:17,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:38:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+13:58:57,9,Ashland,,Sun
+22:21:09,9,Ashland,,Sat
+04:07:17,9,Ashland,,Sat
+16:45:01,9,Ashland,,Sat
+05:35:39,9,Ashland,,Sat
+17:33:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+00:44:22,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+18:57:01,9,Ashland,,Sat
+00:42:09,9,Ashland,,Sun
+13:16:31,9,Ashland,,Sat
+15:40:49,9,Ashland,,Thu
+15:03:57,9,Ashland,,Sun
+19:16:35,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+13:49:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:23:49,9,Ashland,,Sat
+14:44:39,9,Ashland,,Sun
+09:31:44,9,Ashland,,Sat
+09:09:56,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+11:33:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:11:24,9,Ashland,,Thu
+21:50:09,9,Ashland,,Sat
+04:07:17,9,Ashland,,Sun
+10:07:27,9,Ashland,,Sun
+19:59:49,9,Ashland,,Sat
+15:46:54,9,Ashland,,Mon,Tue,Wed,Fri
+10:43:14,9,Ashland,,Sat
+07:35:39,9,Ashland,,Sun
+05:34:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:30:39,9,Ashland,,Sun
+09:50:22,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+22:06:39,9,Ashland,,Sun
+12:12:01,9,Ashland,,Sat
+02:08:04,9,Ashland,,Sun
+01:47:09,9,Ashland,,Sun
+22:21:09,9,Ashland,,Sun
+12:46:57,9,Ashland,,Sun
+06:11:27,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+05:16:17,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:09:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+21:38:52,9,Ashland,,Sun
+08:47:09,9,Ashland,,Sat
+15:05:19,9,Ashland,,Sat
+08:04:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+17:48:19,9,Ashland,,Sat
+02:35:04,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+20:23:39,9,Ashland,,Sun
+07:51:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:00:39,9,Ashland,,Sun
+08:40:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+12:47:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:36:49,9,Ashland,,Sat
+03:36:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:14:39,9,Ashland,,Sun
+15:51:19,9,Ashland,,Sat
+08:59:27,9,Ashland,,Sat
+20:05:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+13:24:39,9,Ashland,,Sun
+22:37:09,9,Ashland,,Sat
+09:45:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+22:43:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+16:33:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+17:04:39,9,Ashland,,Sun
+16:09:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+20:38:39,9,Ashland,,Sun
+09:12:09,9,Ashland,,Sat
+16:00:19,9,Ashland,,Mon,Tue,Wed,Fri
+13:04:39,9,Ashland,,Sun
+22:50:22,9,Ashland,,Sat
+18:22:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+11:53:01,9,Ashland,,Sat
+15:34:13,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+08:33:27,9,Ashland,,Sun
+21:08:52,9,Ashland,,Sun
+17:32:09,9,Ashland,,Sun
+18:13:09,9,Ashland,,Sun
+04:57:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:53:52,9,Ashland,,Sun
+01:06:52,9,Ashland,,Tue,Wed,Thu,Fri,Sat
+18:33:09,9,Ashland,,Sun
+22:37:39,9,Ashland,,Sun
+10:24:39,9,Ashland,,Sun
+23:28:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+23:39:39,9,Ashland,,Sat
+13:43:49,9,Ashland,,Sat
+12:44:39,9,Ashland,,Sun
+07:24:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+15:04:24,9,Ashland,,Mon,Tue,Wed,Fri
+15:17:49,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+03:35:04,9,Ashland,,Sat
+12:37:57,9,Ashland,,Sun
+21:02:49,9,Ashland,,Sat
+13:07:49,9,Ashland,,Sat
+13:34:39,9,Ashland,,Sun
+21:47:44,9,Ashland,,Sat
+19:13:39,9,Ashland,,Sun
+04:05:04,9,Ashland,,Sat
+19:17:14,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:41:44,9,Ashland,,Sat
+19:14:49,9,Ashland,,Sat
+22:54:09,9,Ashland,,Sun
+15:30:31,9,Ashland,,Sat
+10:20:09,9,Ashland,,Sat
+17:25:01,9,Ashland,,Sat
+09:20:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+10:42:52,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+18:22:09,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+21:13:09,9,Ashland,,Sat
+11:05:39,9,Ashland,,Sat
+08:01:43,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+13:22:57,9,Ashland,,Sun
+20:00:57,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+20:01:05,X9,Ashland Express,,Mon,Tue,Wed,Thu,Fri
+05:23:34,9,Ashland,,Sat
+02:09:34,9,Ashland,,Mon
+17:33:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+19:05:49,9,Ashland,,Sat
+22:25:22,9,Ashland,,Sun
+11:14:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:55:49,9,Ashland,,Sat
+21:34:44,9,Ashland,,Sat
+18:05:31,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+09:56:27,9,Ashland,,Sun
+08:26:19,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+01:03:09,9,Ashland,,Sun
+22:58:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+06:24:52,9,Ashland,,Sun
+12:24:39,9,Ashland,,Sun
+10:50:01,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:04:39,9,Ashland,,Sun
+20:26:49,9,Ashland,,Sat
+19:31:09,9,Ashland,,Sun
+24:20:34,9,Ashland,,Mon,Tue,Wed,Thu,Fri
+14:18:49,9,Ashland,,Sat
+10:19:39,9,Ashland,,Mon,Tue,Wed,Thu,Fri

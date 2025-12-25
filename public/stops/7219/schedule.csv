@@ -1,0 +1,808 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+14:05:05,67,67th/69th/71st,,Sat
+13:20:35,67,67th/69th/71st,,Sat
+09:54:35,67,67th/69th/71st,,Sat
+07:49:04,67,67th/69th/71st,,Sun
+20:04:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:35:05,67,67th/69th/71st,,Sat
+15:32:05,30,South Chicago,,Sat
+12:52:05,30,South Chicago,,Sat
+22:24:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:58:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:44:54,67,67th/69th/71st,,Sat
+07:56:54,67,67th/69th/71st,,Sat
+18:17:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:46:05,67,67th/69th/71st,,Sat
+16:41:35,67,67th/69th/71st,,Sat
+11:15:05,67,67th/69th/71st,,Sat
+07:05:03,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:51:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+10:28:24,67,67th/69th/71st,,Sun
+19:08:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:53:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:38:35,67,67th/69th/71st,,Sat
+16:31:05,67,67th/69th/71st,,Sat
+15:07:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:38:35,67,67th/69th/71st,,Sat
+06:27:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:53:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:12:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:20:35,67,67th/69th/71st,,Sat
+20:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+16:10:05,67,67th/69th/71st,,Sat
+19:35:05,67,67th/69th/71st,,Sat
+22:32:05,30,South Chicago,,Sat
+08:37:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:21:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:37:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:43:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+02:48:04,N5,South Shore Night Bus,,Sun
+04:48:04,95,95th,,Sat
+12:17:35,67,67th/69th/71st,,Sat
+04:48:04,N5,South Shore Night Bus,,Sun
+17:52:05,30,South Chicago,,Sat
+07:49:04,67,67th/69th/71st,,Sun
+18:25:05,67,67th/69th/71st,,Sun
+08:42:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:12:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:21:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:43:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:45:54,67,67th/69th/71st,,Sun
+11:52:05,30,South Chicago,,Sat
+05:51:51,30,South Chicago,,Sat
+07:51:51,30,South Chicago,,Sat
+16:47:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:42:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:12:05,30,South Chicago,,Sat
+03:48:04,95,95th,,Mon,Tue,Wed,Thu,Fri
+23:50:44,67,67th/69th/71st,,Sun
+09:22:35,67,67th/69th/71st,,Sat
+14:32:05,30,South Chicago,,Sat
+18:30:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:47:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:52:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:58:35,67,67th/69th/71st,,Sun
+14:46:35,67,67th/69th/71st,,Sun
+21:05:54,67,67th/69th/71st,,Sun
+18:05:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:52:24,67,67th/69th/71st,,Sun
+18:59:05,67,67th/69th/71st,,Sat
+10:28:24,67,67th/69th/71st,,Sun
+04:18:04,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:11:05,67,67th/69th/71st,,Sat
+08:52:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:20:54,67,67th/69th/71st,,Sat
+16:14:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+03:18:04,95,95th,,Sat
+12:03:24,67,67th/69th/71st,,Sun
+15:07:05,67,67th/69th/71st,,Sat
+18:38:05,67,67th/69th/71st,,Sun
+08:43:14,67,67th/69th/71st,,Sun
+16:29:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:59:05,67,67th/69th/71st,,Sat
+20:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:52:05,30,South Chicago,,Sat
+15:46:35,67,67th/69th/71st,,Sun
+20:50:05,67,67th/69th/71st,,Sat
+14:22:35,67,67th/69th/71st,,Sun
+10:52:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:46:54,67,67th/69th/71st,,Sat
+10:42:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:58:35,67,67th/69th/71st,,Sun
+14:05:05,67,67th/69th/71st,,Sat
+14:34:35,67,67th/69th/71st,,Sun
+07:21:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:22:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:01:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:55:05,67,67th/69th/71st,,Sat
+17:02:35,67,67th/69th/71st,,Sat
+15:34:35,67,67th/69th/71st,,Sun
+15:22:35,67,67th/69th/71st,,Sun
+18:32:05,30,South Chicago,,Sat
+14:10:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:16:24,67,67th/69th/71st,,Sun
+07:52:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:49:05,67,67th/69th/71st,,Sun
+13:10:05,67,67th/69th/71st,,Sat
+11:32:05,30,South Chicago,,Sat
+18:32:05,30,South Chicago,,Sat
+18:12:05,30,South Chicago,,Sat
+18:16:05,67,67th/69th/71st,,Sat
+09:44:35,67,67th/69th/71st,,Sat
+11:42:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:41:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:55:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:50:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:59:05,67,67th/69th/71st,,Sat
+16:37:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:32:05,30,South Chicago,,Sat
+23:19:05,67,67th/69th/71st,,Sat
+12:49:05,67,67th/69th/71st,,Sat
+20:11:05,67,67th/69th/71st,,Sat
+09:44:35,67,67th/69th/71st,,Sat
+16:32:05,30,South Chicago,,Sat
+05:18:04,N5,South Shore Night Bus,,Sun
+07:11:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:45:54,67,67th/69th/71st,,Sun
+17:36:03,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+17:54:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+16:46:35,67,67th/69th/71st,,Sun
+16:57:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:11:05,67,67th/69th/71st,,Sat
+15:17:35,67,67th/69th/71st,,Sat
+07:09:04,67,67th/69th/71st,,Sun
+15:59:35,67,67th/69th/71st,,Sat
+14:37:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:52:05,30,South Chicago,,Sat
+18:36:05,67,67th/69th/71st,,Sat
+18:52:05,30,South Chicago,,Sat
+20:49:54,67,67th/69th/71st,,Sun
+09:50:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:38:24,67,67th/69th/71st,,Sun
+18:42:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:33:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:11:51,30,South Chicago,,Sat
+09:15:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+22:04:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:32:05,30,South Chicago,,Sat
+14:09:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:15:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+01:18:04,N5,South Shore Night Bus,,Mon
+09:02:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:30:44,67,67th/69th/71st,,Sun
+02:18:04,N5,South Shore Night Bus,,Sun
+10:10:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+03:48:04,N5,South Shore Night Bus,,Sat
+20:50:05,67,67th/69th/71st,,Sat
+10:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+00:48:04,N5,South Shore Night Bus,,Mon
+21:14:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:14:35,67,67th/69th/71st,,Sat
+07:51:51,30,South Chicago,,Sat
+10:12:05,30,South Chicago,,Sat
+09:52:05,30,South Chicago,,Sat
+17:41:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:32:05,30,South Chicago,,Sat
+17:33:54,67,67th/69th/71st,,Sun
+16:41:35,67,67th/69th/71st,,Sat
+14:46:05,67,67th/69th/71st,,Sat
+15:49:05,67,67th/69th/71st,,Sat
+09:22:35,67,67th/69th/71st,,Sat
+12:53:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:12:05,30,South Chicago,,Sat
+18:05:35,67,67th/69th/71st,,Sat
+15:32:05,30,South Chicago,,Sat
+09:40:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:18:54,67,67th/69th/71st,,Sun
+08:32:05,30,South Chicago,,Sat
+22:24:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:29:24,67,67th/69th/71st,,Sun
+18:52:05,30,South Chicago,,Sat
+06:10:14,67,67th/69th/71st,,Sat
+21:02:05,30,South Chicago,,Sat
+21:20:05,67,67th/69th/71st,,Sat
+09:02:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:00:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:06:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:40:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:22:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:59:05,67,67th/69th/71st,,Sat
+07:21:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:35:05,67,67th/69th/71st,,Sat
+19:23:05,67,67th/69th/71st,,Sat
+10:52:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:31:51,30,South Chicago,,Sat
+14:28:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:35:05,67,67th/69th/71st,,Sat
+23:04:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:11:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:42:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:28:14,67,67th/69th/71st,,Sat
+19:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+17:34:05,67,67th/69th/71st,,Sat
+01:18:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+16:10:05,67,67th/69th/71st,,Sat
+21:14:24,67,67th/69th/71st,,Sun
+10:56:24,67,67th/69th/71st,,Sun
+10:31:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:42:24,67,67th/69th/71st,,Sun
+14:18:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:26:14,67,67th/69th/71st,,Sun
+12:23:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+00:48:04,N5,South Shore Night Bus,,Mon
+14:29:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:28:05,67,67th/69th/71st,,Sat
+16:20:35,67,67th/69th/71st,,Sat
+21:02:05,30,South Chicago,,Sat
+12:17:35,67,67th/69th/71st,,Sat
+04:51:14,67,67th/69th/71st,,Sat
+08:56:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:52:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:49:05,67,67th/69th/71st,,Sat
+20:12:05,30,South Chicago,,Sat
+17:18:31,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:35:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:12:05,30,South Chicago,,Sat
+11:24:24,67,67th/69th/71st,,Sun
+14:32:05,30,South Chicago,,Sat
+12:28:05,67,67th/69th/71st,,Sat
+09:33:35,67,67th/69th/71st,,Sat
+16:52:05,30,South Chicago,,Sat
+16:52:05,67,67th/69th/71st,,Sat
+11:25:05,67,67th/69th/71st,,Sat
+16:12:05,30,South Chicago,,Sat
+14:18:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:12:05,30,South Chicago,,Sat
+21:55:54,67,67th/69th/71st,,Sun
+16:29:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+14:52:05,30,South Chicago,,Sat
+02:18:04,N5,South Shore Night Bus,,Mon
+05:58:44,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:51:14,67,67th/69th/71st,,Sat
+18:29:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:42:24,67,67th/69th/71st,,Sun
+16:58:35,67,67th/69th/71st,,Sun
+12:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:07:05,67,67th/69th/71st,,Sat
+18:36:05,67,67th/69th/71st,,Sat
+19:06:05,67,67th/69th/71st,,Sun
+20:26:24,67,67th/69th/71st,,Sun
+17:54:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:31:05,67,67th/69th/71st,,Sat
+16:10:35,67,67th/69th/71st,,Sun
+08:12:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:01:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+16:52:05,30,South Chicago,,Sat
+05:18:04,95,95th,,Sun
+18:57:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:22:24,67,67th/69th/71st,,Sun
+04:18:04,95,95th,,Sun
+12:32:05,30,South Chicago,,Sat
+19:50:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+01:18:04,N5,South Shore Night Bus,,Mon
+09:12:05,30,South Chicago,,Sat
+12:03:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:12:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:30:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:12:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:52:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:56:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+00:18:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+07:29:04,67,67th/69th/71st,,Sun
+18:05:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:12:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:06:05,67,67th/69th/71st,,Sun
+08:07:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+18:52:05,67,67th/69th/71st,,Sun
+07:50:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+00:18:04,N5,South Shore Night Bus,,Mon
+22:32:54,67,67th/69th/71st,,Sun
+11:52:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+20:36:05,67,67th/69th/71st,,Sat
+13:50:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+04:21:04,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+12:42:24,67,67th/69th/71st,,Sun
+15:42:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:29:14,67,67th/69th/71st,,Sun
+22:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:47:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+23:04:05,67,67th/69th/71st,,Sat
+16:22:35,67,67th/69th/71st,,Sun
+21:05:05,67,67th/69th/71st,,Sat
+13:20:24,67,67th/69th/71st,,Sun
+11:56:35,67,67th/69th/71st,,Sat
+13:03:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:52:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:49:05,67,67th/69th/71st,,Sun
+04:48:04,95,95th,,Sun
+12:53:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:52:05,30,South Chicago,,Sat
+16:17:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:41:35,67,67th/69th/71st,,Sat
+22:06:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:07:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:58:35,67,67th/69th/71st,,Sat
+16:36:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+03:18:04,N5,South Shore Night Bus,,Sun
+16:32:05,30,South Chicago,,Sat
+08:08:54,67,67th/69th/71st,,Sat
+01:18:04,N5,South Shore Night Bus,,Sun
+09:31:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:27:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+14:10:35,67,67th/69th/71st,,Sun
+12:03:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:32:24,67,67th/69th/71st,,Sun
+17:23:35,67,67th/69th/71st,,Sat
+15:10:35,67,67th/69th/71st,,Sun
+13:44:24,67,67th/69th/71st,,Sun
+10:04:35,67,67th/69th/71st,,Sat
+16:17:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:29:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:50:05,67,67th/69th/71st,,Sat
+09:29:14,67,67th/69th/71st,,Sun
+12:52:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+20:32:05,30,South Chicago,,Sat
+13:32:24,67,67th/69th/71st,,Sun
+18:12:05,67,67th/69th/71st,,Sun
+22:02:05,30,South Chicago,,Sat
+23:50:44,67,67th/69th/71st,,Sun
+09:43:14,67,67th/69th/71st,,Sun
+12:38:35,67,67th/69th/71st,,Sat
+20:19:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:59:35,67,67th/69th/71st,,Sat
+21:55:54,67,67th/69th/71st,,Sun
+16:44:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+22:34:05,67,67th/69th/71st,,Sat
+21:32:05,30,South Chicago,,Sat
+14:22:35,67,67th/69th/71st,,Sun
+15:59:35,67,67th/69th/71st,,Sat
+18:12:05,67,67th/69th/71st,,Sun
+08:11:51,30,South Chicago,,Sat
+16:57:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:13:05,67,67th/69th/71st,,Sat
+13:52:05,30,South Chicago,,Sat
+23:19:05,67,67th/69th/71st,,Sat
+22:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+11:46:05,67,67th/69th/71st,,Sat
+00:48:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+08:08:54,67,67th/69th/71st,,Sat
+10:13:54,67,67th/69th/71st,,Sun
+07:52:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+14:46:35,67,67th/69th/71st,,Sun
+23:04:05,67,67th/69th/71st,,Sat
+11:50:24,67,67th/69th/71st,,Sun
+12:55:24,67,67th/69th/71st,,Sun
+04:42:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:49:05,67,67th/69th/71st,,Sat
+21:27:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:29:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:32:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:59:14,67,67th/69th/71st,,Sun
+19:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:45:14,67,67th/69th/71st,,Sat
+13:53:35,67,67th/69th/71st,,Sat
+17:18:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:32:05,30,South Chicago,,Sat
+19:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+18:13:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:12:05,30,South Chicago,,Sat
+22:32:54,67,67th/69th/71st,,Sun
+13:41:35,67,67th/69th/71st,,Sat
+12:29:24,67,67th/69th/71st,,Sun
+03:48:04,95,95th,,Sun
+09:32:05,30,South Chicago,,Sat
+15:56:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+01:48:04,N5,South Shore Night Bus,,Sun
+12:59:35,67,67th/69th/71st,,Sat
+08:32:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:12:05,30,South Chicago,,Sat
+01:48:04,N5,South Shore Night Bus,,Mon
+16:27:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:33:54,67,67th/69th/71st,,Sun
+12:43:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+02:48:04,N5,South Shore Night Bus,,Mon
+17:01:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:52:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:30:44,67,67th/69th/71st,,Sun
+18:25:05,67,67th/69th/71st,,Sat
+01:48:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+06:23:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:42:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:14:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+01:48:04,N5,South Shore Night Bus,,Sun
+17:10:35,67,67th/69th/71st,,Sun
+11:22:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:12:05,30,South Chicago,,Sat
+11:52:05,30,South Chicago,,Sat
+06:11:51,30,South Chicago,,Sat
+15:26:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:11:14,67,67th/69th/71st,,Sat
+13:32:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+04:48:04,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:37:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+04:51:14,67,67th/69th/71st,,Sat
+22:04:05,67,67th/69th/71st,,Sat
+11:50:24,67,67th/69th/71st,,Sun
+08:32:54,67,67th/69th/71st,,Sat
+09:50:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:44:54,67,67th/69th/71st,,Sat
+11:05:05,67,67th/69th/71st,,Sat
+13:44:24,67,67th/69th/71st,,Sun
+16:44:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:53:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:12:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:33:44,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:22:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:33:54,67,67th/69th/71st,,Sun
+13:12:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:28:05,67,67th/69th/71st,,Sat
+14:34:35,67,67th/69th/71st,,Sun
+10:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+14:36:05,67,67th/69th/71st,,Sat
+21:38:24,67,67th/69th/71st,,Sun
+12:23:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:22:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:32:54,67,67th/69th/71st,,Sat
+07:01:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:11:51,30,South Chicago,,Sat
+12:16:24,67,67th/69th/71st,,Sun
+13:23:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:32:05,30,South Chicago,,Sat
+11:15:05,67,67th/69th/71st,,Sat
+13:12:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:44:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:57:44,67,67th/69th/71st,,Sun
+13:20:24,67,67th/69th/71st,,Sun
+13:08:24,67,67th/69th/71st,,Sun
+21:50:05,67,67th/69th/71st,,Sat
+09:53:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:32:05,30,South Chicago,,Sat
+07:11:51,30,South Chicago,,Sat
+12:13:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:56:24,67,67th/69th/71st,,Sun
+18:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:12:05,30,South Chicago,,Sat
+20:27:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:42:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:28:14,67,67th/69th/71st,,Sat
+15:58:35,67,67th/69th/71st,,Sun
+15:56:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:52:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:49:05,67,67th/69th/71st,,Sat
+20:51:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:42:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+10:12:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+19:20:05,67,67th/69th/71st,,Sun
+02:48:04,N5,South Shore Night Bus,,Sun
+05:47:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+03:18:04,N5,South Shore Night Bus,,Sun
+06:11:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:24:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:32:05,30,South Chicago,,Sat
+19:34:05,67,67th/69th/71st,,Sun
+11:12:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:31:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:17:54,67,67th/69th/71st,,Sat
+13:12:05,30,South Chicago,,Sat
+05:28:34,67,67th/69th/71st,,Sun
+05:59:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:32:05,30,South Chicago,,Sat
+04:18:04,95,95th,,Sat
+00:48:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+05:31:14,67,67th/69th/71st,,Sat
+09:33:35,67,67th/69th/71st,,Sat
+06:51:51,30,South Chicago,,Sat
+15:17:35,67,67th/69th/71st,,Sat
+05:44:44,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:37:24,67,67th/69th/71st,,Sun
+07:31:51,30,South Chicago,,Sat
+05:31:14,67,67th/69th/71st,,Sat
+14:01:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:45:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+03:18:34,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+11:24:24,67,67th/69th/71st,,Sun
+12:28:05,67,67th/69th/71st,,Sat
+17:18:31,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+17:34:05,67,67th/69th/71st,,Sat
+10:24:35,67,67th/69th/71st,,Sat
+07:31:51,30,South Chicago,,Sat
+10:52:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:02:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:07:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+20:03:54,67,67th/69th/71st,,Sun
+22:49:05,67,67th/69th/71st,,Sat
+03:50:04,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+20:18:54,67,67th/69th/71st,,Sun
+19:52:05,30,South Chicago,,Sat
+21:22:54,67,67th/69th/71st,,Sun
+08:43:14,67,67th/69th/71st,,Sun
+16:27:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:13:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:10:35,67,67th/69th/71st,,Sun
+18:47:05,67,67th/69th/71st,,Sat
+16:46:35,67,67th/69th/71st,,Sun
+06:11:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:12:05,30,South Chicago,,Sat
+15:36:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:28:34,67,67th/69th/71st,,Sun
+05:07:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+11:02:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:51:51,30,South Chicago,,Sat
+20:23:05,67,67th/69th/71st,,Sat
+10:52:05,30,South Chicago,,Sat
+11:32:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:12:24,67,67th/69th/71st,,Sun
+14:56:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:03:54,67,67th/69th/71st,,Sun
+21:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+16:07:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:29:04,67,67th/69th/71st,,Sun
+23:31:54,67,67th/69th/71st,,Sat
+19:57:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:46:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:19:05,67,67th/69th/71st,,Sat
+00:18:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+11:02:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:42:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:34:35,67,67th/69th/71st,,Sun
+10:14:35,67,67th/69th/71st,,Sat
+05:48:34,67,67th/69th/71st,,Sun
+11:56:35,67,67th/69th/71st,,Sat
+19:47:05,67,67th/69th/71st,,Sat
+14:27:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:49:54,67,67th/69th/71st,,Sun
+17:07:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:58:54,67,67th/69th/71st,,Sun
+09:57:44,67,67th/69th/71st,,Sun
+10:04:35,67,67th/69th/71st,,Sat
+19:52:05,30,South Chicago,,Sat
+22:13:54,67,67th/69th/71st,,Sun
+12:52:05,30,South Chicago,,Sat
+19:42:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:26:05,67,67th/69th/71st,,Sat
+09:54:35,67,67th/69th/71st,,Sat
+09:34:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+06:31:51,30,South Chicago,,Sat
+11:52:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+03:18:04,N5,South Shore Night Bus,,Sat
+19:32:05,30,South Chicago,,Sat
+21:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+20:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+02:48:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+16:58:35,67,67th/69th/71st,,Sun
+15:25:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:08:14,67,67th/69th/71st,,Sun
+11:46:05,67,67th/69th/71st,,Sat
+05:51:51,30,South Chicago,,Sat
+03:48:04,95,95th,,Sat
+12:55:24,67,67th/69th/71st,,Sun
+13:56:24,67,67th/69th/71st,,Sun
+08:26:14,67,67th/69th/71st,,Sun
+19:11:05,67,67th/69th/71st,,Sat
+16:31:05,67,67th/69th/71st,,Sat
+09:14:14,67,67th/69th/71st,,Sun
+02:18:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+10:24:35,67,67th/69th/71st,,Sat
+17:13:05,67,67th/69th/71st,,Sat
+04:18:04,N5,South Shore Night Bus,,Sun
+06:43:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:12:05,30,South Chicago,,Sat
+08:59:14,67,67th/69th/71st,,Sun
+14:56:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:31:05,67,67th/69th/71st,,Sat
+11:25:05,67,67th/69th/71st,,Sat
+11:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:12:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+09:14:14,67,67th/69th/71st,,Sun
+12:52:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+16:47:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+00:18:04,N5,South Shore Night Bus,,Sun
+23:31:54,67,67th/69th/71st,,Sat
+14:48:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:07:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+10:31:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:35:35,67,67th/69th/71st,,Sat
+06:49:04,67,67th/69th/71st,,Sun
+18:47:05,67,67th/69th/71st,,Sat
+14:56:35,67,67th/69th/71st,,Sat
+18:17:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:12:05,30,South Chicago,,Sat
+07:09:04,67,67th/69th/71st,,Sun
+15:12:05,30,South Chicago,,Sat
+04:42:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:16:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:53:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:23:05,67,67th/69th/71st,,Sat
+20:32:05,30,South Chicago,,Sat
+01:48:04,N5,South Shore Night Bus,,Mon
+06:43:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:51:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:32:05,30,South Chicago,,Sat
+21:09:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:43:14,67,67th/69th/71st,,Sun
+18:52:05,67,67th/69th/71st,,Sun
+05:48:34,67,67th/69th/71st,,Sun
+20:42:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:32:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:10:35,67,67th/69th/71st,,Sat
+10:10:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:12:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+17:58:54,67,67th/69th/71st,,Sun
+11:22:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:44:35,67,67th/69th/71st,,Sat
+09:40:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:21:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:16:05,67,67th/69th/71st,,Sat
+01:18:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+15:38:35,67,67th/69th/71st,,Sat
+14:09:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:08:14,67,67th/69th/71st,,Sun
+10:12:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+00:48:04,N5,South Shore Night Bus,,Sun
+09:52:05,30,South Chicago,,Sat
+05:14:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:52:24,67,67th/69th/71st,,Sun
+07:56:54,67,67th/69th/71st,,Sat
+18:38:05,67,67th/69th/71st,,Sun
+08:20:54,67,67th/69th/71st,,Sat
+07:29:04,67,67th/69th/71st,,Sun
+14:56:35,67,67th/69th/71st,,Sat
+04:56:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:27:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:12:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:34:05,67,67th/69th/71st,,Sun
+22:13:54,67,67th/69th/71st,,Sun
+15:12:05,30,South Chicago,,Sat
+17:10:35,67,67th/69th/71st,,Sun
+11:37:24,67,67th/69th/71st,,Sun
+23:04:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:27:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:22:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+21:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:59:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+05:51:14,67,67th/69th/71st,,Sat
+17:18:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:52:05,30,South Chicago,,Sat
+03:48:04,N5,South Shore Night Bus,,Sun
+20:23:05,67,67th/69th/71st,,Sat
+22:04:05,67,67th/69th/71st,,Sat
+14:37:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:09:04,67,67th/69th/71st,,Sun
+05:14:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:06:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:24:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:12:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+22:02:05,30,South Chicago,,Sat
+13:59:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+14:46:05,67,67th/69th/71st,,Sat
+19:27:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:47:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:12:05,30,South Chicago,,Sat
+19:12:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:02:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:30:44,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:46:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:33:54,67,67th/69th/71st,,Sun
+15:26:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+03:18:04,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:10:35,67,67th/69th/71st,,Sun
+08:02:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+04:52:34,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+17:44:35,67,67th/69th/71st,,Sat
+08:52:05,30,South Chicago,,Sat
+10:32:05,30,South Chicago,,Sat
+17:36:03,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:34:35,67,67th/69th/71st,,Sun
+20:36:05,67,67th/69th/71st,,Sat
+07:02:54,67,67th/69th/71st,,Sat
+19:20:05,67,67th/69th/71st,,Sun
+16:34:35,67,67th/69th/71st,,Sun
+09:20:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:52:05,30,South Chicago,,Sat
+13:53:35,67,67th/69th/71st,,Sat
+22:32:05,30,South Chicago,,Sat
+10:45:05,67,67th/69th/71st,,Sat
+13:20:35,67,67th/69th/71st,,Sat
+17:23:35,67,67th/69th/71st,,Sat
+02:48:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+17:12:05,30,South Chicago,,Sat
+21:05:54,67,67th/69th/71st,,Sun
+06:49:04,67,67th/69th/71st,,Sun
+10:13:54,67,67th/69th/71st,,Sun
+04:18:04,N5,South Shore Night Bus,,Sat
+18:13:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:37:33,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:31:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:20:05,67,67th/69th/71st,,Sat
+08:58:35,67,67th/69th/71st,,Sat
+20:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+12:12:05,30,South Chicago,,Sat
+12:33:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:55:05,67,67th/69th/71st,,Sat
+13:32:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+13:56:24,67,67th/69th/71st,,Sun
+14:15:35,67,67th/69th/71st,,Sat
+10:55:05,67,67th/69th/71st,,Sat
+09:34:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:22:35,67,67th/69th/71st,,Sun
+05:07:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+02:18:04,N5,South Shore Night Bus,,Mon
+00:18:04,N5,South Shore Night Bus,,Sun
+08:32:05,30,South Chicago,,Sat
+17:55:05,67,67th/69th/71st,,Sat
+07:17:54,67,67th/69th/71st,,Sat
+22:02:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:37:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+15:07:05,67,67th/69th/71st,,Sat
+07:31:54,67,67th/69th/71st,,Sat
+10:32:05,30,South Chicago,,Sat
+15:52:05,30,South Chicago,,Sat
+04:48:04,N5,South Shore Night Bus,,Sat
+06:09:04,67,67th/69th/71st,,Sun
+08:42:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:47:15,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:47:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+08:22:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:07:05,67,67th/69th/71st,,Sat
+13:21:35,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:33:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+00:18:04,N5,South Shore Night Bus,,Mon
+01:18:04,N5,South Shore Night Bus,,Sun
+11:10:24,67,67th/69th/71st,,Sun
+01:48:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+11:12:05,30,South Chicago,,Sat
+22:44:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:29:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:19:05,67,67th/69th/71st,,Sat
+14:36:05,67,67th/69th/71st,,Sat
+14:26:05,67,67th/69th/71st,,Sat
+10:52:05,30,South Chicago,,Sat
+21:22:54,67,67th/69th/71st,,Sun
+19:47:05,67,67th/69th/71st,,Sat
+10:45:05,67,67th/69th/71st,,Sat
+12:03:24,67,67th/69th/71st,,Sun
+17:02:35,67,67th/69th/71st,,Sat
+16:52:05,67,67th/69th/71st,,Sat
+04:56:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:46:05,67,67th/69th/71st,,Sat
+06:29:04,67,67th/69th/71st,,Sun
+14:15:35,67,67th/69th/71st,,Sat
+11:35:35,67,67th/69th/71st,,Sat
+22:34:05,67,67th/69th/71st,,Sat
+10:42:24,67,67th/69th/71st,,Sun
+07:11:51,30,South Chicago,,Sat
+06:10:14,67,67th/69th/71st,,Sat
+02:18:04,N5,South Shore Night Bus,,Sun
+00:48:04,N5,South Shore Night Bus,,Sun
+17:07:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:46:35,67,67th/69th/71st,,Sun
+11:10:24,67,67th/69th/71st,,Sun
+23:46:54,67,67th/69th/71st,,Sat
+18:32:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+05:30:44,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:49:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:10:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+18:25:05,67,67th/69th/71st,,Sat
+20:35:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:23:14,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:05:03,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:02:54,67,67th/69th/71st,,Sat
+15:36:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:07:19,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+17:22:24,67,67th/69th/71st,,Sun
+05:11:14,67,67th/69th/71st,,Sat
+09:10:35,67,67th/69th/71st,,Sat
+10:00:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+02:48:04,N5,South Shore Night Bus,,Mon
+19:20:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:22:35,67,67th/69th/71st,,Sun
+16:07:26,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:10:05,67,67th/69th/71st,,Sat
+15:46:56,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:48:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+07:31:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+02:18:04,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+16:10:35,67,67th/69th/71st,,Sun
+07:31:54,67,67th/69th/71st,,Sat
+18:05:35,67,67th/69th/71st,,Sat
+06:45:14,67,67th/69th/71st,,Sat
+23:12:24,67,67th/69th/71st,,Sun
+15:25:15,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+18:25:05,67,67th/69th/71st,,Sun
+15:59:45,30,South Chicago,,Mon,Tue,Wed,Thu,Fri
+11:05:05,67,67th/69th/71st,,Sat
+21:35:05,67,67th/69th/71st,,Sat
+15:16:45,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:05:05,67,67th/69th/71st,,Sat
+12:13:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:08:24,67,67th/69th/71st,,Sun
+15:58:35,67,67th/69th/71st,,Sun
+21:35:05,67,67th/69th/71st,,Sat
+21:31:05,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:33:44,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:12:05,30,South Chicago,,Sat

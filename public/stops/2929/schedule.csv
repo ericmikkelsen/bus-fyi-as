@@ -1,0 +1,661 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+14:13:52,111,111th/King Drive,,Sun
+05:22:31,112,Vincennes/111th,,Sun
+23:06:45,111,111th/King Drive,,Sat
+16:28:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:47:15,111,111th/King Drive,,Sun
+16:46:21,112,Vincennes/111th,,Sat
+14:39:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:10:13,112,Vincennes/111th,,Sat
+18:40:13,112,Vincennes/111th,,Sat
+20:31:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+06:22:31,112,Vincennes/111th,,Sun
+16:28:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:54:05,112,Vincennes/111th,,Sun
+16:26:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:18:45,111,111th/King Drive,,Sat
+15:38:15,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:02:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:54:05,112,Vincennes/111th,,Sun
+06:00:45,111,111th/King Drive,,Sat
+18:15:21,112,Vincennes/111th,,Sat
+07:24:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+20:07:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:43:52,111,111th/King Drive,,Sun
+20:54:09,112,Vincennes/111th,,Sun
+16:44:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:30:09,112,Vincennes/111th,,Sat
+13:54:52,111,111th/King Drive,,Sun
+14:20:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:15:45,111,111th/King Drive,,Sat
+08:21:15,111,111th/King Drive,,Sat
+04:14:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:41:22,111,111th/King Drive,,Sun
+12:57:52,111,111th/King Drive,,Sun
+19:22:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:02:15,111,111th/King Drive,,Sat
+06:42:15,111,111th/King Drive,,Sat
+07:44:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:05:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:39:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:08:45,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:49:52,111,111th/King Drive,,Sat
+14:40:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:54:35,112,Vincennes/111th,,Sun
+22:44:45,111,111th/King Drive,,Sat
+04:54:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+17:42:45,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:23:03,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:52:31,112,Vincennes/111th,,Sun
+11:04:52,111,111th/King Drive,,Sat
+22:04:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:18:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:24:09,112,Vincennes/111th,,Sun
+08:23:31,112,Vincennes/111th,,Sun
+11:16:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:08:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+04:14:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:18:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:35:09,112,Vincennes/111th,,Sat
+09:41:45,111,111th/King Drive,,Sun
+16:59:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:12:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:25:52,111,111th/King Drive,,Sun
+07:24:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:39:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:08:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+22:35:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:40:52,111,111th/King Drive,,Sat
+21:30:09,112,Vincennes/111th,,Sat
+17:30:22,111,111th/King Drive,,Sun
+21:24:09,112,Vincennes/111th,,Sun
+04:55:26,112,Vincennes/111th,,Sun
+17:26:21,112,Vincennes/111th,,Sat
+05:38:45,111,111th/King Drive,,Sat
+13:04:52,111,111th/King Drive,,Sat
+15:07:52,111,111th/King Drive,,Sun
+12:32:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+16:25:52,111,111th/King Drive,,Sat
+05:58:05,112,Vincennes/111th,,Sat
+21:38:45,111,111th/King Drive,,Sat
+17:37:52,111,111th/King Drive,,Sat
+13:32:13,112,Vincennes/111th,,Sat
+22:00:45,111,111th/King Drive,,Sat
+21:17:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:55:52,111,111th/King Drive,,Sat
+14:33:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:21:15,111,111th/King Drive,,Sat
+18:24:35,112,Vincennes/111th,,Sun
+16:19:52,111,111th/King Drive,,Sun
+21:16:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+17:30:22,111,111th/King Drive,,Sun
+12:33:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:29:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:38:22,111,111th/King Drive,,Sun
+15:17:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:20:22,111,111th/King Drive,,Sun
+16:07:52,111,111th/King Drive,,Sat
+14:20:52,111,111th/King Drive,,Sat
+22:15:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:29:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+23:28:45,111,111th/King Drive,,Sat
+16:06:51,112,Vincennes/111th,,Sat
+11:03:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:24:35,112,Vincennes/111th,,Sun
+10:01:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:24:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:50:17,112,Vincennes/111th,,Sat
+19:37:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:28:05,112,Vincennes/111th,,Sat
+18:12:45,111,111th/King Drive,,Sat
+22:15:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:56:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:28:39,112,Vincennes/111th,,Sat
+15:32:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:52:09,112,Vincennes/111th,,Sat
+21:59:39,112,Vincennes/111th,,Sat
+13:03:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:33:31,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:07:09,112,Vincennes/111th,,Sat
+13:38:07,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:08:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:51:45,111,111th/King Drive,,Sat
+18:54:35,112,Vincennes/111th,,Sun
+11:00:52,111,111th/King Drive,,Sun
+09:23:31,112,Vincennes/111th,,Sun
+15:47:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:23:31,112,Vincennes/111th,,Sun
+08:23:31,112,Vincennes/111th,,Sun
+04:55:26,112,Vincennes/111th,,Sun
+16:26:21,112,Vincennes/111th,,Sat
+20:18:45,111,111th/King Drive,,Sat
+17:13:22,111,111th/King Drive,,Sun
+18:04:22,111,111th/King Drive,,Sun
+06:22:15,111,111th/King Drive,,Sat
+09:16:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:18:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:45:45,111,111th/King Drive,,Sun
+22:28:39,112,Vincennes/111th,,Sat
+15:50:52,111,111th/King Drive,,Sat
+18:48:45,111,111th/King Drive,,Sat
+10:46:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:48:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:09:45,111,111th/King Drive,,Sat
+22:50:15,111,111th/King Drive,,Sun
+17:49:21,112,Vincennes/111th,,Sat
+07:02:15,111,111th/King Drive,,Sat
+19:10:22,111,111th/King Drive,,Sun
+13:51:13,112,Vincennes/111th,,Sat
+10:21:52,111,111th/King Drive,,Sun
+09:23:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:28:52,111,111th/King Drive,,Sat
+20:01:39,112,Vincennes/111th,,Sat
+13:38:07,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:22:31,112,Vincennes/111th,,Sun
+21:48:45,111,111th/King Drive,,Sun
+14:18:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:19:52,111,111th/King Drive,,Sat
+19:33:39,112,Vincennes/111th,,Sat
+06:26:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:18:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:31:52,111,111th/King Drive,,Sun
+21:59:39,112,Vincennes/111th,,Sat
+11:21:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:49:52,111,111th/King Drive,,Sun
+07:52:45,111,111th/King Drive,,Sun
+23:10:45,111,111th/King Drive,,Sun
+09:08:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:49:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:07:45,111,111th/King Drive,,Sun
+11:22:52,111,111th/King Drive,,Sat
+14:05:52,111,111th/King Drive,,Sat
+06:28:05,112,Vincennes/111th,,Sat
+18:53:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:52:31,112,Vincennes/111th,,Sun
+12:17:52,111,111th/King Drive,,Sun
+11:07:09,112,Vincennes/111th,,Sat
+10:41:22,111,111th/King Drive,,Sun
+18:53:22,111,111th/King Drive,,Sun
+18:23:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:46:21,112,Vincennes/111th,,Sat
+20:06:15,111,111th/King Drive,,Sun
+08:39:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+13:48:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+23:15:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:34:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:00:45,111,111th/King Drive,,Sat
+09:41:45,111,111th/King Drive,,Sun
+11:30:09,112,Vincennes/111th,,Sat
+15:22:15,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:06:09,112,Vincennes/111th,,Sat
+20:54:09,112,Vincennes/111th,,Sun
+09:31:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:02:21,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:46:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:46:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:38:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+16:14:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:48:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:42:45,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:31:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:20:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+19:06:45,111,111th/King Drive,,Sat
+10:46:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+23:15:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:56:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:42:09,112,Vincennes/111th,,Sat
+11:46:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+23:10:45,111,111th/King Drive,,Sun
+19:24:09,112,Vincennes/111th,,Sun
+08:08:45,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:30:09,112,Vincennes/111th,,Sat
+16:26:21,112,Vincennes/111th,,Sat
+14:29:43,112,Vincennes/111th,,Sat
+11:04:52,111,111th/King Drive,,Sat
+20:26:45,111,111th/King Drive,,Sun
+10:16:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:58:45,111,111th/King Drive,,Sat
+19:24:09,112,Vincennes/111th,,Sun
+17:25:05,112,Vincennes/111th,,Sun
+13:35:52,111,111th/King Drive,,Sat
+10:46:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:23:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:01:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:21:52,111,111th/King Drive,,Sun
+06:22:15,111,111th/King Drive,,Sat
+06:22:45,111,111th/King Drive,,Sun
+14:35:52,111,111th/King Drive,,Sat
+19:54:09,112,Vincennes/111th,,Sun
+12:16:09,112,Vincennes/111th,,Sat
+09:16:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:44:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:54:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+17:01:52,111,111th/King Drive,,Sat
+06:26:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:00:09,112,Vincennes/111th,,Sat
+07:52:31,112,Vincennes/111th,,Sun
+16:02:21,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:21:09,112,Vincennes/111th,,Sat
+16:14:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+22:09:15,111,111th/King Drive,,Sun
+12:38:52,111,111th/King Drive,,Sun
+14:03:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:46:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:22:45,111,111th/King Drive,,Sun
+23:06:45,111,111th/King Drive,,Sat
+09:06:09,112,Vincennes/111th,,Sat
+06:15:05,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:51:45,111,111th/King Drive,,Sat
+12:49:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+20:22:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:02:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:48:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+16:55:05,112,Vincennes/111th,,Sun
+07:27:09,112,Vincennes/111th,,Sat
+11:31:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:13:22,111,111th/King Drive,,Sun
+10:09:45,111,111th/King Drive,,Sat
+11:38:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:34:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:14:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:50:17,112,Vincennes/111th,,Sat
+06:51:35,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:20:52,111,111th/King Drive,,Sat
+09:16:45,111,111th/King Drive,,Sun
+15:22:15,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:54:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:38:15,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:59:21,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:13:52,111,111th/King Drive,,Sun
+10:28:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:54:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+05:54:01,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:16:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:39:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:38:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:39:52,111,111th/King Drive,,Sun
+05:44:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:31:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:56:09,112,Vincennes/111th,,Sat
+12:48:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:27:30,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:28:15,111,111th/King Drive,,Sun
+08:17:09,112,Vincennes/111th,,Sat
+11:30:09,112,Vincennes/111th,,Sat
+11:39:52,111,111th/King Drive,,Sun
+15:06:15,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:24:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+19:24:45,111,111th/King Drive,,Sat
+07:56:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:13:31,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:00:09,112,Vincennes/111th,,Sat
+18:21:22,111,111th/King Drive,,Sun
+18:04:22,111,111th/King Drive,,Sun
+11:56:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:16:45,111,111th/King Drive,,Sun
+14:24:35,112,Vincennes/111th,,Sun
+12:32:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+05:44:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:30:09,112,Vincennes/111th,,Sat
+06:22:31,112,Vincennes/111th,,Sun
+20:18:45,111,111th/King Drive,,Sat
+21:53:35,112,Vincennes/111th,,Sun
+10:01:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:00:45,111,111th/King Drive,,Sat
+20:58:45,111,111th/King Drive,,Sat
+22:35:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:54:05,112,Vincennes/111th,,Sun
+15:56:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:50:52,111,111th/King Drive,,Sat
+18:48:45,111,111th/King Drive,,Sat
+16:59:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:33:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:19:52,111,111th/King Drive,,Sat
+07:22:45,111,111th/King Drive,,Sun
+07:52:31,112,Vincennes/111th,,Sun
+15:28:17,112,Vincennes/111th,,Sat
+06:58:35,112,Vincennes/111th,,Sat
+12:33:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:50:45,111,111th/King Drive,,Sun
+12:49:52,111,111th/King Drive,,Sat
+08:22:45,111,111th/King Drive,,Sun
+23:31:15,111,111th/King Drive,,Sun
+15:35:52,111,111th/King Drive,,Sat
+10:11:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+17:08:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+20:54:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:56:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:10:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+17:47:22,111,111th/King Drive,,Sun
+06:15:05,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:09:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:12:45,111,111th/King Drive,,Sat
+13:13:13,112,Vincennes/111th,,Sat
+22:50:15,111,111th/King Drive,,Sun
+18:38:22,111,111th/King Drive,,Sun
+19:06:39,112,Vincennes/111th,,Sat
+20:26:45,111,111th/King Drive,,Sun
+16:12:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:06:45,111,111th/King Drive,,Sat
+15:09:17,112,Vincennes/111th,,Sat
+14:55:05,112,Vincennes/111th,,Sun
+20:08:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:03:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:49:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:23:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:30:45,111,111th/King Drive,,Sat
+10:44:09,112,Vincennes/111th,,Sat
+13:43:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:44:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:07:52,111,111th/King Drive,,Sun
+05:38:45,111,111th/King Drive,,Sat
+15:56:18,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:52:45,111,111th/King Drive,,Sun
+12:54:09,112,Vincennes/111th,,Sat
+17:56:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:24:35,112,Vincennes/111th,,Sun
+17:54:35,112,Vincennes/111th,,Sun
+11:03:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:21:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:31:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:54:09,112,Vincennes/111th,,Sat
+16:55:52,111,111th/King Drive,,Sun
+18:38:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:31:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:26:21,112,Vincennes/111th,,Sat
+08:57:45,111,111th/King Drive,,Sat
+15:50:52,111,111th/King Drive,,Sat
+04:34:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+12:01:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:23:03,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:09:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:25:05,112,Vincennes/111th,,Sun
+18:30:45,111,111th/King Drive,,Sat
+16:01:52,111,111th/King Drive,,Sun
+16:07:52,111,111th/King Drive,,Sat
+06:42:15,111,111th/King Drive,,Sat
+06:52:45,111,111th/King Drive,,Sun
+05:28:05,112,Vincennes/111th,,Sat
+18:23:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:47:15,111,111th/King Drive,,Sun
+17:38:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+05:54:01,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:36:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:42:15,111,111th/King Drive,,Sat
+15:05:52,111,111th/King Drive,,Sat
+13:24:35,112,Vincennes/111th,,Sun
+12:35:09,112,Vincennes/111th,,Sat
+17:01:52,111,111th/King Drive,,Sat
+08:50:45,111,111th/King Drive,,Sun
+06:52:31,112,Vincennes/111th,,Sun
+19:22:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:51:13,112,Vincennes/111th,,Sat
+17:56:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:04:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+13:18:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:16:52,111,111th/King Drive,,Sat
+19:46:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:08:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+05:29:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+13:19:52,111,111th/King Drive,,Sat
+16:25:05,112,Vincennes/111th,,Sun
+16:55:05,112,Vincennes/111th,,Sun
+15:05:52,111,111th/King Drive,,Sat
+22:29:45,111,111th/King Drive,,Sun
+14:20:52,111,111th/King Drive,,Sat
+18:21:22,111,111th/King Drive,,Sun
+18:29:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:53:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:17:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:15:45,111,111th/King Drive,,Sat
+20:38:45,111,111th/King Drive,,Sat
+13:24:35,112,Vincennes/111th,,Sun
+15:55:05,112,Vincennes/111th,,Sun
+17:19:52,111,111th/King Drive,,Sat
+23:31:15,111,111th/King Drive,,Sun
+20:24:09,112,Vincennes/111th,,Sun
+12:34:52,111,111th/King Drive,,Sat
+14:50:52,111,111th/King Drive,,Sat
+07:19:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:09:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:35:52,111,111th/King Drive,,Sat
+10:44:09,112,Vincennes/111th,,Sat
+12:34:52,111,111th/King Drive,,Sat
+13:50:52,111,111th/King Drive,,Sat
+08:39:45,111,111th/King Drive,,Sat
+21:48:45,111,111th/King Drive,,Sun
+23:35:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:06:51,112,Vincennes/111th,,Sat
+13:35:52,111,111th/King Drive,,Sat
+15:55:05,112,Vincennes/111th,,Sun
+09:56:09,112,Vincennes/111th,,Sat
+20:06:15,111,111th/King Drive,,Sun
+11:53:09,112,Vincennes/111th,,Sat
+10:46:52,111,111th/King Drive,,Sat
+16:43:52,111,111th/King Drive,,Sat
+17:49:21,112,Vincennes/111th,,Sat
+14:55:05,112,Vincennes/111th,,Sun
+04:34:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+16:43:52,111,111th/King Drive,,Sat
+13:35:52,111,111th/King Drive,,Sun
+13:07:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+05:13:31,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:09:17,112,Vincennes/111th,,Sat
+15:32:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:38:45,111,111th/King Drive,,Sat
+22:23:35,112,Vincennes/111th,,Sun
+19:42:45,111,111th/King Drive,,Sat
+09:33:45,111,111th/King Drive,,Sat
+14:49:52,111,111th/King Drive,,Sun
+15:25:05,112,Vincennes/111th,,Sun
+10:02:22,111,111th/King Drive,,Sun
+14:35:52,111,111th/King Drive,,Sat
+08:42:09,112,Vincennes/111th,,Sat
+13:43:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+06:58:35,112,Vincennes/111th,,Sat
+08:57:45,111,111th/King Drive,,Sat
+11:24:05,112,Vincennes/111th,,Sun
+06:52:45,111,111th/King Drive,,Sun
+17:29:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:14:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:42:15,111,111th/King Drive,,Sat
+06:34:05,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:31:52,111,111th/King Drive,,Sun
+20:39:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:24:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:58:52,111,111th/King Drive,,Sat
+11:58:52,111,111th/King Drive,,Sun
+07:39:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+19:06:39,112,Vincennes/111th,,Sat
+18:29:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:33:45,111,111th/King Drive,,Sat
+13:04:52,111,111th/King Drive,,Sat
+18:48:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:24:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+20:59:03,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:05:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:40:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:24:05,112,Vincennes/111th,,Sun
+19:54:09,112,Vincennes/111th,,Sun
+22:34:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:22:45,111,111th/King Drive,,Sun
+14:59:21,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:40:13,112,Vincennes/111th,,Sat
+14:50:45,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:23:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:55:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:53:35,112,Vincennes/111th,,Sun
+17:14:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:32:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:07:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+19:46:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+06:05:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:51:35,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:31:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:24:05,112,Vincennes/111th,,Sun
+08:54:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:50:45,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:34:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:38:45,111,111th/King Drive,,Sat
+13:48:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:37:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:48:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:20:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:24:35,112,Vincennes/111th,,Sun
+22:00:45,111,111th/King Drive,,Sat
+09:39:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+13:03:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:05:52,111,111th/King Drive,,Sat
+05:22:31,112,Vincennes/111th,,Sun
+11:53:09,112,Vincennes/111th,,Sat
+17:06:21,112,Vincennes/111th,,Sat
+14:24:35,112,Vincennes/111th,,Sun
+08:20:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:20:52,111,111th/King Drive,,Sat
+22:29:45,111,111th/King Drive,,Sun
+14:10:13,112,Vincennes/111th,,Sat
+11:20:22,111,111th/King Drive,,Sun
+16:38:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:40:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+06:49:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:22:15,111,111th/King Drive,,Sat
+17:37:52,111,111th/King Drive,,Sat
+08:53:31,112,Vincennes/111th,,Sun
+21:36:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:16:52,111,111th/King Drive,,Sun
+15:28:17,112,Vincennes/111th,,Sat
+12:16:52,111,111th/King Drive,,Sat
+19:52:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:54:35,112,Vincennes/111th,,Sun
+20:08:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:31:09,112,Vincennes/111th,,Sat
+20:00:45,111,111th/King Drive,,Sat
+08:17:09,112,Vincennes/111th,,Sat
+09:54:05,112,Vincennes/111th,,Sun
+07:39:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+20:01:39,112,Vincennes/111th,,Sat
+16:37:52,111,111th/King Drive,,Sun
+09:02:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:54:05,112,Vincennes/111th,,Sun
+19:08:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:31:09,112,Vincennes/111th,,Sat
+11:01:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:52:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:28:15,111,111th/King Drive,,Sun
+11:58:52,111,111th/King Drive,,Sun
+16:53:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+14:50:52,111,111th/King Drive,,Sat
+19:45:45,111,111th/King Drive,,Sun
+08:00:45,111,111th/King Drive,,Sat
+18:09:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:24:45,111,111th/King Drive,,Sat
+21:24:09,112,Vincennes/111th,,Sun
+07:54:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:19:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:00:45,111,111th/King Drive,,Sat
+19:33:39,112,Vincennes/111th,,Sat
+16:26:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:43:52,111,111th/King Drive,,Sun
+20:22:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:26:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:47:17,112,Vincennes/111th,,Sat
+04:58:05,112,Vincennes/111th,,Sat
+05:33:31,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:11:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+16:19:52,111,111th/King Drive,,Sun
+05:58:05,112,Vincennes/111th,,Sat
+15:06:15,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:54:52,111,111th/King Drive,,Sun
+19:10:22,111,111th/King Drive,,Sun
+18:10:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+22:55:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:54:35,112,Vincennes/111th,,Sun
+18:15:21,112,Vincennes/111th,,Sat
+20:54:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:46:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:29:43,112,Vincennes/111th,,Sat
+11:00:52,111,111th/King Drive,,Sun
+12:38:52,111,111th/King Drive,,Sun
+07:22:31,112,Vincennes/111th,,Sun
+21:18:45,111,111th/King Drive,,Sat
+06:27:30,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+16:55:52,111,111th/King Drive,,Sun
+19:07:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+05:52:31,112,Vincennes/111th,,Sun
+07:32:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:47:22,111,111th/King Drive,,Sun
+15:25:52,111,111th/King Drive,,Sun
+10:28:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+19:27:22,111,111th/King Drive,,Sun
+14:39:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:58:52,111,111th/King Drive,,Sat
+15:47:17,112,Vincennes/111th,,Sat
+15:25:05,112,Vincennes/111th,,Sun
+16:25:52,111,111th/King Drive,,Sat
+13:07:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+13:54:35,112,Vincennes/111th,,Sun
+18:54:35,112,Vincennes/111th,,Sun
+13:16:52,111,111th/King Drive,,Sun
+10:24:05,112,Vincennes/111th,,Sun
+22:22:45,111,111th/King Drive,,Sat
+21:40:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+17:54:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:27:09,112,Vincennes/111th,,Sat
+16:25:05,112,Vincennes/111th,,Sun
+12:14:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+18:53:22,111,111th/King Drive,,Sun
+16:53:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:46:52,111,111th/King Drive,,Sat
+11:54:05,112,Vincennes/111th,,Sun
+11:16:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:54:35,112,Vincennes/111th,,Sun
+06:34:05,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+11:40:52,111,111th/King Drive,,Sat
+20:59:03,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:17:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:27:22,111,111th/King Drive,,Sun
+20:07:07,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:01:37,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:33:41,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:33:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:42:45,111,111th/King Drive,,Sat
+13:32:13,112,Vincennes/111th,,Sat
+10:21:09,112,Vincennes/111th,,Sat
+11:38:43,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+21:16:39,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+06:22:45,111,111th/King Drive,,Sun
+23:35:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:05:48,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:08:11,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:38:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+15:47:51,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+10:28:52,111,111th/King Drive,,Sat
+16:37:52,111,111th/King Drive,,Sun
+17:55:52,111,111th/King Drive,,Sat
+11:56:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+08:53:31,112,Vincennes/111th,,Sun
+22:55:33,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:02:22,111,111th/King Drive,,Sun
+19:26:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:22:15,111,111th/King Drive,,Sat
+22:44:45,111,111th/King Drive,,Sat
+08:39:45,111,111th/King Drive,,Sat
+23:28:45,111,111th/King Drive,,Sat
+16:01:52,111,111th/King Drive,,Sun
+21:07:45,111,111th/King Drive,,Sun
+22:09:15,111,111th/King Drive,,Sun
+06:28:05,112,Vincennes/111th,,Sat
+04:58:05,112,Vincennes/111th,,Sat
+13:35:52,111,111th/King Drive,,Sun
+11:22:52,111,111th/King Drive,,Sat
+22:22:45,111,111th/King Drive,,Sat
+14:02:13,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+09:55:09,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+04:54:56,112,Vincennes/111th,,Mon,Tue,Wed,Thu,Fri
+07:52:09,112,Vincennes/111th,,Sat
+12:17:52,111,111th/King Drive,,Sun
+12:16:09,112,Vincennes/111th,,Sat
+12:57:52,111,111th/King Drive,,Sun
+13:13:13,112,Vincennes/111th,,Sat
+22:23:35,112,Vincennes/111th,,Sun
+17:06:21,112,Vincennes/111th,,Sat

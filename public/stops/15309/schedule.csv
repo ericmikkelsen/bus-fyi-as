@@ -1,0 +1,977 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+07:44:52,6,Jackson Park Express,,Sun
+14:18:36,67,67th/69th/71st,,Sat
+13:34:06,67,67th/69th/71st,,Sat
+10:39:22,6,Jackson Park Express,,Sat
+01:21:22,6,Jackson Park Express,,Mon
+10:08:24,67,67th/69th/71st,,Sat
+18:51:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:20:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:24:57,6,Jackson Park Express,,Sat
+10:48:36,67,67th/69th/71st,,Sat
+22:37:52,6,Jackson Park Express,,Sun
+18:27:43,6,Jackson Park Express,,Sun
+15:47:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:11:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:17:43,6,Jackson Park Express,,Sun
+08:09:18,67,67th/69th/71st,,Sat
+06:16:22,6,Jackson Park Express,,Sat
+18:05:12,6,Jackson Park Express,,Sun
+13:38:13,6,Jackson Park Express,,Sat
+10:40:48,67,67th/69th/71st,,Sun
+16:48:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:07:43,6,Jackson Park Express,,Sun
+12:52:06,67,67th/69th/71st,,Sat
+16:44:36,67,67th/69th/71st,,Sat
+10:43:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:52:06,67,67th/69th/71st,,Sat
+18:16:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:23:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:34:06,67,67th/69th/71st,,Sat
+16:14:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:48:36,67,67th/69th/71st,,Sat
+20:41:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:34:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:36:22,6,Jackson Park Express,,Sat
+07:38:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:55:27,6,Jackson Park Express,,Sat
+11:56:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:44:43,6,Jackson Park Express,,Sun
+20:50:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:57:27,6,Jackson Park Express,,Sat
+14:37:27,6,Jackson Park Express,,Sat
+18:30:57,6,Jackson Park Express,,Sat
+21:40:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:07:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:42:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:59:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:38:06,67,67th/69th/71st,,Sun
+16:35:17,6,Jackson Park Express,,Sun
+10:34:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:43:12,6,Jackson Park Express,,Sat
+15:39:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:12:13,6,Jackson Park Express,,Sat
+12:53:13,6,Jackson Park Express,,Sat
+22:10:22,6,Jackson Park Express,,Sun
+22:24:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:02:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+24:02:48,67,67th/69th/71st,,Sun
+07:31:37,6,Jackson Park Express,,Sun
+09:36:24,67,67th/69th/71st,,Sat
+11:07:22,6,Jackson Park Express,,Sun
+20:58:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:45:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:54:57,6,Jackson Park Express,,Sat
+13:56:52,6,Jackson Park Express,,Sun
+20:40:52,6,Jackson Park Express,,Sun
+15:11:36,67,67th/69th/71st,,Sun
+16:58:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:09:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:22:43,6,Jackson Park Express,,Sat
+14:28:27,6,Jackson Park Express,,Sat
+21:07:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:18:36,67,67th/69th/71st,,Sun
+08:12:37,6,Jackson Park Express,,Sat
+10:07:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:20:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:06:57,6,Jackson Park Express,,Sat
+14:10:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:41:32,6,Jackson Park Express,,Sat
+19:12:36,67,67th/69th/71st,,Sat
+10:40:48,67,67th/69th/71st,,Sun
+13:24:57,6,Jackson Park Express,,Sat
+16:54:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:05:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:08:13,6,Jackson Park Express,,Sat
+15:31:02,6,Jackson Park Express,,Sat
+00:46:32,6,Jackson Park Express,,Sun
+19:11:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:51:06,67,67th/69th/71st,,Sun
+12:15:48,67,67th/69th/71st,,Sun
+15:20:36,67,67th/69th/71st,,Sat
+14:46:27,6,Jackson Park Express,,Sat
+14:29:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:17:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:12:36,67,67th/69th/71st,,Sat
+09:00:52,6,Jackson Park Express,,Sat
+17:34:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+00:48:57,6,Jackson Park Express,,Mon
+20:19:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:35:36,67,67th/69th/71st,,Sun
+11:05:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:00:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:59:18,67,67th/69th/71st,,Sat
+08:48:22,6,Jackson Park Express,,Sat
+15:11:36,67,67th/69th/71st,,Sun
+14:18:36,67,67th/69th/71st,,Sat
+14:47:36,67,67th/69th/71st,,Sun
+14:05:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:08:36,67,67th/69th/71st,,Sat
+07:14:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:14:57,6,Jackson Park Express,,Sat
+21:36:52,6,Jackson Park Express,,Sat
+13:02:43,6,Jackson Park Express,,Sat
+19:22:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:58:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:02:22,6,Jackson Park Express,,Sun
+17:16:06,67,67th/69th/71st,,Sat
+15:47:36,67,67th/69th/71st,,Sun
+15:35:36,67,67th/69th/71st,,Sun
+19:39:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:38:13,6,Jackson Park Express,,Sat
+21:16:12,6,Jackson Park Express,,Sun
+11:28:22,6,Jackson Park Express,,Sat
+11:30:57,6,Jackson Park Express,,Sat
+08:18:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:34:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:24:57,6,Jackson Park Express,,Sat
+08:45:52,6,Jackson Park Express,,Sat
+15:01:52,6,Jackson Park Express,,Sun
+17:58:43,6,Jackson Park Express,,Sat
+16:25:17,6,Jackson Park Express,,Sun
+23:51:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:48:22,6,Jackson Park Express,,Sat
+17:41:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:04:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:56:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+01:36:57,6,Jackson Park Express,,Mon
+16:34:13,6,Jackson Park Express,,Sun
+19:09:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:12:36,67,67th/69th/71st,,Sat
+19:27:12,6,Jackson Park Express,,Sun
+07:37:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:31:48,67,67th/69th/71st,,Sat
+22:05:32,6,Jackson Park Express,,Sat
+20:25:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:45:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:11:13,6,Jackson Park Express,,Sun
+19:33:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:06:12,6,Jackson Park Express,,Sun
+07:24:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:06:57,6,Jackson Park Express,,Sat
+17:12:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+24:13:52,6,Jackson Park Express,,Sun
+16:58:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:44:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:09:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:49:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+24:03:02,6,Jackson Park Express,,Sat
+16:13:06,67,67th/69th/71st,,Sat
+09:07:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:27:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:39:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:55:43,6,Jackson Park Express,,Sun
+07:50:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:54:32,6,Jackson Park Express,,Sun
+18:36:43,6,Jackson Park Express,,Sat
+23:23:52,6,Jackson Park Express,,Sun
+18:49:36,67,67th/69th/71st,,Sat
+09:49:52,6,Jackson Park Express,,Sun
+18:18:13,6,Jackson Park Express,,Sun
+19:06:52,6,Jackson Park Express,,Sat
+06:31:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:03:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:49:02,6,Jackson Park Express,,Sat
+01:51:27,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+24:17:47,6,Jackson Park Express,,Sat
+13:49:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:58:43,6,Jackson Park Express,,Sat
+13:46:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:27:52,6,Jackson Park Express,,Sat
+00:51:27,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+16:00:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:17:47,6,Jackson Park Express,,Sun
+22:17:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:04:57,6,Jackson Park Express,,Sat
+16:12:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:21:57,6,Jackson Park Express,,Sat
+13:43:52,6,Jackson Park Express,,Sun
+18:35:48,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:39:52,6,Jackson Park Express,,Sat
+24:32:57,6,Jackson Park Express,,Sun
+15:32:47,6,Jackson Park Express,,Sun
+09:15:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:29:43,6,Jackson Park Express,,Sat
+16:19:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:38:12,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+15:23:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:42:48,67,67th/69th/71st,,Sun
+17:36:43,6,Jackson Park Express,,Sun
+17:25:12,6,Jackson Park Express,,Sun
+22:39:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:33:43,6,Jackson Park Express,,Sun
+09:43:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:34:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:01:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:02:13,6,Jackson Park Express,,Sat
+17:56:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:45:17,6,Jackson Park Express,,Sun
+17:47:06,67,67th/69th/71st,,Sun
+18:17:43,6,Jackson Park Express,,Sat
+14:46:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:36:24,67,67th/69th/71st,,Sat
+13:06:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:19:06,67,67th/69th/71st,,Sat
+16:23:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:42:06,67,67th/69th/71st,,Sun
+17:15:12,6,Jackson Park Express,,Sun
+13:06:13,6,Jackson Park Express,,Sun
+12:21:52,6,Jackson Park Express,,Sun
+11:44:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:55:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:16:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:09:12,6,Jackson Park Express,,Sun
+10:13:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:38:43,6,Jackson Park Express,,Sun
+20:12:36,67,67th/69th/71st,,Sat
+19:39:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:48:36,67,67th/69th/71st,,Sat
+15:34:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:43:13,6,Jackson Park Express,,Sat
+19:36:36,67,67th/69th/71st,,Sat
+10:37:22,6,Jackson Park Express,,Sun
+00:46:22,6,Jackson Park Express,,Mon
+17:49:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:20:43,6,Jackson Park Express,,Sun
+01:37:22,6,Jackson Park Express,,Sun
+14:41:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:17:32,6,Jackson Park Express,,Sat
+16:37:43,6,Jackson Park Express,,Sat
+19:48:36,67,67th/69th/71st,,Sat
+18:28:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:24:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:55:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:40:06,67,67th/69th/71st,,Sat
+21:52:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:26:22,6,Jackson Park Express,,Sat
+17:47:36,67,67th/69th/71st,,Sat
+14:22:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:45:12,6,Jackson Park Express,,Sun
+21:27:06,67,67th/69th/71st,,Sun
+11:08:48,67,67th/69th/71st,,Sun
+23:18:32,6,Jackson Park Express,,Sun
+00:56:12,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+10:44:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:32:13,6,Jackson Park Express,,Sat
+18:34:42,6,Jackson Park Express,,Sun
+14:32:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:23:52,6,Jackson Park Express,,Sat
+15:22:02,6,Jackson Park Express,,Sat
+01:01:32,6,Jackson Park Express,,Sun
+08:37:30,67,67th/69th/71st,,Sun
+21:13:22,6,Jackson Park Express,,Sat
+20:13:52,6,Jackson Park Express,,Sat
+16:02:43,6,Jackson Park Express,,Sun
+20:29:42,6,Jackson Park Express,,Sun
+15:58:02,6,Jackson Park Express,,Sat
+18:48:57,6,Jackson Park Express,,Sat
+12:36:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:53:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:41:36,67,67th/69th/71st,,Sat
+07:57:37,6,Jackson Park Express,,Sun
+16:34:06,67,67th/69th/71st,,Sat
+08:21:52,6,Jackson Park Express,,Sat
+05:03:06,67,67th/69th/71st,,Sat
+18:46:13,6,Jackson Park Express,,Sat
+18:55:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:26:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:06:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:50:52,6,Jackson Park Express,,Sun
+08:06:22,6,Jackson Park Express,,Sun
+18:05:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:31:22,6,Jackson Park Express,,Sun
+17:41:13,6,Jackson Park Express,,Sat
+11:36:48,67,67th/69th/71st,,Sun
+19:58:42,6,Jackson Park Express,,Sun
+22:12:52,6,Jackson Park Express,,Sat
+09:47:24,67,67th/69th/71st,,Sat
+12:41:36,67,67th/69th/71st,,Sat
+07:36:02,6,Jackson Park Express,,Sat
+17:05:36,67,67th/69th/71st,,Sat
+14:19:27,6,Jackson Park Express,,Sat
+11:38:36,67,67th/69th/71st,,Sat
+20:52:12,6,Jackson Park Express,,Sun
+14:31:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:53:32,6,Jackson Park Express,,Sat
+24:17:32,6,Jackson Park Express,,Sat
+22:08:18,67,67th/69th/71st,,Sun
+20:31:17,6,Jackson Park Express,,Sat
+17:34:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:29:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:19:12,6,Jackson Park Express,,Sat
+18:44:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:11:36,67,67th/69th/71st,,Sun
+12:20:36,67,67th/69th/71st,,Sat
+18:49:36,67,67th/69th/71st,,Sat
+19:06:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:23:43,6,Jackson Park Express,,Sun
+19:19:06,67,67th/69th/71st,,Sun
+20:39:06,67,67th/69th/71st,,Sun
+20:06:22,6,Jackson Park Express,,Sun
+14:59:43,6,Jackson Park Express,,Sun
+10:19:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:44:36,67,67th/69th/71st,,Sat
+14:08:52,6,Jackson Park Express,,Sun
+19:11:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:12:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:35:36,67,67th/69th/71st,,Sun
+21:28:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:27:52,6,Jackson Park Express,,Sat
+10:30:47,6,Jackson Park Express,,Sun
+13:49:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:23:22,6,Jackson Park Express,,Sun
+15:44:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:55:12,6,Jackson Park Express,,Sun
+20:04:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:04:57,6,Jackson Park Express,,Sat
+18:25:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:08:22,6,Jackson Park Express,,Sat
+13:41:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:16:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:43:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:08:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:40:00,67,67th/69th/71st,,Sun
+15:01:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:20:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:48:12,6,Jackson Park Express,,Sun
+15:17:43,6,Jackson Park Express,,Sat
+19:19:06,67,67th/69th/71st,,Sun
+15:01:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:53:43,6,Jackson Park Express,,Sat
+01:31:27,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+19:56:22,6,Jackson Park Express,,Sat
+17:09:57,6,Jackson Park Express,,Sat
+22:45:18,67,67th/69th/71st,,Sun
+13:34:27,6,Jackson Park Express,,Sat
+14:41:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:10:13,6,Jackson Park Express,,Sun
+22:24:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:49:36,67,67th/69th/71st,,Sat
+17:05:12,6,Jackson Park Express,,Sun
+16:58:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:03:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:36:52,6,Jackson Park Express,,Sat
+09:40:30,67,67th/69th/71st,,Sun
+13:20:43,6,Jackson Park Express,,Sat
+23:16:48,67,67th/69th/71st,,Sat
+16:35:36,67,67th/69th/71st,,Sun
+21:18:36,67,67th/69th/71st,,Sat
+15:15:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:10:06,67,67th/69th/71st,,Sat
+13:16:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:05:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+00:46:22,6,Jackson Park Express,,Sun
+09:52:22,6,Jackson Park Express,,Sat
+13:06:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:05:22,6,Jackson Park Express,,Sat
+16:32:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+22:19:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:12:06,67,67th/69th/71st,,Sat
+14:26:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:17:02,6,Jackson Park Express,,Sat
+22:39:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:21:18,67,67th/69th/71st,,Sat
+10:53:52,6,Jackson Park Express,,Sat
+21:34:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:14:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:44:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:16:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:45:06,67,67th/69th/71st,,Sun
+12:14:57,6,Jackson Park Express,,Sat
+17:37:06,67,67th/69th/71st,,Sat
+22:23:22,6,Jackson Park Express,,Sun
+19:54:18,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:18:24,67,67th/69th/71st,,Sat
+16:32:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:40:30,67,67th/69th/71st,,Sun
+13:45:06,67,67th/69th/71st,,Sun
+17:05:43,6,Jackson Park Express,,Sun
+14:17:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+24:02:48,67,67th/69th/71st,,Sun
+24:36:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:39:52,6,Jackson Park Express,,Mon
+19:16:42,6,Jackson Park Express,,Sun
+09:10:37,6,Jackson Park Express,,Sun
+15:18:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:33:13,6,Jackson Park Express,,Sat
+17:00:57,6,Jackson Park Express,,Sat
+12:52:06,67,67th/69th/71st,,Sat
+16:39:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:31:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:32:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:13:06,67,67th/69th/71st,,Sat
+21:55:07,6,Jackson Park Express,,Sun
+10:52:22,6,Jackson Park Express,,Sun
+15:12:22,6,Jackson Park Express,,Sun
+22:08:18,67,67th/69th/71st,,Sun
+08:31:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:33:21,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:46:48,67,67th/69th/71st,,Sat
+15:27:13,6,Jackson Park Express,,Sat
+14:06:43,6,Jackson Park Express,,Sun
+21:03:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:46:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:35:36,67,67th/69th/71st,,Sun
+16:13:06,67,67th/69th/71st,,Sat
+09:31:52,6,Jackson Park Express,,Sun
+17:12:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:31:48,67,67th/69th/71st,,Sat
+20:31:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:31:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:53:37,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:58:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:21:18,67,67th/69th/71st,,Sat
+17:57:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:16:48,67,67th/69th/71st,,Sat
+23:05:22,6,Jackson Park Express,,Sat
+14:38:43,6,Jackson Park Express,,Sun
+13:08:06,67,67th/69th/71st,,Sun
+24:06:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:06:32,6,Jackson Park Express,,Sat
+22:51:22,6,Jackson Park Express,,Sat
+19:28:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:40:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:45:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:10:30,67,67th/69th/71st,,Sun
+18:46:48,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:46:43,6,Jackson Park Express,,Sun
+10:19:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:07:06,67,67th/69th/71st,,Sat
+17:33:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:37:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:50:22,6,Jackson Park Express,,Sat
+22:45:18,67,67th/69th/71st,,Sun
+11:01:47,6,Jackson Park Express,,Sun
+12:42:06,67,67th/69th/71st,,Sun
+08:45:52,6,Jackson Park Express,,Sun
+16:11:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:54:37,6,Jackson Park Express,,Sun
+23:56:52,6,Jackson Park Express,,Sun
+13:13:06,67,67th/69th/71st,,Sat
+24:30:27,6,Jackson Park Express,,Sun
+08:46:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:56:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:03:22,6,Jackson Park Express,,Mon
+16:42:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:46:36,67,67th/69th/71st,,Sun
+23:06:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:42:48,67,67th/69th/71st,,Sun
+11:19:47,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:38:36,67,67th/69th/71st,,Sat
+17:57:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:52:52,6,Jackson Park Express,,Sun
+21:30:52,6,Jackson Park Express,,Sun
+17:23:13,6,Jackson Park Express,,Sat
+17:18:57,6,Jackson Park Express,,Sat
+18:08:13,6,Jackson Park Express,,Sat
+24:08:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:35:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:19:13,6,Jackson Park Express,,Sun
+22:48:32,6,Jackson Park Express,,Sun
+09:55:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:35:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:20:22,6,Jackson Park Express,,Sat
+18:21:19,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:38:37,6,Jackson Park Express,,Sun
+05:57:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:06:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:54:57,6,Jackson Park Express,,Sat
+20:28:52,6,Jackson Park Express,,Sun
+15:41:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+05:23:06,67,67th/69th/71st,,Sat
+14:28:13,6,Jackson Park Express,,Sun
+18:07:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:03:06,67,67th/69th/71st,,Sat
+09:43:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:58:48,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:16:48,67,67th/69th/71st,,Sat
+22:29:32,6,Jackson Park Express,,Sat
+10:03:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:45:18,67,67th/69th/71st,,Sat
+11:18:36,67,67th/69th/71st,,Sat
+23:21:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:20:37,6,Jackson Park Express,,Sun
+14:06:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:16:13,6,Jackson Park Express,,Sat
+06:45:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:15:52,6,Jackson Park Express,,Sat
+15:54:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:49:43,6,Jackson Park Express,,Sat
+07:53:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:36:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:47:06,67,67th/69th/71st,,Sun
+15:41:36,67,67th/69th/71st,,Sat
+14:47:36,67,67th/69th/71st,,Sun
+01:11:27,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+23:39:52,6,Jackson Park Express,,Sun
+10:02:52,6,Jackson Park Express,,Sat
+14:49:36,67,67th/69th/71st,,Sat
+12:36:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:45:18,67,67th/69th/71st,,Sat
+21:07:12,6,Jackson Park Express,,Sat
+19:22:43,6,Jackson Park Express,,Sun
+24:02:52,6,Jackson Park Express,,Sat
+17:05:13,6,Jackson Park Express,,Sat
+07:14:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:36:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:35:22,6,Jackson Park Express,,Sat
+13:16:52,6,Jackson Park Express,,Sun
+20:41:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:57:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:09:00,67,67th/69th/71st,,Sun
+13:21:06,67,67th/69th/71st,,Sun
+18:14:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:07:32,6,Jackson Park Express,,Sun
+13:08:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:46:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:06:22,6,Jackson Park Express,,Sat
+09:19:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:26:43,6,Jackson Park Express,,Sat
+22:37:52,6,Jackson Park Express,,Sat
+11:08:48,67,67th/69th/71st,,Sun
+16:55:17,6,Jackson Park Express,,Sun
+20:40:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:40:06,67,67th/69th/71st,,Sat
+16:11:36,67,67th/69th/71st,,Sun
+15:01:48,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:11:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:38:13,6,Jackson Park Express,,Sun
+22:33:32,6,Jackson Park Express,,Sun
+22:25:22,6,Jackson Park Express,,Sat
+15:10:13,6,Jackson Park Express,,Sun
+21:04:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:19:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:41:43,6,Jackson Park Express,,Sun
+20:08:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:23:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+23:37:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:07:47,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:29:57,6,Jackson Park Express,,Sun
+19:47:06,67,67th/69th/71st,,Sun
+18:48:13,6,Jackson Park Express,,Sun
+21:42:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:44:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:04:12,6,Jackson Park Express,,Sun
+16:33:57,6,Jackson Park Express,,Sat
+05:34:47,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:55:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:39:30,67,67th/69th/71st,,Sun
+24:16:57,6,Jackson Park Express,,Sun
+21:15:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:43:06,67,67th/69th/71st,,Sat
+09:47:24,67,67th/69th/71st,,Sat
+18:24:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:24:43,6,Jackson Park Express,,Sun
+05:56:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:49:48,67,67th/69th/71st,,Sun
+10:50:52,6,Jackson Park Express,,Sat
+05:43:06,67,67th/69th/71st,,Sat
+14:14:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:36:22,6,Jackson Park Express,,Sat
+05:57:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:08:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:36:48,67,67th/69th/71st,,Sun
+14:19:52,6,Jackson Park Express,,Sun
+14:10:27,6,Jackson Park Express,,Sat
+12:41:36,67,67th/69th/71st,,Sat
+24:01:27,6,Jackson Park Express,,Sun
+17:47:36,67,67th/69th/71st,,Sat
+18:12:57,6,Jackson Park Express,,Sat
+10:38:06,67,67th/69th/71st,,Sat
+11:05:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:39:48,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:56:37,6,Jackson Park Express,,Sun
+06:27:22,6,Jackson Park Express,,Sun
+06:58:37,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:15:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:36:57,6,Jackson Park Express,,Sat
+20:16:36,67,67th/69th/71st,,Sun
+07:25:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:13:43,6,Jackson Park Express,,Sat
+17:50:13,6,Jackson Park Express,,Sat
+16:42:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+01:18:32,6,Jackson Park Express,,Sun
+01:17:12,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+15:52:13,6,Jackson Park Express,,Sun
+17:45:12,6,Jackson Park Express,,Sun
+17:27:57,6,Jackson Park Express,,Sat
+11:40:22,6,Jackson Park Express,,Sat
+06:23:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:44:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:20:02,6,Jackson Park Express,,Sat
+16:51:57,6,Jackson Park Express,,Sat
+17:28:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:39:30,67,67th/69th/71st,,Sun
+11:45:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:15:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:36:36,67,67th/69th/71st,,Sat
+14:44:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:45:13,6,Jackson Park Express,,Sat
+23:24:48,67,67th/69th/71st,,Sun
+15:10:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:03:52,6,Jackson Park Express,,Sun
+20:16:36,67,67th/69th/71st,,Sun
+15:13:02,6,Jackson Park Express,,Sat
+18:28:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:40:00,67,67th/69th/71st,,Sun
+23:44:18,67,67th/69th/71st,,Sat
+19:25:48,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:11:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+10:21:52,6,Jackson Park Express,,Sun
+10:17:52,6,Jackson Park Express,,Sat
+11:03:22,6,Jackson Park Express,,Sat
+11:15:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:42:57,6,Jackson Park Express,,Sat
+07:55:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:47:36,67,67th/69th/71st,,Sun
+09:59:47,6,Jackson Park Express,,Sun
+15:18:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:14:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:10:06,67,67th/69th/71st,,Sat
+14:41:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:55:12,6,Jackson Park Express,,Sat
+23:36:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:12:06,67,67th/69th/71st,,Sun
+06:45:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:03:57,6,Jackson Park Express,,Sat
+10:09:00,67,67th/69th/71st,,Sun
+10:18:24,67,67th/69th/71st,,Sat
+22:09:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:28:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:26:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:57:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:39:36,67,67th/69th/71st,,Sat
+10:07:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:18:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:08:24,67,67th/69th/71st,,Sat
+07:32:22,6,Jackson Park Express,,Sat
+24:38:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:05:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+11:54:57,6,Jackson Park Express,,Sat
+15:22:52,6,Jackson Park Express,,Sun
+14:31:43,6,Jackson Park Express,,Sat
+16:12:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:55:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:36:52,6,Jackson Park Express,,Sun
+22:54:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:51:22,6,Jackson Park Express,,Sun
+17:11:36,67,67th/69th/71st,,Sun
+24:23:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:25:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:04:17,6,Jackson Park Express,,Sun
+07:13:52,6,Jackson Park Express,,Sat
+20:49:22,6,Jackson Park Express,,Sat
+12:06:22,6,Jackson Park Express,,Sun
+10:41:52,6,Jackson Park Express,,Sat
+23:03:32,6,Jackson Park Express,,Sun
+10:16:22,6,Jackson Park Express,,Sat
+13:08:06,67,67th/69th/71st,,Sun
+14:09:06,67,67th/69th/71st,,Sun
+08:37:30,67,67th/69th/71st,,Sun
+17:58:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:38:32,6,Jackson Park Express,,Sun
+20:25:22,6,Jackson Park Express,,Sat
+22:00:52,6,Jackson Park Express,,Sat
+16:55:13,6,Jackson Park Express,,Sun
+13:18:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:44:36,67,67th/69th/71st,,Sat
+12:08:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:38:06,67,67th/69th/71st,,Sat
+20:38:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:45:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:25:22,6,Jackson Park Express,,Sat
+16:44:43,6,Jackson Park Express,,Sun
+19:37:42,6,Jackson Park Express,,Sun
+06:55:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:35:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:53:32,6,Jackson Park Express,,Sat
+11:18:57,6,Jackson Park Express,,Sat
+23:07:52,6,Jackson Park Express,,Sun
+09:10:30,67,67th/69th/71st,,Sun
+19:56:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:10:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:25:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:44:36,67,67th/69th/71st,,Sat
+16:28:43,6,Jackson Park Express,,Sat
+11:38:36,67,67th/69th/71st,,Sat
+07:24:37,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:07:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:25:12,6,Jackson Park Express,,Sun
+17:02:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:50:22,6,Jackson Park Express,,Sat
+23:44:18,67,67th/69th/71st,,Sat
+10:44:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:26:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:49:06,67,67th/69th/71st,,Sat
+15:10:06,67,67th/69th/71st,,Sat
+17:35:12,6,Jackson Park Express,,Sun
+24:21:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:06:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:54:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:05:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:16:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:17:52,6,Jackson Park Express,,Sun
+17:38:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:08:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:31:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:36:36,67,67th/69th/71st,,Sat
+11:44:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:12:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:57:27,6,Jackson Park Express,,Sat
+12:53:13,6,Jackson Park Express,,Sun
+21:34:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:02:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:33:32,6,Jackson Park Express,,Sat
+06:17:52,6,Jackson Park Express,,Sat
+06:55:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:51:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:12:18,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:07:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:19:22,6,Jackson Park Express,,Sat
+11:38:22,6,Jackson Park Express,,Sun
+12:56:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:58:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:45:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:50:07,6,Jackson Park Express,,Sat
+18:35:49,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:15:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:19:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:18:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:13:22,6,Jackson Park Express,,Sat
+17:48:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:12:06,67,67th/69th/71st,,Sun
+22:20:32,6,Jackson Park Express,,Sun
+11:35:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:29:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:55:37,6,Jackson Park Express,,Sat
+21:16:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:11:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:34:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:28:12,6,Jackson Park Express,,Sun
+17:08:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:26:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:55:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:13:13,6,Jackson Park Express,,Sun
+15:52:06,67,67th/69th/71st,,Sat
+09:00:52,6,Jackson Park Express,,Sun
+16:46:43,6,Jackson Park Express,,Sat
+20:20:12,6,Jackson Park Express,,Sun
+16:24:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:36:52,6,Jackson Park Express,,Sat
+12:32:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:26:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:29:47,6,Jackson Park Express,,Sat
+08:09:18,67,67th/69th/71st,,Sat
+18:21:19,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:08:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:51:06,67,67th/69th/71st,,Sun
+15:53:47,6,Jackson Park Express,,Sun
+23:48:02,6,Jackson Park Express,,Sun
+17:14:13,6,Jackson Park Express,,Sat
+07:40:00,67,67th/69th/71st,,Sun
+15:10:06,67,67th/69th/71st,,Sat
+05:08:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:47:06,67,67th/69th/71st,,Sun
+13:34:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:49:48,67,67th/69th/71st,,Sun
+15:36:13,6,Jackson Park Express,,Sat
+09:15:52,6,Jackson Park Express,,Sat
+09:15:52,6,Jackson Park Express,,Sun
+17:09:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:45:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:56:52,6,Jackson Park Express,,Sun
+11:22:22,6,Jackson Park Express,,Sun
+14:08:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:23:13,6,Jackson Park Express,,Sat
+09:31:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:33:21,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:33:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:05:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:50:52,6,Jackson Park Express,,Sun
+20:36:36,67,67th/69th/71st,,Sat
+11:42:57,6,Jackson Park Express,,Sat
+22:16:48,67,67th/69th/71st,,Sat
+23:33:32,6,Jackson Park Express,,Sun
+15:43:17,6,Jackson Park Express,,Sun
+05:26:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:43:52,6,Jackson Park Express,,Sun
+07:54:32,6,Jackson Park Express,,Sat
+10:31:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:13:13,6,Jackson Park Express,,Sat
+23:37:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:13:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+19:41:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:01:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:16:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+08:03:47,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:49:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:01:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:46:36,67,67th/69th/71st,,Sun
+15:41:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:55:42,6,Jackson Park Express,,Sun
+19:46:22,6,Jackson Park Express,,Sat
+08:15:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:30:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:49:13,6,Jackson Park Express,,Sun
+15:47:36,67,67th/69th/71st,,Sun
+18:33:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:49:36,67,67th/69th/71st,,Sat
+07:15:18,67,67th/69th/71st,,Sat
+17:09:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:47:36,67,67th/69th/71st,,Sun
+09:33:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:52:52,6,Jackson Park Express,,Sun
+14:07:06,67,67th/69th/71st,,Sat
+19:45:13,6,Jackson Park Express,,Sun
+08:26:52,6,Jackson Park Express,,Sun
+10:29:52,6,Jackson Park Express,,Sat
+14:30:22,6,Jackson Park Express,,Sun
+16:34:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:34:06,67,67th/69th/71st,,Sat
+08:54:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:39:57,6,Jackson Park Express,,Sat
+17:37:06,67,67th/69th/71st,,Sat
+24:31:32,6,Jackson Park Express,,Sat
+10:05:52,6,Jackson Park Express,,Sun
+21:18:36,67,67th/69th/71st,,Sun
+21:01:22,6,Jackson Park Express,,Sat
+01:19:22,6,Jackson Park Express,,Sun
+14:40:43,6,Jackson Park Express,,Sat
+12:34:57,6,Jackson Park Express,,Sat
+21:52:46,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:18:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:44:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+09:12:06,67,67th/69th/71st,,Sat
+08:55:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:46:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+18:08:36,67,67th/69th/71st,,Sat
+23:33:52,6,Jackson Park Express,,Sat
+14:09:06,67,67th/69th/71st,,Sun
+13:46:43,6,Jackson Park Express,,Sat
+16:19:43,6,Jackson Park Express,,Sat
+11:08:36,67,67th/69th/71st,,Sat
+15:35:36,67,67th/69th/71st,,Sun
+18:59:43,6,Jackson Park Express,,Sun
+18:08:36,67,67th/69th/71st,,Sat
+21:55:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:20:36,67,67th/69th/71st,,Sat
+16:14:47,6,Jackson Park Express,,Sun
+07:44:18,67,67th/69th/71st,,Sat
+15:40:02,6,Jackson Park Express,,Sat
+12:33:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:43:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:53:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:16:13,6,Jackson Park Express,,Sun
+23:48:02,6,Jackson Park Express,,Sat
+10:43:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:04:02,6,Jackson Park Express,,Sat
+15:01:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+13:52:27,6,Jackson Park Express,,Sat
+18:27:13,6,Jackson Park Express,,Sat
+19:16:22,6,Jackson Park Express,,Sat
+14:44:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:05:22,6,Jackson Park Express,,Sun
+08:35:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+07:11:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:20:36,67,67th/69th/71st,,Sat
+16:15:57,6,Jackson Park Express,,Sat
+01:20:57,6,Jackson Park Express,,Mon
+18:04:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:35:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+12:46:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+17:57:13,6,Jackson Park Express,,Sun
+17:54:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:21:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:31:13,6,Jackson Park Express,,Sun
+08:41:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:57:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:35:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:02:37,6,Jackson Park Express,,Sun
+14:59:02,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:49:36,67,67th/69th/71st,,Sat
+08:29:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:39:36,67,67th/69th/71st,,Sat
+21:42:12,6,Jackson Park Express,,Sun
+20:40:12,6,Jackson Park Express,,Sun
+20:37:22,6,Jackson Park Express,,Sat
+11:34:52,6,Jackson Park Express,,Sun
+19:54:18,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:15:48,67,67th/69th/71st,,Sun
+17:16:06,67,67th/69th/71st,,Sat
+17:05:36,67,67th/69th/71st,,Sat
+05:08:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:55:43,6,Jackson Park Express,,Sat
+18:55:43,6,Jackson Park Express,,Sat
+06:40:00,67,67th/69th/71st,,Sun
+11:49:06,67,67th/69th/71st,,Sat
+22:46:48,67,67th/69th/71st,,Sat
+17:44:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:46:17,6,Jackson Park Express,,Sun
+17:26:43,6,Jackson Park Express,,Sun
+23:59:18,67,67th/69th/71st,,Sat
+19:55:57,6,Jackson Park Express,,Sun
+23:21:27,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:12:19,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:01:22,6,Jackson Park Express,,Sat
+21:29:37,6,Jackson Park Express,,Sat
+09:44:17,6,Jackson Park Express,,Sun
+18:38:36,67,67th/69th/71st,,Sat
+06:59:22,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:40:52,6,Jackson Park Express,,Sun
+07:15:18,67,67th/69th/71st,,Sat
+12:01:43,6,Jackson Park Express,,Sat
+24:32:22,6,Jackson Park Express,,Sat
+12:44:57,6,Jackson Park Express,,Sat
+21:48:52,6,Jackson Park Express,,Sat
+01:04:57,6,Jackson Park Express,,Mon
+17:35:36,67,67th/69th/71st,,Sun
+14:04:43,6,Jackson Park Express,,Sat
+05:23:06,67,67th/69th/71st,,Sat
+10:13:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+15:47:20,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:15:12,6,Jackson Park Express,,Sun
+23:52:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:34:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:16:52,6,Jackson Park Express,,Sun
+21:41:32,6,Jackson Park Express,,Sat
+16:35:36,67,67th/69th/71st,,Sun
+19:05:43,6,Jackson Park Express,,Sat
+13:55:43,6,Jackson Park Express,,Sat
+16:46:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:15:17,6,Jackson Park Express,,Sun
+18:19:06,67,67th/69th/71st,,Sat
+21:16:16,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:44:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+16:01:54,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+20:43:17,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:32:13,6,Jackson Park Express,,Sun
+15:49:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:32:52,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:10:43,6,Jackson Park Express,,Sat
+17:41:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:14:50,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:44:18,67,67th/69th/71st,,Sat
+13:20:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:14:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:02:22,6,Jackson Park Express,,Sat
+13:46:32,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:50:57,6,Jackson Park Express,,Sat
+23:24:48,67,67th/69th/71st,,Sun
+18:38:06,67,67th/69th/71st,,Sun
+09:31:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:19:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:18:36,67,67th/69th/71st,,Sat
+17:45:57,6,Jackson Park Express,,Sat
+17:24:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:48:36,67,67th/69th/71st,,Sat
+15:31:24,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+21:18:36,67,67th/69th/71st,,Sat
+21:29:12,6,Jackson Park Express,,Sun
+13:21:06,67,67th/69th/71st,,Sun
+16:11:36,67,67th/69th/71st,,Sun
+06:43:57,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:48:36,67,67th/69th/71st,,Sat
+13:43:27,6,Jackson Park Express,,Sat
+21:44:06,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+06:45:36,67,67th/69th/71st,,Mon,Tue,Wed,Thu,Fri
+14:01:27,6,Jackson Park Express,,Sat

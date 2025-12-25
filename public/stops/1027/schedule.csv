@@ -1,0 +1,991 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+15:55:11,147,Outer DuSable Lake Shore Express,,Sat
+19:53:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:35:58,155,Devon,,Sat
+18:01:50,147,Outer DuSable Lake Shore Express,,Sun
+16:08:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:31:04,147,Outer DuSable Lake Shore Express,,Sun
+09:06:28,155,Devon,,Sat
+10:24:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+04:39:22,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:18:59,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:21:55,147,Outer DuSable Lake Shore Express,,Sat
+21:07:28,155,Devon,,Sat
+21:29:58,155,Devon,,Sun
+20:54:58,155,Devon,,Sat
+04:54:22,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:17:12,155,Devon,,Sat
+17:42:04,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:16:42,155,Devon,,Sat
+07:18:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:12:46,147,Outer DuSable Lake Shore Express,,Sun
+14:26:12,155,Devon,,Sat
+17:49:12,155,Devon,,Sat
+15:55:20,147,Outer DuSable Lake Shore Express,,Sun
+20:51:04,147,Outer DuSable Lake Shore Express,,Sat
+24:01:37,155,Devon,,Sat
+13:18:41,147,Outer DuSable Lake Shore Express,,Sun
+17:04:20,147,Outer DuSable Lake Shore Express,,Sun
+21:37:04,147,Outer DuSable Lake Shore Express,,Sat
+14:13:11,147,Outer DuSable Lake Shore Express,,Sat
+20:43:28,155,Devon,,Sun
+23:27:58,155,Devon,,Sat
+22:19:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:35:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:11:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:40:37,147,Outer DuSable Lake Shore Express,,Sat
+08:05:58,155,Devon,,Sat
+18:01:50,147,Outer DuSable Lake Shore Express,,Sun
+20:27:58,155,Devon,,Sun
+14:35:41,147,Outer DuSable Lake Shore Express,,Sun
+00:45:53,155,Devon,,Mon
+15:38:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:05:58,155,Devon,,Sat
+13:13:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:44:12,155,Devon,,Sat
+19:51:55,147,Outer DuSable Lake Shore Express,,Sat
+08:16:25,147,Outer DuSable Lake Shore Express,,Sat
+19:27:50,155,Devon,,Sat
+19:33:25,147,Outer DuSable Lake Shore Express,,Sun
+19:16:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:25:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:48:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:55:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:57:47,147,Outer DuSable Lake Shore Express,,Sat
+21:47:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:50:58,155,Devon,,Sat
+08:12:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:11:29,147,Outer DuSable Lake Shore Express,,Sun
+05:09:47,147,Outer DuSable Lake Shore Express,,Sat
+23:10:37,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:50:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:40:15,155,Devon,,Sun
+11:43:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:50:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:45:46,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:26:12,155,Devon,,Sat
+18:57:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:29:50,155,Devon,,Sun
+15:38:37,147,Outer DuSable Lake Shore Express,,Sat
+16:54:16,147,Outer DuSable Lake Shore Express,,Sat
+15:03:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:24:50,155,Devon,,Sun
+13:01:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:02:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:27:47,147,Outer DuSable Lake Shore Express,,Sat
+09:30:28,155,Devon,,Sun
+06:11:15,155,Devon,,Sat
+13:37:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:13:41,147,Outer DuSable Lake Shore Express,,Sun
+16:45:46,147,Outer DuSable Lake Shore Express,,Sat
+18:54:46,147,Outer DuSable Lake Shore Express,,Sat
+06:30:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:47:23,155,Devon,,Sun
+13:01:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:47:23,155,Devon,,Sun
+17:07:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:45:46,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:20:58,155,Devon,,Sat
+05:49:15,155,Devon,,Sat
+24:01:37,155,Devon,,Sat
+07:17:45,155,Devon,,Sun
+20:49:25,147,Outer DuSable Lake Shore Express,,Sun
+15:04:12,155,Devon,,Sat
+23:19:37,155,Devon,,Sun
+15:57:20,155,Devon,,Sun
+21:47:58,155,Devon,,Sun
+00:22:37,155,Devon,,Sun
+13:49:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:16:50,155,Devon,,Sat
+09:58:37,147,Outer DuSable Lake Shore Express,,Sat
+16:28:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:33:16,147,Outer DuSable Lake Shore Express,,Sun
+12:12:16,147,Outer DuSable Lake Shore Express,,Sun
+18:45:46,147,Outer DuSable Lake Shore Express,,Sat
+16:28:46,147,Outer DuSable Lake Shore Express,,Sat
+16:03:41,147,Outer DuSable Lake Shore Express,,Sat
+21:51:04,147,Outer DuSable Lake Shore Express,,Sat
+17:38:20,155,Devon,,Sun
+15:04:37,147,Outer DuSable Lake Shore Express,,Sat
+23:37:45,155,Devon,,Sun
+21:08:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:56:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:44:50,155,Devon,,Sun
+16:48:42,155,Devon,,Sat
+23:10:37,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:23:16,147,Outer DuSable Lake Shore Express,,Sun
+10:05:20,155,Devon,,Sat
+21:12:04,147,Outer DuSable Lake Shore Express,,Sat
+10:03:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:25:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:12:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:50:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:41:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:35:28,155,Devon,,Sun
+21:09:55,147,Outer DuSable Lake Shore Express,,Sun
+17:09:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:23:16,147,Outer DuSable Lake Shore Express,,Sun
+17:53:20,155,Devon,,Sun
+21:24:04,147,Outer DuSable Lake Shore Express,,Sat
+18:31:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:49:15,155,Devon,,Sat
+17:45:16,147,Outer DuSable Lake Shore Express,,Sat
+08:55:07,155,Devon,,Sun
+14:35:42,155,Devon,,Sat
+19:46:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:39:07,147,Outer DuSable Lake Shore Express,,Sat
+19:46:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:39:12,155,Devon,,Sat
+10:00:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:20:16,147,Outer DuSable Lake Shore Express,,Sat
+15:10:11,147,Outer DuSable Lake Shore Express,,Sun
+22:05:58,155,Devon,,Sat
+08:19:45,155,Devon,,Sun
+18:39:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:13:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:52:20,155,Devon,,Sun
+20:49:50,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:11:04,147,Outer DuSable Lake Shore Express,,Sun
+17:12:20,155,Devon,,Sun
+12:03:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:12:16,147,Outer DuSable Lake Shore Express,,Sun
+17:49:12,155,Devon,,Sat
+19:33:25,147,Outer DuSable Lake Shore Express,,Sun
+13:27:20,155,Devon,,Sun
+15:03:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:25:12,155,Devon,,Sat
+14:50:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:45:16,147,Outer DuSable Lake Shore Express,,Sat
+17:02:46,147,Outer DuSable Lake Shore Express,,Sat
+08:05:58,155,Devon,,Sat
+12:39:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:42:04,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:59:04,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:15:20,155,Devon,,Sun
+06:58:38,147,Outer DuSable Lake Shore Express,,Sat
+16:28:46,147,Outer DuSable Lake Shore Express,,Sat
+17:44:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:35:12,155,Devon,,Sat
+08:43:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:06:37,147,Outer DuSable Lake Shore Express,,Sat
+15:04:12,155,Devon,,Sat
+06:09:53,155,Devon,,Sun
+16:37:16,147,Outer DuSable Lake Shore Express,,Sat
+00:46:37,155,Devon,,Sun
+06:30:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:33:37,147,Outer DuSable Lake Shore Express,,Sun
+22:28:55,147,Outer DuSable Lake Shore Express,,Sun
+18:40:04,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:32:37,147,Outer DuSable Lake Shore Express,,Sat
+08:45:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:37:12,155,Devon,,Sat
+07:02:15,155,Devon,,Sat
+20:41:29,147,Outer DuSable Lake Shore Express,,Sat
+15:43:50,147,Outer DuSable Lake Shore Express,,Sun
+18:19:16,147,Outer DuSable Lake Shore Express,,Sat
+07:58:25,147,Outer DuSable Lake Shore Express,,Sat
+07:19:04,147,Outer DuSable Lake Shore Express,,Sun
+21:37:04,147,Outer DuSable Lake Shore Express,,Sat
+07:02:15,155,Devon,,Sat
+10:36:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:48:42,155,Devon,,Sat
+10:48:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:45:46,147,Outer DuSable Lake Shore Express,,Sat
+14:47:11,147,Outer DuSable Lake Shore Express,,Sun
+23:19:37,155,Devon,,Sun
+16:02:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:17:12,155,Devon,,Sat
+08:31:04,147,Outer DuSable Lake Shore Express,,Sun
+17:12:20,155,Devon,,Sun
+21:08:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:25:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:45:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:56:07,147,Outer DuSable Lake Shore Express,,Sat
+22:24:28,155,Devon,,Sun
+16:50:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:03:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:34:58,155,Devon,,Sat
+11:24:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:39:11,147,Outer DuSable Lake Shore Express,,Sat
+07:16:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:04:20,147,Outer DuSable Lake Shore Express,,Sun
+15:22:07,147,Outer DuSable Lake Shore Express,,Sun
+06:09:47,147,Outer DuSable Lake Shore Express,,Sat
+17:24:50,155,Devon,,Sun
+09:36:20,155,Devon,,Sat
+21:22:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:45:45,155,Devon,,Sat
+11:51:58,155,Devon,,Sun
+13:22:11,147,Outer DuSable Lake Shore Express,,Sat
+22:10:25,147,Outer DuSable Lake Shore Express,,Sun
+18:39:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:56:12,155,Devon,,Sat
+05:27:47,147,Outer DuSable Lake Shore Express,,Sat
+04:39:22,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:31:55,147,Outer DuSable Lake Shore Express,,Sat
+17:15:50,147,Outer DuSable Lake Shore Express,,Sun
+21:50:58,155,Devon,,Sat
+11:17:16,147,Outer DuSable Lake Shore Express,,Sun
+17:38:12,155,Devon,,Sat
+13:52:20,155,Devon,,Sun
+10:32:37,147,Outer DuSable Lake Shore Express,,Sat
+18:39:50,155,Devon,,Sun
+07:18:37,155,Devon,,Sat
+22:07:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:11:12,155,Devon,,Sat
+21:36:28,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:57:20,155,Devon,,Sun
+13:56:11,147,Outer DuSable Lake Shore Express,,Sat
+18:00:12,155,Devon,,Sat
+19:12:20,147,Outer DuSable Lake Shore Express,,Sat
+11:37:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:10:11,147,Outer DuSable Lake Shore Express,,Sun
+22:36:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:57:42,155,Devon,,Sat
+13:02:58,155,Devon,,Sun
+13:04:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:00:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:24:28,155,Devon,,Sun
+00:46:37,155,Devon,,Sun
+13:29:41,147,Outer DuSable Lake Shore Express,,Sun
+12:12:42,155,Devon,,Sat
+05:27:15,155,Devon,,Sat
+15:38:37,147,Outer DuSable Lake Shore Express,,Sat
+09:47:28,155,Devon,,Sun
+11:50:16,147,Outer DuSable Lake Shore Express,,Sun
+19:41:28,155,Devon,,Sun
+17:53:46,147,Outer DuSable Lake Shore Express,,Sat
+18:08:50,155,Devon,,Sun
+15:59:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:21:58,155,Devon,,Sat
+19:25:58,155,Devon,,Sun
+22:48:25,147,Outer DuSable Lake Shore Express,,Sun
+20:54:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:56:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:27:20,147,Outer DuSable Lake Shore Express,,Sun
+15:47:07,147,Outer DuSable Lake Shore Express,,Sat
+14:13:41,147,Outer DuSable Lake Shore Express,,Sun
+10:03:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:18:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:08:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:24:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:12:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:51:04,147,Outer DuSable Lake Shore Express,,Sun
+10:12:46,147,Outer DuSable Lake Shore Express,,Sun
+13:04:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:37:20,155,Devon,,Sun
+07:04:38,147,Outer DuSable Lake Shore Express,,Sun
+08:57:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:13:07,147,Outer DuSable Lake Shore Express,,Sat
+16:41:20,147,Outer DuSable Lake Shore Express,,Sun
+14:01:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:53:58,155,Devon,,Sat
+19:51:55,147,Outer DuSable Lake Shore Express,,Sat
+22:53:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:51:41,147,Outer DuSable Lake Shore Express,,Sun
+08:03:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:39:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:48:55,147,Outer DuSable Lake Shore Express,,Sun
+09:21:50,155,Devon,,Sat
+11:50:16,147,Outer DuSable Lake Shore Express,,Sun
+14:58:41,147,Outer DuSable Lake Shore Express,,Sun
+24:00:15,155,Devon,,Sun
+10:43:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:46:38,147,Outer DuSable Lake Shore Express,,Sat
+16:29:50,147,Outer DuSable Lake Shore Express,,Sun
+12:56:16,147,Outer DuSable Lake Shore Express,,Sun
+13:17:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:29:58,155,Devon,,Sat
+18:02:16,147,Outer DuSable Lake Shore Express,,Sat
+10:43:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:07:16,147,Outer DuSable Lake Shore Express,,Sun
+13:07:16,147,Outer DuSable Lake Shore Express,,Sun
+13:49:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:00:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:06:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:55:07,155,Devon,,Sun
+20:31:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:01:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:11:12,155,Devon,,Sat
+13:13:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:29:50,147,Outer DuSable Lake Shore Express,,Sun
+11:49:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:32:42,155,Devon,,Sat
+14:56:07,147,Outer DuSable Lake Shore Express,,Sat
+06:33:37,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:45:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:51:04,147,Outer DuSable Lake Shore Express,,Sun
+16:15:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:01:12,155,Devon,,Sat
+19:41:55,147,Outer DuSable Lake Shore Express,,Sat
+15:51:42,155,Devon,,Sat
+08:33:25,147,Outer DuSable Lake Shore Express,,Sat
+16:54:16,147,Outer DuSable Lake Shore Express,,Sat
+18:55:12,155,Devon,,Sat
+12:48:11,147,Outer DuSable Lake Shore Express,,Sat
+07:39:25,147,Outer DuSable Lake Shore Express,,Sat
+09:52:46,147,Outer DuSable Lake Shore Express,,Sun
+09:50:50,155,Devon,,Sat
+14:42:20,155,Devon,,Sun
+13:40:41,147,Outer DuSable Lake Shore Express,,Sun
+05:09:47,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:41:37,147,Outer DuSable Lake Shore Express,,Sat
+20:41:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:23:37,147,Outer DuSable Lake Shore Express,,Sat
+18:56:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:32:23,155,Devon,,Sun
+14:50:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:55:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:55:20,147,Outer DuSable Lake Shore Express,,Sun
+15:32:20,155,Devon,,Sun
+17:38:50,147,Outer DuSable Lake Shore Express,,Sun
+14:24:41,147,Outer DuSable Lake Shore Express,,Sun
+17:15:50,147,Outer DuSable Lake Shore Express,,Sun
+22:07:04,147,Outer DuSable Lake Shore Express,,Sat
+12:06:58,155,Devon,,Sun
+05:50:04,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:04:50,155,Devon,,Sun
+18:13:20,147,Outer DuSable Lake Shore Express,,Sun
+10:57:20,155,Devon,,Sat
+18:07:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:24:55,147,Outer DuSable Lake Shore Express,,Sun
+11:23:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:50:20,147,Outer DuSable Lake Shore Express,,Sun
+17:24:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:34:12,155,Devon,,Sat
+08:49:55,147,Outer DuSable Lake Shore Express,,Sat
+07:28:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:50:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:00:12,155,Devon,,Sat
+16:18:20,147,Outer DuSable Lake Shore Express,,Sun
+11:40:37,147,Outer DuSable Lake Shore Express,,Sat
+08:23:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:36:46,147,Outer DuSable Lake Shore Express,,Sat
+21:21:58,155,Devon,,Sat
+14:25:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:44:50,155,Devon,,Sun
+16:29:42,155,Devon,,Sat
+20:27:58,155,Devon,,Sun
+09:24:11,147,Outer DuSable Lake Shore Express,,Sat
+12:25:12,155,Devon,,Sat
+17:50:20,147,Outer DuSable Lake Shore Express,,Sun
+11:23:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:13:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:42:12,155,Devon,,Sat
+09:06:20,147,Outer DuSable Lake Shore Express,,Sat
+00:23:53,155,Devon,,Tue,Wed,Thu,Fri,Sat
+17:16:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:34:50,155,Devon,,Sun
+15:41:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:47:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:06:42,155,Devon,,Sat
+13:11:42,155,Devon,,Sat
+14:30:37,147,Outer DuSable Lake Shore Express,,Sat
+13:56:11,147,Outer DuSable Lake Shore Express,,Sat
+00:45:53,155,Devon,,Tue,Wed,Thu,Fri,Sat
+16:47:20,155,Devon,,Sun
+08:03:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:47:42,155,Devon,,Sat
+20:41:29,147,Outer DuSable Lake Shore Express,,Sat
+08:37:37,155,Devon,,Sun
+16:52:50,147,Outer DuSable Lake Shore Express,,Sun
+12:37:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:39:50,155,Devon,,Sun
+16:42:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:55:11,147,Outer DuSable Lake Shore Express,,Sat
+07:04:38,147,Outer DuSable Lake Shore Express,,Sun
+15:21:37,147,Outer DuSable Lake Shore Express,,Sat
+09:41:37,147,Outer DuSable Lake Shore Express,,Sat
+19:21:55,147,Outer DuSable Lake Shore Express,,Sat
+17:09:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:45:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+00:22:53,155,Devon,,Mon
+14:33:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:36:46,147,Outer DuSable Lake Shore Express,,Sat
+11:22:20,155,Devon,,Sat
+07:31:04,147,Outer DuSable Lake Shore Express,,Sun
+22:28:55,147,Outer DuSable Lake Shore Express,,Sun
+07:03:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+24:02:45,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:58:25,147,Outer DuSable Lake Shore Express,,Sat
+08:37:37,155,Devon,,Sun
+13:15:20,155,Devon,,Sun
+12:27:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:05:28,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:54:58,155,Devon,,Sat
+21:07:28,155,Devon,,Sat
+18:00:12,155,Devon,,Sat
+20:29:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:53:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:13:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:48:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:50:58,155,Devon,,Sun
+12:25:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:29:25,147,Outer DuSable Lake Shore Express,,Sun
+23:10:58,155,Devon,,Sat
+16:34:50,155,Devon,,Sun
+14:07:12,155,Devon,,Sat
+18:03:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:42:28,155,Devon,,Sat
+15:14:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:17:28,155,Devon,,Sat
+12:48:42,155,Devon,,Sat
+07:19:29,147,Outer DuSable Lake Shore Express,,Sat
+15:19:50,155,Devon,,Sun
+08:16:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:50:28,155,Devon,,Sat
+07:28:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:19:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:57:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:35:58,155,Devon,,Sat
+18:13:20,147,Outer DuSable Lake Shore Express,,Sun
+13:45:12,155,Devon,,Sat
+10:15:37,147,Outer DuSable Lake Shore Express,,Sat
+12:31:11,147,Outer DuSable Lake Shore Express,,Sat
+17:19:46,147,Outer DuSable Lake Shore Express,,Sat
+07:41:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:21:58,155,Devon,,Sun
+14:07:12,155,Devon,,Sat
+10:32:20,155,Devon,,Sat
+11:09:50,155,Devon,,Sat
+15:13:07,147,Outer DuSable Lake Shore Express,,Sat
+08:12:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:40:50,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:24:11,147,Outer DuSable Lake Shore Express,,Sat
+20:12:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:57:47,147,Outer DuSable Lake Shore Express,,Sat
+07:19:29,147,Outer DuSable Lake Shore Express,,Sat
+06:09:47,147,Outer DuSable Lake Shore Express,,Sat
+15:22:07,147,Outer DuSable Lake Shore Express,,Sun
+14:35:42,155,Devon,,Sat
+06:22:13,147,Outer DuSable Lake Shore Express,,Sat
+07:31:04,147,Outer DuSable Lake Shore Express,,Sun
+15:32:42,155,Devon,,Sat
+20:42:28,155,Devon,,Sat
+10:12:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:07:20,155,Devon,,Sun
+23:10:58,155,Devon,,Sat
+06:46:38,147,Outer DuSable Lake Shore Express,,Sat
+23:28:07,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:47:28,155,Devon,,Sun
+09:50:50,155,Devon,,Sat
+08:57:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:44:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:14:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:48:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:23:12,155,Devon,,Sat
+17:36:46,147,Outer DuSable Lake Shore Express,,Sat
+12:14:11,147,Outer DuSable Lake Shore Express,,Sat
+17:44:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:35:28,155,Devon,,Sun
+13:23:12,155,Devon,,Sat
+18:31:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:26:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:08:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:27:04,147,Outer DuSable Lake Shore Express,,Sat
+20:21:55,147,Outer DuSable Lake Shore Express,,Sat
+09:06:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:57:37,147,Outer DuSable Lake Shore Express,,Sat
+20:11:55,147,Outer DuSable Lake Shore Express,,Sat
+16:57:42,155,Devon,,Sat
+20:17:28,155,Devon,,Sat
+13:39:50,155,Devon,,Sun
+09:16:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:23:37,147,Outer DuSable Lake Shore Express,,Sat
+09:16:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:37:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:01:07,155,Devon,,Sun
+13:18:41,147,Outer DuSable Lake Shore Express,,Sun
+17:59:04,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:45:12,155,Devon,,Sat
+12:45:16,147,Outer DuSable Lake Shore Express,,Sun
+08:11:04,147,Outer DuSable Lake Shore Express,,Sun
+14:17:20,155,Devon,,Sun
+13:29:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:11:42,155,Devon,,Sat
+11:12:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:33:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:01:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:42:37,155,Devon,,Sun
+16:10:42,155,Devon,,Sat
+17:06:42,155,Devon,,Sat
+16:09:50,155,Devon,,Sun
+18:55:12,155,Devon,,Sat
+15:23:12,155,Devon,,Sat
+17:11:16,147,Outer DuSable Lake Shore Express,,Sat
+06:01:04,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:16:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:29:41,147,Outer DuSable Lake Shore Express,,Sun
+20:07:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:43:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:51:58,155,Devon,,Sun
+15:26:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:04:58,155,Devon,,Sat
+22:05:58,155,Devon,,Sun
+19:25:58,155,Devon,,Sun
+15:26:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:48:42,155,Devon,,Sat
+06:11:04,147,Outer DuSable Lake Shore Express,,Sun
+16:33:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:35:41,147,Outer DuSable Lake Shore Express,,Sun
+21:14:28,155,Devon,,Sun
+20:29:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:07:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:17:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:04:58,155,Devon,,Sat
+14:37:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:11:15,155,Devon,,Sat
+08:16:25,147,Outer DuSable Lake Shore Express,,Sat
+22:36:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:39:25,147,Outer DuSable Lake Shore Express,,Sat
+17:50:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:20:58,155,Devon,,Sat
+19:51:25,147,Outer DuSable Lake Shore Express,,Sun
+05:13:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:45:12,155,Devon,,Sat
+15:47:07,147,Outer DuSable Lake Shore Express,,Sat
+19:12:20,147,Outer DuSable Lake Shore Express,,Sat
+11:17:16,147,Outer DuSable Lake Shore Express,,Sun
+12:14:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:06:37,147,Outer DuSable Lake Shore Express,,Sat
+11:47:42,155,Devon,,Sat
+09:48:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:28:16,147,Outer DuSable Lake Shore Express,,Sat
+16:59:50,155,Devon,,Sun
+12:56:16,147,Outer DuSable Lake Shore Express,,Sun
+18:03:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:38:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:41:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:17:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:45:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:03:46,147,Outer DuSable Lake Shore Express,,Sat
+19:36:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:50:58,155,Devon,,Sun
+16:18:20,147,Outer DuSable Lake Shore Express,,Sun
+11:24:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:16:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:33:37,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:02:58,155,Devon,,Sun
+22:27:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:59:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:02:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:48:38,147,Outer DuSable Lake Shore Express,,Sun
+06:40:50,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:45:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:23:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:43:47,147,Outer DuSable Lake Shore Express,,Sat
+06:45:45,155,Devon,,Sat
+18:33:12,155,Devon,,Sat
+10:55:16,147,Outer DuSable Lake Shore Express,,Sun
+06:34:13,147,Outer DuSable Lake Shore Express,,Sat
+16:16:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:01:12,155,Devon,,Sat
+20:12:28,155,Devon,,Sun
+14:07:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:16:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:33:25,147,Outer DuSable Lake Shore Express,,Sat
+13:00:12,155,Devon,,Sat
+06:01:04,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:21:28,155,Devon,,Sat
+21:47:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:09:50,155,Devon,,Sat
+13:27:20,155,Devon,,Sun
+16:41:20,147,Outer DuSable Lake Shore Express,,Sun
+14:39:07,147,Outer DuSable Lake Shore Express,,Sat
+09:43:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:24:20,155,Devon,,Sun
+10:49:37,147,Outer DuSable Lake Shore Express,,Sat
+09:12:58,155,Devon,,Sun
+14:30:37,147,Outer DuSable Lake Shore Express,,Sat
+19:26:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:09:25,147,Outer DuSable Lake Shore Express,,Sun
+15:43:50,147,Outer DuSable Lake Shore Express,,Sun
+21:36:28,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:49:50,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:27:19,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:01:55,147,Outer DuSable Lake Shore Express,,Sat
+08:23:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:19:50,155,Devon,,Sat
+21:27:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:52:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:32:20,147,Outer DuSable Lake Shore Express,,Sun
+18:36:55,147,Outer DuSable Lake Shore Express,,Sun
+12:02:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:02:16,147,Outer DuSable Lake Shore Express,,Sat
+22:07:04,147,Outer DuSable Lake Shore Express,,Sat
+18:27:46,147,Outer DuSable Lake Shore Express,,Sat
+16:29:42,155,Devon,,Sat
+15:19:50,155,Devon,,Sun
+17:24:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:02:25,147,Outer DuSable Lake Shore Express,,Sun
+07:03:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:52:46,147,Outer DuSable Lake Shore Express,,Sun
+00:23:53,155,Devon,,Tue,Wed,Thu,Fri,Sat
+16:59:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:06:12,155,Devon,,Sat
+05:37:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:35:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:12:04,147,Outer DuSable Lake Shore Express,,Sat
+14:04:50,155,Devon,,Sun
+19:02:25,147,Outer DuSable Lake Shore Express,,Sun
+07:50:28,155,Devon,,Sat
+18:33:12,155,Devon,,Sat
+06:09:53,155,Devon,,Sun
+17:27:42,155,Devon,,Sat
+15:42:12,155,Devon,,Sat
+20:58:58,155,Devon,,Sun
+09:48:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:39:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:54:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:56:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:17:25,147,Outer DuSable Lake Shore Express,,Sun
+00:45:53,155,Devon,,Tue,Wed,Thu,Fri,Sat
+17:02:46,147,Outer DuSable Lake Shore Express,,Sat
+19:39:58,155,Devon,,Sat
+19:36:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:43:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:03:46,147,Outer DuSable Lake Shore Express,,Sat
+07:08:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:51:55,147,Outer DuSable Lake Shore Express,,Sun
+13:00:12,155,Devon,,Sat
+09:21:50,155,Devon,,Sat
+17:27:42,155,Devon,,Sat
+13:29:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:12:28,155,Devon,,Sun
+15:22:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:26:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:00:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+06:29:15,155,Devon,,Sat
+10:32:20,155,Devon,,Sat
+12:36:28,155,Devon,,Sun
+19:10:28,155,Devon,,Sun
+09:26:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:49:37,147,Outer DuSable Lake Shore Express,,Sat
+07:50:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:51:42,155,Devon,,Sat
+23:44:37,155,Devon,,Sat
+10:15:37,147,Outer DuSable Lake Shore Express,,Sat
+08:51:28,155,Devon,,Sat
+05:24:13,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:50:58,155,Devon,,Sun
+18:07:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:09:25,147,Outer DuSable Lake Shore Express,,Sun
+05:24:13,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:19:50,155,Devon,,Sat
+07:34:58,155,Devon,,Sat
+16:06:50,147,Outer DuSable Lake Shore Express,,Sun
+17:28:16,147,Outer DuSable Lake Shore Express,,Sat
+06:32:23,155,Devon,,Sun
+08:01:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:37:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:22:20,155,Devon,,Sun
+17:53:20,155,Devon,,Sun
+15:32:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:22:11,147,Outer DuSable Lake Shore Express,,Sat
+12:14:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:24:41,147,Outer DuSable Lake Shore Express,,Sun
+08:01:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:51:04,147,Outer DuSable Lake Shore Express,,Sun
+06:59:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:56:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:27:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:11:16,147,Outer DuSable Lake Shore Express,,Sat
+21:01:04,147,Outer DuSable Lake Shore Express,,Sat
+22:48:25,147,Outer DuSable Lake Shore Express,,Sun
+13:05:11,147,Outer DuSable Lake Shore Express,,Sat
+13:56:12,155,Devon,,Sat
+07:18:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:15:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:52:50,147,Outer DuSable Lake Shore Express,,Sun
+11:49:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:31:11,147,Outer DuSable Lake Shore Express,,Sat
+19:06:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:50:58,155,Devon,,Sun
+10:36:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:47:04,147,Outer DuSable Lake Shore Express,,Sat
+15:07:20,155,Devon,,Sun
+23:44:37,155,Devon,,Sat
+15:13:42,155,Devon,,Sat
+06:18:59,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:07:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:44:12,155,Devon,,Sat
+12:00:12,155,Devon,,Sat
+16:25:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:51:04,147,Outer DuSable Lake Shore Express,,Sun
+18:10:46,147,Outer DuSable Lake Shore Express,,Sat
+14:19:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:06:12,155,Devon,,Sat
+12:34:16,147,Outer DuSable Lake Shore Express,,Sun
+14:58:41,147,Outer DuSable Lake Shore Express,,Sun
+10:44:50,155,Devon,,Sat
+10:20:20,155,Devon,,Sun
+16:39:12,155,Devon,,Sat
+09:11:29,147,Outer DuSable Lake Shore Express,,Sun
+14:16:42,155,Devon,,Sat
+11:39:16,147,Outer DuSable Lake Shore Express,,Sun
+19:17:25,147,Outer DuSable Lake Shore Express,,Sun
+11:03:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:37:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:24:04,147,Outer DuSable Lake Shore Express,,Sat
+17:33:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:21:58,155,Devon,,Sun
+16:08:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:19:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:36:28,155,Devon,,Sun
+08:51:28,155,Devon,,Sat
+06:34:13,147,Outer DuSable Lake Shore Express,,Sat
+09:32:20,147,Outer DuSable Lake Shore Express,,Sun
+12:06:58,155,Devon,,Sun
+21:30:25,147,Outer DuSable Lake Shore Express,,Sun
+19:56:58,155,Devon,,Sun
+20:41:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:25:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:29:25,147,Outer DuSable Lake Shore Express,,Sun
+15:23:12,155,Devon,,Sat
+22:27:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:01:16,147,Outer DuSable Lake Shore Express,,Sun
+06:01:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:29:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:48:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:34:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:19:46,147,Outer DuSable Lake Shore Express,,Sat
+21:51:55,147,Outer DuSable Lake Shore Express,,Sun
+12:12:42,155,Devon,,Sat
+05:27:15,155,Devon,,Sat
+13:42:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:41:55,147,Outer DuSable Lake Shore Express,,Sat
+14:54:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:30:25,147,Outer DuSable Lake Shore Express,,Sun
+12:34:16,147,Outer DuSable Lake Shore Express,,Sun
+13:37:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:54:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:41:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:53:58,155,Devon,,Sat
+19:16:50,155,Devon,,Sat
+08:36:28,155,Devon,,Sat
+19:16:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+11:12:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:44:50,155,Devon,,Sat
+14:45:12,155,Devon,,Sat
+08:02:15,155,Devon,,Sun
+14:54:42,155,Devon,,Sat
+08:21:28,155,Devon,,Sat
+13:39:50,155,Devon,,Sun
+08:11:04,147,Outer DuSable Lake Shore Express,,Sun
+14:07:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:40:04,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:27:50,155,Devon,,Sat
+24:02:45,155,Devon,,Mon,Tue,Wed,Thu,Fri
+17:38:20,155,Devon,,Sun
+21:01:04,147,Outer DuSable Lake Shore Express,,Sat
+17:27:20,147,Outer DuSable Lake Shore Express,,Sun
+19:41:28,155,Devon,,Sun
+18:24:55,147,Outer DuSable Lake Shore Express,,Sun
+16:22:20,155,Devon,,Sun
+20:01:55,147,Outer DuSable Lake Shore Express,,Sat
+19:16:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:22:12,155,Devon,,Sat
+22:05:58,155,Devon,,Sun
+13:34:12,155,Devon,,Sat
+21:09:55,147,Outer DuSable Lake Shore Express,,Sun
+19:10:28,155,Devon,,Sun
+16:20:12,155,Devon,,Sat
+19:39:58,155,Devon,,Sat
+20:18:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:43:47,147,Outer DuSable Lake Shore Express,,Sat
+00:22:53,155,Devon,,Mon
+19:56:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:48:11,147,Outer DuSable Lake Shore Express,,Sat
+18:27:46,147,Outer DuSable Lake Shore Express,,Sat
+18:55:20,155,Devon,,Sun
+18:23:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:20:12,155,Devon,,Sat
+09:06:20,147,Outer DuSable Lake Shore Express,,Sat
+16:09:50,155,Devon,,Sun
+14:47:37,147,Outer DuSable Lake Shore Express,,Sat
+09:06:28,155,Devon,,Sat
+10:20:20,155,Devon,,Sun
+15:13:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:19:04,147,Outer DuSable Lake Shore Express,,Sun
+12:03:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:27:19,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:37:20,155,Devon,,Sun
+08:34:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:50:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:54:42,155,Devon,,Sat
+07:40:15,155,Devon,,Sun
+22:42:37,155,Devon,,Sun
+21:47:58,155,Devon,,Sun
+15:21:37,147,Outer DuSable Lake Shore Express,,Sat
+14:02:41,147,Outer DuSable Lake Shore Express,,Sun
+22:47:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:25:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:09:47,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:32:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:42:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+05:50:04,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:45:16,147,Outer DuSable Lake Shore Express,,Sun
+08:02:15,155,Devon,,Sun
+21:50:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:24:20,155,Devon,,Sun
+15:50:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:31:04,147,Outer DuSable Lake Shore Express,,Sun
+20:11:55,147,Outer DuSable Lake Shore Express,,Sat
+19:56:58,155,Devon,,Sun
+08:43:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:42:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:39:11,147,Outer DuSable Lake Shore Express,,Sat
+21:14:28,155,Devon,,Sun
+09:36:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+21:51:04,147,Outer DuSable Lake Shore Express,,Sat
+11:06:50,155,Devon,,Sun
+11:22:20,155,Devon,,Sun
+08:30:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:30:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:17:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+04:54:22,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:15:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:36:46,147,Outer DuSable Lake Shore Express,,Sat
+16:03:41,147,Outer DuSable Lake Shore Express,,Sat
+12:52:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:43:28,155,Devon,,Sun
+10:23:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:17:45,155,Devon,,Sun
+06:29:15,155,Devon,,Sat
+17:53:46,147,Outer DuSable Lake Shore Express,,Sat
+05:09:47,147,Outer DuSable Lake Shore Express,,Sat
+16:41:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:11:46,147,Outer DuSable Lake Shore Express,,Sat
+19:52:28,155,Devon,,Sat
+19:52:28,155,Devon,,Sat
+15:59:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:33:16,147,Outer DuSable Lake Shore Express,,Sun
+10:05:20,155,Devon,,Sat
+23:28:07,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:51:04,147,Outer DuSable Lake Shore Express,,Sat
+08:36:28,155,Devon,,Sat
+06:22:13,147,Outer DuSable Lake Shore Express,,Sat
+14:47:11,147,Outer DuSable Lake Shore Express,,Sun
+16:22:20,155,Devon,,Sun
+19:31:55,147,Outer DuSable Lake Shore Express,,Sat
+21:36:28,155,Devon,,Sat
+23:27:58,155,Devon,,Sat
+12:37:12,155,Devon,,Sat
+22:27:04,147,Outer DuSable Lake Shore Express,,Sat
+10:55:16,147,Outer DuSable Lake Shore Express,,Sun
+19:51:25,147,Outer DuSable Lake Shore Express,,Sun
+14:13:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:31:55,147,Outer DuSable Lake Shore Express,,Sat
+14:42:20,155,Devon,,Sun
+07:39:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:31:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:06:50,155,Devon,,Sun
+07:52:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:55:15,155,Devon,,Sun
+18:19:16,147,Outer DuSable Lake Shore Express,,Sat
+13:51:41,147,Outer DuSable Lake Shore Express,,Sun
+17:16:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+08:31:04,147,Outer DuSable Lake Shore Express,,Sun
+18:54:46,147,Outer DuSable Lake Shore Express,,Sat
+11:35:12,155,Devon,,Sat
+11:39:16,147,Outer DuSable Lake Shore Express,,Sun
+18:36:55,147,Outer DuSable Lake Shore Express,,Sun
+20:29:58,155,Devon,,Sat
+08:49:55,147,Outer DuSable Lake Shore Express,,Sat
+16:59:50,155,Devon,,Sun
+22:53:58,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:47:37,147,Outer DuSable Lake Shore Express,,Sat
+07:08:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:36:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:02:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:05:28,155,Devon,,Mon,Tue,Wed,Thu,Fri
+16:45:46,147,Outer DuSable Lake Shore Express,,Sat
+15:51:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:01:16,147,Outer DuSable Lake Shore Express,,Sun
+12:14:11,147,Outer DuSable Lake Shore Express,,Sat
+17:38:50,147,Outer DuSable Lake Shore Express,,Sun
+07:29:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:31:55,147,Outer DuSable Lake Shore Express,,Sat
+15:04:37,147,Outer DuSable Lake Shore Express,,Sat
+14:17:20,155,Devon,,Sun
+16:47:20,155,Devon,,Sun
+18:08:50,155,Devon,,Sun
+06:48:38,147,Outer DuSable Lake Shore Express,,Sun
+15:50:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:11:46,147,Outer DuSable Lake Shore Express,,Sat
+16:20:16,147,Outer DuSable Lake Shore Express,,Sat
+06:50:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:47:04,147,Outer DuSable Lake Shore Express,,Sat
+24:00:15,155,Devon,,Sun
+09:26:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:21:55,147,Outer DuSable Lake Shore Express,,Sat
+10:04:50,155,Devon,,Sun
+13:05:11,147,Outer DuSable Lake Shore Express,,Sat
+13:40:41,147,Outer DuSable Lake Shore Express,,Sun
+21:36:28,155,Devon,,Sat
+08:16:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:51:04,147,Outer DuSable Lake Shore Express,,Sun
+19:06:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:30:07,147,Outer DuSable Lake Shore Express,,Sat
+06:58:38,147,Outer DuSable Lake Shore Express,,Sat
+18:15:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+12:52:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:44:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+20:49:25,147,Outer DuSable Lake Shore Express,,Sun
+06:59:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+00:22:37,155,Devon,,Sun
+08:19:45,155,Devon,,Sun
+11:57:37,147,Outer DuSable Lake Shore Express,,Sat
+21:22:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+13:54:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+14:33:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:58:37,147,Outer DuSable Lake Shore Express,,Sat
+23:37:45,155,Devon,,Sun
+14:54:50,155,Devon,,Sun
+16:37:16,147,Outer DuSable Lake Shore Express,,Sat
+07:51:04,147,Outer DuSable Lake Shore Express,,Sun
+09:30:28,155,Devon,,Sun
+05:29:15,155,Devon,,Mon,Tue,Wed,Thu,Fri
+07:29:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:37:41,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:36:20,155,Devon,,Sat
+11:22:20,155,Devon,,Sat
+09:12:58,155,Devon,,Sun
+16:10:42,155,Devon,,Sat
+15:22:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+10:57:20,155,Devon,,Sat
+17:38:12,155,Devon,,Sat
+14:04:50,155,Devon,,Sun
+13:54:50,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:02:07,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:29:50,155,Devon,,Sun
+15:30:07,147,Outer DuSable Lake Shore Express,,Sat
+07:18:37,155,Devon,,Sat
+18:48:55,147,Outer DuSable Lake Shore Express,,Sun
+12:27:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+22:10:25,147,Outer DuSable Lake Shore Express,,Sun
+18:55:20,155,Devon,,Sun
+23:01:07,155,Devon,,Sun
+15:32:20,155,Devon,,Sun
+00:45:53,155,Devon,,Mon
+17:07:42,155,Devon,,Mon,Tue,Wed,Thu,Fri
+09:11:37,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:48:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:21:15,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:55:15,155,Devon,,Sun
+20:58:58,155,Devon,,Sun
+18:23:34,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:22:12,155,Devon,,Sat
+14:13:11,147,Outer DuSable Lake Shore Express,,Sat
+15:51:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+18:21:15,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:28:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:02:41,147,Outer DuSable Lake Shore Express,,Sun
+15:33:37,147,Outer DuSable Lake Shore Express,,Sun
+14:54:50,155,Devon,,Sun
+16:06:50,147,Outer DuSable Lake Shore Express,,Sun
+18:10:46,147,Outer DuSable Lake Shore Express,,Sat
+17:33:12,155,Devon,,Mon,Tue,Wed,Thu,Fri
+19:26:20,155,Devon,,Mon,Tue,Wed,Thu,Fri
+15:13:42,155,Devon,,Sat
+21:29:58,155,Devon,,Sun
