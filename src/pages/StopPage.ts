@@ -13,6 +13,8 @@ import { TerminalsList } from '../components/TerminalsList';
  * All HTML generation and formatting happens in AssemblyScript
  * JavaScript only prepares data - NO string operations
  * 
+ * Uses FLATTENED arrays to avoid 2D array memory issues in AssemblyScript
+ * 
  * @param stopName - Name of the stop
  * @param stopId - Stop ID
  * @param parentStopId - Parent stop ID (empty string if no parent)
@@ -21,11 +23,12 @@ import { TerminalsList } from '../components/TerminalsList';
  * @param terminalStops - Array of terminal stop IDs
  * @param terminalNames - Array of terminal stop names (parallel to terminalStops)
  * @param hourDisplays - Array of PRE-FORMATTED hour displays (e.g., "9:00 AM")
- * @param hourFormattedTimes - Array of PRE-FORMATTED times (e.g., "9:00 AM", "9:30 AM")
- * @param hourDatetimes - Array of datetime attributes (e.g., "09:00", "09:30")
- * @param hourRouteNames - Array of route names for each hour
- * @param hourHeadsigns - Array of headsigns for each hour
- * @param hourServiceDays - Array of service day strings for each hour
+ * @param hourStartIndices - Start indices for each hour's data in flattened arrays
+ * @param flatFormattedTimes - FLATTENED array of PRE-FORMATTED times
+ * @param flatDatetimes - FLATTENED array of datetime attributes
+ * @param flatRouteNames - FLATTENED array of route names
+ * @param flatHeadsigns - FLATTENED array of headsigns
+ * @param flatServiceDays - FLATTENED array of service day strings
  */
 export function buildStopPageHTML(
   stopName: string,
@@ -36,11 +39,12 @@ export function buildStopPageHTML(
   terminalStops: string[],
   terminalNames: string[],
   hourDisplays: string[],
-  hourFormattedTimes: string[][],
-  hourDatetimes: string[][],
-  hourRouteNames: string[][],
-  hourHeadsigns: string[][],
-  hourServiceDays: string[][]
+  hourStartIndices: i32[],
+  flatFormattedTimes: string[],
+  flatDatetimes: string[],
+  flatRouteNames: string[],
+  flatHeadsigns: string[],
+  flatServiceDays: string[]
 ): string {
   // Start HTML document
   let html = '<!DOCTYPE html>\n<html lang="en">\n<head>\n';
@@ -62,20 +66,17 @@ export function buildStopPageHTML(
     html += '<h2>Routes at ' + stopName + '</h2>\n';
   }
   
-  // Build schedule for each hour
+  // Build schedule for each hour using flattened arrays
   for (let i = 0; i < hourDisplays.length; i++) {
     const hourDisplay = hourDisplays[i];
-    const formattedTimes = hourFormattedTimes[i];
-    const datetimes = hourDatetimes[i];
-    const routes = hourRouteNames[i];
-    const headsigns = hourHeadsigns[i];
-    const serviceDays = hourServiceDays[i];
+    const startIdx = hourStartIndices[i];
+    const endIdx = (i + 1 < hourStartIndices.length) ? hourStartIndices[i + 1] : flatFormattedTimes.length;
     
     html += HourHeader(hourDisplay);
     html += ScheduleListStart();
     
-    for (let j = 0; j < formattedTimes.length; j++) {
-      html += ScheduleEntry(formattedTimes[j], datetimes[j], routes[j], headsigns[j], serviceDays[j]);
+    for (let j = startIdx; j < endIdx; j++) {
+      html += ScheduleEntry(flatFormattedTimes[j], flatDatetimes[j], flatRouteNames[j], flatHeadsigns[j], flatServiceDays[j]);
     }
     
     html += ScheduleListEnd();

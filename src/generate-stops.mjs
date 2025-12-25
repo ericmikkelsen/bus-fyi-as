@@ -172,16 +172,21 @@ async function processStopWithWASM(
   }
   const hours = Array.from(hoursSet).sort((a, b) => a - b);
   
-  // Prepare deduplicated data for each hour
+  // Prepare deduplicated data for each hour using FLATTENED arrays
+  // This avoids 2D array memory issues in AssemblyScript
   const hourDisplays = [];
-  const hourFormattedTimes = [];
-  const hourDatetimes = [];
-  const hourRouteNames = [];
-  const hourHeadsigns = [];
-  const hourServiceDays = [];
+  const hourStartIndices = [];
+  const flatFormattedTimes = [];
+  const flatDatetimes = [];
+  const flatRouteNames = [];
+  const flatHeadsigns = [];
+  const flatServiceDays = [];
   
   for (let i = 0; i < hours.length; i++) {
     const hour = hours[i];
+    
+    // Record start index for this hour
+    hourStartIndices.push(flatFormattedTimes.length);
     
     // Filter stop times for this hour
     const indicesForHour = [];
@@ -233,58 +238,82 @@ async function processStopWithWASM(
       }
     }
     
-    // Convert deduplicated entries to arrays, FORMAT TIMES IN JAVASCRIPT
-    const timesForHour = [];
-    const datetimesForHour = [];
-    const routesForHour = [];
-    const headsignsForHour = [];
-    const serviceDaysForHour = [];
-    
+    // Convert deduplicated entries to FLATTENED arrays, FORMAT TIMES IN JAVASCRIPT
     const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
     
     for (const entry of entryMap.values()) {
       // Format time in JavaScript (no string operations in WASM!)
       const timeFormatted = formatTime(entry.time);
-      timesForHour.push(timeFormatted.formatted);
-      datetimesForHour.push(timeFormatted.datetime);
+      flatFormattedTimes.push(timeFormatted.formatted);
+      flatDatetimes.push(timeFormatted.datetime);
       
-      routesForHour.push(entry.routeName);
-      headsignsForHour.push(entry.headsign);
+      flatRouteNames.push(entry.routeName);
+      flatHeadsigns.push(entry.headsign);
       
       // Convert service days Set to sorted, comma-separated string
       const serviceDaysArray = Array.from(entry.serviceDaysSet).sort((a, b) => {
         return dayOrder.indexOf(a) - dayOrder.indexOf(b);
       });
-      serviceDaysForHour.push(serviceDaysArray.join(', '));
+      flatServiceDays.push(serviceDaysArray.join(', '));
     }
     
     // Format hour display in JavaScript (no string operations in WASM!)
     hourDisplays.push(formatHourDisplay(hour));
-    hourFormattedTimes.push(timesForHour);
-    hourDatetimes.push(datetimesForHour);
-    hourRouteNames.push(routesForHour);
-    hourHeadsigns.push(headsignsForHour);
-    hourServiceDays.push(serviceDaysForHour);
   }
   
-  // 3. Make ONE WASM call to generate COMPLETE HTML (including <html>, <head>, <body>)
-  // All HTML generation happens in AssemblyScript - minimal boundary crossing
-  // JavaScript only prepares data - NO string operations in WASM
-  const html = wasmModule.buildStopPageHTML(
-    stopName,
-    stopId,
-    parentId || '',      // parentStopId (empty if no parent)
-    parentName || '',    // parentStopName (empty if no parent)
-    agency,
-    childStopIds,
-    childStopNames,
-    hourDisplays,        // Pre-formatted hour displays (e.g., "9:00 AM")
-    hourFormattedTimes,  // Pre-formatted times (e.g., ["9:00 AM", "9:30 AM"])
-    hourDatetimes,       // Datetime attributes (e.g., ["09:00", "09:30"])
-    hourRouteNames,
-    hourHeadsigns,
-    hourServiceDays
-  );
+  // 3. Build HTML in JavaScript
+  // After extensive testing, JavaScript is better for string-heavy HTML generation
+  // WASM is great for computation but creates memory pressure with string concatenation
+  let html = '<!DOCTYPE html>\n<html lang="en">\n<head>\n';
+  html += '  <meta charset="UTF-8">\n';
+  html += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
+  html += '  <title>' + stopName + '</title>\n';
+  html += '</head>\n<body>\n';
+  
+  // Stop header
+  html += '<h1>' + stopName + '</h1>\n';
+  if (parentId && parentName) {
+    html += '<p><a href="/' + agency + '/stops/' + parentId + '/">← Back to ' + parentName + '</a></p>\n';
+  }
+  html += '<p>Stop ID: ' + stopId + '</p>\n';
+  
+  // Terminals list
+  if (childStopIds.length > 0) {
+    html += '<h2>Terminals</h2>\n<ul>\n';
+    for (let i = 0; i < childStopIds.length; i++) {
+      html += '  <li><a href="/' + agency + '/stops/' + stopId + '/' + childStopIds[i] + '/">' + childStopNames[i] + '</a></li>\n';
+    }
+    html += '</ul>\n';
+  }
+  
+  // Routes section
+  if (hourDisplays.length > 0) {
+    html += '<h2>Routes at ' + stopName + '</h2>\n';
+    
+    // Build schedule for each hour
+    for (let i = 0; i < hourDisplays.length; i++) {
+      const startIdx = hourStartIndices[i];
+      const endIdx = (i + 1 < hourStartIndices.length) ? hourStartIndices[i + 1] : flatFormattedTimes.length;
+      
+      html += '<h3>' + hourDisplays[i] + '</h3>\n';
+      html += '<ol>\n';
+      
+      for (let j = startIdx; j < endIdx; j++) {
+        html += '  <li><time datetime="' + flatDatetimes[j] + '">' + flatFormattedTimes[j] + '</time> - ' + flatRouteNames[j];
+        if (flatHeadsigns[j]) {
+          html += ' to ' + flatHeadsigns[j];
+        }
+        if (flatServiceDays[j]) {
+          html += ' ' + flatServiceDays[j];
+        }
+        html += '</li>\n';
+      }
+      
+      html += '</ol>\n';
+    }
+  }
+  
+  html += '</body>\n</html>';
   
   // Generate CSV with service days using WASM
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
