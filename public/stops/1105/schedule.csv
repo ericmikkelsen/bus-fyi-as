@@ -1,0 +1,2877 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+07:25:14,151,Sheridan,,Sun
+15:14:37,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+16:36:05,147,Outer DuSable Lake Shore Express,,Sat
+14:58:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:27:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:59:20,4,Cottage Grove,,Sun
+02:30:38,66,Chicago,,Sun
+18:36:24,147,Outer DuSable Lake Shore Express,,Sun
+14:45:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:27:53,4,Cottage Grove,,Sat
+07:01:07,147,Outer DuSable Lake Shore Express,,Sun
+14:53:35,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+05:07:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:15:11,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+11:20:56,151,Sheridan,,Sat
+23:12:16,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+02:00:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+13:30:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:51:51,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:42:45,3,King Drive,,Sun
+20:54:51,147,Outer DuSable Lake Shore Express,,Sat
+14:35:09,151,Sheridan,,Sat
+13:00:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:22:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:00:23,3,King Drive,,Sat
+17:31:02,151,Sheridan,,Sun
+22:33:22,4,Cottage Grove,,Sat
+11:05:32,4,Cottage Grove,,Sat
+08:25:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:05:17,151,Sheridan,,Sun
+15:19:58,151,Sheridan,,Sun
+15:29:35,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:31:03,4,Cottage Grove,,Sat
+16:31:03,4,Cottage Grove,,Sat
+10:15:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:13:33,4,Cottage Grove,,Sat
+07:58:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:56:42,4,Cottage Grove,,Sun
+15:20:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+02:59:38,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+10:48:51,147,Outer DuSable Lake Shore Express,,Sun
+13:31:15,3,King Drive,,Sun
+16:30:24,147,Outer DuSable Lake Shore Express,,Sun
+18:50:30,151,Sheridan,,Sat
+19:49:45,3,King Drive,,Sat
+11:46:23,4,Cottage Grove,,Sat
+18:49:45,3,King Drive,,Sat
+10:21:01,4,Cottage Grove,,Sun
+17:19:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:22:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:43:50,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:45:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:48:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:40:32,151,Sheridan,,Sat
+21:23:24,147,Outer DuSable Lake Shore Express,,Sat
+10:04:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:11:53,4,Cottage Grove,,Sat
+20:44:42,4,Cottage Grove,,Sat
+25:01:31,4,Cottage Grove,,Sun
+16:00:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:09:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:22:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:59:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:26:48,151,Sheridan,,Sun
+20:09:45,3,King Drive,,Sat
+15:14:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+01:59:31,4,Cottage Grove,,Mon
+19:16:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:06:12,4,Cottage Grove,,Sat
+13:54:58,147,Outer DuSable Lake Shore Express,,Sun
+15:56:09,151,Sheridan,,Sat
+06:40:40,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+21:50:37,3,King Drive,,Sat
+24:20:03,4,Cottage Grove,,Sat
+12:13:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:39:24,147,Outer DuSable Lake Shore Express,,Sun
+22:08:17,147,Outer DuSable Lake Shore Express,,Sat
+07:38:21,3,King Drive,,Sat
+16:48:15,3,King Drive,,Sun
+14:53:35,147,Outer DuSable Lake Shore Express,,Sat
+18:39:45,3,King Drive,,Sat
+02:30:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+06:59:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:21:13,3,King Drive,,Sat
+07:19:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:01:23,151,Sheridan,,Sat
+08:01:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:18:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:16:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:01:13,3,King Drive,,Sat
+07:21:21,3,King Drive,,Sat
+11:35:12,4,Cottage Grove,,Sat
+20:10:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:58:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:58:18,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:12:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:51:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:06:42,4,Cottage Grove,,Sun
+15:29:58,151,Sheridan,,Sun
+20:06:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:37:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:17:31,147,Outer DuSable Lake Shore Express,,Sat
+14:30:02,151,Sheridan,,Sun
+15:54:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:55:21,3,King Drive,,Sat
+18:36:24,147,Outer DuSable Lake Shore Express,,Sun
+11:53:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:38:23,151,Sheridan,,Sun
+08:43:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:20:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:24:31,3,King Drive,,Sat
+12:14:01,3,King Drive,,Sat
+11:22:03,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:47:54,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:19:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:31:05,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:50:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:18:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+03:00:31,4,Cottage Grove,,Sun
+13:14:08,3,King Drive,,Sat
+10:48:56,151,Sheridan,,Sat
+09:03:42,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+24:09:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:11:58,147,Outer DuSable Lake Shore Express,,Sun
+18:20:23,3,King Drive,,Sat
+18:24:15,3,King Drive,,Sun
+07:34:20,4,Cottage Grove,,Sun
+14:11:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:19:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:51:03,4,Cottage Grove,,Sat
+13:20:01,147,Outer DuSable Lake Shore Express,,Sat
+10:48:15,3,King Drive,,Sat
+13:51:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:32:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:25:54,147,Outer DuSable Lake Shore Express,,Sat
+21:25:49,151,Sheridan,,Sun
+08:49:49,147,Outer DuSable Lake Shore Express,,Sat
+19:38:49,151,Sheridan,,Sun
+11:36:58,151,Sheridan,,Sat
+16:27:12,4,Cottage Grove,,Sun
+20:18:54,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:06:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:06:17,147,Outer DuSable Lake Shore Express,,Sun
+06:26:30,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:26:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:18:50,4,Cottage Grove,,Sun
+17:08:27,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+10:58:07,3,King Drive,,Sun
+13:31:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:46:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:58:49,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:20:46,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:03:55,151,Sheridan,,Sat
+17:38:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:09:32,151,Sheridan,,Sun
+06:26:13,147,Outer DuSable Lake Shore Express,,Sat
+12:30:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:10:00,151,Sheridan,,Sun
+19:54:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:43:53,4,Cottage Grove,,Sat
+18:51:23,4,Cottage Grove,,Sat
+12:32:03,4,Cottage Grove,,Sat
+06:14:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:11:29,3,King Drive,,Sun
+21:03:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:09:45,3,King Drive,,Sat
+22:19:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:36:42,4,Cottage Grove,,Sun
+17:01:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:47:09,151,Sheridan,,Sat
+14:04:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:32:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+18:53:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:44:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:36:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:12:36,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+07:47:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:44:16,147,Outer DuSable Lake Shore Express,,Sun
+11:21:21,147,Outer DuSable Lake Shore Express,,Sun
+13:36:03,4,Cottage Grove,,Sat
+05:38:14,147,Outer DuSable Lake Shore Express,,Sat
+12:09:52,4,Cottage Grove,,Sun
+09:29:19,151,Sheridan,,Sat
+15:11:03,4,Cottage Grove,,Sat
+17:22:23,3,King Drive,,Sat
+19:51:26,151,Sheridan,,Sat
+11:02:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:24:12,4,Cottage Grove,,Sun
+07:25:52,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:56:16,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:21:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:05:21,147,Outer DuSable Lake Shore Express,,Sun
+07:21:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:56:36,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:05:18,151,Sheridan,,Sun
+19:33:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:12:03,4,Cottage Grove,,Sat
+08:12:21,3,King Drive,,Sat
+14:40:02,151,Sheridan,,Sun
+16:21:47,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:47:12,4,Cottage Grove,,Sun
+17:10:09,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:03:54,151,Sheridan,,Sat
+20:00:12,4,Cottage Grove,,Sun
+19:00:23,4,Cottage Grove,,Sat
+09:33:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:48:52,4,Cottage Grove,,Sat
+21:50:37,3,King Drive,,Sat
+14:03:09,151,Sheridan,,Sat
+21:11:37,3,King Drive,,Sat
+20:18:12,4,Cottage Grove,,Sun
+06:42:40,4,Cottage Grove,,Sat
+12:48:03,4,Cottage Grove,,Sat
+08:42:29,3,King Drive,,Sun
+18:37:12,4,Cottage Grove,,Sun
+17:32:35,151,Sheridan,,Sat
+19:01:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:17:42,4,Cottage Grove,,Sun
+16:20:08,147,Outer DuSable Lake Shore Express,,Sat
+17:33:31,147,Outer DuSable Lake Shore Express,,Sat
+17:31:23,3,King Drive,,Sat
+08:24:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:21:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:23:29,3,King Drive,,Sun
+14:19:45,3,King Drive,,Sun
+11:22:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:35:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:06:12,4,Cottage Grove,,Sun
+13:18:56,151,Sheridan,,Sun
+15:46:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:28:51,151,Sheridan,,Sat
+19:17:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:40:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:42:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:41:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+05:56:14,147,Outer DuSable Lake Shore Express,,Sat
+16:58:18,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+03:29:38,66,Chicago,,Mon
+09:49:51,151,Sheridan,,Sat
+18:57:56,151,Sheridan,,Sun
+16:59:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:15:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:49:58,147,Outer DuSable Lake Shore Express,,Sun
+16:48:03,4,Cottage Grove,,Sat
+16:58:53,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:25:01,147,Outer DuSable Lake Shore Express,,Sat
+08:12:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:53:08,3,King Drive,,Sat
+19:31:58,147,Outer DuSable Lake Shore Express,,Sat
+10:46:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:07:19,4,Cottage Grove,,Sat
+07:04:21,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+04:31:57,66,Chicago,,Sat
+13:40:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:10:23,3,King Drive,,Sat
+07:44:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:01:14,151,Sheridan,,Sat
+17:57:12,4,Cottage Grove,,Sun
+14:07:12,4,Cottage Grove,,Sun
+16:26:17,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:06:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:42:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:44:07,3,King Drive,,Sat
+11:17:02,4,Cottage Grove,,Sat
+12:24:31,3,King Drive,,Sat
+07:21:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:24:07,3,King Drive,,Sun
+13:44:03,4,Cottage Grove,,Sat
+08:35:01,4,Cottage Grove,,Sat
+13:41:08,3,King Drive,,Sat
+08:26:42,151,Sheridan,,Sun
+18:16:42,4,Cottage Grove,,Sun
+12:51:07,151,Sheridan,,Sat
+14:56:03,4,Cottage Grove,,Sat
+09:09:21,151,Sheridan,,Sat
+21:19:47,147,Outer DuSable Lake Shore Express,,Sun
+12:34:35,151,Sheridan,,Sat
+08:33:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:03:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:27:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:04:41,151,Sheridan,,Sun
+08:29:21,3,King Drive,,Sat
+13:47:12,4,Cottage Grove,,Sun
+05:40:18,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:26:45,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:31:31,4,Cottage Grove,,Sun
+15:47:12,4,Cottage Grove,,Sun
+24:01:12,151,Sheridan,,Sat
+02:31:03,4,Cottage Grove,,Mon
+14:27:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:59:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:26:42,4,Cottage Grove,,Sun
+15:32:07,151,Sheridan,,Sat
+18:45:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:22:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:50:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:45:01,4,Cottage Grove,,Sat
+08:56:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:58:49,151,Sheridan,,Sat
+11:12:01,3,King Drive,,Sat
+06:32:16,151,Sheridan,,Sat
+16:48:53,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:35:31,147,Outer DuSable Lake Shore Express,,Sat
+17:10:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:40:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:48:21,147,Outer DuSable Lake Shore Express,,Sun
+11:09:21,147,Outer DuSable Lake Shore Express,,Sun
+19:27:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:08:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:06:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:28:45,3,King Drive,,Sun
+00:51:36,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+19:23:28,147,Outer DuSable Lake Shore Express,,Sat
+17:08:01,147,Outer DuSable Lake Shore Express,,Sat
+08:59:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:46:42,4,Cottage Grove,,Sun
+07:38:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:43:35,147,Outer DuSable Lake Shore Express,,Sat
+22:22:17,147,Outer DuSable Lake Shore Express,,Sat
+12:43:09,151,Sheridan,,Sat
+10:22:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:27:12,4,Cottage Grove,,Sun
+07:42:22,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:46:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:46:08,147,Outer DuSable Lake Shore Express,,Sat
+14:11:09,151,Sheridan,,Sat
+24:39:31,4,Cottage Grove,,Sat
+13:41:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:17:29,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:40:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:19:03,4,Cottage Grove,,Sat
+13:59:08,3,King Drive,,Sat
+00:58:34,151,Sheridan,,Sun
+12:14:01,3,King Drive,,Sat
+06:41:13,3,King Drive,,Sat
+07:09:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:59:21,147,Outer DuSable Lake Shore Express,,Sun
+21:43:51,147,Outer DuSable Lake Shore Express,,Sat
+18:27:53,4,Cottage Grove,,Sat
+10:41:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:32:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:53:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:41:31,4,Cottage Grove,,Sun
+18:00:23,3,King Drive,,Sat
+06:58:49,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:00:13,3,King Drive,,Sun
+02:31:31,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+17:46:42,4,Cottage Grove,,Sun
+08:26:01,4,Cottage Grove,,Sat
+19:39:45,3,King Drive,,Sat
+13:28:03,4,Cottage Grove,,Sat
+12:38:58,151,Sheridan,,Sun
+09:13:44,147,Outer DuSable Lake Shore Express,,Sun
+08:47:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+10:59:51,147,Outer DuSable Lake Shore Express,,Sun
+11:46:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:23:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:03:07,151,Sheridan,,Sat
+12:24:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:26:21,151,Sheridan,,Sun
+21:15:12,4,Cottage Grove,,Sat
+22:08:47,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:48:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:58:37,3,King Drive,,Sat
+07:03:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:47:03,4,Cottage Grove,,Sat
+18:33:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:40:17,147,Outer DuSable Lake Shore Express,,Sun
+17:52:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:59:21,147,Outer DuSable Lake Shore Express,,Sun
+10:59:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:24:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:58:07,3,King Drive,,Sun
+19:14:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:55:51,147,Outer DuSable Lake Shore Express,,Sat
+07:22:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:24:31,147,Outer DuSable Lake Shore Express,,Sat
+15:51:45,3,King Drive,,Sun
+22:30:23,151,Sheridan,,Sat
+11:49:52,4,Cottage Grove,,Sun
+17:07:12,4,Cottage Grove,,Sun
+12:00:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:55:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:20:38,147,Outer DuSable Lake Shore Express,,Sat
+22:15:53,151,Sheridan,,Sat
+10:15:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:31:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:59:15,3,King Drive,,Sun
+02:31:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+17:17:12,4,Cottage Grove,,Sun
+16:46:42,4,Cottage Grove,,Sun
+03:31:03,4,Cottage Grove,,Mon
+23:56:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:05:23,4,Cottage Grove,,Sat
+14:11:01,147,Outer DuSable Lake Shore Express,,Sat
+17:49:08,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:18:13,3,King Drive,,Sun
+09:19:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:00:02,151,Sheridan,,Sun
+18:35:53,4,Cottage Grove,,Sat
+13:00:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:29:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:59:31,147,Outer DuSable Lake Shore Express,,Sat
+07:59:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+05:43:29,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:46:28,147,Outer DuSable Lake Shore Express,,Sun
+15:50:00,151,Sheridan,,Sun
+19:16:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:02:37,3,King Drive,,Sun
+07:58:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:54:01,147,Outer DuSable Lake Shore Express,,Sat
+21:31:49,151,Sheridan,,Sat
+17:08:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:22:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:19:51,147,Outer DuSable Lake Shore Express,,Sun
+15:20:00,151,Sheridan,,Sun
+14:44:08,3,King Drive,,Sat
+09:16:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:41:07,147,Outer DuSable Lake Shore Express,,Sun
+11:52:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:23:07,3,King Drive,,Sat
+14:19:09,151,Sheridan,,Sat
+12:41:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+04:31:03,4,Cottage Grove,,Sat
+18:56:07,3,King Drive,,Sun
+12:48:21,147,Outer DuSable Lake Shore Express,,Sun
+08:49:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:30:18,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:46:23,151,Sheridan,,Sat
+08:23:21,147,Outer DuSable Lake Shore Express,,Sat
+20:06:17,147,Outer DuSable Lake Shore Express,,Sun
+08:21:21,3,King Drive,,Sun
+10:32:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:25:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:28:56,151,Sheridan,,Sat
+06:57:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:53:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:02:03,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:07:03,4,Cottage Grove,,Sat
+12:44:01,147,Outer DuSable Lake Shore Express,,Sat
+12:20:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:47:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:44:03,4,Cottage Grove,,Sat
+15:30:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:38:51,151,Sheridan,,Sat
+17:22:23,3,King Drive,,Sat
+09:31:01,4,Cottage Grove,,Sun
+18:24:31,147,Outer DuSable Lake Shore Express,,Sat
+14:31:03,4,Cottage Grove,,Sat
+11:15:32,4,Cottage Grove,,Sat
+17:42:01,147,Outer DuSable Lake Shore Express,,Sat
+18:52:58,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:20:32,151,Sheridan,,Sat
+12:18:05,151,Sheridan,,Sat
+21:05:53,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:44:01,3,King Drive,,Sat
+07:41:14,147,Outer DuSable Lake Shore Express,,Sat
+14:08:15,3,King Drive,,Sun
+07:29:10,147,Outer DuSable Lake Shore Express,,Sat
+17:08:01,147,Outer DuSable Lake Shore Express,,Sat
+15:17:12,4,Cottage Grove,,Sun
+18:25:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:11:53,4,Cottage Grove,,Sat
+09:33:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:23:33,4,Cottage Grove,,Sun
+13:35:03,4,Cottage Grove,,Sat
+16:50:18,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:10:23,3,King Drive,,Sat
+16:14:45,3,King Drive,,Sun
+08:11:44,151,Sheridan,,Sun
+08:13:44,147,Outer DuSable Lake Shore Express,,Sun
+19:47:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:25:42,151,Sheridan,,Sun
+08:19:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:04:31,3,King Drive,,Sat
+09:27:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:43:28,147,Outer DuSable Lake Shore Express,,Sat
+15:32:09,151,Sheridan,,Sat
+17:19:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:56:01,3,King Drive,,Sat
+18:34:30,151,Sheridan,,Sun
+16:26:17,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:03:29,3,King Drive,,Sun
+17:16:31,147,Outer DuSable Lake Shore Express,,Sat
+11:05:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:30:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:04:05,147,Outer DuSable Lake Shore Express,,Sat
+01:59:31,4,Cottage Grove,,Sun
+13:51:03,4,Cottage Grove,,Sat
+15:59:58,151,Sheridan,,Sun
+17:15:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:50:00,151,Sheridan,,Sun
+03:29:38,66,Chicago,,Mon
+15:06:42,4,Cottage Grove,,Sun
+16:39:16,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:04:21,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:10:54,147,Outer DuSable Lake Shore Express,,Sun
+22:59:17,147,Outer DuSable Lake Shore Express,,Sun
+21:22:02,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:10:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:44:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:07:12,4,Cottage Grove,,Sun
+16:36:42,4,Cottage Grove,,Sun
+11:28:58,151,Sheridan,,Sat
+11:44:56,151,Sheridan,,Sat
+11:09:28,147,Outer DuSable Lake Shore Express,,Sat
+01:00:57,66,Chicago,,Sun
+14:31:15,3,King Drive,,Sun
+08:14:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:39:52,4,Cottage Grove,,Sun
+19:36:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:37:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:45:37,3,King Drive,,Sat
+08:17:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:07:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:13:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:34:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:27:45,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:15:09,151,Sheridan,,Sat
+10:15:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:09:02,4,Cottage Grove,,Sun
+00:42:37,151,Sheridan,,Mon
+18:00:30,151,Sheridan,,Sat
+21:21:51,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:03:01,147,Outer DuSable Lake Shore Express,,Sat
+09:10:32,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:59:45,3,King Drive,,Sat
+14:10:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:39:22,4,Cottage Grove,,Sun
+20:09:23,151,Sheridan,,Sun
+21:14:21,147,Outer DuSable Lake Shore Express,,Sat
+16:18:54,147,Outer DuSable Lake Shore Express,,Sun
+18:29:45,3,King Drive,,Sat
+14:59:37,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:09:32,4,Cottage Grove,,Sun
+14:19:45,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:30:00,151,Sheridan,,Sun
+13:41:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:31:49,147,Outer DuSable Lake Shore Express,,Sat
+20:16:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:58:31,147,Outer DuSable Lake Shore Express,,Sat
+06:24:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+00:17:13,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+18:30:53,4,Cottage Grove,,Sat
+23:48:40,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:57:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:50:44,147,Outer DuSable Lake Shore Express,,Sun
+09:19:21,151,Sheridan,,Sat
+16:59:15,3,King Drive,,Sun
+09:57:07,3,King Drive,,Sat
+11:37:37,3,King Drive,,Sun
+22:08:17,147,Outer DuSable Lake Shore Express,,Sat
+11:44:01,3,King Drive,,Sat
+11:26:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:29:52,4,Cottage Grove,,Sun
+11:11:07,3,King Drive,,Sun
+13:25:17,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:30:27,66,Chicago,,Mon
+09:35:14,147,Outer DuSable Lake Shore Express,,Sun
+19:23:28,147,Outer DuSable Lake Shore Express,,Sat
+09:57:07,3,King Drive,,Sat
+21:50:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:03:42,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+15:23:28,147,Outer DuSable Lake Shore Express,,Sun
+12:51:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:26:08,3,King Drive,,Sat
+14:27:12,4,Cottage Grove,,Sun
+11:36:42,4,Cottage Grove,,Sat
+19:47:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:32:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:38:23,4,Cottage Grove,,Sat
+16:43:35,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:28:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+01:18:33,151,Sheridan,,Sun
+12:46:08,3,King Drive,,Sat
+09:36:02,4,Cottage Grove,,Sat
+19:37:23,4,Cottage Grove,,Sat
+15:43:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:44:08,3,King Drive,,Sat
+12:15:07,3,King Drive,,Sun
+18:10:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:25:16,151,Sheridan,,Sun
+12:56:08,3,King Drive,,Sat
+11:34:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:02:43,147,Outer DuSable Lake Shore Express,,Sun
+09:41:01,4,Cottage Grove,,Sun
+09:39:21,151,Sheridan,,Sun
+07:08:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:59:45,3,King Drive,,Sat
+21:40:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:35:08,3,King Drive,,Sat
+15:40:15,3,King Drive,,Sun
+09:49:33,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:37:12,4,Cottage Grove,,Sun
+07:19:20,4,Cottage Grove,,Sun
+14:51:09,151,Sheridan,,Sat
+19:30:00,151,Sheridan,,Sat
+06:13:40,4,Cottage Grove,,Sat
+06:56:40,4,Cottage Grove,,Sat
+10:15:07,3,King Drive,,Sun
+09:19:19,151,Sheridan,,Sat
+13:29:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:41:32,151,Sheridan,,Sun
+11:19:01,147,Outer DuSable Lake Shore Express,,Sat
+15:04:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:37:38,147,Outer DuSable Lake Shore Express,,Sat
+18:45:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:39:03,4,Cottage Grove,,Sat
+15:06:05,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+05:23:31,4,Cottage Grove,,Sun
+14:54:15,3,King Drive,,Sun
+06:37:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:41:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:24:52,4,Cottage Grove,,Sun
+17:31:30,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:41:30,151,Sheridan,,Sun
+09:04:41,4,Cottage Grove,,Sat
+13:49:28,151,Sheridan,,Sun
+20:32:37,3,King Drive,,Sat
+15:31:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:18:31,147,Outer DuSable Lake Shore Express,,Sat
+24:37:01,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:39:24,147,Outer DuSable Lake Shore Express,,Sun
+11:43:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:59:24,147,Outer DuSable Lake Shore Express,,Sun
+07:38:23,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:38:44,147,Outer DuSable Lake Shore Express,,Sat
+19:15:12,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:00:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:23:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:24:15,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:50:29,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:45:18,151,Sheridan,,Sun
+14:11:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:24:23,151,Sheridan,,Sun
+18:45:56,151,Sheridan,,Sun
+19:01:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:33:40,4,Cottage Grove,,Sat
+12:13:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:10:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:00:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:50:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:01:31,147,Outer DuSable Lake Shore Express,,Sat
+19:28:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+23:45:21,151,Sheridan,,Sat
+10:16:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:00:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:50:00,151,Sheridan,,Sun
+05:36:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:31:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:33:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:05:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:40:47,147,Outer DuSable Lake Shore Express,,Sun
+07:56:01,4,Cottage Grove,,Sat
+10:31:31,4,Cottage Grove,,Sun
+08:03:16,147,Outer DuSable Lake Shore Express,,Sat
+10:32:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:26:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:16:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+02:00:27,66,Chicago,,Mon
+05:56:14,147,Outer DuSable Lake Shore Express,,Sat
+08:08:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:46:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:19:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:08:03,4,Cottage Grove,,Sat
+20:47:23,151,Sheridan,,Sat
+15:43:45,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:44:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:00:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:39:58,151,Sheridan,,Sun
+12:40:03,4,Cottage Grove,,Sat
+12:47:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:43:07,151,Sheridan,,Sat
+05:07:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:30:43,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:04:51,147,Outer DuSable Lake Shore Express,,Sat
+11:36:01,147,Outer DuSable Lake Shore Express,,Sat
+10:40:56,151,Sheridan,,Sat
+17:50:54,147,Outer DuSable Lake Shore Express,,Sun
+15:54:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:33:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:20:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:53:21,147,Outer DuSable Lake Shore Express,,Sun
+03:29:48,66,Chicago,,Sun
+11:21:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+05:08:19,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:07:07,3,King Drive,,Sun
+20:23:29,3,King Drive,,Sun
+08:38:31,4,Cottage Grove,,Sun
+11:09:28,147,Outer DuSable Lake Shore Express,,Sat
+22:39:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:53:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:23:23,4,Cottage Grove,,Sat
+13:05:07,3,King Drive,,Sun
+25:01:03,4,Cottage Grove,,Sun
+02:59:38,66,Chicago,,Mon
+09:19:22,4,Cottage Grove,,Sat
+06:17:43,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:08:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:39:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:07:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:36:01,147,Outer DuSable Lake Shore Express,,Sat
+12:35:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:59:37,3,King Drive,,Sun
+19:17:58,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:58:46,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:48:58,147,Outer DuSable Lake Shore Express,,Sat
+07:18:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:03:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+15:46:28,147,Outer DuSable Lake Shore Express,,Sun
+08:31:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:15:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:15:07,3,King Drive,,Sun
+06:05:40,151,Sheridan,,Sun
+17:09:28,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:43:07,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+16:31:47,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:02:02,151,Sheridan,,Sun
+15:24:07,151,Sheridan,,Sat
+20:03:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:17:37,3,King Drive,,Sun
+18:01:02,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:19:20,4,Cottage Grove,,Sun
+19:04:58,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:29:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:08:25,151,Sheridan,,Sun
+15:27:08,3,King Drive,,Sat
+22:10:22,4,Cottage Grove,,Sat
+17:28:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:30:23,151,Sheridan,,Sat
+10:26:47,151,Sheridan,,Sun
+14:05:58,147,Outer DuSable Lake Shore Express,,Sun
+07:34:07,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:51:17,151,Sheridan,,Sun
+11:09:22,4,Cottage Grove,,Sun
+09:35:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:18:35,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:36:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:44:53,4,Cottage Grove,,Sat
+07:43:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:09:20,4,Cottage Grove,,Sun
+12:26:21,147,Outer DuSable Lake Shore Express,,Sun
+16:20:08,147,Outer DuSable Lake Shore Express,,Sat
+15:15:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:14:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:46:21,3,King Drive,,Sat
+05:25:16,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:14:52,4,Cottage Grove,,Sun
+04:01:03,4,Cottage Grove,,Sun
+17:41:53,4,Cottage Grove,,Sat
+17:58:03,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:40:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:09:20,4,Cottage Grove,,Sat
+10:45:01,147,Outer DuSable Lake Shore Express,,Sat
+05:08:49,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:18:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:29:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:05:42,4,Cottage Grove,,Sat
+08:33:44,147,Outer DuSable Lake Shore Express,,Sun
+06:50:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:48:52,4,Cottage Grove,,Sat
+21:12:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+05:25:15,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:54:10,4,Cottage Grove,,Sat
+18:33:01,147,Outer DuSable Lake Shore Express,,Sat
+12:38:56,151,Sheridan,,Sun
+22:03:37,3,King Drive,,Sat
+22:25:18,151,Sheridan,,Sun
+12:05:21,147,Outer DuSable Lake Shore Express,,Sun
+09:49:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:52:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:45:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:48:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:18:47,147,Outer DuSable Lake Shore Express,,Sun
+12:56:08,3,King Drive,,Sat
+18:56:44,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:13:44,147,Outer DuSable Lake Shore Express,,Sun
+02:31:03,4,Cottage Grove,,Sun
+18:02:24,147,Outer DuSable Lake Shore Express,,Sun
+16:11:04,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+22:40:51,3,King Drive,,Sun
+16:28:38,147,Outer DuSable Lake Shore Express,,Sat
+14:49:58,147,Outer DuSable Lake Shore Express,,Sun
+15:53:36,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:47:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:09:22,4,Cottage Grove,,Sun
+10:41:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:52:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:03:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:24:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:20:00,151,Sheridan,,Sat
+21:40:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:45:57,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:22:44,147,Outer DuSable Lake Shore Express,,Sun
+14:47:03,4,Cottage Grove,,Sat
+20:39:29,3,King Drive,,Sun
+05:58:40,4,Cottage Grove,,Sun
+06:10:58,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:15:21,151,Sheridan,,Sun
+20:46:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:31:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:24:40,151,Sheridan,,Sun
+08:33:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:42:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:56:07,151,Sheridan,,Sat
+11:00:23,3,King Drive,,Sat
+12:49:22,4,Cottage Grove,,Sun
+23:29:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:28:21,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:32:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+04:31:31,4,Cottage Grove,,Sun
+17:32:15,3,King Drive,,Sun
+10:48:51,147,Outer DuSable Lake Shore Express,,Sun
+10:36:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:35:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:10:01,147,Outer DuSable Lake Shore Express,,Sat
+16:45:05,151,Sheridan,,Sat
+17:39:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:34:51,3,King Drive,,Sat
+10:59:51,147,Outer DuSable Lake Shore Express,,Sun
+07:34:44,147,Outer DuSable Lake Shore Express,,Sun
+07:38:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:37:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:54:38,147,Outer DuSable Lake Shore Express,,Sat
+06:11:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:16:24,147,Outer DuSable Lake Shore Express,,Sun
+06:34:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:26:19,151,Sheridan,,Sun
+12:10:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:45:21,151,Sheridan,,Sat
+10:25:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:03:33,4,Cottage Grove,,Sat
+19:00:05,151,Sheridan,,Sat
+07:59:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:10:35,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+17:26:42,4,Cottage Grove,,Sun
+17:04:03,4,Cottage Grove,,Sat
+18:29:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:52:50,4,Cottage Grove,,Sat
+16:20:00,151,Sheridan,,Sun
+14:39:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:13:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:19:03,4,Cottage Grove,,Sat
+08:25:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:36:01,147,Outer DuSable Lake Shore Express,,Sat
+20:42:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:19:43,3,King Drive,,Sun
+16:06:42,4,Cottage Grove,,Sun
+14:53:08,3,King Drive,,Sat
+15:53:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:45:07,151,Sheridan,,Sat
+10:27:58,147,Outer DuSable Lake Shore Express,,Sat
+20:25:54,147,Outer DuSable Lake Shore Express,,Sat
+07:34:20,4,Cottage Grove,,Sun
+12:34:37,151,Sheridan,,Sat
+08:29:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:00:27,66,Chicago,,Mon
+07:06:12,151,Sheridan,,Sun
+14:27:58,147,Outer DuSable Lake Shore Express,,Sun
+17:35:27,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:21:47,147,Outer DuSable Lake Shore Express,,Sun
+17:10:29,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:53:49,151,Sheridan,,Sun
+08:16:51,151,Sheridan,,Sat
+18:10:35,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+17:34:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:01:12,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:33:28,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:56:42,4,Cottage Grove,,Sun
+23:43:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:37:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:33:01,4,Cottage Grove,,Sat
+08:47:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:00:27,66,Chicago,,Sun
+17:00:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:24:03,4,Cottage Grove,,Sat
+11:58:24,151,Sheridan,,Sun
+06:48:46,151,Sheridan,,Sat
+23:32:52,4,Cottage Grove,,Sat
+07:17:29,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:29:20,4,Cottage Grove,,Sun
+12:29:22,4,Cottage Grove,,Sun
+17:13:23,3,King Drive,,Sat
+09:39:19,151,Sheridan,,Sun
+15:53:08,3,King Drive,,Sat
+11:45:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:45:17,151,Sheridan,,Sun
+13:36:42,4,Cottage Grove,,Sun
+12:26:21,147,Outer DuSable Lake Shore Express,,Sun
+11:43:21,147,Outer DuSable Lake Shore Express,,Sun
+09:09:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:34:58,147,Outer DuSable Lake Shore Express,,Sun
+11:32:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:25:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+09:11:31,4,Cottage Grove,,Sun
+06:04:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:01:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+09:51:01,4,Cottage Grove,,Sun
+08:37:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:55:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:17:07,151,Sheridan,,Sat
+11:21:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:01:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:17:11,147,Outer DuSable Lake Shore Express,,Sat
+15:06:05,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+17:34:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:01:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:32:21,147,Outer DuSable Lake Shore Express,,Sun
+16:11:08,3,King Drive,,Sat
+17:04:54,147,Outer DuSable Lake Shore Express,,Sun
+08:37:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:59:43,3,King Drive,,Sun
+08:42:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+04:32:38,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+19:54:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:56:36,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:30:07,3,King Drive,,Sun
+18:41:31,147,Outer DuSable Lake Shore Express,,Sat
+11:21:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:26:58,147,Outer DuSable Lake Shore Express,,Sat
+13:43:21,147,Outer DuSable Lake Shore Express,,Sun
+20:18:12,4,Cottage Grove,,Sun
+16:37:15,3,King Drive,,Sun
+17:40:23,3,King Drive,,Sat
+02:59:38,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+18:46:42,4,Cottage Grove,,Sun
+05:41:13,3,King Drive,,Sat
+20:32:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:02:37,3,King Drive,,Sun
+07:33:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:16:42,4,Cottage Grove,,Sun
+13:43:21,147,Outer DuSable Lake Shore Express,,Sun
+14:27:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:43:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:57:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:09:12,4,Cottage Grove,,Sun
+09:44:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:36:23,4,Cottage Grove,,Sat
+21:31:51,151,Sheridan,,Sat
+20:56:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:55:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:07:07,3,King Drive,,Sun
+21:03:51,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:52:03,4,Cottage Grove,,Sat
+19:48:24,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:09:05,151,Sheridan,,Sat
+13:51:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:55:01,4,Cottage Grove,,Sat
+17:04:54,147,Outer DuSable Lake Shore Express,,Sun
+13:25:17,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:04:31,3,King Drive,,Sat
+13:31:09,151,Sheridan,,Sat
+12:04:01,3,King Drive,,Sat
+19:49:45,3,King Drive,,Sat
+00:51:37,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+14:26:07,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:50:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:54:01,3,King Drive,,Sat
+01:30:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+14:00:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:31:23,3,King Drive,,Sat
+14:26:07,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+24:35:03,4,Cottage Grove,,Sun
+23:30:43,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:21:13,3,King Drive,,Sat
+11:48:24,151,Sheridan,,Sun
+14:51:07,151,Sheridan,,Sat
+08:55:01,4,Cottage Grove,,Sat
+21:44:51,3,King Drive,,Sun
+07:01:21,3,King Drive,,Sat
+24:16:31,4,Cottage Grove,,Sun
+15:37:38,147,Outer DuSable Lake Shore Express,,Sat
+20:45:47,151,Sheridan,,Sun
+21:45:18,151,Sheridan,,Sun
+07:26:29,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:15:12,4,Cottage Grove,,Sun
+17:12:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:27:21,151,Sheridan,,Sun
+07:54:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:22:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:11:01,4,Cottage Grove,,Sun
+18:56:42,4,Cottage Grove,,Sun
+09:22:43,147,Outer DuSable Lake Shore Express,,Sun
+21:23:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+16:29:08,3,King Drive,,Sat
+16:09:17,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:21:38,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:23:09,151,Sheridan,,Sat
+17:37:12,4,Cottage Grove,,Sun
+10:30:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+09:57:02,4,Cottage Grove,,Sat
+16:57:05,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:43:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:33:16,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:16:58,147,Outer DuSable Lake Shore Express,,Sat
+12:23:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:34:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:05:18,151,Sheridan,,Sun
+21:12:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:17:52,4,Cottage Grove,,Sat
+07:32:52,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:06:49,147,Outer DuSable Lake Shore Express,,Sat
+17:33:31,147,Outer DuSable Lake Shore Express,,Sat
+12:26:33,151,Sheridan,,Sat
+17:13:23,3,King Drive,,Sat
+20:32:19,151,Sheridan,,Sat
+18:57:12,4,Cottage Grove,,Sun
+09:57:17,147,Outer DuSable Lake Shore Express,,Sun
+13:27:31,147,Outer DuSable Lake Shore Express,,Sat
+17:52:16,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:12:51,147,Outer DuSable Lake Shore Express,,Sat
+14:35:07,151,Sheridan,,Sat
+15:04:03,4,Cottage Grove,,Sat
+14:36:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:21:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:13:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:56:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:21:05,151,Sheridan,,Sat
+10:28:51,147,Outer DuSable Lake Shore Express,,Sun
+08:50:32,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+10:09:55,147,Outer DuSable Lake Shore Express,,Sat
+19:17:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:32:51,147,Outer DuSable Lake Shore Express,,Sat
+12:05:03,4,Cottage Grove,,Sat
+08:11:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+14:19:32,151,Sheridan,,Sun
+05:39:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:16:58,147,Outer DuSable Lake Shore Express,,Sun
+14:31:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:18:31,147,Outer DuSable Lake Shore Express,,Sat
+08:48:51,151,Sheridan,,Sat
+05:50:29,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:57:12,4,Cottage Grove,,Sun
+17:08:27,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:12:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:24:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:28:01,147,Outer DuSable Lake Shore Express,,Sat
+11:29:22,4,Cottage Grove,,Sun
+12:00:28,147,Outer DuSable Lake Shore Express,,Sat
+13:37:01,147,Outer DuSable Lake Shore Express,,Sat
+09:01:31,4,Cottage Grove,,Sun
+14:25:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+04:00:08,66,Chicago,,Sun
+10:56:02,4,Cottage Grove,,Sat
+06:18:50,4,Cottage Grove,,Sun
+23:44:40,151,Sheridan,,Sun
+15:27:12,4,Cottage Grove,,Sun
+15:53:36,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:40:00,151,Sheridan,,Sun
+19:10:02,151,Sheridan,,Sat
+17:38:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:23:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:12:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:30:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:23:07,3,King Drive,,Sat
+16:38:08,3,King Drive,,Sat
+12:43:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:20:02,151,Sheridan,,Sat
+16:30:24,147,Outer DuSable Lake Shore Express,,Sun
+17:10:15,3,King Drive,,Sun
+13:09:24,151,Sheridan,,Sun
+11:44:58,151,Sheridan,,Sat
+12:04:01,3,King Drive,,Sat
+08:00:13,3,King Drive,,Sun
+22:12:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:20:08,3,King Drive,,Sat
+09:05:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:20:03,4,Cottage Grove,,Sat
+08:29:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:45:57,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+11:28:19,151,Sheridan,,Sun
+08:33:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:13:54,147,Outer DuSable Lake Shore Express,,Sun
+10:31:01,4,Cottage Grove,,Sun
+15:00:58,147,Outer DuSable Lake Shore Express,,Sun
+02:30:01,4,Cottage Grove,,Mon
+06:13:40,4,Cottage Grove,,Sat
+15:14:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:50:54,147,Outer DuSable Lake Shore Express,,Sun
+15:20:03,4,Cottage Grove,,Sat
+13:57:12,4,Cottage Grove,,Sun
+22:38:17,147,Outer DuSable Lake Shore Express,,Sat
+17:01:05,151,Sheridan,,Sat
+05:49:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:21:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+03:00:31,4,Cottage Grove,,Mon
+18:47:51,147,Outer DuSable Lake Shore Express,,Sun
+04:00:08,66,Chicago,,Sun
+18:22:30,151,Sheridan,,Sun
+20:57:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:19:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:43:40,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:19:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:56:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+02:00:27,66,Chicago,,Sun
+22:45:23,151,Sheridan,,Sat
+04:31:38,66,Chicago,,Sat
+18:58:21,147,Outer DuSable Lake Shore Express,,Sun
+23:00:19,151,Sheridan,,Sat
+11:52:14,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:29:20,4,Cottage Grove,,Sun
+12:01:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:25:24,147,Outer DuSable Lake Shore Express,,Sun
+12:35:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:21:07,151,Sheridan,,Sat
+09:46:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:39:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:37:07,151,Sheridan,,Sat
+14:32:03,4,Cottage Grove,,Sat
+06:43:40,4,Cottage Grove,,Sat
+15:46:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:27:21,3,King Drive,,Sun
+10:48:15,3,King Drive,,Sat
+14:01:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:23:19,147,Outer DuSable Lake Shore Express,,Sat
+17:21:57,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:10:01,147,Outer DuSable Lake Shore Express,,Sat
+14:26:08,3,King Drive,,Sat
+09:46:12,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+11:18:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:55:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+00:19:43,3,King Drive,,Mon
+07:03:46,151,Sheridan,,Sat
+19:18:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+03:31:31,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+12:15:03,4,Cottage Grove,,Sat
+14:08:15,3,King Drive,,Sun
+13:51:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+21:11:03,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:39:03,4,Cottage Grove,,Sat
+15:56:36,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:41:44,151,Sheridan,,Sun
+20:52:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:53:24,147,Outer DuSable Lake Shore Express,,Sun
+03:01:31,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+17:52:15,3,King Drive,,Sun
+16:31:47,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:47:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:17:31,147,Outer DuSable Lake Shore Express,,Sat
+11:18:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+23:00:21,151,Sheridan,,Sat
+02:00:27,66,Chicago,,Sun
+13:03:01,147,Outer DuSable Lake Shore Express,,Sat
+09:28:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:38:45,151,Sheridan,,Sun
+16:13:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:30:16,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:06:08,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:56:15,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:41:08,3,King Drive,,Sat
+16:22:17,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:16:01,147,Outer DuSable Lake Shore Express,,Sat
+11:48:25,151,Sheridan,,Sun
+19:30:12,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:11:42,151,Sheridan,,Sun
+13:19:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:39:52,4,Cottage Grove,,Sun
+15:04:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:47:52,4,Cottage Grove,,Sat
+20:12:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:59:31,4,Cottage Grove,,Sat
+17:50:23,3,King Drive,,Sat
+15:56:42,4,Cottage Grove,,Sun
+23:36:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:56:15,3,King Drive,,Sun
+20:32:21,151,Sheridan,,Sat
+15:05:45,3,King Drive,,Sun
+12:18:28,151,Sheridan,,Sun
+11:36:23,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:59:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:56:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:51:31,4,Cottage Grove,,Sun
+15:07:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:25:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:40:40,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:45:01,4,Cottage Grove,,Sat
+17:36:42,4,Cottage Grove,,Sun
+09:59:58,147,Outer DuSable Lake Shore Express,,Sat
+09:31:42,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+11:34:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:52:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:19:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:03:33,4,Cottage Grove,,Sat
+16:14:45,3,King Drive,,Sun
+11:59:22,4,Cottage Grove,,Sun
+13:17:37,3,King Drive,,Sun
+18:25:24,147,Outer DuSable Lake Shore Express,,Sun
+12:01:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:36:02,4,Cottage Grove,,Sat
+09:40:54,147,Outer DuSable Lake Shore Express,,Sat
+17:06:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:20:30,151,Sheridan,,Sun
+11:18:21,151,Sheridan,,Sun
+10:08:25,151,Sheridan,,Sat
+08:12:21,3,King Drive,,Sat
+14:59:09,151,Sheridan,,Sat
+20:57:12,4,Cottage Grove,,Sun
+16:47:08,3,King Drive,,Sat
+23:19:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:58:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:09:07,151,Sheridan,,Sat
+09:43:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:09:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:34:01,3,King Drive,,Sat
+08:16:49,151,Sheridan,,Sat
+15:11:38,147,Outer DuSable Lake Shore Express,,Sat
+10:46:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:03:03,4,Cottage Grove,,Sat
+08:53:01,4,Cottage Grove,,Sun
+14:36:01,147,Outer DuSable Lake Shore Express,,Sat
+16:13:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:38:23,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:06:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+18:30:32,151,Sheridan,,Sat
+04:31:38,66,Chicago,,Sun
+08:49:40,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:33:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:47:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:07:22,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:58:26,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:57:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+04:01:03,4,Cottage Grove,,Sat
+08:38:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:56:51,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:46:42,4,Cottage Grove,,Sun
+05:40:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:14:21,147,Outer DuSable Lake Shore Express,,Sat
+16:07:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:39:59,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:27:54,147,Outer DuSable Lake Shore Express,,Sun
+23:18:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:16:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:16:07,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:29:45,3,King Drive,,Sat
+09:56:02,4,Cottage Grove,,Sat
+16:40:03,4,Cottage Grove,,Sat
+11:00:23,3,King Drive,,Sat
+18:48:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+16:04:09,151,Sheridan,,Sat
+22:45:37,3,King Drive,,Sat
+15:35:45,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:32:03,4,Cottage Grove,,Sat
+13:08:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:59:52,4,Cottage Grove,,Sun
+07:43:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:16:42,4,Cottage Grove,,Sun
+20:46:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:11:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:51:45,3,King Drive,,Sun
+16:57:12,4,Cottage Grove,,Sun
+05:28:19,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:32:56,151,Sheridan,,Sat
+16:11:08,3,King Drive,,Sat
+17:50:30,151,Sheridan,,Sat
+17:10:00,151,Sheridan,,Sun
+17:42:15,3,King Drive,,Sun
+22:03:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:08:19,151,Sheridan,,Sun
+06:04:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:05:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:42:12,4,Cottage Grove,,Sun
+16:36:05,147,Outer DuSable Lake Shore Express,,Sat
+14:58:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:34:44,147,Outer DuSable Lake Shore Express,,Sun
+16:03:08,147,Outer DuSable Lake Shore Express,,Sat
+12:03:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:18:31,147,Outer DuSable Lake Shore Express,,Sat
+09:49:53,151,Sheridan,,Sat
+13:59:30,151,Sheridan,,Sun
+19:57:58,147,Outer DuSable Lake Shore Express,,Sat
+07:19:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:08:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:23:21,147,Outer DuSable Lake Shore Express,,Sat
+17:52:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:55:33,4,Cottage Grove,,Sat
+08:39:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:23:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:29:21,3,King Drive,,Sat
+19:14:28,147,Outer DuSable Lake Shore Express,,Sat
+11:09:52,4,Cottage Grove,,Sun
+09:41:29,3,King Drive,,Sun
+17:20:32,151,Sheridan,,Sun
+08:02:43,147,Outer DuSable Lake Shore Express,,Sun
+18:06:08,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:31:07,151,Sheridan,,Sat
+05:55:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:08:29,3,King Drive,,Sun
+22:59:17,147,Outer DuSable Lake Shore Express,,Sun
+17:12:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:02:15,3,King Drive,,Sun
+12:09:30,151,Sheridan,,Sat
+12:43:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:34:23,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:31:49,147,Outer DuSable Lake Shore Express,,Sat
+11:52:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:27:42,4,Cottage Grove,,Sun
+09:53:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:49:20,4,Cottage Grove,,Sun
+09:46:12,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+01:30:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+14:36:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:59:32,151,Sheridan,,Sun
+18:23:05,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+10:06:02,4,Cottage Grove,,Sat
+18:21:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:33:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:50:08,3,King Drive,,Sat
+01:18:34,151,Sheridan,,Sun
+18:34:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+18:02:00,151,Sheridan,,Sun
+08:04:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:57:02,4,Cottage Grove,,Sat
+09:21:01,4,Cottage Grove,,Sun
+05:12:08,151,Sheridan,,Sat
+15:06:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:31:07,3,King Drive,,Sat
+20:27:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:09:29,4,Cottage Grove,,Sat
+22:16:37,3,King Drive,,Sat
+15:11:08,3,King Drive,,Sat
+14:52:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:28:23,4,Cottage Grove,,Sat
+23:56:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:12:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:04:56,151,Sheridan,,Sat
+06:52:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:04:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:11:07,3,King Drive,,Sun
+20:59:47,147,Outer DuSable Lake Shore Express,,Sun
+14:48:03,4,Cottage Grove,,Sat
+08:26:44,151,Sheridan,,Sun
+00:25:21,3,King Drive,,Sun
+15:27:03,4,Cottage Grove,,Sat
+13:51:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:59:37,3,King Drive,,Sun
+15:57:04,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:18:13,3,King Drive,,Sun
+17:56:42,4,Cottage Grove,,Sun
+07:44:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:59:21,147,Outer DuSable Lake Shore Express,,Sat
+23:19:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:59:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:53:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:38:51,151,Sheridan,,Sun
+06:04:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:37:51,151,Sheridan,,Sun
+18:42:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:21:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:11:37,3,King Drive,,Sat
+05:56:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+04:01:31,4,Cottage Grove,,Sat
+15:55:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:14:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:29:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:22:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:34:07,3,King Drive,,Sun
+08:18:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:21:21,3,King Drive,,Sat
+07:52:17,147,Outer DuSable Lake Shore Express,,Sat
+09:15:19,151,Sheridan,,Sun
+22:44:52,4,Cottage Grove,,Sun
+11:52:58,151,Sheridan,,Sat
+09:44:11,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+11:50:07,3,King Drive,,Sun
+14:47:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:54:12,4,Cottage Grove,,Sat
+09:00:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:16:01,4,Cottage Grove,,Sat
+10:30:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:44:15,3,King Drive,,Sun
+18:39:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:44:07,3,King Drive,,Sat
+18:39:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:19:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:44:52,4,Cottage Grove,,Sun
+11:32:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:15:19,151,Sheridan,,Sat
+13:04:03,4,Cottage Grove,,Sat
+21:04:42,4,Cottage Grove,,Sat
+04:31:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:38:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:04:07,151,Sheridan,,Sat
+19:33:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:02:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:42:22,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:47:51,147,Outer DuSable Lake Shore Express,,Sun
+24:30:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+04:31:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+25:01:01,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:27:02,4,Cottage Grove,,Sat
+14:19:45,3,King Drive,,Sun
+11:34:39,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+18:37:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+24:39:33,4,Cottage Grove,,Sat
+14:17:12,4,Cottage Grove,,Sun
+06:05:41,151,Sheridan,,Sun
+10:39:49,147,Outer DuSable Lake Shore Express,,Sun
+13:30:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:52:28,147,Outer DuSable Lake Shore Express,,Sat
+21:59:22,4,Cottage Grove,,Sat
+13:10:31,147,Outer DuSable Lake Shore Express,,Sat
+06:38:30,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:35:03,4,Cottage Grove,,Sat
+17:23:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:59:01,147,Outer DuSable Lake Shore Express,,Sat
+18:45:07,3,King Drive,,Sun
+10:47:02,4,Cottage Grove,,Sat
+15:57:04,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:23:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:40:15,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:02:21,151,Sheridan,,Sat
+07:33:31,4,Cottage Grove,,Sat
+11:16:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:05:02,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:13:45,151,Sheridan,,Sat
+07:08:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:33:26,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:19:07,151,Sheridan,,Sat
+15:54:38,147,Outer DuSable Lake Shore Express,,Sat
+13:21:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:56:01,4,Cottage Grove,,Sat
+17:51:53,4,Cottage Grove,,Sat
+04:31:03,4,Cottage Grove,,Sun
+12:35:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:15:19,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:19:43,3,King Drive,,Sun
+16:56:33,4,Cottage Grove,,Sat
+09:59:58,147,Outer DuSable Lake Shore Express,,Sat
+19:24:12,4,Cottage Grove,,Sun
+08:29:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:23:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:49:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:46:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:59:07,151,Sheridan,,Sat
+22:08:48,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:58:03,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:18:19,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:08:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:02:52,4,Cottage Grove,,Sat
+23:29:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:32:08,3,King Drive,,Sat
+12:55:03,4,Cottage Grove,,Sat
+19:42:12,4,Cottage Grove,,Sun
+06:26:13,147,Outer DuSable Lake Shore Express,,Sat
+07:52:17,147,Outer DuSable Lake Shore Express,,Sat
+14:15:03,4,Cottage Grove,,Sat
+21:05:51,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:48:09,151,Sheridan,,Sat
+06:28:40,4,Cottage Grove,,Sat
+24:18:33,151,Sheridan,,Sat
+17:25:53,4,Cottage Grove,,Sat
+13:40:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:38:44,147,Outer DuSable Lake Shore Express,,Sat
+17:51:12,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:59:21,147,Outer DuSable Lake Shore Express,,Sat
+06:50:33,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:03:51,151,Sheridan,,Sat
+20:54:42,4,Cottage Grove,,Sat
+01:31:03,4,Cottage Grove,,Sun
+05:49:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:48:58,151,Sheridan,,Sat
+15:59:24,147,Outer DuSable Lake Shore Express,,Sun
+12:29:52,4,Cottage Grove,,Sun
+19:53:51,151,Sheridan,,Sun
+06:52:11,147,Outer DuSable Lake Shore Express,,Sat
+21:38:22,4,Cottage Grove,,Sat
+08:02:43,147,Outer DuSable Lake Shore Express,,Sun
+21:30:32,4,Cottage Grove,,Sun
+07:46:01,4,Cottage Grove,,Sat
+20:45:48,151,Sheridan,,Sun
+22:25:17,151,Sheridan,,Sun
+18:57:44,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+25:01:01,4,Cottage Grove,,Sat
+23:36:31,4,Cottage Grove,,Sat
+17:47:29,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+16:29:05,151,Sheridan,,Sat
+22:12:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:17:11,147,Outer DuSable Lake Shore Express,,Sat
+19:15:12,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+11:19:22,4,Cottage Grove,,Sun
+11:36:56,151,Sheridan,,Sat
+21:46:21,151,Sheridan,,Sat
+10:11:31,4,Cottage Grove,,Sun
+07:23:12,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:37:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:40:03,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:47:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:20:08,3,King Drive,,Sat
+10:07:02,4,Cottage Grove,,Sat
+10:36:07,3,King Drive,,Sat
+07:10:20,4,Cottage Grove,,Sat
+18:33:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:10:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:47:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:55:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:32:33,151,Sheridan,,Sat
+13:08:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:48:15,3,King Drive,,Sun
+18:56:07,3,King Drive,,Sun
+06:49:20,4,Cottage Grove,,Sun
+12:53:31,147,Outer DuSable Lake Shore Express,,Sat
+18:16:01,147,Outer DuSable Lake Shore Express,,Sat
+18:25:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:29:58,151,Sheridan,,Sat
+09:10:32,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:56:42,151,Sheridan,,Sun
+05:04:07,151,Sheridan,,Sun
+13:51:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:29:32,4,Cottage Grove,,Sun
+06:38:32,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:38:21,151,Sheridan,,Sun
+24:04:40,151,Sheridan,,Sun
+10:32:58,151,Sheridan,,Sat
+02:00:27,66,Chicago,,Mon
+09:39:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:50:23,3,King Drive,,Sat
+13:39:30,151,Sheridan,,Sun
+09:16:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:30:37,3,King Drive,,Sat
+22:58:17,147,Outer DuSable Lake Shore Express,,Sat
+12:08:24,151,Sheridan,,Sun
+14:57:12,4,Cottage Grove,,Sun
+20:54:51,147,Outer DuSable Lake Shore Express,,Sat
+07:55:21,3,King Drive,,Sat
+10:05:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:34:31,147,Outer DuSable Lake Shore Express,,Sat
+07:39:13,3,King Drive,,Sun
+18:21:38,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+14:53:35,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+20:45:54,147,Outer DuSable Lake Shore Express,,Sat
+17:27:12,4,Cottage Grove,,Sun
+11:34:01,3,King Drive,,Sat
+16:39:51,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:50:07,3,King Drive,,Sun
+07:30:14,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+10:24:25,151,Sheridan,,Sat
+23:59:43,3,King Drive,,Sun
+08:04:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+03:29:38,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+12:00:28,147,Outer DuSable Lake Shore Express,,Sat
+16:50:48,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:50:32,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+20:17:21,151,Sheridan,,Sat
+13:16:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:23:01,3,King Drive,,Sat
+12:24:03,4,Cottage Grove,,Sat
+13:54:58,147,Outer DuSable Lake Shore Express,,Sun
+11:34:39,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+21:07:12,4,Cottage Grove,,Sun
+13:21:21,147,Outer DuSable Lake Shore Express,,Sun
+08:36:01,4,Cottage Grove,,Sat
+08:42:43,147,Outer DuSable Lake Shore Express,,Sun
+09:18:07,3,King Drive,,Sat
+16:25:31,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+15:17:15,3,King Drive,,Sun
+12:26:58,147,Outer DuSable Lake Shore Express,,Sat
+09:17:42,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:59:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:21:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:30:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:39:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:53:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:17:05,151,Sheridan,,Sat
+14:39:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:47:52,4,Cottage Grove,,Sat
+11:43:21,147,Outer DuSable Lake Shore Express,,Sun
+13:01:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:33:22,4,Cottage Grove,,Sat
+14:23:03,4,Cottage Grove,,Sat
+11:53:53,4,Cottage Grove,,Sat
+13:59:08,3,King Drive,,Sat
+10:49:52,4,Cottage Grove,,Sun
+23:52:50,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:45:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:07:02,4,Cottage Grove,,Sat
+20:18:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:30:07,3,King Drive,,Sun
+12:26:35,151,Sheridan,,Sat
+06:32:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+22:15:51,151,Sheridan,,Sat
+15:24:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:02:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:36:03,4,Cottage Grove,,Sat
+11:29:52,4,Cottage Grove,,Sun
+16:09:17,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:19:20,4,Cottage Grove,,Sun
+11:32:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:45:37,3,King Drive,,Sat
+10:19:51,147,Outer DuSable Lake Shore Express,,Sun
+10:55:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:00:27,66,Chicago,,Mon
+13:29:26,151,Sheridan,,Sun
+20:18:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:50:31,147,Outer DuSable Lake Shore Express,,Sat
+09:29:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:56:01,3,King Drive,,Sat
+06:32:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:46:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:17:42,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:33:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:05:58,147,Outer DuSable Lake Shore Express,,Sun
+13:29:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:21:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:15:07,3,King Drive,,Sun
+17:41:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:50:52,147,Outer DuSable Lake Shore Express,,Sat
+16:07:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:29:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:21:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:37:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:07:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:16:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:03:45,151,Sheridan,,Sat
+16:12:07,151,Sheridan,,Sat
+00:17:13,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+20:09:21,151,Sheridan,,Sun
+15:11:58,147,Outer DuSable Lake Shore Express,,Sun
+06:41:07,147,Outer DuSable Lake Shore Express,,Sun
+17:45:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:06:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:54:53,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:56:48,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:04:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:53:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:42:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:41:14,147,Outer DuSable Lake Shore Express,,Sat
+17:40:30,151,Sheridan,,Sat
+18:45:07,3,King Drive,,Sun
+10:37:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:23:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+05:53:40,4,Cottage Grove,,Sat
+14:39:03,4,Cottage Grove,,Sat
+08:01:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:26:42,4,Cottage Grove,,Sun
+14:16:03,4,Cottage Grove,,Sat
+08:43:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:16:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:09:12,4,Cottage Grove,,Sun
+14:36:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:58:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:18:45,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:45:35,147,Outer DuSable Lake Shore Express,,Sat
+21:27:32,4,Cottage Grove,,Sat
+09:23:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:53:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:12:41,4,Cottage Grove,,Sat
+08:43:40,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:46:42,4,Cottage Grove,,Sun
+01:30:27,66,Chicago,,Sun
+11:28:21,151,Sheridan,,Sun
+08:49:49,147,Outer DuSable Lake Shore Express,,Sat
+15:07:07,151,Sheridan,,Sat
+08:12:51,147,Outer DuSable Lake Shore Express,,Sat
+11:19:01,147,Outer DuSable Lake Shore Express,,Sat
+11:02:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:46:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:24:17,147,Outer DuSable Lake Shore Express,,Sun
+10:10:07,3,King Drive,,Sat
+14:55:03,4,Cottage Grove,,Sat
+15:00:00,151,Sheridan,,Sun
+05:24:06,151,Sheridan,,Sun
+17:22:29,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:04:20,4,Cottage Grove,,Sun
+16:28:38,147,Outer DuSable Lake Shore Express,,Sat
+12:41:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:48:58,147,Outer DuSable Lake Shore Express,,Sat
+18:07:31,147,Outer DuSable Lake Shore Express,,Sat
+17:58:26,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:59:45,3,King Drive,,Sat
+11:53:21,147,Outer DuSable Lake Shore Express,,Sun
+08:53:44,147,Outer DuSable Lake Shore Express,,Sun
+03:56:48,66,Chicago,,Sat
+10:56:58,151,Sheridan,,Sat
+21:43:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+11:43:28,147,Outer DuSable Lake Shore Express,,Sat
+23:34:51,3,King Drive,,Sat
+21:16:42,4,Cottage Grove,,Sun
+19:45:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+24:18:34,151,Sheridan,,Sat
+22:03:37,3,King Drive,,Sat
+11:54:01,3,King Drive,,Sat
+19:45:53,4,Cottage Grove,,Sat
+12:43:07,151,Sheridan,,Sat
+09:57:17,147,Outer DuSable Lake Shore Express,,Sun
+08:51:18,151,Sheridan,,Sun
+18:28:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:23:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:37:23,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:23:05,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:35:14,147,Outer DuSable Lake Shore Express,,Sun
+10:37:49,151,Sheridan,,Sun
+14:45:35,147,Outer DuSable Lake Shore Express,,Sat
+16:29:07,151,Sheridan,,Sat
+05:28:49,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:54:15,3,King Drive,,Sun
+12:48:55,151,Sheridan,,Sun
+02:30:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+10:58:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:32:21,147,Outer DuSable Lake Shore Express,,Sun
+21:50:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:23:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:21:02,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:33:40,4,Cottage Grove,,Sat
+17:10:02,151,Sheridan,,Sun
+07:46:53,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:02:23,151,Sheridan,,Sat
+12:23:03,4,Cottage Grove,,Sat
+09:16:21,147,Outer DuSable Lake Shore Express,,Sat
+20:17:23,151,Sheridan,,Sat
+18:42:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:19:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:38:34,151,Sheridan,,Sat
+16:19:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:49:22,4,Cottage Grove,,Sun
+12:59:22,4,Cottage Grove,,Sun
+12:27:37,3,King Drive,,Sun
+22:30:21,151,Sheridan,,Sat
+13:27:03,4,Cottage Grove,,Sat
+17:01:07,151,Sheridan,,Sat
+18:44:23,4,Cottage Grove,,Sat
+11:12:01,3,King Drive,,Sat
+19:40:28,147,Outer DuSable Lake Shore Express,,Sat
+00:34:13,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+05:53:45,151,Sheridan,,Sat
+09:03:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:05:01,4,Cottage Grove,,Sat
+20:14:42,4,Cottage Grove,,Sat
+02:01:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+16:03:17,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:48:54,151,Sheridan,,Sun
+16:22:17,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:53:24,147,Outer DuSable Lake Shore Express,,Sun
+00:58:33,151,Sheridan,,Sun
+08:06:01,4,Cottage Grove,,Sat
+09:11:01,4,Cottage Grove,,Sun
+16:03:15,3,King Drive,,Sun
+16:50:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:03:15,3,King Drive,,Sun
+19:51:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+02:59:48,66,Chicago,,Sun
+07:18:43,147,Outer DuSable Lake Shore Express,,Sun
+13:35:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:52:56,151,Sheridan,,Sat
+22:16:37,3,King Drive,,Sat
+14:08:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:57:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+04:01:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:31:31,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+16:00:00,151,Sheridan,,Sun
+20:49:53,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:52:15,3,King Drive,,Sun
+08:24:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+21:45:17,151,Sheridan,,Sun
+22:59:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:34:07,3,King Drive,,Sun
+15:44:56,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:45:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:00:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+01:00:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+07:15:19,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:41:13,3,King Drive,,Sat
+09:31:07,3,King Drive,,Sat
+23:03:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:01:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:12:14,147,Outer DuSable Lake Shore Express,,Sat
+19:39:45,3,King Drive,,Sat
+07:34:47,151,Sheridan,,Sat
+04:58:49,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:57:40,4,Cottage Grove,,Sat
+09:04:07,3,King Drive,,Sat
+09:13:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:32:15,3,King Drive,,Sun
+20:03:54,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:06:14,151,Sheridan,,Sun
+02:59:48,66,Chicago,,Sun
+13:43:03,4,Cottage Grove,,Sat
+02:30:38,66,Chicago,,Mon
+11:31:21,147,Outer DuSable Lake Shore Express,,Sun
+07:04:11,147,Outer DuSable Lake Shore Express,,Sat
+16:19:58,151,Sheridan,,Sun
+13:05:08,3,King Drive,,Sat
+06:33:50,4,Cottage Grove,,Sun
+13:10:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:56:03,4,Cottage Grove,,Sat
+19:14:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:09:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:07:09,151,Sheridan,,Sat
+17:51:30,151,Sheridan,,Sun
+14:16:42,4,Cottage Grove,,Sun
+12:19:52,4,Cottage Grove,,Sun
+08:41:51,147,Outer DuSable Lake Shore Express,,Sat
+21:21:53,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:15:47,151,Sheridan,,Sun
+15:43:45,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+21:44:52,4,Cottage Grove,,Sun
+03:58:28,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+17:47:12,4,Cottage Grove,,Sun
+09:06:49,147,Outer DuSable Lake Shore Express,,Sat
+08:47:01,4,Cottage Grove,,Sun
+08:38:46,151,Sheridan,,Sun
+19:47:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:32:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:18:49,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:24:12,4,Cottage Grove,,Sat
+22:19:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:49:48,151,Sheridan,,Sat
+08:53:44,147,Outer DuSable Lake Shore Express,,Sun
+07:03:07,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:58:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:19:15,151,Sheridan,,Sat
+17:16:24,147,Outer DuSable Lake Shore Express,,Sun
+15:20:38,147,Outer DuSable Lake Shore Express,,Sat
+23:19:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:51:21,3,King Drive,,Sat
+09:03:19,151,Sheridan,,Sun
+04:31:38,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+16:33:47,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+10:21:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:46:27,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:43:07,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+24:38:33,151,Sheridan,,Sat
+10:15:11,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+22:48:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:47:12,4,Cottage Grove,,Sun
+08:41:51,147,Outer DuSable Lake Shore Express,,Sat
+17:23:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:26:28,147,Outer DuSable Lake Shore Express,,Sat
+14:40:03,4,Cottage Grove,,Sat
+09:03:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:11:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:06:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:11:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:50:02,151,Sheridan,,Sun
+15:11:38,147,Outer DuSable Lake Shore Express,,Sat
+17:19:53,4,Cottage Grove,,Sat
+19:26:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:33:50,4,Cottage Grove,,Sun
+10:24:24,151,Sheridan,,Sat
+11:12:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:42:17,147,Outer DuSable Lake Shore Express,,Sun
+19:24:21,151,Sheridan,,Sun
+16:18:54,147,Outer DuSable Lake Shore Express,,Sun
+16:07:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:26:42,4,Cottage Grove,,Sun
+19:19:23,4,Cottage Grove,,Sat
+10:45:07,3,King Drive,,Sun
+08:54:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:59:45,3,King Drive,,Sat
+11:35:23,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:22:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:55:53,4,Cottage Grove,,Sat
+18:08:35,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:35:54,147,Outer DuSable Lake Shore Express,,Sat
+15:40:15,3,King Drive,,Sun
+18:19:53,4,Cottage Grove,,Sat
+17:58:36,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:06:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:01:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:29:08,3,King Drive,,Sat
+18:10:05,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:35:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:27:12,4,Cottage Grove,,Sun
+21:59:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:49:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:19:31,4,Cottage Grove,,Sat
+19:09:25,151,Sheridan,,Sun
+08:35:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:07:21,147,Outer DuSable Lake Shore Express,,Sun
+08:58:51,151,Sheridan,,Sat
+14:19:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:37:12,4,Cottage Grove,,Sun
+08:17:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:09:47,147,Outer DuSable Lake Shore Express,,Sun
+17:46:27,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+10:47:53,151,Sheridan,,Sun
+18:41:31,147,Outer DuSable Lake Shore Express,,Sat
+10:01:01,4,Cottage Grove,,Sun
+11:04:58,151,Sheridan,,Sat
+07:49:12,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:40:41,4,Cottage Grove,,Sun
+12:01:28,151,Sheridan,,Sat
+20:34:21,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:53:07,151,Sheridan,,Sat
+15:33:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:01:02,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:20:27,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:59:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+22:38:17,147,Outer DuSable Lake Shore Express,,Sat
+19:35:17,147,Outer DuSable Lake Shore Express,,Sun
+14:28:01,147,Outer DuSable Lake Shore Express,,Sat
+09:05:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:00:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:10:30,151,Sheridan,,Sat
+19:06:31,147,Outer DuSable Lake Shore Express,,Sat
+15:10:02,151,Sheridan,,Sun
+15:35:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:31:03,4,Cottage Grove,,Mon
+17:40:32,151,Sheridan,,Sat
+18:22:28,151,Sheridan,,Sun
+16:50:02,151,Sheridan,,Sun
+22:01:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:36:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:23:08,3,King Drive,,Sat
+03:01:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+13:32:08,3,King Drive,,Sat
+21:16:51,151,Sheridan,,Sat
+20:03:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:02:08,3,King Drive,,Sat
+06:01:13,3,King Drive,,Sat
+13:47:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:28:51,147,Outer DuSable Lake Shore Express,,Sun
+24:36:31,4,Cottage Grove,,Sun
+19:51:12,4,Cottage Grove,,Sun
+06:08:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:10:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:56:36,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+11:15:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:43:51,147,Outer DuSable Lake Shore Express,,Sat
+16:03:17,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:32:37,3,King Drive,,Sat
+19:35:17,147,Outer DuSable Lake Shore Express,,Sun
+07:04:20,4,Cottage Grove,,Sun
+12:52:37,3,King Drive,,Sun
+14:52:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:48:25,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:54:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:41:13,3,King Drive,,Sat
+17:09:25,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:00:03,4,Cottage Grove,,Sat
+14:17:08,3,King Drive,,Sat
+08:21:21,3,King Drive,,Sun
+07:30:14,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:11:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:44:08,3,King Drive,,Sat
+10:34:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:16:02,4,Cottage Grove,,Sat
+20:32:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:16:42,4,Cottage Grove,,Sun
+12:44:01,147,Outer DuSable Lake Shore Express,,Sat
+23:02:37,3,King Drive,,Sat
+14:08:03,4,Cottage Grove,,Sat
+07:54:53,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:19:52,4,Cottage Grove,,Sun
+10:10:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:43:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:10:22,4,Cottage Grove,,Sat
+14:42:45,3,King Drive,,Sun
+13:05:08,3,King Drive,,Sat
+19:50:17,147,Outer DuSable Lake Shore Express,,Sun
+16:52:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:03:21,151,Sheridan,,Sun
+17:42:01,147,Outer DuSable Lake Shore Express,,Sat
+04:58:19,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:12:58,151,Sheridan,,Sat
+09:13:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:44:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:25:46,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:25:44,151,Sheridan,,Sun
+12:21:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:25:15,151,Sheridan,,Sun
+16:26:42,4,Cottage Grove,,Sun
+15:06:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:13:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:40:28,147,Outer DuSable Lake Shore Express,,Sat
+22:03:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:29:45,3,King Drive,,Sat
+17:25:03,151,Sheridan,,Sat
+17:10:15,3,King Drive,,Sun
+15:53:08,3,King Drive,,Sat
+17:57:23,4,Cottage Grove,,Sat
+08:47:01,4,Cottage Grove,,Sun
+18:17:12,4,Cottage Grove,,Sun
+06:17:43,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:12:03,4,Cottage Grove,,Sat
+12:09:32,151,Sheridan,,Sat
+14:00:03,4,Cottage Grove,,Sat
+16:48:51,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:17:02,4,Cottage Grove,,Sat
+07:46:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:53:01,147,Outer DuSable Lake Shore Express,,Sat
+07:46:53,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:35:08,3,King Drive,,Sat
+12:39:22,4,Cottage Grove,,Sun
+23:15:21,151,Sheridan,,Sat
+22:22:17,147,Outer DuSable Lake Shore Express,,Sun
+15:43:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:59:03,4,Cottage Grove,,Sat
+22:24:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:09:20,4,Cottage Grove,,Sun
+12:18:03,151,Sheridan,,Sat
+12:35:38,3,King Drive,,Sat
+06:49:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+04:01:31,4,Cottage Grove,,Sun
+09:20:22,4,Cottage Grove,,Sat
+06:59:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+11:37:37,3,King Drive,,Sun
+14:08:08,3,King Drive,,Sat
+13:14:08,3,King Drive,,Sat
+08:09:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:20:31,4,Cottage Grove,,Sat
+18:27:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:07:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:05:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:17:53,4,Cottage Grove,,Sat
+08:28:49,151,Sheridan,,Sat
+18:34:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:32:41,151,Sheridan,,Sat
+23:52:50,4,Cottage Grove,,Sat
+15:15:07,151,Sheridan,,Sat
+01:29:31,4,Cottage Grove,,Mon
+12:46:08,3,King Drive,,Sat
+14:08:08,3,King Drive,,Sat
+16:39:59,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:37:12,4,Cottage Grove,,Sun
+20:02:03,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:16:03,4,Cottage Grove,,Sat
+23:59:43,3,King Drive,,Sun
+07:59:12,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:05:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:26:28,147,Outer DuSable Lake Shore Express,,Sat
+18:13:15,3,King Drive,,Sun
+09:27:32,4,Cottage Grove,,Sat
+07:24:19,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:39:09,151,Sheridan,,Sat
+18:34:28,151,Sheridan,,Sun
+12:28:26,151,Sheridan,,Sun
+10:57:53,151,Sheridan,,Sun
+16:09:58,151,Sheridan,,Sun
+11:10:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:25:05,151,Sheridan,,Sat
+19:29:45,3,King Drive,,Sat
+10:52:28,147,Outer DuSable Lake Shore Express,,Sat
+10:10:07,3,King Drive,,Sat
+09:46:02,4,Cottage Grove,,Sat
+05:55:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:51:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:28:02,4,Cottage Grove,,Sat
+16:47:03,4,Cottage Grove,,Sat
+17:39:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:42:17,147,Outer DuSable Lake Shore Express,,Sun
+08:03:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:23:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:15:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:51:19,151,Sheridan,,Sun
+02:30:38,66,Chicago,,Mon
+05:55:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:26:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:56:33,4,Cottage Grove,,Sun
+15:40:07,151,Sheridan,,Sat
+15:17:15,3,King Drive,,Sun
+16:41:54,147,Outer DuSable Lake Shore Express,,Sun
+10:45:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:50:32,151,Sheridan,,Sat
+03:31:01,4,Cottage Grove,,Mon
+24:08:21,3,King Drive,,Sat
+18:07:31,147,Outer DuSable Lake Shore Express,,Sat
+07:41:42,151,Sheridan,,Sun
+06:37:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:29:58,151,Sheridan,,Sun
+21:59:52,4,Cottage Grove,,Sun
+12:24:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:58:46,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:00:58,147,Outer DuSable Lake Shore Express,,Sun
+16:25:31,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:08:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:59:53,4,Cottage Grove,,Sat
+10:46:02,4,Cottage Grove,,Sat
+15:49:58,151,Sheridan,,Sun
+21:37:37,3,King Drive,,Sat
+17:49:08,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:50:32,151,Sheridan,,Sat
+18:02:15,3,King Drive,,Sun
+14:01:31,147,Outer DuSable Lake Shore Express,,Sat
+16:12:47,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:40:00,151,Sheridan,,Sun
+19:00:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:39:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+01:12:37,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+06:47:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:35:27,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+09:36:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:18:19,151,Sheridan,,Sun
+09:01:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+18:46:54,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:19:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:49:51,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:22:43,147,Outer DuSable Lake Shore Express,,Sun
+07:36:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:59:03,4,Cottage Grove,,Sat
+09:03:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:37:02,4,Cottage Grove,,Sat
+12:01:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:59:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:57:12,4,Cottage Grove,,Sun
+17:50:31,147,Outer DuSable Lake Shore Express,,Sat
+16:02:08,3,King Drive,,Sat
+15:28:45,3,King Drive,,Sun
+21:33:24,147,Outer DuSable Lake Shore Express,,Sat
+18:20:30,151,Sheridan,,Sat
+23:18:47,147,Outer DuSable Lake Shore Express,,Sun
+16:41:27,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:56:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:19:45,3,King Drive,,Sat
+13:19:02,4,Cottage Grove,,Sun
+13:44:31,147,Outer DuSable Lake Shore Express,,Sat
+18:07:53,4,Cottage Grove,,Sat
+20:37:12,4,Cottage Grove,,Sun
+05:43:29,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:52:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:56:31,4,Cottage Grove,,Sun
+24:08:21,3,King Drive,,Sat
+07:53:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:49:30,151,Sheridan,,Sun
+17:42:57,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:00:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+10:26:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:53:14,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:58:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:43:09,151,Sheridan,,Sat
+19:06:12,4,Cottage Grove,,Sun
+03:31:01,4,Cottage Grove,,Sun
+22:18:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:11:29,3,King Drive,,Sun
+08:31:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:01:24,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:19:45,3,King Drive,,Sat
+13:07:07,151,Sheridan,,Sat
+17:27:54,147,Outer DuSable Lake Shore Express,,Sun
+13:56:42,4,Cottage Grove,,Sun
+14:01:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:00:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+21:05:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:40:30,151,Sheridan,,Sat
+13:23:08,3,King Drive,,Sat
+18:18:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:03:19,151,Sheridan,,Sun
+21:24:37,3,King Drive,,Sat
+23:02:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:44:11,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:10:31,147,Outer DuSable Lake Shore Express,,Sat
+09:13:44,147,Outer DuSable Lake Shore Express,,Sun
+18:54:23,4,Cottage Grove,,Sat
+16:19:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:18:17,147,Outer DuSable Lake Shore Express,,Sat
+09:51:21,151,Sheridan,,Sun
+22:40:51,3,King Drive,,Sun
+19:55:07,3,King Drive,,Sun
+21:14:42,4,Cottage Grove,,Sat
+07:49:47,151,Sheridan,,Sat
+20:25:12,4,Cottage Grove,,Sat
+14:27:09,151,Sheridan,,Sat
+06:51:51,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:27:23,4,Cottage Grove,,Sat
+07:49:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:01:03,4,Cottage Grove,,Sun
+16:37:05,151,Sheridan,,Sat
+16:12:09,151,Sheridan,,Sat
+08:22:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+22:39:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:00:29,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:50:29,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:33:12,4,Cottage Grove,,Sun
+09:18:07,3,King Drive,,Sat
+16:17:12,4,Cottage Grove,,Sun
+13:37:01,147,Outer DuSable Lake Shore Express,,Sat
+06:49:20,4,Cottage Grove,,Sun
+16:01:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+02:01:03,4,Cottage Grove,,Sun
+08:23:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:28:28,151,Sheridan,,Sun
+13:54:01,147,Outer DuSable Lake Shore Express,,Sat
+07:38:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:38:21,3,King Drive,,Sat
+18:10:05,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:25:12,151,Sheridan,,Sun
+18:30:30,151,Sheridan,,Sat
+20:00:12,4,Cottage Grove,,Sun
+10:40:58,151,Sheridan,,Sat
+16:25:46,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:10:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:27:07,151,Sheridan,,Sat
+13:20:01,147,Outer DuSable Lake Shore Express,,Sat
+02:01:03,4,Cottage Grove,,Mon
+17:17:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:08:24,151,Sheridan,,Sat
+16:19:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:46:21,3,King Drive,,Sat
+10:36:07,3,King Drive,,Sat
+08:54:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:21:07,147,Outer DuSable Lake Shore Express,,Sun
+13:55:07,151,Sheridan,,Sat
+18:50:01,147,Outer DuSable Lake Shore Express,,Sat
+16:58:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:10:21,147,Outer DuSable Lake Shore Express,,Sun
+13:43:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:34:58,147,Outer DuSable Lake Shore Express,,Sun
+08:29:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:20:51,3,King Drive,,Sun
+19:33:12,4,Cottage Grove,,Sun
+23:52:50,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:08:21,151,Sheridan,,Sun
+14:01:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:02:37,3,King Drive,,Sat
+13:50:08,3,King Drive,,Sat
+15:16:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:09:23,4,Cottage Grove,,Sat
+08:34:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:11:03,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:10:29,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:10:00,151,Sheridan,,Sat
+23:51:21,3,King Drive,,Sat
+09:44:16,147,Outer DuSable Lake Shore Express,,Sun
+17:20:30,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:04:45,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:50:17,147,Outer DuSable Lake Shore Express,,Sun
+07:23:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:59:25,151,Sheridan,,Sun
+12:15:21,147,Outer DuSable Lake Shore Express,,Sun
+07:59:20,4,Cottage Grove,,Sun
+18:11:58,151,Sheridan,,Sun
+10:59:52,4,Cottage Grove,,Sun
+17:51:32,151,Sheridan,,Sun
+11:41:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:52:37,3,King Drive,,Sun
+05:45:08,151,Sheridan,,Sun
+09:05:03,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:24:37,3,King Drive,,Sat
+18:37:05,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:47:22,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:14:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:51:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:55:51,147,Outer DuSable Lake Shore Express,,Sat
+12:18:26,151,Sheridan,,Sun
+11:20:58,151,Sheridan,,Sat
+05:01:01,4,Cottage Grove,,Sun
+04:31:31,4,Cottage Grove,,Sat
+11:25:32,4,Cottage Grove,,Sat
+16:39:16,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:12:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:04:52,4,Cottage Grove,,Sun
+20:47:12,4,Cottage Grove,,Sun
+20:35:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:55:29,3,King Drive,,Sun
+23:45:19,151,Sheridan,,Sat
+07:28:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:17:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:17:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:04:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:09:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:37:37,3,King Drive,,Sat
+12:01:30,151,Sheridan,,Sat
+12:26:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:34:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+09:19:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:04:46,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:56:15,3,King Drive,,Sun
+12:57:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+03:58:28,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+18:10:52,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:18:07,3,King Drive,,Sun
+18:37:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+04:01:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:59:53,151,Sheridan,,Sat
+19:45:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:59:01,147,Outer DuSable Lake Shore Express,,Sat
+16:12:47,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:04:11,147,Outer DuSable Lake Shore Express,,Sat
+10:07:21,147,Outer DuSable Lake Shore Express,,Sun
+10:00:03,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:00:47,147,Outer DuSable Lake Shore Express,,Sun
+16:44:57,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:29:52,4,Cottage Grove,,Sun
+22:24:16,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:05:43,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:45:07,3,King Drive,,Sun
+22:21:52,4,Cottage Grove,,Sat
+15:14:37,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:59:47,147,Outer DuSable Lake Shore Express,,Sun
+22:59:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:57:23,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:37:21,147,Outer DuSable Lake Shore Express,,Sun
+09:15:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:22:17,147,Outer DuSable Lake Shore Express,,Sun
+20:53:03,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:33:16,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:06:42,4,Cottage Grove,,Sun
+15:25:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:50:29,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:51:09,151,Sheridan,,Sat
+17:34:29,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:15:01,4,Cottage Grove,,Sat
+17:21:15,3,King Drive,,Sun
+09:03:29,3,King Drive,,Sun
+10:09:55,147,Outer DuSable Lake Shore Express,,Sat
+14:41:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:16:58,147,Outer DuSable Lake Shore Express,,Sat
+23:49:50,4,Cottage Grove,,Sun
+17:29:39,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:35:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:12:15,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:38:22,4,Cottage Grove,,Sat
+06:43:50,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:37:29,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:09:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:37:12,4,Cottage Grove,,Sun
+22:00:47,147,Outer DuSable Lake Shore Express,,Sun
+13:10:21,147,Outer DuSable Lake Shore Express,,Sun
+14:15:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:06:42,4,Cottage Grove,,Sun
+19:30:07,3,King Drive,,Sun
+17:25:08,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:47:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+21:34:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:39:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:53:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:16:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:09:25,151,Sheridan,,Sun
+03:29:38,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+10:26:02,4,Cottage Grove,,Sat
+18:24:15,3,King Drive,,Sun
+18:39:45,3,King Drive,,Sat
+10:48:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:15:42,4,Cottage Grove,,Sat
+15:39:58,151,Sheridan,,Sun
+20:47:21,151,Sheridan,,Sat
+21:23:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:45:19,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:33:47,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+23:19:07,3,King Drive,,Sat
+17:51:12,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:42:29,3,King Drive,,Sun
+10:46:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:51:12,4,Cottage Grove,,Sun
+22:01:21,151,Sheridan,,Sat
+00:34:13,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+06:32:15,151,Sheridan,,Sat
+19:56:23,4,Cottage Grove,,Sat
+12:40:07,3,King Drive,,Sun
+08:42:43,147,Outer DuSable Lake Shore Express,,Sun
+10:41:11,4,Cottage Grove,,Sun
+11:32:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:36:42,4,Cottage Grove,,Sun
+06:28:21,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+02:30:38,66,Chicago,,Sun
+20:06:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:09:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:39:13,3,King Drive,,Sun
+15:28:03,4,Cottage Grove,,Sat
+00:42:36,151,Sheridan,,Mon
+18:20:23,3,King Drive,,Sat
+09:50:52,147,Outer DuSable Lake Shore Express,,Sat
+21:04:12,4,Cottage Grove,,Sat
+21:33:24,147,Outer DuSable Lake Shore Express,,Sat
+06:13:46,151,Sheridan,,Sat
+18:02:24,147,Outer DuSable Lake Shore Express,,Sun
+07:09:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:19:16,151,Sheridan,,Sat
+18:58:21,147,Outer DuSable Lake Shore Express,,Sun
+23:02:52,4,Cottage Grove,,Sat
+21:06:21,151,Sheridan,,Sun
+07:26:29,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:36:42,4,Cottage Grove,,Sun
+15:19:08,3,King Drive,,Sat
+23:44:41,151,Sheridan,,Sun
+10:01:31,4,Cottage Grove,,Sun
+15:07:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:52:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:35:54,147,Outer DuSable Lake Shore Express,,Sat
+19:51:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:36:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:37:21,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:08:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:54:57,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+19:02:53,4,Cottage Grove,,Sat
+16:36:22,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:53:01,4,Cottage Grove,,Sun
+08:39:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:40:17,147,Outer DuSable Lake Shore Express,,Sun
+16:21:47,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:46:23,4,Cottage Grove,,Sat
+13:43:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:56:56,151,Sheridan,,Sat
+21:06:19,151,Sheridan,,Sun
+14:01:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:11:03,4,Cottage Grove,,Sat
+06:12:14,147,Outer DuSable Lake Shore Express,,Sat
+11:24:07,3,King Drive,,Sun
+17:34:29,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:26:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:49:02,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:55:07,3,King Drive,,Sun
+15:07:22,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:18:35,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+12:12:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:32:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:05:17,151,Sheridan,,Sun
+16:15:03,4,Cottage Grove,,Sat
+08:38:31,4,Cottage Grove,,Sun
+10:45:01,147,Outer DuSable Lake Shore Express,,Sat
+13:27:31,147,Outer DuSable Lake Shore Express,,Sat
+19:06:31,147,Outer DuSable Lake Shore Express,,Sat
+14:31:15,3,King Drive,,Sun
+08:11:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:11:49,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:27:02,4,Cottage Grove,,Sat
+15:11:08,3,King Drive,,Sat
+20:21:45,3,King Drive,,Sat
+09:40:54,147,Outer DuSable Lake Shore Express,,Sat
+03:29:48,66,Chicago,,Sun
+09:04:07,3,King Drive,,Sat
+18:10:32,151,Sheridan,,Sat
+20:44:12,4,Cottage Grove,,Sat
+18:14:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:29:08,147,Outer DuSable Lake Shore Express,,Sat
+07:59:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:49:22,4,Cottage Grove,,Sun
+06:48:45,151,Sheridan,,Sat
+15:07:12,4,Cottage Grove,,Sun
+13:39:07,151,Sheridan,,Sat
+07:50:44,147,Outer DuSable Lake Shore Express,,Sun
+12:59:09,151,Sheridan,,Sat
+03:31:03,4,Cottage Grove,,Sun
+11:10:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:41:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:24:33,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:08:35,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:03:02,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:13:15,3,King Drive,,Sun
+11:55:03,4,Cottage Grove,,Sat
+18:49:45,3,King Drive,,Sat
+09:16:21,147,Outer DuSable Lake Shore Express,,Sat
+12:21:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:59:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:09:24,151,Sheridan,,Sun
+23:27:31,4,Cottage Grove,,Sun
+18:53:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:25:51,151,Sheridan,,Sun
+03:56:48,66,Chicago,,Sat
+07:08:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:03:08,147,Outer DuSable Lake Shore Express,,Sat
+14:38:58,147,Outer DuSable Lake Shore Express,,Sun
+12:09:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:07:51,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:19:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:02:01,147,Outer DuSable Lake Shore Express,,Sat
+13:04:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:27:19,151,Sheridan,,Sun
+05:39:14,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:44:51,3,King Drive,,Sun
+17:42:15,3,King Drive,,Sun
+17:33:53,4,Cottage Grove,,Sat
+06:21:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:21:21,147,Outer DuSable Lake Shore Express,,Sun
+14:56:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:08:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:31:00,151,Sheridan,,Sun
+15:43:05,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+10:39:49,147,Outer DuSable Lake Shore Express,,Sun
+16:44:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:09:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:31:35,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:02:51,3,King Drive,,Sun
+09:01:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:01:07,147,Outer DuSable Lake Shore Express,,Sun
+09:22:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:45:54,147,Outer DuSable Lake Shore Express,,Sat
+02:00:27,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+12:59:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:25:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:40:16,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:34:07,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:14:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:21:21,147,Outer DuSable Lake Shore Express,,Sun
+20:17:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:31:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+09:27:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:47:12,4,Cottage Grove,,Sun
+16:36:22,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:18:31,147,Outer DuSable Lake Shore Express,,Sat
+07:24:19,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:12:00,151,Sheridan,,Sun
+22:22:17,147,Outer DuSable Lake Shore Express,,Sat
+15:24:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:51:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:32:40,151,Sheridan,,Sat
+17:21:57,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+08:03:16,147,Outer DuSable Lake Shore Express,,Sat
+14:01:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:11:07,151,Sheridan,,Sat
+13:19:32,4,Cottage Grove,,Sun
+08:48:02,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:50:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:43:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:58:37,3,King Drive,,Sat
+23:19:41,4,Cottage Grove,,Sat
+09:14:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:20:51,3,King Drive,,Sun
+17:52:16,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:14:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:24:03,4,Cottage Grove,,Sat
+09:32:51,147,Outer DuSable Lake Shore Express,,Sat
+14:09:30,151,Sheridan,,Sun
+16:44:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:41:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:49:40,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:34:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+22:21:52,4,Cottage Grove,,Sat
+16:57:05,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:22:44,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:27:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:07:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:37:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:27:58,147,Outer DuSable Lake Shore Express,,Sat
+12:35:38,3,King Drive,,Sat
+09:53:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:46:15,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:14:28,147,Outer DuSable Lake Shore Express,,Sat
+16:43:35,147,Outer DuSable Lake Shore Express,,Sat
+16:47:08,3,King Drive,,Sat
+12:32:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:23:29,3,King Drive,,Sun
+16:53:05,151,Sheridan,,Sat
+19:30:07,3,King Drive,,Sun
+11:01:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:24:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+10:16:25,151,Sheridan,,Sat
+14:11:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:27:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:44:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+07:32:52,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:28:40,4,Cottage Grove,,Sat
+23:05:43,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:39:53,151,Sheridan,,Sat
+12:59:52,4,Cottage Grove,,Sun
+06:52:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:52:03,4,Cottage Grove,,Sat
+21:29:33,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:45:45,151,Sheridan,,Sun
+20:52:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:53:21,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:42:07,3,King Drive,,Sun
+18:33:01,147,Outer DuSable Lake Shore Express,,Sat
+17:58:36,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:38:14,147,Outer DuSable Lake Shore Express,,Sat
+20:39:29,3,King Drive,,Sun
+18:10:42,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:25:08,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:42:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:37:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+16:51:01,147,Outer DuSable Lake Shore Express,,Sat
+14:08:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+15:24:09,151,Sheridan,,Sat
+19:18:23,4,Cottage Grove,,Sat
+10:47:51,151,Sheridan,,Sun
+14:21:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:55:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:09:21,147,Outer DuSable Lake Shore Express,,Sun
+09:59:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:30:27,66,Chicago,,Sun
+07:53:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:39:28,151,Sheridan,,Sun
+23:39:43,3,King Drive,,Sun
+23:19:07,3,King Drive,,Sat
+08:38:49,151,Sheridan,,Sat
+21:23:24,147,Outer DuSable Lake Shore Express,,Sat
+16:54:57,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+05:55:54,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:59:22,4,Cottage Grove,,Sat
+08:03:49,151,Sheridan,,Sat
+13:23:07,151,Sheridan,,Sat
+16:11:04,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+10:48:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:18:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:52:11,147,Outer DuSable Lake Shore Express,,Sat
+18:12:53,4,Cottage Grove,,Sat
+15:23:28,147,Outer DuSable Lake Shore Express,,Sun
+15:31:05,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+20:08:29,3,King Drive,,Sun
+20:07:28,147,Outer DuSable Lake Shore Express,,Sat
+15:07:09,151,Sheridan,,Sat
+19:09:45,3,King Drive,,Sat
+10:21:31,4,Cottage Grove,,Sun
+18:45:58,151,Sheridan,,Sun
+12:09:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+14:26:42,4,Cottage Grove,,Sun
+09:44:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:31:21,147,Outer DuSable Lake Shore Express,,Sun
+22:58:17,147,Outer DuSable Lake Shore Express,,Sat
+20:24:17,147,Outer DuSable Lake Shore Express,,Sun
+09:47:02,4,Cottage Grove,,Sat
+19:39:58,151,Sheridan,,Sat
+20:07:28,147,Outer DuSable Lake Shore Express,,Sat
+18:14:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:52:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:07:03,4,Cottage Grove,,Sat
+16:26:15,3,King Drive,,Sun
+19:18:07,3,King Drive,,Sun
+07:09:45,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+13:29:28,151,Sheridan,,Sun
+08:46:01,4,Cottage Grove,,Sat
+04:44:10,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:30:06,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:47:12,4,Cottage Grove,,Sun
+15:27:08,3,King Drive,,Sat
+05:04:06,151,Sheridan,,Sun
+20:34:42,4,Cottage Grove,,Sat
+04:31:38,66,Chicago,,Sun
+18:48:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+21:03:51,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:58:31,147,Outer DuSable Lake Shore Express,,Sat
+13:47:07,151,Sheridan,,Sat
+17:31:27,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:53:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:38:08,3,King Drive,,Sat
+21:34:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:48:49,151,Sheridan,,Sat
+03:31:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+08:47:40,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:22:29,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:35:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+24:16:31,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:15:33,4,Cottage Grove,,Sun
+07:19:20,4,Cottage Grove,,Sun
+14:19:47,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:56:23,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:51:28,151,Sheridan,,Sat
+14:27:58,147,Outer DuSable Lake Shore Express,,Sun
+11:23:01,3,King Drive,,Sat
+07:01:21,3,King Drive,,Sat
+08:05:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:53:01,147,Outer DuSable Lake Shore Express,,Sat
+09:02:43,147,Outer DuSable Lake Shore Express,,Sun
+10:26:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:31:58,147,Outer DuSable Lake Shore Express,,Sat
+09:21:31,4,Cottage Grove,,Sun
+10:15:48,151,Sheridan,,Sun
+22:33:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:29:01,4,Cottage Grove,,Sun
+25:01:03,4,Cottage Grove,,Sat
+13:17:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+14:30:00,151,Sheridan,,Sun
+16:37:12,4,Cottage Grove,,Sun
+19:28:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:15:21,147,Outer DuSable Lake Shore Express,,Sun
+09:39:51,151,Sheridan,,Sat
+19:09:47,147,Outer DuSable Lake Shore Express,,Sun
+09:23:19,147,Outer DuSable Lake Shore Express,,Sat
+15:19:08,3,King Drive,,Sat
+09:25:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:51:42,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+15:44:08,3,King Drive,,Sat
+15:29:08,147,Outer DuSable Lake Shore Express,,Sat
+07:46:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:00:02,151,Sheridan,,Sun
+16:10:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:43:35,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:58:40,4,Cottage Grove,,Sun
+16:05:02,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:25:01,147,Outer DuSable Lake Shore Express,,Sat
+15:05:45,3,King Drive,,Sun
+12:37:21,147,Outer DuSable Lake Shore Express,,Sun
+16:07:12,4,Cottage Grove,,Sun
+16:39:48,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:53:31,147,Outer DuSable Lake Shore Express,,Sat
+15:03:03,4,Cottage Grove,,Sat
+18:13:54,147,Outer DuSable Lake Shore Express,,Sun
+08:11:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:04:51,147,Outer DuSable Lake Shore Express,,Sat
+10:46:00,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:46:23,4,Cottage Grove,,Sat
+15:46:08,147,Outer DuSable Lake Shore Express,,Sat
+05:53:46,151,Sheridan,,Sat
+20:44:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:00:00,151,Sheridan,,Sun
+17:40:23,3,King Drive,,Sat
+13:44:15,3,King Drive,,Sun
+11:59:52,4,Cottage Grove,,Sun
+21:39:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+24:09:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:56:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:54:33,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:23:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:18:58,151,Sheridan,,Sun
+07:18:43,147,Outer DuSable Lake Shore Express,,Sun
+20:47:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:31:35,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:47:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:56:44,151,Sheridan,,Sun
+16:51:01,147,Outer DuSable Lake Shore Express,,Sat
+16:59:31,147,Outer DuSable Lake Shore Express,,Sat
+07:25:52,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:30:12,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:42:07,3,King Drive,,Sun
+23:18:17,147,Outer DuSable Lake Shore Express,,Sat
+19:57:58,147,Outer DuSable Lake Shore Express,,Sat
+06:45:46,151,Sheridan,,Sun
+13:17:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+16:37:15,3,King Drive,,Sun
+22:44:52,4,Cottage Grove,,Sun
+12:59:07,151,Sheridan,,Sat
+22:30:37,3,King Drive,,Sat
+23:39:43,3,King Drive,,Sun
+13:44:31,147,Outer DuSable Lake Shore Express,,Sat
+14:16:58,147,Outer DuSable Lake Shore Express,,Sun
+09:00:28,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:00:38,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:28:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:41:27,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:33:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:21:07,147,Outer DuSable Lake Shore Express,,Sun
+22:59:43,3,King Drive,,Sun
+01:30:27,66,Chicago,,Mon
+04:44:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:35:08,3,King Drive,,Sat
+16:11:38,147,Outer DuSable Lake Shore Express,,Sat
+11:02:01,147,Outer DuSable Lake Shore Express,,Sat
+10:59:22,4,Cottage Grove,,Sun
+15:29:35,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+12:59:24,151,Sheridan,,Sun
+09:09:19,151,Sheridan,,Sat
+07:29:10,147,Outer DuSable Lake Shore Express,,Sat
+17:28:54,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:27:42,4,Cottage Grove,,Sun
+20:26:12,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:39:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:19:30,151,Sheridan,,Sun
+13:34:08,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+20:55:29,3,King Drive,,Sun
+25:01:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:01:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:29:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:21:15,3,King Drive,,Sun
+21:19:47,147,Outer DuSable Lake Shore Express,,Sun
+07:21:01,4,Cottage Grove,,Sat
+07:39:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:43:03,4,Cottage Grove,,Sat
+07:34:48,151,Sheridan,,Sat
+07:36:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:10:46,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:27:37,3,King Drive,,Sun
+15:40:09,151,Sheridan,,Sat
+10:13:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:30:10,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+14:00:09,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:49:50,4,Cottage Grove,,Sun
+12:34:31,147,Outer DuSable Lake Shore Express,,Sat
+19:00:03,151,Sheridan,,Sat
+07:48:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:35:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:58:25,151,Sheridan,,Sun
+05:45:09,151,Sheridan,,Sun
+10:35:31,147,Outer DuSable Lake Shore Express,,Sat
+07:34:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:03:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:47:22,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:16:31,147,Outer DuSable Lake Shore Express,,Sat
+16:23:03,4,Cottage Grove,,Sat
+15:02:08,3,King Drive,,Sat
+13:55:09,151,Sheridan,,Sat
+13:47:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:22:44,147,Outer DuSable Lake Shore Express,,Sun
+14:59:37,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+23:04:52,4,Cottage Grove,,Sun
+09:59:41,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+21:27:21,3,King Drive,,Sun
+15:44:56,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:40:07,3,King Drive,,Sun
+11:25:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:35:53,4,Cottage Grove,,Sat
+09:05:41,4,Cottage Grove,,Sat
+08:33:44,147,Outer DuSable Lake Shore Express,,Sun
+08:13:45,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:49:23,4,Cottage Grove,,Sat
+08:12:11,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+13:31:15,3,King Drive,,Sun
+10:10:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:11:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:16:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:10:00,151,Sheridan,,Sun
+21:53:19,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:00:03,4,Cottage Grove,,Sat
+10:16:24,151,Sheridan,,Sat
+18:57:58,151,Sheridan,,Sun
+22:14:52,4,Cottage Grove,,Sun
+05:24:07,151,Sheridan,,Sun
+05:12:09,151,Sheridan,,Sat
+07:11:49,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+02:59:38,66,Chicago,,Mon
+14:35:08,3,King Drive,,Sat
+20:21:45,3,King Drive,,Sat
+12:19:22,4,Cottage Grove,,Sun
+03:01:03,4,Cottage Grove,,Sun
+12:49:52,4,Cottage Grove,,Sun
+10:37:02,4,Cottage Grove,,Sat
+09:01:31,4,Cottage Grove,,Sun
+13:05:07,3,King Drive,,Sun
+15:42:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:11:38,147,Outer DuSable Lake Shore Express,,Sat
+02:01:31,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+21:16:49,151,Sheridan,,Sat
+16:02:08,3,King Drive,,Sat
+19:21:47,147,Outer DuSable Lake Shore Express,,Sun
+08:34:37,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:10:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:10:53,4,Cottage Grove,,Sat
+15:48:07,151,Sheridan,,Sat
+03:01:03,4,Cottage Grove,,Mon
+15:51:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:30:00,151,Sheridan,,Sun
+20:22:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:26:15,3,King Drive,,Sun
+10:35:42,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:31:42,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+23:30:21,151,Sheridan,,Sat
+15:20:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:40:47,147,Outer DuSable Lake Shore Express,,Sun
+07:49:20,4,Cottage Grove,,Sun
+06:24:59,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:15:53,4,Cottage Grove,,Sat
+15:43:05,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+09:26:32,4,Cottage Grove,,Sat
+14:17:08,3,King Drive,,Sat
+02:30:01,4,Cottage Grove,,Sun
+16:16:07,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:23:29,3,King Drive,,Sun
+09:29:21,151,Sheridan,,Sat
+06:04:13,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:41:29,3,King Drive,,Sun
+22:02:51,3,King Drive,,Sun
+20:53:03,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:25:43,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+06:45:19,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:51:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:25:01,4,Cottage Grove,,Sat
+18:58:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:45:37,3,King Drive,,Sat
+24:24:41,151,Sheridan,,Sun
+09:59:51,151,Sheridan,,Sat
+14:11:01,147,Outer DuSable Lake Shore Express,,Sat
+19:15:12,4,Cottage Grove,,Sun
+13:15:07,151,Sheridan,,Sat
+17:08:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:00:32,151,Sheridan,,Sat
+17:41:27,26,South Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:52:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:11:41,4,Cottage Grove,,Sat
+15:40:00,151,Sheridan,,Sun
+08:05:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:15:09,151,Sheridan,,Sat
+20:34:12,4,Cottage Grove,,Sat
+14:53:35,147,Outer DuSable Lake Shore Express,,Sat
+07:51:42,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+17:47:29,157,Streeterville/Taylor,,Mon,Tue,Wed,Thu,Fri
+18:58:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:36:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:10:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:38:58,147,Outer DuSable Lake Shore Express,,Sun
+07:09:41,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+11:12:56,151,Sheridan,,Sat
+12:50:35,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:04:05,147,Outer DuSable Lake Shore Express,,Sat
+16:10:54,147,Outer DuSable Lake Shore Express,,Sun
+09:43:15,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:36:37,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+00:25:21,3,King Drive,,Sun
+16:41:54,147,Outer DuSable Lake Shore Express,,Sun
+09:03:21,151,Sheridan,,Sun
+18:50:01,147,Outer DuSable Lake Shore Express,,Sat
+10:57:51,151,Sheridan,,Sun
+14:37:39,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:09:45,3,King Drive,,Sat
+06:26:32,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:07:12,4,Cottage Grove,,Sun
+19:40:00,151,Sheridan,,Sat
+08:54:58,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+00:19:43,3,King Drive,,Mon

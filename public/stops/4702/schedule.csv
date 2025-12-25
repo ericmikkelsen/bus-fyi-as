@@ -1,0 +1,5 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+15:00:00,79,79th,,Wed
+15:40:00,79,79th,,Mon,Tue,Thu,Fri
+15:40:00,79,79th,,Mon,Tue,Thu,Fri
+15:00:00,79,79th,,Wed

@@ -179,9 +179,8 @@ async function processStopWithWASM(
       const headsign = headsigns[j] || '';
       
       // Get the corresponding stopTime to find service_id
-      const idx = sortedIndices[j];
-      const stopTime = stopTimesForThisStop[idx];
-      const tripId = tripIds[idx];
+      const stopTime = stopTimesForThisStop[j];
+      const tripId = stopTime.trip_id;
       const trip = tripMap.get(tripId);
       const calendar = trip ? calendarMap.get(trip.service_id) : null;
       

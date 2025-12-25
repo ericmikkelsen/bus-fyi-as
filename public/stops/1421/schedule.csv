@@ -1,0 +1,1429 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+07:07:09,6,Jackson Park Express,,Sun
+18:35:29,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:14:14,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:58:11,6,Jackson Park Express,,Sat
+00:45:09,6,Jackson Park Express,,Mon
+14:34:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:18:44,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:06:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:00:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:37:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:41:23,6,Jackson Park Express,,Sat
+17:44:42,6,Jackson Park Express,,Sun
+20:20:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:58:41,6,Jackson Park Express,,Sun
+12:30:38,146,Inner Lake Shore/Michigan Express,,Sun
+09:17:10,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:02:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+05:41:50,6,Jackson Park Express,,Sat
+17:36:08,146,Inner Lake Shore/Michigan Express,,Sun
+13:34:42,6,Jackson Park Express,,Sun
+07:10:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:24:09,6,Jackson Park Express,,Sun
+22:17:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:55:12,6,Jackson Park Express,,Sat
+18:01:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:43:08,146,Inner Lake Shore/Michigan Express,,Sun
+15:55:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:49:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:24:42,6,Jackson Park Express,,Sun
+10:02:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:38:37,146,Inner Lake Shore/Michigan Express,,Sun
+18:26:38,146,Inner Lake Shore/Michigan Express,,Sun
+08:17:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:23:37,146,Inner Lake Shore/Michigan Express,,Sun
+08:42:36,146,Inner Lake Shore/Michigan Express,,Sun
+17:26:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:16:36,146,Inner Lake Shore/Michigan Express,,Sat
+14:24:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:34:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:56:42,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:26:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:58:38,146,Inner Lake Shore/Michigan Express,,Sat
+07:37:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:46:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:50:11,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:16:09,146,Inner Lake Shore/Michigan Express,,Sat
+08:58:39,6,Jackson Park Express,,Sat
+08:44:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:58:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:45:35,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:16:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+18:52:37,146,Inner Lake Shore/Michigan Express,,Sun
+07:42:07,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:21:49,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:09:36,146,Inner Lake Shore/Michigan Express,,Sun
+14:11:08,6,Jackson Park Express,,Sat
+07:38:30,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:58:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:16:08,146,Inner Lake Shore/Michigan Express,,Sun
+11:13:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:11:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:01:42,6,Jackson Park Express,,Sun
+09:05:07,146,Inner Lake Shore/Michigan Express,,Sat
+06:22:06,6,Jackson Park Express,,Sat
+20:09:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:53:23,6,Jackson Park Express,,Sat
+17:46:24,6,Jackson Park Express,,Sat
+10:32:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:59:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:22:08,146,Inner Lake Shore/Michigan Express,,Sat
+10:25:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:09:07,146,Inner Lake Shore/Michigan Express,,Sat
+16:31:39,146,Inner Lake Shore/Michigan Express,,Sat
+17:55:55,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:40:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:06:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:38:39,146,Inner Lake Shore/Michigan Express,,Sat
+13:10:07,146,Inner Lake Shore/Michigan Express,,Sun
+07:10:35,146,Inner Lake Shore/Michigan Express,,Sun
+20:52:37,146,Inner Lake Shore/Michigan Express,,Sun
+15:53:54,6,Jackson Park Express,,Sun
+20:03:23,6,Jackson Park Express,,Sat
+14:47:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:29:12,6,Jackson Park Express,,Sat
+12:10:12,6,Jackson Park Express,,Sat
+21:31:11,6,Jackson Park Express,,Sun
+08:05:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:44:38,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:55:07,6,Jackson Park Express,,Sun
+07:26:10,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:26:11,6,Jackson Park Express,,Sun
+14:01:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:14:27,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:56:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:40:08,146,Inner Lake Shore/Michigan Express,,Sun
+17:10:24,6,Jackson Park Express,,Sat
+16:33:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:31:06,146,Inner Lake Shore/Michigan Express,,Sun
+13:14:54,6,Jackson Park Express,,Sun
+20:01:26,6,Jackson Park Express,,Sun
+15:16:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:39:42,6,Jackson Park Express,,Sat
+13:44:23,6,Jackson Park Express,,Sat
+20:25:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:36:21,6,Jackson Park Express,,Sat
+08:20:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:05:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:56:36,146,Inner Lake Shore/Michigan Express,,Sun
+09:26:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:34:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:23:23,6,Jackson Park Express,,Sat
+13:24:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:03:53,6,Jackson Park Express,,Sat
+17:53:38,146,Inner Lake Shore/Michigan Express,,Sun
+06:17:41,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:41:23,6,Jackson Park Express,,Sat
+16:05:55,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:24:45,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:25:12,6,Jackson Park Express,,Sat
+14:46:38,6,Jackson Park Express,,Sat
+08:19:07,146,Inner Lake Shore/Michigan Express,,Sat
+00:11:07,6,Jackson Park Express,,Sun
+18:26:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:02:23,6,Jackson Park Express,,Sat
+13:44:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:31:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:18:08,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:22:21,6,Jackson Park Express,,Sat
+11:26:07,146,Inner Lake Shore/Michigan Express,,Sun
+16:45:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+00:15:07,6,Jackson Park Express,,Mon
+19:37:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:07:08,146,Inner Lake Shore/Michigan Express,,Sun
+18:57:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:37:33,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:44:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:31:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:15:38,146,Inner Lake Shore/Michigan Express,,Sat
+08:10:39,6,Jackson Park Express,,Sat
+13:20:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:01:44,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:31:23,6,Jackson Park Express,,Sat
+20:57:41,6,Jackson Park Express,,Sat
+12:19:42,6,Jackson Park Express,,Sat
+07:52:36,146,Inner Lake Shore/Michigan Express,,Sun
+18:37:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+00:25:41,6,Jackson Park Express,,Sun
+14:02:39,146,Inner Lake Shore/Michigan Express,,Sat
+16:57:09,146,Inner Lake Shore/Michigan Express,,Sat
+18:55:12,6,Jackson Park Express,,Sat
+08:00:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:37:38,6,Jackson Park Express,,Sun
+10:47:11,6,Jackson Park Express,,Sat
+10:47:23,6,Jackson Park Express,,Sat
+07:33:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:34:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:31:08,146,Inner Lake Shore/Michigan Express,,Sat
+17:18:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:59:35,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:48:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:40:24,6,Jackson Park Express,,Sat
+08:07:21,6,Jackson Park Express,,Sat
+22:13:37,146,Inner Lake Shore/Michigan Express,,Sat
+14:19:54,6,Jackson Park Express,,Sun
+17:58:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:41:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:15:38,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:15:42,6,Jackson Park Express,,Sat
+15:43:54,6,Jackson Park Express,,Sun
+23:16:23,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:09:08,146,Inner Lake Shore/Michigan Express,,Sun
+23:09:11,6,Jackson Park Express,,Sat
+14:34:39,146,Inner Lake Shore/Michigan Express,,Sat
+15:16:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:03:07,6,Jackson Park Express,,Mon
+10:01:09,146,Inner Lake Shore/Michigan Express,,Sat
+11:30:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:51:12,6,Jackson Park Express,,Sun
+10:02:37,146,Inner Lake Shore/Michigan Express,,Sun
+10:39:38,146,Inner Lake Shore/Michigan Express,,Sat
+18:46:54,6,Jackson Park Express,,Sun
+08:41:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:57:37,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:30:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:43:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:53:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:34:07,146,Inner Lake Shore/Michigan Express,,Sun
+21:27:53,6,Jackson Park Express,,Sat
+08:46:05,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:12:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:12:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:13:37,146,Inner Lake Shore/Michigan Express,,Sat
+13:23:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:38:30,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:33:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:59:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:28:12,6,Jackson Park Express,,Sun
+18:48:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:08:36,146,Inner Lake Shore/Michigan Express,,Sun
+07:58:07,146,Inner Lake Shore/Michigan Express,,Sat
+18:25:54,6,Jackson Park Express,,Sun
+15:22:24,6,Jackson Park Express,,Sat
+12:50:08,146,Inner Lake Shore/Michigan Express,,Sat
+12:01:39,146,Inner Lake Shore/Michigan Express,,Sat
+20:06:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:34:41,6,Jackson Park Express,,Sun
+12:01:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:31:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+18:12:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:19:59,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:24:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:48:12,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:34:39,146,Inner Lake Shore/Michigan Express,,Sat
+10:54:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:24:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:32:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:25:53,6,Jackson Park Express,,Sat
+08:29:07,146,Inner Lake Shore/Michigan Express,,Sat
+11:08:07,146,Inner Lake Shore/Michigan Express,,Sun
+08:23:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:37:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:02:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:06:08,146,Inner Lake Shore/Michigan Express,,Sat
+17:44:38,146,Inner Lake Shore/Michigan Express,,Sun
+13:12:42,6,Jackson Park Express,,Sun
+08:19:19,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:09:53,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:13:11,6,Jackson Park Express,,Sun
+17:53:42,6,Jackson Park Express,,Sat
+22:44:41,6,Jackson Park Express,,Sun
+17:44:38,146,Inner Lake Shore/Michigan Express,,Sun
+12:33:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:10:09,6,Jackson Park Express,,Sun
+17:35:12,6,Jackson Park Express,,Sun
+18:23:54,6,Jackson Park Express,,Sat
+05:54:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:04:24,6,Jackson Park Express,,Sat
+01:16:23,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+09:08:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:01:09,146,Inner Lake Shore/Michigan Express,,Sat
+14:15:42,6,Jackson Park Express,,Sat
+23:38:41,6,Jackson Park Express,,Sat
+07:55:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:46:41,6,Jackson Park Express,,Sat
+13:01:07,146,Inner Lake Shore/Michigan Express,,Sun
+00:16:23,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+10:38:23,6,Jackson Park Express,,Sun
+12:21:23,6,Jackson Park Express,,Sat
+22:12:07,146,Inner Lake Shore/Michigan Express,,Sun
+17:37:24,6,Jackson Park Express,,Sat
+13:01:54,6,Jackson Park Express,,Sun
+11:27:38,146,Inner Lake Shore/Michigan Express,,Sat
+13:14:08,146,Inner Lake Shore/Michigan Express,,Sat
+16:16:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:58:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:23:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:47:26,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:26:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:01:21,6,Jackson Park Express,,Sat
+23:59:07,6,Jackson Park Express,,Sun
+14:51:24,6,Jackson Park Express,,Sun
+19:38:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:25:08,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:46:42,6,Jackson Park Express,,Sat
+14:54:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:26:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:07:08,146,Inner Lake Shore/Michigan Express,,Sun
+01:01:09,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+14:35:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:59:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:13:41,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:53:42,6,Jackson Park Express,,Sun
+16:44:09,6,Jackson Park Express,,Sun
+21:59:38,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:59:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:50:42,6,Jackson Park Express,,Sun
+09:00:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:50:08,146,Inner Lake Shore/Michigan Express,,Sat
+08:56:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:58:38,146,Inner Lake Shore/Michigan Express,,Sat
+08:54:35,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:16:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:19:12,6,Jackson Park Express,,Sat
+11:27:38,146,Inner Lake Shore/Michigan Express,,Sat
+07:16:36,146,Inner Lake Shore/Michigan Express,,Sat
+19:38:07,146,Inner Lake Shore/Michigan Express,,Sun
+16:03:54,6,Jackson Park Express,,Sun
+17:34:42,6,Jackson Park Express,,Sat
+22:52:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:47:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:32:07,146,Inner Lake Shore/Michigan Express,,Sun
+14:00:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:43:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:53:37,146,Inner Lake Shore/Michigan Express,,Sun
+13:30:08,146,Inner Lake Shore/Michigan Express,,Sat
+07:40:55,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:23:09,146,Inner Lake Shore/Michigan Express,,Sat
+08:16:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:34:09,6,Jackson Park Express,,Sun
+12:23:12,6,Jackson Park Express,,Sun
+14:46:08,146,Inner Lake Shore/Michigan Express,,Sun
+22:34:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:53:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:31:08,146,Inner Lake Shore/Michigan Express,,Sat
+11:40:38,6,Jackson Park Express,,Sun
+11:01:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:18:08,146,Inner Lake Shore/Michigan Express,,Sun
+14:54:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:50:38,146,Inner Lake Shore/Michigan Express,,Sat
+10:14:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:28:54,6,Jackson Park Express,,Sun
+07:01:06,146,Inner Lake Shore/Michigan Express,,Sat
+12:25:39,146,Inner Lake Shore/Michigan Express,,Sat
+15:22:08,146,Inner Lake Shore/Michigan Express,,Sun
+10:47:38,146,Inner Lake Shore/Michigan Express,,Sat
+11:55:56,6,Jackson Park Express,,Sun
+07:26:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:55:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:46:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:43:16,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:46:06,146,Inner Lake Shore/Michigan Express,,Sat
+09:56:11,6,Jackson Park Express,,Sun
+00:08:41,6,Jackson Park Express,,Mon
+19:29:08,146,Inner Lake Shore/Michigan Express,,Sat
+01:01:09,6,Jackson Park Express,,Sun
+14:37:42,6,Jackson Park Express,,Sun
+12:00:26,6,Jackson Park Express,,Sat
+21:39:53,6,Jackson Park Express,,Sat
+10:08:39,146,Inner Lake Shore/Michigan Express,,Sat
+15:54:42,6,Jackson Park Express,,Sat
+20:35:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:55:38,146,Inner Lake Shore/Michigan Express,,Sat
+18:03:09,146,Inner Lake Shore/Michigan Express,,Sat
+15:05:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:47:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:13:38,146,Inner Lake Shore/Michigan Express,,Sun
+10:23:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:49:08,146,Inner Lake Shore/Michigan Express,,Sun
+18:44:08,6,Jackson Park Express,,Sat
+09:43:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:36:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:42:12,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:04:54,6,Jackson Park Express,,Sun
+14:14:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:10:35,146,Inner Lake Shore/Michigan Express,,Sun
+08:12:07,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:14:33,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:40:38,6,Jackson Park Express,,Sun
+00:18:41,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+16:49:12,6,Jackson Park Express,,Sat
+17:54:24,6,Jackson Park Express,,Sun
+21:36:08,146,Inner Lake Shore/Michigan Express,,Sat
+08:46:09,6,Jackson Park Express,,Sat
+14:37:38,6,Jackson Park Express,,Sat
+08:09:22,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+00:26:07,6,Jackson Park Express,,Sun
+08:54:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:34:11,6,Jackson Park Express,,Sat
+19:32:42,6,Jackson Park Express,,Sat
+15:19:42,6,Jackson Park Express,,Sun
+12:21:38,146,Inner Lake Shore/Michigan Express,,Sun
+19:50:38,6,Jackson Park Express,,Sun
+15:13:24,6,Jackson Park Express,,Sat
+18:04:24,6,Jackson Park Express,,Sat
+13:08:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:21:07,6,Jackson Park Express,,Sun
+07:44:09,6,Jackson Park Express,,Sat
+17:38:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:08:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:22:08,146,Inner Lake Shore/Michigan Express,,Sat
+06:30:35,146,Inner Lake Shore/Michigan Express,,Sun
+18:03:12,6,Jackson Park Express,,Sat
+18:09:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:14:08,146,Inner Lake Shore/Michigan Express,,Sat
+09:50:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:09:09,146,Inner Lake Shore/Michigan Express,,Sat
+12:09:38,6,Jackson Park Express,,Sun
+09:51:41,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:39:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:23:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:30:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:12:38,146,Inner Lake Shore/Michigan Express,,Sun
+07:02:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:28:39,6,Jackson Park Express,,Sun
+12:48:54,6,Jackson Park Express,,Sun
+08:11:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:00:59,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+16:58:12,6,Jackson Park Express,,Sat
+06:50:35,146,Inner Lake Shore/Michigan Express,,Sun
+21:33:41,6,Jackson Park Express,,Sat
+19:18:24,6,Jackson Park Express,,Sun
+14:37:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:21:34,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:24:44,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:00:06,6,Jackson Park Express,,Sat
+10:16:09,146,Inner Lake Shore/Michigan Express,,Sat
+13:54:39,146,Inner Lake Shore/Michigan Express,,Sat
+13:35:23,6,Jackson Park Express,,Sat
+13:54:39,146,Inner Lake Shore/Michigan Express,,Sat
+18:59:39,146,Inner Lake Shore/Michigan Express,,Sat
+16:48:39,146,Inner Lake Shore/Michigan Express,,Sat
+16:07:08,146,Inner Lake Shore/Michigan Express,,Sat
+12:21:38,146,Inner Lake Shore/Michigan Express,,Sun
+22:15:53,6,Jackson Park Express,,Sat
+17:44:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+23:40:53,6,Jackson Park Express,,Sat
+10:18:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:38:07,146,Inner Lake Shore/Michigan Express,,Sun
+12:33:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:32:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:13:38,6,Jackson Park Express,,Sun
+12:42:08,146,Inner Lake Shore/Michigan Express,,Sat
+15:26:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:50:38,6,Jackson Park Express,,Sat
+15:36:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:51:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:05:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:39:23,6,Jackson Park Express,,Sat
+13:25:08,146,Inner Lake Shore/Michigan Express,,Sun
+19:07:37,146,Inner Lake Shore/Michigan Express,,Sun
+06:53:43,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:46:08,146,Inner Lake Shore/Michigan Express,,Sun
+16:06:45,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:18:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+10:50:07,146,Inner Lake Shore/Michigan Express,,Sun
+21:05:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:20:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:40:42,6,Jackson Park Express,,Sun
+15:42:15,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:44:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:24:12,6,Jackson Park Express,,Sun
+09:37:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:16:42,6,Jackson Park Express,,Sun
+13:26:54,6,Jackson Park Express,,Sun
+08:18:08,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:23:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:54:07,146,Inner Lake Shore/Michigan Express,,Sat
+15:49:08,146,Inner Lake Shore/Michigan Express,,Sun
+17:21:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:21:42,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:46:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:24:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:24:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:22:09,146,Inner Lake Shore/Michigan Express,,Sat
+09:51:53,6,Jackson Park Express,,Sun
+08:49:21,6,Jackson Park Express,,Sat
+15:31:08,146,Inner Lake Shore/Michigan Express,,Sun
+06:46:39,6,Jackson Park Express,,Sun
+14:56:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:40:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:17:08,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:14:09,6,Jackson Park Express,,Sun
+11:21:23,6,Jackson Park Express,,Sat
+17:37:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:26:08,6,Jackson Park Express,,Sat
+08:10:36,146,Inner Lake Shore/Michigan Express,,Sun
+08:21:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:56:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:11:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:22:38,146,Inner Lake Shore/Michigan Express,,Sat
+17:09:08,146,Inner Lake Shore/Michigan Express,,Sun
+18:42:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:27:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:22:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:05:10,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:16:08,146,Inner Lake Shore/Michigan Express,,Sun
+14:16:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:47:37,146,Inner Lake Shore/Michigan Express,,Sat
+11:52:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:49:31,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:48:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+19:07:54,6,Jackson Park Express,,Sun
+22:53:37,146,Inner Lake Shore/Michigan Express,,Sat
+14:34:42,6,Jackson Park Express,,Sat
+07:46:07,146,Inner Lake Shore/Michigan Express,,Sat
+11:17:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:10:42,6,Jackson Park Express,,Sat
+09:05:10,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:31:09,146,Inner Lake Shore/Michigan Express,,Sat
+08:00:12,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+00:56:23,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+19:14:08,6,Jackson Park Express,,Sat
+13:23:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:33:07,146,Inner Lake Shore/Michigan Express,,Sat
+16:25:24,6,Jackson Park Express,,Sat
+11:35:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:15:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:55:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:38:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:50:23,6,Jackson Park Express,,Sat
+11:27:41,6,Jackson Park Express,,Sun
+13:56:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:25:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:53:06,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:42:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:24:09,6,Jackson Park Express,,Sun
+22:32:07,146,Inner Lake Shore/Michigan Express,,Sun
+16:04:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:11:38,146,Inner Lake Shore/Michigan Express,,Sat
+09:17:49,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:42:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:02:19,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:02:20,6,Jackson Park Express,,Sat
+12:37:42,6,Jackson Park Express,,Sat
+23:08:36,146,Inner Lake Shore/Michigan Express,,Sun
+08:26:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+16:38:17,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:38:37,146,Inner Lake Shore/Michigan Express,,Sat
+19:44:08,146,Inner Lake Shore/Michigan Express,,Sat
+14:27:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:59:07,146,Inner Lake Shore/Michigan Express,,Sun
+11:19:38,146,Inner Lake Shore/Michigan Express,,Sat
+12:03:38,146,Inner Lake Shore/Michigan Express,,Sun
+09:29:52,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:19:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:12:51,6,Jackson Park Express,,Sat
+09:31:56,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+00:08:41,6,Jackson Park Express,,Sun
+07:41:20,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:32:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:22:08,146,Inner Lake Shore/Michigan Express,,Sun
+13:30:08,146,Inner Lake Shore/Michigan Express,,Sat
+16:15:38,146,Inner Lake Shore/Michigan Express,,Sat
+15:04:08,146,Inner Lake Shore/Michigan Express,,Sun
+06:41:06,6,Jackson Park Express,,Sat
+19:14:59,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:24:51,6,Jackson Park Express,,Sat
+09:22:38,146,Inner Lake Shore/Michigan Express,,Sat
+21:58:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:12:07,6,Jackson Park Express,,Sat
+13:03:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:32:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:50:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:31:23,6,Jackson Park Express,,Sat
+06:34:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:44:11,6,Jackson Park Express,,Sun
+14:53:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:31:35,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:25:14,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:22:42,6,Jackson Park Express,,Sun
+06:32:41,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:16:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:33:22,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:32:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:11:54,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:02:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+24:01:23,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:03:39,6,Jackson Park Express,,Mon
+18:36:24,6,Jackson Park Express,,Sun
+08:34:07,6,Jackson Park Express,,Sun
+08:49:08,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:50:41,6,Jackson Park Express,,Sat
+08:36:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:27:06,146,Inner Lake Shore/Michigan Express,,Sun
+16:16:24,6,Jackson Park Express,,Sat
+08:35:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:01:36,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:55:08,146,Inner Lake Shore/Michigan Express,,Sun
+12:13:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:52:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:45:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:49:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:27:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:16:38,6,Jackson Park Express,,Sun
+10:11:11,6,Jackson Park Express,,Sun
+07:47:26,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:30:24,6,Jackson Park Express,,Sun
+07:45:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:39:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:28:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:44:12,6,Jackson Park Express,,Sat
+08:09:22,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:23:42,6,Jackson Park Express,,Sun
+20:21:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:01:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:12:07,146,Inner Lake Shore/Michigan Express,,Sat
+08:56:36,146,Inner Lake Shore/Michigan Express,,Sun
+08:54:09,6,Jackson Park Express,,Sun
+17:27:08,146,Inner Lake Shore/Michigan Express,,Sun
+15:15:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:32:37,146,Inner Lake Shore/Michigan Express,,Sun
+19:49:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:50:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:15:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:23:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:53:38,146,Inner Lake Shore/Michigan Express,,Sun
+13:12:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:17:08,146,Inner Lake Shore/Michigan Express,,Sat
+17:14:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:29:39,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:29:08,146,Inner Lake Shore/Michigan Express,,Sat
+22:26:11,6,Jackson Park Express,,Sat
+20:50:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:50:07,146,Inner Lake Shore/Michigan Express,,Sun
+10:23:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:56:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:55:42,6,Jackson Park Express,,Sun
+11:54:38,146,Inner Lake Shore/Michigan Express,,Sun
+23:31:23,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:28:53,6,Jackson Park Express,,Sat
+22:12:11,6,Jackson Park Express,,Sat
+18:43:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:33:08,146,Inner Lake Shore/Michigan Express,,Sun
+12:58:08,146,Inner Lake Shore/Michigan Express,,Sat
+14:02:39,146,Inner Lake Shore/Michigan Express,,Sat
+17:03:42,6,Jackson Park Express,,Sun
+08:38:37,146,Inner Lake Shore/Michigan Express,,Sat
+09:38:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:28:06,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:36:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:04:22,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:15:08,146,Inner Lake Shore/Michigan Express,,Sat
+07:05:48,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:02:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:58:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:12:39,6,Jackson Park Express,,Sat
+18:33:39,146,Inner Lake Shore/Michigan Express,,Sat
+17:14:09,146,Inner Lake Shore/Michigan Express,,Sat
+10:22:53,6,Jackson Park Express,,Sun
+09:21:41,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:08:09,6,Jackson Park Express,,Sun
+17:00:08,146,Inner Lake Shore/Michigan Express,,Sun
+09:37:07,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:05:07,146,Inner Lake Shore/Michigan Express,,Sat
+23:17:41,6,Jackson Park Express,,Sun
+15:58:38,146,Inner Lake Shore/Michigan Express,,Sat
+11:30:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:51:41,6,Jackson Park Express,,Sun
+08:57:07,146,Inner Lake Shore/Michigan Express,,Sat
+12:02:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:04:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:11:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:02:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:18:07,6,Jackson Park Express,,Sun
+00:26:41,6,Jackson Park Express,,Mon
+22:31:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:46:06,146,Inner Lake Shore/Michigan Express,,Sat
+10:38:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:18:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:20:45,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:41:20,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:36:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:29:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:38:30,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:13:41,6,Jackson Park Express,,Sun
+20:51:41,6,Jackson Park Express,,Sun
+16:40:12,6,Jackson Park Express,,Sat
+16:34:24,6,Jackson Park Express,,Sat
+17:25:12,6,Jackson Park Express,,Sat
+23:30:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:05:39,146,Inner Lake Shore/Michigan Express,,Sat
+07:35:36,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:03:38,146,Inner Lake Shore/Michigan Express,,Sun
+12:36:12,6,Jackson Park Express,,Sun
+22:10:38,6,Jackson Park Express,,Sun
+09:12:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:58:38,146,Inner Lake Shore/Michigan Express,,Sat
+19:38:08,6,Jackson Park Express,,Sat
+08:02:07,6,Jackson Park Express,,Sun
+07:21:41,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:20:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:11:37,146,Inner Lake Shore/Michigan Express,,Sun
+07:36:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:40:08,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:11:23,6,Jackson Park Express,,Sat
+17:30:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:31:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:48:42,6,Jackson Park Express,,Sun
+10:47:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:44:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:45:12,6,Jackson Park Express,,Sun
+17:15:13,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:02:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:51:53,6,Jackson Park Express,,Sat
+13:34:08,146,Inner Lake Shore/Michigan Express,,Sun
+12:33:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:58:08,146,Inner Lake Shore/Michigan Express,,Sat
+22:43:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:44:07,6,Jackson Park Express,,Sun
+13:43:08,146,Inner Lake Shore/Michigan Express,,Sun
+18:33:12,6,Jackson Park Express,,Sat
+06:59:43,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:34:41,6,Jackson Park Express,,Sat
+14:06:42,6,Jackson Park Express,,Sat
+07:10:41,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:06:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:28:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:32:07,146,Inner Lake Shore/Michigan Express,,Sun
+11:11:38,146,Inner Lake Shore/Michigan Express,,Sat
+07:12:36,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:05:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:12:54,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+00:36:23,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+23:00:41,6,Jackson Park Express,,Sun
+09:22:39,6,Jackson Park Express,,Sat
+17:54:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+05:47:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:53:39,146,Inner Lake Shore/Michigan Express,,Sat
+12:09:39,146,Inner Lake Shore/Michigan Express,,Sat
+17:00:08,146,Inner Lake Shore/Michigan Express,,Sun
+09:31:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:41:50,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:27:23,6,Jackson Park Express,,Sat
+11:54:38,146,Inner Lake Shore/Michigan Express,,Sun
+18:13:38,146,Inner Lake Shore/Michigan Express,,Sun
+16:08:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:39:42,6,Jackson Park Express,,Sun
+16:22:12,6,Jackson Park Express,,Sat
+23:23:41,6,Jackson Park Express,,Sat
+08:26:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:53:39,146,Inner Lake Shore/Michigan Express,,Sat
+19:38:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:33:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:52:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:57:39,6,Jackson Park Express,,Sat
+15:33:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:10:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:33:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:59:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:57:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:05:39,146,Inner Lake Shore/Michigan Express,,Sat
+07:51:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:36:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:29:38,6,Jackson Park Express,,Sun
+12:35:38,6,Jackson Park Express,,Sun
+12:25:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:05:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:21:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:42:50,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:28:39,6,Jackson Park Express,,Sat
+07:03:52,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:35:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:43:42,6,Jackson Park Express,,Sat
+21:58:41,6,Jackson Park Express,,Sat
+06:50:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:54:38,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:13:54,6,Jackson Park Express,,Sun
+08:24:44,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:25:39,146,Inner Lake Shore/Michigan Express,,Sat
+06:30:35,146,Inner Lake Shore/Michigan Express,,Sun
+07:49:07,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:20:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:32:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:04:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:46:05,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:55:12,6,Jackson Park Express,,Sun
+21:55:38,6,Jackson Park Express,,Sun
+21:46:11,6,Jackson Park Express,,Sat
+14:27:12,6,Jackson Park Express,,Sun
+12:43:07,146,Inner Lake Shore/Michigan Express,,Sun
+13:46:39,146,Inner Lake Shore/Michigan Express,,Sat
+05:47:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:59:07,146,Inner Lake Shore/Michigan Express,,Sun
+10:25:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:54:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:36:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:56:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:58:42,6,Jackson Park Express,,Sun
+20:37:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:52:36,146,Inner Lake Shore/Michigan Express,,Sun
+10:18:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:37:08,146,Inner Lake Shore/Michigan Express,,Sat
+06:39:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:52:07,146,Inner Lake Shore/Michigan Express,,Sun
+08:13:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+19:25:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:56:07,6,Jackson Park Express,,Sun
+09:22:07,146,Inner Lake Shore/Michigan Express,,Sun
+11:45:39,146,Inner Lake Shore/Michigan Express,,Sat
+22:53:37,146,Inner Lake Shore/Michigan Express,,Sat
+18:05:12,6,Jackson Park Express,,Sun
+10:32:07,146,Inner Lake Shore/Michigan Express,,Sun
+08:33:14,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:02:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:50:38,146,Inner Lake Shore/Michigan Express,,Sat
+20:25:38,6,Jackson Park Express,,Sun
+05:02:06,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:49:24,6,Jackson Park Express,,Sat
+08:54:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:13:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:43:07,6,Jackson Park Express,,Sun
+18:27:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:12:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:34:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:46:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:39:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:23:37,146,Inner Lake Shore/Michigan Express,,Sun
+17:35:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:42:11,6,Jackson Park Express,,Sun
+09:35:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:42:08,146,Inner Lake Shore/Michigan Express,,Sat
+06:46:06,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:09:41,6,Jackson Park Express,,Sat
+08:37:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:03:38,146,Inner Lake Shore/Michigan Express,,Sun
+08:54:35,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:54:08,6,Jackson Park Express,,Sat
+09:46:09,146,Inner Lake Shore/Michigan Express,,Sat
+22:51:07,146,Inner Lake Shore/Michigan Express,,Sun
+13:37:54,6,Jackson Park Express,,Sun
+13:26:23,6,Jackson Park Express,,Sat
+23:11:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:53:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:09:36,146,Inner Lake Shore/Michigan Express,,Sun
+23:27:07,6,Jackson Park Express,,Sun
+22:52:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:46:09,146,Inner Lake Shore/Michigan Express,,Sat
+17:28:24,6,Jackson Park Express,,Sat
+14:53:09,146,Inner Lake Shore/Michigan Express,,Sat
+13:52:08,146,Inner Lake Shore/Michigan Express,,Sun
+09:24:25,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:51:09,6,Jackson Park Express,,Sun
+06:20:09,6,Jackson Park Express,,Sun
+06:21:07,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:52:24,6,Jackson Park Express,,Sat
+06:45:07,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:40:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:42:50,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:30:42,6,Jackson Park Express,,Sat
+09:07:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:07:12,6,Jackson Park Express,,Sat
+07:46:07,146,Inner Lake Shore/Michigan Express,,Sat
+18:47:29,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+00:43:07,6,Jackson Park Express,,Sun
+13:10:07,146,Inner Lake Shore/Michigan Express,,Sun
+10:23:07,146,Inner Lake Shore/Michigan Express,,Sun
+00:40:09,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+15:09:12,6,Jackson Park Express,,Sun
+17:04:09,6,Jackson Park Express,,Sun
+10:32:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:03:28,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:09:07,146,Inner Lake Shore/Michigan Express,,Sat
+08:07:57,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:43:24,6,Jackson Park Express,,Sat
+17:14:09,146,Inner Lake Shore/Michigan Express,,Sat
+10:59:11,6,Jackson Park Express,,Sat
+10:31:09,146,Inner Lake Shore/Michigan Express,,Sat
+18:13:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:57:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:44:08,146,Inner Lake Shore/Michigan Express,,Sat
+21:12:37,146,Inner Lake Shore/Michigan Express,,Sun
+18:19:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:56:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:42:23,6,Jackson Park Express,,Sat
+09:20:44,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:07:24,6,Jackson Park Express,,Sat
+12:33:39,146,Inner Lake Shore/Michigan Express,,Sat
+16:34:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:45:39,146,Inner Lake Shore/Michigan Express,,Sat
+20:15:07,146,Inner Lake Shore/Michigan Express,,Sun
+21:32:07,146,Inner Lake Shore/Michigan Express,,Sun
+07:41:20,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:57:09,146,Inner Lake Shore/Michigan Express,,Sat
+09:15:08,146,Inner Lake Shore/Michigan Express,,Sat
+15:02:12,6,Jackson Park Express,,Sat
+14:10:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:46:10,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:41:09,146,Inner Lake Shore/Michigan Express,,Sat
+17:33:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:22:38,6,Jackson Park Express,,Sun
+08:24:30,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:50:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:46:10,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:24:12,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:28:38,6,Jackson Park Express,,Sat
+08:05:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:16:08,146,Inner Lake Shore/Michigan Express,,Sun
+14:45:09,146,Inner Lake Shore/Michigan Express,,Sat
+21:33:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:55:09,146,Inner Lake Shore/Michigan Express,,Sat
+20:15:07,146,Inner Lake Shore/Michigan Express,,Sun
+09:40:41,6,Jackson Park Express,,Sun
+21:32:07,146,Inner Lake Shore/Michigan Express,,Sun
+09:02:19,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:36:21,6,Jackson Park Express,,Sat
+20:35:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:48:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:21:42,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:54:01,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:22:11,6,Jackson Park Express,,Sat
+10:01:09,146,Inner Lake Shore/Michigan Express,,Sat
+08:29:19,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:18:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:51:08,146,Inner Lake Shore/Michigan Express,,Sun
+19:12:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:28:08,146,Inner Lake Shore/Michigan Express,,Sun
+11:17:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:58:24,6,Jackson Park Express,,Sat
+07:18:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:20:53,6,Jackson Park Express,,Sun
+16:25:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:07:37,146,Inner Lake Shore/Michigan Express,,Sun
+06:50:35,146,Inner Lake Shore/Michigan Express,,Sun
+15:17:09,146,Inner Lake Shore/Michigan Express,,Sat
+20:15:23,6,Jackson Park Express,,Sat
+23:01:23,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:04:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:07:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:19:24,6,Jackson Park Express,,Sat
+21:29:38,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:02:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:11:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:17:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:05:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:42:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:43:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:48:01,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:13:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:16:19,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:55:38,146,Inner Lake Shore/Michigan Express,,Sat
+10:02:37,146,Inner Lake Shore/Michigan Express,,Sun
+15:47:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:25:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:23:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:38:08,146,Inner Lake Shore/Michigan Express,,Sat
+09:36:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:54:39,6,Jackson Park Express,,Sat
+24:01:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:16:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+05:55:36,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:25:09,146,Inner Lake Shore/Michigan Express,,Sat
+09:53:37,146,Inner Lake Shore/Michigan Express,,Sun
+11:11:23,6,Jackson Park Express,,Sat
+07:56:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+10:47:38,146,Inner Lake Shore/Michigan Express,,Sat
+14:40:54,6,Jackson Park Express,,Sun
+09:04:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:48:42,6,Jackson Park Express,,Sat
+09:14:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:55:38,6,Jackson Park Express,,Sun
+22:12:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:09:24,6,Jackson Park Express,,Sun
+09:23:38,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:07:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:18:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:34:07,146,Inner Lake Shore/Michigan Express,,Sun
+12:09:39,146,Inner Lake Shore/Michigan Express,,Sat
+17:44:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:45:41,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:38:39,146,Inner Lake Shore/Michigan Express,,Sat
+15:22:54,6,Jackson Park Express,,Sun
+17:47:09,146,Inner Lake Shore/Michigan Express,,Sat
+18:26:38,146,Inner Lake Shore/Michigan Express,,Sun
+06:37:09,6,Jackson Park Express,,Sat
+20:10:11,6,Jackson Park Express,,Sat
+11:25:08,6,Jackson Park Express,,Sun
+22:25:38,6,Jackson Park Express,,Sun
+10:00:21,6,Jackson Park Express,,Sat
+07:13:44,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:35:11,6,Jackson Park Express,,Sat
+09:30:47,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:04:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+01:03:07,6,Jackson Park Express,,Sun
+19:44:42,6,Jackson Park Express,,Sat
+21:21:41,6,Jackson Park Express,,Sat
+07:54:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:12:12,6,Jackson Park Express,,Sun
+12:33:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:43:07,146,Inner Lake Shore/Michigan Express,,Sun
+15:55:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:58:08,146,Inner Lake Shore/Michigan Express,,Sun
+15:36:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:42:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:19:08,146,Inner Lake Shore/Michigan Express,,Sun
+10:41:07,146,Inner Lake Shore/Michigan Express,,Sun
+07:49:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:25:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:57:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:09:38,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:52:37,146,Inner Lake Shore/Michigan Express,,Sun
+17:47:09,146,Inner Lake Shore/Michigan Express,,Sat
+12:00:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:46:11,6,Jackson Park Express,,Sat
+16:01:42,6,Jackson Park Express,,Sun
+09:01:27,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:57:24,6,Jackson Park Express,,Sun
+22:51:07,146,Inner Lake Shore/Michigan Express,,Sun
+07:00:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:03:47,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:15:53,6,Jackson Park Express,,Sat
+09:31:56,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:48:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:27:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:33:39,146,Inner Lake Shore/Michigan Express,,Sat
+10:35:23,6,Jackson Park Express,,Sat
+22:28:41,6,Jackson Park Express,,Sun
+17:44:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:25:08,146,Inner Lake Shore/Michigan Express,,Sun
+06:16:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:13:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:29:07,146,Inner Lake Shore/Michigan Express,,Sat
+15:45:42,6,Jackson Park Express,,Sat
+07:15:29,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:45:41,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:26:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:03:38,146,Inner Lake Shore/Michigan Express,,Sat
+07:04:54,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:46:44,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:44:09,6,Jackson Park Express,,Sun
+10:23:39,146,Inner Lake Shore/Michigan Express,,Sat
+21:54:07,146,Inner Lake Shore/Michigan Express,,Sat
+09:10:39,6,Jackson Park Express,,Sat
+20:20:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:55:08,146,Inner Lake Shore/Michigan Express,,Sun
+10:39:38,146,Inner Lake Shore/Michigan Express,,Sat
+16:07:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:12:38,146,Inner Lake Shore/Michigan Express,,Sun
+20:37:08,146,Inner Lake Shore/Michigan Express,,Sat
+07:26:10,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:43:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:59:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:54:09,6,Jackson Park Express,,Sun
+10:08:39,146,Inner Lake Shore/Michigan Express,,Sat
+23:46:23,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:09:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:53:16,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:25:08,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:37:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:23:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:32:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:27:06,146,Inner Lake Shore/Michigan Express,,Sun
+21:12:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:15:55,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:30:38,146,Inner Lake Shore/Michigan Express,,Sun
+07:37:40,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:23:09,146,Inner Lake Shore/Michigan Express,,Sat
+11:35:07,146,Inner Lake Shore/Michigan Express,,Sun
+11:02:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:31:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:51:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:33:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:38:41,6,Jackson Park Express,,Sun
+11:19:38,146,Inner Lake Shore/Michigan Express,,Sat
+08:41:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:44:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:31:06,146,Inner Lake Shore/Michigan Express,,Sat
+10:41:07,146,Inner Lake Shore/Michigan Express,,Sun
+14:18:39,146,Inner Lake Shore/Michigan Express,,Sat
+09:39:41,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:06:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:52:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:00:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:13:24,6,Jackson Park Express,,Sat
+07:15:29,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:12:37,146,Inner Lake Shore/Michigan Express,,Sun
+06:32:37,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:10:12,6,Jackson Park Express,,Sun
+19:20:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:29:19,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:56:23,6,Jackson Park Express,,Sat
+05:41:39,6,Jackson Park Express,,Sat
+15:47:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:08:33,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:06:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:08:03,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:01:09,146,Inner Lake Shore/Michigan Express,,Sat
+12:22:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:14:09,146,Inner Lake Shore/Michigan Express,,Sat
+19:23:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:40:11,6,Jackson Park Express,,Sat
+10:57:11,6,Jackson Park Express,,Sun
+12:13:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:13:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:46:09,146,Inner Lake Shore/Michigan Express,,Sat
+08:11:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:16:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:50:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:04:08,146,Inner Lake Shore/Michigan Express,,Sun
+19:07:12,6,Jackson Park Express,,Sat
+13:13:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:17:09,146,Inner Lake Shore/Michigan Express,,Sat
+16:08:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+05:38:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:18:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+19:56:07,146,Inner Lake Shore/Michigan Express,,Sun
+08:36:12,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:52:07,146,Inner Lake Shore/Michigan Express,,Sun
+08:32:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:37:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:04:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:35:39,6,Jackson Park Express,,Sat
+16:54:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:34:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:21:09,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:11:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:33:37,146,Inner Lake Shore/Michigan Express,,Sat
+21:42:38,6,Jackson Park Express,,Sun
+12:44:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:38:36,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:58:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:52:07,146,Inner Lake Shore/Michigan Express,,Sun
+16:14:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:49:53,6,Jackson Park Express,,Sun
+08:00:12,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:45:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:19:09,6,Jackson Park Express,,Sat
+10:13:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:27:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:30:12,6,Jackson Park Express,,Sun
+08:50:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:11:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:10:36,146,Inner Lake Shore/Michigan Express,,Sun
+08:23:09,6,Jackson Park Express,,Sun
+16:03:42,6,Jackson Park Express,,Sat
+19:39:54,6,Jackson Park Express,,Sun
+12:17:39,146,Inner Lake Shore/Michigan Express,,Sat
+15:36:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:00:39,6,Jackson Park Express,,Sat
+08:03:47,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:50:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:56:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:49:08,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:21:39,146,Inner Lake Shore/Michigan Express,,Sat
+07:58:07,146,Inner Lake Shore/Michigan Express,,Sat
+14:19:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:30:12,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:51:51,6,Jackson Park Express,,Sat
+10:11:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:34:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:28:08,146,Inner Lake Shore/Michigan Express,,Sun
+19:51:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:27:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:12:24,6,Jackson Park Express,,Sun
+09:11:33,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+23:11:23,6,Jackson Park Express,,Sun
+08:57:07,146,Inner Lake Shore/Michigan Express,,Sat
+11:20:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:42:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:31:12,6,Jackson Park Express,,Sat
+13:44:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:03:38,146,Inner Lake Shore/Michigan Express,,Sun
+17:36:08,146,Inner Lake Shore/Michigan Express,,Sun
+06:39:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:01:07,146,Inner Lake Shore/Michigan Express,,Sun
+14:04:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:48:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:26:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:53:12,6,Jackson Park Express,,Sat
+08:37:21,6,Jackson Park Express,,Sat
+08:07:37,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:38:09,6,Jackson Park Express,,Sun
+16:56:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:20:24,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:00:39,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:17:41,6,Jackson Park Express,,Sun
+07:17:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+10:41:11,6,Jackson Park Express,,Sun
+09:54:36,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:54:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:40:41,6,Jackson Park Express,,Sat
+08:49:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:19:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:02:22,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:45:09,146,Inner Lake Shore/Michigan Express,,Sat
+07:27:04,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:09:38,6,Jackson Park Express,,Sun
+10:59:23,6,Jackson Park Express,,Sat
+13:13:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:55:38,6,Jackson Park Express,,Sun
+09:17:10,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:01:54,6,Jackson Park Express,,Sun
+17:34:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+18:22:09,146,Inner Lake Shore/Michigan Express,,Sat
+21:04:41,6,Jackson Park Express,,Sun
+07:18:36,6,Jackson Park Express,,Sat
+16:19:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+06:57:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:49:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:30:41,6,Jackson Park Express,,Sat
+07:12:09,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:55:09,146,Inner Lake Shore/Michigan Express,,Sat
+06:31:06,146,Inner Lake Shore/Michigan Express,,Sat
+09:36:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:09:09,146,Inner Lake Shore/Michigan Express,,Sat
+06:29:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:58:08,146,Inner Lake Shore/Michigan Express,,Sun
+07:21:38,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:07:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:49:35,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:15:24,6,Jackson Park Express,,Sun
+16:40:09,146,Inner Lake Shore/Michigan Express,,Sat
+11:52:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:11:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:04:08,6,Jackson Park Express,,Sat
+14:01:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:17:42,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:50:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:24:00,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:47:37,146,Inner Lake Shore/Michigan Express,,Sat
+14:26:39,146,Inner Lake Shore/Michigan Express,,Sat
+06:50:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:03:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:00:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:03:09,146,Inner Lake Shore/Michigan Express,,Sat
+23:11:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:01:06,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+20:57:08,146,Inner Lake Shore/Michigan Express,,Sat
+09:44:37,146,Inner Lake Shore/Michigan Express,,Sun
+08:41:14,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:06:12,6,Jackson Park Express,,Sun
+17:45:41,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:11:37,146,Inner Lake Shore/Michigan Express,,Sun
+18:52:37,146,Inner Lake Shore/Michigan Express,,Sun
+16:07:08,146,Inner Lake Shore/Michigan Express,,Sat
+07:58:17,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:27:08,146,Inner Lake Shore/Michigan Express,,Sun
+12:43:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:13:41,6,Jackson Park Express,,Sun
+21:17:08,146,Inner Lake Shore/Michigan Express,,Sat
+11:40:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:02:12,6,Jackson Park Express,,Sun
+06:48:44,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:49:09,6,Jackson Park Express,,Sun
+09:48:21,6,Jackson Park Express,,Sat
+22:02:07,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:48:24,6,Jackson Park Express,,Sun
+15:46:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:55:24,6,Jackson Park Express,,Sat
+08:11:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:55:53,6,Jackson Park Express,,Sat
+09:25:09,6,Jackson Park Express,,Sun
+14:10:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:27:38,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:38:39,146,Inner Lake Shore/Michigan Express,,Sat
+07:57:27,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:33:37,146,Inner Lake Shore/Michigan Express,,Sat
+07:01:06,146,Inner Lake Shore/Michigan Express,,Sat
+09:11:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:47:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+00:43:09,6,Jackson Park Express,,Sun
+20:22:11,6,Jackson Park Express,,Sat
+10:39:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:51:23,6,Jackson Park Express,,Sat
+16:24:43,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:40:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:06:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:46:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:01:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:10:42,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:45:38,146,Inner Lake Shore/Michigan Express,,Sun
+13:57:42,6,Jackson Park Express,,Sat
+07:29:10,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:04:54,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:45:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:14:33,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:57:08,146,Inner Lake Shore/Michigan Express,,Sat
+22:54:41,6,Jackson Park Express,,Sat
+13:03:42,6,Jackson Park Express,,Sat
+15:36:42,6,Jackson Park Express,,Sat
+07:45:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:33:09,146,Inner Lake Shore/Michigan Express,,Sat
+08:42:36,146,Inner Lake Shore/Michigan Express,,Sun
+19:14:09,146,Inner Lake Shore/Michigan Express,,Sat
+14:44:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:54:01,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:19:07,146,Inner Lake Shore/Michigan Express,,Sat
+18:16:42,6,Jackson Park Express,,Sun
+18:38:37,146,Inner Lake Shore/Michigan Express,,Sun
+09:31:44,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:15:38,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:58:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:33:24,6,Jackson Park Express,,Sun
+07:31:06,146,Inner Lake Shore/Michigan Express,,Sun
+14:55:38,6,Jackson Park Express,,Sat
+17:09:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:48:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:36:08,146,Inner Lake Shore/Michigan Express,,Sat
+05:32:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:58:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:09:38,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:42:08,146,Inner Lake Shore/Michigan Express,,Sun
+16:24:08,146,Inner Lake Shore/Michigan Express,,Sun
+05:20:36,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:54:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+16:33:12,6,Jackson Park Express,,Sun
+23:10:53,6,Jackson Park Express,,Sat
+13:44:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:55:15,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+06:53:43,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:18:22,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:01:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:19:38,6,Jackson Park Express,,Sat
+07:05:29,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:08:23,6,Jackson Park Express,,Sat
+06:58:13,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:59:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:44:12,6,Jackson Park Express,,Sat
+18:34:08,6,Jackson Park Express,,Sat
+20:26:11,6,Jackson Park Express,,Sun
+06:33:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:31:39,146,Inner Lake Shore/Michigan Express,,Sat
+06:47:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+00:47:07,6,Jackson Park Express,,Mon
+15:31:24,6,Jackson Park Express,,Sat
+08:57:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:14:12,6,Jackson Park Express,,Sun
+17:05:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:15:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:35:38,146,Inner Lake Shore/Michigan Express,,Sat
+11:36:12,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:26:39,146,Inner Lake Shore/Michigan Express,,Sat
+13:34:08,146,Inner Lake Shore/Michigan Express,,Sun
+17:21:40,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:48:12,6,Jackson Park Express,,Sun
+07:58:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:25:09,146,Inner Lake Shore/Michigan Express,,Sat
+12:13:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:21:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:26:07,6,Jackson Park Express,,Sun
+14:12:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:46:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:13:08,146,Inner Lake Shore/Michigan Express,,Sun
+21:03:38,6,Jackson Park Express,,Sun
+07:23:03,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:37:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:01:39,146,Inner Lake Shore/Michigan Express,,Sat
+20:01:38,6,Jackson Park Express,,Sun
+19:57:42,6,Jackson Park Express,,Sat
+10:54:08,6,Jackson Park Express,,Sun
+07:20:36,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:29:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:12:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:32:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:12:42,6,Jackson Park Express,,Sat
+18:12:42,6,Jackson Park Express,,Sat
+11:26:07,146,Inner Lake Shore/Michigan Express,,Sun
+09:44:37,146,Inner Lake Shore/Michigan Express,,Sun
+17:49:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+06:40:08,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:17:08,146,Inner Lake Shore/Michigan Express,,Sat
+16:55:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:32:37,146,Inner Lake Shore/Michigan Express,,Sun
+22:12:07,146,Inner Lake Shore/Michigan Express,,Sun
+10:54:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:03:38,146,Inner Lake Shore/Michigan Express,,Sat
+10:07:23,6,Jackson Park Express,,Sun
+07:29:55,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:43:42,6,Jackson Park Express,,Sun
+09:22:07,146,Inner Lake Shore/Michigan Express,,Sun
+11:08:07,146,Inner Lake Shore/Michigan Express,,Sun
+19:13:12,6,Jackson Park Express,,Sun
+16:28:17,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:48:38,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:13:08,146,Inner Lake Shore/Michigan Express,,Sun
+22:46:23,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:23:39,6,Jackson Park Express,,Sat
+20:51:53,6,Jackson Park Express,,Sat
+09:05:23,6,Jackson Park Express,,Sun
+14:10:39,146,Inner Lake Shore/Michigan Express,,Sat
+13:46:39,146,Inner Lake Shore/Michigan Express,,Sat
+06:21:09,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:12:07,146,Inner Lake Shore/Michigan Express,,Sat
+13:58:54,6,Jackson Park Express,,Sun
+09:50:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:24:08,146,Inner Lake Shore/Michigan Express,,Sun
+08:43:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:32:40,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:20:11,6,Jackson Park Express,,Sat
+16:42:08,146,Inner Lake Shore/Michigan Express,,Sun
+23:53:41,6,Jackson Park Express,,Sat
+12:01:23,6,Jackson Park Express,,Sat
+15:41:09,146,Inner Lake Shore/Michigan Express,,Sat
+15:41:36,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:33:07,146,Inner Lake Shore/Michigan Express,,Sat
+13:38:08,146,Inner Lake Shore/Michigan Express,,Sat
+21:09:41,6,Jackson Park Express,,Sat
+00:31:07,6,Jackson Park Express,,Mon
+06:25:35,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:17:08,146,Inner Lake Shore/Michigan Express,,Sat
+13:21:42,6,Jackson Park Express,,Sat
+08:56:42,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+23:14:41,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:34:09,6,Jackson Park Express,,Sun
+09:45:06,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:31:08,146,Inner Lake Shore/Michigan Express,,Sun
+09:11:33,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:03:53,6,Jackson Park Express,,Sat
+19:35:42,6,Jackson Park Express,,Sun
+18:22:42,6,Jackson Park Express,,Sat
+07:18:38,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:27:08,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:12:09,146,Inner Lake Shore/Michigan Express,,Sat
+13:12:42,6,Jackson Park Express,,Sat
+11:20:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:33:08,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:36:23,6,Jackson Park Express,,Sun
+06:34:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:53:03,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:30:09,146,Inner Lake Shore/Michigan Express,,Sat
+12:17:39,146,Inner Lake Shore/Michigan Express,,Sat
+19:12:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:01:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:49:12,6,Jackson Park Express,,Sun
+14:10:39,146,Inner Lake Shore/Michigan Express,,Sat
+14:56:28,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:48:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:30:11,148,Clarendon/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+15:27:42,6,Jackson Park Express,,Sat
+08:49:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:36:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:25:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:35:38,146,Inner Lake Shore/Michigan Express,,Sat
+13:00:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:45:38,146,Inner Lake Shore/Michigan Express,,Sun
+12:53:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:38:39,146,Inner Lake Shore/Michigan Express,,Sat
+11:09:41,6,Jackson Park Express,,Sat
+08:50:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:28:17,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:26:31,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:48:54,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:36:24,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:28:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:01:24,6,Jackson Park Express,,Sat
+13:06:08,146,Inner Lake Shore/Michigan Express,,Sat
+19:19:42,6,Jackson Park Express,,Sat
+16:35:11,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:57:39,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:50:38,6,Jackson Park Express,,Sun
+06:09:21,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:59:23,6,Jackson Park Express,,Sat
+13:17:23,6,Jackson Park Express,,Sat
+09:16:01,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+06:02:37,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:42:37,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:43:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:14:09,146,Inner Lake Shore/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:05:05,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri

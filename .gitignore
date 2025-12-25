@@ -30,3 +30,4 @@ public
 *.njsproj
 *.sln
 *.sw?
+public/stops/

@@ -1,0 +1,981 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+15:17:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:50:58,21,Cermak,,Sun
+17:12:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:49:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:00:30,3,King Drive,,Sun
+22:29:36,21,Cermak,,Sun
+18:18:28,3,King Drive,,Sat
+09:17:13,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+06:14:58,21,Cermak,,Sat
+15:30:58,21,Cermak,,Sun
+13:49:00,3,King Drive,,Sun
+16:43:28,21,Cermak,,Sat
+16:02:58,21,Cermak,,Sun
+06:35:28,21,Cermak,,Sat
+20:07:28,3,King Drive,,Sat
+19:07:28,3,King Drive,,Sat
+18:06:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:21:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:20:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:28:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:27:28,3,King Drive,,Sat
+15:34:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:07:28,3,King Drive,,Sat
+12:32:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:53:28,3,King Drive,,Sat
+17:06:00,3,King Drive,,Sun
+18:57:28,3,King Drive,,Sat
+06:34:56,3,King Drive,,Sat
+19:37:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:14:56,3,King Drive,,Sat
+23:15:17,21,Cermak,,Sat
+15:10:58,21,Cermak,,Sat
+07:17:28,21,Cermak,,Sat
+07:36:28,3,King Drive,,Sat
+18:09:47,21,Cermak,,Sun
+08:10:28,3,King Drive,,Sat
+12:11:00,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:00:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:52:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:08:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:44:00,3,King Drive,,Sat
+12:33:30,3,King Drive,,Sat
+15:09:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:09:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:34:01,3,King Drive,,Sat
+18:38:28,3,King Drive,,Sat
+15:01:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:42:00,3,King Drive,,Sun
+14:30:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:06:00,3,King Drive,,Sat
+16:09:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:59:58,21,Cermak,,Sat
+10:43:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:15:30,3,King Drive,,Sun
+17:42:28,21,Cermak,,Sat
+06:55:58,21,Cermak,,Sat
+20:13:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:27:26,3,King Drive,,Sun
+19:27:28,3,King Drive,,Sat
+17:22:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:55:58,21,Cermak,,Sat
+17:48:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:40:28,3,King Drive,,Sat
+13:58:47,21,Cermak,,Sun
+18:54:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:27:28,3,King Drive,,Sat
+15:42:28,21,Cermak,,Sat
+13:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:46:58,21,Cermak,,Sun
+04:52:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:50:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:07:28,3,King Drive,,Sat
+21:32:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:28:28,3,King Drive,,Sat
+08:58:28,3,King Drive,,Sun
+11:37:28,21,Cermak,,Sat
+19:20:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:49:28,3,King Drive,,Sat
+16:12:28,21,Cermak,,Sat
+18:40:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:39:28,3,King Drive,,Sun
+14:37:30,3,King Drive,,Sun
+16:06:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:59:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:07:28,21,Cermak,,Sun
+15:13:01,3,King Drive,,Sat
+18:28:28,3,King Drive,,Sat
+10:01:30,3,King Drive,,Sat
+12:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:44:00,3,King Drive,,Sat
+04:49:28,21,Cermak,,Sat
+11:41:30,3,King Drive,,Sun
+14:01:01,3,King Drive,,Sat
+09:45:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:50:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:16:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:22:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:44:28,3,King Drive,,Sat
+09:50:28,21,Cermak,,Sun
+13:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:16:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:54:58,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:04:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:15:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:31:30,3,King Drive,,Sat
+21:09:47,21,Cermak,,Sat
+21:52:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:10:28,21,Cermak,,Sat
+19:46:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:46:30,3,King Drive,,Sun
+19:53:28,21,Cermak,,Sat
+13:05:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:15:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:32:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:19:01,3,King Drive,,Sat
+12:33:30,3,King Drive,,Sat
+07:21:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+06:54:56,3,King Drive,,Sat
+12:38:17,21,Cermak,,Sun
+19:12:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:18:28,3,King Drive,,Sat
+16:17:47,21,Cermak,,Sun
+08:15:26,3,King Drive,,Sun
+19:57:28,3,King Drive,,Sat
+18:42:28,21,Cermak,,Sat
+12:43:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:15:28,3,King Drive,,Sat
+11:16:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:40:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:15:30,3,King Drive,,Sun
+06:56:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:09:30,3,King Drive,,Sun
+10:32:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:17:00,3,King Drive,,Sun
+14:49:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:02:43,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:10:28,21,Cermak,,Sat
+07:33:26,3,King Drive,,Sun
+18:48:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:23:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:20:00,3,King Drive,,Sun
+15:04:01,3,King Drive,,Sat
+15:57:58,21,Cermak,,Sat
+14:23:09,21,Cermak,,Sat
+09:59:39,21,Cermak,,Sat
+22:11:47,21,Cermak,,Sat
+10:40:30,3,King Drive,,Sat
+19:13:28,3,King Drive,,Sun
+12:58:17,21,Cermak,,Sun
+08:36:56,3,King Drive,,Sun
+21:43:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:10:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:02:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:40:28,3,King Drive,,Sat
+12:59:58,21,Cermak,,Sat
+12:03:30,3,King Drive,,Sat
+14:26:00,3,King Drive,,Sun
+14:54:47,21,Cermak,,Sun
+08:22:09,21,Cermak,,Sat
+18:28:28,3,King Drive,,Sat
+16:32:30,3,King Drive,,Sun
+20:09:28,21,Cermak,,Sat
+17:23:30,3,King Drive,,Sat
+17:15:00,3,King Drive,,Sat
+18:21:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:19:28,3,King Drive,,Sun
+13:49:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:45:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:59:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:18:47,21,Cermak,,Sun
+09:30:58,21,Cermak,,Sun
+14:49:00,3,King Drive,,Sun
+19:55:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:07:39,21,Cermak,,Sat
+21:02:28,3,King Drive,,Sat
+08:30:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:20:39,21,Cermak,,Sat
+09:59:39,21,Cermak,,Sat
+10:32:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:21:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:17:28,3,King Drive,,Sat
+15:10:58,21,Cermak,,Sat
+06:41:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:46:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:42:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:47:28,3,King Drive,,Sat
+13:59:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+00:31:23,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+05:10:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:16:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:17:00,3,King Drive,,Sun
+11:55:00,3,King Drive,,Sun
+10:14:30,3,King Drive,,Sat
+22:30:17,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:03:30,3,King Drive,,Sat
+21:32:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:28:30,3,King Drive,,Sun
+22:06:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:46:01,3,King Drive,,Sat
+10:14:30,3,King Drive,,Sat
+22:50:17,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:06:01,3,King Drive,,Sat
+15:01:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:53:28,21,Cermak,,Sat
+15:04:01,3,King Drive,,Sat
+12:32:30,3,King Drive,,Sun
+19:39:58,21,Cermak,,Sat
+13:16:01,3,King Drive,,Sat
+13:18:47,21,Cermak,,Sun
+06:48:58,21,Cermak,,Sun
+19:17:28,3,King Drive,,Sat
+08:33:32,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:55:01,3,King Drive,,Sat
+19:10:28,21,Cermak,,Sat
+15:58:00,3,King Drive,,Sun
+10:32:30,3,King Drive,,Sun
+19:04:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:10:58,21,Cermak,,Sun
+15:12:00,3,King Drive,,Sun
+06:52:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:55:47,21,Cermak,,Sat
+20:49:28,3,King Drive,,Sat
+15:51:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:28:58,21,Cermak,,Sun
+05:10:28,21,Cermak,,Sat
+10:12:58,21,Cermak,,Sun
+12:00:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:40:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:05:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:32:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+24:14:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:11:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:54:58,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+24:14:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:46:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:51:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:23:47,21,Cermak,,Sat
+12:59:58,21,Cermak,,Sat
+05:53:58,21,Cermak,,Sat
+21:25:17,21,Cermak,,Sat
+23:44:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:59:47,21,Cermak,,Sat
+09:50:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:38:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:52:58,21,Cermak,,Sun
+19:24:28,3,King Drive,,Sun
+20:39:26,3,King Drive,,Sun
+13:58:47,21,Cermak,,Sun
+16:13:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:22:30,3,King Drive,,Sun
+06:31:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:59:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:16:30,3,King Drive,,Sun
+16:27:58,21,Cermak,,Sat
+18:19:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:32:30,3,King Drive,,Sun
+19:22:47,21,Cermak,,Sun
+21:29:36,21,Cermak,,Sun
+18:55:17,21,Cermak,,Sun
+08:08:58,21,Cermak,,Sun
+13:35:00,3,King Drive,,Sun
+15:47:01,3,King Drive,,Sat
+17:37:47,21,Cermak,,Sun
+17:49:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:50:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:55:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:00:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:42:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:01:58,3,King Drive,,Sat
+20:09:28,21,Cermak,,Sat
+19:38:47,21,Cermak,,Sun
+11:12:58,21,Cermak,,Sun
+21:31:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:34:51,21,Cermak,,Sat
+22:20:28,3,King Drive,,Sat
+20:04:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:16:01,3,King Drive,,Sat
+10:40:39,21,Cermak,,Sat
+22:55:56,3,King Drive,,Sun
+05:31:28,21,Cermak,,Sat
+07:02:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:21:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:30:47,21,Cermak,,Sun
+20:55:26,3,King Drive,,Sun
+21:01:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:24:58,21,Cermak,,Sat
+11:19:00,3,King Drive,,Sat
+06:43:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:50:00,3,King Drive,,Sun
+19:10:28,21,Cermak,,Sat
+17:21:47,21,Cermak,,Sun
+23:49:55,3,King Drive,,Sat
+17:57:28,21,Cermak,,Sat
+11:53:58,21,Cermak,,Sat
+22:43:47,21,Cermak,,Sat
+04:52:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:48:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:48:47,21,Cermak,,Sun
+23:33:55,3,King Drive,,Sun
+21:01:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:23:47,21,Cermak,,Sat
+15:13:01,3,King Drive,,Sat
+16:13:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:31:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:55:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:17:28,21,Cermak,,Sat
+23:57:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:38:58,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:32:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:31:28,3,King Drive,,Sat
+16:13:01,3,King Drive,,Sat
+18:27:28,21,Cermak,,Sat
+06:18:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:38:17,21,Cermak,,Sun
+17:55:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:17:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:31:01,3,King Drive,,Sat
+23:13:55,3,King Drive,,Sun
+20:13:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:47:30,3,King Drive,,Sun
+09:40:09,21,Cermak,,Sat
+16:55:00,3,King Drive,,Sun
+17:58:28,3,King Drive,,Sat
+05:54:56,3,King Drive,,Sat
+20:51:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:20:00,3,King Drive,,Sun
+19:28:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:12:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:43:28,21,Cermak,,Sat
+17:16:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:24:28,3,King Drive,,Sun
+15:55:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:08:58,21,Cermak,,Sun
+17:23:30,3,King Drive,,Sat
+12:23:30,3,King Drive,,Sat
+20:07:28,3,King Drive,,Sat
+12:13:30,3,King Drive,,Sat
+10:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:49:28,3,King Drive,,Sat
+07:10:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+22:10:17,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+23:44:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:38:47,21,Cermak,,Sun
+06:34:56,3,King Drive,,Sat
+21:59:56,3,King Drive,,Sun
+07:15:58,3,King Drive,,Sat
+19:24:58,21,Cermak,,Sat
+07:42:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:33:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:33:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:41:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+05:10:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:49:01,3,King Drive,,Sat
+14:36:47,21,Cermak,,Sun
+23:57:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:53:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:31:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:32:58,21,Cermak,,Sun
+17:31:28,3,King Drive,,Sat
+06:55:58,21,Cermak,,Sat
+18:12:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:38:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:32:58,21,Cermak,,Sun
+23:08:06,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:49:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:12:58,21,Cermak,,Sun
+19:38:58,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:40:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:31:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:40:30,3,King Drive,,Sat
+16:58:01,3,King Drive,,Sat
+17:28:00,3,King Drive,,Sun
+12:23:30,3,King Drive,,Sat
+08:15:26,3,King Drive,,Sun
+22:28:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:40:01,3,King Drive,,Sat
+08:50:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:12:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:34:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:20:39,21,Cermak,,Sat
+18:39:17,21,Cermak,,Sun
+06:03:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:54:47,21,Cermak,,Sun
+18:55:58,21,Cermak,,Sat
+17:05:47,21,Cermak,,Sun
+16:49:47,21,Cermak,,Sun
+16:06:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:50:58,21,Cermak,,Sun
+21:42:26,3,King Drive,,Sun
+11:06:00,3,King Drive,,Sat
+14:46:01,3,King Drive,,Sat
+13:18:17,21,Cermak,,Sun
+00:33:55,3,King Drive,,Mon
+19:37:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:26:00,3,King Drive,,Sun
+21:11:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:10:00,3,King Drive,,Sun
+16:33:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:26:00,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:01:01,3,King Drive,,Sat
+07:48:58,21,Cermak,,Sun
+13:38:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:32:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:39:58,21,Cermak,,Sat
+20:31:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:08:28,3,King Drive,,Sat
+14:14:00,3,King Drive,,Sun
+15:23:30,3,King Drive,,Sun
+11:14:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:26:03,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:08:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:32:30,3,King Drive,,Sun
+13:35:00,3,King Drive,,Sun
+17:27:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:27:28,3,King Drive,,Sat
+11:32:58,21,Cermak,,Sun
+17:07:01,3,King Drive,,Sat
+11:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:00:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:53:30,3,King Drive,,Sat
+18:12:28,21,Cermak,,Sat
+16:27:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:33:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:58:17,21,Cermak,,Sun
+23:32:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:47:28,3,King Drive,,Sat
+19:28:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:19:00,3,King Drive,,Sat
+23:02:28,3,King Drive,,Sat
+07:08:58,21,Cermak,,Sun
+13:27:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:00:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:09:30,3,King Drive,,Sun
+16:31:01,3,King Drive,,Sat
+18:00:00,3,King Drive,,Sun
+15:17:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:21:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:38:58,21,Cermak,,Sat
+07:58:28,21,Cermak,,Sat
+13:14:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:44:28,3,King Drive,,Sat
+22:10:06,21,Cermak,,Sun
+09:57:28,3,King Drive,,Sun
+18:26:00,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:24:26,3,King Drive,,Sun
+17:33:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:20:00,3,King Drive,,Sun
+10:10:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:12:28,21,Cermak,,Sat
+18:00:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:10:01,3,King Drive,,Sat
+09:48:30,3,King Drive,,Sat
+21:50:06,21,Cermak,,Sun
+22:33:28,3,King Drive,,Sat
+15:31:01,3,King Drive,,Sat
+18:55:17,21,Cermak,,Sun
+13:14:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:51:21,21,Cermak,,Sat
+07:54:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:28:30,3,King Drive,,Sun
+00:39:55,3,King Drive,,Sun
+10:00:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:52:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:16:30,3,King Drive,,Sun
+07:33:26,3,King Drive,,Sun
+08:10:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:54:58,21,Cermak,,Sat
+14:39:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:33:47,21,Cermak,,Sun
+21:28:28,3,King Drive,,Sat
+20:54:17,21,Cermak,,Sat
+18:51:28,3,King Drive,,Sun
+07:36:28,3,King Drive,,Sat
+12:07:30,3,King Drive,,Sun
+17:37:47,21,Cermak,,Sun
+09:01:09,21,Cermak,,Sat
+16:17:47,21,Cermak,,Sun
+12:43:28,21,Cermak,,Sat
+18:56:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:02:00,3,King Drive,,Sun
+12:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:38:17,21,Cermak,,Sat
+10:01:30,3,King Drive,,Sat
+10:52:58,21,Cermak,,Sun
+05:28:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+06:05:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:49:47,21,Cermak,,Sun
+21:21:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:37:30,3,King Drive,,Sun
+11:58:17,21,Cermak,,Sun
+21:09:47,21,Cermak,,Sat
+19:02:28,3,King Drive,,Sun
+20:10:47,21,Cermak,,Sun
+15:42:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:54:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:22:47,21,Cermak,,Sun
+23:33:55,3,King Drive,,Sun
+15:43:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:48:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:52:01,3,King Drive,,Sat
+18:54:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+06:14:58,21,Cermak,,Sat
+20:30:47,21,Cermak,,Sun
+06:28:58,21,Cermak,,Sun
+06:03:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:37:28,21,Cermak,,Sat
+12:26:58,21,Cermak,,Sat
+05:47:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:31:43,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:05:47,21,Cermak,,Sun
+22:28:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:54:47,21,Cermak,,Sun
+16:40:01,3,King Drive,,Sat
+10:53:30,3,King Drive,,Sat
+13:27:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:06:00,3,King Drive,,Sun
+22:10:06,21,Cermak,,Sun
+19:13:28,3,King Drive,,Sun
+08:08:58,21,Cermak,,Sun
+14:10:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:08:28,3,King Drive,,Sat
+18:42:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+22:47:28,3,King Drive,,Sat
+23:07:28,21,Cermak,,Sun
+08:10:28,3,King Drive,,Sat
+07:54:26,3,King Drive,,Sun
+11:53:30,3,King Drive,,Sat
+12:07:30,3,King Drive,,Sun
+14:18:47,21,Cermak,,Sun
+07:37:58,21,Cermak,,Sat
+08:48:13,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+24:13:55,3,King Drive,,Sun
+11:42:30,3,King Drive,,Sat
+09:35:30,3,King Drive,,Sat
+15:35:00,3,King Drive,,Sun
+18:40:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:00:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:10:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:27:28,21,Cermak,,Sat
+14:19:01,3,King Drive,,Sat
+10:47:30,3,King Drive,,Sun
+21:21:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:53:58,21,Cermak,,Sat
+18:25:47,21,Cermak,,Sun
+23:02:28,3,King Drive,,Sat
+11:49:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:15:00,3,King Drive,,Sat
+13:05:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:41:39,21,Cermak,,Sat
+12:32:30,3,King Drive,,Sun
+19:11:17,21,Cermak,,Sun
+00:31:23,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+18:06:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:21:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:02:28,3,King Drive,,Sun
+11:12:58,21,Cermak,,Sun
+10:54:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:44:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:00:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:18:17,21,Cermak,,Sun
+09:40:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:27:30,3,King Drive,,Sat
+22:48:47,21,Cermak,,Sun
+20:17:28,3,King Drive,,Sat
+15:26:58,21,Cermak,,Sat
+23:49:55,3,King Drive,,Sat
+21:10:47,21,Cermak,,Sun
+17:42:28,21,Cermak,,Sat
+22:20:28,3,King Drive,,Sat
+12:13:30,3,King Drive,,Sat
+09:40:09,21,Cermak,,Sat
+20:52:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:12:00,3,King Drive,,Sun
+22:06:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:48:58,21,Cermak,,Sun
+12:45:00,3,King Drive,,Sun
+09:02:43,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:31:30,3,King Drive,,Sat
+00:48:23,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+19:11:17,21,Cermak,,Sun
+13:17:09,21,Cermak,,Sat
+16:21:00,3,King Drive,,Sun
+16:21:00,3,King Drive,,Sun
+17:11:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:31:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+06:28:58,21,Cermak,,Sun
+22:33:28,3,King Drive,,Sat
+07:12:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:33:47,21,Cermak,,Sun
+10:00:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:21:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:26:58,21,Cermak,,Sat
+18:10:00,3,King Drive,,Sun
+18:51:28,3,King Drive,,Sun
+06:54:56,3,King Drive,,Sat
+09:48:30,3,King Drive,,Sat
+20:50:47,21,Cermak,,Sun
+20:54:17,21,Cermak,,Sat
+19:57:28,3,King Drive,,Sat
+09:30:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:21:00,3,King Drive,,Sat
+17:50:00,3,King Drive,,Sun
+11:20:58,21,Cermak,,Sat
+23:15:17,21,Cermak,,Sat
+13:25:01,3,King Drive,,Sat
+06:48:58,21,Cermak,,Sun
+07:33:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:57:58,21,Cermak,,Sat
+07:10:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+24:05:55,3,King Drive,,Sat
+21:25:17,21,Cermak,,Sat
+08:41:39,21,Cermak,,Sat
+17:44:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:20:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:50:47,21,Cermak,,Sun
+17:27:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+05:10:28,21,Cermak,,Sat
+19:54:47,21,Cermak,,Sun
+16:27:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:02:30,3,King Drive,,Sun
+20:17:28,3,King Drive,,Sat
+09:30:58,21,Cermak,,Sun
+15:58:00,3,King Drive,,Sun
+13:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:09:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:49:01,3,King Drive,,Sat
+14:47:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:54:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:21:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:23:09,21,Cermak,,Sat
+16:27:58,21,Cermak,,Sat
+17:13:58,21,Cermak,,Sat
+18:42:28,21,Cermak,,Sat
+22:17:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:52:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:12:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+13:43:01,3,King Drive,,Sat
+13:52:01,3,King Drive,,Sat
+20:22:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:22:01,3,King Drive,,Sat
+06:14:56,3,King Drive,,Sat
+19:16:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:30:58,21,Cermak,,Sun
+13:34:51,21,Cermak,,Sat
+20:49:28,3,King Drive,,Sat
+16:34:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:27:28,21,Cermak,,Sat
+13:10:00,3,King Drive,,Sun
+08:33:32,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:39:17,21,Cermak,,Sun
+13:17:09,21,Cermak,,Sat
+05:54:56,3,King Drive,,Sat
+14:37:01,3,King Drive,,Sat
+08:36:56,3,King Drive,,Sun
+10:19:39,21,Cermak,,Sat
+16:04:01,3,King Drive,,Sat
+20:51:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:19:28,3,King Drive,,Sat
+07:28:58,21,Cermak,,Sun
+12:00:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:00:30,3,King Drive,,Sun
+13:25:01,3,King Drive,,Sat
+19:38:47,21,Cermak,,Sun
+21:39:47,21,Cermak,,Sat
+09:30:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:46:03,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:15:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:47:28,3,King Drive,,Sat
+17:28:00,3,King Drive,,Sun
+16:13:01,3,King Drive,,Sat
+06:31:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:55:01,3,King Drive,,Sat
+14:38:58,21,Cermak,,Sat
+22:40:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:50:28,21,Cermak,,Sun
+12:55:31,3,King Drive,,Sat
+14:28:01,3,King Drive,,Sat
+13:34:01,3,King Drive,,Sat
+11:55:00,3,King Drive,,Sun
+18:25:47,21,Cermak,,Sun
+17:38:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:22:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:14:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:39:47,21,Cermak,,Sat
+13:06:01,3,King Drive,,Sat
+14:28:01,3,King Drive,,Sat
+16:34:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+24:13:55,3,King Drive,,Sun
+12:14:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:14:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:31:00,3,King Drive,,Sun
+22:27:47,21,Cermak,,Sat
+19:47:28,3,King Drive,,Sat
+10:27:30,3,King Drive,,Sat
+14:10:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:32:58,21,Cermak,,Sun
+18:00:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:20:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:41:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:35:00,3,King Drive,,Sun
+18:21:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+24:22:55,3,King Drive,,Sat
+06:52:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:58:28,21,Cermak,,Sat
+12:43:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:19:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:43:47,21,Cermak,,Sat
+21:29:36,21,Cermak,,Sun
+05:28:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:54:28,3,King Drive,,Sat
+18:20:00,3,King Drive,,Sun
+13:38:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:07:32,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:59:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:26:58,21,Cermak,,Sat
+04:49:28,21,Cermak,,Sat
+16:59:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:20:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:22:01,3,King Drive,,Sat
+15:46:30,3,King Drive,,Sun
+13:18:47,21,Cermak,,Sun
+17:25:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:37:28,3,King Drive,,Sat
+24:22:55,3,King Drive,,Sat
+17:57:28,21,Cermak,,Sat
+10:43:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:20:58,21,Cermak,,Sat
+21:27:26,3,King Drive,,Sun
+17:22:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:37:28,3,King Drive,,Sat
+13:43:01,3,King Drive,,Sat
+14:47:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:41:28,3,King Drive,,Sat
+16:39:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:55:56,3,King Drive,,Sun
+08:48:13,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:12:47,21,Cermak,,Sun
+20:11:58,3,King Drive,,Sun
+06:56:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+23:05:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:35:30,3,King Drive,,Sat
+11:58:17,21,Cermak,,Sun
+08:40:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:53:28,3,King Drive,,Sat
+16:46:03,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:27:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:58:58,21,Cermak,,Sat
+17:38:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:07:39,21,Cermak,,Sat
+16:39:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:01:58,3,King Drive,,Sat
+10:53:30,3,King Drive,,Sat
+19:06:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+22:35:56,3,King Drive,,Sun
+10:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:19:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:19:28,3,King Drive,,Sat
+14:10:01,3,King Drive,,Sat
+15:42:28,21,Cermak,,Sat
+24:05:55,3,King Drive,,Sat
+21:41:28,3,King Drive,,Sat
+13:10:00,3,King Drive,,Sun
+16:59:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:11:26,3,King Drive,,Sun
+17:38:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:54:28,3,King Drive,,Sat
+14:14:00,3,King Drive,,Sun
+17:53:47,21,Cermak,,Sun
+13:16:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:35:28,3,King Drive,,Sun
+22:59:47,21,Cermak,,Sat
+18:56:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:40:39,21,Cermak,,Sat
+20:04:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:12:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:46:58,21,Cermak,,Sun
+23:19:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:02:30,3,King Drive,,Sun
+16:53:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:12:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:43:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:19:28,3,King Drive,,Sun
+17:39:00,3,King Drive,,Sun
+10:59:58,21,Cermak,,Sat
+14:59:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+23:35:17,21,Cermak,,Sat
+21:55:47,21,Cermak,,Sat
+23:35:17,21,Cermak,,Sat
+10:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:47:28,3,King Drive,,Sun
+12:11:00,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:06:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:42:00,3,King Drive,,Sun
+18:57:28,3,King Drive,,Sat
+11:05:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:10:58,21,Cermak,,Sun
+23:35:28,3,King Drive,,Sat
+09:17:13,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:58:28,3,King Drive,,Sun
+00:48:23,3,King Drive,,Tue,Wed,Thu,Fri,Sat
+23:08:06,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:57:30,3,King Drive,,Sun
+11:49:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:43:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:00:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+07:54:26,3,King Drive,,Sun
+18:38:28,3,King Drive,,Sat
+14:15:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:38:17,21,Cermak,,Sat
+07:42:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+18:09:47,21,Cermak,,Sun
+15:39:01,3,King Drive,,Sat
+15:26:03,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:23:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:21:47,21,Cermak,,Sun
+21:50:06,21,Cermak,,Sun
+14:19:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:41:30,3,King Drive,,Sun
+20:11:58,3,King Drive,,Sun
+13:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:49:00,3,King Drive,,Sun
+08:07:32,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:59:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:55:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+10:14:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:31:01,3,King Drive,,Sat
+20:39:28,3,King Drive,,Sat
+20:10:47,21,Cermak,,Sun
+15:12:47,21,Cermak,,Sun
+09:21:00,3,King Drive,,Sat
+09:01:09,21,Cermak,,Sat
+18:33:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:12:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:19:32,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:27:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:10:47,21,Cermak,,Sun
+18:31:00,3,King Drive,,Sun
+19:07:28,3,King Drive,,Sat
+19:12:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:22:56,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:59:56,3,King Drive,,Sun
+17:13:58,21,Cermak,,Sat
+18:00:00,3,King Drive,,Sun
+18:09:09,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:05:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:28:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+22:17:56,3,King Drive,,Sun
+21:43:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+07:50:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+14:54:58,21,Cermak,,Sat
+22:10:17,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+08:19:32,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+12:43:28,21,Cermak,,Sat
+07:28:58,21,Cermak,,Sun
+13:51:21,21,Cermak,,Sat
+15:09:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:15:28,3,King Drive,,Sat
+22:35:56,3,King Drive,,Sun
+18:12:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:05:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:59:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:59:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+19:46:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:54:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:55:31,3,King Drive,,Sat
+10:10:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:07:01,3,King Drive,,Sat
+09:39:28,3,King Drive,,Sun
+19:47:28,3,King Drive,,Sun
+14:30:01,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:19:53,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+11:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+22:27:47,21,Cermak,,Sat
+18:31:39,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:11:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:59:28,3,King Drive,,Sun
+20:55:26,3,King Drive,,Sun
+22:50:17,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:39:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:16:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+08:22:09,21,Cermak,,Sat
+23:53:55,3,King Drive,,Sun
+23:35:28,3,King Drive,,Sat
+07:54:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:05:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+23:32:23,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:14:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+05:31:28,21,Cermak,,Sat
+20:24:26,3,King Drive,,Sun
+19:27:28,3,King Drive,,Sat
+13:38:47,21,Cermak,,Sun
+14:36:47,21,Cermak,,Sun
+05:53:58,21,Cermak,,Sat
+22:29:36,21,Cermak,,Sun
+17:38:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+17:25:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:33:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:44:00,3,King Drive,,Sun
+19:35:28,3,King Drive,,Sun
+15:47:01,3,King Drive,,Sat
+16:58:01,3,King Drive,,Sat
+09:10:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+12:44:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+18:12:28,21,Cermak,,Sat
+13:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+11:42:30,3,King Drive,,Sat
+07:15:58,3,King Drive,,Sat
+22:11:47,21,Cermak,,Sat
+22:30:17,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+09:50:58,21,Cermak,,Sun
+15:39:01,3,King Drive,,Sat
+08:28:58,21,Cermak,,Sun
+18:27:28,21,Cermak,,Sat
+16:04:01,3,King Drive,,Sat
+09:31:43,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+15:23:30,3,King Drive,,Sun
+16:02:58,21,Cermak,,Sun
+17:58:28,3,King Drive,,Sat
+14:02:00,3,King Drive,,Sun
+21:55:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:43:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+19:59:28,3,King Drive,,Sun
+12:18:17,21,Cermak,,Sun
+07:43:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+16:55:00,3,King Drive,,Sun
+22:47:28,3,King Drive,,Sat
+23:53:55,3,King Drive,,Sun
+07:37:58,21,Cermak,,Sat
+16:20:33,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+06:35:28,21,Cermak,,Sat
+23:13:55,3,King Drive,,Sun
+14:55:01,3,King Drive,,Sat
+17:49:31,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+20:32:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:55:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+21:11:26,3,King Drive,,Sun
+19:20:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+17:39:00,3,King Drive,,Sun
+17:53:47,21,Cermak,,Sun
+12:45:00,3,King Drive,,Sun
+08:20:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+15:22:01,3,King Drive,,Sat
+15:29:21,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+21:42:26,3,King Drive,,Sun
+12:57:30,3,King Drive,,Sun
+08:30:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+13:49:00,3,King Drive,,Sun
+06:05:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:31:51,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+20:39:28,3,King Drive,,Sat
+14:55:01,3,King Drive,,Sat
+13:22:30,3,King Drive,,Sun
+16:22:01,3,King Drive,,Sat
+20:41:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+16:44:00,3,King Drive,,Sun
+05:47:28,21,Cermak,,Mon,Tue,Wed,Thu,Fri
+14:37:01,3,King Drive,,Sat
+16:58:58,21,Cermak,,Sat
+20:39:26,3,King Drive,,Sun
+06:18:26,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+09:57:28,3,King Drive,,Sun
+22:17:56,3,King Drive,,Sun
+21:02:28,3,King Drive,,Sat
+10:19:39,21,Cermak,,Sat
+22:52:58,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+10:00:30,3,King Drive,,Mon,Tue,Wed,Thu,Fri
+00:39:55,3,King Drive,,Sun
+20:27:28,3,King Drive,,Sat
+00:33:55,3,King Drive,,Mon

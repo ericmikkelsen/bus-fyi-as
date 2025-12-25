@@ -1,0 +1,695 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+15:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:50:00,171,U. of Chicago/Hyde Park,,Sat
+12:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:17:00,172,U. of Chicago/Kenwood,,Sat
+17:47:00,172,U. of Chicago/Kenwood,,Sat
+14:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+19:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:41:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:34:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:52:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:41:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:50:00,171,U. of Chicago/Hyde Park,,Sat
+08:46:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:15:00,171,U. of Chicago/Hyde Park,,Sat
+07:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:20:00,171,U. of Chicago/Hyde Park,,Sat
+17:45:00,171,U. of Chicago/Hyde Park,,Sat
+10:17:00,172,U. of Chicago/Kenwood,,Sun
+09:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:20:00,171,U. of Chicago/Hyde Park,,Sat
+15:17:00,172,U. of Chicago/Kenwood,,Sun
+09:52:00,172,U. of Chicago/Kenwood,,Sat
+16:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:02:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:47:00,172,U. of Chicago/Kenwood,,Sun
+06:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:20:00,171,U. of Chicago/Hyde Park,,Sat
+11:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:22:00,172,U. of Chicago/Kenwood,,Sat
+10:50:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:47:00,172,U. of Chicago/Kenwood,,Sat
+14:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:14:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:47:00,172,U. of Chicago/Kenwood,,Sun
+08:20:00,171,U. of Chicago/Hyde Park,,Sat
+11:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:24:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+19:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:17:00,172,U. of Chicago/Kenwood,,Sun
+12:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:47:00,172,U. of Chicago/Kenwood,,Sun
+09:47:00,172,U. of Chicago/Kenwood,,Sun
+17:20:00,171,U. of Chicago/Hyde Park,,Sat
+18:17:00,172,U. of Chicago/Kenwood,,Sun
+11:22:00,172,U. of Chicago/Kenwood,,Sun
+15:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:58:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:17:00,172,U. of Chicago/Kenwood,,Sat
+17:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:52:00,172,U. of Chicago/Kenwood,,Sat
+06:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:52:00,172,U. of Chicago/Kenwood,,Sun
+12:22:00,172,U. of Chicago/Kenwood,,Sun
+19:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:17:00,172,U. of Chicago/Kenwood,,Sun
+09:47:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:47:00,172,U. of Chicago/Kenwood,,Sun
+10:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:22:00,172,U. of Chicago/Kenwood,,Sun
+11:50:00,171,U. of Chicago/Hyde Park,,Sat
+10:47:00,172,U. of Chicago/Kenwood,,Sat
+09:23:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:47:00,172,U. of Chicago/Kenwood,,Sat
+19:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:22:00,172,U. of Chicago/Kenwood,,Sun
+12:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:10:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:27:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:22:00,172,U. of Chicago/Kenwood,,Sun
+10:45:00,171,U. of Chicago/Hyde Park,,Sat
+08:16:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:56:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:47:00,172,U. of Chicago/Kenwood,,Sun
+16:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:52:00,172,U. of Chicago/Kenwood,,Sat
+08:25:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:52:00,172,U. of Chicago/Kenwood,,Sun
+10:13:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:15:00,171,U. of Chicago/Hyde Park,,Sat
+12:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:47:00,172,U. of Chicago/Kenwood,,Sun
+14:52:00,172,U. of Chicago/Kenwood,,Sat
+13:50:00,171,U. of Chicago/Hyde Park,,Sat
+07:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:16:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+06:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+19:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:14:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:15:00,171,U. of Chicago/Hyde Park,,Sat
+16:22:00,172,U. of Chicago/Kenwood,,Sun
+14:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:46:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:52:00,172,U. of Chicago/Kenwood,,Sun
+16:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:27:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:22:00,172,U. of Chicago/Kenwood,,Sat
+16:52:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:45:00,171,U. of Chicago/Hyde Park,,Sat
+09:04:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:22:00,172,U. of Chicago/Kenwood,,Sun
+15:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:54:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:15:00,171,U. of Chicago/Hyde Park,,Sat
+16:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:52:00,172,U. of Chicago/Kenwood,,Sat
+10:50:00,171,U. of Chicago/Hyde Park,,Sat
+17:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:52:00,172,U. of Chicago/Kenwood,,Sat
+08:37:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:45:00,171,U. of Chicago/Hyde Park,,Sat
+13:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:17:00,172,U. of Chicago/Kenwood,,Sat
+13:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:16:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:45:00,171,U. of Chicago/Hyde Park,,Sat
+11:22:00,172,U. of Chicago/Kenwood,,Sat
+14:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:25:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:12:43,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:49:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:04:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:45:00,171,U. of Chicago/Hyde Park,,Sat
+11:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:52:00,172,U. of Chicago/Kenwood,,Sun
+12:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:47:00,172,U. of Chicago/Kenwood,,Sun
+09:19:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:22:00,172,U. of Chicago/Kenwood,,Sat
+15:22:00,172,U. of Chicago/Kenwood,,Sat
+09:10:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:21:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:46:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:09:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:52:00,172,U. of Chicago/Kenwood,,Sat
+14:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:17:00,172,U. of Chicago/Kenwood,,Sat
+15:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:20:00,171,U. of Chicago/Hyde Park,,Sat
+09:55:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:47:00,172,U. of Chicago/Kenwood,,Sun
+13:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:39:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:17:00,172,U. of Chicago/Kenwood,,Sat
+07:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:47:00,172,U. of Chicago/Kenwood,,Sat
+13:15:00,171,U. of Chicago/Hyde Park,,Sat
+07:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:24:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:17:00,172,U. of Chicago/Kenwood,,Sat
+11:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:47:00,172,U. of Chicago/Kenwood,,Sun
+17:52:00,172,U. of Chicago/Kenwood,,Sat
+10:22:00,172,U. of Chicago/Kenwood,,Sun
+17:17:00,172,U. of Chicago/Kenwood,,Sun
+08:16:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:15:00,171,U. of Chicago/Hyde Park,,Sat
+12:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:52:00,172,U. of Chicago/Kenwood,,Sun
+10:23:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:52:00,172,U. of Chicago/Kenwood,,Sun
+16:52:00,172,U. of Chicago/Kenwood,,Sat
+13:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:15:00,171,U. of Chicago/Hyde Park,,Sat
+10:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:02:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:22:00,172,U. of Chicago/Kenwood,,Sat
+17:50:00,171,U. of Chicago/Hyde Park,,Sat
+16:52:00,172,U. of Chicago/Kenwood,,Sat
+18:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:50:00,171,U. of Chicago/Hyde Park,,Sat
+08:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:50:00,171,U. of Chicago/Hyde Park,,Sat
+15:50:00,171,U. of Chicago/Hyde Park,,Sat
+16:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:52:00,172,U. of Chicago/Kenwood,,Sat
+15:20:00,171,U. of Chicago/Hyde Park,,Sat
+07:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:39:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:25:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:47:00,172,U. of Chicago/Kenwood,,Sat
+08:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:16:56,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+19:17:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:02:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:16:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:17:00,172,U. of Chicago/Kenwood,,Sun
+06:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:13:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:34:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:52:00,172,U. of Chicago/Kenwood,,Sat
+16:24:52,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:50:00,171,U. of Chicago/Hyde Park,,Sat
+15:52:00,172,U. of Chicago/Kenwood,,Sat
+12:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:50:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:45:00,171,U. of Chicago/Hyde Park,,Sat
+13:22:00,172,U. of Chicago/Kenwood,,Sun
+17:47:00,172,U. of Chicago/Kenwood,,Sat
+12:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:05:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:47:00,172,U. of Chicago/Kenwood,,Sat
+11:47:00,172,U. of Chicago/Kenwood,,Sun
+16:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+06:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:20:00,171,U. of Chicago/Hyde Park,,Sat
+12:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:22:00,172,U. of Chicago/Kenwood,,Sun
+17:29:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+14:45:00,171,U. of Chicago/Hyde Park,,Sat
+07:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:22:00,172,U. of Chicago/Kenwood,,Sun
+09:45:00,171,U. of Chicago/Hyde Park,,Sat
+18:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:15:00,171,U. of Chicago/Hyde Park,,Sat
+08:14:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:10:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:37:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:17:00,172,U. of Chicago/Kenwood,,Sat
+18:52:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:15:00,171,U. of Chicago/Hyde Park,,Sat
+08:52:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:15:00,171,U. of Chicago/Hyde Park,,Sat
+15:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:44:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+10:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:47:00,172,U. of Chicago/Kenwood,,Sat
+07:56:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:17:00,172,U. of Chicago/Kenwood,,Sat
+09:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:44:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:37:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:58:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:55:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:47:00,172,U. of Chicago/Kenwood,,Sat
+19:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:47:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:17:00,172,U. of Chicago/Kenwood,,Sun
+15:52:00,172,U. of Chicago/Kenwood,,Sun
+18:15:00,171,U. of Chicago/Hyde Park,,Sat
+17:04:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:20:00,171,U. of Chicago/Hyde Park,,Sat
+08:05:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:15:00,171,U. of Chicago/Hyde Park,,Sat
+15:17:00,172,U. of Chicago/Kenwood,,Sat
+12:50:00,171,U. of Chicago/Hyde Park,,Sat
+18:22:00,172,U. of Chicago/Kenwood,,Sat
+10:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:50:00,171,U. of Chicago/Hyde Park,,Sat
+08:50:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:20:00,171,U. of Chicago/Hyde Park,,Sat
+15:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:46:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:47:00,172,U. of Chicago/Kenwood,,Sat
+08:17:00,172,U. of Chicago/Kenwood,,Sun
+09:14:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:20:00,171,U. of Chicago/Hyde Park,,Sat
+08:39:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:47:00,172,U. of Chicago/Kenwood,,Sat
+15:59:22,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:23:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:27:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:22:00,172,U. of Chicago/Kenwood,,Sat
+17:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+06:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:22:00,172,U. of Chicago/Kenwood,,Sun
+16:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:17:00,172,U. of Chicago/Kenwood,,Sat
+09:21:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:15:00,171,U. of Chicago/Hyde Park,,Sat
+09:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:59:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+11:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:47:00,172,U. of Chicago/Kenwood,,Sun
+19:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:47:00,172,U. of Chicago/Kenwood,,Sat
+10:32:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:17:00,172,U. of Chicago/Kenwood,,Sun
+15:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:17:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+19:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:15:00,171,U. of Chicago/Hyde Park,,Sat
+13:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:22:00,172,U. of Chicago/Kenwood,,Sat
+17:39:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:45:00,171,U. of Chicago/Hyde Park,,Sat
+18:17:00,172,U. of Chicago/Kenwood,,Sun
+13:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:49:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:32:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:52:00,172,U. of Chicago/Kenwood,,Sun
+17:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:20:00,171,U. of Chicago/Hyde Park,,Sat
+13:20:00,171,U. of Chicago/Hyde Park,,Sat
+08:47:00,172,U. of Chicago/Kenwood,,Sun
+18:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:50:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:58:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+06:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:22:00,172,U. of Chicago/Kenwood,,Sat
+13:17:00,172,U. of Chicago/Kenwood,,Sat
+13:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:45:00,171,U. of Chicago/Hyde Park,,Sat
+13:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:52:00,172,U. of Chicago/Kenwood,,Sat
+16:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:22:00,172,U. of Chicago/Kenwood,,Sat
+18:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:22:00,172,U. of Chicago/Kenwood,,Sat
+13:17:00,172,U. of Chicago/Kenwood,,Sat
+15:47:00,172,U. of Chicago/Kenwood,,Sun
+09:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:56:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+19:17:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:20:00,171,U. of Chicago/Hyde Park,,Sat
+15:43:43,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:22:00,172,U. of Chicago/Kenwood,,Sat
+15:45:13,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:19:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:15:00,171,U. of Chicago/Hyde Park,,Sat
+08:56:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:39:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:52:00,172,U. of Chicago/Kenwood,,Sun
+15:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:20:00,171,U. of Chicago/Hyde Park,,Sat
+09:22:00,172,U. of Chicago/Kenwood,,Sun
+12:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:45:00,171,U. of Chicago/Hyde Park,,Sat
+09:17:00,172,U. of Chicago/Kenwood,,Sun
+10:02:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:22:00,172,U. of Chicago/Kenwood,,Sun
+09:47:00,172,U. of Chicago/Kenwood,,Sun
+18:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:52:00,172,U. of Chicago/Kenwood,,Sun
+10:47:00,172,U. of Chicago/Kenwood,,Sat
+15:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:22:00,172,U. of Chicago/Kenwood,,Sat
+08:15:00,171,U. of Chicago/Hyde Park,,Sat
+17:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:10:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:52:00,172,U. of Chicago/Kenwood,,Sun
+16:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:20:00,171,U. of Chicago/Hyde Park,,Sat
+09:43:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:37:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:22:00,172,U. of Chicago/Kenwood,,Sun
+11:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:45:00,171,U. of Chicago/Hyde Park,,Sat
+10:17:00,172,U. of Chicago/Kenwood,,Sat
+17:12:52,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:52:00,172,U. of Chicago/Kenwood,,Sun
+14:20:00,171,U. of Chicago/Hyde Park,,Sat
+17:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+14:17:00,172,U. of Chicago/Kenwood,,Sun
+08:17:00,172,U. of Chicago/Kenwood,,Sat
+15:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:15:00,171,U. of Chicago/Hyde Park,,Sat
+13:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:08:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:47:00,172,U. of Chicago/Kenwood,,Sat
+16:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:50:00,171,U. of Chicago/Hyde Park,,Sat
+11:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+19:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:52:00,172,U. of Chicago/Kenwood,,Sat
+12:45:00,171,U. of Chicago/Hyde Park,,Sat
+17:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:47:00,172,U. of Chicago/Kenwood,,Sat
+16:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+18:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:52:00,172,U. of Chicago/Kenwood,,Sun
+14:45:00,171,U. of Chicago/Hyde Park,,Sat
+08:07:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:22:00,172,U. of Chicago/Kenwood,,Sat
+17:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:17:00,172,U. of Chicago/Kenwood,,Sun
+08:58:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:22:00,172,U. of Chicago/Kenwood,,Sat
+06:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:36:52,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+12:52:00,172,U. of Chicago/Kenwood,,Sat
+14:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:50:00,171,U. of Chicago/Hyde Park,,Sat
+08:39:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:52:00,172,U. of Chicago/Kenwood,,Sat
+13:52:00,172,U. of Chicago/Kenwood,,Sat
+18:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:58:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:17:00,172,U. of Chicago/Kenwood,,Sat
+15:20:00,171,U. of Chicago/Hyde Park,,Sat
+14:50:00,171,U. of Chicago/Hyde Park,,Sat
+11:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:48:52,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+18:17:00,172,U. of Chicago/Kenwood,,Sat
+15:50:00,171,U. of Chicago/Hyde Park,,Sat
+08:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:52:00,172,U. of Chicago/Kenwood,,Sun
+16:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:22:00,172,U. of Chicago/Kenwood,,Sun
+16:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:22:00,172,U. of Chicago/Kenwood,,Sat
+09:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:17:00,172,U. of Chicago/Kenwood,,Sun
+09:27:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:22:00,172,U. of Chicago/Kenwood,,Sun
+09:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:08:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:45:00,171,U. of Chicago/Hyde Park,,Sat
+16:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:22:00,172,U. of Chicago/Kenwood,,Sat
+16:50:00,171,U. of Chicago/Hyde Park,,Sat
+14:50:00,171,U. of Chicago/Hyde Park,,Sat
+12:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:22:00,172,U. of Chicago/Kenwood,,Sat
+10:16:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:04:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:47:00,172,U. of Chicago/Kenwood,,Sun
+08:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:45:00,171,U. of Chicago/Hyde Park,,Sat
+18:17:00,172,U. of Chicago/Kenwood,,Sat
+13:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:52:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:00:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:27:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:47:00,172,U. of Chicago/Kenwood,,Sat
+17:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:45:00,171,U. of Chicago/Hyde Park,,Sat
+07:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:44:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:15:00,171,U. of Chicago/Hyde Park,,Sat
+12:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+19:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+10:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:22:00,172,U. of Chicago/Kenwood,,Sun
+09:02:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:52:00,172,U. of Chicago/Kenwood,,Sun
+18:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:17:00,172,U. of Chicago/Kenwood,,Sat
+16:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+11:52:00,172,U. of Chicago/Kenwood,,Sun
+13:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:52:00,172,U. of Chicago/Kenwood,,Sun
+09:23:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:52:00,172,U. of Chicago/Kenwood,,Sun
+14:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:55:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:52:00,172,U. of Chicago/Kenwood,,Sun
+10:23:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:17:00,172,U. of Chicago/Kenwood,,Sun
+10:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:55:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:50:00,171,U. of Chicago/Hyde Park,,Sat
+12:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:47:00,172,U. of Chicago/Kenwood,,Sat
+13:17:00,172,U. of Chicago/Kenwood,,Sun
+09:43:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:07:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:14:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+07:02:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+10:17:00,172,U. of Chicago/Kenwood,,Sat
+18:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:17:00,172,U. of Chicago/Kenwood,,Sat
+17:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:20:00,171,U. of Chicago/Hyde Park,,Sat
+14:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:44:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:17:00,172,U. of Chicago/Kenwood,,Sun
+14:20:00,171,U. of Chicago/Hyde Park,,Sat
+16:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:00:52,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+10:35:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+11:20:00,171,U. of Chicago/Hyde Park,,Sat
+09:15:00,171,U. of Chicago/Hyde Park,,Sat
+18:18:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+14:52:00,172,U. of Chicago/Kenwood,,Sun
+10:04:30,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:47:00,172,U. of Chicago/Kenwood,,Sun
+13:47:00,172,U. of Chicago/Kenwood,,Sat
+12:15:00,171,U. of Chicago/Hyde Park,,Sat
+14:22:00,172,U. of Chicago/Kenwood,,Sun
+16:33:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+16:17:00,172,U. of Chicago/Kenwood,,Sat
+11:17:00,172,U. of Chicago/Kenwood,,Sun
+18:20:00,171,U. of Chicago/Hyde Park,,Sat
+15:50:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+15:45:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:22:00,172,U. of Chicago/Kenwood,,Sat
+16:17:00,172,U. of Chicago/Kenwood,,Sun
+15:22:00,172,U. of Chicago/Kenwood,,Sun
+13:47:00,172,U. of Chicago/Kenwood,,Sun
+17:47:00,172,U. of Chicago/Kenwood,,Sun
+12:22:00,172,U. of Chicago/Kenwood,,Sat
+11:15:00,171,U. of Chicago/Hyde Park,,Sat
+16:45:00,171,U. of Chicago/Hyde Park,,Sat
+14:48:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+18:03:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+12:17:00,172,U. of Chicago/Kenwood,,Sun
+10:52:00,172,U. of Chicago/Kenwood,,Sat
+15:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+13:47:00,172,U. of Chicago/Kenwood,,Sun
+07:45:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+16:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:50:00,171,U. of Chicago/Hyde Park,,Sat
+16:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:17:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:17:00,172,U. of Chicago/Kenwood,,Sat
+15:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:15:00,171,U. of Chicago/Hyde Park,,Sat
+09:22:00,172,U. of Chicago/Kenwood,,Sat
+16:17:00,172,U. of Chicago/Kenwood,,Sun
+16:12:22,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:20:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+09:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+13:45:00,171,U. of Chicago/Hyde Park,,Sat
+09:52:00,172,U. of Chicago/Kenwood,,Sat
+12:47:00,172,U. of Chicago/Kenwood,,Sat
+11:30:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+08:22:00,172,U. of Chicago/Kenwood,,Sun
+17:05:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:22:00,172,U. of Chicago/Kenwood,,Sun
+17:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+17:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+08:23:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:32:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+09:00:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+12:15:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri
+15:30:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+17:15:00,171,U. of Chicago/Hyde Park,,Mon,Tue,Wed,Thu,Fri
+07:44:00,172,U. of Chicago/Kenwood,,Mon,Tue,Wed,Thu,Fri

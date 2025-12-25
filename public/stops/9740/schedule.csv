@@ -1,0 +1,551 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+14:59:54,81W,West Lawrence,,Sun
+17:53:50,90,Harlem,,Sun
+17:24:50,90,Harlem,,Sun
+21:31:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:29:51,90,Harlem,,Sun
+20:06:51,90,Harlem,,Sat
+18:52:51,90,Harlem,,Sun
+14:02:53,81W,West Lawrence,,Sat
+09:25:21,90,Harlem,,Sat
+12:02:51,90,Harlem,,Sun
+21:06:51,90,Harlem,,Sat
+17:14:50,90,Harlem,,Sun
+05:24:53,81W,West Lawrence,,Sat
+16:14:19,90,Harlem,,Sat
+15:41:18,90,Harlem,,Sat
+18:37:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+06:05:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+09:32:53,81W,West Lawrence,,Sat
+17:41:50,90,Harlem,,Sun
+20:42:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:09:48,90,Harlem,,Sat
+18:49:53,81W,West Lawrence,,Sat
+11:37:51,90,Harlem,,Sun
+22:05:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:28:54,81W,West Lawrence,,Sun
+12:53:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:33:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+07:41:21,90,Harlem,,Sun
+12:50:24,81W,West Lawrence,,Sun
+16:31:53,81W,West Lawrence,,Sat
+13:19:48,90,Harlem,,Sat
+14:32:53,81W,West Lawrence,,Sat
+06:01:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:50:53,81W,West Lawrence,,Sat
+16:50:21,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:20:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:02:53,81W,West Lawrence,,Sat
+21:07:53,81W,West Lawrence,,Sat
+09:12:21,90,Harlem,,Sat
+11:55:53,81W,West Lawrence,,Sat
+12:56:18,90,Harlem,,Sat
+14:58:49,90,Harlem,,Sun
+20:21:24,81W,West Lawrence,,Sun
+10:21:20,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:28:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+07:24:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+07:35:21,90,Harlem,,Sat
+12:27:18,90,Harlem,,Sat
+15:23:18,90,Harlem,,Sat
+15:45:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:32:53,81W,West Lawrence,,Sat
+16:28:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+05:35:52,90,Harlem,,Sat
+12:34:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:59:54,81W,West Lawrence,,Sun
+06:51:21,90,Harlem,,Sun
+17:49:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:21:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:54:48,90,Harlem,,Sat
+10:58:20,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+21:17:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:59:53,81W,West Lawrence,,Sun
+20:23:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+07:37:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:34:18,90,Harlem,,Sat
+22:45:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:53:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:43:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:44:19,90,Harlem,,Sun
+09:40:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:35:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+21:58:54,81W,West Lawrence,,Sun
+04:56:52,90,Harlem,,Sat
+06:55:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:40:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:23:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:08:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:02:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:29:54,81W,West Lawrence,,Sun
+19:15:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+07:32:53,81W,West Lawrence,,Sat
+19:19:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:06:51,90,Harlem,,Sat
+11:02:53,81W,West Lawrence,,Sat
+09:57:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+07:11:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:54:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+07:36:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:19:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:26:51,90,Harlem,,Sat
+20:56:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:46:51,90,Harlem,,Sat
+20:02:53,81W,West Lawrence,,Sat
+09:00:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+09:44:21,90,Harlem,,Sat
+08:28:53,81W,West Lawrence,,Sat
+09:02:53,81W,West Lawrence,,Sat
+08:08:51,90,Harlem,,Sat
+13:14:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:17:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:09:51,90,Harlem,,Sun
+20:26:51,90,Harlem,,Sat
+10:05:50,90,Harlem,,Sat
+10:21:20,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:08:51,90,Harlem,,Sat
+15:45:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:17:21,90,Harlem,,Sun
+10:15:21,90,Harlem,,Sun
+19:11:51,90,Harlem,,Sun
+18:37:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+14:51:24,81W,West Lawrence,,Sun
+15:32:53,81W,West Lawrence,,Sat
+16:27:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:22:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+19:14:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+18:04:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+21:32:53,81W,West Lawrence,,Sat
+09:57:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:33:22,90,Harlem,,Sat
+12:18:18,90,Harlem,,Sat
+13:43:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:50:53,81W,West Lawrence,,Sun
+12:37:18,90,Harlem,,Sat
+20:15:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:45:53,81W,West Lawrence,,Sat
+17:29:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:06:51,90,Harlem,,Sat
+10:00:53,81W,West Lawrence,,Sat
+11:36:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+14:48:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+09:26:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:21:23,81W,West Lawrence,,Sun
+08:50:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:20:51,90,Harlem,,Sun
+14:47:18,90,Harlem,,Sat
+16:16:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:54:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:58:49,90,Harlem,,Sun
+05:24:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:26:53,81W,West Lawrence,,Sat
+16:13:50,90,Harlem,,Sun
+11:59:18,90,Harlem,,Sat
+07:50:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:51:53,81W,West Lawrence,,Sat
+06:37:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:02:53,81W,West Lawrence,,Sat
+08:42:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:19:49,90,Harlem,,Sun
+14:18:49,90,Harlem,,Sun
+07:19:53,81W,West Lawrence,,Sat
+20:48:51,90,Harlem,,Sun
+16:50:21,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:59:54,81W,West Lawrence,,Sun
+12:03:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:29:18,90,Harlem,,Sat
+05:50:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+19:02:53,81W,West Lawrence,,Sat
+19:26:51,90,Harlem,,Sat
+17:33:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+18:06:51,90,Harlem,,Sat
+11:01:19,90,Harlem,,Sat
+13:36:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:29:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:35:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+22:21:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:34:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:47:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+04:25:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:32:53,81W,West Lawrence,,Sat
+08:28:21,90,Harlem,,Sat
+17:18:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:32:53,81W,West Lawrence,,Sat
+19:46:51,90,Harlem,,Sat
+17:07:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:07:50,90,Harlem,,Sun
+20:09:51,90,Harlem,,Sun
+13:02:53,81W,West Lawrence,,Sat
+14:13:53,81W,West Lawrence,,Sat
+10:42:19,90,Harlem,,Sat
+07:58:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:29:54,81W,West Lawrence,,Sun
+19:50:21,90,Harlem,,Sun
+04:45:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:39:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:33:49,90,Harlem,,Sat
+12:01:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:53:51,90,Harlem,,Sat
+06:54:21,90,Harlem,,Sun
+16:34:49,90,Harlem,,Sat
+14:29:48,90,Harlem,,Sat
+17:17:53,81W,West Lawrence,,Sat
+14:08:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:18:20,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+19:55:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+05:58:52,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+09:51:23,81W,West Lawrence,,Sun
+14:36:53,81W,West Lawrence,,Sat
+12:58:49,90,Harlem,,Sun
+09:33:21,90,Harlem,,Sun
+15:01:19,90,Harlem,,Sun
+06:02:53,81W,West Lawrence,,Sat
+16:59:54,81W,West Lawrence,,Sun
+19:58:53,81W,West Lawrence,,Sat
+15:21:24,81W,West Lawrence,,Sun
+06:36:22,90,Harlem,,Sat
+08:02:53,81W,West Lawrence,,Sat
+10:22:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:51:24,81W,West Lawrence,,Sun
+10:59:54,81W,West Lawrence,,Sun
+14:11:18,90,Harlem,,Sat
+04:54:53,81W,West Lawrence,,Sat
+07:42:53,81W,West Lawrence,,Sat
+16:53:19,90,Harlem,,Sat
+19:30:51,90,Harlem,,Sun
+18:06:51,90,Harlem,,Sat
+21:21:24,81W,West Lawrence,,Sun
+13:00:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:18:19,90,Harlem,,Sun
+07:15:51,90,Harlem,,Sat
+13:03:49,90,Harlem,,Sun
+09:29:54,81W,West Lawrence,,Sun
+22:02:53,81W,West Lawrence,,Sat
+16:35:50,90,Harlem,,Sun
+06:52:51,90,Harlem,,Sat
+13:18:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+07:16:21,90,Harlem,,Sun
+05:57:22,90,Harlem,,Sat
+05:32:53,81W,West Lawrence,,Sat
+15:37:49,90,Harlem,,Sun
+11:20:19,90,Harlem,,Sat
+06:55:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:59:54,81W,West Lawrence,,Sun
+19:30:51,90,Harlem,,Sun
+18:34:20,90,Harlem,,Sun
+09:08:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:46:51,90,Harlem,,Sat
+08:20:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:08:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+04:45:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:06:21,90,Harlem,,Sun
+18:20:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:56:48,90,Harlem,,Sat
+20:26:51,90,Harlem,,Sat
+16:51:19,90,Harlem,,Sat
+13:52:48,90,Harlem,,Sat
+15:21:48,90,Harlem,,Sat
+17:02:53,81W,West Lawrence,,Sat
+11:32:53,81W,West Lawrence,,Sat
+20:48:51,90,Harlem,,Sun
+17:48:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:32:49,90,Harlem,,Sat
+16:05:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:03:21,90,Harlem,,Sat
+13:24:19,90,Harlem,,Sun
+11:02:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:41:51,90,Harlem,,Sun
+06:10:53,81W,West Lawrence,,Sat
+20:51:24,81W,West Lawrence,,Sun
+19:57:20,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+14:21:24,81W,West Lawrence,,Sun
+18:03:53,81W,West Lawrence,,Sat
+17:21:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+19:11:21,90,Harlem,,Sun
+08:20:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:00:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+14:44:19,90,Harlem,,Sun
+11:09:53,81W,West Lawrence,,Sat
+06:38:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:44:48,90,Harlem,,Sat
+07:54:51,90,Harlem,,Sat
+21:57:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+14:04:19,90,Harlem,,Sun
+07:41:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+07:48:21,90,Harlem,,Sun
+18:54:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:02:53,81W,West Lawrence,,Sat
+12:03:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:06:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+06:19:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:49:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:54:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:37:18,90,Harlem,,Sat
+15:59:54,81W,West Lawrence,,Sun
+19:49:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:21:53,81W,West Lawrence,,Sat
+12:21:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:03:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:21:23,81W,West Lawrence,,Sun
+08:20:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:22:53,81W,West Lawrence,,Sat
+13:15:18,90,Harlem,,Sat
+06:16:52,90,Harlem,,Sat
+10:22:50,90,Harlem,,Sat
+17:48:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:54:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:03:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:05:53,81W,West Lawrence,,Sat
+16:29:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:44:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:32:53,81W,West Lawrence,,Sat
+05:17:52,90,Harlem,,Sat
+08:51:21,90,Harlem,,Sun
+05:47:53,81W,West Lawrence,,Sat
+12:41:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:18:53,81W,West Lawrence,,Sat
+09:32:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:32:53,81W,West Lawrence,,Sat
+16:29:54,81W,West Lawrence,,Sun
+14:13:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+18:31:21,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:26:21,90,Harlem,,Sun
+19:35:53,81W,West Lawrence,,Sat
+09:14:53,81W,West Lawrence,,Sat
+21:38:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:02:21,90,Harlem,,Sun
+12:02:53,81W,West Lawrence,,Sat
+09:12:21,90,Harlem,,Sun
+07:11:51,90,Harlem,,Sat
+08:12:21,90,Harlem,,Sun
+17:35:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:32:53,81W,West Lawrence,,Sat
+08:14:51,90,Harlem,,Sat
+09:37:53,81W,West Lawrence,,Sat
+12:22:51,90,Harlem,,Sun
+07:49:51,90,Harlem,,Sat
+21:30:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+14:58:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:02:53,81W,West Lawrence,,Sat
+18:46:51,90,Harlem,,Sat
+09:20:53,81W,West Lawrence,,Sun
+09:54:21,90,Harlem,,Sun
+18:04:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:43:20,90,Harlem,,Sun
+18:56:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:51:54,81W,West Lawrence,,Sun
+18:51:51,90,Harlem,,Sun
+07:22:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:59:18,90,Harlem,,Sat
+17:47:51,90,Harlem,,Sat
+16:49:50,90,Harlem,,Sun
+10:23:53,81W,West Lawrence,,Sat
+14:33:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:59:54,81W,West Lawrence,,Sun
+11:38:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:29:54,81W,West Lawrence,,Sun
+15:22:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:02:18,90,Harlem,,Sat
+14:58:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:58:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+05:24:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:56:53,81W,West Lawrence,,Sat
+19:46:51,90,Harlem,,Sat
+11:17:51,90,Harlem,,Sun
+19:12:53,81W,West Lawrence,,Sat
+09:47:51,90,Harlem,,Sat
+14:38:49,90,Harlem,,Sun
+18:31:21,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:00:53,81W,West Lawrence,,Sun
+15:19:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:29:21,90,Harlem,,Sun
+05:17:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+19:21:24,81W,West Lawrence,,Sun
+08:29:53,81W,West Lawrence,,Sun
+12:14:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:08:53,81W,West Lawrence,,Sat
+07:02:53,81W,West Lawrence,,Sat
+18:15:20,90,Harlem,,Sun
+19:51:24,81W,West Lawrence,,Sun
+11:57:51,90,Harlem,,Sun
+11:29:54,81W,West Lawrence,,Sun
+19:36:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+18:20:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:05:18,90,Harlem,,Sat
+04:55:52,90,Harlem,,Sat
+16:16:20,90,Harlem,,Sun
+05:19:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:29:54,81W,West Lawrence,,Sun
+07:14:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:29:21,90,Harlem,,Sun
+07:30:51,90,Harlem,,Sat
+16:16:49,90,Harlem,,Sat
+14:28:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:53:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:41:19,90,Harlem,,Sat
+17:09:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:43:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:01:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:55:20,90,Harlem,,Sun
+17:34:20,90,Harlem,,Sun
+07:07:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+05:55:22,90,Harlem,,Sat
+10:57:21,90,Harlem,,Sun
+18:26:51,90,Harlem,,Sat
+10:22:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:51:23,81W,West Lawrence,,Sun
+18:08:21,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:47:21,90,Harlem,,Sat
+16:08:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:41:53,81W,West Lawrence,,Sat
+18:26:51,90,Harlem,,Sat
+15:53:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:14:18,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+06:14:22,90,Harlem,,Sat
+19:32:53,81W,West Lawrence,,Sat
+04:35:52,90,Harlem,,Sat
+12:30:53,81W,West Lawrence,,Sun
+04:25:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:57:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:06:21,90,Harlem,,Sat
+06:11:52,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:58:49,90,Harlem,,Sat
+10:48:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:46:51,90,Harlem,,Sat
+19:35:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:39:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:59:54,81W,West Lawrence,,Sun
+21:31:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:02:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:57:19,90,Harlem,,Sun
+09:44:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:40:53,81W,West Lawrence,,Sat
+14:24:19,90,Harlem,,Sun
+18:08:21,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+05:37:52,90,Harlem,,Sat
+07:36:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:58:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:02:53,81W,West Lawrence,,Sat
+07:22:21,90,Harlem,,Sun
+05:04:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:21:24,81W,West Lawrence,,Sun
+06:24:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+18:29:54,81W,West Lawrence,,Sun
+22:05:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+13:34:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:51:49,90,Harlem,,Sat
+21:30:53,81W,West Lawrence,,Sat
+05:45:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+05:15:52,90,Harlem,,Sat
+06:53:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+18:51:23,81W,West Lawrence,,Sun
+17:21:54,81W,West Lawrence,,Sun
+15:56:19,90,Harlem,,Sun
+13:29:54,81W,West Lawrence,,Sun
+06:19:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:36:51,90,Harlem,,Sun
+15:39:18,90,Harlem,,Sat
+15:04:48,90,Harlem,,Sat
+11:51:23,81W,West Lawrence,,Sun
+14:12:18,90,Harlem,,Sat
+13:32:53,81W,West Lawrence,,Sat
+17:29:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+10:41:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:18:49,90,Harlem,,Sun
+15:38:19,90,Harlem,,Sun
+18:32:53,81W,West Lawrence,,Sat
+17:09:51,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:10:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:51:24,81W,West Lawrence,,Sun
+14:47:18,90,Harlem,,Sat
+08:34:51,90,Harlem,,Sun
+20:44:53,81W,West Lawrence,,Sat
+05:04:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:51:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+21:02:53,81W,West Lawrence,,Sat
+07:58:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+17:32:53,81W,West Lawrence,,Sat
+17:10:21,90,Harlem,,Sat
+07:14:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:59:54,81W,West Lawrence,,Sun
+15:24:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:39:50,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:51:24,81W,West Lawrence,,Sun
+13:18:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+20:06:51,90,Harlem,,Sat
+16:54:53,81W,West Lawrence,,Sat
+14:31:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+06:37:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:46:51,90,Harlem,,Sat
+08:34:21,90,Harlem,,Sat
+12:38:20,90,Harlem,,Sun
+18:32:50,90,Harlem,,Sun
+13:21:24,81W,West Lawrence,,Sun
+18:54:22,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+18:13:20,90,Harlem,,Sun
+09:07:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+16:32:53,81W,West Lawrence,,Sat
+21:26:51,90,Harlem,,Sat
+19:59:54,81W,West Lawrence,,Sun
+16:31:50,90,Harlem,,Sun
+22:43:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+09:38:21,90,Harlem,,Sun
+13:18:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+21:53:53,81W,West Lawrence,,Sat
+14:11:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+12:28:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+22:21:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+05:31:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+10:48:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+11:55:19,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:38:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:32:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+15:29:54,81W,West Lawrence,,Sun
+13:27:53,81W,West Lawrence,,Sat
+09:30:21,90,Harlem,,Sat
+08:17:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+16:00:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+19:06:51,90,Harlem,,Sat
+08:56:21,90,Harlem,,Sun
+11:13:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+08:42:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:17:51,90,Harlem,,Sun
+18:21:53,81W,West Lawrence,,Sun
+10:23:20,90,Harlem,,Sat
+06:33:53,81W,West Lawrence,,Sat
+11:42:51,90,Harlem,,Sun
+11:41:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+04:35:52,90,Harlem,,Sat
+06:18:52,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:38:49,90,Harlem,,Sun
+06:26:21,90,Harlem,,Sun
+13:43:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:01:53,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+06:56:21,90,Harlem,,Sat
+16:51:54,81W,West Lawrence,,Sun
+10:00:51,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+17:27:51,90,Harlem,,Sat
+11:22:51,90,Harlem,,Sun
+19:26:51,90,Harlem,,Sat
+19:49:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+09:59:21,90,Harlem,,Sun
+19:29:54,81W,West Lawrence,,Sun
+06:31:52,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+13:04:53,81W,West Lawrence,,Sat
+09:07:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+14:59:53,81W,West Lawrence,,Sat
+17:58:50,90,Harlem,,Sun
+08:20:53,81W,West Lawrence,,Sun
+16:40:48,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+15:04:49,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:39:49,90,Harlem,,Sat
+06:45:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+11:13:52,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri
+12:20:24,81W,West Lawrence,,Sun
+10:46:53,81W,West Lawrence,,Sat
+19:50:21,90,Harlem,,Sun
+17:28:51,90,Harlem,,Sat
+11:16:19,90,Harlem,,Sat
+05:03:22,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+08:33:21,90,Harlem,,Mon,Tue,Wed,Thu,Fri
+20:57:23,81W,West Lawrence,,Mon,Tue,Wed,Thu,Fri

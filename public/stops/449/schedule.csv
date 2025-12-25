@@ -1,0 +1,2219 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+07:00:08,20,Madison,,Sat
+21:33:41,56,Milwaukee,,Sat
+09:37:42,56,Milwaukee,,Sat
+14:30:26,J14,Jeffery Jump,,Sat
+23:33:22,J14,Jeffery Jump,,Sat
+05:50:39,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:34:04,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:59:46,147,Outer DuSable Lake Shore Express,,Sat
+12:49:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:04:09,J14,Jeffery Jump,,Sun
+08:17:29,J14,Jeffery Jump,,Sat
+14:50:08,20,Madison,,Sun
+01:10:33,4,Cottage Grove,,Sun
+21:17:03,147,Outer DuSable Lake Shore Express,,Sat
+01:10:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+07:17:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:59:24,J14,Jeffery Jump,,Sun
+06:00:56,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:13:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:21:37,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:34:38,20,Madison,,Sun
+16:49:08,20,Madison,,Sat
+12:35:25,147,Outer DuSable Lake Shore Express,,Sat
+18:20:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:51:42,56,Milwaukee,,Sat
+18:36:08,20,Madison,,Sat
+19:43:44,J14,Jeffery Jump,,Sun
+07:48:08,20,Madison,,Sat
+08:45:08,20,Madison,,Sat
+10:33:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:19:24,J14,Jeffery Jump,,Sun
+11:47:40,147,Outer DuSable Lake Shore Express,,Sat
+20:51:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:41:00,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+23:18:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:17:40,147,Outer DuSable Lake Shore Express,,Sun
+16:20:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+02:10:31,66,Chicago,,Sun
+05:29:08,20,Madison,,Sat
+19:43:59,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:05:32,147,Outer DuSable Lake Shore Express,,Sat
+06:00:02,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:02:27,J14,Jeffery Jump,,Sat
+07:53:04,147,Outer DuSable Lake Shore Express,,Sun
+19:58:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:10:52,56,Milwaukee,,Sun
+14:11:57,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:28:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:49:14,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:47:40,147,Outer DuSable Lake Shore Express,,Sun
+15:10:29,J14,Jeffery Jump,,Sat
+19:32:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:45:40,147,Outer DuSable Lake Shore Express,,Sun
+11:41:08,20,Madison,,Sat
+18:58:08,20,Madison,,Sun
+15:24:36,56,Milwaukee,,Sun
+16:28:25,147,Outer DuSable Lake Shore Express,,Sun
+20:38:19,J14,Jeffery Jump,,Sat
+09:59:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:09:41,56,Milwaukee,,Sun
+13:55:42,J14,Jeffery Jump,,Sun
+15:52:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:05:49,J14,Jeffery Jump,,Sat
+20:23:17,J14,Jeffery Jump,,Sun
+03:10:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:49:08,20,Madison,,Sat
+06:35:39,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:34:37,56,Milwaukee,,Sat
+15:55:08,20,Madison,,Sat
+12:49:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:17:22,56,Milwaukee,,Sat
+17:48:08,20,Madison,,Sat
+09:43:18,147,Outer DuSable Lake Shore Express,,Sun
+15:02:10,147,Outer DuSable Lake Shore Express,,Sun
+14:10:29,J14,Jeffery Jump,,Sat
+17:28:08,20,Madison,,Sat
+18:39:56,J14,Jeffery Jump,,Sat
+15:56:36,56,Milwaukee,,Sun
+04:10:33,66,Chicago,,Sat
+16:54:10,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+09:00:59,J14,Jeffery Jump,,Sun
+16:17:55,147,Outer DuSable Lake Shore Express,,Sun
+18:28:08,20,Madison,,Sun
+11:11:08,20,Madison,,Sat
+13:31:08,20,Madison,,Sat
+20:34:08,20,Madison,,Sat
+20:13:42,J14,Jeffery Jump,,Sun
+02:10:34,20,Madison,,Sun
+10:59:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:55:44,J14,Jeffery Jump,,Sun
+17:07:46,147,Outer DuSable Lake Shore Express,,Sat
+10:01:08,20,Madison,,Sat
+14:08:01,147,Outer DuSable Lake Shore Express,,Sat
+16:22:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:44:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:22:11,147,Outer DuSable Lake Shore Express,,Sat
+18:07:40,147,Outer DuSable Lake Shore Express,,Sun
+11:43:04,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+02:10:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+16:54:09,J14,Jeffery Jump,,Sun
+11:56:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:47:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:20:08,20,Madison,,Sun
+17:39:01,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:17:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:33:48,147,Outer DuSable Lake Shore Express,,Sun
+13:37:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:22:40,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:06:08,20,Madison,,Sun
+17:18:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:59:31,147,Outer DuSable Lake Shore Express,,Sat
+11:19:22,J14,Jeffery Jump,,Sun
+15:25:09,J14,Jeffery Jump,,Sun
+03:10:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:26:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:13:39,147,Outer DuSable Lake Shore Express,,Sat
+00:24:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+19:41:41,147,Outer DuSable Lake Shore Express,,Sun
+11:09:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:51:12,56,Milwaukee,,Sun
+20:32:56,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:10:34,20,Madison,,Sun
+20:18:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:37:08,20,Madison,,Sat
+09:40:47,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:38:08,20,Madison,,Sun
+20:12:56,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:54:08,20,Madison,,Sat
+08:21:08,20,Madison,,Sat
+21:02:11,147,Outer DuSable Lake Shore Express,,Sun
+08:40:38,20,Madison,,Sun
+19:57:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:14:01,147,Outer DuSable Lake Shore Express,,Sat
+22:59:04,147,Outer DuSable Lake Shore Express,,Sun
+21:50:48,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:01:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+23:05:52,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:53:41,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:55:11,147,Outer DuSable Lake Shore Express,,Sun
+04:40:33,66,Chicago,,Sun
+05:10:33,4,Cottage Grove,,Sun
+18:53:42,J14,Jeffery Jump,,Sun
+17:05:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:57:30,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+01:10:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+06:29:38,20,Madison,,Sun
+11:50:08,20,Madison,,Sun
+21:37:03,147,Outer DuSable Lake Shore Express,,Sat
+13:26:06,J14,Jeffery Jump,,Sun
+20:22:59,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:24:09,147,Outer DuSable Lake Shore Express,,Sat
+18:23:02,147,Outer DuSable Lake Shore Express,,Sat
+08:27:29,J14,Jeffery Jump,,Sat
+16:29:42,56,Milwaukee,,Sun
+09:53:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:44:29,J14,Jeffery Jump,,Sat
+21:14:08,20,Madison,,Sat
+09:53:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:24:08,20,Madison,,Sat
+08:17:26,147,Outer DuSable Lake Shore Express,,Sat
+22:21:08,20,Madison,,Sun
+13:10:56,J14,Jeffery Jump,,Sat
+17:47:40,147,Outer DuSable Lake Shore Express,,Sun
+17:41:25,147,Outer DuSable Lake Shore Express,,Sat
+10:43:40,147,Outer DuSable Lake Shore Express,,Sat
+09:09:18,147,Outer DuSable Lake Shore Express,,Sun
+09:54:11,147,Outer DuSable Lake Shore Express,,Sat
+14:07:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:36:08,20,Madison,,Sun
+16:07:52,56,Milwaukee,,Sat
+16:32:46,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:40:08,20,Madison,,Sun
+03:40:33,66,Chicago,,Sat
+18:58:14,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:26:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:54:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+02:10:31,66,Chicago,,Sun
+10:59:22,J14,Jeffery Jump,,Sun
+21:17:03,147,Outer DuSable Lake Shore Express,,Sat
+08:39:08,20,Madison,,Sun
+13:00:48,147,Outer DuSable Lake Shore Express,,Sun
+05:28:28,56,Milwaukee,,Sun
+16:53:46,147,Outer DuSable Lake Shore Express,,Sat
+07:45:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:03:55,147,Outer DuSable Lake Shore Express,,Sat
+21:59:34,147,Outer DuSable Lake Shore Express,,Sun
+10:04:17,J14,Jeffery Jump,,Sat
+03:10:29,66,Chicago,,Sat
+17:28:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:37:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:17:27,J14,Jeffery Jump,,Sat
+22:11:27,J14,Jeffery Jump,,Sun
+09:31:09,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:57:11,56,Milwaukee,,Sun
+07:56:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+20:23:19,J14,Jeffery Jump,,Sun
+09:37:41,56,Milwaukee,,Sat
+17:23:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:54:06,J14,Jeffery Jump,,Sun
+13:40:08,20,Madison,,Sun
+18:54:08,20,Madison,,Sat
+18:40:02,147,Outer DuSable Lake Shore Express,,Sat
+10:19:26,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:26:52,56,Milwaukee,,Sun
+10:16:20,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:18:08,20,Madison,,Sun
+13:51:01,147,Outer DuSable Lake Shore Express,,Sat
+15:56:37,56,Milwaukee,,Sun
+20:58:08,20,Madison,,Sun
+15:19:08,20,Madison,,Sat
+02:10:33,4,Cottage Grove,,Sun
+09:10:08,20,Madison,,Sun
+08:22:38,20,Madison,,Sun
+14:20:08,20,Madison,,Sun
+18:37:40,147,Outer DuSable Lake Shore Express,,Sun
+12:46:08,20,Madison,,Sat
+19:19:11,147,Outer DuSable Lake Shore Express,,Sun
+12:28:08,20,Madison,,Sat
+11:47:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:05:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:20:08,20,Madison,,Sun
+13:56:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:32:59,J14,Jeffery Jump,,Sun
+13:04:08,20,Madison,,Sat
+02:40:33,4,Cottage Grove,,Mon
+18:47:48,147,Outer DuSable Lake Shore Express,,Sun
+06:08:27,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:11:08,20,Madison,,Sat
+16:49:56,J14,Jeffery Jump,,Sat
+13:41:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+22:51:29,J14,Jeffery Jump,,Sun
+17:18:12,56,Milwaukee,,Sun
+08:50:57,J14,Jeffery Jump,,Sun
+19:13:40,147,Outer DuSable Lake Shore Express,,Sat
+19:13:44,J14,Jeffery Jump,,Sun
+09:30:57,J14,Jeffery Jump,,Sun
+16:22:08,20,Madison,,Sat
+23:13:22,J14,Jeffery Jump,,Sat
+12:52:37,56,Milwaukee,,Sun
+07:09:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+22:56:24,J14,Jeffery Jump,,Sat
+10:19:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:34:38,20,Madison,,Sun
+18:46:36,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:13:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:25:16,147,Outer DuSable Lake Shore Express,,Sat
+12:47:12,J14,Jeffery Jump,,Sun
+20:48:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:16:08,20,Madison,,Sat
+15:50:46,147,Outer DuSable Lake Shore Express,,Sat
+18:37:27,56,Milwaukee,,Sat
+19:55:25,147,Outer DuSable Lake Shore Express,,Sat
+08:45:08,20,Madison,,Sat
+14:53:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:02:59,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+09:34:19,J14,Jeffery Jump,,Sat
+10:43:40,147,Outer DuSable Lake Shore Express,,Sat
+00:30:33,4,Cottage Grove,,Sun
+09:01:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:48:17,J14,Jeffery Jump,,Sat
+20:48:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:04:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:39:16,147,Outer DuSable Lake Shore Express,,Sat
+21:56:29,J14,Jeffery Jump,,Sun
+19:22:40,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:49:20,56,Milwaukee,,Sat
+12:07:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:27:17,147,Outer DuSable Lake Shore Express,,Sat
+06:17:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:16:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:03:33,56,Milwaukee,,Sun
+21:37:03,147,Outer DuSable Lake Shore Express,,Sat
+07:25:33,56,Milwaukee,,Sun
+13:50:08,20,Madison,,Sun
+21:18:08,20,Madison,,Sun
+19:30:18,147,Outer DuSable Lake Shore Express,,Sat
+18:48:08,20,Madison,,Sun
+10:53:06,56,Milwaukee,,Sat
+18:05:48,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:30:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+03:40:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:20:08,20,Madison,,Sun
+09:40:08,20,Madison,,Sun
+01:40:33,66,Chicago,,Mon
+04:10:34,20,Madison,,Sun
+10:05:53,56,Milwaukee,,Sun
+00:40:34,20,Madison,,Sun
+19:07:44,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:10:29,66,Chicago,,Sat
+19:39:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:15:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:21:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:16:25,56,Milwaukee,,Sat
+08:37:27,J14,Jeffery Jump,,Sat
+09:01:08,20,Madison,,Sat
+19:44:08,20,Madison,,Sat
+01:40:33,4,Cottage Grove,,Sun
+20:10:53,56,Milwaukee,,Sun
+23:38:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:39:30,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:18:10,147,Outer DuSable Lake Shore Express,,Sun
+15:42:16,147,Outer DuSable Lake Shore Express,,Sat
+21:51:08,20,Madison,,Sun
+18:40:39,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:20:41,147,Outer DuSable Lake Shore Express,,Sun
+08:33:26,147,Outer DuSable Lake Shore Express,,Sat
+20:58:19,J14,Jeffery Jump,,Sat
+14:16:54,147,Outer DuSable Lake Shore Express,,Sat
+10:41:08,20,Madison,,Sat
+10:41:08,20,Madison,,Sat
+11:14:12,J14,Jeffery Jump,,Sat
+13:40:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:53:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:08:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:30:26,J14,Jeffery Jump,,Sat
+17:57:55,147,Outer DuSable Lake Shore Express,,Sat
+22:40:34,147,Outer DuSable Lake Shore Express,,Sun
+12:10:08,20,Madison,,Sat
+01:40:33,4,Cottage Grove,,Sun
+00:25:34,20,Madison,,Sun
+19:29:09,J14,Jeffery Jump,,Sat
+15:20:08,20,Madison,,Sun
+20:48:19,J14,Jeffery Jump,,Sat
+10:24:19,J14,Jeffery Jump,,Sat
+12:28:47,J14,Jeffery Jump,,Sun
+07:15:08,20,Madison,,Sat
+01:14:33,4,Cottage Grove,,Mon
+09:41:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:43:17,J14,Jeffery Jump,,Sun
+12:42:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:48:08,20,Madison,,Sun
+10:29:54,J14,Jeffery Jump,,Sun
+23:33:24,J14,Jeffery Jump,,Sat
+08:35:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:34:47,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:27:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:40:08,20,Madison,,Sat
+21:59:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:37:08,20,Madison,,Sat
+23:31:08,20,Madison,,Sun
+21:09:18,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:37:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:36:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:08:57,56,Milwaukee,,Sun
+23:46:08,20,Madison,,Sat
+17:51:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:35:44,J14,Jeffery Jump,,Sun
+14:49:22,56,Milwaukee,,Sat
+10:59:40,147,Outer DuSable Lake Shore Express,,Sat
+09:50:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+16:39:59,J14,Jeffery Jump,,Sat
+13:13:08,20,Madison,,Sat
+11:57:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:03:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+09:33:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:28:17,J14,Jeffery Jump,,Sat
+01:10:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+12:01:29,J14,Jeffery Jump,,Sat
+12:03:40,147,Outer DuSable Lake Shore Express,,Sat
+11:40:08,20,Madison,,Sun
+15:46:08,20,Madison,,Sat
+14:16:54,147,Outer DuSable Lake Shore Express,,Sat
+16:59:59,J14,Jeffery Jump,,Sat
+18:38:08,20,Madison,,Sun
+10:26:11,147,Outer DuSable Lake Shore Express,,Sat
+21:39:34,147,Outer DuSable Lake Shore Express,,Sun
+13:56:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:56:16,56,Milwaukee,,Sat
+18:32:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:08:08,20,Madison,,Sun
+10:39:29,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:28:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:35:20,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:57:55,147,Outer DuSable Lake Shore Express,,Sun
+05:53:33,56,Milwaukee,,Sun
+20:38:08,20,Madison,,Sun
+20:53:22,56,Milwaukee,,Sun
+23:05:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:40:26,J14,Jeffery Jump,,Sat
+21:20:18,147,Outer DuSable Lake Shore Express,,Sun
+15:05:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:50:08,20,Madison,,Sun
+08:24:25,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:59:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:11:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:00:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:10:34,20,Madison,,Mon
+15:58:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:55:11,147,Outer DuSable Lake Shore Express,,Sun
+20:29:55,147,Outer DuSable Lake Shore Express,,Sat
+08:02:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:03:22,56,Milwaukee,,Sat
+19:35:14,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:26:32,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:32:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:02:56,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:34:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:17:52,56,Milwaukee,,Sat
+23:46:08,20,Madison,,Sat
+08:13:38,20,Madison,,Sat
+18:27:40,147,Outer DuSable Lake Shore Express,,Sun
+10:39:22,J14,Jeffery Jump,,Sun
+09:54:11,147,Outer DuSable Lake Shore Express,,Sat
+20:08:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:13:42,56,Milwaukee,,Sun
+19:04:08,20,Madison,,Sat
+15:40:08,20,Madison,,Sun
+08:37:29,J14,Jeffery Jump,,Sat
+04:40:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:52:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:56:40,56,Milwaukee,,Sat
+18:37:25,56,Milwaukee,,Sat
+01:10:34,20,Madison,,Mon
+08:53:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:50:08,20,Madison,,Sun
+13:27:37,56,Milwaukee,,Sun
+05:07:16,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+16:09:59,J14,Jeffery Jump,,Sat
+12:20:59,J14,Jeffery Jump,,Sat
+16:59:08,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:13:08,20,Madison,,Sat
+21:31:38,20,Madison,,Sat
+11:09:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:18:04,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:59:34,147,Outer DuSable Lake Shore Express,,Sun
+09:51:08,20,Madison,,Sat
+19:48:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+03:40:33,66,Chicago,,Sun
+12:10:59,J14,Jeffery Jump,,Sat
+04:10:33,66,Chicago,,Sat
+04:10:33,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+15:16:46,147,Outer DuSable Lake Shore Express,,Sat
+13:55:48,147,Outer DuSable Lake Shore Express,,Sun
+00:50:33,4,Cottage Grove,,Sun
+18:09:56,J14,Jeffery Jump,,Sat
+12:19:08,20,Madison,,Sat
+22:05:47,J14,Jeffery Jump,,Sat
+15:24:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:08:08,20,Madison,,Sat
+09:10:52,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:34:08,20,Madison,,Sat
+07:03:52,56,Milwaukee,,Sat
+23:00:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:10:08,20,Madison,,Sun
+01:10:34,20,Madison,,Mon
+10:49:22,J14,Jeffery Jump,,Sun
+20:09:09,J14,Jeffery Jump,,Sat
+13:09:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:10:08,20,Madison,,Sat
+10:09:26,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:20:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+04:10:34,20,Madison,,Sat
+12:00:08,20,Madison,,Sun
+17:03:23,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:26:18,147,Outer DuSable Lake Shore Express,,Sun
+19:25:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:25:34,20,Madison,,Mon
+15:19:08,20,Madison,,Sat
+17:17:40,147,Outer DuSable Lake Shore Express,,Sun
+18:50:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:09:25,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:38:41,56,Milwaukee,,Sun
+18:27:40,147,Outer DuSable Lake Shore Express,,Sun
+17:07:46,147,Outer DuSable Lake Shore Express,,Sat
+13:17:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+09:56:11,56,Milwaukee,,Sat
+21:09:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:41:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:04:57,J14,Jeffery Jump,,Sun
+09:06:24,J14,Jeffery Jump,,Sat
+12:16:57,56,Milwaukee,,Sat
+16:56:42,56,Milwaukee,,Sat
+07:37:08,20,Madison,,Sun
+17:45:50,56,Milwaukee,,Sat
+17:18:08,20,Madison,,Sat
+03:40:33,4,Cottage Grove,,Sat
+22:31:27,J14,Jeffery Jump,,Sun
+09:49:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:18:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:19:50,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:50:19,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:51:08,20,Madison,,Sun
+12:19:40,147,Outer DuSable Lake Shore Express,,Sat
+22:07:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:02:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:49:18,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:18:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:10:33,4,Cottage Grove,,Sat
+02:40:33,4,Cottage Grove,,Sun
+20:14:08,20,Madison,,Sat
+19:19:06,J14,Jeffery Jump,,Sat
+04:10:34,20,Madison,,Sun
+15:44:31,J14,Jeffery Jump,,Sun
+08:08:58,56,Milwaukee,,Sun
+22:45:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:10:08,20,Madison,,Sun
+01:40:33,4,Cottage Grove,,Mon
+09:50:08,20,Madison,,Sun
+21:26:38,20,Madison,,Sun
+14:29:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:41:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:30:08,20,Madison,,Sun
+10:43:41,56,Milwaukee,,Sun
+22:56:22,J14,Jeffery Jump,,Sat
+05:07:18,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:53:42,J14,Jeffery Jump,,Sun
+02:40:31,66,Chicago,,Sun
+19:49:22,56,Milwaukee,,Sun
+16:40:08,20,Madison,,Sat
+07:12:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+06:10:38,20,Madison,,Sun
+23:31:08,20,Madison,,Sat
+07:24:27,J14,Jeffery Jump,,Sat
+13:17:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:00:56,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:49:15,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:31:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+16:23:42,56,Milwaukee,,Sat
+15:35:10,147,Outer DuSable Lake Shore Express,,Sun
+09:38:11,147,Outer DuSable Lake Shore Express,,Sat
+17:28:08,20,Madison,,Sat
+17:20:39,147,Outer DuSable Lake Shore Express,,Sat
+22:58:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:23:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:49:21,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:49:25,147,Outer DuSable Lake Shore Express,,Sat
+14:45:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:59:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:57:03,147,Outer DuSable Lake Shore Express,,Sat
+05:03:28,56,Milwaukee,,Sun
+17:02:07,56,Milwaukee,,Sun
+22:06:08,20,Madison,,Sat
+16:44:37,56,Milwaukee,,Sun
+12:38:14,J14,Jeffery Jump,,Sun
+20:58:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:21:25,147,Outer DuSable Lake Shore Express,,Sat
+09:19:52,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:46:37,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:58:19,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:59:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:23:16,147,Outer DuSable Lake Shore Express,,Sat
+14:40:29,J14,Jeffery Jump,,Sat
+12:10:08,20,Madison,,Sun
+14:07:08,20,Madison,,Sat
+07:52:08,20,Madison,,Sun
+13:25:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:53:44,J14,Jeffery Jump,,Sun
+13:33:39,147,Outer DuSable Lake Shore Express,,Sat
+19:26:14,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:39:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:41:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:14:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:50:08,20,Madison,,Sun
+17:54:11,56,Milwaukee,,Sun
+08:14:25,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:34:52,56,Milwaukee,,Sat
+14:07:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:48:08,20,Madison,,Sun
+09:31:08,20,Madison,,Sat
+11:24:12,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:35:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:20:39,147,Outer DuSable Lake Shore Express,,Sat
+12:40:08,20,Madison,,Sun
+17:29:08,20,Madison,,Sun
+08:29:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+06:17:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:15:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:45:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:02:29,J14,Jeffery Jump,,Sat
+20:12:59,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:42:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:59:16,147,Outer DuSable Lake Shore Express,,Sat
+17:12:50,56,Milwaukee,,Sat
+10:25:16,56,Milwaukee,,Sun
+19:54:08,20,Madison,,Sat
+15:53:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:43:08,20,Madison,,Sat
+05:02:33,56,Milwaukee,,Sat
+18:50:25,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:10:06,56,Milwaukee,,Sun
+12:00:50,56,Milwaukee,,Sat
+14:36:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:03:50,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:21:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:33:22,56,Milwaukee,,Sat
+15:05:44,J14,Jeffery Jump,,Sun
+17:36:11,56,Milwaukee,,Sun
+07:25:32,56,Milwaukee,,Sun
+07:02:27,J14,Jeffery Jump,,Sat
+09:09:18,147,Outer DuSable Lake Shore Express,,Sun
+11:34:09,J14,Jeffery Jump,,Sat
+10:54:14,J14,Jeffery Jump,,Sat
+09:11:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:11:52,56,Milwaukee,,Sat
+10:09:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:49:22,J14,Jeffery Jump,,Sun
+23:38:11,147,Outer DuSable Lake Shore Express,,Sat
+04:40:33,4,Cottage Grove,,Sat
+17:54:09,J14,Jeffery Jump,,Sun
+22:36:08,20,Madison,,Sat
+13:47:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:12:25,147,Outer DuSable Lake Shore Express,,Sat
+00:39:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+15:02:10,147,Outer DuSable Lake Shore Express,,Sun
+12:49:48,147,Outer DuSable Lake Shore Express,,Sun
+09:21:08,20,Madison,,Sat
+12:27:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:31:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:18:10,147,Outer DuSable Lake Shore Express,,Sun
+16:31:16,147,Outer DuSable Lake Shore Express,,Sat
+21:54:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:09:24,J14,Jeffery Jump,,Sun
+20:28:08,20,Madison,,Sun
+09:16:46,56,Milwaukee,,Sat
+18:28:08,20,Madison,,Sun
+12:01:26,J14,Jeffery Jump,,Sat
+15:39:56,J14,Jeffery Jump,,Sat
+22:20:04,147,Outer DuSable Lake Shore Express,,Sun
+11:20:08,20,Madison,,Sun
+15:24:37,56,Milwaukee,,Sun
+18:29:56,J14,Jeffery Jump,,Sat
+11:57:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:49:08,20,Madison,,Sat
+03:10:34,20,Madison,,Sat
+22:06:08,20,Madison,,Sun
+11:43:03,147,Outer DuSable Lake Shore Express,,Sun
+17:15:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:03:15,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+20:03:44,J14,Jeffery Jump,,Sun
+07:33:04,147,Outer DuSable Lake Shore Express,,Sun
+17:57:55,147,Outer DuSable Lake Shore Express,,Sat
+09:09:42,56,Milwaukee,,Sun
+18:17:40,147,Outer DuSable Lake Shore Express,,Sun
+11:27:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:00:59,J14,Jeffery Jump,,Sat
+11:01:08,20,Madison,,Sat
+21:12:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:50:37,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:39:26,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:21:36,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+06:05:36,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:59:40,147,Outer DuSable Lake Shore Express,,Sat
+08:21:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:29:41,56,Milwaukee,,Sun
+12:27:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:13:42,J14,Jeffery Jump,,Sun
+02:40:34,20,Madison,,Sun
+04:40:34,20,Madison,,Sat
+11:59:22,J14,Jeffery Jump,,Sun
+13:58:08,20,Madison,,Sat
+17:24:06,J14,Jeffery Jump,,Sun
+11:54:03,147,Outer DuSable Lake Shore Express,,Sun
+16:48:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:28:16,56,Milwaukee,,Sun
+22:36:08,20,Madison,,Sat
+15:51:20,56,Milwaukee,,Sat
+19:18:08,20,Madison,,Sun
+18:33:44,J14,Jeffery Jump,,Sun
+00:40:34,20,Madison,,Sun
+05:09:34,20,Madison,,Sat
+13:33:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:07:16,147,Outer DuSable Lake Shore Express,,Sat
+14:51:16,147,Outer DuSable Lake Shore Express,,Sat
+15:06:55,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:38:08,20,Madison,,Sun
+13:07:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:44:08,20,Madison,,Sat
+16:31:08,20,Madison,,Sat
+17:36:12,56,Milwaukee,,Sun
+11:41:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:31:11,56,Milwaukee,,Sun
+16:54:13,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:43:42,J14,Jeffery Jump,,Sun
+12:00:08,20,Madison,,Sun
+00:30:33,4,Cottage Grove,,Mon
+13:31:52,56,Milwaukee,,Sat
+17:19:56,J14,Jeffery Jump,,Sat
+12:57:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:05:32,147,Outer DuSable Lake Shore Express,,Sat
+08:07:08,20,Madison,,Sun
+08:34:08,20,Madison,,Sat
+17:00:08,20,Madison,,Sun
+14:05:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+02:10:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+19:58:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:13:44,J14,Jeffery Jump,,Sun
+19:13:42,J14,Jeffery Jump,,Sun
+02:40:33,66,Chicago,,Mon
+23:18:11,147,Outer DuSable Lake Shore Express,,Sat
+05:40:39,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:37:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:37:08,20,Madison,,Sun
+08:13:04,147,Outer DuSable Lake Shore Express,,Sun
+08:18:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:34:09,J14,Jeffery Jump,,Sun
+21:18:17,J14,Jeffery Jump,,Sat
+23:38:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:19:56,J14,Jeffery Jump,,Sat
+17:14:01,147,Outer DuSable Lake Shore Express,,Sat
+12:09:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:12:12,56,Milwaukee,,Sun
+12:16:25,147,Outer DuSable Lake Shore Express,,Sun
+20:29:09,J14,Jeffery Jump,,Sat
+08:11:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:48:38,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:00:08,20,Madison,,Sun
+08:06:08,20,Madison,,Sat
+15:33:46,147,Outer DuSable Lake Shore Express,,Sat
+10:16:36,56,Milwaukee,,Sat
+14:40:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:45:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:36:56,147,Outer DuSable Lake Shore Express,,Sat
+16:30:08,20,Madison,,Sun
+10:00:08,20,Madison,,Sun
+16:14:34,J14,Jeffery Jump,,Sun
+08:00:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:31:38,20,Madison,,Sat
+14:40:10,147,Outer DuSable Lake Shore Express,,Sun
+21:15:53,56,Milwaukee,,Sun
+15:40:08,20,Madison,,Sun
+19:32:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:46:55,147,Outer DuSable Lake Shore Express,,Sat
+17:55:08,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:18:30,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:06:11,147,Outer DuSable Lake Shore Express,,Sat
+23:17:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:55:08,20,Madison,,Sat
+07:22:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:40:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:54:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+15:04:22,56,Milwaukee,,Sat
+01:40:34,20,Madison,,Mon
+01:40:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+13:10:08,20,Madison,,Sun
+17:39:59,J14,Jeffery Jump,,Sat
+20:58:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:33:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:18:57,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:19:48,56,Milwaukee,,Sun
+03:10:33,66,Chicago,,Sun
+14:29:10,147,Outer DuSable Lake Shore Express,,Sun
+16:31:08,20,Madison,,Sat
+16:14:31,J14,Jeffery Jump,,Sun
+13:40:08,20,Madison,,Sat
+17:58:08,20,Madison,,Sat
+05:55:34,147,Outer DuSable Lake Shore Express,,Sat
+08:29:30,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:06:06,J14,Jeffery Jump,,Sun
+15:20:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:10:11,147,Outer DuSable Lake Shore Express,,Sun
+03:40:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:55:25,147,Outer DuSable Lake Shore Express,,Sat
+23:31:08,20,Madison,,Sun
+07:30:08,20,Madison,,Sat
+17:33:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:21:08,20,Madison,,Sat
+14:25:44,J14,Jeffery Jump,,Sun
+08:17:26,147,Outer DuSable Lake Shore Express,,Sat
+11:08:14,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:20:08,20,Madison,,Sun
+16:50:08,20,Madison,,Sun
+13:22:48,147,Outer DuSable Lake Shore Express,,Sun
+16:07:16,147,Outer DuSable Lake Shore Express,,Sat
+15:24:10,147,Outer DuSable Lake Shore Express,,Sun
+16:40:08,20,Madison,,Sun
+20:42:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:51:10,147,Outer DuSable Lake Shore Express,,Sun
+12:50:08,20,Madison,,Sun
+20:24:08,20,Madison,,Sat
+12:28:08,20,Madison,,Sat
+20:49:11,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+20:28:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:56:41,147,Outer DuSable Lake Shore Express,,Sun
+15:12:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:15:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:56:36,J14,Jeffery Jump,,Sun
+12:46:08,20,Madison,,Sat
+10:24:17,J14,Jeffery Jump,,Sat
+16:26:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:07:03,147,Outer DuSable Lake Shore Express,,Sat
+15:35:10,147,Outer DuSable Lake Shore Express,,Sun
+13:24:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+06:45:08,20,Madison,,Sat
+17:49:59,J14,Jeffery Jump,,Sat
+13:03:20,56,Milwaukee,,Sat
+15:30:08,20,Madison,,Sun
+14:50:08,20,Madison,,Sun
+11:08:11,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:27:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:34:48,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:06:11,147,Outer DuSable Lake Shore Express,,Sat
+01:10:33,4,Cottage Grove,,Sun
+18:23:02,147,Outer DuSable Lake Shore Express,,Sat
+10:52:32,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:38:25,147,Outer DuSable Lake Shore Express,,Sun
+22:03:22,56,Milwaukee,,Sun
+17:58:08,20,Madison,,Sat
+11:29:24,J14,Jeffery Jump,,Sun
+20:11:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+00:10:33,4,Cottage Grove,,Mon
+08:07:08,20,Madison,,Sun
+07:52:08,20,Madison,,Sun
+11:19:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:07:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:31:36,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+02:40:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+12:35:25,147,Outer DuSable Lake Shore Express,,Sat
+17:18:08,20,Madison,,Sat
+20:30:53,56,Milwaukee,,Sun
+16:15:16,147,Outer DuSable Lake Shore Express,,Sat
+16:32:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+23:46:08,20,Madison,,Sun
+14:15:44,J14,Jeffery Jump,,Sun
+20:58:17,J14,Jeffery Jump,,Sat
+16:23:40,56,Milwaukee,,Sat
+18:31:11,56,Milwaukee,,Sun
+18:49:11,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:26:32,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:30:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:50:08,20,Madison,,Sun
+17:04:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:52:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:38:55,147,Outer DuSable Lake Shore Express,,Sat
+19:49:06,J14,Jeffery Jump,,Sat
+10:10:11,147,Outer DuSable Lake Shore Express,,Sat
+21:12:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:31:16,147,Outer DuSable Lake Shore Express,,Sat
+11:15:40,147,Outer DuSable Lake Shore Express,,Sat
+18:08:08,20,Madison,,Sun
+20:34:08,20,Madison,,Sat
+15:56:10,147,Outer DuSable Lake Shore Express,,Sun
+06:28:38,20,Madison,,Sat
+14:01:22,56,Milwaukee,,Sat
+13:41:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:25:08,20,Madison,,Sat
+14:45:44,J14,Jeffery Jump,,Sun
+09:40:08,20,Madison,,Sun
+12:10:08,20,Madison,,Sun
+06:16:32,56,Milwaukee,,Sat
+03:40:34,20,Madison,,Sat
+20:16:27,56,Milwaukee,,Sat
+14:50:29,J14,Jeffery Jump,,Sat
+12:51:12,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:27:03,147,Outer DuSable Lake Shore Express,,Sat
+06:39:57,56,Milwaukee,,Sat
+15:30:08,20,Madison,,Sun
+14:00:08,20,Madison,,Sun
+21:09:16,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+06:56:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:29:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:39:38,20,Madison,,Sat
+07:29:26,147,Outer DuSable Lake Shore Express,,Sat
+20:52:54,J14,Jeffery Jump,,Sun
+03:10:33,4,Cottage Grove,,Sun
+21:12:41,56,Milwaukee,,Sat
+19:35:25,56,Milwaukee,,Sat
+12:38:48,147,Outer DuSable Lake Shore Express,,Sun
+14:05:44,J14,Jeffery Jump,,Sun
+14:07:10,147,Outer DuSable Lake Shore Express,,Sun
+23:18:38,20,Madison,,Sun
+08:11:53,56,Milwaukee,,Sat
+23:31:08,20,Madison,,Sat
+22:24:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:49:34,J14,Jeffery Jump,,Sat
+15:05:42,J14,Jeffery Jump,,Sun
+21:12:52,J14,Jeffery Jump,,Sun
+19:09:09,J14,Jeffery Jump,,Sat
+12:05:03,147,Outer DuSable Lake Shore Express,,Sun
+10:39:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:28:27,56,Milwaukee,,Sun
+14:07:10,147,Outer DuSable Lake Shore Express,,Sun
+22:06:08,20,Madison,,Sat
+16:23:16,147,Outer DuSable Lake Shore Express,,Sat
+02:40:33,4,Cottage Grove,,Mon
+18:44:08,20,Madison,,Sat
+15:10:26,J14,Jeffery Jump,,Sat
+19:48:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:29:56,J14,Jeffery Jump,,Sat
+18:40:36,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:10:32,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:42:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:45:42,J14,Jeffery Jump,,Sun
+06:45:01,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:54:34,J14,Jeffery Jump,,Sun
+05:27:33,56,Milwaukee,,Sat
+01:10:35,66,Chicago,,Sun
+21:12:42,56,Milwaukee,,Sat
+20:58:08,20,Madison,,Sun
+13:31:50,56,Milwaukee,,Sat
+10:49:47,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:34:06,J14,Jeffery Jump,,Sun
+15:34:34,J14,Jeffery Jump,,Sun
+14:19:36,56,Milwaukee,,Sun
+10:49:24,J14,Jeffery Jump,,Sun
+08:51:20,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:33:39,147,Outer DuSable Lake Shore Express,,Sat
+16:26:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+16:10:08,20,Madison,,Sun
+13:55:44,J14,Jeffery Jump,,Sun
+16:56:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:01:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:09:04,20,Madison,,Sun
+22:27:58,56,Milwaukee,,Sun
+19:07:41,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:08:08,20,Madison,,Sat
+18:23:42,J14,Jeffery Jump,,Sun
+08:46:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:51:10,147,Outer DuSable Lake Shore Express,,Sun
+15:36:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:51:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:15:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:22:08,20,Madison,,Sun
+19:41:41,147,Outer DuSable Lake Shore Express,,Sun
+14:17:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:45:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:14:08,20,Madison,,Sat
+18:49:41,56,Milwaukee,,Sun
+23:30:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:27:25,147,Outer DuSable Lake Shore Express,,Sun
+12:12:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:14:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:40:08,20,Madison,,Sun
+22:41:41,147,Outer DuSable Lake Shore Express,,Sat
+19:24:08,20,Madison,,Sat
+09:30:52,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:29:06,J14,Jeffery Jump,,Sat
+04:40:34,20,Madison,,Sun
+07:42:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:59:06,J14,Jeffery Jump,,Sat
+10:52:32,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:24:08,20,Madison,,Sat
+19:13:40,147,Outer DuSable Lake Shore Express,,Sat
+01:40:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+06:45:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:20:57,J14,Jeffery Jump,,Sun
+14:05:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:07:16,56,Milwaukee,,Sun
+11:31:41,147,Outer DuSable Lake Shore Express,,Sun
+12:07:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:10:08,20,Madison,,Sun
+18:19:56,J14,Jeffery Jump,,Sat
+18:06:46,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:49:59,J14,Jeffery Jump,,Sat
+17:08:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+04:40:34,20,Madison,,Sat
+11:47:40,147,Outer DuSable Lake Shore Express,,Sat
+22:21:08,20,Madison,,Sat
+14:25:42,J14,Jeffery Jump,,Sun
+14:52:08,20,Madison,,Sat
+11:24:12,J14,Jeffery Jump,,Sat
+08:50:08,20,Madison,,Sun
+11:49:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:32:33,4,Cottage Grove,,Mon
+01:40:33,4,Cottage Grove,,Mon
+12:18:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+05:40:37,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:43:34,J14,Jeffery Jump,,Sat
+09:11:00,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:22:08,20,Madison,,Sun
+13:45:44,J14,Jeffery Jump,,Sun
+21:42:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:40:57,J14,Jeffery Jump,,Sun
+19:14:08,20,Madison,,Sat
+10:43:42,56,Milwaukee,,Sun
+02:10:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+19:48:08,20,Madison,,Sun
+14:08:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:10:08,20,Madison,,Sat
+15:15:36,J14,Jeffery Jump,,Sun
+10:49:45,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:30:08,20,Madison,,Sat
+05:32:07,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:01:47,147,Outer DuSable Lake Shore Express,,Sat
+17:17:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:11:08,20,Madison,,Sat
+06:11:08,20,Madison,,Sat
+12:47:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:08:11,147,Outer DuSable Lake Shore Express,,Sun
+00:11:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+20:29:06,J14,Jeffery Jump,,Sat
+17:08:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:32:09,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:04:34,J14,Jeffery Jump,,Sun
+13:27:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:00:56,J14,Jeffery Jump,,Sat
+18:31:37,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:02:37,56,Milwaukee,,Sun
+14:51:16,147,Outer DuSable Lake Shore Express,,Sat
+05:52:08,20,Madison,,Sat
+12:46:27,56,Milwaukee,,Sat
+15:04:20,56,Milwaukee,,Sat
+18:17:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:26:18,147,Outer DuSable Lake Shore Express,,Sun
+18:22:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:00:08,20,Madison,,Sun
+06:33:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:12:37,56,Milwaukee,,Sat
+07:15:08,20,Madison,,Sat
+21:57:03,147,Outer DuSable Lake Shore Express,,Sat
+20:18:08,20,Madison,,Sun
+22:36:08,20,Madison,,Sun
+10:19:54,J14,Jeffery Jump,,Sun
+17:44:53,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:51:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:50:08,20,Madison,,Sun
+09:56:12,56,Milwaukee,,Sat
+08:02:29,J14,Jeffery Jump,,Sat
+17:07:40,147,Outer DuSable Lake Shore Express,,Sun
+12:29:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:28:38,20,Madison,,Sat
+22:40:34,147,Outer DuSable Lake Shore Express,,Sun
+08:13:04,147,Outer DuSable Lake Shore Express,,Sun
+17:18:11,56,Milwaukee,,Sun
+03:10:34,20,Madison,,Sun
+16:44:09,J14,Jeffery Jump,,Sun
+15:25:06,J14,Jeffery Jump,,Sun
+12:01:04,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:19:37,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+03:40:33,4,Cottage Grove,,Sun
+21:02:52,J14,Jeffery Jump,,Sun
+09:39:52,J14,Jeffery Jump,,Sun
+16:55:29,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:30:29,J14,Jeffery Jump,,Sat
+02:10:33,4,Cottage Grove,,Mon
+11:15:40,147,Outer DuSable Lake Shore Express,,Sat
+13:17:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:47:03,147,Outer DuSable Lake Shore Express,,Sat
+14:29:10,147,Outer DuSable Lake Shore Express,,Sun
+10:19:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:27:25,147,Outer DuSable Lake Shore Express,,Sun
+04:40:33,66,Chicago,,Sat
+01:10:34,20,Madison,,Sun
+05:51:08,20,Madison,,Sun
+21:08:08,20,Madison,,Sun
+13:57:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+02:40:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+21:12:54,J14,Jeffery Jump,,Sun
+12:19:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+22:22:24,J14,Jeffery Jump,,Sat
+15:16:46,147,Outer DuSable Lake Shore Express,,Sat
+06:56:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:58:10,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+02:40:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+12:46:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:04:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:20:08,20,Madison,,Sun
+04:40:33,4,Cottage Grove,,Sun
+14:31:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:10:11,147,Outer DuSable Lake Shore Express,,Sat
+13:31:08,20,Madison,,Sat
+05:29:08,20,Madison,,Sat
+08:33:26,147,Outer DuSable Lake Shore Express,,Sat
+23:20:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:46:08,20,Madison,,Sat
+02:40:33,4,Cottage Grove,,Sun
+08:39:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:30:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:49:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+02:10:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+18:14:20,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:20:08,20,Madison,,Sun
+11:21:08,20,Madison,,Sat
+14:00:26,J14,Jeffery Jump,,Sat
+18:36:08,20,Madison,,Sat
+15:20:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:44:17,J14,Jeffery Jump,,Sat
+13:33:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:16:55,56,Milwaukee,,Sat
+08:50:08,20,Madison,,Sun
+07:26:58,56,Milwaukee,,Sat
+16:40:10,56,Milwaukee,,Sat
+06:56:26,147,Outer DuSable Lake Shore Express,,Sat
+08:01:26,147,Outer DuSable Lake Shore Express,,Sat
+19:03:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:18:19,J14,Jeffery Jump,,Sat
+05:22:09,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:20:55,147,Outer DuSable Lake Shore Express,,Sat
+14:29:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:59:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:58:16,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:10:56,J14,Jeffery Jump,,Sat
+01:10:33,66,Chicago,,Mon
+15:00:08,20,Madison,,Sun
+15:34:31,J14,Jeffery Jump,,Sun
+08:30:57,J14,Jeffery Jump,,Sun
+13:49:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:40:08,20,Madison,,Sun
+17:43:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:22:57,J14,Jeffery Jump,,Sun
+20:08:08,20,Madison,,Sun
+21:27:03,147,Outer DuSable Lake Shore Express,,Sat
+00:30:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+22:07:03,147,Outer DuSable Lake Shore Express,,Sat
+05:51:08,20,Madison,,Sun
+22:36:42,56,Milwaukee,,Sat
+14:01:20,56,Milwaukee,,Sat
+11:52:01,J14,Jeffery Jump,,Sat
+04:40:37,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+07:13:26,147,Outer DuSable Lake Shore Express,,Sat
+06:35:36,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:03:27,56,Milwaukee,,Sun
+13:42:31,147,Outer DuSable Lake Shore Express,,Sat
+21:54:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:07:18,56,Milwaukee,,Sun
+16:17:55,147,Outer DuSable Lake Shore Express,,Sun
+07:22:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+06:33:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:39:24,J14,Jeffery Jump,,Sun
+16:38:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:39:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:38:48,147,Outer DuSable Lake Shore Express,,Sun
+15:29:55,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:33:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:57:12,56,Milwaukee,,Sun
+12:20:56,J14,Jeffery Jump,,Sat
+17:50:35,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:33:02,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:59:56,J14,Jeffery Jump,,Sat
+00:54:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+10:29:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:48:55,147,Outer DuSable Lake Shore Express,,Sat
+21:22:38,20,Madison,,Sat
+21:15:52,56,Milwaukee,,Sun
+16:06:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:16:36,56,Milwaukee,,Sun
+03:40:33,4,Cottage Grove,,Sat
+19:03:44,J14,Jeffery Jump,,Sun
+01:10:33,66,Chicago,,Mon
+11:39:24,J14,Jeffery Jump,,Sun
+07:52:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:47:29,J14,Jeffery Jump,,Sat
+14:21:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:55:42,J14,Jeffery Jump,,Sun
+06:00:04,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:41:25,147,Outer DuSable Lake Shore Express,,Sat
+11:51:08,20,Madison,,Sat
+08:17:40,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:58:08,20,Madison,,Sat
+13:42:31,147,Outer DuSable Lake Shore Express,,Sat
+06:27:47,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:24:09,147,Outer DuSable Lake Shore Express,,Sat
+23:37:04,147,Outer DuSable Lake Shore Express,,Sun
+13:10:08,20,Madison,,Sun
+15:08:37,56,Milwaukee,,Sun
+14:34:16,147,Outer DuSable Lake Shore Express,,Sat
+23:18:11,147,Outer DuSable Lake Shore Express,,Sat
+09:51:08,20,Madison,,Sat
+08:31:34,147,Outer DuSable Lake Shore Express,,Sun
+11:37:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:25:34,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:46:46,147,Outer DuSable Lake Shore Express,,Sat
+13:21:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:38:59,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:07:03,147,Outer DuSable Lake Shore Express,,Sat
+20:44:08,20,Madison,,Sat
+12:00:52,56,Milwaukee,,Sat
+10:29:52,J14,Jeffery Jump,,Sun
+19:39:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:40:44,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:16:06,J14,Jeffery Jump,,Sun
+00:30:33,4,Cottage Grove,,Sun
+07:42:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:45:07,56,Milwaukee,,Sun
+16:44:50,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:58:08,20,Madison,,Sun
+17:05:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:00:46,147,Outer DuSable Lake Shore Express,,Sat
+18:44:08,20,Madison,,Sat
+19:49:09,J14,Jeffery Jump,,Sat
+18:06:46,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:07:40,147,Outer DuSable Lake Shore Express,,Sun
+15:33:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:57:03,147,Outer DuSable Lake Shore Express,,Sat
+19:06:02,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:25:19,J14,Jeffery Jump,,Sat
+11:49:24,J14,Jeffery Jump,,Sun
+13:17:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:52:08,20,Madison,,Sat
+15:42:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:08:29,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:53:07,56,Milwaukee,,Sat
+23:20:52,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:22:59,J14,Jeffery Jump,,Sun
+21:04:08,20,Madison,,Sat
+15:24:10,147,Outer DuSable Lake Shore Express,,Sun
+23:30:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:49:56,J14,Jeffery Jump,,Sat
+21:02:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+02:10:34,20,Madison,,Mon
+17:57:40,147,Outer DuSable Lake Shore Express,,Sun
+19:19:09,J14,Jeffery Jump,,Sat
+07:45:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:17:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:04:09,J14,Jeffery Jump,,Sun
+19:22:10,147,Outer DuSable Lake Shore Express,,Sat
+23:17:34,147,Outer DuSable Lake Shore Express,,Sun
+16:49:59,J14,Jeffery Jump,,Sat
+18:18:08,20,Madison,,Sat
+10:16:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:14:19,J14,Jeffery Jump,,Sat
+22:11:29,J14,Jeffery Jump,,Sun
+10:10:08,20,Madison,,Sun
+21:32:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:43:56,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:48:57,56,Milwaukee,,Sat
+11:29:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:23:44,J14,Jeffery Jump,,Sun
+19:39:09,J14,Jeffery Jump,,Sat
+11:01:46,56,Milwaukee,,Sun
+16:04:08,20,Madison,,Sat
+01:40:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+13:50:26,J14,Jeffery Jump,,Sat
+09:10:59,J14,Jeffery Jump,,Sun
+17:48:08,20,Madison,,Sat
+12:16:25,147,Outer DuSable Lake Shore Express,,Sun
+06:48:38,20,Madison,,Sun
+22:58:11,147,Outer DuSable Lake Shore Express,,Sat
+14:40:26,J14,Jeffery Jump,,Sat
+19:43:42,J14,Jeffery Jump,,Sun
+13:17:50,56,Milwaukee,,Sat
+19:58:08,20,Madison,,Sun
+20:36:31,56,Milwaukee,,Sat
+19:53:29,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:28:08,20,Madison,,Sun
+11:41:08,20,Madison,,Sat
+02:10:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+12:55:08,20,Madison,,Sat
+15:28:08,20,Madison,,Sat
+10:11:08,20,Madison,,Sat
+16:34:34,J14,Jeffery Jump,,Sun
+21:18:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:24:34,J14,Jeffery Jump,,Sun
+22:51:19,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:31:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:57:22,J14,Jeffery Jump,,Sat
+17:14:06,J14,Jeffery Jump,,Sun
+13:20:26,J14,Jeffery Jump,,Sat
+13:03:22,56,Milwaukee,,Sat
+04:10:33,4,Cottage Grove,,Sat
+13:11:48,147,Outer DuSable Lake Shore Express,,Sun
+08:46:30,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+06:10:38,20,Madison,,Sun
+19:55:57,56,Milwaukee,,Sat
+09:40:41,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:40:02,147,Outer DuSable Lake Shore Express,,Sat
+06:29:38,20,Madison,,Sun
+11:12:36,56,Milwaukee,,Sat
+19:55:55,56,Milwaukee,,Sat
+13:27:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:37:08,20,Madison,,Sat
+09:01:08,20,Madison,,Sat
+04:40:33,4,Cottage Grove,,Sun
+21:54:41,56,Milwaukee,,Sat
+19:03:42,J14,Jeffery Jump,,Sun
+09:13:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:36:41,56,Milwaukee,,Sat
+06:33:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:58:13,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:06:40,147,Outer DuSable Lake Shore Express,,Sun
+09:39:54,J14,Jeffery Jump,,Sun
+14:42:46,147,Outer DuSable Lake Shore Express,,Sat
+09:22:11,147,Outer DuSable Lake Shore Express,,Sat
+23:06:08,20,Madison,,Sun
+17:04:06,J14,Jeffery Jump,,Sun
+10:16:48,147,Outer DuSable Lake Shore Express,,Sun
+05:43:56,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:09:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:03:53,56,Milwaukee,,Sat
+18:37:40,147,Outer DuSable Lake Shore Express,,Sun
+09:43:18,147,Outer DuSable Lake Shore Express,,Sun
+09:06:22,J14,Jeffery Jump,,Sat
+01:40:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+11:20:08,20,Madison,,Sun
+14:31:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:20:08,20,Madison,,Sun
+15:51:22,56,Milwaukee,,Sat
+06:11:08,20,Madison,,Sat
+10:16:37,56,Milwaukee,,Sat
+14:52:08,20,Madison,,Sat
+22:39:24,J14,Jeffery Jump,,Sat
+00:25:34,20,Madison,,Sun
+08:47:27,J14,Jeffery Jump,,Sat
+09:00:57,J14,Jeffery Jump,,Sun
+19:48:08,20,Madison,,Sun
+17:34:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:38:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:47:55,147,Outer DuSable Lake Shore Express,,Sat
+21:08:17,J14,Jeffery Jump,,Sat
+05:53:08,56,Milwaukee,,Sat
+23:18:38,20,Madison,,Sat
+13:10:07,56,Milwaukee,,Sun
+14:26:25,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+16:13:08,20,Madison,,Sat
+02:40:33,66,Chicago,,Mon
+13:22:08,20,Madison,,Sat
+15:28:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:54:12,56,Milwaukee,,Sun
+14:45:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:57:25,147,Outer DuSable Lake Shore Express,,Sat
+14:16:08,20,Madison,,Sat
+16:24:31,J14,Jeffery Jump,,Sun
+00:25:34,20,Madison,,Mon
+16:07:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:01:08,20,Madison,,Sat
+15:55:08,20,Madison,,Sat
+02:40:31,66,Chicago,,Sun
+07:51:30,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:17:14,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:57:40,147,Outer DuSable Lake Shore Express,,Sun
+12:19:22,J14,Jeffery Jump,,Sun
+04:10:33,66,Chicago,,Sun
+10:03:17,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+04:10:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:20:59,J14,Jeffery Jump,,Sun
+09:20:59,J14,Jeffery Jump,,Sun
+06:16:56,147,Outer DuSable Lake Shore Express,,Sat
+09:59:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:30:29,J14,Jeffery Jump,,Sat
+00:50:33,4,Cottage Grove,,Sun
+20:30:52,56,Milwaukee,,Sun
+17:38:08,20,Madison,,Sun
+00:10:33,4,Cottage Grove,,Sun
+13:09:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:38:42,56,Milwaukee,,Sun
+21:20:18,147,Outer DuSable Lake Shore Express,,Sun
+12:56:39,J14,Jeffery Jump,,Sun
+13:50:29,J14,Jeffery Jump,,Sat
+20:29:55,147,Outer DuSable Lake Shore Express,,Sat
+09:59:52,J14,Jeffery Jump,,Sun
+18:31:12,56,Milwaukee,,Sun
+18:57:25,147,Outer DuSable Lake Shore Express,,Sat
+15:08:16,147,Outer DuSable Lake Shore Express,,Sat
+20:18:08,20,Madison,,Sun
+15:00:26,J14,Jeffery Jump,,Sat
+00:10:34,20,Madison,,Sun
+10:51:08,20,Madison,,Sat
+10:05:52,56,Milwaukee,,Sun
+19:53:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+03:40:31,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+12:39:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:11:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+09:25:17,J14,Jeffery Jump,,Sat
+19:22:10,147,Outer DuSable Lake Shore Express,,Sat
+07:53:04,147,Outer DuSable Lake Shore Express,,Sun
+18:58:11,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:28:08,20,Madison,,Sun
+11:39:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:31:08,20,Madison,,Sat
+20:32:59,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:51:32,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:49:31,J14,Jeffery Jump,,Sat
+21:30:46,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:20:08,20,Madison,,Sun
+20:28:08,20,Madison,,Sun
+12:20:08,20,Madison,,Sun
+06:41:32,56,Milwaukee,,Sun
+15:59:56,J14,Jeffery Jump,,Sat
+11:31:08,20,Madison,,Sat
+20:04:08,20,Madison,,Sat
+17:25:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+16:09:56,J14,Jeffery Jump,,Sat
+05:40:33,4,Cottage Grove,,Sun
+12:47:14,J14,Jeffery Jump,,Sun
+07:24:29,J14,Jeffery Jump,,Sat
+13:33:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:13:41,56,Milwaukee,,Sun
+16:30:08,20,Madison,,Sun
+16:26:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:18:08,20,Madison,,Sat
+21:42:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:09:06,J14,Jeffery Jump,,Sat
+13:40:29,J14,Jeffery Jump,,Sat
+15:25:16,147,Outer DuSable Lake Shore Express,,Sat
+22:11:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:56:18,56,Milwaukee,,Sat
+09:54:17,J14,Jeffery Jump,,Sat
+16:44:36,56,Milwaukee,,Sun
+05:49:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:50:46,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:41:08,20,Madison,,Sat
+06:16:56,147,Outer DuSable Lake Shore Express,,Sat
+02:10:33,4,Cottage Grove,,Mon
+19:04:08,20,Madison,,Sat
+19:30:11,147,Outer DuSable Lake Shore Express,,Sun
+17:27:40,147,Outer DuSable Lake Shore Express,,Sun
+16:36:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+05:40:33,4,Cottage Grove,,Sun
+14:52:37,56,Milwaukee,,Sun
+22:51:08,20,Madison,,Sat
+08:06:08,20,Madison,,Sat
+21:56:27,J14,Jeffery Jump,,Sun
+06:49:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:32:57,J14,Jeffery Jump,,Sun
+20:38:55,147,Outer DuSable Lake Shore Express,,Sat
+07:47:32,56,Milwaukee,,Sun
+01:40:31,66,Chicago,,Sun
+16:32:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:09:52,J14,Jeffery Jump,,Sun
+11:18:09,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:30:03,147,Outer DuSable Lake Shore Express,,Sat
+19:08:08,20,Madison,,Sun
+19:44:08,20,Madison,,Sat
+21:28:19,J14,Jeffery Jump,,Sat
+10:20:08,20,Madison,,Sun
+14:27:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:59:09,J14,Jeffery Jump,,Sat
+17:13:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:10:33,66,Chicago,,Sun
+17:38:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+02:10:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+12:51:10,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+01:10:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+20:36:32,56,Milwaukee,,Sat
+06:36:56,147,Outer DuSable Lake Shore Express,,Sat
+08:53:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:43:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+23:18:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+03:10:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:49:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:10:08,20,Madison,,Sun
+17:48:08,20,Madison,,Sun
+18:38:08,20,Madison,,Sun
+09:50:16,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:44:11,147,Outer DuSable Lake Shore Express,,Sun
+14:10:08,20,Madison,,Sun
+11:51:08,20,Madison,,Sat
+22:15:41,56,Milwaukee,,Sat
+19:58:08,20,Madison,,Sun
+12:01:08,20,Madison,,Sat
+13:57:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:45:52,56,Milwaukee,,Sat
+00:40:34,20,Madison,,Mon
+11:09:22,J14,Jeffery Jump,,Sun
+17:57:40,147,Outer DuSable Lake Shore Express,,Sun
+22:51:08,20,Madison,,Sat
+11:44:50,56,Milwaukee,,Sat
+02:40:34,20,Madison,,Sun
+09:50:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:25:24,147,Outer DuSable Lake Shore Express,,Sat
+20:26:11,147,Outer DuSable Lake Shore Express,,Sun
+04:40:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:13:26,147,Outer DuSable Lake Shore Express,,Sat
+22:36:44,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:40:08,20,Madison,,Sun
+18:07:40,147,Outer DuSable Lake Shore Express,,Sun
+15:44:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:09:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:39:22,56,Milwaukee,,Sun
+21:51:08,20,Madison,,Sat
+22:18:03,147,Outer DuSable Lake Shore Express,,Sat
+08:57:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:00:46,147,Outer DuSable Lake Shore Express,,Sat
+03:10:31,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+14:30:08,20,Madison,,Sun
+17:27:01,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:20:41,147,Outer DuSable Lake Shore Express,,Sun
+19:33:42,J14,Jeffery Jump,,Sun
+20:09:06,J14,Jeffery Jump,,Sat
+22:24:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:44:19,J14,Jeffery Jump,,Sat
+19:35:11,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:51:08,20,Madison,,Sat
+10:50:08,20,Madison,,Sun
+08:03:32,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+04:10:33,4,Cottage Grove,,Sun
+18:06:25,147,Outer DuSable Lake Shore Express,,Sat
+13:04:08,20,Madison,,Sat
+22:11:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:49:42,56,Milwaukee,,Sun
+16:22:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:10:32,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:09:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:35:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:00:08,20,Madison,,Sun
+20:28:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:00:08,20,Madison,,Sat
+14:33:20,56,Milwaukee,,Sat
+02:10:34,20,Madison,,Mon
+15:00:08,20,Madison,,Sun
+12:01:08,20,Madison,,Sat
+21:30:48,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:13:10,147,Outer DuSable Lake Shore Express,,Sun
+10:25:18,56,Milwaukee,,Sun
+18:58:08,20,Madison,,Sun
+12:16:37,56,Milwaukee,,Sun
+02:40:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+08:24:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:41:08,20,Madison,,Sat
+18:18:08,20,Madison,,Sun
+11:59:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:31:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:36:09,J14,Jeffery Jump,,Sun
+09:15:17,J14,Jeffery Jump,,Sat
+18:32:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:08:01,147,Outer DuSable Lake Shore Express,,Sat
+09:10:08,20,Madison,,Sun
+15:18:20,56,Milwaukee,,Sat
+20:38:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:38:19,J14,Jeffery Jump,,Sat
+20:33:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:02:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:00:08,20,Madison,,Sun
+10:00:18,147,Outer DuSable Lake Shore Express,,Sun
+01:10:33,4,Cottage Grove,,Mon
+06:27:49,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:10:33,4,Cottage Grove,,Sat
+13:21:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:59:24,J14,Jeffery Jump,,Sun
+06:05:37,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:49:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:54:38,20,Madison,,Sat
+15:45:40,147,Outer DuSable Lake Shore Express,,Sun
+02:40:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+14:34:08,20,Madison,,Sat
+18:43:44,J14,Jeffery Jump,,Sun
+20:14:08,20,Madison,,Sat
+10:19:52,J14,Jeffery Jump,,Sun
+07:12:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:03:55,147,Outer DuSable Lake Shore Express,,Sat
+16:04:08,20,Madison,,Sat
+11:24:10,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+09:47:16,56,Milwaukee,,Sun
+08:40:59,J14,Jeffery Jump,,Sun
+15:30:26,J14,Jeffery Jump,,Sat
+04:10:33,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+08:30:59,J14,Jeffery Jump,,Sun
+20:08:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:39:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+21:18:08,20,Madison,,Sun
+17:39:56,J14,Jeffery Jump,,Sat
+21:50:19,J14,Jeffery Jump,,Sat
+16:38:25,147,Outer DuSable Lake Shore Express,,Sun
+12:05:03,147,Outer DuSable Lake Shore Express,,Sun
+18:57:27,56,Milwaukee,,Sat
+12:20:08,20,Madison,,Sun
+21:08:08,20,Madison,,Sun
+17:37:40,147,Outer DuSable Lake Shore Express,,Sun
+14:53:57,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+04:10:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:17:20,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:53:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:13:08,20,Madison,,Sat
+15:59:16,147,Outer DuSable Lake Shore Express,,Sat
+13:30:08,20,Madison,,Sun
+19:30:11,147,Outer DuSable Lake Shore Express,,Sun
+16:41:16,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:27:57,56,Milwaukee,,Sun
+08:50:26,147,Outer DuSable Lake Shore Express,,Sun
+10:30:08,20,Madison,,Sun
+21:47:03,147,Outer DuSable Lake Shore Express,,Sat
+20:51:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:06:08,20,Madison,,Sat
+15:13:10,147,Outer DuSable Lake Shore Express,,Sun
+16:47:40,147,Outer DuSable Lake Shore Express,,Sun
+11:06:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+20:04:08,20,Madison,,Sat
+12:40:56,J14,Jeffery Jump,,Sat
+07:03:32,56,Milwaukee,,Sun
+22:22:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:19:46,56,Milwaukee,,Sun
+11:00:08,20,Madison,,Sun
+14:19:37,56,Milwaukee,,Sun
+11:59:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:37:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:26:09,J14,Jeffery Jump,,Sun
+10:30:18,147,Outer DuSable Lake Shore Express,,Sun
+18:29:59,J14,Jeffery Jump,,Sat
+22:38:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:10:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:57:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:17:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:49:56,J14,Jeffery Jump,,Sat
+13:57:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:57:03,147,Outer DuSable Lake Shore Express,,Sat
+08:50:26,147,Outer DuSable Lake Shore Express,,Sun
+13:00:08,20,Madison,,Sun
+10:04:19,J14,Jeffery Jump,,Sat
+22:00:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:11:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:02:11,147,Outer DuSable Lake Shore Express,,Sun
+16:06:04,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:08:40,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:33:44,J14,Jeffery Jump,,Sun
+02:10:34,20,Madison,,Sun
+22:31:29,J14,Jeffery Jump,,Sun
+07:43:01,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:06:08,20,Madison,,Sun
+08:34:16,56,Milwaukee,,Sat
+05:02:32,56,Milwaukee,,Sat
+15:44:34,J14,Jeffery Jump,,Sun
+21:49:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:30:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:24:09,J14,Jeffery Jump,,Sun
+08:49:48,147,Outer DuSable Lake Shore Express,,Sat
+12:30:08,20,Madison,,Sun
+00:55:34,20,Madison,,Mon
+05:22:07,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+09:28:18,56,Milwaukee,,Sun
+17:19:59,J14,Jeffery Jump,,Sat
+20:22:56,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:38:12,J14,Jeffery Jump,,Sun
+16:45:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+04:40:33,66,Chicago,,Sun
+07:48:08,20,Madison,,Sat
+07:33:01,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:19:08,20,Madison,,Sat
+13:44:48,147,Outer DuSable Lake Shore Express,,Sun
+18:57:55,147,Outer DuSable Lake Shore Express,,Sun
+13:00:48,147,Outer DuSable Lake Shore Express,,Sun
+16:29:59,J14,Jeffery Jump,,Sat
+12:56:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:43:41,147,Outer DuSable Lake Shore Express,,Sun
+17:55:08,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:07:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:56:41,147,Outer DuSable Lake Shore Express,,Sun
+07:06:08,20,Madison,,Sun
+16:28:25,147,Outer DuSable Lake Shore Express,,Sun
+22:21:08,20,Madison,,Sun
+05:29:38,20,Madison,,Sun
+09:38:11,147,Outer DuSable Lake Shore Express,,Sat
+04:10:33,66,Chicago,,Sun
+15:28:08,20,Madison,,Sat
+00:55:34,20,Madison,,Mon
+09:31:08,20,Madison,,Sat
+08:51:22,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+04:10:33,4,Cottage Grove,,Sat
+00:10:34,20,Madison,,Mon
+18:08:08,20,Madison,,Sat
+10:10:08,20,Madison,,Sun
+19:25:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:03:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+10:09:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:17:03,56,Milwaukee,,Sun
+12:30:56,J14,Jeffery Jump,,Sat
+16:59:56,J14,Jeffery Jump,,Sat
+12:35:06,56,Milwaukee,,Sun
+09:41:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:39:16,147,Outer DuSable Lake Shore Express,,Sat
+02:10:33,66,Chicago,,Mon
+02:10:33,66,Chicago,,Mon
+21:29:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:21:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:23:44,J14,Jeffery Jump,,Sun
+10:54:12,J14,Jeffery Jump,,Sat
+20:12:25,147,Outer DuSable Lake Shore Express,,Sat
+16:44:06,J14,Jeffery Jump,,Sun
+19:40:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:59:31,147,Outer DuSable Lake Shore Express,,Sat
+09:00:08,20,Madison,,Sun
+14:34:08,20,Madison,,Sat
+12:35:07,56,Milwaukee,,Sun
+11:44:52,56,Milwaukee,,Sat
+08:11:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:53:23,56,Milwaukee,,Sun
+09:34:17,J14,Jeffery Jump,,Sat
+09:20:57,J14,Jeffery Jump,,Sun
+13:00:08,20,Madison,,Sun
+14:00:29,J14,Jeffery Jump,,Sat
+18:19:59,J14,Jeffery Jump,,Sat
+16:46:46,147,Outer DuSable Lake Shore Express,,Sat
+13:10:59,J14,Jeffery Jump,,Sat
+18:04:04,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+16:06:40,147,Outer DuSable Lake Shore Express,,Sun
+14:36:36,56,Milwaukee,,Sun
+14:34:16,147,Outer DuSable Lake Shore Express,,Sat
+18:18:27,56,Milwaukee,,Sat
+13:33:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:59:59,J14,Jeffery Jump,,Sat
+12:30:08,20,Madison,,Sun
+02:40:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+19:26:53,56,Milwaukee,,Sun
+13:22:08,20,Madison,,Sat
+15:58:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:26:57,56,Milwaukee,,Sat
+08:34:18,56,Milwaukee,,Sat
+09:31:06,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+04:10:33,4,Cottage Grove,,Sun
+09:49:52,J14,Jeffery Jump,,Sun
+10:44:19,J14,Jeffery Jump,,Sat
+10:09:29,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:31:34,147,Outer DuSable Lake Shore Express,,Sun
+06:20:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:10:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:34:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:10:08,20,Madison,,Sun
+12:40:08,20,Madison,,Sun
+14:20:26,J14,Jeffery Jump,,Sat
+10:43:41,147,Outer DuSable Lake Shore Express,,Sun
+21:22:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:52:36,56,Milwaukee,,Sun
+07:33:04,147,Outer DuSable Lake Shore Express,,Sun
+14:30:08,20,Madison,,Sun
+17:44:53,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+15:37:08,20,Madison,,Sat
+17:58:08,20,Madison,,Sun
+06:45:08,20,Madison,,Sat
+21:43:57,J14,Jeffery Jump,,Sun
+04:40:33,4,Cottage Grove,,Sat
+09:30:59,J14,Jeffery Jump,,Sun
+17:03:23,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:10:57,J14,Jeffery Jump,,Sun
+10:34:19,J14,Jeffery Jump,,Sat
+03:10:34,20,Madison,,Sat
+06:48:38,20,Madison,,Sun
+07:45:26,147,Outer DuSable Lake Shore Express,,Sat
+05:09:04,20,Madison,,Sun
+17:09:59,J14,Jeffery Jump,,Sat
+05:25:34,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:19:40,147,Outer DuSable Lake Shore Express,,Sat
+15:39:59,J14,Jeffery Jump,,Sat
+05:53:07,56,Milwaukee,,Sat
+18:08:08,20,Madison,,Sun
+13:45:06,56,Milwaukee,,Sun
+18:53:44,J14,Jeffery Jump,,Sun
+14:20:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:46:22,56,Milwaukee,,Sat
+15:12:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:50:56,J14,Jeffery Jump,,Sat
+13:01:47,147,Outer DuSable Lake Shore Express,,Sat
+18:18:08,20,Madison,,Sun
+18:04:06,J14,Jeffery Jump,,Sun
+20:43:19,J14,Jeffery Jump,,Sun
+20:10:11,147,Outer DuSable Lake Shore Express,,Sun
+07:02:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:10:08,20,Madison,,Sun
+09:21:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:21:08,20,Madison,,Sat
+17:50:38,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:51:08,20,Madison,,Sat
+12:59:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:09:56,J14,Jeffery Jump,,Sat
+11:40:08,20,Madison,,Sun
+07:44:29,J14,Jeffery Jump,,Sun
+21:22:38,20,Madison,,Sat
+16:00:08,20,Madison,,Sun
+22:22:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:40:08,20,Madison,,Sun
+05:49:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+22:38:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:06:08,20,Madison,,Sun
+09:44:17,J14,Jeffery Jump,,Sat
+20:33:19,J14,Jeffery Jump,,Sun
+22:07:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:21:08,20,Madison,,Sat
+18:34:47,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:15:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:53:32,56,Milwaukee,,Sun
+15:08:36,56,Milwaukee,,Sun
+02:40:34,20,Madison,,Mon
+12:27:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:10:08,20,Madison,,Sun
+16:40:12,56,Milwaukee,,Sat
+13:22:48,147,Outer DuSable Lake Shore Express,,Sun
+07:48:58,56,Milwaukee,,Sat
+17:43:30,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:43:31,J14,Jeffery Jump,,Sat
+13:30:08,20,Madison,,Sun
+05:10:33,4,Cottage Grove,,Sun
+13:56:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:54:31,J14,Jeffery Jump,,Sun
+18:39:59,J14,Jeffery Jump,,Sat
+17:34:17,147,Outer DuSable Lake Shore Express,,Sat
+10:29:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:04:03,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:51:41,56,Milwaukee,,Sat
+18:08:08,20,Madison,,Sat
+22:30:03,147,Outer DuSable Lake Shore Express,,Sat
+19:37:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+08:22:38,20,Madison,,Sun
+11:24:14,J14,Jeffery Jump,,Sat
+16:19:59,J14,Jeffery Jump,,Sat
+08:01:26,147,Outer DuSable Lake Shore Express,,Sat
+00:55:34,20,Madison,,Sun
+22:18:03,147,Outer DuSable Lake Shore Express,,Sat
+20:52:52,J14,Jeffery Jump,,Sun
+15:03:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+17:29:08,20,Madison,,Sun
+22:22:22,J14,Jeffery Jump,,Sat
+19:30:18,147,Outer DuSable Lake Shore Express,,Sat
+17:59:59,J14,Jeffery Jump,,Sat
+09:03:52,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+23:46:08,20,Madison,,Sun
+21:43:59,J14,Jeffery Jump,,Sun
+15:20:26,J14,Jeffery Jump,,Sat
+06:53:48,147,Outer DuSable Lake Shore Express,,Sun
+19:17:57,56,Milwaukee,,Sat
+20:44:11,147,Outer DuSable Lake Shore Express,,Sun
+11:30:08,20,Madison,,Sun
+13:25:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:31:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:36:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:46:25,56,Milwaukee,,Sat
+18:13:44,J14,Jeffery Jump,,Sun
+22:58:11,147,Outer DuSable Lake Shore Express,,Sat
+18:05:45,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:19:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:03:20,56,Milwaukee,,Sat
+00:10:34,20,Madison,,Sun
+14:07:08,20,Madison,,Sat
+08:55:38,20,Madison,,Sat
+11:52:04,J14,Jeffery Jump,,Sat
+13:06:09,J14,Jeffery Jump,,Sun
+15:42:16,147,Outer DuSable Lake Shore Express,,Sat
+22:51:27,J14,Jeffery Jump,,Sun
+03:40:34,20,Madison,,Sat
+06:17:52,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:09:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:49:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:39:34,147,Outer DuSable Lake Shore Express,,Sun
+21:54:42,56,Milwaukee,,Sat
+00:50:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+15:41:50,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+20:38:17,J14,Jeffery Jump,,Sat
+11:01:08,20,Madison,,Sat
+12:47:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+06:53:56,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:02:54,J14,Jeffery Jump,,Sun
+16:11:54,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+14:36:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:24:31,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+03:40:34,20,Madison,,Sun
+08:00:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+19:17:11,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:47:33,56,Milwaukee,,Sun
+16:16:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+19:38:08,20,Madison,,Sun
+06:16:33,56,Milwaukee,,Sat
+20:08:08,20,Madison,,Sun
+17:38:24,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:18:25,56,Milwaukee,,Sat
+16:07:50,56,Milwaukee,,Sat
+19:49:23,56,Milwaukee,,Sun
+09:59:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+13:11:48,147,Outer DuSable Lake Shore Express,,Sun
+09:11:08,20,Madison,,Sat
+12:52:36,56,Milwaukee,,Sun
+15:40:37,56,Milwaukee,,Sun
+16:59:05,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+00:55:34,20,Madison,,Sun
+14:30:29,J14,Jeffery Jump,,Sat
+11:56:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:11:08,20,Madison,,Sat
+21:38:17,J14,Jeffery Jump,,Sat
+22:34:46,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:59:34,J14,Jeffery Jump,,Sat
+16:44:53,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:28:32,56,Milwaukee,,Sat
+21:33:42,56,Milwaukee,,Sat
+14:40:25,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+07:45:26,147,Outer DuSable Lake Shore Express,,Sat
+13:20:08,20,Madison,,Sun
+17:33:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:20:08,20,Madison,,Sun
+19:38:25,147,Outer DuSable Lake Shore Express,,Sat
+16:47:40,147,Outer DuSable Lake Shore Express,,Sun
+20:33:17,J14,Jeffery Jump,,Sun
+17:25:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+06:33:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:09:22,J14,Jeffery Jump,,Sun
+01:40:34,20,Madison,,Tue,Wed,Thu,Fri,Sat
+16:22:08,20,Madison,,Sat
+18:12:11,56,Milwaukee,,Sun
+14:36:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:31:27,56,Milwaukee,,Sat
+11:43:03,147,Outer DuSable Lake Shore Express,,Sun
+22:00:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:42:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+01:40:31,66,Chicago,,Sun
+09:59:54,J14,Jeffery Jump,,Sun
+07:43:02,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:44:06,J14,Jeffery Jump,,Sun
+19:19:11,147,Outer DuSable Lake Shore Express,,Sun
+09:21:08,20,Madison,,Sat
+11:18:06,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:20:29,J14,Jeffery Jump,,Sat
+15:10:08,20,Madison,,Sun
+13:40:08,20,Madison,,Sat
+06:39:58,56,Milwaukee,,Sat
+21:39:23,56,Milwaukee,,Sun
+12:40:59,J14,Jeffery Jump,,Sat
+13:57:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+05:27:32,56,Milwaukee,,Sat
+23:38:11,147,Outer DuSable Lake Shore Express,,Sat
+10:29:29,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:15:42,56,Milwaukee,,Sat
+22:36:42,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+18:33:42,J14,Jeffery Jump,,Sun
+13:16:09,J14,Jeffery Jump,,Sun
+11:09:41,147,Outer DuSable Lake Shore Express,,Sun
+03:10:31,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+07:13:04,147,Outer DuSable Lake Shore Express,,Sun
+08:31:12,56,Milwaukee,,Sun
+23:17:34,147,Outer DuSable Lake Shore Express,,Sun
+10:26:11,147,Outer DuSable Lake Shore Express,,Sat
+16:49:08,20,Madison,,Sat
+01:10:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+14:36:37,56,Milwaukee,,Sun
+00:30:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+21:49:18,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+09:30:08,20,Madison,,Sun
+03:10:33,4,Cottage Grove,,Sun
+14:53:55,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:31:32,147,Outer DuSable Lake Shore Express,,Sat
+20:54:08,20,Madison,,Sat
+23:37:04,147,Outer DuSable Lake Shore Express,,Sun
+10:13:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:14:17,J14,Jeffery Jump,,Sat
+19:38:08,20,Madison,,Sun
+03:40:31,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+16:15:16,147,Outer DuSable Lake Shore Express,,Sat
+19:06:02,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:13:24,J14,Jeffery Jump,,Sat
+13:44:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+04:10:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:58:08,20,Madison,,Sat
+17:27:40,147,Outer DuSable Lake Shore Express,,Sun
+18:04:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:04:14,J14,Jeffery Jump,,Sat
+18:06:25,147,Outer DuSable Lake Shore Express,,Sat
+21:39:38,20,Madison,,Sat
+17:48:08,20,Madison,,Sun
+18:14:32,147,Outer DuSable Lake Shore Express,,Sat
+00:10:33,4,Cottage Grove,,Sun
+09:16:48,56,Milwaukee,,Sat
+07:13:04,147,Outer DuSable Lake Shore Express,,Sun
+15:01:08,20,Madison,,Sat
+20:54:08,20,Madison,,Sat
+20:18:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:33:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+10:33:45,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:44:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:08:11,147,Outer DuSable Lake Shore Express,,Sun
+19:34:08,20,Madison,,Sat
+10:34:36,56,Milwaukee,,Sat
+17:12:52,56,Milwaukee,,Sat
+13:36:06,J14,Jeffery Jump,,Sun
+07:44:27,J14,Jeffery Jump,,Sun
+15:00:29,J14,Jeffery Jump,,Sat
+15:33:46,147,Outer DuSable Lake Shore Express,,Sat
+20:52:34,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:30:18,147,Outer DuSable Lake Shore Express,,Sun
+19:34:08,20,Madison,,Sat
+04:40:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:19:06,J14,Jeffery Jump,,Sat
+04:40:34,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:46:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:17:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+20:49:12,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+01:10:34,20,Madison,,Sun
+16:57:40,147,Outer DuSable Lake Shore Express,,Sun
+12:31:25,56,Milwaukee,,Sat
+14:54:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:51:01,147,Outer DuSable Lake Shore Express,,Sat
+08:22:38,20,Madison,,Sun
+14:02:36,56,Milwaukee,,Sun
+20:31:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+01:10:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+09:30:08,20,Madison,,Sun
+02:40:34,20,Madison,,Mon
+07:44:27,J14,Jeffery Jump,,Sat
+16:58:08,20,Madison,,Sat
+00:09:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+00:40:34,20,Madison,,Mon
+17:29:20,56,Milwaukee,,Sat
+21:08:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:20:08,20,Madison,,Sun
+12:27:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:49:25,147,Outer DuSable Lake Shore Express,,Sat
+18:14:23,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:29:56,J14,Jeffery Jump,,Sat
+16:00:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:33:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+12:49:48,147,Outer DuSable Lake Shore Express,,Sun
+11:41:55,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:12:48,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:20:29,J14,Jeffery Jump,,Sat
+16:55:31,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:40:10,147,Outer DuSable Lake Shore Express,,Sun
+04:10:34,20,Madison,,Sat
+21:08:19,J14,Jeffery Jump,,Sat
+22:59:04,147,Outer DuSable Lake Shore Express,,Sun
+22:51:08,20,Madison,,Sun
+10:19:29,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:17:40,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+13:13:39,147,Outer DuSable Lake Shore Express,,Sat
+06:53:48,147,Outer DuSable Lake Shore Express,,Sun
+14:11:55,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+06:45:04,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+06:53:59,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:01:48,56,Milwaukee,,Sun
+01:40:34,20,Madison,,Sun
+22:58:33,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:03:42,J14,Jeffery Jump,,Sun
+09:33:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:02:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:00:08,20,Madison,,Sun
+06:17:02,56,Milwaukee,,Sun
+03:10:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:09:24,J14,Jeffery Jump,,Sun
+19:54:08,20,Madison,,Sat
+18:14:32,147,Outer DuSable Lake Shore Express,,Sat
+14:15:42,J14,Jeffery Jump,,Sun
+15:15:39,J14,Jeffery Jump,,Sun
+03:40:33,4,Cottage Grove,,Sun
+15:40:36,56,Milwaukee,,Sun
+00:09:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+11:28:31,56,Milwaukee,,Sat
+22:20:04,147,Outer DuSable Lake Shore Express,,Sun
+17:38:08,20,Madison,,Sat
+21:14:08,20,Madison,,Sat
+09:30:50,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:27:08,20,Madison,,Sat
+23:18:38,20,Madison,,Sat
+11:34:06,J14,Jeffery Jump,,Sat
+20:47:55,147,Outer DuSable Lake Shore Express,,Sat
+11:31:41,147,Outer DuSable Lake Shore Express,,Sun
+10:49:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:30:08,20,Madison,,Sun
+03:40:33,66,Chicago,,Sat
+05:55:34,147,Outer DuSable Lake Shore Express,,Sat
+08:04:59,J14,Jeffery Jump,,Sun
+20:19:09,J14,Jeffery Jump,,Sat
+12:30:59,J14,Jeffery Jump,,Sat
+18:17:40,147,Outer DuSable Lake Shore Express,,Sun
+01:40:34,20,Madison,,Sun
+12:10:08,20,Madison,,Sat
+22:45:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:44:48,147,Outer DuSable Lake Shore Express,,Sun
+11:31:40,147,Outer DuSable Lake Shore Express,,Sat
+19:53:26,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+08:24:08,20,Madison,,Sun
+04:40:34,20,Madison,,Sun
+11:29:22,J14,Jeffery Jump,,Sun
+21:26:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:16:48,147,Outer DuSable Lake Shore Express,,Sun
+19:26:11,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:00:18,147,Outer DuSable Lake Shore Express,,Sun
+14:40:08,20,Madison,,Sun
+16:14:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:46:55,147,Outer DuSable Lake Shore Express,,Sat
+16:53:46,147,Outer DuSable Lake Shore Express,,Sat
+06:17:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+05:43:56,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+22:12:46,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:19:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:09:34,20,Madison,,Sat
+14:05:42,J14,Jeffery Jump,,Sun
+19:39:06,J14,Jeffery Jump,,Sat
+12:57:00,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+19:03:06,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:25:08,20,Madison,,Sat
+15:36:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+15:08:16,147,Outer DuSable Lake Shore Express,,Sat
+19:19:36,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+03:40:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:21:08,20,Madison,,Sat
+22:07:03,147,Outer DuSable Lake Shore Express,,Sat
+01:40:34,20,Madison,,Mon
+14:17:20,56,Milwaukee,,Sat
+15:06:57,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:49:17,147,Outer DuSable Lake Shore Express,,Sat
+15:56:10,147,Outer DuSable Lake Shore Express,,Sun
+18:22:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:32:51,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:31:08,20,Madison,,Sat
+09:33:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:54:03,147,Outer DuSable Lake Shore Express,,Sun
+08:50:59,J14,Jeffery Jump,,Sun
+19:17:55,56,Milwaukee,,Sat
+08:51:11,56,Milwaukee,,Sun
+08:09:27,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+18:31:32,147,Outer DuSable Lake Shore Express,,Sat
+15:52:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+07:29:26,147,Outer DuSable Lake Shore Express,,Sat
+20:38:08,20,Madison,,Sun
+00:50:33,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+14:25:24,147,Outer DuSable Lake Shore Express,,Sat
+15:50:46,147,Outer DuSable Lake Shore Express,,Sat
+17:37:40,147,Outer DuSable Lake Shore Express,,Sun
+11:14:14,J14,Jeffery Jump,,Sat
+00:12:33,4,Cottage Grove,,Mon
+23:45:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:20:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+14:43:08,20,Madison,,Sat
+00:52:33,4,Cottage Grove,,Mon
+20:26:11,147,Outer DuSable Lake Shore Express,,Sun
+04:40:33,66,Chicago,,Sat
+14:59:46,147,Outer DuSable Lake Shore Express,,Sat
+12:12:17,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+21:35:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:42:46,147,Outer DuSable Lake Shore Express,,Sat
+17:34:17,147,Outer DuSable Lake Shore Express,,Sat
+17:17:45,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:27:27,J14,Jeffery Jump,,Sat
+10:09:54,J14,Jeffery Jump,,Sun
+16:32:46,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:27:17,147,Outer DuSable Lake Shore Express,,Sat
+11:29:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:55:48,147,Outer DuSable Lake Shore Express,,Sun
+00:11:03,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+18:09:59,J14,Jeffery Jump,,Sat
+23:45:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:56:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+18:27:08,20,Madison,,Sat
+13:33:48,147,Outer DuSable Lake Shore Express,,Sun
+04:12:03,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:09:41,147,Outer DuSable Lake Shore Express,,Sun
+18:57:25,56,Milwaukee,,Sat
+21:22:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:41:33,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:45:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:51:33,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:03:40,147,Outer DuSable Lake Shore Express,,Sat
+01:40:33,66,Chicago,,Mon
+06:56:26,147,Outer DuSable Lake Shore Express,,Sat
+13:24:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:29:59,J14,Jeffery Jump,,Sat
+13:08:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:40:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+11:39:22,J14,Jeffery Jump,,Sun
+08:13:38,20,Madison,,Sat
+16:00:25,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+22:03:23,56,Milwaukee,,Sun
+16:04:31,J14,Jeffery Jump,,Sun
+12:19:24,J14,Jeffery Jump,,Sun
+00:24:04,20,Madison,,Tue,Wed,Thu,Fri,Sat
+21:51:08,20,Madison,,Sun
+11:04:12,J14,Jeffery Jump,,Sat
+15:42:24,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+00:50:33,4,Cottage Grove,,Mon
+08:57:24,J14,Jeffery Jump,,Sat
+16:39:56,J14,Jeffery Jump,,Sat
+19:38:25,147,Outer DuSable Lake Shore Express,,Sat
+22:51:17,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:50:59,J14,Jeffery Jump,,Sat
+15:41:52,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:09:48,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+11:50:08,20,Madison,,Sun
+06:49:11,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+07:32:54,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:47:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+12:49:17,147,Outer DuSable Lake Shore Express,,Sat
+04:40:37,66,Chicago,,Mon,Tue,Wed,Thu,Fri
+15:18:55,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+02:10:33,4,Cottage Grove,,Sun
+18:47:48,147,Outer DuSable Lake Shore Express,,Sun
+06:20:07,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+14:50:26,J14,Jeffery Jump,,Sat
+08:38:08,20,Madison,,Sun
+16:38:58,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+16:26:55,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+23:17:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:54:06,J14,Jeffery Jump,,Sun
+10:29:26,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+03:40:33,66,Chicago,,Sun
+17:29:22,56,Milwaukee,,Sat
+13:56:39,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+20:42:31,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+11:06:42,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+21:04:08,20,Madison,,Sat
+01:40:33,66,Chicago,,Tue,Wed,Thu,Fri,Sat
+10:39:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:29:38,20,Madison,,Sun
+10:31:08,20,Madison,,Sat
+11:00:08,20,Madison,,Sun
+01:10:35,66,Chicago,,Sun
+18:48:55,147,Outer DuSable Lake Shore Express,,Sat
+22:41:41,147,Outer DuSable Lake Shore Express,,Sat
+16:34:31,J14,Jeffery Jump,,Sun
+11:31:40,147,Outer DuSable Lake Shore Express,,Sat
+09:49:54,J14,Jeffery Jump,,Sun
+10:34:17,J14,Jeffery Jump,,Sat
+12:28:49,J14,Jeffery Jump,,Sun
+09:54:19,J14,Jeffery Jump,,Sat
+22:39:22,J14,Jeffery Jump,,Sat
+16:50:08,20,Madison,,Sun
+15:34:50,56,Milwaukee,,Sat
+12:37:03,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+21:08:38,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:44:09,J14,Jeffery Jump,,Sun
+17:38:08,20,Madison,,Sat
+13:46:20,56,Milwaukee,,Sat
+14:13:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:20:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+08:49:48,147,Outer DuSable Lake Shore Express,,Sat
+11:49:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:33:47,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+12:29:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:15:19,J14,Jeffery Jump,,Sat
+15:29:57,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+13:45:42,J14,Jeffery Jump,,Sun
+16:56:01,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+17:13:28,J14,Jeffery Jump,,Mon,Tue,Wed,Thu,Fri
+10:01:08,20,Madison,,Sat
+11:21:08,20,Madison,,Sat
+15:20:29,J14,Jeffery Jump,,Sat
+14:35:42,J14,Jeffery Jump,,Sun
+17:02:06,56,Milwaukee,,Sun
+19:23:42,J14,Jeffery Jump,,Sun
+18:59:31,J14,Jeffery Jump,,Sat
+10:50:08,20,Madison,,Sun
+23:06:08,20,Madison,,Sat
+17:14:09,J14,Jeffery Jump,,Sun
+19:35:27,56,Milwaukee,,Sat
+13:27:36,56,Milwaukee,,Sun
+21:50:17,J14,Jeffery Jump,,Sat
+09:47:18,56,Milwaukee,,Sun
+20:48:08,20,Madison,,Sun
+06:41:33,56,Milwaukee,,Sun
+21:26:38,20,Madison,,Sun
+10:13:10,147,Outer DuSable Lake Shore Express,,Mon,Tue,Wed,Thu,Fri
+23:18:38,20,Madison,,Sun
+21:35:08,20,Madison,,Mon,Tue,Wed,Thu,Fri
+03:40:34,20,Madison,,Sun
+14:10:26,J14,Jeffery Jump,,Sat
+07:56:32,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+17:26:59,56,Milwaukee,,Mon,Tue,Wed,Thu,Fri
+15:18:22,56,Milwaukee,,Sat

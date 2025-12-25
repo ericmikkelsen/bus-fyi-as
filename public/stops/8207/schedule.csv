@@ -1,0 +1,863 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+13:10:51,49,Western,,Sun
+08:50:22,49,Western,,Sun
+15:46:39,49,Western,,Wed
+21:43:12,49,Western,,Sun
+12:32:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:44:22,49,Western,,Sat
+10:53:21,49,Western,,Sun
+14:20:41,49,Western,,Sun
+12:40:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:06:44,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+17:56:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:32:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:09:12,49,Western,,Sun
+05:57:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:37:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+00:28:03,49,Western,,Tue,Wed,Thu,Fri,Sat
+06:15:03,49,Western,,Sat
+19:12:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+23:22:02,49,Western,,Sat
+05:57:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:39:41,49,Western,,Sun
+11:06:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:20:11,49,Western,,Sun
+11:30:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:36:09,49,Western,,Sat
+20:02:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+13:43:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:44:09,49,Western,,Sat
+08:51:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+07:28:12,49,Western,,Sat
+01:27:52,49,Western,,Sun
+05:30:13,49,Western,,Sat
+20:25:51,49,Western,,Sat
+07:53:34,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:04:12,49,Western,,Sat
+03:26:54,49,Western,,Mon,Tue,Wed,Thu,Fri
+02:56:54,49,Western,,Mon
+09:07:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:07:21,49,Western,,Sat
+08:24:12,49,Western,,Sat
+01:27:13,49,Western,,Mon
+11:30:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:38:11,49,Western,,Sat
+10:50:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:44:12,49,Western,,Sat
+15:20:41,49,Western,,Sun
+15:52:09,49,Western,,Sat
+16:40:11,49,Western,,Sun
+19:22:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+00:28:22,49,Western,,Sun
+12:16:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:31:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:07:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:58:12,49,Western,,Sun
+14:40:50,49,Western,,Sat
+15:33:39,49,Western,,Wed
+13:12:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:51:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:30:41,49,Western,,Sun
+19:23:21,49,Western,,Sat
+10:57:11,49,Western,,Sat
+18:15:00,49,Western,,Sat
+15:26:09,49,Western,,Wed
+16:10:11,49,Western,,Sun
+14:28:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:09:12,49,Western,,Sun
+14:45:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:06:41,49,Western,,Sat
+05:31:03,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:15:11,49,Western,,Sat
+08:00:52,49,Western,,Sun
+10:19:51,49,Western,,Sat
+06:24:32,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:59:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+06:57:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+11:06:41,49,Western,,Sat
+23:00:52,49,Western,,Sun
+07:20:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:57:21,49,Western,,Sat
+12:48:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:32:52,49,Western,,Sun
+19:30:02,49,Western,,Sun
+08:00:52,49,Western,,Sun
+08:06:12,49,Western,,Sat
+24:07:33,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:21:20,49,Western,,Sat
+00:57:03,49,Western,,Mon
+14:48:50,49,Western,,Sat
+10:08:12,49,Western,,Sun
+19:52:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:56:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:40:43,49,Western,,Sun
+20:52:51,49,Western,,Sat
+10:58:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:16:42,49,Western,,Sun
+15:12:50,49,Western,,Sat
+13:39:50,49,Western,,Sat
+11:33:21,49,Western,,Sun
+22:44:12,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:29:22,49,Western,,Sat
+15:09:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+08:44:12,49,Western,,Sat
+17:10:11,49,Western,,Sun
+13:20:51,49,Western,,Sun
+14:55:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:43:21,49,Western,,Sun
+04:27:13,49,Western,,Sun
+08:30:22,49,Western,,Sun
+09:47:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:47:39,49,Western,,Sat
+12:03:21,49,Western,,Sun
+14:57:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:07:34,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:39:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:56:50,49,Western,,Sat
+18:25:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:26:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+19:03:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:21:20,49,Western,,Sat
+18:35:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:42:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:19:41,49,Western,,Sun
+13:04:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:40:09,49,Western,,Mon,Tue,Thu,Fri
+11:22:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:22:13,49,Western,,Sun
+16:02:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:10:51,49,Western,,Sun
+10:11:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:22:50,49,Western,,Sat
+21:35:42,49,Western,,Sun
+12:24:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:21:51,49,Western,,Sat
+08:50:22,49,Western,,Sun
+09:17:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:24:39,49,Western,,Wed
+12:56:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:18:20,49,Western,,Sat
+19:39:51,49,Western,,Sat
+07:01:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:56:50,49,Western,,Sat
+23:54:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:43:21,49,Western,,Sun
+16:16:09,49,Western,,Sat
+14:00:51,49,Western,,Sun
+16:47:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:29:04,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:23:09,49,Western,,Sat
+15:00:41,49,Western,,Sun
+01:57:33,49,Western,,Sun
+14:05:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:23:21,49,Western,,Sun
+16:47:39,49,Western,,Sat
+15:14:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+04:30:43,49,Western,,Sat
+17:48:30,49,Western,,Sat
+08:35:31,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:58:00,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+17:39:48,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:20:51,49,Western,,Sun
+09:23:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:28:11,49,Western,,Sat
+13:04:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:17:20,49,Western,,Sat
+18:29:41,49,Western,,Sun
+06:15:03,49,Western,,Sat
+04:50:13,49,Western,,Sat
+14:47:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:19:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:43:21,49,Western,,Sun
+15:52:09,49,Western,,Sat
+12:57:09,49,Western,,Sat
+22:06:02,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:03:50,49,Western,,Sat
+08:20:22,49,Western,,Sun
+12:53:21,49,Western,,Sun
+08:00:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:06:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:03:39,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+23:07:21,49,Western,,Sat
+18:52:21,49,Western,,Sun
+15:44:09,49,Western,,Sat
+08:06:12,49,Western,,Sat
+17:29:41,49,Western,,Sun
+17:59:41,49,Western,,Sun
+12:08:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:44:22,49,Western,,Sat
+16:01:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+08:29:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:13:21,49,Western,,Sun
+05:03:43,49,Western,,Sun
+19:48:51,49,Western,,Sat
+15:44:39,49,Western,,Mon,Tue,Thu,Fri
+09:59:51,49,Western,,Sat
+17:40:30,49,Western,,Sat
+20:34:51,49,Western,,Sat
+24:09:12,49,Western,,Sat
+16:50:11,49,Western,,Sun
+07:30:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:20:41,49,Western,,Sun
+23:37:32,49,Western,,Sat
+20:30:02,49,Western,,Sun
+21:11:51,49,Western,,Sat
+07:30:33,49,Western,,Sun
+20:44:21,49,Western,,Sat
+16:24:09,49,Western,,Sat
+11:37:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:30:02,49,Western,,Sun
+12:16:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:29:22,49,Western,,Sat
+12:43:21,49,Western,,Sun
+13:40:51,49,Western,,Sun
+06:15:42,49,Western,,Mon,Tue,Wed,Thu,Fri
+01:56:24,49,Western,,Mon
+22:52:21,49,Western,,Sat
+16:26:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+17:37:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:34:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:40:30,49,Western,,Sat
+16:01:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+06:00:33,49,Western,,Sat
+12:03:50,49,Western,,Sat
+08:34:12,49,Western,,Sat
+21:32:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:30:41,49,Western,,Sun
+11:14:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:54:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:40:43,49,Western,,Sun
+14:33:50,49,Western,,Sat
+11:16:41,49,Western,,Sat
+05:10:13,49,Western,,Sat
+18:40:30,49,Western,,Sat
+09:34:12,49,Western,,Sat
+21:38:51,49,Western,,Sat
+08:20:22,49,Western,,Sun
+15:39:39,49,Western,,Mon,Tue,Thu,Fri
+05:59:13,49,Western,,Sun
+07:01:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:36:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+23:00:52,49,Western,,Sun
+18:15:00,49,Western,,Sat
+13:40:51,49,Western,,Sun
+06:17:43,49,Western,,Sun
+13:58:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:16:51,49,Western,,Sat
+16:33:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+12:03:21,49,Western,,Sun
+21:28:51,49,Western,,Sat
+01:27:13,49,Western,,Tue,Wed,Thu,Fri,Sat
+20:49:12,49,Western,,Sun
+18:33:00,49,Western,,Sat
+22:13:12,49,Western,,Sun
+08:54:12,49,Western,,Sat
+03:58:43,49,Western,,Sat
+21:43:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+00:57:52,49,Western,,Sun
+23:10:52,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:38:51,49,Western,,Sat
+13:06:09,49,Western,,Sat
+10:38:11,49,Western,,Sat
+23:53:12,49,Western,,Sat
+18:45:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:14:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+04:26:43,49,Western,,Mon,Tue,Wed,Thu,Fri
+03:56:43,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:44:12,49,Western,,Mon,Tue,Wed,Thu,Fri
+00:57:52,49,Western,,Sun
+06:55:33,49,Western,,Sun
+23:39:52,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:05:20,49,Western,,Sat
+08:30:22,49,Western,,Sun
+11:53:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:45:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:04:40,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+17:17:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:13:21,49,Western,,Sun
+12:13:50,49,Western,,Sat
+02:56:54,49,Western,,Tue,Wed,Thu,Fri,Sat
+18:19:41,49,Western,,Sun
+15:10:41,49,Western,,Sun
+20:25:51,49,Western,,Sat
+16:02:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:46:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:08:09,49,Western,,Sat
+23:37:32,49,Western,,Sat
+11:37:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:35:00,49,Western,,Sat
+16:49:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+21:28:51,49,Western,,Sat
+04:26:43,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:28:50,49,Western,,Sat
+15:12:50,49,Western,,Sat
+17:02:09,49,Western,,Sat
+15:55:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:38:12,49,Western,,Sun
+17:17:20,49,Western,,Sat
+07:14:03,49,Western,,Sun
+11:06:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:01:51,49,Western,,Sat
+13:03:21,49,Western,,Sun
+15:55:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+12:08:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:34:51,49,Western,,Sat
+10:28:11,49,Western,,Sat
+07:29:04,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:17:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:28:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:45:22,49,Western,,Sun
+02:26:54,49,Western,,Mon
+16:19:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:33:21,49,Western,,Sun
+10:09:51,49,Western,,Sat
+16:00:09,49,Western,,Sat
+15:05:20,49,Western,,Sat
+06:32:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:38:12,49,Western,,Sun
+22:03:12,49,Western,,Sun
+08:43:35,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+07:46:03,49,Western,,Sun
+23:53:12,49,Western,,Sat
+09:43:02,49,Western,,Sat
+14:21:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:50:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:53:21,49,Western,,Sun
+23:25:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+13:30:51,49,Western,,Sun
+09:51:02,49,Western,,Sat
+06:32:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:52:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:01:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:42:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:27:52,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+15:10:41,49,Western,,Sun
+19:10:51,49,Western,,Sun
+05:10:13,49,Western,,Sat
+19:20:51,49,Western,,Sun
+16:48:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:36:13,49,Western,,Sun
+17:49:41,49,Western,,Sun
+11:25:00,49,Western,,Sat
+12:48:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+04:47:13,49,Western,,Mon,Tue,Wed,Thu,Fri
+13:30:51,49,Western,,Sun
+12:22:50,49,Western,,Sat
+05:00:13,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:53:12,49,Western,,Sun
+15:40:41,49,Western,,Sun
+18:52:21,49,Western,,Sun
+01:27:13,49,Western,,Tue,Wed,Thu,Fri,Sat
+08:57:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+13:51:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:35:00,49,Western,,Sat
+17:17:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:23:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:21:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:59:52,49,Western,,Sat
+10:11:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:03:21,49,Western,,Sun
+17:47:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:57:00,49,Western,,Sat
+06:36:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+00:57:33,49,Western,,Tue,Wed,Thu,Fri,Sat
+16:20:11,49,Western,,Sun
+24:06:03,49,Western,,Sun
+20:51:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:40:11,49,Western,,Sun
+13:55:50,49,Western,,Sat
+23:49:03,49,Western,,Sun
+21:38:51,49,Western,,Sat
+12:13:50,49,Western,,Sat
+21:58:51,49,Western,,Sat
+17:50:52,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:13:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+10:04:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+24:07:33,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:46:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+15:40:41,49,Western,,Sun
+11:13:21,49,Western,,Sun
+22:38:51,49,Western,,Sat
+17:47:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:20:02,49,Western,,Sun
+22:31:42,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:57:09,49,Western,,Sat
+01:27:13,49,Western,,Mon
+07:14:22,49,Western,,Sat
+07:54:42,49,Western,,Sat
+14:00:51,49,Western,,Sun
+20:20:02,49,Western,,Sun
+13:20:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:39:48,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+03:58:43,49,Western,,Sat
+10:16:42,49,Western,,Sun
+13:27:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:14:12,49,Western,,Sat
+12:40:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:48:39,49,Western,,Sat
+19:50:02,49,Western,,Sun
+17:50:52,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:35:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:43:21,49,Western,,Sun
+16:38:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:11:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:20:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:06:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:09:12,49,Western,,Sun
+10:57:11,49,Western,,Sat
+09:51:02,49,Western,,Sat
+00:57:03,49,Western,,Mon
+09:19:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+06:16:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+11:14:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:23:21,49,Western,,Sun
+10:50:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:49:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+21:43:12,49,Western,,Sun
+17:07:34,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:07:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:48:30,49,Western,,Sat
+20:10:02,49,Western,,Sun
+13:06:09,49,Western,,Sat
+15:05:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:27:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:22:52,49,Western,,Sun
+14:20:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:16:12,49,Western,,Sun
+10:26:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:54:32,49,Western,,Mon,Tue,Wed,Thu,Fri
+02:27:13,49,Western,,Sun
+08:34:12,49,Western,,Sat
+12:40:09,49,Western,,Sat
+05:03:43,49,Western,,Sun
+03:26:54,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:52:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:01:51,49,Western,,Sat
+11:03:21,49,Western,,Sun
+20:07:21,49,Western,,Sat
+17:07:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:09:12,49,Western,,Sun
+19:02:21,49,Western,,Sun
+05:00:13,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:54:20,49,Western,,Sat
+17:49:41,49,Western,,Sun
+09:58:12,49,Western,,Sun
+16:58:00,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:50:51,49,Western,,Sun
+06:26:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+20:44:21,49,Western,,Sat
+18:47:21,49,Western,,Sun
+13:58:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:09:20,49,Western,,Sat
+23:10:52,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:14:03,49,Western,,Sun
+12:48:39,49,Western,,Sat
+16:00:09,49,Western,,Sat
+08:11:43,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+08:57:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:10:02,49,Western,,Sun
+17:25:20,49,Western,,Sat
+05:30:13,49,Western,,Sat
+14:18:20,49,Western,,Sat
+18:25:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:32:09,49,Western,,Sat
+19:20:51,49,Western,,Sun
+19:42:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:18:39,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+10:34:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:29:41,49,Western,,Sun
+13:12:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:01:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:24:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:10:50,49,Western,,Sat
+20:16:51,49,Western,,Sat
+07:50:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:18:12,49,Western,,Sun
+18:19:41,49,Western,,Sun
+21:43:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:12:43,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:45:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:24:00,49,Western,,Sat
+23:22:02,49,Western,,Sat
+16:37:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:08:09,49,Western,,Sat
+20:30:02,49,Western,,Sun
+04:50:13,49,Western,,Sat
+15:22:39,49,Western,,Mon,Tue,Thu,Fri
+05:12:43,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:33:39,49,Western,,Wed
+16:10:11,49,Western,,Sun
+07:40:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:42:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:32:09,49,Western,,Sat
+08:20:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:12:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:22:03,49,Western,,Mon,Tue,Wed,Thu,Fri
+01:57:33,49,Western,,Sun
+06:17:43,49,Western,,Sun
+12:03:50,49,Western,,Sat
+23:32:03,49,Western,,Sun
+11:53:21,49,Western,,Sun
+15:27:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+14:05:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:20:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:10:51,49,Western,,Sun
+07:14:22,49,Western,,Sat
+22:52:21,49,Western,,Sat
+10:43:21,49,Western,,Sun
+12:23:21,49,Western,,Sun
+03:57:13,49,Western,,Sun
+14:25:50,49,Western,,Sat
+07:30:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:35:42,49,Western,,Sun
+08:19:48,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:30:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:50:02,49,Western,,Sun
+22:31:42,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:55:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:48:51,49,Western,,Sat
+24:09:12,49,Western,,Sat
+14:25:50,49,Western,,Sat
+20:31:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:19:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+07:54:42,49,Western,,Sat
+13:39:50,49,Western,,Sat
+11:45:00,49,Western,,Sat
+20:00:02,49,Western,,Sun
+03:57:13,49,Western,,Sun
+10:42:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:07:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:14:09,49,Western,,Sat
+13:55:50,49,Western,,Sat
+12:13:21,49,Western,,Sun
+13:30:50,49,Western,,Sat
+12:01:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:48:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:40:41,49,Western,,Sun
+19:15:11,49,Western,,Sat
+16:32:09,49,Western,,Sat
+22:56:52,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:02:21,49,Western,,Sun
+15:42:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:10:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+01:56:24,49,Western,,Tue,Wed,Thu,Fri,Sat
+17:19:41,49,Western,,Sun
+10:09:51,49,Western,,Sat
+17:00:11,49,Western,,Sun
+17:25:20,49,Western,,Sat
+03:56:43,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:32:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:38:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:59:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+18:09:41,49,Western,,Sun
+16:55:09,49,Western,,Sat
+13:10:51,49,Western,,Sun
+16:40:09,49,Western,,Sat
+20:12:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:49:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+21:25:42,49,Western,,Sun
+08:10:52,49,Western,,Sun
+15:00:41,49,Western,,Sun
+08:58:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+05:40:03,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:56:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:50:41,49,Western,,Sun
+12:23:21,49,Western,,Sun
+07:42:12,49,Western,,Sat
+08:47:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:07:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:48:30,49,Western,,Sat
+15:38:39,49,Western,,Wed
+18:29:41,49,Western,,Sun
+10:23:21,49,Western,,Sun
+00:29:33,49,Western,,Mon
+15:30:39,49,Western,,Mon,Tue,Thu,Fri
+14:03:50,49,Western,,Sat
+23:25:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:40:09,49,Western,,Sat
+08:35:31,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:27:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:35:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:30:41,49,Western,,Sun
+22:32:52,49,Western,,Sun
+06:42:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:57:11,49,Western,,Sat
+02:56:54,49,Western,,Mon
+15:49:09,49,Western,,Mon,Tue,Thu,Fri
+20:49:12,49,Western,,Sun
+16:40:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+18:06:00,49,Western,,Sat
+11:53:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:46:03,49,Western,,Sat
+17:32:30,49,Western,,Sat
+08:38:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+06:59:52,49,Western,,Sat
+11:25:00,49,Western,,Sat
+17:39:41,49,Western,,Sun
+15:09:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+07:16:48,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+10:47:41,49,Western,,Sat
+13:20:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+00:28:03,49,Western,,Tue,Wed,Thu,Fri,Sat
+09:14:12,49,Western,,Sat
+05:31:03,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:37:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:38:39,49,Western,,Wed
+17:09:20,49,Western,,Sat
+19:22:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:54:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:56:52,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:12:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+21:25:42,49,Western,,Sun
+19:32:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:19:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:11:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:57:21,49,Western,,Sat
+09:31:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:42:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:30:50,49,Western,,Sat
+18:40:30,49,Western,,Sat
+22:08:51,49,Western,,Sat
+13:47:50,49,Western,,Sat
+16:00:41,49,Western,,Sun
+16:10:39,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:59:12,49,Western,,Sun
+16:57:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+13:14:09,49,Western,,Sat
+14:48:50,49,Western,,Sat
+15:46:39,49,Western,,Wed
+19:10:51,49,Western,,Sun
+08:54:12,49,Western,,Sat
+08:38:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:28:12,49,Western,,Sun
+21:58:51,49,Western,,Sat
+17:10:11,49,Western,,Sun
+11:16:41,49,Western,,Sat
+15:30:41,49,Western,,Sun
+08:16:12,49,Western,,Sat
+22:22:52,49,Western,,Sun
+01:27:52,49,Western,,Sun
+16:40:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+14:33:50,49,Western,,Sat
+08:40:22,49,Western,,Sun
+22:06:02,49,Western,,Mon,Tue,Wed,Thu,Fri
+02:57:13,49,Western,,Sun
+16:49:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+20:00:02,49,Western,,Sun
+10:26:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:13:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:18:12,49,Western,,Sun
+19:06:11,49,Western,,Sat
+14:40:41,49,Western,,Sun
+04:45:13,49,Western,,Sun
+23:39:52,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:28:12,49,Western,,Sun
+10:53:21,49,Western,,Sun
+07:28:12,49,Western,,Sat
+15:34:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+13:50:51,49,Western,,Sun
+11:22:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:24:12,49,Western,,Sat
+10:03:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:40:03,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:50:41,49,Western,,Sun
+20:59:12,49,Western,,Sun
+07:40:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:27:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:59:12,49,Western,,Sun
+19:23:21,49,Western,,Sat
+23:07:21,49,Western,,Sat
+15:34:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:48:12,49,Western,,Sun
+13:23:09,49,Western,,Sat
+18:16:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:03:12,49,Western,,Sun
+08:29:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:32:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:20:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+11:33:21,49,Western,,Sun
+14:12:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+03:27:13,49,Western,,Sun
+10:58:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:06:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:53:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:47:21,49,Western,,Sun
+12:40:09,49,Western,,Sat
+20:41:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:30:11,49,Western,,Sun
+05:22:13,49,Western,,Sun
+07:46:03,49,Western,,Sun
+08:59:12,49,Western,,Sun
+02:57:13,49,Western,,Sun
+02:26:54,49,Western,,Mon
+06:07:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+22:18:51,49,Western,,Sat
+22:28:51,49,Western,,Sat
+21:16:12,49,Western,,Sun
+15:27:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:00:41,49,Western,,Sun
+15:30:39,49,Western,,Mon,Tue,Thu,Fri
+09:04:12,49,Western,,Sat
+15:19:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+18:16:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:24:09,49,Western,,Wed
+15:20:41,49,Western,,Sun
+19:39:51,49,Western,,Sat
+08:51:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+19:03:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:29:50,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:11:51,49,Western,,Sat
+07:42:04,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:26:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+12:33:21,49,Western,,Sun
+19:52:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+23:49:03,49,Western,,Sun
+01:56:24,49,Western,,Tue,Wed,Thu,Fri,Sat
+08:10:52,49,Western,,Sun
+09:59:51,49,Western,,Sat
+17:57:00,49,Western,,Sat
+19:30:51,49,Western,,Sat
+08:19:48,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+11:53:21,49,Western,,Sun
+15:50:41,49,Western,,Sun
+18:53:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:34:12,49,Western,,Sat
+08:11:43,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+19:40:02,49,Western,,Sun
+15:22:39,49,Western,,Mon,Tue,Thu,Fri
+22:08:51,49,Western,,Sat
+08:43:35,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+10:19:51,49,Western,,Sat
+17:00:11,49,Western,,Sun
+14:50:41,49,Western,,Sun
+18:06:00,49,Western,,Sat
+00:29:33,49,Western,,Mon
+05:46:03,49,Western,,Sat
+08:58:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+21:53:12,49,Western,,Sun
+17:59:41,49,Western,,Sun
+09:57:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+03:27:43,49,Western,,Sat
+20:41:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:24:12,49,Western,,Sat
+11:23:21,49,Western,,Sun
+10:33:21,49,Western,,Sun
+16:07:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+23:17:33,49,Western,,Sun
+18:39:11,49,Western,,Sun
+13:03:21,49,Western,,Sun
+08:47:11,49,Western,,Mon,Tue,Wed,Thu,Fri
+02:27:13,49,Western,,Sun
+22:28:51,49,Western,,Sat
+19:30:51,49,Western,,Sat
+08:10:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:27:52,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+18:57:11,49,Western,,Sat
+08:16:12,49,Western,,Sat
+09:04:40,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:16:09,49,Western,,Sat
+05:59:13,49,Western,,Sun
+21:54:32,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:24:00,49,Western,,Sat
+00:57:33,49,Western,,Tue,Wed,Thu,Fri,Sat
+04:30:43,49,Western,,Sat
+19:40:02,49,Western,,Sun
+15:49:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+11:45:00,49,Western,,Sat
+06:00:33,49,Western,,Sat
+09:12:10,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+15:49:39,49,Western,,Mon,Tue,Thu,Fri
+16:19:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+14:10:50,49,Western,,Sat
+02:26:54,49,Western,,Tue,Wed,Thu,Fri,Sat
+16:33:26,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:43:02,49,Western,,Sat
+06:16:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+20:31:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:02:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+21:11:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:39:11,49,Western,,Sun
+17:18:39,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:24:12,49,Western,,Sat
+09:39:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+12:00:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:48:51,49,Western,,Sat
+16:50:11,49,Western,,Sun
+20:21:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:29:43,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+17:02:09,49,Western,,Sat
+07:16:48,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+06:15:42,49,Western,,Mon,Tue,Wed,Thu,Fri
+01:56:24,49,Western,,Mon
+08:03:39,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+11:54:20,49,Western,,Sat
+06:55:33,49,Western,,Sun
+00:28:22,49,Western,,Sun
+10:08:12,49,Western,,Sun
+22:13:12,49,Western,,Sun
+07:30:33,49,Western,,Sun
+17:32:30,49,Western,,Sat
+21:21:51,49,Western,,Sat
+07:53:34,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+14:13:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+14:49:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+08:00:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+16:19:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+19:06:11,49,Western,,Sat
+16:55:09,49,Western,,Sat
+11:45:41,49,Western,,Mon,Tue,Wed,Thu,Fri
+13:43:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+19:12:21,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:21:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+24:06:03,49,Western,,Sun
+20:40:02,49,Western,,Sun
+03:27:13,49,Western,,Sun
+13:47:50,49,Western,,Sat
+15:45:09,49,Western,,Mon,Tue,Thu,Fri
+02:56:54,49,Western,,Tue,Wed,Thu,Fri,Sat
+13:35:30,49,Western,,Mon,Tue,Wed,Thu,Fri
+08:40:22,49,Western,,Sun
+21:21:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+09:47:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+10:47:41,49,Western,,Sat
+06:36:13,49,Western,,Sun
+06:24:32,49,Western,,Mon,Tue,Wed,Thu,Fri
+20:52:51,49,Western,,Sat
+20:40:02,49,Western,,Sun
+15:28:50,49,Western,,Sat
+16:24:09,49,Western,,Sat
+21:11:51,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:36:09,49,Western,,Sat
+12:33:21,49,Western,,Sun
+21:48:51,49,Western,,Sat
+07:42:04,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+04:45:13,49,Western,,Sun
+14:40:50,49,Western,,Sat
+05:22:03,49,Western,,Mon,Tue,Wed,Thu,Fri
+17:48:30,49,Western,,Sat
+17:29:43,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+16:57:09,49,Western,,Mon,Tue,Wed,Thu,Fri
+23:32:03,49,Western,,Sun
+02:26:54,49,Western,,Tue,Wed,Thu,Fri,Sat
+07:42:12,49,Western,,Sat
+22:18:42,49,Western,,Mon,Tue,Wed,Thu,Fri
+23:54:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+23:17:33,49,Western,,Sun
+03:27:43,49,Western,,Sat
+22:45:22,49,Western,,Sun
+16:30:11,49,Western,,Sun
+04:27:13,49,Western,,Sun
+22:18:42,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:18:56,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+18:33:00,49,Western,,Sat
+12:32:09,49,Western,,Sat
+22:18:51,49,Western,,Sat
+13:51:00,49,Western,,Mon,Tue,Wed,Thu,Fri
+05:48:22,49,Western,,Mon,Tue,Wed,Thu,Fri
+15:26:39,49,Western,,Wed
+04:47:13,49,Western,,Mon,Tue,Wed,Thu,Fri
+07:06:44,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+08:10:20,49,Western,,Mon,Tue,Wed,Thu,Fri
+18:09:41,49,Western,,Sun
+06:57:11,X49,Western Express,,Mon,Tue,Wed,Thu,Fri
+09:48:12,49,Western,,Sun

@@ -1,0 +1,807 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+07:03:05,151,Sheridan,,Sun
+07:49:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:51:17,151,Sheridan,,Sat
+22:50:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:01:47,151,Sheridan,,Sat
+16:59:11,151,Sheridan,,Sun
+07:55:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+21:43:32,151,Sheridan,,Sun
+14:47:14,151,Sheridan,,Sun
+18:16:41,151,Sheridan,,Sat
+09:52:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:06:11,151,Sheridan,,Sat
+12:28:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:21:44,151,Sheridan,,Sat
+09:59:44,151,Sheridan,,Sun
+21:35:08,151,Sheridan,,Sat
+13:42:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:57:14,151,Sheridan,,Sun
+13:57:44,151,Sheridan,,Sun
+07:33:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:10:41,151,Sheridan,,Sun
+10:52:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:16:02,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:47:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:19:17,151,Sheridan,,Sat
+23:50:29,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:18:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:02:35,151,Sheridan,,Sun
+19:12:08,151,Sheridan,,Sun
+11:07:17,151,Sheridan,,Sat
+19:53:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:02:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:16:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:49:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:34:11,151,Sheridan,,Sat
+13:38:14,151,Sheridan,,Sun
+15:37:14,151,Sheridan,,Sun
+09:12:20,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+18:23:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:13:47,151,Sheridan,,Sat
+00:55:56,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+08:13:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:03:14,151,Sheridan,,Sat
+19:20:41,151,Sheridan,,Sat
+22:34:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:23:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:43:32,151,Sheridan,,Sun
+14:07:14,151,Sheridan,,Sun
+19:34:11,151,Sheridan,,Sat
+13:29:47,151,Sheridan,,Sat
+16:58:11,151,Sheridan,,Sat
+10:52:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:48:14,151,Sheridan,,Sun
+08:04:11,151,Sheridan,,Sat
+09:22:44,151,Sheridan,,Sat
+18:28:11,151,Sheridan,,Sun
+16:25:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:40:29,151,Sheridan,,Sat
+09:27:47,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:09:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+18:54:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:04:35,151,Sheridan,,Sun
+08:01:50,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+12:17:47,151,Sheridan,,Sat
+08:43:14,151,Sheridan,,Sat
+12:02:17,151,Sheridan,,Sat
+23:44:29,151,Sheridan,,Sun
+23:40:29,151,Sheridan,,Sat
+05:19:32,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:57:44,151,Sheridan,,Sat
+06:24:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:19:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:33:41,151,Sheridan,,Sat
+06:11:05,151,Sheridan,,Sat
+16:17:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+00:34:56,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+08:28:22,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:09:47,151,Sheridan,,Sat
+09:52:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:37:47,151,Sheridan,,Sat
+15:28:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+00:40:26,151,Sheridan,,Sun
+12:08:44,151,Sheridan,,Sun
+11:16:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:29:47,151,Sheridan,,Sat
+20:01:08,151,Sheridan,,Sun
+21:46:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:28:59,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:35:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:06:05,151,Sheridan,,Sat
+11:05:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+21:50:08,151,Sheridan,,Sat
+07:47:31,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+10:05:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:46:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:49:22,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:27:14,151,Sheridan,,Sun
+15:17:14,151,Sheridan,,Sun
+21:04:38,151,Sheridan,,Sat
+15:47:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+14:47:14,151,Sheridan,,Sun
+13:45:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:45:47,151,Sheridan,,Sat
+08:17:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:58:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:20:08,151,Sheridan,,Sat
+10:59:17,151,Sheridan,,Sat
+08:13:41,151,Sheridan,,Sat
+18:23:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:46:11,151,Sheridan,,Sat
+11:46:17,151,Sheridan,,Sat
+20:41:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:49:35,151,Sheridan,,Sun
+06:05:02,151,Sheridan,,Sun
+07:50:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:57:44,151,Sheridan,,Sat
+06:30:11,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+18:03:41,151,Sheridan,,Sun
+06:59:28,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:27:14,151,Sheridan,,Sun
+16:18:11,151,Sheridan,,Sun
+17:38:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:59:17,151,Sheridan,,Sat
+11:15:17,151,Sheridan,,Sat
+07:53:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:41:47,151,Sheridan,,Sat
+00:25:56,151,Sheridan,,Mon
+17:26:11,151,Sheridan,,Sat
+20:57:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:45:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:39:22,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:43:38,151,Sheridan,,Sun
+14:57:14,151,Sheridan,,Sun
+08:53:14,151,Sheridan,,Sat
+23:28:59,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:00:52,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+01:00:26,151,Sheridan,,Sun
+07:24:45,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+23:03:32,151,Sheridan,,Sun
+11:04:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:36:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+09:14:11,151,Sheridan,,Sun
+10:45:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+09:19:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:17:47,151,Sheridan,,Sat
+18:57:44,151,Sheridan,,Sat
+08:53:14,151,Sheridan,,Sat
+17:09:41,151,Sheridan,,Sun
+16:58:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:09:41,151,Sheridan,,Sun
+13:18:14,151,Sheridan,,Sun
+07:12:52,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:30:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:02:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:23:32,151,Sheridan,,Sun
+18:57:11,151,Sheridan,,Sun
+18:16:11,151,Sheridan,,Sun
+10:40:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:22:02,151,Sheridan,,Sat
+14:17:14,151,Sheridan,,Sun
+07:50:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+20:20:05,151,Sheridan,,Sat
+13:30:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:07:14,151,Sheridan,,Sun
+12:16:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:09:47,151,Sheridan,,Sat
+10:11:17,151,Sheridan,,Sat
+15:49:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:16:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:07:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+12:04:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:49:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:00:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:05:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+05:45:59,151,Sheridan,,Sun
+16:36:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:30:41,151,Sheridan,,Sun
+16:56:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+14:49:44,151,Sheridan,,Sat
+19:37:38,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:16:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+18:35:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:40:11,151,Sheridan,,Sun
+05:18:35,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+23:07:02,151,Sheridan,,Sat
+09:59:44,151,Sheridan,,Sun
+08:26:41,151,Sheridan,,Sun
+05:05:29,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:47:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+05:05:29,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:08:44,151,Sheridan,,Sun
+22:03:32,151,Sheridan,,Sun
+09:19:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:42:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:53:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:47:14,151,Sheridan,,Sat
+05:48:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:50:11,151,Sheridan,,Sun
+24:04:29,151,Sheridan,,Sun
+15:21:44,151,Sheridan,,Sat
+23:08:59,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:09:41,151,Sheridan,,Sat
+07:09:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:48:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:01:08,151,Sheridan,,Sun
+07:00:58,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:40:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:21:35,151,Sheridan,,Sat
+18:27:11,151,Sheridan,,Sat
+15:47:14,151,Sheridan,,Sun
+07:55:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+16:09:41,151,Sheridan,,Sat
+13:26:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+12:02:17,151,Sheridan,,Sat
+06:44:35,151,Sheridan,,Sun
+19:27:08,151,Sheridan,,Sun
+07:52:41,151,Sheridan,,Sat
+15:30:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:05:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:07:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:30:41,151,Sheridan,,Sun
+06:27:35,151,Sheridan,,Sat
+09:14:11,151,Sheridan,,Sun
+08:38:52,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:57:31,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:41:41,151,Sheridan,,Sat
+08:05:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:23:32,151,Sheridan,,Sun
+08:23:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+10:05:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:09:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:04:38,151,Sheridan,,Sat
+16:33:41,151,Sheridan,,Sat
+07:04:47,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:57:47,151,Sheridan,,Sat
+05:51:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+00:34:56,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+12:25:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+19:22:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:20:41,151,Sheridan,,Sun
+14:17:47,151,Sheridan,,Sat
+20:22:05,151,Sheridan,,Sun
+21:23:32,151,Sheridan,,Sun
+09:02:11,151,Sheridan,,Sun
+06:49:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+12:49:47,151,Sheridan,,Sat
+07:27:02,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:52:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:04:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:43:32,151,Sheridan,,Sun
+11:54:17,151,Sheridan,,Sat
+20:04:38,151,Sheridan,,Sat
+11:25:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:45:41,151,Sheridan,,Sat
+06:45:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:49:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:47:44,151,Sheridan,,Sun
+08:23:41,151,Sheridan,,Sat
+14:01:47,151,Sheridan,,Sat
+23:24:29,151,Sheridan,,Sun
+13:55:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:07:14,151,Sheridan,,Sun
+18:37:41,151,Sheridan,,Sat
+18:47:14,151,Sheridan,,Sat
+12:38:14,151,Sheridan,,Sun
+07:30:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:15:17,151,Sheridan,,Sat
+07:57:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:00:41,151,Sheridan,,Sun
+11:05:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:52:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:45:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:25:41,151,Sheridan,,Sat
+17:51:41,151,Sheridan,,Sun
+08:10:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:47:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:21:35,151,Sheridan,,Sat
+22:36:35,151,Sheridan,,Sat
+09:06:25,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:24:44,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+12:04:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:45:41,151,Sheridan,,Sat
+17:42:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:43:58,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:01:41,151,Sheridan,,Sat
+06:42:05,151,Sheridan,,Sat
+07:19:35,151,Sheridan,,Sun
+19:36:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+22:36:35,151,Sheridan,,Sat
+06:15:49,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:17:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:00:52,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:15:38,151,Sheridan,,Sun
+15:58:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:34:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:20:41,151,Sheridan,,Sun
+07:49:35,151,Sheridan,,Sun
+20:04:38,151,Sheridan,,Sat
+11:49:14,151,Sheridan,,Sun
+06:51:55,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:55:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:04:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:10:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:36:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:48:41,151,Sheridan,,Sun
+09:40:14,151,Sheridan,,Sat
+10:50:41,151,Sheridan,,Sun
+14:25:47,151,Sheridan,,Sat
+10:28:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:33:41,151,Sheridan,,Sat
+07:52:41,151,Sheridan,,Sat
+07:12:52,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:56:11,151,Sheridan,,Sat
+08:16:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:24:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:30:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+05:19:32,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:14:52,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:29:44,151,Sheridan,,Sat
+10:03:17,151,Sheridan,,Sat
+17:16:11,151,Sheridan,,Sat
+16:38:11,151,Sheridan,,Sun
+10:40:41,151,Sheridan,,Sun
+12:05:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+18:35:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:06:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+09:22:44,151,Sheridan,,Sat
+13:28:14,151,Sheridan,,Sun
+07:39:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:46:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:48:41,151,Sheridan,,Sun
+12:57:47,151,Sheridan,,Sat
+05:33:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:02:52,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+11:38:47,151,Sheridan,,Sat
+20:09:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:58:52,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:28:14,151,Sheridan,,Sun
+01:00:26,151,Sheridan,,Sun
+15:03:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+04:56:53,151,Sheridan,,Sat
+14:36:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:45:28,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:30:41,151,Sheridan,,Sun
+10:35:17,151,Sheridan,,Sat
+06:30:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:45:55,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:04:35,151,Sheridan,,Sun
+19:12:08,151,Sheridan,,Sun
+10:10:41,151,Sheridan,,Sun
+07:45:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:50:11,151,Sheridan,,Sun
+11:23:17,151,Sheridan,,Sat
+14:17:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:08:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:08:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:49:22,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:51:35,151,Sheridan,,Sat
+15:29:44,151,Sheridan,,Sat
+24:12:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:45:59,151,Sheridan,,Sun
+09:20:42,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:13:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:18:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:35:05,151,Sheridan,,Sat
+05:52:35,151,Sheridan,,Sat
+06:46:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+19:05:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:45:47,151,Sheridan,,Sat
+11:45:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:57:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:25:47,151,Sheridan,,Sat
+21:46:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:08:59,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:41:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:13:44,151,Sheridan,,Sat
+24:00:26,151,Sheridan,,Sat
+06:24:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:39:41,151,Sheridan,,Sat
+10:19:17,151,Sheridan,,Sat
+07:14:32,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:45:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+19:27:08,151,Sheridan,,Sun
+22:03:32,151,Sheridan,,Sun
+20:22:05,151,Sheridan,,Sun
+15:53:41,151,Sheridan,,Sat
+11:07:17,151,Sheridan,,Sat
+21:20:08,151,Sheridan,,Sat
+06:55:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:09:50,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:16:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:58:11,151,Sheridan,,Sat
+07:34:35,151,Sheridan,,Sun
+18:57:44,151,Sheridan,,Sat
+08:39:22,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+04:47:26,151,Sheridan,,Sun
+06:13:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:10:41,151,Sheridan,,Sun
+23:44:29,151,Sheridan,,Sun
+10:03:17,151,Sheridan,,Sat
+06:40:52,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:09:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+13:08:44,151,Sheridan,,Sun
+11:40:11,151,Sheridan,,Sun
+16:08:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:52:55,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:55:47,151,Sheridan,,Sat
+12:05:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+19:49:08,151,Sheridan,,Sat
+08:28:22,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:20:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:02:20,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:41:41,151,Sheridan,,Sat
+19:53:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:54:17,151,Sheridan,,Sat
+21:50:08,151,Sheridan,,Sat
+14:54:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:58:44,151,Sheridan,,Sun
+08:59:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:04:47,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:09:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:05:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+08:59:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:46:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:21:02,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:42:05,151,Sheridan,,Sat
+15:37:44,151,Sheridan,,Sat
+19:43:38,151,Sheridan,,Sun
+07:27:55,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:24:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:11:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:06:11,151,Sheridan,,Sat
+18:00:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:33:55,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+17:40:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+11:28:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:10:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:00:41,151,Sheridan,,Sun
+14:33:47,151,Sheridan,,Sat
+14:26:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+14:27:14,151,Sheridan,,Sun
+05:07:26,151,Sheridan,,Sun
+18:15:44,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+10:27:17,151,Sheridan,,Sat
+06:18:11,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+24:00:26,151,Sheridan,,Sat
+12:09:47,151,Sheridan,,Sat
+08:26:41,151,Sheridan,,Sun
+21:13:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:10:41,151,Sheridan,,Sun
+15:53:41,151,Sheridan,,Sat
+12:18:44,151,Sheridan,,Sun
+10:28:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:52:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:38:11,151,Sheridan,,Sun
+07:20:52,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+11:52:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+20:35:05,151,Sheridan,,Sat
+19:49:08,151,Sheridan,,Sat
+08:49:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:20:26,151,Sheridan,,Sat
+22:06:05,151,Sheridan,,Sat
+16:25:41,151,Sheridan,,Sat
+07:47:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:30:55,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:18:44,151,Sheridan,,Sun
+00:40:26,151,Sheridan,,Sun
+16:54:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+05:32:35,151,Sheridan,,Sat
+13:04:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:23:17,151,Sheridan,,Sat
+15:27:14,151,Sheridan,,Sun
+20:25:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:23:32,151,Sheridan,,Sun
+07:11:08,151,Sheridan,,Sat
+09:30:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:37:38,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:44:35,151,Sheridan,,Sun
+15:47:14,151,Sheridan,,Sun
+07:02:50,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+12:33:47,151,Sheridan,,Sat
+17:19:41,151,Sheridan,,Sun
+20:57:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:48:44,151,Sheridan,,Sun
+08:15:38,151,Sheridan,,Sun
+07:20:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:41:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:26:08,151,Sheridan,,Sat
+06:35:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:28:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:57:05,151,Sheridan,,Sat
+12:46:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:38:11,151,Sheridan,,Sun
+24:20:26,151,Sheridan,,Sat
+07:38:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:40:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:17:14,151,Sheridan,,Sun
+09:55:47,151,Sheridan,,Sat
+18:57:11,151,Sheridan,,Sun
+08:56:02,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:30:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:33:55,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+14:25:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:17:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:41:11,151,Sheridan,,Sun
+08:33:41,151,Sheridan,,Sat
+10:20:41,151,Sheridan,,Sun
+13:25:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+10:35:17,151,Sheridan,,Sat
+07:58:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:19:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:30:47,151,Sheridan,,Sat
+20:09:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:17:41,151,Sheridan,,Sat
+15:03:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:47:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:36:11,151,Sheridan,,Sat
+14:37:14,151,Sheridan,,Sun
+11:25:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:06:11,151,Sheridan,,Sat
+17:51:41,151,Sheridan,,Sun
+16:18:11,151,Sheridan,,Sun
+20:49:38,151,Sheridan,,Sat
+08:57:22,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+06:47:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:17:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:22:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:36:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:40:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:04:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:05:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:27:55,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:40:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:21:44,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:25:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:37:41,151,Sheridan,,Sun
+10:43:17,151,Sheridan,,Sat
+07:50:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:05:02,151,Sheridan,,Sun
+14:36:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+23:03:32,151,Sheridan,,Sun
+06:45:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:49:41,151,Sheridan,,Sat
+11:38:47,151,Sheridan,,Sat
+16:17:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:20:52,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+22:51:35,151,Sheridan,,Sat
+08:37:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:46:17,151,Sheridan,,Sat
+07:37:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:04:11,151,Sheridan,,Sat
+05:14:59,151,Sheridan,,Sat
+14:41:47,151,Sheridan,,Sat
+09:07:52,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:28:22,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:00:49,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+13:05:47,151,Sheridan,,Sat
+18:03:41,151,Sheridan,,Sun
+11:59:14,151,Sheridan,,Sun
+10:30:41,151,Sheridan,,Sun
+15:37:14,151,Sheridan,,Sun
+10:40:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:49:41,151,Sheridan,,Sat
+12:52:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:26:11,151,Sheridan,,Sun
+10:45:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:05:44,151,Sheridan,,Sat
+17:16:11,151,Sheridan,,Sat
+07:19:35,151,Sheridan,,Sun
+15:57:14,151,Sheridan,,Sun
+17:58:11,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:17:14,151,Sheridan,,Sun
+18:16:41,151,Sheridan,,Sat
+14:07:14,151,Sheridan,,Sun
+00:55:56,151,Sheridan,,Tue,Wed,Thu,Fri,Sat
+10:50:41,151,Sheridan,,Sun
+20:25:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+17:46:11,151,Sheridan,,Sat
+14:26:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:30:44,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:18:14,151,Sheridan,,Sun
+17:09:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:09:47,151,Sheridan,,Sat
+08:00:28,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+12:33:47,151,Sheridan,,Sat
+18:06:11,151,Sheridan,,Sat
+09:37:41,151,Sheridan,,Sun
+07:26:08,151,Sheridan,,Sat
+13:53:47,151,Sheridan,,Sat
+07:19:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:37:44,151,Sheridan,,Sat
+16:01:41,151,Sheridan,,Sat
+09:26:11,151,Sheridan,,Sun
+15:30:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:59:14,151,Sheridan,,Sun
+07:09:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:03:05,151,Sheridan,,Sun
+17:56:11,151,Sheridan,,Sat
+10:11:17,151,Sheridan,,Sat
+19:37:35,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:28:08,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:53:47,151,Sheridan,,Sat
+09:40:14,151,Sheridan,,Sat
+13:21:47,151,Sheridan,,Sat
+16:25:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:40:41,151,Sheridan,,Sun
+14:46:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:37:41,151,Sheridan,,Sat
+16:47:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+04:46:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:51:05,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:44:05,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:55:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:28:14,151,Sheridan,,Sun
+17:40:41,151,Sheridan,,Sun
+17:19:41,151,Sheridan,,Sun
+07:43:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:26:29,151,Sheridan,,Sun
+07:52:01,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:20:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+11:49:14,151,Sheridan,,Sun
+08:25:34,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+10:51:17,151,Sheridan,,Sat
+13:42:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:25:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:46:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+23:22:02,151,Sheridan,,Sat
+07:22:15,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:37:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:23:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:30:47,151,Sheridan,,Sat
+08:49:20,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:27:04,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+04:46:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+09:32:44,151,Sheridan,,Sat
+08:05:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:30:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:03:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+22:02:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:17:47,151,Sheridan,,Sat
+08:12:04,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:04:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+22:50:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:38:52,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:17:35,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:07:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:38:14,151,Sheridan,,Sun
+13:05:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:07:14,151,Sheridan,,Sun
+20:20:05,151,Sheridan,,Sat
+10:16:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:37:28,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+21:35:08,151,Sheridan,,Sat
+17:04:44,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+06:11:05,151,Sheridan,,Sat
+10:25:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+00:25:56,151,Sheridan,,Mon
+05:52:35,151,Sheridan,,Sat
+06:57:05,151,Sheridan,,Sat
+20:42:05,151,Sheridan,,Sun
+23:24:29,151,Sheridan,,Sun
+21:13:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:39:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:54:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:07:55,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:27:17,151,Sheridan,,Sat
+20:42:05,151,Sheridan,,Sun
+07:38:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:05:32,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:43:32,151,Sheridan,,Sun
+17:36:11,151,Sheridan,,Sat
+16:03:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+07:28:22,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:27:35,151,Sheridan,,Sat
+13:05:47,151,Sheridan,,Sat
+12:25:47,151,Sheridan,,Sat
+17:53:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:30:55,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+18:41:11,151,Sheridan,,Sun
+21:02:35,151,Sheridan,,Sun
+06:46:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:02:11,151,Sheridan,,Sun
+07:57:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:26:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:59:11,151,Sheridan,,Sun
+12:28:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:30:28,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+22:18:02,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:16:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:40:41,151,Sheridan,,Sun
+07:00:49,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+07:34:35,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:54:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:14:59,151,Sheridan,,Sat
+13:37:47,151,Sheridan,,Sat
+13:38:14,151,Sheridan,,Sun
+08:16:58,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+09:45:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+16:17:41,151,Sheridan,,Sat
+09:47:47,151,Sheridan,,Sat
+06:05:35,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+09:12:44,151,Sheridan,,Sat
+06:30:45,143,Stockton/Michigan Express,,Mon,Tue,Wed,Thu,Fri
+06:27:49,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:24:35,151,Sheridan,,Sun
+09:14:20,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+21:29:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:57:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+17:38:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:11:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:07:58,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:49:44,151,Sheridan,,Sat
+10:20:41,151,Sheridan,,Sun
+12:25:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:15:04,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+18:34:11,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:08:44,151,Sheridan,,Sun
+08:13:41,151,Sheridan,,Sat
+05:33:35,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+07:39:41,151,Sheridan,,Sat
+12:49:47,151,Sheridan,,Sat
+14:33:47,151,Sheridan,,Sat
+18:16:11,151,Sheridan,,Sun
+07:41:28,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+19:07:44,151,Sheridan,,Sat
+12:58:44,151,Sheridan,,Sun
+04:26:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+24:12:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:18:35,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+04:47:26,151,Sheridan,,Sun
+16:58:14,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+08:23:41,151,Sheridan,,Sat
+06:18:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+06:39:22,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:13:47,151,Sheridan,,Sat
+19:20:41,151,Sheridan,,Sat
+06:28:49,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:31:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:48:44,151,Sheridan,,Sun
+13:57:44,151,Sheridan,,Sun
+09:12:44,151,Sheridan,,Sat
+16:28:11,151,Sheridan,,Sun
+15:39:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+16:08:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+10:16:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+05:32:35,151,Sheridan,,Sat
+16:28:11,151,Sheridan,,Sun
+23:50:29,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:48:14,151,Sheridan,,Sun
+07:34:35,151,Sheridan,,Sun
+07:27:55,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+14:46:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+06:24:35,151,Sheridan,,Sun
+08:03:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:25:47,151,Sheridan,,Sat
+04:26:56,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+12:28:14,151,Sheridan,,Sun
+08:43:14,151,Sheridan,,Sat
+13:47:44,151,Sheridan,,Sun
+07:11:08,151,Sheridan,,Sat
+15:39:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:05:44,151,Sheridan,,Sat
+13:30:11,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+18:27:11,151,Sheridan,,Sat
+11:30:41,151,Sheridan,,Sun
+05:26:29,151,Sheridan,,Sun
+09:45:14,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:21:47,151,Sheridan,,Sat
+18:37:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+13:17:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:06:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+08:17:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:11:02,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:40:17,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+21:29:05,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+14:37:14,151,Sheridan,,Sun
+09:47:47,151,Sheridan,,Sat
+18:28:11,151,Sheridan,,Sun
+05:07:26,151,Sheridan,,Sun
+16:43:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+04:56:53,151,Sheridan,,Sat
+20:49:38,151,Sheridan,,Sat
+11:40:44,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:13:44,151,Sheridan,,Sat
+06:31:41,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:20:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+15:57:14,151,Sheridan,,Sun
+23:07:02,151,Sheridan,,Sat
+06:15:49,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:03:14,151,Sheridan,,Sat
+24:04:29,151,Sheridan,,Sun
+09:32:44,151,Sheridan,,Sat
+12:41:47,151,Sheridan,,Sat
+17:26:11,151,Sheridan,,Sat
+07:12:52,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+14:05:38,156,LaSalle,,Mon,Tue,Wed,Thu,Fri
+15:07:14,151,Sheridan,,Sun
+08:24:08,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:41:47,151,Sheridan,,Sat
+10:43:17,151,Sheridan,,Sat
+08:01:38,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:38:11,151,Sheridan,,Sun
+10:30:41,151,Sheridan,,Sun
+14:07:41,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+06:02:08,151,Sheridan,,Mon,Tue,Wed,Thu,Fri
+19:07:44,151,Sheridan,,Sat

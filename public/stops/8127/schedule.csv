@@ -1,0 +1,991 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+22:42:42,47,47th,,Sat
+05:33:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:00:48,47,47th,,Sat
+10:52:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+17:51:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:47:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:03:18,47,47th,,Sun
+23:30:30,47,47th,,Sat
+05:58:42,47,47th,,Sat
+12:26:16,54B,South Cicero,,Sun
+12:44:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+09:22:30,47,47th,,Sat
+18:49:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:42:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+12:29:24,54B,South Cicero,,Sat
+17:42:48,47,47th,,Sun
+17:32:48,47,47th,,Sun
+12:00:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:34:39,54B,South Cicero,,Sat
+21:30:42,47,47th,,Sat
+09:29:30,47,47th,,Sun
+17:23:18,47,47th,,Sat
+10:33:42,47,47th,,Sun
+19:31:48,47,47th,,Sun
+18:01:21,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:29:06,47,47th,,Sat
+21:59:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:04:16,54B,South Cicero,,Sun
+15:47:18,47,47th,,Sat
+11:53:54,54B,South Cicero,,Sat
+13:19:06,47,47th,,Sat
+14:21:20,54B,South Cicero,,Sun
+10:08:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:55:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:26:16,54B,South Cicero,,Sun
+13:45:18,47,47th,,Sun
+07:24:42,47,47th,,Sat
+05:45:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:17:05,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:53:48,47,47th,,Sat
+14:17:48,47,47th,,Sat
+12:19:06,47,47th,,Sat
+13:48:06,47,47th,,Sat
+11:07:16,54B,South Cicero,,Sun
+06:55:23,54B,South Cicero,,Sat
+14:23:18,47,47th,,Sun
+08:42:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:09:06,47,47th,,Sat
+20:35:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:42:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:12:24,54B,South Cicero,,Sat
+16:14:18,47,47th,,Sat
+12:18:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:04:30,47,47th,,Sat
+13:09:06,47,47th,,Sat
+22:15:35,54B,South Cicero,,Sat
+16:33:48,47,47th,,Sat
+20:35:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:35:18,47,47th,,Sun
+19:41:30,47,47th,,Sat
+15:17:48,47,47th,,Sat
+17:22:48,47,47th,,Sun
+21:16:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:41:09,54B,South Cicero,,Sun
+22:21:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+05:42:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+22:15:35,54B,South Cicero,,Sat
+16:53:48,47,47th,,Sat
+16:43:48,47,47th,,Sat
+14:50:01,54B,South Cicero,,Sat
+08:39:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:04:12,47,47th,,Sun
+07:06:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:14:12,47,47th,,Sat
+19:12:18,47,47th,,Sun
+18:51:30,47,47th,,Sat
+22:32:05,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+05:24:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:20:30,47,47th,,Sun
+18:21:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+05:06:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:37:18,47,47th,,Sun
+18:31:48,47,47th,,Sat
+16:33:48,47,47th,,Sat
+11:01:00,47,47th,,Sun
+12:12:24,54B,South Cicero,,Sat
+16:12:55,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:42:20,54B,South Cicero,,Sun
+21:17:42,47,47th,,Sat
+11:37:18,47,47th,,Sat
+07:44:42,47,47th,,Sat
+11:31:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:21:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:58:05,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:42:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:32:06,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:16:48,47,47th,,Sat
+08:47:42,47,47th,,Sun
+09:15:39,54B,South Cicero,,Sat
+10:05:42,47,47th,,Sun
+10:24:42,47,47th,,Sun
+07:39:01,54B,South Cicero,,Sun
+15:03:24,54B,South Cicero,,Sun
+10:31:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:18:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+22:58:57,54B,South Cicero,,Sat
+17:12:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:57:48,47,47th,,Sat
+05:15:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:23:18,47,47th,,Sun
+08:19:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:54:30,47,47th,,Sat
+19:31:48,47,47th,,Sun
+11:15:54,54B,South Cicero,,Sat
+19:22:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:34:18,47,47th,,Sat
+08:29:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:10:00,47,47th,,Sun
+18:22:48,47,47th,,Sun
+14:15:01,54B,South Cicero,,Sat
+13:48:06,47,47th,,Sat
+11:48:16,54B,South Cicero,,Sun
+08:57:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:09:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:21:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+06:38:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:49:54,54B,South Cicero,,Sun
+20:06:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:56:12,47,47th,,Sun
+13:52:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:21:48,47,47th,,Sun
+11:56:18,47,47th,,Sun
+14:17:48,47,47th,,Sat
+16:52:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:57:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:59:18,47,47th,,Sat
+11:56:48,47,47th,,Sat
+12:18:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:17:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:15:42,47,47th,,Sun
+07:08:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:31:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:42:12,47,47th,,Sun
+20:58:00,47,47th,,Sat
+23:54:30,47,47th,,Sat
+10:56:20,54B,South Cicero,,Sat
+16:55:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+11:41:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+00:44:00,47,47th,,Mon
+11:14:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:36:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+21:07:42,47,47th,,Sat
+04:06:12,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:51:30,47,47th,,Sun
+14:07:48,47,47th,,Sat
+19:46:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:06:54,54B,South Cicero,,Sun
+13:20:58,54B,South Cicero,,Sat
+12:22:18,47,47th,,Sun
+17:42:48,47,47th,,Sun
+09:13:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:11:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:33:25,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:37:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:34:54,54B,South Cicero,,Sun
+08:57:42,47,47th,,Sun
+18:39:54,54B,South Cicero,,Sat
+15:17:48,47,47th,,Sat
+09:22:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:19:30,47,47th,,Sat
+08:41:09,54B,South Cicero,,Sun
+19:02:48,47,47th,,Sun
+23:08:30,47,47th,,Sun
+16:33:18,47,47th,,Sun
+07:16:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:58:54,54B,South Cicero,,Sun
+14:32:31,54B,South Cicero,,Sat
+08:39:12,47,47th,,Sun
+07:51:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+20:31:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+20:16:42,54B,South Cicero,,Sat
+10:46:12,54B,South Cicero,,Sun
+17:32:48,47,47th,,Sun
+12:29:24,54B,South Cicero,,Sat
+09:04:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:25:01,54B,South Cicero,,Sat
+05:51:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:14:18,47,47th,,Sat
+17:11:54,54B,South Cicero,,Sun
+09:40:18,47,47th,,Sat
+14:17:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:42:31,54B,South Cicero,,Sat
+20:19:39,54B,South Cicero,,Sun
+21:59:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:13:18,47,47th,,Sun
+11:07:16,54B,South Cicero,,Sun
+04:31:12,47,47th,,Sun
+19:22:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:32:36,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:39:00,47,47th,,Sat
+18:17:05,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:21:20,54B,South Cicero,,Sun
+06:20:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:15:42,47,47th,,Sun
+15:53:13,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:29:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:04:12,47,47th,,Sun
+14:01:16,54B,South Cicero,,Sun
+12:02:48,47,47th,,Sun
+20:10:00,47,47th,,Sun
+21:37:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:23:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+01:09:00,47,47th,,Tue,Wed,Thu,Fri,Sat
+21:16:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:00:05,54B,South Cicero,,Sun
+18:01:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:20:00,47,47th,,Sun
+23:05:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:19:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:00:00,47,47th,,Sun
+11:47:18,47,47th,,Sat
+18:22:18,47,47th,,Sat
+11:28:16,54B,South Cicero,,Sun
+16:43:18,47,47th,,Sun
+22:21:30,47,47th,,Sun
+08:08:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:52:48,47,47th,,Sun
+20:38:30,47,47th,,Sat
+17:03:48,47,47th,,Sat
+09:36:18,47,47th,,Sat
+15:25:01,54B,South Cicero,,Sat
+01:09:00,47,47th,,Tue,Wed,Thu,Fri,Sat
+18:40:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:29:06,47,47th,,Sat
+18:59:42,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:27:31,54B,South Cicero,,Sat
+19:57:46,54B,South Cicero,,Sat
+14:50:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:04:30,47,47th,,Sat
+13:29:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:49:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:42:18,47,47th,,Sun
+21:11:48,47,47th,,Sun
+12:45:16,54B,South Cicero,,Sun
+16:23:48,47,47th,,Sat
+09:40:18,47,47th,,Sat
+21:54:42,47,47th,,Sat
+11:28:16,54B,South Cicero,,Sun
+20:38:30,47,47th,,Sat
+13:38:06,47,47th,,Sat
+07:44:42,47,47th,,Sun
+16:52:31,54B,South Cicero,,Sat
+06:49:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:36:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:37:48,47,47th,,Sat
+07:14:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:58:54,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:36:46,54B,South Cicero,,Sat
+20:40:00,47,47th,,Sun
+12:52:18,47,47th,,Sun
+16:17:31,54B,South Cicero,,Sat
+21:54:42,47,47th,,Sat
+15:45:54,54B,South Cicero,,Sun
+24:00:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+06:40:12,47,47th,,Sun
+10:08:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:54:48,47,47th,,Sun
+09:42:39,54B,South Cicero,,Sun
+09:46:42,47,47th,,Sun
+00:43:30,47,47th,,Tue,Wed,Thu,Fri,Sat
+19:37:20,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:36:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:16:48,47,47th,,Sat
+09:04:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:05:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:31:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+00:19:12,47,47th,,Sun
+22:43:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:37:18,47,47th,,Sun
+23:32:00,47,47th,,Sun
+08:45:00,47,47th,,Sat
+10:25:12,54B,South Cicero,,Sun
+21:07:42,47,47th,,Sat
+09:13:00,47,47th,,Sat
+11:31:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:12:18,47,47th,,Sun
+14:15:01,54B,South Cicero,,Sat
+00:44:12,47,47th,,Sun
+21:51:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:41:30,47,47th,,Sat
+13:08:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+20:29:12,47,47th,,Sat
+23:55:30,47,47th,,Sun
+10:33:42,47,47th,,Sun
+10:28:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:06:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:38:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:31:39,54B,South Cicero,,Sun
+12:39:06,47,47th,,Sat
+23:55:30,47,47th,,Sun
+09:01:39,54B,South Cicero,,Sun
+17:29:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:38:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:51:30,47,47th,,Sat
+17:34:54,54B,South Cicero,,Sun
+13:00:48,47,47th,,Sun
+14:23:18,47,47th,,Sun
+20:30:00,47,47th,,Sun
+06:14:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:36:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:31:48,47,47th,,Sat
+11:14:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:43:18,47,47th,,Sun
+19:51:30,47,47th,,Sun
+10:51:42,47,47th,,Sun
+20:25:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:11:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:46:35,54B,South Cicero,,Sat
+21:11:48,47,47th,,Sun
+22:11:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:16:12,54B,South Cicero,,Sat
+17:52:48,47,47th,,Sun
+08:49:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:41:30,47,47th,,Sun
+15:25:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:24:54,54B,South Cicero,,Sun
+13:38:58,54B,South Cicero,,Sat
+19:28:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:53:54,54B,South Cicero,,Sat
+17:29:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:50:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:57:32,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:53:18,47,47th,,Sun
+15:37:18,47,47th,,Sat
+13:19:06,47,47th,,Sat
+13:37:18,47,47th,,Sun
+13:03:54,54B,South Cicero,,Sat
+12:44:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:13:18,47,47th,,Sun
+15:03:18,47,47th,,Sun
+06:00:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:57:32,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+11:08:00,47,47th,,Sun
+10:05:42,47,47th,,Sun
+09:14:28,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:20:58,54B,South Cicero,,Sat
+17:52:48,47,47th,,Sun
+15:53:13,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:41:30,47,47th,,Sat
+07:34:42,47,47th,,Sat
+19:28:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:21:30,47,47th,,Sat
+18:21:50,54B,South Cicero,,Sun
+13:37:18,47,47th,,Sun
+06:00:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:21:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:39:54,54B,South Cicero,,Sat
+13:31:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:24:18,47,47th,,Sat
+00:19:30,47,47th,,Mon
+11:46:18,47,47th,,Sun
+17:12:48,47,47th,,Sun
+11:06:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:27:18,47,47th,,Sun
+09:22:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:27:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:21:48,47,47th,,Sun
+20:36:12,54B,South Cicero,,Sat
+08:12:12,47,47th,,Sun
+22:58:57,54B,South Cicero,,Sat
+08:39:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:12:18,47,47th,,Sat
+17:10:01,54B,South Cicero,,Sat
+18:02:48,47,47th,,Sun
+17:51:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+05:38:30,47,47th,,Sat
+05:17:00,47,47th,,Sat
+23:21:23,54B,South Cicero,,Sat
+07:51:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:43:18,47,47th,,Sun
+04:21:12,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:59:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:29:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:42:18,47,47th,,Sun
+00:18:00,47,47th,,Tue,Wed,Thu,Fri,Sat
+01:34:42,47,47th,,Mon
+11:37:18,47,47th,,Sat
+06:06:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:55:00,47,47th,,Sat
+09:36:18,47,47th,,Sat
+23:15:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+12:46:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:31:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:09:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:07:16,54B,South Cicero,,Sun
+23:06:30,47,47th,,Sat
+13:19:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:53:18,47,47th,,Sun
+14:50:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:19:39,54B,South Cicero,,Sun
+09:59:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:30:30,47,47th,,Sat
+22:21:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:07:48,47,47th,,Sat
+18:52:48,47,47th,,Sun
+19:17:46,54B,South Cicero,,Sat
+17:02:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:11:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:11:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:17:18,47,47th,,Sun
+21:31:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+04:30:42,47,47th,,Sat
+15:43:18,47,47th,,Sun
+09:37:12,47,47th,,Sun
+06:55:23,54B,South Cicero,,Sat
+09:46:42,47,47th,,Sun
+04:06:12,47,47th,,Sun
+19:41:30,47,47th,,Sun
+18:02:48,47,47th,,Sun
+11:17:18,47,47th,,Sun
+07:40:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:13:18,47,47th,,Sun
+06:30:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:59:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:45:23,54B,South Cicero,,Sat
+22:32:05,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+22:18:42,47,47th,,Sat
+16:22:36,47,47th,,Mon,Tue,Wed,Thu,Fri
+05:24:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:55:39,54B,South Cicero,,Sat
+17:33:18,47,47th,,Sat
+13:56:58,54B,South Cicero,,Sat
+01:09:12,47,47th,,Sun
+14:57:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:37:18,47,47th,,Sat
+08:08:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:01:21,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:58:06,47,47th,,Sat
+08:55:00,47,47th,,Sat
+17:45:01,54B,South Cicero,,Sat
+09:13:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:33:18,47,47th,,Sun
+18:12:48,47,47th,,Sun
+21:11:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+11:56:48,47,47th,,Sat
+06:39:00,47,47th,,Sat
+05:40:23,54B,South Cicero,,Sat
+20:55:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:47:18,47,47th,,Sat
+11:10:48,47,47th,,Sat
+11:51:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:31:30,47,47th,,Sat
+11:01:00,47,47th,,Sun
+06:58:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:58:06,47,47th,,Sat
+13:23:16,54B,South Cicero,,Sun
+15:53:18,47,47th,,Sun
+14:33:18,47,47th,,Sun
+09:55:39,54B,South Cicero,,Sat
+18:33:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+12:09:36,47,47th,,Sat
+19:37:46,54B,South Cicero,,Sat
+05:45:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:37:00,47,47th,,Sat
+07:30:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:14:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+18:30:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:56:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:50:00,47,47th,,Sun
+19:56:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:55:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:02:55,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:09:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:03:24,54B,South Cicero,,Sun
+09:31:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:47:42,47,47th,,Sun
+11:19:48,47,47th,,Sat
+18:32:48,47,47th,,Sun
+14:53:18,47,47th,,Sun
+17:32:06,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:49:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:10:01,54B,South Cicero,,Sat
+05:45:42,47,47th,,Sun
+06:05:23,54B,South Cicero,,Sat
+05:15:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:21:30,47,47th,,Sat
+22:11:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+07:14:42,47,47th,,Sat
+12:39:06,47,47th,,Sat
+16:55:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+23:45:23,54B,South Cicero,,Sat
+04:39:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:09:24,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:51:42,47,47th,,Sun
+20:15:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:35:18,47,47th,,Sun
+14:01:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:27:31,54B,South Cicero,,Sat
+14:50:01,54B,South Cicero,,Sat
+22:18:42,47,47th,,Sat
+10:52:18,47,47th,,Sat
+15:15:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:58:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:14:12,47,47th,,Sat
+17:02:48,47,47th,,Sun
+21:34:39,54B,South Cicero,,Sat
+18:02:31,54B,South Cicero,,Sat
+07:59:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:57:30,47,47th,,Sat
+13:20:30,47,47th,,Sun
+13:05:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:10:30,47,47th,,Sun
+16:13:18,47,47th,,Sun
+04:56:12,47,47th,,Sun
+11:59:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+06:57:30,47,47th,,Sat
+18:58:50,54B,South Cicero,,Sat
+19:46:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:28:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:12:06,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:11:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:06:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:13:18,47,47th,,Sun
+17:41:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:45:16,54B,South Cicero,,Sun
+14:36:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:59:18,47,47th,,Sat
+12:02:06,47,47th,,Sat
+08:31:12,47,47th,,Sun
+04:47:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:41:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:05:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:52:18,47,47th,,Sat
+04:06:12,47,47th,,Sat
+08:21:12,47,47th,,Sun
+19:55:39,54B,South Cicero,,Sun
+15:25:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:33:18,47,47th,,Sun
+07:07:42,47,47th,,Sun
+07:40:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:40:00,47,47th,,Sun
+16:43:18,47,47th,,Sun
+16:17:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:12:55,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:27:48,47,47th,,Sat
+21:54:39,54B,South Cicero,,Sat
+22:37:01,54B,South Cicero,,Sat
+18:50:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:53:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:37:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+07:21:27,54B,South Cicero,,Sat
+14:07:48,47,47th,,Sat
+06:14:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:41:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:13:18,47,47th,,Sat
+06:05:23,54B,South Cicero,,Sat
+09:31:30,47,47th,,Sat
+17:33:18,47,47th,,Sat
+10:18:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:12:18,47,47th,,Sun
+13:08:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+21:51:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+11:00:48,47,47th,,Sat
+15:24:54,54B,South Cicero,,Sun
+17:22:06,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:32:00,47,47th,,Sun
+04:30:42,47,47th,,Sat
+18:12:48,47,47th,,Sun
+19:52:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+07:21:27,54B,South Cicero,,Sat
+10:11:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+05:17:00,47,47th,,Sat
+11:46:18,47,47th,,Sun
+08:58:05,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:37:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:36:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:35:01,54B,South Cicero,,Sat
+07:54:42,47,47th,,Sat
+09:22:30,47,47th,,Sat
+00:44:12,47,47th,,Sun
+16:52:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:32:18,47,47th,,Sun
+17:58:54,54B,South Cicero,,Sun
+21:31:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:00:05,54B,South Cicero,,Sun
+16:49:54,54B,South Cicero,,Sun
+10:08:18,47,47th,,Sat
+11:56:18,47,47th,,Sun
+14:01:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:05:42,47,47th,,Sun
+17:45:32,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:43:48,47,47th,,Sat
+16:23:18,47,47th,,Sun
+15:42:31,54B,South Cicero,,Sat
+06:49:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:07:42,47,47th,,Sun
+05:21:12,47,47th,,Sun
+09:40:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:05:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:11:30,47,47th,,Sat
+04:31:12,47,47th,,Sun
+20:11:00,47,47th,,Sat
+13:11:48,47,47th,,Sun
+08:12:39,54B,South Cicero,,Sat
+21:14:39,54B,South Cicero,,Sat
+10:38:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:52:18,47,47th,,Sun
+14:41:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:31:30,47,47th,,Sat
+13:38:58,54B,South Cicero,,Sat
+12:02:06,47,47th,,Sat
+14:47:48,47,47th,,Sat
+12:37:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:14:42,47,47th,,Sat
+11:21:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:03:39,54B,South Cicero,,Sun
+18:49:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+20:48:30,47,47th,,Sat
+08:25:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+17:23:18,47,47th,,Sat
+18:40:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:00:48,47,47th,,Sun
+19:02:48,47,47th,,Sun
+16:22:36,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:01:30,47,47th,,Sat
+10:52:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:21:30,47,47th,,Sat
+20:45:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:06:12,47,47th,,Sat
+18:58:50,54B,South Cicero,,Sat
+06:06:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:35:39,54B,South Cicero,,Sat
+06:30:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:45:16,54B,South Cicero,,Sun
+11:11:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:02:18,47,47th,,Sat
+14:27:48,47,47th,,Sat
+05:24:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+00:44:00,47,47th,,Mon
+06:39:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:34:54,54B,South Cicero,,Sat
+13:42:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+05:21:12,47,47th,,Sun
+16:00:01,54B,South Cicero,,Sat
+05:42:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:27:48,47,47th,,Sat
+17:45:01,54B,South Cicero,,Sat
+08:12:39,54B,South Cicero,,Sat
+10:42:12,47,47th,,Sun
+19:09:24,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:20:58,54B,South Cicero,,Sat
+12:09:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:12:18,47,47th,,Sun
+20:58:00,47,47th,,Sat
+11:27:18,47,47th,,Sun
+09:22:09,54B,South Cicero,,Sun
+14:27:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:54:30,47,47th,,Sat
+09:20:00,47,47th,,Sun
+20:19:42,47,47th,,Sat
+07:54:42,47,47th,,Sat
+08:37:00,47,47th,,Sat
+11:10:48,47,47th,,Sat
+22:43:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:06:54,54B,South Cicero,,Sun
+13:28:48,47,47th,,Sun
+11:59:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:28:48,47,47th,,Sun
+14:58:54,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:17:31,54B,South Cicero,,Sat
+18:11:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+22:21:30,47,47th,,Sun
+08:31:12,47,47th,,Sun
+12:19:06,47,47th,,Sat
+17:02:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:51:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+17:03:48,47,47th,,Sat
+20:36:12,54B,South Cicero,,Sat
+10:46:12,54B,South Cicero,,Sun
+08:30:00,47,47th,,Sat
+18:01:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:03:18,47,47th,,Sun
+18:33:01,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:33:25,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:55:42,54B,South Cicero,,Sat
+18:22:18,47,47th,,Sat
+11:28:48,47,47th,,Sat
+20:00:30,47,47th,,Sun
+13:05:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:37:12,47,47th,,Sun
+15:43:25,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:15:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:18:36,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:59:06,47,47th,,Sat
+19:37:46,54B,South Cicero,,Sat
+18:30:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:11:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:12:18,47,47th,,Sat
+17:22:48,47,47th,,Sun
+16:23:18,47,47th,,Sun
+09:05:42,47,47th,,Sun
+08:55:39,54B,South Cicero,,Sat
+06:30:23,54B,South Cicero,,Sat
+04:56:12,47,47th,,Sun
+10:16:12,54B,South Cicero,,Sat
+19:37:20,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+06:30:23,54B,South Cicero,,Sat
+11:36:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+20:25:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:05:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:11:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+07:23:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:15:39,54B,South Cicero,,Sat
+08:57:42,47,47th,,Sun
+20:00:30,47,47th,,Sun
+15:47:18,47,47th,,Sat
+15:17:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+11:48:16,54B,South Cicero,,Sun
+18:02:18,47,47th,,Sat
+19:57:46,54B,South Cicero,,Sat
+08:04:42,47,47th,,Sat
+09:42:39,54B,South Cicero,,Sun
+17:52:18,47,47th,,Sat
+15:33:18,47,47th,,Sun
+12:49:06,47,47th,,Sat
+06:20:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:32:48,47,47th,,Sun
+20:16:42,54B,South Cicero,,Sat
+15:06:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:44:42,47,47th,,Sat
+19:08:12,54B,South Cicero,,Sun
+14:27:48,47,47th,,Sat
+17:12:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:11:48,47,47th,,Sun
+20:30:00,47,47th,,Sun
+07:30:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:15:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+08:35:39,54B,South Cicero,,Sat
+06:10:12,47,47th,,Sun
+18:20:58,54B,South Cicero,,Sat
+06:33:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+09:31:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+09:22:09,54B,South Cicero,,Sun
+12:29:06,47,47th,,Sat
+08:20:39,54B,South Cicero,,Sun
+08:25:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:37:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+00:19:12,47,47th,,Sun
+08:57:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:01:30,47,47th,,Sat
+12:32:18,47,47th,,Sun
+05:40:23,54B,South Cicero,,Sat
+14:57:48,47,47th,,Sat
+01:09:12,47,47th,,Sun
+13:45:18,47,47th,,Sun
+06:19:30,47,47th,,Sat
+17:11:54,54B,South Cicero,,Sun
+01:34:42,47,47th,,Sun
+06:10:12,47,47th,,Sun
+09:49:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:19:48,47,47th,,Sat
+23:08:30,47,47th,,Sun
+18:02:31,54B,South Cicero,,Sat
+08:55:39,54B,South Cicero,,Sat
+10:08:18,47,47th,,Sat
+20:20:00,47,47th,,Sun
+17:13:18,47,47th,,Sat
+06:40:12,47,47th,,Sun
+05:58:42,47,47th,,Sat
+14:57:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:56:58,54B,South Cicero,,Sat
+16:05:18,47,47th,,Sat
+11:06:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+01:34:12,47,47th,,Tue,Wed,Thu,Fri,Sat
+12:02:48,47,47th,,Sun
+08:12:12,47,47th,,Sun
+22:45:00,47,47th,,Sun
+20:50:00,47,47th,,Sun
+18:42:48,47,47th,,Sun
+17:12:06,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:38:06,47,47th,,Sat
+01:34:12,47,47th,,Tue,Wed,Thu,Fri,Sat
+09:51:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+12:00:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+22:53:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+12:27:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:46:24,54B,South Cicero,,Sat
+16:36:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+07:49:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:39:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+22:42:42,47,47th,,Sat
+20:01:30,47,47th,,Sat
+11:41:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+21:11:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:48:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:53:18,47,47th,,Sun
+21:58:48,47,47th,,Sun
+10:43:48,47,47th,,Sat
+14:03:48,47,47th,,Sun
+01:09:00,47,47th,,Mon
+16:03:18,47,47th,,Sun
+11:15:54,54B,South Cicero,,Sat
+08:09:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:44:42,47,47th,,Sun
+09:01:39,54B,South Cicero,,Sun
+13:19:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:30:00,47,47th,,Sat
+14:42:20,54B,South Cicero,,Sun
+17:42:48,47,47th,,Sat
+05:33:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:33:18,47,47th,,Sun
+12:46:24,54B,South Cicero,,Sat
+09:40:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+09:35:39,54B,South Cicero,,Sat
+16:02:55,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:07:31,54B,South Cicero,,Sat
+09:10:30,47,47th,,Sun
+05:15:23,54B,South Cicero,,Sat
+05:38:30,47,47th,,Sat
+16:43:48,47,47th,,Sat
+10:52:18,47,47th,,Sat
+05:51:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:39:01,54B,South Cicero,,Sun
+16:32:36,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:39:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:10:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+10:56:20,54B,South Cicero,,Sat
+21:54:39,54B,South Cicero,,Sat
+07:16:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+11:08:00,47,47th,,Sun
+14:13:18,47,47th,,Sun
+07:46:35,54B,South Cicero,,Sat
+20:55:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:06:12,47,47th,,Sun
+09:49:18,47,47th,,Sat
+14:32:31,54B,South Cicero,,Sat
+18:22:48,47,47th,,Sun
+14:37:48,47,47th,,Sat
+19:52:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:56:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+00:43:30,47,47th,,Tue,Wed,Thu,Fri,Sat
+22:45:00,47,47th,,Sun
+14:27:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:17:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+23:06:30,47,47th,,Sat
+20:48:30,47,47th,,Sat
+06:54:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:35:01,54B,South Cicero,,Sat
+15:23:18,47,47th,,Sun
+22:37:01,54B,South Cicero,,Sat
+13:42:16,54B,South Cicero,,Sun
+08:21:12,47,47th,,Sun
+14:09:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:52:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+04:30:42,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:51:30,47,47th,,Sat
+17:42:48,47,47th,,Sat
+05:06:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:25:12,54B,South Cicero,,Sun
+13:06:18,47,47th,,Sun
+06:33:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:41:30,47,47th,,Sat
+15:15:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:27:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:03:48,47,47th,,Sun
+13:52:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:17:02,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+24:00:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:57:18,47,47th,,Sat
+16:05:18,47,47th,,Sat
+23:05:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+20:29:12,47,47th,,Sat
+20:51:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:06:18,47,47th,,Sun
+20:51:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+09:49:18,47,47th,,Sat
+16:00:01,54B,South Cicero,,Sat
+12:46:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:07:48,47,47th,,Sat
+08:39:12,47,47th,,Sun
+07:33:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:07:31,54B,South Cicero,,Sat
+16:27:54,54B,South Cicero,,Sun
+10:36:46,54B,South Cicero,,Sat
+12:22:18,47,47th,,Sun
+07:34:42,47,47th,,Sun
+12:09:36,47,47th,,Sat
+21:30:42,47,47th,,Sat
+11:28:48,47,47th,,Sat
+20:45:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+17:02:48,47,47th,,Sun
+18:59:42,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:34:18,47,47th,,Sat
+16:42:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:27:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:08:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:27:54,54B,South Cicero,,Sun
+23:21:23,54B,South Cicero,,Sat
+11:51:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+16:23:48,47,47th,,Sat
+15:37:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:36:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+15:45:54,54B,South Cicero,,Sun
+05:24:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:52:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+13:53:17,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+09:31:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+10:56:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:24:42,47,47th,,Sat
+06:54:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:51:30,47,47th,,Sat
+04:57:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+01:34:42,47,47th,,Sun
+09:56:12,47,47th,,Sun
+01:34:42,47,47th,,Mon
+10:03:39,54B,South Cicero,,Sun
+20:11:00,47,47th,,Sat
+00:19:30,47,47th,,Mon
+10:24:18,47,47th,,Sat
+13:29:06,47,47th,,Sat
+08:04:42,47,47th,,Sat
+07:34:42,47,47th,,Sat
+22:53:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+16:53:18,47,47th,,Sun
+09:14:28,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+21:14:39,54B,South Cicero,,Sat
+17:45:32,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+14:47:48,47,47th,,Sat
+15:57:18,47,47th,,Sat
+04:06:12,47,47th,,Mon,Tue,Wed,Thu,Fri
+06:10:24,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+15:43:25,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:42:48,47,47th,,Sun
+21:58:48,47,47th,,Sun
+19:31:30,47,47th,,Sat
+19:11:30,47,47th,,Sat
+12:07:16,54B,South Cicero,,Sun
+18:21:50,54B,South Cicero,,Sun
+13:03:54,54B,South Cicero,,Sat
+17:12:48,47,47th,,Sun
+13:42:16,54B,South Cicero,,Sun
+20:20:00,47,47th,,Sun
+08:20:39,54B,South Cicero,,Sun
+13:04:16,54B,South Cicero,,Sun
+01:09:00,47,47th,,Mon
+21:00:00,47,47th,,Sun
+07:33:09,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+04:30:42,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:31:39,54B,South Cicero,,Sun
+13:54:48,47,47th,,Sun
+16:52:31,54B,South Cicero,,Sat
+10:24:42,47,47th,,Sun
+18:21:00,47,47th,,Mon,Tue,Wed,Thu,Fri
+19:01:30,47,47th,,Sat
+09:29:30,47,47th,,Sun
+20:55:42,54B,South Cicero,,Sat
+19:21:30,47,47th,,Sat
+09:35:39,54B,South Cicero,,Sat
+20:19:42,47,47th,,Sat
+00:18:00,47,47th,,Tue,Wed,Thu,Fri,Sat
+19:55:39,54B,South Cicero,,Sun
+11:34:54,54B,South Cicero,,Sat
+09:13:00,47,47th,,Sat
+07:34:42,47,47th,,Sun
+05:45:42,47,47th,,Sun
+14:43:18,47,47th,,Sun
+11:36:54,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+19:08:12,54B,South Cicero,,Sun
+23:54:30,47,47th,,Sat
+12:59:06,47,47th,,Sat
+19:17:46,54B,South Cicero,,Sat
+05:15:23,54B,South Cicero,,Sat
+10:48:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+07:06:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:15:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+12:37:18,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:37:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+13:23:16,54B,South Cicero,,Sun
+04:21:12,47,47th,,Mon,Tue,Wed,Thu,Fri
+18:45:16,54B,South Cicero,,Sun
+21:17:42,47,47th,,Sat
+17:22:06,47,47th,,Mon,Tue,Wed,Thu,Fri
+14:01:16,54B,South Cicero,,Sun
+07:49:48,47,47th,,Mon,Tue,Wed,Thu,Fri
+23:37:31,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri
+20:15:30,47,47th,,Mon,Tue,Wed,Thu,Fri
+08:45:00,47,47th,,Sat
+19:18:36,47,47th,,Mon,Tue,Wed,Thu,Fri
+12:49:06,47,47th,,Sat
+20:31:39,54B,South Cicero,,Mon,Tue,Wed,Thu,Fri

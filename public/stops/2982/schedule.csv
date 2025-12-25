@@ -1,0 +1,3198 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+11:08:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:01:31,115,Pullman/115th,,Sun
+14:29:43,95,95th,,Sun
+16:19:43,95,95th,,Sun
+07:17:16,115,Pullman/115th,,Sat
+14:28:58,103,West 103rd,,Thu
+11:32:56,34,South Michigan,,Sun
+17:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:50:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:51:06,106,East 103rd,,Sun
+13:32:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:29:05,119,Michigan/119th,,Sat
+21:05:21,103,West 103rd,,Sun
+08:13:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+03:07:14,34,South Michigan,,Mon
+06:27:54,111,111th/King Drive,,Sun
+07:22:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+06:53:54,111,111th/King Drive,,Sat
+19:46:44,34,South Michigan,,Sun
+18:17:31,115,Pullman/115th,,Sat
+11:59:46,115,Pullman/115th,,Sun
+11:56:35,95,95th,,Sat
+20:53:21,103,West 103rd,,Sat
+18:49:14,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:33:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:38:40,34,South Michigan,,Sun
+08:33:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+03:06:05,34,South Michigan,,Sun
+07:44:43,95,95th,,Sat
+16:11:06,106,East 103rd,,Sun
+09:28:54,111,111th/King Drive,,Sun
+11:14:21,103,West 103rd,,Sat
+10:46:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:44:35,95,95th,,Sat
+22:25:13,95,95th,,Sat
+10:29:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:28:21,103,West 103rd,,Sun
+13:40:05,34,South Michigan,,Sat
+16:40:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:56:46,115,Pullman/115th,,Sat
+15:04:35,95,95th,,Sat
+16:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:56:21,103,West 103rd,,Sat
+15:58:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:39:43,95,95th,,Sun
+08:17:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:22:35,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:59:13,95,95th,,Sun
+16:03:46,115,Pullman/115th,,Sun
+14:08:21,103,West 103rd,,Sun
+03:06:05,34,South Michigan,,Sun
+07:20:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:25:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:43:51,106,East 103rd,,Sat
+12:47:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:17:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:15:31,115,Pullman/115th,,Sat
+19:08:43,95,95th,,Sun
+14:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:23:51,106,East 103rd,,Sat
+22:07:40,34,South Michigan,,Sun
+15:20:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:49:13,95,95th,,Sat
+19:13:51,103,West 103rd,,Sat
+17:10:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:40:10,34,South Michigan,,Sun
+06:39:14,34,South Michigan,,Sat
+05:25:46,115,Pullman/115th,,Sat
+22:42:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:09:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:54:35,95,95th,,Sat
+20:59:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:48:21,103,West 103rd,,Sun
+09:48:24,111,111th/King Drive,,Sun
+13:02:44,111,111th/King Drive,,Sat
+20:08:43,95,95th,,Sun
+07:55:45,106,East 103rd,,Sun
+06:27:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+07:18:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:26:31,115,Pullman/115th,,Sat
+15:31:58,103,West 103rd,,Mon,Tue,Wed,Fri
+08:46:54,111,111th/King Drive,,Sun
+18:17:56,119,Michigan/119th,,Sat
+14:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:16:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+23:26:05,34,South Michigan,,Sat
+11:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:16:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:13:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:19:14,34,South Michigan,,Sat
+12:02:56,34,South Michigan,,Sun
+15:31:06,106,East 103rd,,Sun
+09:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:46:24,111,111th/King Drive,,Sat
+14:45:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:17:51,95,95th,,Sun
+07:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:30:14,34,South Michigan,,Sun
+05:48:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:24:43,95,95th,,Sat
+11:07:16,115,Pullman/115th,,Sun
+11:35:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:55:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:54:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+22:25:21,103,West 103rd,,Sun
+13:30:14,34,South Michigan,,Sun
+11:36:46,115,Pullman/115th,,Sat
+14:47:44,111,111th/King Drive,,Sat
+14:50:05,34,South Michigan,,Sat
+19:38:06,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+09:14:52,34,South Michigan,,Sun
+11:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+01:37:14,34,South Michigan,,Mon
+12:24:14,119,Michigan/119th,,Sun
+06:44:46,115,Pullman/115th,,Sun
+18:25:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:26:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+11:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:57:54,111,111th/King Drive,,Sun
+19:26:54,111,111th/King Drive,,Sat
+13:02:44,111,111th/King Drive,,Sat
+16:13:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+03:34:19,N5,South Shore Night Bus,,Sun
+10:32:56,34,South Michigan,,Sun
+21:06:54,111,111th/King Drive,,Sat
+07:32:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:07:13,95,95th,,Sat
+15:17:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+20:00:43,95,95th,,Sat
+20:56:51,95,95th,,Sun
+05:36:13,95,95th,,Sat
+19:41:05,119,Michigan/119th,,Sun
+12:20:05,34,South Michigan,,Sat
+16:40:10,34,South Michigan,,Sun
+21:33:01,115,Pullman/115th,,Sun
+17:00:05,34,South Michigan,,Sun
+19:10:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:08:54,111,111th/King Drive,,Sat
+15:48:21,103,West 103rd,,Sun
+05:26:11,106,East 103rd,,Sat
+13:59:56,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:04:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:00:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:16:35,95,95th,,Sat
+08:55:45,106,East 103rd,,Sun
+17:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:49:43,95,95th,,Sun
+15:00:10,34,South Michigan,,Sun
+05:32:19,N5,South Shore Night Bus,,Sun
+13:56:21,103,West 103rd,,Sat
+24:04:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:48:21,103,West 103rd,,Sun
+19:33:21,103,West 103rd,,Sat
+20:34:35,34,South Michigan,,Sat
+09:09:51,106,East 103rd,,Sat
+10:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:39:31,115,Pullman/115th,,Sat
+18:15:21,103,West 103rd,,Sat
+09:40:35,95,95th,,Sat
+16:31:41,106,East 103rd,,Sun
+10:42:21,95,95th,,Sun
+07:53:14,119,Michigan/119th,,Sun
+07:11:54,111,111th/King Drive,,Sat
+03:38:23,34,South Michigan,,Sat
+13:42:43,95,95th,,Sun
+20:24:35,34,South Michigan,,Sat
+05:48:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:17:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:20:05,34,South Michigan,,Sat
+06:59:14,34,South Michigan,,Sat
+13:10:14,34,South Michigan,,Sun
+18:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:30:13,95,95th,,Sat
+07:24:10,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+14:10:14,34,South Michigan,,Sun
+07:06:15,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+05:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:48:56,119,Michigan/119th,,Sat
+11:10:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:28:21,103,West 103rd,,Sun
+15:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:57:54,111,111th/King Drive,,Sun
+13:45:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:06:05,34,South Michigan,,Sun
+12:35:35,95,95th,,Sat
+13:59:43,95,95th,,Sun
+10:02:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:53:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:30:05,34,South Michigan,,Sat
+16:55:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:10:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+04:36:09,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:49:43,95,95th,,Sun
+10:08:21,103,West 103rd,,Sun
+20:18:43,95,95th,,Sun
+11:03:05,119,Michigan/119th,,Sat
+00:56:05,119,Michigan/119th,,Sun
+11:18:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:49:18,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+13:06:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:08:05,119,Michigan/119th,,Sat
+22:07:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:34:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:00:05,34,South Michigan,,Sat
+07:13:46,115,Pullman/115th,,Sun
+13:28:51,106,East 103rd,,Sat
+19:56:44,34,South Michigan,,Sun
+10:30:05,34,South Michigan,,Sat
+09:30:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:18:54,111,111th/King Drive,,Sat
+14:44:35,95,95th,,Sat
+19:05:35,34,South Michigan,,Sat
+08:08:16,115,Pullman/115th,,Sun
+13:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:47:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:05:35,34,South Michigan,,Sat
+11:28:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:48:43,95,95th,,Sun
+14:49:43,95,95th,,Sun
+22:25:21,103,West 103rd,,Sun
+14:51:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:29:05,119,Michigan/119th,,Sat
+07:55:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+12:29:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:48:14,34,South Michigan,,Sun
+14:49:43,95,95th,,Sun
+11:25:54,111,111th/King Drive,,Sun
+14:50:05,34,South Michigan,,Sat
+09:24:52,34,South Michigan,,Sun
+10:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:54:21,103,West 103rd,,Sat
+12:06:35,95,95th,,Sat
+21:33:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:22:05,119,Michigan/119th,,Sun
+16:21:46,115,Pullman/115th,,Sun
+11:48:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:48:21,103,West 103rd,,Sun
+10:03:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:03:46,115,Pullman/115th,,Sun
+07:41:07,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+21:44:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:19:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+13:15:35,95,95th,,Sat
+17:00:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+04:51:00,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+05:23:14,119,Michigan/119th,,Sun
+12:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:25:15,106,East 103rd,,Sun
+09:21:35,95,95th,,Sat
+11:34:21,103,West 103rd,,Sat
+22:03:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+13:28:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+07:23:14,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:20:21,95,95th,,Sun
+13:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:21:14,119,Michigan/119th,,Sun
+09:01:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:10:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:34:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:57:54,111,111th/King Drive,,Sun
+17:10:05,34,South Michigan,,Sun
+16:48:51,106,East 103rd,,Sat
+11:28:21,103,West 103rd,,Sun
+05:07:09,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:25:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:53:57,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+22:26:40,34,South Michigan,,Sun
+19:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:59:05,119,Michigan/119th,,Sat
+11:22:56,34,South Michigan,,Sun
+17:11:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:14:52,34,South Michigan,,Sun
+18:45:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:46:51,103,West 103rd,,Sun
+04:06:13,95,95th,,Sat
+05:44:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:45:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:57:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:25:46,115,Pullman/115th,,Sat
+18:20:05,34,South Michigan,,Sat
+20:07:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:28:43,95,95th,,Sun
+12:51:06,106,East 103rd,,Sun
+20:19:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:31:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:43:05,119,Michigan/119th,,Sun
+13:15:35,95,95th,,Sat
+20:33:21,103,West 103rd,,Sat
+13:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:22:13,95,95th,,Sat
+11:36:35,95,95th,,Sat
+16:59:43,95,95th,,Sun
+20:56:51,95,95th,,Sun
+16:11:26,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:10:05,34,South Michigan,,Sat
+17:33:54,111,111th/King Drive,,Sun
+18:26:11,106,East 103rd,,Sat
+05:24:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:24:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:55:45,106,East 103rd,,Sun
+09:28:21,103,West 103rd,,Sun
+14:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:16:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:55:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:28:21,103,West 103rd,,Sun
+20:57:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:22:35,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:44:31,115,Pullman/115th,,Sun
+10:32:16,115,Pullman/115th,,Sun
+09:27:24,115,Pullman/115th,,Sat
+17:26:11,106,East 103rd,,Sun
+15:30:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:19:14,34,South Michigan,,Sat
+21:45:21,103,West 103rd,,Sun
+20:34:35,34,South Michigan,,Sat
+09:59:54,115,Pullman/115th,,Sat
+20:11:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:28:21,103,West 103rd,,Sun
+13:37:16,115,Pullman/115th,,Sat
+13:10:14,34,South Michigan,,Sun
+20:05:35,34,South Michigan,,Sat
+20:26:11,106,East 103rd,,Sun
+13:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:40:24,111,111th/King Drive,,Sun
+17:04:56,119,Michigan/119th,,Sun
+09:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:00:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:03:56,119,Michigan/119th,,Sat
+15:10:05,34,South Michigan,,Sat
+21:22:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:46:46,115,Pullman/115th,,Sun
+15:48:56,119,Michigan/119th,,Sat
+15:19:43,95,95th,,Sun
+17:03:56,119,Michigan/119th,,Sat
+15:04:46,115,Pullman/115th,,Sat
+15:08:21,103,West 103rd,,Sun
+15:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+24:04:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:50:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:44:35,95,95th,,Sat
+13:24:43,95,95th,,Sun
+15:50:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:48:43,95,95th,,Sun
+17:24:01,119,Michigan/119th,,Sun
+06:26:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:38:35,95,95th,,Sat
+16:10:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:28:21,103,West 103rd,,Sun
+19:25:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:59:14,119,Michigan/119th,,Sun
+09:44:21,95,95th,,Sun
+15:50:05,34,South Michigan,,Sat
+06:12:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:31:06,106,East 103rd,,Sun
+14:02:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+17:14:35,95,95th,,Sat
+15:29:16,115,Pullman/115th,,Sun
+08:03:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:18:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:15:16,115,Pullman/115th,,Sat
+11:20:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:11:38,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:39:46,115,Pullman/115th,,Sun
+20:28:16,115,Pullman/115th,,Sat
+21:08:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:32:54,111,111th/King Drive,,Sat
+12:11:51,106,East 103rd,,Sat
+23:16:14,119,Michigan/119th,,Sun
+16:10:44,111,111th/King Drive,,Sat
+17:50:05,34,South Michigan,,Sat
+09:46:01,115,Pullman/115th,,Sat
+09:03:09,95,95th,,Sat
+19:05:35,34,South Michigan,,Sat
+00:53:14,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+05:26:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:37:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+20:59:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:47:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:25:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:54:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:36:16,115,Pullman/115th,,Sat
+12:08:21,103,West 103rd,,Sun
+20:11:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:20:05,34,South Michigan,,Sat
+13:00:14,34,South Michigan,,Sun
+19:52:19,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:28:21,103,West 103rd,,Sun
+12:32:44,111,111th/King Drive,,Sat
+15:34:44,111,111th/King Drive,,Sat
+13:55:35,95,95th,,Sat
+21:04:35,34,South Michigan,,Sat
+15:53:16,115,Pullman/115th,,Sat
+13:12:16,115,Pullman/115th,,Sat
+16:25:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:34:35,95,95th,,Sat
+21:25:45,106,East 103rd,,Sun
+08:20:05,34,South Michigan,,Sat
+20:53:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:16:44,111,111th/King Drive,,Sat
+10:42:56,34,South Michigan,,Sun
+19:22:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:50:35,95,95th,,Sat
+07:48:21,103,West 103rd,,Sun
+12:08:21,103,West 103rd,,Sun
+05:52:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:30:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:00:54,111,111th/King Drive,,Sat
+09:34:21,103,West 103rd,,Sat
+08:34:43,95,95th,,Sat
+08:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:20:21,95,95th,,Sun
+18:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:38:54,111,111th/King Drive,,Sun
+14:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:11:14,34,South Michigan,,Sun
+05:58:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:53:21,103,West 103rd,,Sat
+13:25:35,95,95th,,Sat
+12:15:54,111,111th/King Drive,,Sat
+07:33:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:11:06,106,East 103rd,,Sun
+06:16:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+09:07:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:23:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:15:21,103,West 103rd,,Sat
+17:51:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:02:24,111,111th/King Drive,,Sun
+15:40:10,34,South Michigan,,Sun
+10:50:05,34,South Michigan,,Sat
+07:04:43,95,95th,,Sat
+11:21:41,106,East 103rd,,Sun
+18:49:37,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:08:21,103,West 103rd,,Sun
+22:36:14,119,Michigan/119th,,Sun
+21:27:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+04:25:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+12:09:21,95,95th,,Sun
+06:02:19,N5,South Shore Night Bus,,Sun
+10:24:14,119,Michigan/119th,,Sun
+07:11:14,34,South Michigan,,Sun
+11:48:21,103,West 103rd,,Sun
+11:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+12:28:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:18:56,119,Michigan/119th,,Sat
+00:34:19,95,95th,,Sun
+23:44:23,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:44:05,119,Michigan/119th,,Sat
+11:03:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:05:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:17:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:08:05,119,Michigan/119th,,Sat
+07:25:13,95,95th,,Sat
+17:40:44,111,111th/King Drive,,Sat
+19:02:05,119,Michigan/119th,,Sun
+01:16:05,119,Michigan/119th,,Sun
+23:36:05,119,Michigan/119th,,Sat
+17:29:43,95,95th,,Sun
+05:08:23,34,South Michigan,,Sat
+08:04:43,95,95th,,Sat
+15:39:43,95,95th,,Sun
+16:09:16,115,Pullman/115th,,Sat
+14:43:51,106,East 103rd,,Sat
+07:23:14,119,Michigan/119th,,Sun
+21:52:51,95,95th,,Sun
+16:41:24,111,111th/King Drive,,Sun
+15:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:31:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:06:35,95,95th,,Sat
+12:18:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:26:11,106,East 103rd,,Sat
+05:24:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+05:57:54,111,111th/King Drive,,Sun
+16:40:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+09:18:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+07:09:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:10:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+24:08:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:23:54,111,111th/King Drive,,Sun
+00:36:05,119,Michigan/119th,,Sun
+12:59:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:21:46,115,Pullman/115th,,Sun
+14:45:56,119,Michigan/119th,,Sun
+16:09:43,95,95th,,Sun
+21:53:31,115,Pullman/115th,,Sun
+21:52:05,34,South Michigan,,Sat
+10:12:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:24:54,111,111th/King Drive,,Sat
+17:31:16,115,Pullman/115th,,Sat
+11:06:24,111,111th/King Drive,,Sun
+13:01:31,115,Pullman/115th,,Sun
+07:54:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:15:54,111,111th/King Drive,,Sat
+15:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:24:35,95,95th,,Sat
+16:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:06:31,115,Pullman/115th,,Sat
+12:51:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:38:23,34,South Michigan,,Sat
+22:43:21,103,West 103rd,,Sat
+13:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:11:54,111,111th/King Drive,,Sat
+05:33:14,119,Michigan/119th,,Sat
+16:27:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+22:46:05,34,South Michigan,,Sat
+20:19:54,111,111th/King Drive,,Sun
+13:47:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:55:15,106,East 103rd,,Sun
+14:02:44,111,111th/King Drive,,Sat
+06:08:23,34,South Michigan,,Sat
+20:40:24,111,111th/King Drive,,Sun
+09:43:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:06:51,95,95th,,Sun
+14:15:35,95,95th,,Sat
+18:34:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+20:30:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+07:02:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:41:54,111,111th/King Drive,,Sun
+20:46:54,111,111th/King Drive,,Sat
+16:29:43,95,95th,,Sun
+08:15:21,95,95th,,Sun
+15:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+04:56:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+11:04:14,119,Michigan/119th,,Sun
+04:56:11,106,East 103rd,,Sat
+22:07:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:10:43,95,95th,,Sat
+09:25:45,106,East 103rd,,Sun
+19:45:35,34,South Michigan,,Sat
+10:01:51,106,East 103rd,,Sat
+23:31:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:22:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:10:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+07:43:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:48:16,115,Pullman/115th,,Sat
+09:53:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:21:13,95,95th,,Sat
+08:59:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:25:16,115,Pullman/115th,,Sun
+05:33:14,119,Michigan/119th,,Sat
+19:47:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+02:02:19,N5,South Shore Night Bus,,Mon
+22:04:31,103,West 103rd,,Sun
+21:41:54,111,111th/King Drive,,Sun
+23:56:05,119,Michigan/119th,,Sat
+08:17:51,106,East 103rd,,Sat
+10:42:56,34,South Michigan,,Sun
+07:24:10,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+10:53:51,106,East 103rd,,Sat
+05:58:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:27:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:30:24,111,111th/King Drive,,Sun
+13:36:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:16:24,115,Pullman/115th,,Sat
+19:07:51,103,West 103rd,,Sun
+06:39:14,34,South Michigan,,Sat
+22:06:54,111,111th/King Drive,,Sat
+11:52:56,34,South Michigan,,Sun
+03:04:19,N5,South Shore Night Bus,,Sun
+07:29:54,111,111th/King Drive,,Sat
+17:49:13,95,95th,,Sun
+12:55:35,95,95th,,Sat
+18:33:35,95,95th,,Sat
+04:36:11,N5,South Shore Night Bus,,Sat
+21:16:46,115,Pullman/115th,,Sun
+17:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:05:35,95,95th,,Sat
+00:34:19,95,95th,,Mon
+19:26:51,103,West 103rd,,Sun
+14:16:31,115,Pullman/115th,,Sun
+19:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:30:10,34,South Michigan,,Sun
+08:18:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:01:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:45:21,95,95th,,Sun
+10:12:54,111,111th/King Drive,,Sat
+08:27:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+01:33:19,N5,South Shore Night Bus,,Mon
+16:23:54,111,111th/King Drive,,Sun
+15:24:56,119,Michigan/119th,,Sun
+05:53:14,119,Michigan/119th,,Sun
+11:19:51,106,East 103rd,,Sat
+12:47:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+13:47:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:49:46,115,Pullman/115th,,Sun
+14:13:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+13:28:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+08:03:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+17:16:24,111,111th/King Drive,,Sun
+16:41:24,111,111th/King Drive,,Sun
+09:17:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+08:47:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:42:05,34,South Michigan,,Sun
+18:40:05,34,South Michigan,,Sun
+12:50:05,34,South Michigan,,Sat
+23:13:21,103,West 103rd,,Sat
+21:25:21,103,West 103rd,,Sun
+14:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:32:31,34,South Michigan,,Sun
+16:45:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:10:10,34,South Michigan,,Sun
+23:26:40,34,South Michigan,,Sun
+12:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:58:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:03:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:48:43,95,95th,,Sun
+09:10:05,34,South Michigan,,Sat
+17:35:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:24:56,119,Michigan/119th,,Sun
+09:43:52,34,South Michigan,,Sun
+08:52:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:43:51,106,East 103rd,,Sat
+14:21:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:36:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:30:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+04:06:05,34,South Michigan,,Sun
+13:50:13,95,95th,,Sun
+13:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:17:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+07:58:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:14:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:10:05,34,South Michigan,,Sat
+13:21:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+11:34:21,103,West 103rd,,Sat
+04:52:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:48:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:48:43,95,95th,,Sun
+07:13:21,103,West 103rd,,Sat
+16:28:44,111,111th/King Drive,,Sat
+13:43:14,119,Michigan/119th,,Sun
+20:33:21,103,West 103rd,,Sat
+16:57:11,106,East 103rd,,Sun
+11:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:54:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:29:05,119,Michigan/119th,,Sat
+11:32:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:13:21,103,West 103rd,,Sat
+20:20:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:09:43,95,95th,,Sun
+14:02:44,111,111th/King Drive,,Sat
+04:08:23,34,South Michigan,,Sat
+16:33:56,119,Michigan/119th,,Sat
+15:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:52:05,34,South Michigan,,Sat
+22:15:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+22:28:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:47:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+06:49:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:12:21,95,95th,,Sun
+05:36:05,34,South Michigan,,Sun
+16:46:44,111,111th/King Drive,,Sat
+09:03:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:10:05,34,South Michigan,,Sat
+20:44:05,119,Michigan/119th,,Sat
+20:31:19,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:37:46,115,Pullman/115th,,Sun
+09:21:24,115,Pullman/115th,,Sun
+15:00:05,34,South Michigan,,Sat
+21:14:35,34,South Michigan,,Sat
+04:06:05,34,South Michigan,,Sun
+13:20:14,34,South Michigan,,Sun
+11:01:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+03:40:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:01:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+11:18:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:11:14,34,South Michigan,,Sun
+21:05:21,103,West 103rd,,Sun
+14:19:14,111,111th/King Drive,,Sun
+17:44:05,95,95th,,Sat
+19:15:05,119,Michigan/119th,,Sat
+23:46:05,34,South Michigan,,Sat
+19:17:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:18:31,115,Pullman/115th,,Sat
+10:28:21,103,West 103rd,,Sun
+11:06:35,95,95th,,Sat
+06:12:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+05:59:18,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+06:22:16,115,Pullman/115th,,Sat
+24:16:05,119,Michigan/119th,,Sat
+05:59:13,95,95th,,Sat
+03:08:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+13:25:35,95,95th,,Sat
+16:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:50:05,34,South Michigan,,Sun
+09:43:54,115,Pullman/115th,,Sat
+17:51:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:26:11,106,East 103rd,,Sun
+11:20:05,34,South Michigan,,Sat
+19:56:11,106,East 103rd,,Sun
+20:53:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:25:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:20:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:53:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:56:11,106,East 103rd,,Sun
+13:35:35,95,95th,,Sat
+11:30:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:40:05,34,South Michigan,,Sat
+20:15:05,119,Michigan/119th,,Sat
+01:03:23,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+05:26:11,106,East 103rd,,Sat
+10:56:35,95,95th,,Sat
+11:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:47:14,34,South Michigan,,Sun
+03:38:23,34,South Michigan,,Sat
+06:19:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:21:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:08:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:53:16,115,Pullman/115th,,Sat
+14:00:16,115,Pullman/115th,,Sat
+12:08:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:53:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:00:54,111,111th/King Drive,,Sat
+09:44:21,95,95th,,Sun
+24:06:05,34,South Michigan,,Sat
+13:10:05,34,South Michigan,,Sat
+12:38:01,95,95th,,Mon,Tue,Wed,Thu,Fri
+05:46:07,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+14:34:35,95,95th,,Sat
+14:16:21,103,West 103rd,,Sat
+15:46:46,115,Pullman/115th,,Sun
+09:30:05,34,South Michigan,,Sat
+20:04:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+24:06:05,34,South Michigan,,Sat
+16:50:10,34,South Michigan,,Sun
+14:59:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:04:56,119,Michigan/119th,,Sun
+10:22:56,34,South Michigan,,Sun
+07:27:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:01:44,111,111th/King Drive,,Sat
+02:04:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+14:31:06,106,East 103rd,,Sun
+21:06:44,34,South Michigan,,Sun
+21:48:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:39:13,95,95th,,Sun
+12:00:54,111,111th/King Drive,,Sat
+11:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:13:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:52:56,34,South Michigan,,Sun
+17:19:43,95,95th,,Sun
+11:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:19:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:26:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:07:16,115,Pullman/115th,,Sun
+08:37:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:13:14,111,111th/King Drive,,Sun
+15:03:56,119,Michigan/119th,,Sat
+12:31:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:34:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:11:06,106,East 103rd,,Sun
+06:45:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:00:14,34,South Michigan,,Sun
+19:38:40,34,South Michigan,,Sun
+08:15:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:44:14,119,Michigan/119th,,Sun
+06:31:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+02:37:14,34,South Michigan,,Mon
+15:44:56,119,Michigan/119th,,Sun
+07:20:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:31:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:15:35,95,95th,,Sat
+01:32:19,N5,South Shore Night Bus,,Mon
+23:07:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:13:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+16:54:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+08:35:21,95,95th,,Sun
+22:22:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:34:21,95,95th,,Sun
+18:35:35,34,South Michigan,,Sat
+18:09:46,115,Pullman/115th,,Sun
+17:39:13,95,95th,,Sun
+08:53:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:55:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:08:43,95,95th,,Sun
+11:50:21,95,95th,,Sun
+19:34:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:04:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:25:13,95,95th,,Sat
+01:13:14,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+09:07:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:57:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:45:51,106,East 103rd,,Sat
+22:48:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:09:43,95,95th,,Sun
+06:25:15,106,East 103rd,,Sun
+07:54:43,95,95th,,Sat
+10:12:21,95,95th,,Sun
+11:19:51,106,East 103rd,,Sat
+17:08:21,103,West 103rd,,Sun
+06:56:11,106,East 103rd,,Sat
+09:36:54,111,111th/King Drive,,Sat
+18:01:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:58:51,106,East 103rd,,Sat
+18:58:43,95,95th,,Sun
+10:28:05,119,Michigan/119th,,Sat
+07:25:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+22:28:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:04:44,111,111th/King Drive,,Sat
+13:32:44,111,111th/King Drive,,Sat
+14:51:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:42:16,115,Pullman/115th,,Sun
+13:55:35,95,95th,,Sat
+18:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:57:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:30:44,34,South Michigan,,Sun
+09:16:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:27:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:49:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+17:12:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:48:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:10:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:13:16,115,Pullman/115th,,Sat
+09:24:21,95,95th,,Sun
+09:15:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+08:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:28:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:19:54,111,111th/King Drive,,Sun
+19:18:43,95,95th,,Sun
+17:35:21,103,West 103rd,,Sat
+07:58:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+04:55:15,106,East 103rd,,Sun
+09:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:04:56,119,Michigan/119th,,Sun
+20:56:44,34,South Michigan,,Sun
+19:37:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:39:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:30:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+13:22:14,111,111th/King Drive,,Sun
+14:31:31,115,Pullman/115th,,Sun
+17:25:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:51:10,34,South Michigan,,Sun
+15:26:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:17:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+13:55:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:26:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:54:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:26:44,34,South Michigan,,Sun
+13:56:21,103,West 103rd,,Sat
+17:30:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+03:03:19,N5,South Shore Night Bus,,Mon
+19:45:35,34,South Michigan,,Sat
+19:10:05,34,South Michigan,,Sun
+00:48:14,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+09:26:31,115,Pullman/115th,,Sun
+12:55:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:30:05,34,South Michigan,,Sat
+08:46:54,111,111th/King Drive,,Sun
+23:16:14,119,Michigan/119th,,Sun
+13:35:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:19:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:03:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+08:14:43,95,95th,,Sat
+18:38:43,95,95th,,Sun
+13:05:17,95,95th,,Sun
+14:07:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:56:11,106,East 103rd,,Sat
+12:51:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+06:07:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:24:56,119,Michigan/119th,,Sun
+09:38:54,115,Pullman/115th,,Sun
+17:13:51,106,East 103rd,,Sat
+17:18:56,119,Michigan/119th,,Sat
+16:00:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:01:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:18:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:34:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:25:35,34,South Michigan,,Sat
+11:38:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:37:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+17:40:44,111,111th/King Drive,,Sat
+09:30:35,95,95th,,Sat
+09:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:55:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:13:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+08:25:54,111,111th/King Drive,,Sun
+13:41:14,111,111th/King Drive,,Sun
+18:17:56,119,Michigan/119th,,Sat
+17:32:56,119,Michigan/119th,,Sat
+17:29:43,95,95th,,Sun
+22:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:02:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:28:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+07:43:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:14:46,115,Pullman/115th,,Sun
+07:53:21,103,West 103rd,,Sat
+19:47:46,115,Pullman/115th,,Sat
+16:41:46,115,Pullman/115th,,Sat
+14:40:14,34,South Michigan,,Sun
+10:12:56,34,South Michigan,,Sun
+14:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:48:56,119,Michigan/119th,,Sat
+06:06:05,34,South Michigan,,Sun
+09:56:24,115,Pullman/115th,,Sun
+18:14:54,111,111th/King Drive,,Sat
+12:12:56,34,South Michigan,,Sun
+17:50:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:58:14,119,Michigan/119th,,Sun
+11:24:46,115,Pullman/115th,,Sun
+10:20:35,95,95th,,Sat
+22:43:01,115,Pullman/115th,,Sat
+24:04:21,95,95th,,Sat
+17:47:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:09:01,95,95th,,Mon,Tue,Wed,Thu,Fri
+13:05:17,95,95th,,Sun
+06:02:21,95,95th,,Sun
+10:48:05,119,Michigan/119th,,Sat
+18:26:24,111,111th/King Drive,,Sun
+05:02:21,95,95th,,Sun
+06:48:21,95,95th,,Sun
+09:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:30:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:27:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:31:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+11:01:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:18:56,119,Michigan/119th,,Sat
+06:26:46,115,Pullman/115th,,Sun
+18:21:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:27:51,106,East 103rd,,Sat
+11:55:21,103,West 103rd,,Sat
+15:01:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:21:13,95,95th,,Sat
+11:30:05,34,South Michigan,,Sat
+09:04:21,95,95th,,Sun
+20:20:43,95,95th,,Sat
+15:44:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:56:11,106,East 103rd,,Sun
+17:53:35,95,95th,,Sat
+14:31:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+02:03:19,N5,South Shore Night Bus,,Mon
+11:46:06,106,East 103rd,,Sun
+08:59:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+06:28:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:12:56,34,South Michigan,,Sun
+12:26:51,95,95th,,Sun
+12:17:16,115,Pullman/115th,,Sun
+06:26:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:19:14,119,Michigan/119th,,Sun
+21:55:45,106,East 103rd,,Sun
+09:30:05,34,South Michigan,,Sat
+07:48:21,103,West 103rd,,Sun
+13:17:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+13:05:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:00:05,34,South Michigan,,Sat
+14:41:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:16:14,119,Michigan/119th,,Sun
+05:45:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:26:11,106,East 103rd,,Sun
+13:16:21,103,West 103rd,,Sat
+11:46:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+01:04:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+18:08:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:12:21,95,95th,,Sun
+05:40:46,115,Pullman/115th,,Sun
+19:28:31,115,Pullman/115th,,Sat
+14:37:14,111,111th/King Drive,,Sun
+10:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:15:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:24:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+14:24:10,119,Michigan/119th,,Sun
+15:45:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+06:46:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+06:53:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:39:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:06:44,34,South Michigan,,Sun
+07:57:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+10:27:51,106,East 103rd,,Sat
+21:48:14,34,South Michigan,,Sun
+11:08:54,111,111th/King Drive,,Sat
+01:02:19,N5,South Shore Night Bus,,Mon
+08:33:21,103,West 103rd,,Sat
+12:48:56,119,Michigan/119th,,Sat
+15:51:06,106,East 103rd,,Sun
+11:45:24,111,111th/King Drive,,Sun
+06:25:51,95,95th,,Sun
+07:38:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:10:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+17:25:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:16:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:48:05,119,Michigan/119th,,Sat
+19:08:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:47:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+09:40:05,34,South Michigan,,Sat
+07:29:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:39:46,115,Pullman/115th,,Sun
+07:25:13,95,95th,,Sat
+16:39:43,95,95th,,Sun
+05:18:54,111,111th/King Drive,,Sat
+15:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:35:54,111,111th/King Drive,,Sat
+18:06:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:25:45,106,East 103rd,,Sun
+06:45:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+01:24:14,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+18:51:43,95,95th,,Sat
+15:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+05:07:11,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+21:12:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:41:14,34,South Michigan,,Sun
+10:44:14,119,Michigan/119th,,Sun
+14:03:56,119,Michigan/119th,,Sat
+16:54:35,95,95th,,Sat
+05:29:21,103,West 103rd,,Sun
+10:20:35,95,95th,,Sat
+09:07:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:28:43,95,95th,,Sun
+12:17:51,95,95th,,Sun
+12:28:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:00:05,34,South Michigan,,Sun
+10:15:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+06:00:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:56:44,34,South Michigan,,Sun
+13:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:25:46,115,Pullman/115th,,Sat
+06:19:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:06:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:20:14,34,South Michigan,,Sun
+07:29:54,111,111th/King Drive,,Sat
+23:34:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:46:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:35:21,103,West 103rd,,Sat
+15:55:21,103,West 103rd,,Sat
+06:49:18,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+07:38:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+11:48:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:15:21,103,West 103rd,,Sat
+06:18:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:44:35,95,95th,,Sat
+18:36:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:46:35,95,95th,,Sat
+14:10:16,115,Pullman/115th,,Sun
+16:04:16,115,Pullman/115th,,Sun
+17:15:46,115,Pullman/115th,,Sun
+09:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:50:14,34,South Michigan,,Sun
+18:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:08:23,34,South Michigan,,Sat
+19:54:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+17:38:51,106,East 103rd,,Sat
+05:32:21,95,95th,,Sun
+01:24:14,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+19:50:43,95,95th,,Sat
+14:23:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:36:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:30:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:56:46,115,Pullman/115th,,Sat
+19:21:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+23:08:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:18:51,106,East 103rd,,Sat
+10:10:05,34,South Michigan,,Sat
+19:57:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:25:15,106,East 103rd,,Sun
+12:15:21,103,West 103rd,,Sat
+17:33:54,111,111th/King Drive,,Sun
+13:17:44,111,111th/King Drive,,Sat
+04:02:19,N5,South Shore Night Bus,,Sun
+06:10:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:29:31,115,Pullman/115th,,Sat
+07:57:54,111,111th/King Drive,,Sun
+06:29:21,103,West 103rd,,Sun
+11:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:27:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+02:06:11,N5,South Shore Night Bus,,Sun
+08:33:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:17:51,106,East 103rd,,Sat
+15:57:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:59:21,103,West 103rd,,Sun
+06:42:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:08:21,103,West 103rd,,Sun
+20:44:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:47:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:27:05,34,South Michigan,,Sat
+08:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:20:05,34,South Michigan,,Sat
+17:24:35,95,95th,,Sat
+11:50:05,34,South Michigan,,Sat
+20:44:05,119,Michigan/119th,,Sat
+17:08:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:29:35,95,95th,,Sat
+12:04:54,111,111th/King Drive,,Sun
+16:59:43,95,95th,,Sun
+19:07:51,103,West 103rd,,Sun
+16:55:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+23:36:05,119,Michigan/119th,,Sat
+14:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:08:21,103,West 103rd,,Sun
+02:36:05,34,South Michigan,,Sun
+14:16:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:24:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:00:54,111,111th/King Drive,,Sat
+20:14:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:09:31,115,Pullman/115th,,Sat
+11:48:21,103,West 103rd,,Sun
+22:20:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:04:43,95,95th,,Sat
+06:03:14,119,Michigan/119th,,Sat
+17:37:24,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+20:31:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+03:36:05,34,South Michigan,,Sun
+04:55:15,106,East 103rd,,Sun
+17:49:13,95,95th,,Sun
+20:24:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:05:35,95,95th,,Sat
+00:26:14,119,Michigan/119th,,Mon
+14:48:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+07:50:16,115,Pullman/115th,,Sun
+15:46:16,115,Pullman/115th,,Sat
+10:10:05,34,South Michigan,,Sat
+18:25:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:06:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:34:52,34,South Michigan,,Sun
+23:06:05,34,South Michigan,,Sat
+23:34:21,95,95th,,Sun
+10:48:46,115,Pullman/115th,,Sat
+13:28:21,103,West 103rd,,Sun
+14:01:31,115,Pullman/115th,,Sun
+23:46:14,34,South Michigan,,Sun
+20:40:13,95,95th,,Sat
+16:35:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:52:16,115,Pullman/115th,,Sun
+05:38:23,34,South Michigan,,Sat
+16:35:21,103,West 103rd,,Sat
+17:03:56,119,Michigan/119th,,Sat
+18:37:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+01:06:14,34,South Michigan,,Mon
+23:16:05,119,Michigan/119th,,Sat
+20:54:35,34,South Michigan,,Sat
+06:43:43,95,95th,,Sat
+22:22:54,111,111th/King Drive,,Sun
+11:02:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:08:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:21:35,95,95th,,Sat
+13:36:21,103,West 103rd,,Sat
+18:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:28:21,103,West 103rd,,Sun
+08:31:24,115,Pullman/115th,,Sat
+06:38:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:15:21,103,West 103rd,,Sat
+00:26:05,34,South Michigan,,Sun
+08:04:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:00:54,111,111th/King Drive,,Sun
+13:40:05,34,South Michigan,,Sat
+09:53:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:52:19,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:08:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:18:56,119,Michigan/119th,,Sat
+17:19:43,95,95th,,Sun
+08:49:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:39:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:27:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:26:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:05:35,95,95th,,Sat
+17:47:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+05:59:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:33:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:44:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:01:44,111,111th/King Drive,,Sat
+07:27:54,111,111th/King Drive,,Sun
+12:49:16,115,Pullman/115th,,Sat
+07:03:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+22:44:13,95,95th,,Sat
+14:46:31,115,Pullman/115th,,Sun
+22:43:24,111,111th/King Drive,,Sun
+15:54:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+23:03:54,111,111th/King Drive,,Sun
+09:47:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:55:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:49:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:24:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:42:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:23:05,34,South Michigan,,Mon,Tue,Wed,Thu
+06:28:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:57:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+21:14:35,34,South Michigan,,Sat
+13:59:43,95,95th,,Sun
+19:28:43,95,95th,,Sun
+20:31:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:56:11,106,East 103rd,,Sat
+14:34:35,95,95th,,Sat
+22:27:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:33:56,119,Michigan/119th,,Sat
+08:53:21,103,West 103rd,,Sat
+08:48:05,119,Michigan/119th,,Sat
+18:57:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:26:11,106,East 103rd,,Sat
+17:51:24,111,111th/King Drive,,Sun
+15:48:24,111,111th/King Drive,,Sun
+20:43:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:00:05,34,South Michigan,,Sat
+15:02:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:20:05,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:04:14,119,Michigan/119th,,Sun
+22:06:54,111,111th/King Drive,,Sat
+16:24:35,95,95th,,Sat
+13:20:05,34,South Michigan,,Sat
+14:17:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+01:34:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+10:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:35:21,103,West 103rd,,Sat
+06:35:54,111,111th/King Drive,,Sat
+10:29:35,95,95th,,Sat
+17:50:05,34,South Michigan,,Sun
+12:24:14,119,Michigan/119th,,Sun
+05:24:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+16:50:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:20:43,95,95th,,Sat
+12:51:06,106,East 103rd,,Sun
+11:06:24,111,111th/King Drive,,Sun
+10:42:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:50:05,34,South Michigan,,Sat
+11:06:35,95,95th,,Sat
+14:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:23:05,119,Michigan/119th,,Sun
+13:30:05,34,South Michigan,,Sat
+19:22:05,119,Michigan/119th,,Sun
+07:10:51,95,95th,,Sun
+14:08:21,103,West 103rd,,Sun
+07:43:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+22:07:40,34,South Michigan,,Sun
+04:56:11,106,East 103rd,,Sat
+20:10:43,95,95th,,Sat
+22:38:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:15:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:00:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:46:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:46:54,111,111th/King Drive,,Sun
+08:23:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+05:33:21,103,West 103rd,,Sat
+14:30:05,34,South Michigan,,Sat
+12:04:54,111,111th/King Drive,,Sun
+17:09:43,95,95th,,Sun
+19:25:35,34,South Michigan,,Sat
+14:17:44,111,111th/King Drive,,Sat
+09:24:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+22:56:14,119,Michigan/119th,,Sun
+19:56:11,106,East 103rd,,Sun
+14:48:46,115,Pullman/115th,,Sat
+10:32:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:55:46,115,Pullman/115th,,Sun
+22:06:05,34,South Michigan,,Sat
+17:10:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:56:46,115,Pullman/115th,,Sun
+13:45:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+04:59:21,103,West 103rd,,Sun
+14:10:14,34,South Michigan,,Sun
+11:04:14,119,Michigan/119th,,Sun
+20:15:05,119,Michigan/119th,,Sat
+07:33:21,103,West 103rd,,Sat
+02:38:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+13:55:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:32:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:37:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:45:05,119,Michigan/119th,,Sat
+17:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:25:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:17:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:27:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+23:07:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+04:36:05,34,South Michigan,,Sun
+00:33:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+14:17:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:38:43,95,95th,,Sun
+15:00:10,34,South Michigan,,Sun
+15:01:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:29:51,95,95th,,Sun
+09:35:51,106,East 103rd,,Sat
+12:07:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+17:19:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+07:25:15,106,East 103rd,,Sun
+18:45:05,119,Michigan/119th,,Sat
+10:08:05,119,Michigan/119th,,Sat
+07:13:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+08:35:21,95,95th,,Sun
+18:03:05,119,Michigan/119th,,Sun
+18:30:05,34,South Michigan,,Sun
+19:37:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:31:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:43:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:33:21,103,West 103rd,,Sat
+06:23:14,119,Michigan/119th,,Sun
+14:03:14,119,Michigan/119th,,Sun
+15:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:43:35,95,95th,,Sat
+15:34:35,95,95th,,Sat
+18:27:05,34,South Michigan,,Sat
+11:00:05,34,South Michigan,,Sat
+07:53:21,103,West 103rd,,Sat
+06:59:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:50:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:32:31,34,South Michigan,,Sun
+18:45:35,34,South Michigan,,Sat
+08:25:54,111,111th/King Drive,,Sun
+09:53:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:43:05,119,Michigan/119th,,Sun
+08:09:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:30:14,34,South Michigan,,Sun
+05:45:46,115,Pullman/115th,,Sun
+09:40:35,95,95th,,Sat
+08:17:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:46:35,95,95th,,Sat
+20:06:54,111,111th/King Drive,,Sat
+05:44:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+04:32:21,95,95th,,Sun
+00:34:19,95,95th,,Mon
+09:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:24:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+22:46:54,111,111th/King Drive,,Sat
+16:20:10,34,South Michigan,,Sun
+23:10:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:35:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:42:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+02:34:19,N5,South Shore Night Bus,,Sun
+14:17:44,111,111th/King Drive,,Sat
+05:58:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:52:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:56:05,119,Michigan/119th,,Sat
+17:22:44,111,111th/King Drive,,Sat
+21:33:21,103,West 103rd,,Sat
+22:16:46,115,Pullman/115th,,Sun
+06:20:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:19:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:13:21,103,West 103rd,,Sat
+14:40:14,34,South Michigan,,Sun
+02:32:19,N5,South Shore Night Bus,,Mon
+18:51:43,95,95th,,Sat
+10:50:54,111,111th/King Drive,,Sat
+12:07:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:56:31,115,Pullman/115th,,Sun
+03:32:19,N5,South Shore Night Bus,,Mon
+15:30:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:10:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:50:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:14:35,95,95th,,Sat
+12:35:35,95,95th,,Sat
+20:37:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+23:34:21,95,95th,,Sat
+14:59:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:08:23,34,South Michigan,,Sat
+11:45:24,111,111th/King Drive,,Sun
+21:25:21,103,West 103rd,,Sun
+08:45:21,95,95th,,Sun
+07:21:31,115,Pullman/115th,,Sat
+08:43:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:00:35,95,95th,,Sat
+17:18:56,119,Michigan/119th,,Sat
+08:55:45,106,East 103rd,,Sun
+06:51:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+17:40:05,34,South Michigan,,Sun
+04:56:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:00:46,115,Pullman/115th,,Sun
+02:34:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+19:18:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+05:23:14,119,Michigan/119th,,Sun
+17:19:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+11:00:05,34,South Michigan,,Sat
+18:35:21,103,West 103rd,,Sat
+18:32:54,111,111th/King Drive,,Sat
+17:34:05,95,95th,,Sat
+08:20:05,34,South Michigan,,Sat
+02:06:14,34,South Michigan,,Mon
+09:37:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+16:19:43,95,95th,,Sun
+20:26:11,106,East 103rd,,Sun
+16:00:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+19:01:24,111,111th/King Drive,,Sun
+02:36:11,N5,South Shore Night Bus,,Sun
+11:02:21,95,95th,,Sun
+14:16:21,103,West 103rd,,Sat
+04:56:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:45:56,119,Michigan/119th,,Sun
+16:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+00:26:05,34,South Michigan,,Sun
+12:24:24,111,111th/King Drive,,Sun
+08:42:54,111,111th/King Drive,,Sat
+14:30:05,34,South Michigan,,Sat
+07:28:21,103,West 103rd,,Sun
+21:06:51,95,95th,,Sun
+16:40:05,34,South Michigan,,Sat
+15:30:05,34,South Michigan,,Sat
+22:33:31,115,Pullman/115th,,Sun
+06:22:13,95,95th,,Sat
+20:36:44,34,South Michigan,,Sun
+07:55:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+22:22:54,111,111th/King Drive,,Sun
+05:36:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:33:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:56:16,115,Pullman/115th,,Sat
+09:01:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:26:05,34,South Michigan,,Sat
+20:07:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:02:56,34,South Michigan,,Sun
+13:02:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:37:14,111,111th/King Drive,,Sun
+15:44:56,119,Michigan/119th,,Sun
+00:56:05,119,Michigan/119th,,Sun
+08:51:14,119,Michigan/119th,,Sun
+10:56:11,106,East 103rd,,Sun
+09:52:56,34,South Michigan,,Sun
+18:24:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+22:16:05,119,Michigan/119th,,Sat
+16:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:46:06,106,East 103rd,,Sun
+10:40:05,34,South Michigan,,Sat
+19:59:24,111,111th/King Drive,,Sun
+06:07:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:50:05,34,South Michigan,,Sat
+12:02:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:50:10,34,South Michigan,,Sun
+07:27:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:43:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+11:03:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:23:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:09:43,95,95th,,Sat
+15:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+02:06:05,34,South Michigan,,Sun
+15:01:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:48:21,103,West 103rd,,Sun
+12:45:35,95,95th,,Sat
+10:01:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:01:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:00:31,115,Pullman/115th,,Sat
+10:07:54,111,111th/King Drive,,Sun
+10:49:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:02:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:04:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:03:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:12:31,115,Pullman/115th,,Sun
+14:09:16,115,Pullman/115th,,Sat
+07:02:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:47:31,115,Pullman/115th,,Sat
+08:53:31,115,Pullman/115th,,Sat
+06:26:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:38:06,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:04:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:19:16,115,Pullman/115th,,Sun
+21:44:05,119,Michigan/119th,,Sat
+19:05:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+06:55:15,106,East 103rd,,Sun
+20:17:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:56:54,111,111th/King Drive,,Sat
+08:54:13,95,95th,,Sat
+13:17:44,111,111th/King Drive,,Sat
+05:34:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:43:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:40:05,34,South Michigan,,Sat
+10:03:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:32:44,111,111th/King Drive,,Sat
+18:10:05,34,South Michigan,,Sat
+00:26:14,119,Michigan/119th,,Mon
+17:43:05,119,Michigan/119th,,Sun
+05:38:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:56:11,106,East 103rd,,Sat
+08:44:43,95,95th,,Sat
+18:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:48:56,119,Michigan/119th,,Sat
+23:33:23,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:02:21,103,West 103rd,,Sat
+15:03:56,119,Michigan/119th,,Sat
+16:23:51,106,East 103rd,,Sat
+18:14:57,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+08:15:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:01:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:10:05,34,South Michigan,,Sat
+16:35:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:12:54,111,111th/King Drive,,Sat
+17:13:51,106,East 103rd,,Sat
+16:30:05,34,South Michigan,,Sat
+08:28:14,119,Michigan/119th,,Sat
+15:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:02:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+00:33:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+11:42:56,34,South Michigan,,Sun
+10:03:16,115,Pullman/115th,,Sat
+07:07:14,119,Michigan/119th,,Sat
+16:20:05,34,South Michigan,,Sat
+12:46:51,95,95th,,Sun
+08:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+22:13:21,103,West 103rd,,Sat
+22:02:24,111,111th/King Drive,,Sun
+15:24:56,119,Michigan/119th,,Sun
+19:01:43,95,95th,,Sat
+13:11:06,106,East 103rd,,Sun
+16:52:31,115,Pullman/115th,,Sat
+17:44:05,95,95th,,Sat
+20:57:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:30:05,119,Michigan/119th,,Sat
+20:59:14,119,Michigan/119th,,Sun
+17:59:13,95,95th,,Sun
+15:20:10,34,South Michigan,,Sun
+18:01:31,106,East 103rd,,Sat
+15:35:21,103,West 103rd,,Sat
+19:30:43,95,95th,,Sat
+11:12:21,95,95th,,Sun
+11:32:56,34,South Michigan,,Sun
+10:32:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+23:04:21,95,95th,,Sun
+18:55:35,34,South Michigan,,Sat
+15:31:58,103,West 103rd,,Thu
+17:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:50:43,95,95th,,Sat
+09:43:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+21:10:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:36:35,95,95th,,Sat
+15:31:58,103,West 103rd,,Thu
+19:45:05,119,Michigan/119th,,Sat
+23:01:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:59:43,95,95th,,Sun
+12:00:21,95,95th,,Sun
+14:54:35,95,95th,,Sat
+09:12:09,95,95th,,Sat
+16:09:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:25:35,95,95th,,Sat
+11:04:46,115,Pullman/115th,,Sat
+17:53:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:54:21,103,West 103rd,,Sat
+17:56:54,111,111th/King Drive,,Sat
+18:23:35,95,95th,,Sat
+16:35:31,115,Pullman/115th,,Sat
+16:18:56,119,Michigan/119th,,Sat
+12:24:46,115,Pullman/115th,,Sat
+18:23:35,95,95th,,Sat
+18:56:11,106,East 103rd,,Sat
+17:48:21,103,West 103rd,,Sun
+23:58:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:42:54,111,111th/King Drive,,Sat
+16:04:56,119,Michigan/119th,,Sun
+15:13:14,111,111th/King Drive,,Sun
+16:25:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:09:16,115,Pullman/115th,,Sat
+21:19:14,119,Michigan/119th,,Sun
+18:28:21,103,West 103rd,,Sun
+22:26:24,111,111th/King Drive,,Sat
+19:55:35,34,South Michigan,,Sat
+10:50:54,111,111th/King Drive,,Sat
+15:52:44,111,111th/King Drive,,Sat
+14:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:08:21,103,West 103rd,,Sun
+15:29:16,115,Pullman/115th,,Sat
+06:33:21,103,West 103rd,,Sat
+19:59:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:53:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:10:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+06:45:31,115,Pullman/115th,,Sat
+12:44:14,111,111th/King Drive,,Sun
+14:28:58,103,West 103rd,,Mon,Tue,Wed,Fri
+14:28:21,103,West 103rd,,Sun
+15:36:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:47:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:48:05,119,Michigan/119th,,Sat
+19:13:51,103,West 103rd,,Sat
+19:18:46,115,Pullman/115th,,Sun
+10:16:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:33:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+23:44:23,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+05:53:21,103,West 103rd,,Sat
+09:24:52,34,South Michigan,,Sun
+08:37:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:54:21,95,95th,,Sun
+10:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:47:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+06:26:11,106,East 103rd,,Sat
+18:20:05,34,South Michigan,,Sun
+20:51:31,115,Pullman/115th,,Sun
+13:46:31,115,Pullman/115th,,Sun
+10:31:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:51:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+22:16:14,119,Michigan/119th,,Sun
+07:04:43,95,95th,,Sat
+11:46:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:48:21,103,West 103rd,,Sun
+18:36:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:40:05,34,South Michigan,,Sat
+18:00:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:03:14,119,Michigan/119th,,Sat
+22:20:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:57:46,115,Pullman/115th,,Sat
+17:56:11,106,East 103rd,,Sun
+07:28:21,103,West 103rd,,Sun
+16:34:35,95,95th,,Sat
+18:52:31,115,Pullman/115th,,Sat
+14:55:14,111,111th/King Drive,,Sun
+13:08:21,103,West 103rd,,Sun
+07:57:31,115,Pullman/115th,,Sat
+19:51:41,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+21:36:46,115,Pullman/115th,,Sun
+09:11:31,115,Pullman/115th,,Sat
+12:48:21,103,West 103rd,,Sun
+11:25:54,111,111th/King Drive,,Sun
+18:27:46,115,Pullman/115th,,Sun
+18:42:46,115,Pullman/115th,,Sun
+16:04:35,95,95th,,Sat
+17:00:05,34,South Michigan,,Sun
+17:55:21,103,West 103rd,,Sat
+05:53:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:40:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:12:56,34,South Michigan,,Sun
+15:08:51,106,East 103rd,,Sat
+15:29:43,95,95th,,Sun
+17:51:24,111,111th/King Drive,,Sun
+09:45:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:30:10,34,South Michigan,,Sun
+12:16:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:18:56,119,Michigan/119th,,Sat
+20:46:44,34,South Michigan,,Sun
+16:40:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:03:05,119,Michigan/119th,,Sat
+10:46:54,111,111th/King Drive,,Sun
+16:29:43,95,95th,,Sun
+16:14:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:40:05,34,South Michigan,,Sat
+22:16:05,119,Michigan/119th,,Sat
+19:36:46,115,Pullman/115th,,Sun
+13:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:34:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:20:05,34,South Michigan,,Sat
+13:36:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:50:05,34,South Michigan,,Sun
+16:38:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+16:23:05,34,South Michigan,,Mon,Tue,Wed,Thu
+09:11:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:50:54,111,111th/King Drive,,Sat
+10:16:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:05:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:13:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+11:20:46,115,Pullman/115th,,Sat
+13:15:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:48:05,119,Michigan/119th,,Sat
+06:42:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:19:46,115,Pullman/115th,,Sat
+13:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:09:06,106,East 103rd,,Sun
+13:47:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:59:43,95,95th,,Sun
+12:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:36:54,111,111th/King Drive,,Sat
+22:58:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:48:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:48:21,103,West 103rd,,Sun
+13:00:05,34,South Michigan,,Sat
+21:25:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:45:35,95,95th,,Sat
+11:08:21,103,West 103rd,,Sun
+20:57:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:16:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:26:11,106,East 103rd,,Sat
+09:08:05,119,Michigan/119th,,Sat
+00:37:14,34,South Michigan,,Mon
+21:09:43,95,95th,,Sat
+08:48:21,103,West 103rd,,Sun
+10:48:05,119,Michigan/119th,,Sat
+21:47:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:40:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+20:25:21,103,West 103rd,,Sun
+16:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+03:36:11,N5,South Shore Night Bus,,Sun
+14:09:43,95,95th,,Sun
+19:39:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:03:14,111,111th/King Drive,,Sun
+08:15:21,95,95th,,Sun
+19:27:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:59:05,119,Michigan/119th,,Sat
+16:30:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:35:21,103,West 103rd,,Sat
+20:39:14,119,Michigan/119th,,Sun
+16:14:35,95,95th,,Sat
+11:46:35,95,95th,,Sat
+12:09:21,95,95th,,Sun
+19:03:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:54:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:32:21,95,95th,,Sun
+20:19:14,119,Michigan/119th,,Sun
+08:14:43,95,95th,,Sat
+12:46:31,95,95th,,Mon,Tue,Wed,Thu,Fri
+04:02:19,N5,South Shore Night Bus,,Sun
+12:15:35,95,95th,,Sat
+20:46:31,115,Pullman/115th,,Sat
+14:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:05:21,95,95th,,Sun
+16:50:05,34,South Michigan,,Sat
+14:00:14,34,South Michigan,,Sun
+18:58:43,95,95th,,Sun
+06:04:16,115,Pullman/115th,,Sat
+10:02:21,95,95th,,Sun
+10:52:56,34,South Michigan,,Sun
+21:00:54,111,111th/King Drive,,Sun
+13:18:56,119,Michigan/119th,,Sat
+04:52:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+05:06:13,95,95th,,Sat
+18:03:05,119,Michigan/119th,,Sun
+15:55:21,103,West 103rd,,Sat
+11:31:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:52:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+08:13:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:26:11,106,East 103rd,,Sun
+16:30:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:46:35,95,95th,,Sat
+15:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:48:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+06:49:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:13:21,103,West 103rd,,Sat
+17:10:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:53:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+05:46:07,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:49:14,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:45:05,119,Michigan/119th,,Sat
+01:34:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+23:03:54,111,111th/King Drive,,Sun
+16:30:10,34,South Michigan,,Sun
+16:21:46,115,Pullman/115th,,Sun
+15:54:35,95,95th,,Sat
+21:46:31,115,Pullman/115th,,Sat
+15:48:24,111,111th/King Drive,,Sun
+05:55:54,111,111th/King Drive,,Sat
+19:35:35,34,South Michigan,,Sat
+21:29:51,95,95th,,Sun
+05:45:46,115,Pullman/115th,,Sat
+11:26:54,111,111th/King Drive,,Sat
+11:44:54,111,111th/King Drive,,Sat
+11:42:56,34,South Michigan,,Sun
+22:45:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+22:16:21,95,95th,,Sun
+14:44:35,95,95th,,Sat
+19:12:57,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+08:48:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+16:58:54,111,111th/King Drive,,Sun
+20:00:05,119,Michigan/119th,,Sat
+09:43:52,34,South Michigan,,Sun
+09:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+22:16:21,95,95th,,Sun
+14:56:21,103,West 103rd,,Sat
+06:23:14,119,Michigan/119th,,Sun
+18:26:24,111,111th/King Drive,,Sun
+11:32:31,115,Pullman/115th,,Sun
+17:28:21,103,West 103rd,,Sun
+19:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:32:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:10:10,34,South Michigan,,Sun
+10:47:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:40:05,34,South Michigan,,Sat
+08:48:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:08:21,103,West 103rd,,Sun
+18:53:57,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+13:03:14,119,Michigan/119th,,Sun
+12:36:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:55:21,103,West 103rd,,Sat
+12:28:21,103,West 103rd,,Sun
+07:52:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:10:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+13:06:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:31:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:00:05,34,South Michigan,,Sat
+04:04:41,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+16:55:21,103,West 103rd,,Sat
+23:01:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:06:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:50:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:14:21,103,West 103rd,,Sat
+16:40:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:47:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+22:11:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:25:21,95,95th,,Sun
+13:28:51,106,East 103rd,,Sat
+10:02:31,115,Pullman/115th,,Sun
+22:25:15,106,East 103rd,,Sun
+08:07:14,119,Michigan/119th,,Sat
+16:20:10,34,South Michigan,,Sun
+17:24:01,119,Michigan/119th,,Sun
+18:20:05,34,South Michigan,,Sat
+17:00:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:09:31,115,Pullman/115th,,Sat
+15:18:56,119,Michigan/119th,,Sat
+13:03:56,119,Michigan/119th,,Sat
+17:10:05,34,South Michigan,,Sat
+12:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:03:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:34:44,111,111th/King Drive,,Sat
+19:38:43,95,95th,,Sun
+20:19:14,119,Michigan/119th,,Sun
+01:38:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+18:34:31,115,Pullman/115th,,Sat
+07:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:46:24,111,111th/King Drive,,Sat
+08:28:21,103,West 103rd,,Sun
+12:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:44:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:20:14,34,South Michigan,,Sun
+12:44:14,119,Michigan/119th,,Sun
+13:08:21,103,West 103rd,,Sun
+08:43:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:25:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:08:43,95,95th,,Sun
+15:59:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:23:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:34:21,103,West 103rd,,Sat
+22:26:24,111,111th/King Drive,,Sat
+19:20:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:02:56,34,South Michigan,,Sun
+23:28:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:20:05,34,South Michigan,,Sat
+15:10:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:14:05,119,Michigan/119th,,Sat
+07:23:14,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:10:05,34,South Michigan,,Sat
+08:47:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:48:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:14:35,95,95th,,Sat
+12:50:05,34,South Michigan,,Sat
+17:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:59:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:13:51,103,West 103rd,,Sat
+04:38:23,34,South Michigan,,Sat
+20:49:43,95,95th,,Sat
+16:55:21,103,West 103rd,,Sat
+01:13:14,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+12:44:14,119,Michigan/119th,,Sun
+09:21:14,119,Michigan/119th,,Sun
+23:06:05,34,South Michigan,,Sat
+21:06:54,111,111th/King Drive,,Sat
+14:33:56,119,Michigan/119th,,Sat
+04:36:11,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+18:40:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:24:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:26:54,111,111th/King Drive,,Sat
+07:33:21,95,95th,,Sun
+12:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:01:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:17:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:32:16,115,Pullman/115th,,Sun
+10:22:56,34,South Michigan,,Sun
+13:42:43,95,95th,,Sun
+07:55:21,95,95th,,Sun
+08:21:14,119,Michigan/119th,,Sun
+09:00:05,34,South Michigan,,Sat
+15:57:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:30:05,34,South Michigan,,Sun
+07:41:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:27:24,111,111th/King Drive,,Sun
+06:33:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:48:21,103,West 103rd,,Sun
+21:29:05,119,Michigan/119th,,Sat
+14:33:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:08:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:10:35,95,95th,,Sat
+08:37:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+04:59:21,103,West 103rd,,Sun
+07:18:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:13:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:00:05,119,Michigan/119th,,Sat
+18:55:21,103,West 103rd,,Sat
+09:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:15:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:04:14,119,Michigan/119th,,Sun
+04:25:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:52:21,95,95th,,Sun
+22:06:31,115,Pullman/115th,,Sat
+17:30:05,34,South Michigan,,Sun
+22:54:31,115,Pullman/115th,,Sun
+07:01:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+21:39:14,119,Michigan/119th,,Sun
+06:36:05,34,South Michigan,,Sun
+10:24:14,119,Michigan/119th,,Sun
+24:04:21,95,95th,,Sun
+16:39:43,95,95th,,Sun
+11:40:21,95,95th,,Sun
+10:32:46,115,Pullman/115th,,Sat
+13:16:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:25:21,103,West 103rd,,Sun
+19:01:24,111,111th/King Drive,,Sun
+15:34:35,95,95th,,Sat
+10:52:21,95,95th,,Sun
+00:36:05,119,Michigan/119th,,Sun
+22:07:13,95,95th,,Sat
+11:44:14,119,Michigan/119th,,Sun
+16:55:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:52:46,115,Pullman/115th,,Sat
+12:24:24,111,111th/King Drive,,Sun
+13:16:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:03:51,106,East 103rd,,Sat
+12:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:03:56,119,Michigan/119th,,Sat
+21:30:31,115,Pullman/115th,,Sat
+13:03:14,111,111th/King Drive,,Sun
+08:50:31,115,Pullman/115th,,Sun
+08:17:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+15:40:05,34,South Michigan,,Sat
+15:12:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:55:27,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+07:55:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:25:35,95,95th,,Sat
+07:56:46,115,Pullman/115th,,Sun
+06:47:14,119,Michigan/119th,,Sat
+17:55:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:02:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:50:05,34,South Michigan,,Sat
+23:13:21,103,West 103rd,,Sat
+16:52:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+04:10:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:51:06,106,East 103rd,,Sun
+16:38:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:18:43,95,95th,,Sun
+10:02:56,34,South Michigan,,Sun
+17:30:05,34,South Michigan,,Sat
+13:51:06,106,East 103rd,,Sun
+14:03:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:56:11,106,East 103rd,,Sun
+18:34:27,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+21:19:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:13:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:03:56,119,Michigan/119th,,Sat
+19:11:13,95,95th,,Sat
+15:33:51,106,East 103rd,,Sat
+22:38:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+17:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:15:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:24:14,119,Michigan/119th,,Sun
+08:00:05,34,South Michigan,,Sat
+14:59:43,95,95th,,Sun
+11:42:16,115,Pullman/115th,,Sat
+14:55:14,111,111th/King Drive,,Sun
+15:44:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+01:04:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+09:17:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:44:35,34,South Michigan,,Sat
+08:27:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+04:10:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:41:05,119,Michigan/119th,,Sun
+14:35:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:56:21,103,West 103rd,,Sat
+09:33:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:37:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:44:13,95,95th,,Sat
+13:47:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:04:35,95,95th,,Sat
+14:00:14,34,South Michigan,,Sun
+15:00:05,34,South Michigan,,Sat
+08:25:45,106,East 103rd,,Sun
+11:00:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+23:18:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:11:06,106,East 103rd,,Sun
+18:31:05,119,Michigan/119th,,Sat
+12:32:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+05:33:21,103,West 103rd,,Sat
+15:09:43,95,95th,,Sun
+11:45:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:51:31,115,Pullman/115th,,Sat
+21:38:05,34,South Michigan,,Sat
+23:25:21,103,West 103rd,,Sun
+09:54:54,111,111th/King Drive,,Sat
+09:48:21,103,West 103rd,,Sun
+17:04:35,95,95th,,Sat
+13:31:31,115,Pullman/115th,,Sun
+16:58:54,111,111th/King Drive,,Sun
+13:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:53:14,119,Michigan/119th,,Sun
+09:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:24:35,95,95th,,Sat
+20:12:46,115,Pullman/115th,,Sun
+10:38:35,95,95th,,Sat
+10:52:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:00:05,34,South Michigan,,Sat
+19:30:05,34,South Michigan,,Sun
+18:00:05,34,South Michigan,,Sun
+17:13:46,115,Pullman/115th,,Sun
+16:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:00:05,34,South Michigan,,Sat
+09:28:05,119,Michigan/119th,,Sat
+06:58:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:04:44,111,111th/King Drive,,Sat
+05:32:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:34:21,103,West 103rd,,Sat
+06:53:21,103,West 103rd,,Sat
+07:20:46,115,Pullman/115th,,Sun
+20:54:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:55:45,106,East 103rd,,Sun
+14:41:16,115,Pullman/115th,,Sat
+20:44:35,34,South Michigan,,Sat
+09:54:21,103,West 103rd,,Sat
+17:04:35,95,95th,,Sat
+10:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:09:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:10:05,34,South Michigan,,Sun
+21:12:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:24:35,34,South Michigan,,Sat
+13:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:45:54,115,Pullman/115th,,Sun
+07:47:54,111,111th/King Drive,,Sat
+05:59:21,103,West 103rd,,Sun
+19:58:43,95,95th,,Sun
+12:42:05,34,South Michigan,,Sun
+13:09:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+20:45:21,103,West 103rd,,Sun
+21:45:21,103,West 103rd,,Sun
+20:59:14,119,Michigan/119th,,Sun
+20:15:35,34,South Michigan,,Sat
+16:35:21,103,West 103rd,,Sat
+04:06:11,N5,South Shore Night Bus,,Sat
+07:25:15,106,East 103rd,,Sun
+19:26:11,106,East 103rd,,Sat
+18:49:37,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+22:13:31,115,Pullman/115th,,Sun
+16:00:10,34,South Michigan,,Sun
+07:43:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:39:51,95,95th,,Sun
+20:26:44,34,South Michigan,,Sun
+06:48:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:40:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+05:35:54,111,111th/King Drive,,Sat
+19:26:11,106,East 103rd,,Sun
+10:42:21,95,95th,,Sun
+15:02:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+13:16:21,103,West 103rd,,Sat
+06:53:21,103,West 103rd,,Sat
+06:58:21,103,West 103rd,,Sun
+12:38:01,95,95th,,Mon,Tue,Wed,Thu,Fri
+20:48:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+23:04:21,95,95th,,Sat
+08:00:05,34,South Michigan,,Sat
+12:36:21,103,West 103rd,,Sat
+06:15:54,111,111th/King Drive,,Sat
+11:58:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:59:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:22:21,95,95th,,Sun
+13:48:56,119,Michigan/119th,,Sat
+16:00:10,34,South Michigan,,Sun
+10:48:21,103,West 103rd,,Sun
+17:55:27,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+15:30:05,34,South Michigan,,Sat
+06:58:21,103,West 103rd,,Sun
+11:28:21,103,West 103rd,,Sun
+11:33:05,119,Michigan/119th,,Sat
+23:08:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:14:21,103,West 103rd,,Sat
+03:34:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+13:35:35,95,95th,,Sat
+18:43:54,111,111th/King Drive,,Sun
+09:30:35,95,95th,,Sat
+13:45:35,95,95th,,Sat
+17:37:24,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+06:47:14,119,Michigan/119th,,Sat
+17:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+05:05:46,115,Pullman/115th,,Sat
+13:48:21,103,West 103rd,,Sun
+10:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:20:05,34,South Michigan,,Sat
+17:56:11,106,East 103rd,,Sun
+21:26:11,106,East 103rd,,Sat
+17:43:31,115,Pullman/115th,,Sat
+13:48:21,103,West 103rd,,Sun
+24:18:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:26:35,95,95th,,Sat
+08:33:21,103,West 103rd,,Sat
+04:36:13,95,95th,,Sat
+05:06:05,34,South Michigan,,Sun
+20:27:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:28:21,103,West 103rd,,Sun
+17:33:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+02:08:14,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+10:32:54,111,111th/King Drive,,Sat
+09:33:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:25:45,106,East 103rd,,Sun
+08:25:21,95,95th,,Sun
+20:14:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:47:44,111,111th/King Drive,,Sat
+13:32:44,111,111th/King Drive,,Sat
+14:31:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:50:54,111,111th/King Drive,,Sat
+11:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:58:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:57:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:42:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:58:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:16:24,111,111th/King Drive,,Sun
+12:31:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+09:07:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:01:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:40:16,115,Pullman/115th,,Sun
+12:12:56,34,South Michigan,,Sun
+22:46:05,34,South Michigan,,Sat
+11:52:46,115,Pullman/115th,,Sat
+17:08:21,103,West 103rd,,Sun
+16:56:46,115,Pullman/115th,,Sun
+07:03:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+04:40:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+03:04:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+19:22:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:33:56,119,Michigan/119th,,Sat
+13:43:14,119,Michigan/119th,,Sun
+12:10:05,34,South Michigan,,Sat
+05:36:05,34,South Michigan,,Sun
+10:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:18:43,95,95th,,Sun
+07:23:14,119,Michigan/119th,,Sun
+21:39:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:00:05,119,Michigan/119th,,Sat
+14:00:14,111,111th/King Drive,,Sun
+19:13:46,115,Pullman/115th,,Sat
+09:23:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+22:26:05,34,South Michigan,,Sat
+19:20:05,34,South Michigan,,Sun
+01:46:05,34,South Michigan,,Sun
+19:30:05,34,South Michigan,,Sun
+20:59:05,119,Michigan/119th,,Sat
+18:01:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:02:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+17:10:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+10:20:31,115,Pullman/115th,,Sun
+22:15:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:02:19,N5,South Shore Night Bus,,Sun
+20:36:44,34,South Michigan,,Sun
+23:57:14,119,Michigan/119th,,Sun
+07:15:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:03:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:12:31,115,Pullman/115th,,Sat
+15:08:21,103,West 103rd,,Sun
+06:36:05,34,South Michigan,,Sun
+14:31:06,106,East 103rd,,Sun
+16:57:46,115,Pullman/115th,,Sun
+19:40:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:10:05,34,South Michigan,,Sat
+13:01:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:55:45,106,East 103rd,,Sun
+21:39:14,119,Michigan/119th,,Sun
+17:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:16:35,95,95th,,Sat
+07:29:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:06:24,111,111th/King Drive,,Sun
+20:34:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:56:11,106,East 103rd,,Sat
+17:12:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:23:14,119,Michigan/119th,,Sun
+06:13:21,103,West 103rd,,Sat
+08:28:14,119,Michigan/119th,,Sat
+14:20:05,34,South Michigan,,Sat
+08:13:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:52:56,34,South Michigan,,Sun
+14:25:35,95,95th,,Sat
+11:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:44:14,119,Michigan/119th,,Sun
+21:14:05,119,Michigan/119th,,Sat
+12:04:14,119,Michigan/119th,,Sun
+14:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:30:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:18:56,119,Michigan/119th,,Sat
+07:03:31,115,Pullman/115th,,Sat
+13:14:43,95,95th,,Sun
+20:40:13,95,95th,,Sat
+21:49:13,95,95th,,Sat
+08:34:43,95,95th,,Sat
+12:18:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:05:21,95,95th,,Sun
+07:54:43,95,95th,,Sat
+20:39:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:45:51,106,East 103rd,,Sat
+20:00:05,119,Michigan/119th,,Sat
+18:08:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+04:51:38,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:07:31,115,Pullman/115th,,Sat
+07:26:11,106,East 103rd,,Sat
+21:53:21,103,West 103rd,,Sat
+18:35:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:33:56,119,Michigan/119th,,Sat
+21:52:51,95,95th,,Sun
+22:58:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:10:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:36:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+14:45:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:46:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:20:14,34,South Michigan,,Sun
+10:01:51,106,East 103rd,,Sat
+07:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:24:43,95,95th,,Sat
+20:16:44,34,South Michigan,,Sun
+14:00:14,111,111th/King Drive,,Sun
+01:06:11,N5,South Shore Night Bus,,Sun
+15:04:56,119,Michigan/119th,,Sun
+13:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:20:05,34,South Michigan,,Sun
+19:08:54,111,111th/King Drive,,Sat
+16:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:09:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:55:16,115,Pullman/115th,,Sun
+12:44:14,111,111th/King Drive,,Sun
+19:00:05,34,South Michigan,,Sun
+00:59:14,119,Michigan/119th,,Mon
+13:24:43,95,95th,,Sun
+09:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+23:04:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:43:21,103,West 103rd,,Sat
+09:34:21,95,95th,,Sun
+22:39:51,95,95th,,Sun
+21:48:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:07:54,111,111th/King Drive,,Sun
+21:53:21,103,West 103rd,,Sat
+23:58:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:31:06,106,East 103rd,,Sun
+15:49:43,95,95th,,Sun
+07:22:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:30:46,115,Pullman/115th,,Sat
+22:56:14,119,Michigan/119th,,Sun
+13:31:06,106,East 103rd,,Sun
+13:53:16,115,Pullman/115th,,Sat
+15:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:03:14,119,Michigan/119th,,Sun
+10:23:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:10:05,34,South Michigan,,Sun
+15:20:10,34,South Michigan,,Sun
+14:18:56,119,Michigan/119th,,Sat
+07:02:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:00:43,95,95th,,Sat
+22:31:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:53:21,103,West 103rd,,Sat
+15:31:46,115,Pullman/115th,,Sun
+07:32:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+00:28:14,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+01:16:05,119,Michigan/119th,,Sun
+16:28:44,111,111th/King Drive,,Sat
+18:14:57,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+17:20:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+13:16:31,115,Pullman/115th,,Sun
+15:59:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+06:29:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:30:21,95,95th,,Sun
+19:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+06:58:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:21:14,119,Michigan/119th,,Sun
+13:32:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+05:56:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:28:58,103,West 103rd,,Mon,Tue,Wed,Fri
+17:47:56,119,Michigan/119th,,Sat
+12:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+20:46:51,95,95th,,Sun
+10:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+14:32:46,115,Pullman/115th,,Sat
+16:19:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+13:00:05,34,South Michigan,,Sat
+15:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+17:17:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+16:48:21,103,West 103rd,,Sun
+06:09:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:30:10,34,South Michigan,,Sun
+19:54:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+07:33:21,95,95th,,Sun
+01:37:14,34,South Michigan,,Mon
+18:23:05,119,Michigan/119th,,Sun
+13:47:44,111,111th/King Drive,,Sat
+13:23:14,119,Michigan/119th,,Sun
+11:48:05,119,Michigan/119th,,Sat
+15:03:05,34,South Michigan,,Fri
+16:44:56,119,Michigan/119th,,Sun
+19:02:05,119,Michigan/119th,,Sun
+07:06:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:33:56,119,Michigan/119th,,Sat
+12:46:51,95,95th,,Sun
+16:04:35,95,95th,,Sat
+11:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:24:14,119,Michigan/119th,,Sun
+15:09:43,95,95th,,Sun
+17:33:46,115,Pullman/115th,,Sun
+08:07:14,119,Michigan/119th,,Sat
+06:10:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:11:14,34,South Michigan,,Sun
+19:26:51,103,West 103rd,,Sun
+01:26:05,34,South Michigan,,Sun
+09:27:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:15:35,95,95th,,Sat
+14:30:14,34,South Michigan,,Sun
+21:38:05,34,South Michigan,,Sat
+18:14:54,111,111th/King Drive,,Sat
+12:22:56,34,South Michigan,,Sun
+19:15:35,34,South Michigan,,Sat
+15:53:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:49:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:50:05,34,South Michigan,,Sat
+13:24:16,115,Pullman/115th,,Sun
+02:33:19,N5,South Shore Night Bus,,Mon
+24:04:21,95,95th,,Sun
+19:25:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:17:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:45:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+14:51:06,106,East 103rd,,Sun
+15:52:44,111,111th/King Drive,,Sat
+13:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:40:14,34,South Michigan,,Sun
+23:46:14,34,South Michigan,,Sun
+21:24:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:14:21,103,West 103rd,,Sat
+19:10:31,115,Pullman/115th,,Sat
+12:29:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+11:55:21,103,West 103rd,,Sat
+20:24:35,34,South Michigan,,Sat
+12:56:21,103,West 103rd,,Sat
+05:28:31,115,Pullman/115th,,Sat
+18:35:21,103,West 103rd,,Sat
+14:33:56,119,Michigan/119th,,Sat
+08:51:14,119,Michigan/119th,,Sun
+09:06:24,111,111th/King Drive,,Sun
+16:03:56,119,Michigan/119th,,Sat
+13:26:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:20:05,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:57:07,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+11:08:54,111,111th/King Drive,,Sat
+13:41:14,111,111th/King Drive,,Sun
+13:01:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:49:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+15:29:43,95,95th,,Sun
+19:46:54,111,111th/King Drive,,Sat
+11:50:31,115,Pullman/115th,,Sun
+15:16:21,103,West 103rd,,Sat
+18:13:35,95,95th,,Sat
+18:34:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:21:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:46:44,111,111th/King Drive,,Sat
+18:55:35,34,South Michigan,,Sat
+01:46:05,34,South Michigan,,Sun
+07:37:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:39:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:55:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:47:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:01:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:40:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:22:44,111,111th/King Drive,,Sat
+06:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+04:36:05,34,South Michigan,,Sun
+01:26:05,34,South Michigan,,Sun
+09:17:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:08:43,95,95th,,Sun
+15:20:05,34,South Michigan,,Sat
+16:48:51,106,East 103rd,,Sat
+11:10:05,34,South Michigan,,Sat
+17:47:56,119,Michigan/119th,,Sat
+20:07:16,115,Pullman/115th,,Sat
+23:37:14,119,Michigan/119th,,Sun
+18:28:21,103,West 103rd,,Sun
+15:42:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:32:31,115,Pullman/115th,,Sun
+09:35:51,106,East 103rd,,Sat
+05:09:30,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+21:59:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:33:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:03:14,119,Michigan/119th,,Sun
+06:27:54,111,111th/King Drive,,Sun
+20:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:40:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:12:54,111,111th/King Drive,,Sat
+20:19:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:26:54,111,111th/King Drive,,Sat
+13:17:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:56:11,106,East 103rd,,Sat
+20:13:21,103,West 103rd,,Sat
+20:43:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:57:54,111,111th/King Drive,,Sun
+14:40:16,115,Pullman/115th,,Sun
+12:36:21,103,West 103rd,,Sat
+18:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:20:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:05:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:21:24,111,111th/King Drive,,Sun
+00:48:14,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+22:38:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+23:06:40,34,South Michigan,,Sun
+14:29:43,95,95th,,Sun
+20:40:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+08:18:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:50:14,34,South Michigan,,Sun
+14:32:44,111,111th/King Drive,,Sat
+05:14:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+08:23:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:14:21,95,95th,,Sun
+16:55:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+09:38:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+20:27:31,115,Pullman/115th,,Sat
+23:18:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:02:21,103,West 103rd,,Sat
+19:00:05,34,South Michigan,,Sun
+13:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+21:02:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:38:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+16:13:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+18:55:21,103,West 103rd,,Sat
+02:04:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+19:27:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:28:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:38:31,115,Pullman/115th,,Sun
+16:12:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:32:56,34,South Michigan,,Sun
+13:40:14,34,South Michigan,,Sun
+18:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+01:34:19,N5,South Shore Night Bus,,Sun
+13:36:21,103,West 103rd,,Sat
+08:57:07,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+10:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:27:14,119,Michigan/119th,,Sat
+18:08:54,111,111th/King Drive,,Sun
+17:51:46,115,Pullman/115th,,Sun
+21:33:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+14:24:10,119,Michigan/119th,,Sun
+06:16:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+23:57:14,119,Michigan/119th,,Sun
+16:54:35,95,95th,,Sat
+09:13:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:26:11,106,East 103rd,,Sat
+05:59:13,95,95th,,Sat
+12:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+22:54:31,115,Pullman/115th,,Sat
+14:19:43,95,95th,,Sun
+09:43:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:50:05,34,South Michigan,,Sat
+11:02:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:21:24,111,111th/King Drive,,Sun
+13:05:35,95,95th,,Sat
+22:42:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:38:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:58:14,119,Michigan/119th,,Sun
+06:58:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:08:21,103,West 103rd,,Sun
+18:39:46,115,Pullman/115th,,Sat
+21:54:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:21:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+14:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:40:05,34,South Michigan,,Sun
+17:38:51,106,East 103rd,,Sat
+07:12:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:18:43,95,95th,,Sun
+11:08:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:03:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:10:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:07:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+20:46:44,34,South Michigan,,Sun
+09:23:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:47:44,111,111th/King Drive,,Sat
+03:08:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+20:47:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:02:46,115,Pullman/115th,,Sun
+01:06:05,34,South Michigan,,Sun
+11:22:56,34,South Michigan,,Sun
+10:02:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:11:26,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:48:56,119,Michigan/119th,,Sat
+06:09:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+10:10:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+17:40:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:43:54,111,111th/King Drive,,Sun
+18:28:43,95,95th,,Sun
+18:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:30:05,119,Michigan/119th,,Sat
+07:26:11,106,East 103rd,,Sat
+13:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:48:24,111,111th/King Drive,,Sun
+10:04:14,119,Michigan/119th,,Sun
+16:01:31,115,Pullman/115th,,Sat
+00:37:14,34,South Michigan,,Mon
+14:28:58,103,West 103rd,,Thu
+13:33:56,119,Michigan/119th,,Sat
+07:50:36,106,East 103rd,,Sat
+07:53:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:44:14,119,Michigan/119th,,Sun
+06:14:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:34:21,103,West 103rd,,Sat
+20:16:44,34,South Michigan,,Sun
+11:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:15:35,34,South Michigan,,Sat
+12:37:51,106,East 103rd,,Sat
+00:34:11,95,95th,,Tue,Wed,Thu,Fri,Sat
+21:30:13,95,95th,,Sat
+15:37:30,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:12:14,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:26:31,115,Pullman/115th,,Sun
+16:27:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+21:30:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:40:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:26:35,95,95th,,Sat
+07:55:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:06:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:53:35,95,95th,,Sat
+20:47:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+22:45:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:39:43,95,95th,,Sun
+14:01:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:10:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:35:54,111,111th/King Drive,,Sat
+18:02:56,119,Michigan/119th,,Sat
+06:55:15,106,East 103rd,,Sun
+13:03:51,106,East 103rd,,Sat
+13:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:44:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:10:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+07:44:43,95,95th,,Sat
+05:56:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:48:05,119,Michigan/119th,,Sat
+19:20:24,111,111th/King Drive,,Sun
+22:27:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:31:06,106,East 103rd,,Sun
+10:43:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+10:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:45:35,34,South Michigan,,Sat
+09:25:45,106,East 103rd,,Sun
+04:32:19,N5,South Shore Night Bus,,Sun
+06:53:14,119,Michigan/119th,,Sun
+18:10:05,34,South Michigan,,Sun
+09:20:05,34,South Michigan,,Sat
+20:54:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:43:05,119,Michigan/119th,,Sun
+11:40:21,95,95th,,Sun
+11:20:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+06:40:16,115,Pullman/115th,,Sat
+16:28:21,103,West 103rd,,Sun
+20:53:21,103,West 103rd,,Sat
+10:54:21,103,West 103rd,,Sat
+12:09:06,106,East 103rd,,Sun
+14:56:16,115,Pullman/115th,,Sun
+13:09:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+16:10:44,111,111th/King Drive,,Sat
+20:59:43,95,95th,,Sat
+17:30:05,34,South Michigan,,Sat
+21:39:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:20:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:24:21,95,95th,,Sun
+23:26:05,34,South Michigan,,Sat
+03:36:05,34,South Michigan,,Sun
+08:43:51,106,East 103rd,,Sat
+05:47:31,115,Pullman/115th,,Sat
+01:06:14,34,South Michigan,,Mon
+14:40:05,34,South Michigan,,Sat
+10:53:51,106,East 103rd,,Sat
+22:47:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+16:11:26,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+22:56:05,119,Michigan/119th,,Sat
+11:51:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:17:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+15:40:05,34,South Michigan,,Sat
+07:15:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+00:46:05,34,South Michigan,,Sun
+19:15:35,34,South Michigan,,Sat
+10:00:35,95,95th,,Sat
+10:56:35,95,95th,,Sat
+24:08:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:10:05,34,South Michigan,,Sun
+16:08:21,103,West 103rd,,Sun
+19:25:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:27:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+00:53:14,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+18:35:35,34,South Michigan,,Sat
+08:47:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:58:46,115,Pullman/115th,,Sat
+18:43:35,95,95th,,Sat
+19:01:43,95,95th,,Sat
+07:50:36,106,East 103rd,,Sat
+11:30:05,34,South Michigan,,Sat
+08:50:54,115,Pullman/115th,,Sat
+10:56:11,106,East 103rd,,Sun
+16:40:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+11:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:33:21,103,West 103rd,,Sat
+19:33:21,103,West 103rd,,Sat
+05:53:14,119,Michigan/119th,,Sun
+14:57:16,115,Pullman/115th,,Sat
+02:06:05,34,South Michigan,,Sun
+24:16:05,119,Michigan/119th,,Sat
+11:47:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:13:51,103,West 103rd,,Sat
+18:40:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+18:03:35,95,95th,,Sat
+09:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:52:21,95,95th,,Sun
+10:02:21,95,95th,,Sun
+05:53:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+10:48:21,103,West 103rd,,Sun
+18:02:56,119,Michigan/119th,,Sat
+09:12:09,95,95th,,Sat
+09:01:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:40:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+13:51:06,106,East 103rd,,Sun
+12:48:56,119,Michigan/119th,,Sat
+04:04:43,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:39:43,95,95th,,Sun
+08:37:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:28:05,119,Michigan/119th,,Sat
+21:53:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+12:55:35,95,95th,,Sat
+19:46:44,34,South Michigan,,Sun
+08:44:43,95,95th,,Sat
+12:08:46,115,Pullman/115th,,Sat
+15:16:21,103,West 103rd,,Sat
+22:43:24,111,111th/King Drive,,Sun
+18:08:54,111,111th/King Drive,,Sun
+09:50:35,95,95th,,Sat
+16:55:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+15:48:56,119,Michigan/119th,,Sat
+20:50:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:38:41,N5,South Shore Night Bus,,Mon,Tue,Wed,Thu,Fri
+23:31:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+09:28:54,111,111th/King Drive,,Sun
+11:16:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+17:41:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+09:06:24,111,111th/King Drive,,Sun
+17:37:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:25:16,115,Pullman/115th,,Sat
+24:18:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:37:16,115,Pullman/115th,,Sat
+20:46:54,111,111th/King Drive,,Sat
+17:15:21,103,West 103rd,,Sat
+08:52:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+07:27:14,119,Michigan/119th,,Sat
+07:39:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:36:51,95,95th,,Sun
+09:09:51,106,East 103rd,,Sat
+22:36:05,119,Michigan/119th,,Sat
+20:56:44,34,South Michigan,,Sun
+14:50:14,34,South Michigan,,Sun
+21:30:44,34,South Michigan,,Sun
+20:57:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+24:04:21,95,95th,,Sat
+20:44:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:20:24,111,111th/King Drive,,Sun
+14:19:43,95,95th,,Sun
+17:45:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:28:21,103,West 103rd,,Sun
+07:53:14,119,Michigan/119th,,Sun
+13:48:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+13:34:13,95,95th,,Sun
+16:06:24,111,111th/King Drive,,Sun
+08:40:05,34,South Michigan,,Sat
+23:25:21,103,West 103rd,,Sun
+19:11:13,95,95th,,Sat
+11:40:05,34,South Michigan,,Sat
+15:24:35,95,95th,,Sat
+14:03:56,119,Michigan/119th,,Sat
+11:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:10:05,34,South Michigan,,Sat
+17:35:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+02:36:05,34,South Michigan,,Sun
+14:41:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+17:45:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:34:52,34,South Michigan,,Sun
+08:40:05,34,South Michigan,,Sat
+19:38:54,111,111th/King Drive,,Sun
+08:05:54,111,111th/King Drive,,Sat
+19:15:05,119,Michigan/119th,,Sat
+17:00:05,34,South Michigan,,Sat
+00:46:05,34,South Michigan,,Sun
+17:40:05,34,South Michigan,,Sat
+13:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:26:11,106,East 103rd,,Sat
+07:48:05,119,Michigan/119th,,Sat
+13:22:14,111,111th/King Drive,,Sun
+22:53:46,115,Pullman/115th,,Sun
+06:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:24:35,95,95th,,Sat
+15:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:59:05,119,Michigan/119th,,Sat
+19:57:46,115,Pullman/115th,,Sun
+16:57:31,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+19:05:12,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+01:06:05,34,South Michigan,,Sun
+03:34:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+08:50:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:18:05,119,Michigan/119th,,Sat
+07:37:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+23:04:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+23:34:21,95,95th,,Sun
+13:08:16,115,Pullman/115th,,Sun
+18:01:31,106,East 103rd,,Sat
+17:09:43,95,95th,,Sun
+15:15:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+20:05:51,103,West 103rd,,Sun
+23:28:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:27:14,119,Michigan/119th,,Sat
+06:15:54,111,111th/King Drive,,Sat
+15:50:05,34,South Michigan,,Sat
+20:55:45,106,East 103rd,,Sun
+24:06:40,34,South Michigan,,Sun
+18:32:54,111,111th/King Drive,,Sat
+05:06:11,N5,South Shore Night Bus,,Sat
+12:36:51,95,95th,,Sun
+21:25:54,111,111th/King Drive,,Sat
+11:02:56,34,South Michigan,,Sun
+06:26:11,106,East 103rd,,Sat
+14:32:44,111,111th/King Drive,,Sat
+17:31:16,115,Pullman/115th,,Sun
+11:46:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+09:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:40:05,34,South Michigan,,Sat
+19:46:54,111,111th/King Drive,,Sat
+04:08:23,34,South Michigan,,Sat
+09:03:54,115,Pullman/115th,,Sun
+15:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:24:54,111,111th/King Drive,,Sat
+11:10:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:00:05,34,South Michigan,,Sat
+09:18:54,111,111th/King Drive,,Sat
+05:25:15,106,East 103rd,,Sun
+17:34:05,95,95th,,Sat
+17:40:05,34,South Michigan,,Sat
+19:57:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+10:30:05,34,South Michigan,,Sat
+10:22:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:20:05,34,South Michigan,,Sun
+07:41:07,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+16:00:05,34,South Michigan,,Sat
+16:11:06,106,East 103rd,,Sun
+19:38:43,95,95th,,Sun
+09:44:14,119,Michigan/119th,,Sun
+08:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:40:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+07:12:14,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+07:45:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:37:30,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+08:03:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:41:14,34,South Michigan,,Sun
+09:52:21,95,95th,,Sun
+16:20:05,34,South Michigan,,Sat
+19:59:24,111,111th/King Drive,,Sun
+16:36:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+13:46:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+19:58:43,95,95th,,Sun
+15:27:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+22:13:21,103,West 103rd,,Sat
+05:08:31,115,Pullman/115th,,Sat
+20:45:21,103,West 103rd,,Sun
+08:36:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:20:05,34,South Michigan,,Sun
+17:24:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:43:43,95,95th,,Sat
+19:30:43,95,95th,,Sat
+11:50:21,95,95th,,Sun
+18:37:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+00:28:14,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+14:18:51,106,East 103rd,,Sat
+05:59:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+13:47:44,111,111th/King Drive,,Sat
+07:03:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+23:34:21,95,95th,,Sat
+22:12:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:55:47,95,95th,,Sun
+23:37:14,119,Michigan/119th,,Sun
+15:33:56,119,Michigan/119th,,Sat
+13:10:05,34,South Michigan,,Sat
+16:55:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:49:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+14:46:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:18:56,119,Michigan/119th,,Sat
+03:02:19,N5,South Shore Night Bus,,Mon
+11:02:21,95,95th,,Sun
+11:12:56,34,South Michigan,,Sun
+01:04:19,N5,South Shore Night Bus,,Sun
+09:08:31,115,Pullman/115th,,Sun
+19:59:14,119,Michigan/119th,,Sun
+18:34:27,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+10:00:05,34,South Michigan,,Sat
+18:31:05,119,Michigan/119th,,Sat
+20:54:35,34,South Michigan,,Sat
+11:44:54,111,111th/King Drive,,Sat
+02:37:14,34,South Michigan,,Mon
+17:50:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:08:51,106,East 103rd,,Sat
+20:31:24,115,Pullman/115th,,Sun
+18:56:11,106,East 103rd,,Sat
+12:36:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:49:43,95,95th,,Sun
+18:15:21,103,West 103rd,,Sat
+15:14:35,95,95th,,Sat
+05:36:11,N5,South Shore Night Bus,,Sat
+07:06:15,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+23:04:21,95,95th,,Sat
+06:20:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:19:43,95,95th,,Sun
+18:08:43,95,95th,,Sun
+06:25:31,115,Pullman/115th,,Sat
+22:33:31,115,Pullman/115th,,Sat
+06:59:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:26:51,95,95th,,Sun
+09:00:05,34,South Michigan,,Sat
+17:32:56,119,Michigan/119th,,Sat
+06:48:21,95,95th,,Sun
+12:34:46,115,Pullman/115th,,Sun
+15:59:43,95,95th,,Sun
+11:18:05,119,Michigan/119th,,Sat
+08:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+18:30:05,34,South Michigan,,Sun
+11:08:21,103,West 103rd,,Sun
+09:04:21,95,95th,,Sun
+07:13:21,103,West 103rd,,Sat
+07:47:54,111,111th/King Drive,,Sat
+23:26:40,34,South Michigan,,Sun
+21:13:21,103,West 103rd,,Sat
+08:12:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+13:21:16,115,Pullman/115th,,Sat
+18:17:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+04:38:23,34,South Michigan,,Sat
+11:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:35:21,103,West 103rd,,Sat
+08:37:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+17:33:02,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+20:06:54,111,111th/King Drive,,Sat
+13:14:43,95,95th,,Sun
+12:31:06,106,East 103rd,,Sun
+08:53:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+21:16:44,34,South Michigan,,Sun
+16:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+16:39:16,115,Pullman/115th,,Sun
+08:13:21,103,West 103rd,,Sat
+20:49:43,95,95th,,Sat
+09:09:54,115,Pullman/115th,,Sat
+23:46:05,34,South Michigan,,Sat
+06:29:18,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+12:02:56,34,South Michigan,,Sun
+19:40:43,95,95th,,Sat
+08:13:21,103,West 103rd,,Sat
+15:10:05,34,South Michigan,,Sat
+05:55:54,111,111th/King Drive,,Sat
+22:04:31,103,West 103rd,,Sun
+13:05:16,115,Pullman/115th,,Sat
+12:00:21,95,95th,,Sun
+20:06:44,34,South Michigan,,Sun
+15:45:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+07:41:14,34,South Michigan,,Sun
+14:35:51,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+09:58:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+01:38:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+19:56:11,106,East 103rd,,Sat
+15:11:06,106,East 103rd,,Sun
+14:00:05,34,South Michigan,,Sat
+12:32:46,115,Pullman/115th,,Sat
+22:47:14,34,South Michigan,,Sun
+16:09:00,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+13:50:05,34,South Michigan,,Sat
+15:16:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+10:32:21,95,95th,,Sun
+01:03:19,N5,South Shore Night Bus,,Mon
+20:31:19,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:20:05,34,South Michigan,,Sat
+20:46:51,95,95th,,Sun
+21:25:54,111,111th/King Drive,,Sat
+07:10:51,95,95th,,Sun
+18:55:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+02:04:19,N5,South Shore Night Bus,,Sun
+10:26:11,106,East 103rd,,Sun
+18:09:01,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:50:10,34,South Michigan,,Sun
+15:17:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+22:55:21,103,West 103rd,,Sun
+02:38:23,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+21:08:24,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+23:34:13,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:16:46,115,Pullman/115th,,Sat
+18:24:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:34:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+12:16:10,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:29:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:03:35,95,95th,,Sat
+08:54:21,95,95th,,Sun
+13:34:13,95,95th,,Sun
+02:34:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+07:39:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:43:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:20:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+09:28:05,119,Michigan/119th,,Sat
+22:03:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:00:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+14:48:21,103,West 103rd,,Sun
+20:16:46,115,Pullman/115th,,Sun
+17:22:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+17:20:05,34,South Michigan,,Sun
+08:48:05,119,Michigan/119th,,Sat
+18:13:35,95,95th,,Sat
+17:49:16,115,Pullman/115th,,Sun
+15:54:54,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+06:53:54,111,111th/King Drive,,Sat
+08:54:13,95,95th,,Sat
+06:52:16,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:56:11,106,East 103rd,,Sun
+15:16:31,115,Pullman/115th,,Sun
+21:30:13,95,95th,,Sat
+18:15:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+08:36:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+08:17:35,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+10:10:35,95,95th,,Sat
+23:04:21,95,95th,,Sun
+07:40:05,34,South Michigan,,Sat
+20:37:47,95,95th,,Sun
+18:45:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:51:41,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+07:07:14,119,Michigan/119th,,Sat
+08:47:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+19:26:11,106,East 103rd,,Sun
+13:44:16,115,Pullman/115th,,Sat
+18:05:46,115,Pullman/115th,,Sat
+08:27:54,115,Pullman/115th,,Sun
+12:00:05,34,South Michigan,,Sat
+01:03:23,119,Michigan/119th,,Tue,Wed,Thu,Fri,Sat
+09:43:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:46:51,103,West 103rd,,Sun
+11:14:31,115,Pullman/115th,,Sun
+21:22:44,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:48:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+11:56:35,95,95th,,Sat
+08:53:21,103,West 103rd,,Sat
+20:39:14,119,Michigan/119th,,Sun
+05:55:15,106,East 103rd,,Sun
+06:25:15,106,East 103rd,,Sun
+12:51:10,34,South Michigan,,Sun
+09:04:52,34,South Michigan,,Sun
+15:30:24,111,111th/King Drive,,Sun
+13:53:51,106,East 103rd,,Sat
+15:04:56,119,Michigan/119th,,Sun
+17:36:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+20:05:51,103,West 103rd,,Sun
+18:33:35,95,95th,,Sat
+12:59:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+12:47:44,111,111th/King Drive,,Sat
+18:40:05,34,South Michigan,,Sun
+06:59:14,34,South Michigan,,Sat
+06:29:18,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+14:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:25:51,95,95th,,Sun
+11:33:05,119,Michigan/119th,,Sat
+19:12:57,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+22:46:54,111,111th/King Drive,,Sat
+06:07:46,115,Pullman/115th,,Sun
+08:37:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+06:38:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+12:37:51,106,East 103rd,,Sat
+16:05:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:11:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:54:46,115,Pullman/115th,,Sun
+09:03:09,95,95th,,Sat
+10:29:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+08:39:09,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+18:17:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:22:21,95,95th,,Sun
+08:24:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:31:58,103,West 103rd,,Mon,Tue,Wed,Fri
+09:40:05,34,South Michigan,,Sat
+04:40:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:50:05,34,South Michigan,,Sat
+09:44:31,115,Pullman/115th,,Sun
+10:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+23:56:05,119,Michigan/119th,,Sat
+12:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+20:30:13,95,95th,,Sat
+09:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+18:57:05,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+05:59:18,100,Jeffery Manor Express,,Mon,Tue,Wed,Thu,Fri
+03:06:11,N5,South Shore Night Bus,,Sun
+13:28:16,115,Pullman/115th,,Sat
+06:31:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+01:36:11,N5,South Shore Night Bus,,Sun
+07:36:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+12:25:35,95,95th,,Sat
+08:00:54,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:44:35,95,95th,,Sat
+22:06:05,34,South Michigan,,Sat
+15:10:10,34,South Michigan,,Sun
+14:21:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+00:59:14,119,Michigan/119th,,Mon
+15:16:44,111,111th/King Drive,,Sat
+22:12:17,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:06:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+22:36:14,119,Michigan/119th,,Sun
+08:28:21,103,West 103rd,,Sun
+14:10:05,34,South Michigan,,Sat
+14:48:56,119,Michigan/119th,,Sat
+07:15:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:27:14,119,Michigan/119th,,Sat
+16:20:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+07:38:46,115,Pullman/115th,,Sun
+18:55:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:10:05,34,South Michigan,,Sat
+12:40:05,34,South Michigan,,Sat
+11:58:46,115,Pullman/115th,,Sat
+16:08:21,103,West 103rd,,Sun
+21:39:44,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+18:45:46,115,Pullman/115th,,Sun
+09:14:21,95,95th,,Sun
+07:19:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+12:30:05,34,South Michigan,,Sat
+14:03:57,95,95th,,Mon,Tue,Wed,Thu,Fri
+15:21:16,115,Pullman/115th,,Sat
+22:36:46,115,Pullman/115th,,Sun
+17:20:05,34,South Michigan,,Sat
+07:12:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:12:21,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+13:50:14,34,South Michigan,,Sun
+06:33:21,103,West 103rd,,Sat
+07:55:21,95,95th,,Sun
+19:35:35,34,South Michigan,,Sat
+19:53:21,103,West 103rd,,Sat
+15:12:16,115,Pullman/115th,,Sun
+17:26:11,106,East 103rd,,Sun
+20:18:43,95,95th,,Sun
+20:59:43,95,95th,,Sat
+08:05:54,111,111th/King Drive,,Sat
+12:11:51,106,East 103rd,,Sat
+20:26:54,111,111th/King Drive,,Sat
+16:31:41,106,East 103rd,,Sun
+09:24:32,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+23:33:23,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+19:26:54,111,111th/King Drive,,Sat
+08:35:31,115,Pullman/115th,,Sat
+10:12:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:12:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+22:26:31,115,Pullman/115th,,Sat
+17:55:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+05:06:05,34,South Michigan,,Sun
+11:21:41,106,East 103rd,,Sun
+20:07:05,95,95th,,Mon,Tue,Wed,Thu,Fri
+18:48:21,103,West 103rd,,Sun
+14:06:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+03:40:14,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+02:08:14,34,South Michigan,,Tue,Wed,Thu,Fri,Sat
+10:22:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+06:06:31,115,Pullman/115th,,Sat
+14:11:06,106,East 103rd,,Sun
+20:36:46,115,Pullman/115th,,Sun
+17:26:31,115,Pullman/115th,,Sat
+19:40:43,95,95th,,Sat
+16:33:56,119,Michigan/119th,,Sat
+13:53:51,106,East 103rd,,Sat
+24:06:40,34,South Michigan,,Sun
+15:10:10,34,South Michigan,,Sun
+18:08:21,103,West 103rd,,Sun
+03:33:19,N5,South Shore Night Bus,,Mon
+10:45:39,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:26:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+14:31:40,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+21:56:46,115,Pullman/115th,,Sun
+19:55:35,34,South Michigan,,Sat
+07:41:14,34,South Michigan,,Sun
+13:50:13,95,95th,,Sun
+16:14:35,95,95th,,Sat
+16:57:11,106,East 103rd,,Sun
+21:04:35,34,South Michigan,,Sat
+21:50:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+15:40:10,34,South Michigan,,Sun
+21:24:35,34,South Michigan,,Sat
+23:03:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+16:50:05,34,South Michigan,,Sat
+08:25:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+07:45:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+22:55:21,103,West 103rd,,Sun
+20:33:47,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+12:55:47,95,95th,,Sun
+20:06:44,34,South Michigan,,Sun
+20:37:47,95,95th,,Sun
+14:54:35,95,95th,,Sat
+12:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:54:28,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+10:14:24,115,Pullman/115th,,Sun
+13:35:27,95,95th,,Mon,Tue,Wed,Thu,Fri
+08:25:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+17:15:21,103,West 103rd,,Sat
+18:22:46,115,Pullman/115th,,Sat
+12:03:56,119,Michigan/119th,,Sat
+09:04:52,34,South Michigan,,Sun
+07:29:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+09:33:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+16:54:24,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+04:56:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+20:28:43,95,95th,,Sun
+14:48:21,103,West 103rd,,Sun
+17:14:16,115,Pullman/115th,,Sat
+11:30:21,95,95th,,Sun
+10:52:56,34,South Michigan,,Sun
+10:20:05,34,South Michigan,,Sat
+22:26:40,34,South Michigan,,Sun
+05:16:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+06:29:21,103,West 103rd,,Sun
+22:11:14,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+03:07:14,34,South Michigan,,Mon
+19:18:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:56:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+03:04:11,N5,South Shore Night Bus,,Tue,Wed,Thu,Fri,Sat
+13:59:56,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+17:40:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+14:11:26,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+19:10:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+20:48:31,115,Pullman/115th,,Sat
+14:25:16,115,Pullman/115th,,Sun
+12:40:46,115,Pullman/115th,,Sat
+06:46:49,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+12:08:31,115,Pullman/115th,,Sun
+20:00:46,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+13:30:05,34,South Michigan,,Sat
+07:34:46,115,Pullman/115th,,Sat
+17:10:31,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+08:11:46,115,Pullman/115th,,Sat
+23:06:40,34,South Michigan,,Sun
+22:36:05,119,Michigan/119th,,Sat
+06:39:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+16:44:56,119,Michigan/119th,,Sun
+07:27:54,111,111th/King Drive,,Sun
+12:46:31,95,95th,,Mon,Tue,Wed,Thu,Fri
+05:29:21,103,West 103rd,,Sun
+06:56:11,106,East 103rd,,Sat
+15:03:05,34,South Michigan,,Fri
+23:16:05,119,Michigan/119th,,Sat
+11:35:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:21:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+12:45:35,95,95th,,Sat
+10:27:24,111,111th/King Drive,,Sun
+12:22:56,34,South Michigan,,Sun
+13:46:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+21:16:44,34,South Michigan,,Sun
+18:28:43,95,95th,,Sun
+09:54:54,111,111th/King Drive,,Sat
+20:50:11,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+00:34:11,95,95th,,Tue,Wed,Thu,Fri,Sat
+05:27:30,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+15:58:51,106,East 103rd,,Sat
+08:25:01,106,East 103rd,,Mon,Tue,Wed,Thu,Fri
+16:00:05,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+00:34:19,95,95th,,Sun
+09:36:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+07:19:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+11:20:05,34,South Michigan,,Sat
+14:19:14,111,111th/King Drive,,Sun
+17:55:35,34,South Michigan,,Mon,Tue,Wed,Thu,Fri
+15:33:51,106,East 103rd,,Sat
+19:39:01,115,Pullman/115th,,Mon,Tue,Wed,Thu,Fri
+11:10:35,119,Michigan/119th,,Mon,Tue,Wed,Thu,Fri
+15:50:10,34,South Michigan,,Sun
+02:06:14,34,South Michigan,,Mon
+05:56:11,106,East 103rd,,Sat
+17:06:58,103,West 103rd,,Mon,Tue,Wed,Thu,Fri
+19:00:46,115,Pullman/115th,,Sun
+18:50:05,34,South Michigan,,Sun
+05:36:54,111,111th/King Drive,,Mon,Tue,Wed,Thu,Fri
+11:28:35,95,95th,,Mon,Tue,Wed,Thu,Fri
+05:56:11,106,East 103rd,,Sat

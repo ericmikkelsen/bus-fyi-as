@@ -1,0 +1,842 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+16:01:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+13:13:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:51:58,4,Cottage Grove,,Sun
+11:15:34,4,Cottage Grove,,Sat
+05:07:11,4,Cottage Grove,,Sun
+09:02:16,4,Cottage Grove,,Sat
+07:24:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:28:52,4,Cottage Grove,,Sat
+14:20:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:15:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+11:47:46,4,Cottage Grove,,Sun
+10:10:58,4,Cottage Grove,,Sun
+07:59:16,4,Cottage Grove,,Sat
+06:31:28,4,Cottage Grove,,Sat
+07:29:16,4,Cottage Grove,,Sat
+24:22:58,4,Cottage Grove,,Sun
+22:17:46,4,Cottage Grove,,Sun
+07:08:34,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:48:34,4,Cottage Grove,,Sat
+01:23:11,4,Cottage Grove,,Mon
+20:44:46,4,Cottage Grove,,Sat
+23:42:41,4,Cottage Grove,,Sat
+09:21:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:54:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+12:07:46,4,Cottage Grove,,Sun
+11:38:46,4,Cottage Grove,,Sun
+15:33:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:06:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:34:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+02:24:11,4,Cottage Grove,,Sun
+06:05:58,4,Cottage Grove,,Sat
+11:24:04,4,Cottage Grove,,Sat
+07:07:58,4,Cottage Grove,,Sun
+16:38:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:46:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:39:16,4,Cottage Grove,,Sat
+21:09:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:32:46,4,Cottage Grove,,Sun
+08:26:58,4,Cottage Grove,,Sun
+22:30:46,4,Cottage Grove,,Sat
+09:10:58,4,Cottage Grove,,Sun
+06:12:11,4,Cottage Grove,,Sun
+19:17:04,4,Cottage Grove,,Sat
+06:26:58,4,Cottage Grove,,Sun
+11:29:16,4,Cottage Grove,,Sun
+13:22:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:36:52,4,Cottage Grove,,Sat
+07:14:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:38:46,4,Cottage Grove,,Sun
+09:43:16,4,Cottage Grove,,Sat
+04:58:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:12:34,4,Cottage Grove,,Sat
+20:05:16,4,Cottage Grove,,Sat
+04:23:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:35:34,4,Cottage Grove,,Sat
+07:49:16,4,Cottage Grove,,Sat
+20:59:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:30:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:33:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:00:58,4,Cottage Grove,,Sun
+14:28:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:33:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:39:22,4,Cottage Grove,,Sat
+12:04:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:02:28,4,Cottage Grove,,Sat
+14:28:52,4,Cottage Grove,,Sat
+17:14:52,4,Cottage Grove,,Sat
+20:13:46,4,Cottage Grove,,Sat
+21:47:46,4,Cottage Grove,,Sun
+10:30:16,4,Cottage Grove,,Sat
+07:08:33,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:50:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:35:46,4,Cottage Grove,,Sat
+15:48:52,4,Cottage Grove,,Sat
+19:05:34,4,Cottage Grove,,Sat
+17:25:04,4,Cottage Grove,,Sat
+20:03:46,4,Cottage Grove,,Sat
+05:57:11,4,Cottage Grove,,Sun
+10:39:46,4,Cottage Grove,,Sat
+08:32:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:27:04,4,Cottage Grove,,Sun
+12:13:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:11:51,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:27:04,4,Cottage Grove,,Sun
+13:37:04,4,Cottage Grove,,Sun
+16:48:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:53:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+01:54:41,4,Cottage Grove,,Mon
+09:01:28,4,Cottage Grove,,Sun
+15:25:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+05:23:11,4,Cottage Grove,,Sat
+21:03:16,4,Cottage Grove,,Sat
+18:25:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:57:04,4,Cottage Grove,,Sat
+17:23:04,4,Cottage Grove,,Sat
+24:00:58,4,Cottage Grove,,Sat
+19:01:16,4,Cottage Grove,,Sun
+07:45:56,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:16:19,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:10:58,4,Cottage Grove,,Sun
+20:49:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:33:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:27:11,4,Cottage Grove,,Sun
+01:55:11,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+21:45:46,4,Cottage Grove,,Sat
+13:22:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:24:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:19:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:45:34,4,Cottage Grove,,Sat
+16:27:04,4,Cottage Grove,,Sun
+09:50:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:32:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:54:41,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+13:55:22,4,Cottage Grove,,Sat
+02:54:41,4,Cottage Grove,,Mon
+21:13:16,4,Cottage Grove,,Sat
+23:17:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:26:58,4,Cottage Grove,,Sun
+14:27:04,4,Cottage Grove,,Sun
+14:27:22,4,Cottage Grove,,Sat
+16:58:52,4,Cottage Grove,,Sat
+07:52:58,4,Cottage Grove,,Sun
+07:32:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+13:41:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:57:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:17:04,4,Cottage Grove,,Sun
+17:58:04,4,Cottage Grove,,Sat
+19:33:46,4,Cottage Grove,,Sat
+09:22:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+12:37:46,4,Cottage Grove,,Sun
+09:40:58,4,Cottage Grove,,Sun
+20:01:16,4,Cottage Grove,,Sun
+03:54:41,4,Cottage Grove,,Sat
+17:04:46,4,Cottage Grove,,Sun
+20:19:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:36:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:12:46,4,Cottage Grove,,Sun
+13:00:52,4,Cottage Grove,,Sat
+08:53:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+21:51:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:57:04,4,Cottage Grove,,Sun
+12:23:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:17:04,4,Cottage Grove,,Sun
+14:04:52,4,Cottage Grove,,Sat
+16:52:52,4,Cottage Grove,,Sat
+15:56:52,4,Cottage Grove,,Sat
+04:47:11,4,Cottage Grove,,Sun
+08:43:58,4,Cottage Grove,,Sun
+10:49:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:45:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:41:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:53:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:11:16,4,Cottage Grove,,Sun
+09:03:16,4,Cottage Grove,,Sat
+16:00:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:13:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:08:52,4,Cottage Grove,,Sat
+10:09:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:20:58,4,Cottage Grove,,Sun
+01:23:11,4,Cottage Grove,,Sun
+07:29:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:00:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:20:58,4,Cottage Grove,,Sun
+21:33:16,4,Cottage Grove,,Sat
+19:23:34,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:52:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:26:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:40:52,4,Cottage Grove,,Sat
+21:39:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:16:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:42:52,4,Cottage Grove,,Sat
+20:11:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:43:20,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:37:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:01:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:55:34,4,Cottage Grove,,Sat
+12:47:46,4,Cottage Grove,,Sun
+17:46:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:17:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:35:16,4,Cottage Grove,,Sat
+08:21:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:00:46,4,Cottage Grove,,Sat
+06:11:58,4,Cottage Grove,,Sun
+14:44:52,4,Cottage Grove,,Sat
+21:19:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:47:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:54:50,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:47:04,4,Cottage Grove,,Sun
+08:51:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:20:52,4,Cottage Grove,,Sat
+07:51:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:43:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:58:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:56:52,4,Cottage Grove,,Sat
+04:47:11,4,Cottage Grove,,Sun
+04:24:41,4,Cottage Grove,,Sat
+14:47:51,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:01:28,4,Cottage Grove,,Sun
+12:04:34,4,Cottage Grove,,Sat
+18:03:16,4,Cottage Grove,,Sun
+12:44:22,4,Cottage Grove,,Sat
+17:08:52,4,Cottage Grove,,Sat
+13:17:04,4,Cottage Grove,,Sun
+13:47:22,4,Cottage Grove,,Sat
+10:40:46,4,Cottage Grove,,Sat
+13:03:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:41:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:21:16,4,Cottage Grove,,Sun
+14:51:22,4,Cottage Grove,,Sat
+18:51:46,4,Cottage Grove,,Sun
+10:11:16,4,Cottage Grove,,Sat
+06:41:58,4,Cottage Grove,,Sun
+08:44:16,4,Cottage Grove,,Sat
+18:34:46,4,Cottage Grove,,Sun
+24:24:11,4,Cottage Grove,,Sun
+21:46:16,4,Cottage Grove,,Sun
+13:30:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:50:58,4,Cottage Grove,,Sun
+14:35:22,4,Cottage Grove,,Sat
+05:44:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:02:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:32:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:32:34,4,Cottage Grove,,Sat
+16:37:04,4,Cottage Grove,,Sun
+22:37:46,4,Cottage Grove,,Sun
+07:34:58,4,Cottage Grove,,Sun
+10:02:46,4,Cottage Grove,,Sat
+11:07:04,4,Cottage Grove,,Sat
+07:17:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:06:52,4,Cottage Grove,,Sat
+15:49:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:43:46,4,Cottage Grove,,Sat
+06:56:58,4,Cottage Grove,,Sun
+03:24:41,4,Cottage Grove,,Sun
+06:12:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:52:16,4,Cottage Grove,,Sat
+13:15:22,4,Cottage Grove,,Sat
+21:31:16,4,Cottage Grove,,Sun
+12:05:04,4,Cottage Grove,,Sat
+10:20:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:08:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:54:41,4,Cottage Grove,,Sun
+17:31:04,4,Cottage Grove,,Sat
+15:07:04,4,Cottage Grove,,Sun
+21:29:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:40:58,4,Cottage Grove,,Sun
+19:04:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:37:04,4,Cottage Grove,,Sun
+08:50:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:07:04,4,Cottage Grove,,Sun
+08:42:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:14:46,4,Cottage Grove,,Sun
+07:35:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+20:22:46,4,Cottage Grove,,Sun
+23:02:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:17:46,4,Cottage Grove,,Sun
+12:37:46,4,Cottage Grove,,Sun
+05:54:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+03:55:11,4,Cottage Grove,,Sun
+12:36:22,4,Cottage Grove,,Sat
+13:59:40,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:28:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:37:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+22:32:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:12:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+22:57:58,4,Cottage Grove,,Sun
+08:05:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:39:04,4,Cottage Grove,,Sat
+08:18:16,4,Cottage Grove,,Sat
+15:14:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:46:34,4,Cottage Grove,,Sun
+21:31:46,4,Cottage Grove,,Sat
+16:04:52,4,Cottage Grove,,Sat
+07:18:33,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+19:12:46,4,Cottage Grove,,Sun
+17:17:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:02:46,4,Cottage Grove,,Sun
+16:36:52,4,Cottage Grove,,Sat
+13:31:22,4,Cottage Grove,,Sat
+16:10:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:24:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:00:52,4,Cottage Grove,,Sat
+10:30:58,4,Cottage Grove,,Sun
+16:01:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+22:01:16,4,Cottage Grove,,Sun
+15:16:52,4,Cottage Grove,,Sat
+20:33:46,4,Cottage Grove,,Sat
+19:31:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:41:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:18:28,4,Cottage Grove,,Sun
+12:53:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:34:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:20:20,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+16:17:04,4,Cottage Grove,,Sun
+18:57:04,4,Cottage Grove,,Sat
+15:47:22,4,Cottage Grove,,Sat
+16:53:16,4,Cottage Grove,,Sun
+19:52:46,4,Cottage Grove,,Sun
+04:23:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:39:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:46:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:37:04,4,Cottage Grove,,Sun
+08:05:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+23:58:11,4,Cottage Grove,,Sun
+13:23:22,4,Cottage Grove,,Sat
+06:05:58,4,Cottage Grove,,Sat
+08:43:58,4,Cottage Grove,,Sun
+23:37:58,4,Cottage Grove,,Sun
+10:00:58,4,Cottage Grove,,Sun
+09:00:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:49:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:11:46,4,Cottage Grove,,Sat
+08:09:16,4,Cottage Grove,,Sat
+11:47:46,4,Cottage Grove,,Sun
+09:50:58,4,Cottage Grove,,Sun
+17:26:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+12:27:46,4,Cottage Grove,,Sun
+06:39:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:56:00,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+15:12:51,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:29:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:07:11,4,Cottage Grove,,Sun
+15:27:04,4,Cottage Grove,,Sun
+05:42:11,4,Cottage Grove,,Sun
+14:57:04,4,Cottage Grove,,Sun
+13:27:04,4,Cottage Grove,,Sun
+15:05:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:10:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:07:30,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+01:53:41,4,Cottage Grove,,Mon
+18:53:46,4,Cottage Grove,,Sun
+07:20:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+02:24:11,4,Cottage Grove,,Mon
+17:03:16,4,Cottage Grove,,Sun
+12:23:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:56:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+20:11:16,4,Cottage Grove,,Sun
+17:16:52,4,Cottage Grove,,Sat
+06:41:58,4,Cottage Grove,,Sun
+07:16:58,4,Cottage Grove,,Sun
+09:30:58,4,Cottage Grove,,Sun
+17:27:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:12:16,4,Cottage Grove,,Sat
+07:07:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+22:02:16,4,Cottage Grove,,Sat
+07:29:16,4,Cottage Grove,,Sat
+02:55:11,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+18:42:46,4,Cottage Grove,,Sun
+06:18:58,4,Cottage Grove,,Sat
+22:17:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:45:04,4,Cottage Grove,,Sun
+02:25:11,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+06:26:58,4,Cottage Grove,,Sun
+20:39:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:55:16,4,Cottage Grove,,Sat
+11:10:28,4,Cottage Grove,,Sun
+06:01:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+23:20:58,4,Cottage Grove,,Sat
+07:43:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:17:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+18:04:46,4,Cottage Grove,,Sun
+18:07:04,4,Cottage Grove,,Sat
+21:47:16,4,Cottage Grove,,Sat
+05:27:11,4,Cottage Grove,,Sun
+06:04:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:11:22,4,Cottage Grove,,Sat
+12:33:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:53:16,4,Cottage Grove,,Sat
+15:12:51,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:08:16,4,Cottage Grove,,Sat
+20:43:16,4,Cottage Grove,,Sat
+11:41:04,4,Cottage Grove,,Sat
+09:40:58,4,Cottage Grove,,Sun
+03:24:41,4,Cottage Grove,,Sat
+10:12:16,4,Cottage Grove,,Sat
+16:28:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:49:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:17:04,4,Cottage Grove,,Sun
+12:53:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:25:46,4,Cottage Grove,,Sat
+12:27:46,4,Cottage Grove,,Sun
+18:47:04,4,Cottage Grove,,Sat
+22:04:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+04:41:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:16:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:00:58,4,Cottage Grove,,Sun
+07:24:56,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+11:35:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:07:04,4,Cottage Grove,,Sat
+15:40:52,4,Cottage Grove,,Sat
+16:20:52,4,Cottage Grove,,Sat
+17:54:46,4,Cottage Grove,,Sun
+08:01:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:43:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:06:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:57:04,4,Cottage Grove,,Sun
+23:17:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:40:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:59:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:41:04,4,Cottage Grove,,Sat
+14:12:52,4,Cottage Grove,,Sat
+08:46:46,4,Cottage Grove,,Sat
+11:32:34,4,Cottage Grove,,Sat
+08:52:46,4,Cottage Grove,,Sat
+10:00:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:18:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+03:25:11,4,Cottage Grove,,Sat
+08:52:28,4,Cottage Grove,,Sun
+07:07:58,4,Cottage Grove,,Sun
+12:47:46,4,Cottage Grove,,Sun
+22:47:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:49:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+04:58:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:31:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:04:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:44:16,4,Cottage Grove,,Sun
+03:55:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:20:46,4,Cottage Grove,,Sat
+03:54:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:24:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:54:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:16:58,4,Cottage Grove,,Sun
+06:58:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:07:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:39:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:07:22,4,Cottage Grove,,Sat
+18:37:04,4,Cottage Grove,,Sat
+08:53:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+24:02:41,4,Cottage Grove,,Sat
+16:27:04,4,Cottage Grove,,Sun
+16:46:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+15:57:04,4,Cottage Grove,,Sun
+03:54:41,4,Cottage Grove,,Sun
+19:22:34,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:03:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:41:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+13:07:46,4,Cottage Grove,,Sun
+14:52:52,4,Cottage Grove,,Sat
+07:54:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+00:54:41,4,Cottage Grove,,Sun
+07:08:16,4,Cottage Grove,,Sat
+20:59:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+24:22:28,4,Cottage Grove,,Sat
+12:28:22,4,Cottage Grove,,Sat
+09:29:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+05:38:11,4,Cottage Grove,,Sat
+18:05:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:18:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:29:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:43:22,4,Cottage Grove,,Sat
+16:28:52,4,Cottage Grove,,Sat
+15:47:04,4,Cottage Grove,,Sun
+06:56:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:10:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:12:46,4,Cottage Grove,,Sun
+08:09:16,4,Cottage Grove,,Sat
+10:21:46,4,Cottage Grove,,Sat
+10:49:46,4,Cottage Grove,,Sat
+07:34:58,4,Cottage Grove,,Sun
+19:32:46,4,Cottage Grove,,Sun
+13:16:52,4,Cottage Grove,,Sat
+21:39:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:14:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:40:34,4,Cottage Grove,,Sat
+15:55:22,4,Cottage Grove,,Sat
+20:23:46,4,Cottage Grove,,Sat
+06:43:20,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:38:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:40:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:05:34,4,Cottage Grove,,Sat
+21:02:46,4,Cottage Grove,,Sun
+12:13:04,4,Cottage Grove,,Sat
+15:07:04,4,Cottage Grove,,Sun
+09:29:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:07:46,4,Cottage Grove,,Sun
+15:05:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:52:52,4,Cottage Grove,,Sat
+18:27:04,4,Cottage Grove,,Sat
+06:02:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:00:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:39:16,4,Cottage Grove,,Sat
+16:19:22,4,Cottage Grove,,Sat
+19:51:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:57:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:59:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+16:28:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:33:16,4,Cottage Grove,,Sun
+11:24:04,4,Cottage Grove,,Sat
+11:56:34,4,Cottage Grove,,Sat
+07:19:16,4,Cottage Grove,,Sat
+20:54:16,4,Cottage Grove,,Sat
+16:19:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:37:04,4,Cottage Grove,,Sun
+07:25:58,4,Cottage Grove,,Sun
+19:21:16,4,Cottage Grove,,Sun
+10:20:58,4,Cottage Grove,,Sun
+13:08:52,4,Cottage Grove,,Sat
+16:44:52,4,Cottage Grove,,Sat
+22:32:28,4,Cottage Grove,,Sat
+09:49:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:53:46,4,Cottage Grove,,Sat
+14:37:04,4,Cottage Grove,,Sun
+16:09:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:57:46,4,Cottage Grove,,Sun
+10:01:46,4,Cottage Grove,,Sat
+16:17:04,4,Cottage Grove,,Sun
+06:56:16,4,Cottage Grove,,Sat
+05:08:11,4,Cottage Grove,,Sat
+16:27:22,4,Cottage Grove,,Sat
+06:07:30,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:44:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:47:04,4,Cottage Grove,,Sun
+08:18:28,4,Cottage Grove,,Sun
+01:24:41,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+20:25:16,4,Cottage Grove,,Sat
+19:15:34,4,Cottage Grove,,Sat
+12:57:46,4,Cottage Grove,,Sun
+20:29:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:18:58,4,Cottage Grove,,Sat
+16:55:16,4,Cottage Grove,,Sun
+03:25:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+00:55:11,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+09:23:16,4,Cottage Grove,,Sat
+15:51:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:34:46,4,Cottage Grove,,Sun
+21:01:46,4,Cottage Grove,,Sat
+19:31:34,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:48:52,4,Cottage Grove,,Sat
+08:30:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+18:17:04,4,Cottage Grove,,Sat
+08:09:58,4,Cottage Grove,,Sun
+19:55:16,4,Cottage Grove,,Sat
+18:15:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:59:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:51:16,4,Cottage Grove,,Sun
+07:43:58,4,Cottage Grove,,Sun
+15:31:22,4,Cottage Grove,,Sat
+06:49:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:27:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:45:58,4,Cottage Grove,,Sat
+14:27:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:49:04,4,Cottage Grove,,Sat
+11:45:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:42:46,4,Cottage Grove,,Sun
+09:22:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:20:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:42:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:19:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:40:58,4,Cottage Grove,,Sat
+07:34:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+22:47:28,4,Cottage Grove,,Sat
+17:55:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:55:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:11:51,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:28:46,4,Cottage Grove,,Sat
+08:35:58,4,Cottage Grove,,Sun
+08:35:28,4,Cottage Grove,,Sun
+10:58:04,4,Cottage Grove,,Sat
+00:54:41,4,Cottage Grove,,Mon
+02:24:41,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+15:24:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:49:04,4,Cottage Grove,,Sat
+08:16:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:56:16,4,Cottage Grove,,Sat
+23:57:58,4,Cottage Grove,,Sun
+05:25:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:43:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:19:46,4,Cottage Grove,,Sun
+12:17:46,4,Cottage Grove,,Sun
+10:58:34,4,Cottage Grove,,Sat
+20:31:16,4,Cottage Grove,,Sun
+14:10:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:00:58,4,Cottage Grove,,Sun
+18:13:16,4,Cottage Grove,,Sun
+22:15:46,4,Cottage Grove,,Sat
+05:52:58,4,Cottage Grove,,Sat
+16:23:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:55:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:38:46,4,Cottage Grove,,Sat
+11:10:28,4,Cottage Grove,,Sun
+16:59:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:19:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:22:46,4,Cottage Grove,,Sun
+18:25:34,4,Cottage Grove,,Sat
+15:14:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+03:25:11,4,Cottage Grove,,Sun
+08:02:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+00:53:11,4,Cottage Grove,,Mon
+20:32:46,4,Cottage Grove,,Sun
+20:51:16,4,Cottage Grove,,Sun
+06:30:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+15:37:04,4,Cottage Grove,,Sun
+15:23:22,4,Cottage Grove,,Sat
+06:31:50,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+07:25:58,4,Cottage Grove,,Sun
+15:17:04,4,Cottage Grove,,Sun
+09:13:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+06:42:33,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+09:22:16,4,Cottage Grove,,Sat
+21:01:16,4,Cottage Grove,,Sun
+23:38:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:17:58,4,Cottage Grove,,Sun
+05:44:30,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+17:44:46,4,Cottage Grove,,Sun
+09:32:16,4,Cottage Grove,,Sat
+08:09:58,4,Cottage Grove,,Sun
+02:54:41,4,Cottage Grove,,Mon
+17:14:46,4,Cottage Grove,,Sun
+08:01:28,4,Cottage Grove,,Sun
+20:01:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:13:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:34:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:21:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:52:16,4,Cottage Grove,,Sat
+14:47:51,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:03:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:47:04,4,Cottage Grove,,Sun
+14:07:04,4,Cottage Grove,,Sun
+22:37:58,4,Cottage Grove,,Sun
+06:27:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+07:43:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+23:17:58,4,Cottage Grove,,Sun
+06:19:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:13:16,4,Cottage Grove,,Sun
+08:41:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+02:54:41,4,Cottage Grove,,Sun
+17:56:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:07:40,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+13:07:22,4,Cottage Grove,,Sat
+18:35:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+18:54:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:34:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:03:22,4,Cottage Grove,,Sat
+19:03:16,4,Cottage Grove,,Sun
+04:24:41,4,Cottage Grove,,Sun
+20:42:46,4,Cottage Grove,,Sun
+16:37:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:07:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:47:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:24:41,4,Cottage Grove,,Sun
+22:04:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:07:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:55:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:19:22,4,Cottage Grove,,Sat
+06:11:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:24:41,4,Cottage Grove,,Mon
+09:59:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:19:16,4,Cottage Grove,,Sat
+12:33:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:18:46,4,Cottage Grove,,Sat
+04:24:41,4,Cottage Grove,,Sun
+20:11:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:46:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+03:55:11,4,Cottage Grove,,Sat
+19:51:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:35:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:19:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:03:22,4,Cottage Grove,,Sat
+03:24:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:11:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:09:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:08:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+11:49:04,4,Cottage Grove,,Sat
+08:22:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:10:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+04:50:11,4,Cottage Grove,,Sat
+10:20:58,4,Cottage Grove,,Sun
+11:26:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:12:52,4,Cottage Grove,,Sat
+13:24:52,4,Cottage Grove,,Sat
+15:32:52,4,Cottage Grove,,Sat
+10:29:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+12:43:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:54:50,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+12:36:52,4,Cottage Grove,,Sat
+11:15:34,4,Cottage Grove,,Sat
+08:05:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:33:16,4,Cottage Grove,,Sat
+06:43:58,4,Cottage Grove,,Sat
+13:51:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:18:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+06:16:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+11:29:46,4,Cottage Grove,,Sun
+15:25:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+23:00:58,4,Cottage Grove,,Sat
+16:50:52,4,Cottage Grove,,Sat
+06:56:58,4,Cottage Grove,,Sun
+15:24:52,4,Cottage Grove,,Sat
+16:58:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:30:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:47:04,4,Cottage Grove,,Sun
+12:07:46,4,Cottage Grove,,Sun
+17:33:16,4,Cottage Grove,,Sun
+08:12:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+06:43:46,4,Cottage Grove,,Sat
+22:17:46,4,Cottage Grove,,Sun
+21:21:16,4,Cottage Grove,,Sun
+06:31:28,4,Cottage Grove,,Sat
+20:41:16,4,Cottage Grove,,Sun
+14:59:22,4,Cottage Grove,,Sat
+09:01:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+19:07:04,4,Cottage Grove,,Sat
+17:55:34,4,Cottage Grove,,Sat
+12:52:22,4,Cottage Grove,,Sat
+02:54:41,4,Cottage Grove,,Sun
+09:37:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+10:40:58,4,Cottage Grove,,Sun
+14:37:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:59:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+15:37:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+19:41:16,4,Cottage Grove,,Sun
+08:27:46,4,Cottage Grove,,Sat
+18:24:46,4,Cottage Grove,,Sun
+08:46:49,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+05:49:30,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+18:15:34,4,Cottage Grove,,Sat
+12:20:22,4,Cottage Grove,,Sat
+05:57:11,4,Cottage Grove,,Sun
+05:52:58,4,Cottage Grove,,Sat
+19:31:16,4,Cottage Grove,,Sun
+15:51:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:23:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+00:54:41,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+06:20:20,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+13:00:22,4,Cottage Grove,,Sat
+21:23:16,4,Cottage Grove,,Sat
+15:00:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+16:35:22,4,Cottage Grove,,Sat
+11:35:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:13:16,4,Cottage Grove,,Sat
+08:41:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+13:40:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:53:16,4,Cottage Grove,,Sun
+11:20:16,4,Cottage Grove,,Sun
+13:27:04,4,Cottage Grove,,Sun
+11:00:58,4,Cottage Grove,,Sun
+06:38:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+05:38:11,4,Cottage Grove,,Sat
+08:28:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+14:07:04,4,Cottage Grove,,Sun
+07:25:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:43:58,4,Cottage Grove,,Sun
+09:42:16,4,Cottage Grove,,Sat
+14:55:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+11:16:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:16:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+21:22:46,4,Cottage Grove,,Sun
+13:57:04,4,Cottage Grove,,Sun
+17:00:52,4,Cottage Grove,,Sat
+21:09:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:57:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:28:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+08:06:56,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+17:47:04,4,Cottage Grove,,Sat
+22:17:28,4,Cottage Grove,,Sat
+12:17:46,4,Cottage Grove,,Sun
+11:57:46,4,Cottage Grove,,Sun
+06:31:50,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+02:54:41,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+07:43:10,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:51:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:43:16,4,Cottage Grove,,Sun
+23:37:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:38:11,4,Cottage Grove,,Sun
+13:39:22,4,Cottage Grove,,Sat
+14:47:04,4,Cottage Grove,,Sun
+13:32:52,4,Cottage Grove,,Sat
+19:45:16,4,Cottage Grove,,Sat
+10:30:58,4,Cottage Grove,,Sun
+24:24:11,4,Cottage Grove,,Sat
+11:45:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+00:52:41,4,Cottage Grove,,Sun
+19:24:16,4,Cottage Grove,,Sat
+05:08:11,4,Cottage Grove,,Sat
+21:21:46,4,Cottage Grove,,Sat
+17:23:16,4,Cottage Grove,,Sun
+15:15:22,4,Cottage Grove,,Sat
+07:49:16,4,Cottage Grove,,Sat
+17:24:46,4,Cottage Grove,,Sun
+07:07:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+17:13:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+17:33:04,4,Cottage Grove,,Sat
+10:39:52,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:44:41,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+04:50:11,4,Cottage Grove,,Sat
+10:10:58,4,Cottage Grove,,Sun
+18:23:16,4,Cottage Grove,,Sun
+16:34:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+09:50:58,4,Cottage Grove,,Sun
+07:20:10,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+05:12:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+05:42:11,4,Cottage Grove,,Sun
+05:12:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+16:01:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+09:01:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+08:31:40,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:52:58,4,Cottage Grove,,Sun
+12:21:04,4,Cottage Grove,,Sat
+24:24:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+04:41:41,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+15:49:21,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+22:17:46,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+23:58:11,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+17:37:28,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+20:52:46,4,Cottage Grove,,Sun
+16:46:31,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+20:35:16,4,Cottage Grove,,Sat
+22:57:58,4,Cottage Grove,,Sun
+05:23:11,4,Cottage Grove,,Sat
+23:22:28,4,Cottage Grove,,Sat
+09:07:40,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+11:57:46,4,Cottage Grove,,Sun
+20:15:16,4,Cottage Grove,,Sat
+21:29:16,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+08:18:26,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+02:24:41,4,Cottage Grove,,Sun
+19:14:22,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:31:16,4,Cottage Grove,,Sat
+05:24:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+21:11:16,4,Cottage Grove,,Sun
+08:58:11,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+02:24:41,4,Cottage Grove,,Mon
+06:01:03,2,Hyde Park Express,,Mon,Tue,Wed,Thu,Fri
+06:48:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+01:25:11,4,Cottage Grove,,Tue,Wed,Thu,Fri,Sat
+22:02:46,4,Cottage Grove,,Sun
+07:59:16,4,Cottage Grove,,Sat
+01:53:41,4,Cottage Grove,,Sun
+09:30:58,4,Cottage Grove,,Sun
+04:25:11,4,Cottage Grove,,Sat
+16:07:04,4,Cottage Grove,,Sun
+12:44:52,4,Cottage Grove,,Sat
+20:01:04,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+14:37:04,4,Cottage Grove,,Sun
+15:42:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+07:32:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+13:57:04,4,Cottage Grove,,Sun
+14:18:01,X4,Cottage Grove Express,,Mon,Tue,Wed,Thu,Fri
+16:11:22,4,Cottage Grove,,Sat
+14:36:58,4,Cottage Grove,,Mon,Tue,Wed,Thu,Fri
+10:50:58,4,Cottage Grove,,Sun

@@ -1,0 +1,5 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+14:20:40,206,Evanston Circulator,,Mon
+14:20:10,206,Evanston Circulator,,Mon
+15:48:30,206,Evanston Circulator,,Tue,Wed,Thu,Fri
+15:49:00,206,Evanston Circulator,,Tue,Wed,Thu,Fri

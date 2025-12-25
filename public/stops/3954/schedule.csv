@@ -1,0 +1,825 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+11:46:10,6,Jackson Park Express,,Sat
+19:44:40,6,Jackson Park Express,,Sat
+09:23:10,6,Jackson Park Express,,Sat
+15:55:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+04:45:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:00:10,6,Jackson Park Express,,Sat
+07:27:44,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:49:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:41:40,6,Jackson Park Express,,Sun
+16:41:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:45:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:20:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:50:40,6,Jackson Park Express,,Sat
+16:53:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:51:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:50:10,6,Jackson Park Express,,Sun
+11:39:40,6,Jackson Park Express,,Sun
+11:26:40,6,Jackson Park Express,,Sat
+07:18:40,6,Jackson Park Express,,Sun
+24:30:10,6,Jackson Park Express,,Sat
+18:00:10,6,Jackson Park Express,,Sat
+05:36:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:58:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:19:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:14:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:57:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:27:40,6,Jackson Park Express,,Sun
+15:45:40,6,Jackson Park Express,,Sat
+05:42:40,6,Jackson Park Express,,Sun
+11:52:40,6,Jackson Park Express,,Sun
+21:08:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:19:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:01:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:29:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:24:40,6,Jackson Park Express,,Sat
+13:08:10,6,Jackson Park Express,,Sun
+09:36:10,6,Jackson Park Express,,Sat
+24:04:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:03:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:45:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:27:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:57:10,6,Jackson Park Express,,Sun
+18:11:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:52:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:17:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:33:40,6,Jackson Park Express,,Sat
+12:59:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:45:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:23:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:06:35,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:43:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:06:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:06:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:09:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:54:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:46:10,6,Jackson Park Express,,Sat
+15:06:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:33:49,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:22:10,6,Jackson Park Express,,Sat
+18:24:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:30:40,6,Jackson Park Express,,Sat
+12:57:10,6,Jackson Park Express,,Sat
+15:03:40,6,Jackson Park Express,,Sat
+16:18:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:24:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:02:40,6,Jackson Park Express,,Sun
+18:59:40,6,Jackson Park Express,,Sun
+12:04:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:46:10,6,Jackson Park Express,,Sat
+11:45:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:15:10,6,Jackson Park Express,,Sat
+18:57:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:31:40,6,Jackson Park Express,,Sun
+16:38:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:45:40,6,Jackson Park Express,,Sat
+24:16:40,6,Jackson Park Express,,Sat
+19:11:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:08:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:31:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:06:35,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:24:40,6,Jackson Park Express,,Sat
+12:35:40,6,Jackson Park Express,,Sun
+13:39:40,6,Jackson Park Express,,Sat
+17:18:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:45:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:39:40,6,Jackson Park Express,,Sun
+05:50:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:28:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:11:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:21:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:44:40,6,Jackson Park Express,,Sat
+18:01:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:15:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:04:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:34:47,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:42:40,6,Jackson Park Express,,Sat
+05:43:10,6,Jackson Park Express,,Sun
+17:09:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:34:40,6,Jackson Park Express,,Sun
+08:10:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:26:40,6,Jackson Park Express,,Sun
+15:44:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:01:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:37:40,6,Jackson Park Express,,Sun
+20:20:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:34:40,6,Jackson Park Express,,Sat
+14:46:35,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:57:10,6,Jackson Park Express,,Sun
+06:12:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:13:40,6,Jackson Park Express,,Sun
+21:49:40,6,Jackson Park Express,,Sun
+06:05:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:13:10,6,Jackson Park Express,,Sun
+16:31:16,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:43:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:19:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:15:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:18:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:59:40,6,Jackson Park Express,,Sat
+18:27:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:23:10,6,Jackson Park Express,,Sat
+16:58:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:42:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+23:59:40,6,Jackson Park Express,,Sat
+05:31:40,6,Jackson Park Express,,Sat
+10:59:10,6,Jackson Park Express,,Sun
+18:19:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:03:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:28:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:14:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:16:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:55:40,6,Jackson Park Express,,Sun
+09:07:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:23:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:52:40,6,Jackson Park Express,,Sun
+11:28:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:48:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:36:40,6,Jackson Park Express,,Sat
+16:01:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:50:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:15:40,6,Jackson Park Express,,Sat
+06:30:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:54:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:55:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:01:40,6,Jackson Park Express,,Sun
+18:43:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:40:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:59:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:02:10,6,Jackson Park Express,,Sat
+19:21:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:02:10,6,Jackson Park Express,,Sun
+13:31:10,6,Jackson Park Express,,Sat
+18:01:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:06:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:45:10,6,Jackson Park Express,,Sun
+00:44:10,6,Jackson Park Express,,Mon
+13:54:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:59:10,6,Jackson Park Express,,Sat
+15:25:10,6,Jackson Park Express,,Sun
+16:10:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:21:10,6,Jackson Park Express,,Sat
+08:55:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:38:10,6,Jackson Park Express,,Sat
+13:35:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:06:40,6,Jackson Park Express,,Sun
+16:31:16,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+23:05:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:27:40,6,Jackson Park Express,,Sat
+14:53:35,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:44:40,6,Jackson Park Express,,Sun
+07:38:40,6,Jackson Park Express,,Sun
+17:55:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:05:40,6,Jackson Park Express,,Sat
+06:55:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:25:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:24:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:09:40,6,Jackson Park Express,,Sat
+15:36:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:22:10,6,Jackson Park Express,,Sat
+12:55:40,6,Jackson Park Express,,Sat
+18:19:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:52:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:02:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:45:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:15:10,6,Jackson Park Express,,Sat
+04:53:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:04:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:11:40,6,Jackson Park Express,,Sat
+19:01:10,6,Jackson Park Express,,Sat
+22:45:10,6,Jackson Park Express,,Sun
+06:22:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:10:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:38:10,6,Jackson Park Express,,Sun
+08:26:10,6,Jackson Park Express,,Sat
+15:12:10,6,Jackson Park Express,,Sat
+17:13:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:33:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:32:22,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:28:10,6,Jackson Park Express,,Sat
+13:01:40,6,Jackson Park Express,,Sun
+09:31:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:32:40,6,Jackson Park Express,,Sun
+17:17:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:06:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:13:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:35:16,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:33:10,6,Jackson Park Express,,Sat
+18:23:40,6,Jackson Park Express,,Sun
+17:44:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:26:10,6,Jackson Park Express,,Sun
+17:42:10,6,Jackson Park Express,,Sat
+09:52:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:11:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:55:40,6,Jackson Park Express,,Sun
+17:22:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+23:37:10,6,Jackson Park Express,,Sun
+08:47:10,6,Jackson Park Express,,Sat
+19:34:40,6,Jackson Park Express,,Sat
+19:20:10,6,Jackson Park Express,,Sun
+16:48:10,6,Jackson Park Express,,Sun
+09:13:10,6,Jackson Park Express,,Sat
+09:58:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:19:10,6,Jackson Park Express,,Sun
+11:38:10,6,Jackson Park Express,,Sat
+22:17:10,6,Jackson Park Express,,Sun
+18:27:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:42:40,6,Jackson Park Express,,Sun
+15:00:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:39:40,6,Jackson Park Express,,Sun
+20:57:40,6,Jackson Park Express,,Sat
+10:46:40,6,Jackson Park Express,,Sat
+15:48:10,6,Jackson Park Express,,Sat
+06:10:40,6,Jackson Park Express,,Sat
+16:12:17,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:52:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:18:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:00:10,6,Jackson Park Express,,Sun
+18:35:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:12:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:22:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:40:10,6,Jackson Park Express,,Sat
+16:33:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:24:40,6,Jackson Park Express,,Sat
+16:48:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:22:10,6,Jackson Park Express,,Sun
+18:51:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:40:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:33:40,6,Jackson Park Express,,Sat
+15:36:40,6,Jackson Park Express,,Sat
+09:15:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:21:40,6,Jackson Park Express,,Sun
+18:09:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:39:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:48:40,6,Jackson Park Express,,Sat
+22:01:10,6,Jackson Park Express,,Sat
+06:36:40,6,Jackson Park Express,,Sun
+14:51:40,6,Jackson Park Express,,Sat
+05:30:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:00:17,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:59:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:43:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:10:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:12:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+22:37:10,6,Jackson Park Express,,Sun
+22:09:40,6,Jackson Park Express,,Sun
+15:57:10,6,Jackson Park Express,,Sat
+13:47:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:04:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:45:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:13:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:24:10,6,Jackson Park Express,,Sat
+17:52:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:48:10,6,Jackson Park Express,,Sat
+19:21:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:23:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:09:40,6,Jackson Park Express,,Sat
+07:55:10,6,Jackson Park Express,,Sun
+16:27:47,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:48:10,6,Jackson Park Express,,Sat
+16:32:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:23:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:16:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:21:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:35:40,6,Jackson Park Express,,Sun
+12:19:10,6,Jackson Park Express,,Sat
+07:10:22,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:20:40,6,Jackson Park Express,,Sat
+20:23:40,6,Jackson Park Express,,Sun
+20:09:10,6,Jackson Park Express,,Sat
+17:31:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:06:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:15:40,6,Jackson Park Express,,Sat
+17:14:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:18:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:24:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:43:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:41:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:47:10,6,Jackson Park Express,,Sun
+12:47:10,6,Jackson Park Express,,Sat
+16:15:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:26:40,6,Jackson Park Express,,Sun
+18:30:10,6,Jackson Park Express,,Sat
+17:44:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:04:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:21:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:50:40,6,Jackson Park Express,,Sun
+17:30:10,6,Jackson Park Express,,Sun
+15:25:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:18:40,6,Jackson Park Express,,Sat
+18:27:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:51:40,6,Jackson Park Express,,Sat
+21:21:40,6,Jackson Park Express,,Sat
+17:50:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:14:19,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:24:10,6,Jackson Park Express,,Sat
+05:33:10,6,Jackson Park Express,,Sat
+20:37:10,6,Jackson Park Express,,Sat
+17:54:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+10:33:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:03:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:07:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:00:10,6,Jackson Park Express,,Sat
+15:30:10,6,Jackson Park Express,,Sat
+14:53:35,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:51:10,6,Jackson Park Express,,Sat
+11:55:40,6,Jackson Park Express,,Sat
+08:10:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:47:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:30:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:28:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:36:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+22:21:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:16:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:16:10,6,Jackson Park Express,,Sat
+23:45:10,6,Jackson Park Express,,Sat
+18:22:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:06:10,6,Jackson Park Express,,Sat
+05:52:10,6,Jackson Park Express,,Sat
+14:36:40,6,Jackson Park Express,,Sun
+12:31:10,6,Jackson Park Express,,Sat
+07:02:10,6,Jackson Park Express,,Sat
+18:12:10,6,Jackson Park Express,,Sun
+12:06:40,6,Jackson Park Express,,Sun
+12:05:10,6,Jackson Park Express,,Sat
+20:41:10,6,Jackson Park Express,,Sun
+19:48:40,6,Jackson Park Express,,Sun
+24:25:10,6,Jackson Park Express,,Sun
+16:11:10,6,Jackson Park Express,,Sun
+15:24:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:00:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:05:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:46:35,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:57:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:38:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:32:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:25:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:09:10,6,Jackson Park Express,,Sun
+16:00:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:58:40,6,Jackson Park Express,,Sun
+15:19:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:42:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:54:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+20:49:40,6,Jackson Park Express,,Sat
+15:09:40,6,Jackson Park Express,,Sat
+19:32:10,6,Jackson Park Express,,Sat
+17:40:40,6,Jackson Park Express,,Sun
+16:24:40,6,Jackson Park Express,,Sat
+15:46:10,6,Jackson Park Express,,Sun
+08:36:10,6,Jackson Park Express,,Sun
+15:08:10,6,Jackson Park Express,,Sun
+11:18:10,6,Jackson Park Express,,Sat
+17:06:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:52:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:41:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:57:10,6,Jackson Park Express,,Sat
+18:51:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:41:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:10:40,6,Jackson Park Express,,Sun
+18:36:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:14:19,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:19:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:57:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:07:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:37:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:53:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:58:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:49:40,6,Jackson Park Express,,Sat
+09:01:40,6,Jackson Park Express,,Sat
+11:16:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:43:10,6,Jackson Park Express,,Sun
+18:15:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:47:10,6,Jackson Park Express,,Sat
+21:46:40,6,Jackson Park Express,,Sat
+10:00:10,6,Jackson Park Express,,Sat
+09:00:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:53:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:41:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:56:40,6,Jackson Park Express,,Sun
+16:46:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:56:40,6,Jackson Park Express,,Sun
+13:33:10,6,Jackson Park Express,,Sat
+17:48:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:56:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:22:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:42:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+06:18:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:55:40,6,Jackson Park Express,,Sun
+07:43:57,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:56:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:02:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:19:10,6,Jackson Park Express,,Sat
+12:33:40,6,Jackson Park Express,,Sun
+16:03:40,6,Jackson Park Express,,Sat
+23:49:10,6,Jackson Park Express,,Sun
+09:34:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:58:40,6,Jackson Park Express,,Sun
+23:17:10,6,Jackson Park Express,,Sun
+16:21:40,6,Jackson Park Express,,Sun
+07:18:40,6,Jackson Park Express,,Sat
+12:22:40,6,Jackson Park Express,,Sun
+14:09:40,6,Jackson Park Express,,Sat
+16:32:10,6,Jackson Park Express,,Sun
+18:08:10,6,Jackson Park Express,,Sat
+16:37:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:20:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:37:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:01:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:13:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:28:47,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:31:10,6,Jackson Park Express,,Sat
+21:52:10,6,Jackson Park Express,,Sat
+00:44:10,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+07:54:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:23:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+24:13:40,6,Jackson Park Express,,Sat
+12:47:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:57:40,6,Jackson Park Express,,Sun
+16:33:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:00:40,6,Jackson Park Express,,Sat
+07:49:27,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:52:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+04:51:22,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:25:40,6,Jackson Park Express,,Sun
+14:11:40,6,Jackson Park Express,,Sun
+24:22:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:00:40,6,Jackson Park Express,,Sun
+08:20:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:21:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:34:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:28:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:57:40,6,Jackson Park Express,,Sat
+16:24:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:47:10,6,Jackson Park Express,,Sat
+09:22:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:49:10,6,Jackson Park Express,,Sat
+12:09:10,6,Jackson Park Express,,Sat
+12:35:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:57:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:30:10,6,Jackson Park Express,,Sat
+07:17:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:33:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:20:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:06:47,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:11:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:19:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:12:40,6,Jackson Park Express,,Sat
+04:46:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:12:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:18:40,6,Jackson Park Express,,Sat
+22:45:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:35:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:12:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:40:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:08:10,6,Jackson Park Express,,Sat
+22:29:40,6,Jackson Park Express,,Sat
+10:28:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:05:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:04:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+05:03:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:44:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:35:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:13:10,6,Jackson Park Express,,Sun
+15:13:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+23:05:10,6,Jackson Park Express,,Sun
+12:09:40,6,Jackson Park Express,,Sun
+13:29:40,6,Jackson Park Express,,Sun
+17:48:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:32:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:38:40,6,Jackson Park Express,,Sat
+17:49:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:29:10,6,Jackson Park Express,,Sun
+15:34:48,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+21:11:40,6,Jackson Park Express,,Sun
+18:11:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:49:27,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:31:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:13:10,6,Jackson Park Express,,Sat
+06:15:10,6,Jackson Park Express,,Sun
+07:33:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:35:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:46:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:00:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:52:47,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:32:40,6,Jackson Park Express,,Sun
+15:04:10,6,Jackson Park Express,,Sun
+20:05:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:47:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:49:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:23:10,6,Jackson Park Express,,Sat
+10:40:40,6,Jackson Park Express,,Sun
+18:45:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:30:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:58:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:42:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:46:10,6,Jackson Park Express,,Sun
+16:57:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:21:40,6,Jackson Park Express,,Sat
+20:12:10,6,Jackson Park Express,,Sat
+22:01:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:15:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:24:17,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+23:00:10,6,Jackson Park Express,,Sat
+13:42:10,6,Jackson Park Express,,Sat
+15:54:40,6,Jackson Park Express,,Sat
+15:55:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:33:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:54:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:09:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:11:10,6,Jackson Park Express,,Sat
+06:11:10,6,Jackson Park Express,,Sat
+16:06:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:30:40,6,Jackson Park Express,,Sun
+13:15:10,6,Jackson Park Express,,Sat
+08:35:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+11:13:40,6,Jackson Park Express,,Sun
+16:00:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:04:10,6,Jackson Park Express,,Sat
+18:38:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:32:10,6,Jackson Park Express,,Sun
+09:22:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:25:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:11:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:51:10,6,Jackson Park Express,,Sun
+05:32:22,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:27:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:04:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:00:40,6,Jackson Park Express,,Sun
+18:58:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:44:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:58:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:19:10,6,Jackson Park Express,,Sat
+07:56:10,6,Jackson Park Express,,Sat
+11:52:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+11:59:10,6,Jackson Park Express,,Sat
+14:28:40,6,Jackson Park Express,,Sat
+16:43:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:16:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:00:17,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:44:10,6,Jackson Park Express,,Sun
+08:57:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:07:10,6,Jackson Park Express,,Sun
+12:57:10,6,Jackson Park Express,,Sun
+14:39:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:19:10,6,Jackson Park Express,,Sun
+15:14:48,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+24:25:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:21:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:39:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:44:40,6,Jackson Park Express,,Sat
+16:38:17,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:57:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:46:10,6,Jackson Park Express,,Sun
+19:10:40,6,Jackson Park Express,,Sat
+17:51:10,6,Jackson Park Express,,Sat
+05:30:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+21:27:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:39:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:54:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:37:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:42:40,6,Jackson Park Express,,Sat
+23:19:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:39:40,6,Jackson Park Express,,Sat
+07:10:10,6,Jackson Park Express,,Sun
+07:25:40,6,Jackson Park Express,,Sat
+05:42:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:21:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:40:10,6,Jackson Park Express,,Sun
+09:34:40,6,Jackson Park Express,,Sat
+24:00:10,6,Jackson Park Express,,Sat
+16:53:46,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:43:10,6,Jackson Park Express,,Sun
+18:17:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:51:10,6,Jackson Park Express,,Sun
+10:45:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:39:10,6,Jackson Park Express,,Sat
+17:15:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:57:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:32:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:41:10,6,Jackson Park Express,,Sat
+20:52:40,6,Jackson Park Express,,Sun
+21:27:10,6,Jackson Park Express,,Sat
+09:15:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:06:47,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:45:10,6,Jackson Park Express,,Sat
+08:50:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:29:10,6,Jackson Park Express,,Sat
+18:53:40,6,Jackson Park Express,,Sat
+10:45:10,6,Jackson Park Express,,Sat
+06:45:10,6,Jackson Park Express,,Sat
+19:59:40,6,Jackson Park Express,,Sat
+14:55:10,6,Jackson Park Express,,Sat
+09:30:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:28:40,6,Jackson Park Express,,Sat
+16:41:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:44:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:45:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+22:28:10,6,Jackson Park Express,,Sun
+09:13:40,6,Jackson Park Express,,Sun
+20:16:10,6,Jackson Park Express,,Sun
+17:39:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:34:48,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+04:53:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+07:36:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:09:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:05:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+12:38:10,6,Jackson Park Express,,Sat
+17:06:10,6,Jackson Park Express,,Sat
+06:11:40,6,Jackson Park Express,,Sun
+06:02:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:31:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:32:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:00:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:23:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:51:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:19:10,6,Jackson Park Express,,Sat
+09:06:10,6,Jackson Park Express,,Sun
+17:38:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+23:59:40,6,Jackson Park Express,,Sun
+23:30:10,6,Jackson Park Express,,Sat
+13:24:40,6,Jackson Park Express,,Sun
+15:19:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:41:40,6,Jackson Park Express,,Sat
+17:18:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:04:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:29:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:30:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:55:40,6,Jackson Park Express,,Sat
+10:10:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:37:40,6,Jackson Park Express,,Sat
+16:01:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:45:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:47:17,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+08:00:10,6,Jackson Park Express,,Sat
+08:11:40,6,Jackson Park Express,,Sun
+23:14:40,6,Jackson Park Express,,Sat
+17:08:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+07:41:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+13:30:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:11:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+11:08:10,6,Jackson Park Express,,Sat
+08:05:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:06:10,6,Jackson Park Express,,Sun
+22:24:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+23:22:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+09:22:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+19:38:10,6,Jackson Park Express,,Sun
+23:25:10,6,Jackson Park Express,,Sun
+19:50:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:00:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:08:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+13:42:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:17:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:35:16,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+09:21:10,6,Jackson Park Express,,Sun
+17:50:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:45:48,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:06:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+20:05:40,6,Jackson Park Express,,Sun
+14:01:10,6,Jackson Park Express,,Sun
+23:29:40,6,Jackson Park Express,,Sat
+16:38:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:43:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:19:40,6,Jackson Park Express,,Sun
+12:14:40,6,Jackson Park Express,,Sat
+16:54:46,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:54:46,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:11:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:50:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+08:15:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:07:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+21:34:10,6,Jackson Park Express,,Sat
+17:41:40,6,Jackson Park Express,,Sun
+16:28:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:18:40,6,Jackson Park Express,,Sun
+20:36:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:45:16,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:12:40,6,Jackson Park Express,,Sat
+20:34:10,6,Jackson Park Express,,Sat
+10:58:10,6,Jackson Park Express,,Sat
+09:28:40,6,Jackson Park Express,,Sun
+08:00:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+20:24:40,6,Jackson Park Express,,Sat
+08:05:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:30:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+14:06:40,6,Jackson Park Express,,Sat
+06:42:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:08:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:33:40,6,Jackson Park Express,,Sat
+00:55:10,6,Jackson Park Express,,Mon
+07:36:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+12:39:40,6,Jackson Park Express,,Sat
+08:51:10,6,Jackson Park Express,,Sun
+19:00:17,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+12:48:10,6,Jackson Park Express,,Sat
+07:29:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+17:28:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:19:46,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+06:28:40,6,Jackson Park Express,,Sat
+11:09:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+05:51:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:34:40,6,Jackson Park Express,,Sat
+00:49:10,6,Jackson Park Express,,Sun
+13:50:40,6,Jackson Park Express,,Sun
+17:33:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:17:40,6,Jackson Park Express,,Sun
+11:27:40,6,Jackson Park Express,,Sun
+22:57:10,6,Jackson Park Express,,Sun
+18:04:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+05:42:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:56:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:43:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+16:12:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:52:10,6,Jackson Park Express,,Sun
+14:32:40,6,Jackson Park Express,,Sun
+09:43:40,6,Jackson Park Express,,Sun
+19:06:10,6,Jackson Park Express,,Sat
+14:57:40,6,Jackson Park Express,,Sun
+06:12:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:00:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+19:56:40,6,Jackson Park Express,,Sat
+17:24:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:32:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+15:14:48,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:10:10,6,Jackson Park Express,,Sat
+06:43:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:22:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:47:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:41:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:53:40,6,Jackson Park Express,,Sun
+10:40:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+18:22:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:40:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:02:52,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:30:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:23:45,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:47:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+24:34:40,6,Jackson Park Express,,Sat
+13:35:40,6,Jackson Park Express,,Sun
+09:05:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:06:45,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+14:30:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+24:01:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:09:10,6,Jackson Park Express,,Sat
+08:21:10,6,Jackson Park Express,,Sun
+16:28:10,6,Jackson Park Express,,Sun
+16:12:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+17:11:40,6,Jackson Park Express,,Sun
+18:22:40,6,Jackson Park Express,,Sun
+08:50:10,6,Jackson Park Express,,Sat
+18:15:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:52:47,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+16:06:40,6,Jackson Park Express,,Sat
+18:01:46,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+13:22:40,6,Jackson Park Express,,Sat
+12:20:40,6,Jackson Park Express,,Sun
+09:00:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+04:51:22,20,Madison,,Mon,Tue,Wed,Thu,Fri
+18:33:40,6,Jackson Park Express,,Sun
+09:57:40,6,Jackson Park Express,,Sat
+08:35:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:04:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+06:30:10,6,Jackson Park Express,,Sat
+09:58:10,6,Jackson Park Express,,Sun
+17:56:32,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:46:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+14:16:10,6,Jackson Park Express,,Sun
+21:14:40,6,Jackson Park Express,,Sat
+15:31:48,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:54:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+10:12:40,6,Jackson Park Express,,Sun
+05:51:40,6,Jackson Park Express,,Sat
+09:48:40,6,Jackson Park Express,,Sat
+11:21:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+19:15:40,6,Jackson Park Express,,Sun
+09:15:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+10:31:40,6,Jackson Park Express,,Sat
+12:48:40,6,Jackson Park Express,,Sun
+17:37:15,134,Stockton/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+15:00:05,20,Madison,,Mon,Tue,Wed,Thu,Fri
+09:10:18,20,Madison,,Mon,Tue,Wed,Thu,Fri
+22:04:40,6,Jackson Park Express,,Sat
+05:20:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+07:10:22,20,Madison,,Mon,Tue,Wed,Thu,Fri
+15:57:50,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:47:17,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:20:10,6,Jackson Park Express,,Sat
+07:27:44,20,Madison,,Mon,Tue,Wed,Thu,Fri
+08:11:40,6,Jackson Park Express,,Sat
+16:51:15,135,Clarendon/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+17:28:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:39:40,6,Jackson Park Express,,Sat
+07:43:57,20,Madison,,Mon,Tue,Wed,Thu,Fri
+23:39:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:48:02,20,Madison,,Mon,Tue,Wed,Thu,Fri
+00:46:10,6,Jackson Park Express,,Tue,Wed,Thu,Fri,Sat
+09:14:40,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+22:17:40,6,Jackson Park Express,,Sat
+17:57:40,6,Jackson Park Express,,Sat
+15:14:40,6,Jackson Park Express,,Sun
+17:36:45,136,Sheridan/LaSalle Express,,Mon,Tue,Wed,Thu,Fri
+18:24:10,6,Jackson Park Express,,Mon,Tue,Wed,Thu,Fri
+16:41:10,6,Jackson Park Express,,Sun
+24:14:10,6,Jackson Park Express,,Sun
+17:15:10,6,Jackson Park Express,,Sat

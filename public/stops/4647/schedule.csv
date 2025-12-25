@@ -1,0 +1,375 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+19:05:48,63W,West 63rd,,Sat
+10:33:54,63W,West 63rd,,Sun
+14:03:48,63W,West 63rd,,Sun
+19:34:18,63W,West 63rd,,Sat
+13:03:48,63W,West 63rd,,Sun
+19:17:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+06:17:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:39:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+09:19:39,62H,Archer/Harlem,,Sat
+15:33:48,63W,West 63rd,,Sun
+23:04:36,63W,West 63rd,,Sat
+05:17:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+10:49:39,62H,Archer/Harlem,,Sat
+22:03:48,63W,West 63rd,,Sun
+16:03:48,63W,West 63rd,,Sun
+15:47:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+04:21:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+10:19:39,62H,Archer/Harlem,,Sat
+18:23:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+15:06:48,63W,West 63rd,,Sat
+16:13:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+22:18:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+15:23:27,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+16:36:48,63W,West 63rd,,Sat
+17:59:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:33:48,63W,West 63rd,,Sun
+09:06:48,63W,West 63rd,,Sat
+15:47:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:34:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+20:02:18,63W,West 63rd,,Sat
+21:19:18,63W,West 63rd,,Sat
+06:53:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:33:54,63W,West 63rd,,Sun
+20:57:48,63W,West 63rd,,Sat
+19:20:48,63W,West 63rd,,Sat
+06:16:39,62H,Archer/Harlem,,Sat
+09:59:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+05:17:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+10:47:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:06:48,63W,West 63rd,,Sat
+19:05:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+15:03:48,63W,West 63rd,,Sun
+17:49:39,62H,Archer/Harlem,,Sat
+20:57:48,63W,West 63rd,,Sat
+07:54:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:03:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+11:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+05:06:48,63W,West 63rd,,Sat
+07:13:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+14:03:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+09:33:54,63W,West 63rd,,Sun
+12:06:48,63W,West 63rd,,Sat
+07:05:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+20:46:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:12:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+19:03:48,63W,West 63rd,,Sun
+11:11:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+06:33:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+19:33:48,63W,West 63rd,,Sun
+23:04:00,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:54:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+09:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+15:46:57,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+07:33:42,63W,West 63rd,,Sun
+18:36:48,63W,West 63rd,,Sat
+12:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+19:37:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+06:41:00,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+05:07:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+22:41:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+12:36:48,63W,West 63rd,,Sat
+10:03:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+19:37:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:04:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+09:03:54,63W,West 63rd,,Sun
+11:19:39,62H,Archer/Harlem,,Sat
+14:54:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:36:48,63W,West 63rd,,Sat
+12:25:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:49:39,62H,Archer/Harlem,,Sat
+06:41:00,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+08:06:48,63W,West 63rd,,Sat
+06:14:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+20:26:34,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+18:23:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+10:03:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+07:04:39,62H,Archer/Harlem,,Sat
+06:53:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+17:39:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+08:46:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+21:55:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:36:48,63W,West 63rd,,Sat
+18:38:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:19:39,62H,Archer/Harlem,,Sat
+11:49:39,62H,Archer/Harlem,,Sat
+21:09:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:59:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+05:29:54,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:19:39,62H,Archer/Harlem,,Sat
+11:19:39,62H,Archer/Harlem,,Sat
+12:49:39,62H,Archer/Harlem,,Sat
+14:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+04:21:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:36:48,63W,West 63rd,,Sat
+11:03:54,63W,West 63rd,,Sun
+19:59:04,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+13:38:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:32:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:49:39,62H,Archer/Harlem,,Sat
+20:03:48,63W,West 63rd,,Sun
+06:06:48,63W,West 63rd,,Sat
+09:04:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+04:44:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:17:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+14:03:48,63W,West 63rd,,Sun
+05:55:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+07:52:39,62H,Archer/Harlem,,Sat
+06:33:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+22:02:18,63W,West 63rd,,Sat
+14:36:48,63W,West 63rd,,Sat
+15:21:00,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+19:59:04,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+11:36:54,63W,West 63rd,,Sat
+07:29:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:03:48,63W,West 63rd,,Sun
+12:19:39,62H,Archer/Harlem,,Sat
+07:03:42,63W,West 63rd,,Sun
+19:04:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+21:33:48,63W,West 63rd,,Sun
+12:49:39,62H,Archer/Harlem,,Sat
+10:47:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+11:03:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+05:51:54,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+19:17:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+10:06:54,63W,West 63rd,,Sat
+14:19:39,62H,Archer/Harlem,,Sat
+06:06:48,63W,West 63rd,,Sat
+08:19:39,62H,Archer/Harlem,,Sat
+08:36:48,63W,West 63rd,,Sat
+10:19:39,62H,Archer/Harlem,,Sat
+22:18:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+06:16:39,62H,Archer/Harlem,,Sat
+20:33:48,63W,West 63rd,,Sun
+08:15:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+16:19:39,62H,Archer/Harlem,,Sat
+21:09:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:06:48,63W,West 63rd,,Sat
+19:34:18,63W,West 63rd,,Sat
+08:03:42,63W,West 63rd,,Sun
+07:28:39,62H,Archer/Harlem,,Sat
+07:06:42,63W,West 63rd,,Sat
+15:19:39,62H,Archer/Harlem,,Sat
+11:06:54,63W,West 63rd,,Sat
+20:33:48,63W,West 63rd,,Sun
+14:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+11:11:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:27:54,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:33:48,63W,West 63rd,,Sun
+15:49:39,62H,Archer/Harlem,,Sat
+21:55:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+10:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+18:33:48,63W,West 63rd,,Sun
+18:51:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:19:39,62H,Archer/Harlem,,Sat
+16:09:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+18:01:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+20:46:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+12:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+14:06:48,63W,West 63rd,,Sat
+08:36:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:49:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+11:36:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:49:39,62H,Archer/Harlem,,Sat
+07:04:39,62H,Archer/Harlem,,Sat
+20:23:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:33:48,63W,West 63rd,,Sun
+18:06:48,63W,West 63rd,,Sat
+22:44:06,63W,West 63rd,,Sat
+10:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+21:40:48,63W,West 63rd,,Sat
+16:32:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+13:06:48,63W,West 63rd,,Sat
+10:36:54,63W,West 63rd,,Sat
+07:33:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+05:29:09,62H,Archer/Harlem,,Sat
+14:03:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+08:19:36,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:59:57,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+05:55:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+08:19:36,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:59:57,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+13:04:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+17:17:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+05:36:48,63W,West 63rd,,Sat
+14:06:48,63W,West 63rd,,Sat
+08:03:42,63W,West 63rd,,Sun
+19:03:48,63W,West 63rd,,Sun
+20:03:48,63W,West 63rd,,Sun
+19:33:48,63W,West 63rd,,Sun
+07:13:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+08:33:42,63W,West 63rd,,Sun
+11:06:54,63W,West 63rd,,Sat
+11:03:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+14:33:48,63W,West 63rd,,Sun
+18:33:48,63W,West 63rd,,Sun
+05:29:09,62H,Archer/Harlem,,Sat
+18:49:39,62H,Archer/Harlem,,Sat
+20:30:18,63W,West 63rd,,Sat
+05:52:39,62H,Archer/Harlem,,Sat
+05:29:54,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+05:06:48,63W,West 63rd,,Sat
+07:52:39,62H,Archer/Harlem,,Sat
+10:22:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+15:46:57,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+09:06:48,63W,West 63rd,,Sat
+08:33:42,63W,West 63rd,,Sun
+20:02:18,63W,West 63rd,,Sat
+08:49:39,62H,Archer/Harlem,,Sat
+11:33:54,63W,West 63rd,,Sun
+19:04:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:03:48,63W,West 63rd,,Sun
+23:04:00,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:49:39,62H,Archer/Harlem,,Sat
+18:38:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+07:03:42,63W,West 63rd,,Sun
+16:32:21,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+11:03:54,63W,West 63rd,,Sun
+16:36:48,63W,West 63rd,,Sat
+14:27:54,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+10:03:54,63W,West 63rd,,Sun
+16:54:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+06:40:39,62H,Archer/Harlem,,Sat
+22:41:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+08:46:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+07:28:39,62H,Archer/Harlem,,Sat
+18:03:48,63W,West 63rd,,Sun
+16:13:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+05:36:48,63W,West 63rd,,Sat
+07:36:48,63W,West 63rd,,Sat
+05:07:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+15:33:48,63W,West 63rd,,Sun
+08:36:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+08:19:39,62H,Archer/Harlem,,Sat
+14:49:39,62H,Archer/Harlem,,Sat
+23:04:36,63W,West 63rd,,Sat
+18:49:39,62H,Archer/Harlem,,Sat
+18:44:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+13:49:39,62H,Archer/Harlem,,Sat
+21:32:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:33:48,63W,West 63rd,,Sun
+19:05:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+18:44:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+21:19:18,63W,West 63rd,,Sat
+20:00:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+10:33:54,63W,West 63rd,,Sun
+06:36:42,63W,West 63rd,,Sat
+16:03:48,63W,West 63rd,,Sun
+17:49:39,62H,Archer/Harlem,,Sat
+20:23:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+09:03:54,63W,West 63rd,,Sun
+16:39:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+12:25:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+15:36:48,63W,West 63rd,,Sat
+13:36:48,63W,West 63rd,,Sat
+15:49:39,62H,Archer/Harlem,,Sat
+17:36:48,63W,West 63rd,,Sat
+12:03:54,63W,West 63rd,,Sun
+12:49:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:36:48,63W,West 63rd,,Sat
+09:19:39,62H,Archer/Harlem,,Sat
+15:23:27,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+07:05:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+11:36:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+15:06:48,63W,West 63rd,,Sat
+19:32:04,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+20:30:18,63W,West 63rd,,Sat
+17:05:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+10:36:54,63W,West 63rd,,Sat
+17:06:48,63W,West 63rd,,Sat
+11:36:54,63W,West 63rd,,Sat
+22:44:06,63W,West 63rd,,Sat
+17:33:48,63W,West 63rd,,Sun
+05:36:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+13:14:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+04:44:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+14:04:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+11:49:39,62H,Archer/Harlem,,Sat
+09:36:48,63W,West 63rd,,Sat
+08:06:48,63W,West 63rd,,Sat
+09:37:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:03:48,63W,West 63rd,,Sun
+14:19:39,62H,Archer/Harlem,,Sat
+13:06:48,63W,West 63rd,,Sat
+10:49:39,62H,Archer/Harlem,,Sat
+05:52:39,62H,Archer/Harlem,,Sat
+13:03:48,63W,West 63rd,,Sun
+09:49:39,62H,Archer/Harlem,,Sat
+07:54:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+07:54:06,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+07:33:42,63W,West 63rd,,Sun
+14:54:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:39:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+21:03:48,63W,West 63rd,,Sun
+15:19:39,62H,Archer/Harlem,,Sat
+07:29:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+12:19:39,62H,Archer/Harlem,,Sat
+11:33:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:36:48,63W,West 63rd,,Sat
+22:23:48,63W,West 63rd,,Sat
+10:06:54,63W,West 63rd,,Sat
+13:34:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+22:03:48,63W,West 63rd,,Sun
+08:36:48,63W,West 63rd,,Sat
+21:33:48,63W,West 63rd,,Sun
+07:36:48,63W,West 63rd,,Sat
+13:38:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:51:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:06:48,63W,West 63rd,,Sat
+17:19:39,62H,Archer/Harlem,,Sat
+12:03:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+17:59:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+22:02:18,63W,West 63rd,,Sat
+06:36:42,63W,West 63rd,,Sat
+14:04:45,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:03:54,63W,West 63rd,,Sun
+06:14:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+19:05:48,63W,West 63rd,,Sat
+05:51:54,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+06:17:24,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+22:23:48,63W,West 63rd,,Sat
+09:33:54,63W,West 63rd,,Sun
+09:37:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:09:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+16:49:39,62H,Archer/Harlem,,Sat
+15:36:48,63W,West 63rd,,Sat
+06:40:39,62H,Archer/Harlem,,Sat
+05:36:09,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+16:33:48,63W,West 63rd,,Sun
+18:01:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:00:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:04:15,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+12:00:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+17:05:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:14:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+12:06:48,63W,West 63rd,,Sat
+20:00:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+13:19:39,62H,Archer/Harlem,,Sat
+10:03:54,63W,West 63rd,,Sun
+21:32:12,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:25:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+21:03:48,63W,West 63rd,,Sun
+08:15:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+07:06:42,63W,West 63rd,,Sat
+19:32:04,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+13:19:39,62H,Archer/Harlem,,Sat
+11:33:54,63W,West 63rd,,Sun
+17:32:30,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:06:48,63W,West 63rd,,Sat
+07:33:51,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+19:20:48,63W,West 63rd,,Sat
+10:22:48,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+18:25:42,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+21:40:48,63W,West 63rd,,Sat
+12:33:54,63W,West 63rd,,Sun
+15:03:48,63W,West 63rd,,Sun
+09:12:18,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+16:33:48,63W,West 63rd,,Sun
+13:36:48,63W,West 63rd,,Sat
+07:54:06,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri
+08:49:39,62H,Archer/Harlem,,Sat
+20:26:34,62H,Archer/Harlem,,Mon,Tue,Wed,Thu,Fri
+18:19:39,62H,Archer/Harlem,,Sat
+15:21:00,63W,West 63rd,,Mon,Tue,Wed,Thu,Fri

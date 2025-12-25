@@ -1,0 +1,431 @@
+arrival_time,route_short_name,route_long_name,headsign,service_days
+20:57:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:12:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+21:32:48,8A,South Halsted,,Sat
+05:45:18,8A,South Halsted,,Sun
+13:07:04,8A,South Halsted,,Sun
+08:01:48,8A,South Halsted,,Sat
+15:30:49,8A,South Halsted,,Sun
+08:01:48,8A,South Halsted,,Sat
+10:30:34,8A,South Halsted,,Sun
+16:50:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+09:23:48,8A,South Halsted,,Sun
+13:48:49,8A,South Halsted,,Sun
+16:34:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+22:19:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:30:05,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+12:27:34,8A,South Halsted,,Sat
+17:26:05,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:13:18,8A,South Halsted,,Sat
+14:38:34,8A,South Halsted,,Sat
+15:17:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+18:35:04,8A,South Halsted,,Sun
+16:50:34,8A,South Halsted,,Sat
+05:46:30,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+16:18:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:29:49,8A,South Halsted,,Sun
+06:57:18,8A,South Halsted,,Sun
+06:39:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:12:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:48:34,8A,South Halsted,,Sun
+10:21:34,8A,South Halsted,,Sat
+12:47:34,8A,South Halsted,,Sun
+12:11:34,8A,South Halsted,,Sat
+18:59:34,8A,South Halsted,,Sat
+17:36:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+13:49:04,8A,South Halsted,,Sat
+19:51:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+24:01:04,8A,South Halsted,,Sun
+07:15:48,8A,South Halsted,,Sat
+22:01:04,8A,South Halsted,,Sun
+12:43:34,8A,South Halsted,,Sat
+14:29:49,8A,South Halsted,,Sun
+12:43:34,8A,South Halsted,,Sat
+15:11:34,8A,South Halsted,,Sat
+16:32:04,8A,South Halsted,,Sun
+22:31:18,8A,South Halsted,,Sat
+20:36:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:02:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:53:48,8A,South Halsted,,Sat
+16:17:34,8A,South Halsted,,Sat
+19:31:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+17:45:04,8A,South Halsted,,Sat
+16:52:34,8A,South Halsted,,Sun
+06:33:18,8A,South Halsted,,Sun
+18:52:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+18:19:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:37:04,8A,South Halsted,,Sat
+21:32:48,8A,South Halsted,,Sat
+06:31:33,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+07:56:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+13:07:04,8A,South Halsted,,Sun
+07:39:18,8A,South Halsted,,Sat
+14:55:04,8A,South Halsted,,Sat
+12:00:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:40:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:11:34,8A,South Halsted,,Sat
+17:07:04,8A,South Halsted,,Sat
+06:24:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:20:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+23:35:48,8A,South Halsted,,Sat
+15:57:49,8A,South Halsted,,Mon,Tue,Thu,Fri
+18:38:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+23:12:48,8A,South Halsted,,Sat
+10:06:04,8A,South Halsted,,Sat
+21:58:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:20:34,8A,South Halsted,,Sat
+14:22:04,8A,South Halsted,,Sat
+15:14:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:39:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:08:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+09:23:48,8A,South Halsted,,Sun
+16:19:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+21:13:18,8A,South Halsted,,Sat
+24:00:18,8A,South Halsted,,Sat
+17:26:04,8A,South Halsted,,Sat
+18:56:04,8A,South Halsted,,Sun
+15:28:04,8A,South Halsted,,Sat
+12:16:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+12:59:34,8A,South Halsted,,Sat
+12:00:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:44:34,8A,South Halsted,,Sat
+08:56:34,8A,South Halsted,,Sat
+07:02:18,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+12:48:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:07:35,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:46:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:00:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:27:34,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:56:34,8A,South Halsted,,Sat
+22:01:04,8A,South Halsted,,Sun
+14:55:04,8A,South Halsted,,Sat
+07:14:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:13:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+19:51:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+09:51:04,8A,South Halsted,,Sat
+10:11:04,8A,South Halsted,,Sun
+06:46:33,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+08:54:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+09:28:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+09:45:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:50:34,8A,South Halsted,,Sat
+13:16:04,8A,South Halsted,,Sat
+15:34:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+09:51:04,8A,South Halsted,,Sat
+23:20:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:30:48,8A,South Halsted,,Sat
+20:14:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+20:36:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:01:04,8A,South Halsted,,Sat
+22:11:48,8A,South Halsted,,Sat
+23:00:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:30:05,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:44:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:52:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+15:34:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+15:30:49,8A,South Halsted,,Sun
+19:56:34,8A,South Halsted,,Sat
+14:11:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+19:37:34,8A,South Halsted,,Sat
+23:41:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:50:04,8A,South Halsted,,Sun
+18:01:35,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+09:45:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+12:59:34,8A,South Halsted,,Sat
+06:46:33,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+07:35:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:43:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:01:34,8A,South Halsted,,Sun
+23:13:04,8A,South Halsted,,Sun
+14:37:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+15:44:34,8A,South Halsted,,Sat
+23:13:04,8A,South Halsted,,Sun
+19:37:34,8A,South Halsted,,Sat
+22:49:04,8A,South Halsted,,Sun
+11:43:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:17:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:45:35,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:49:04,8A,South Halsted,,Sat
+13:02:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:01:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:50:04,8A,South Halsted,,Sun
+05:45:18,8A,South Halsted,,Sun
+07:40:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:34:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+16:32:04,8A,South Halsted,,Sun
+12:16:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+22:39:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:06:04,8A,South Halsted,,Sat
+17:45:04,8A,South Halsted,,Sat
+14:11:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+18:32:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+14:15:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:54:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+18:23:04,8A,South Halsted,,Sat
+06:33:18,8A,South Halsted,,Sun
+08:36:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+16:34:04,8A,South Halsted,,Sat
+18:32:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+14:05:34,8A,South Halsted,,Sat
+15:45:35,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:33:34,8A,South Halsted,,Sun
+14:05:34,8A,South Halsted,,Sat
+19:18:34,8A,South Halsted,,Sat
+06:08:18,8A,South Halsted,,Sat
+11:29:04,8A,South Halsted,,Sun
+14:30:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:07:35,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:26:05,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:17:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:40:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:46:18,8A,South Halsted,,Sun
+06:24:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:37:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+20:14:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+24:01:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+11:56:04,8A,South Halsted,,Sat
+16:02:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:28:04,8A,South Halsted,,Sat
+11:24:19,8A,South Halsted,,Sat
+19:18:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:27:34,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+23:12:48,8A,South Halsted,,Sat
+09:14:34,8A,South Halsted,,Sat
+13:31:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:17:04,8A,South Halsted,,Sun
+11:26:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:52:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+22:25:04,8A,South Halsted,,Sun
+07:54:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:57:18,8A,South Halsted,,Sun
+13:16:04,8A,South Halsted,,Sat
+17:20:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+14:22:04,8A,South Halsted,,Sat
+17:04:19,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+07:21:48,8A,South Halsted,,Sun
+15:00:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:59:34,8A,South Halsted,,Sun
+24:01:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:46:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:32:34,8A,South Halsted,,Sat
+16:02:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:51:19,8A,South Halsted,,Sun
+10:34:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:35:18,8A,South Halsted,,Sun
+15:51:19,8A,South Halsted,,Sun
+18:56:04,8A,South Halsted,,Sun
+14:30:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:57:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:38:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:51:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:34:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:49:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+16:11:49,8A,South Halsted,,Sun
+16:18:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:52:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+12:11:34,8A,South Halsted,,Sat
+11:08:04,8A,South Halsted,,Sat
+22:39:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:09:19,8A,South Halsted,,Sun
+16:49:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+23:41:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:52:34,8A,South Halsted,,Sat
+18:04:04,8A,South Halsted,,Sat
+10:21:34,8A,South Halsted,,Sat
+06:16:33,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+08:56:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+19:37:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:13:04,8A,South Halsted,,Sun
+16:04:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+17:54:04,8A,South Halsted,,Sun
+17:13:04,8A,South Halsted,,Sun
+18:23:04,8A,South Halsted,,Sat
+09:11:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:18:34,8A,South Halsted,,Sat
+06:30:48,8A,South Halsted,,Sat
+10:51:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+24:01:04,8A,South Halsted,,Sun
+05:31:30,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+22:49:04,8A,South Halsted,,Sun
+10:01:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+23:37:04,8A,South Halsted,,Sun
+07:02:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+17:04:19,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+19:57:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:17:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:17:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+07:18:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:39:49,8A,South Halsted,,Sat
+12:48:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:00:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:57:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:09:34,8A,South Halsted,,Sun
+20:16:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:18:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+13:26:34,8A,South Halsted,,Sun
+05:45:48,8A,South Halsted,,Sat
+15:49:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+09:14:34,8A,South Halsted,,Sat
+16:01:04,8A,South Halsted,,Sat
+11:48:34,8A,South Halsted,,Sun
+23:00:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:42:48,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+23:35:48,8A,South Halsted,,Sat
+20:53:48,8A,South Halsted,,Sat
+22:19:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:19:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:13:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+20:15:34,8A,South Halsted,,Sat
+06:16:33,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+05:46:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:11:49,8A,South Halsted,,Sun
+23:20:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:15:34,8A,South Halsted,,Sat
+06:31:33,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+21:37:04,8A,South Halsted,,Sun
+17:26:04,8A,South Halsted,,Sat
+19:18:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:57:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:13:04,8A,South Halsted,,Sun
+08:24:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:38:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:02:18,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+16:17:34,8A,South Halsted,,Sat
+09:47:34,8A,South Halsted,,Sun
+07:14:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+05:31:30,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+22:50:48,8A,South Halsted,,Sat
+10:17:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:04:04,8A,South Halsted,,Sat
+18:57:34,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+15:14:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:17:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+09:28:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:53:18,8A,South Halsted,,Sat
+15:10:49,8A,South Halsted,,Sun
+22:50:48,8A,South Halsted,,Sat
+10:30:34,8A,South Halsted,,Sun
+05:45:48,8A,South Halsted,,Sat
+20:34:18,8A,South Halsted,,Sat
+14:00:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:32:34,8A,South Halsted,,Sat
+05:46:30,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+08:59:34,8A,South Halsted,,Sun
+11:09:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+23:37:04,8A,South Halsted,,Sun
+13:17:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:54:19,8A,South Halsted,,Wed
+07:15:48,8A,South Halsted,,Sat
+08:10:18,8A,South Halsted,,Sun
+20:16:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:15:04,8A,South Halsted,,Sun
+06:08:18,8A,South Halsted,,Sat
+18:59:34,8A,South Halsted,,Sat
+18:42:04,8A,South Halsted,,Sat
+07:56:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+08:10:18,8A,South Halsted,,Sun
+14:54:19,8A,South Halsted,,Wed
+11:56:04,8A,South Halsted,,Sat
+09:47:34,8A,South Halsted,,Sun
+19:38:04,8A,South Halsted,,Sun
+10:34:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:11:04,8A,South Halsted,,Sun
+24:00:18,8A,South Halsted,,Sat
+08:39:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:49:04,8A,South Halsted,,Sun
+08:16:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+06:53:18,8A,South Halsted,,Sat
+18:35:04,8A,South Halsted,,Sun
+17:07:04,8A,South Halsted,,Sat
+06:01:30,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+14:50:19,8A,South Halsted,,Sun
+19:37:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:06:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:39:18,8A,South Halsted,,Sat
+17:54:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+20:25:04,8A,South Halsted,,Sun
+08:16:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:29:04,8A,South Halsted,,Sun
+12:08:04,8A,South Halsted,,Sun
+12:27:34,8A,South Halsted,,Sat
+16:34:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+21:52:18,8A,South Halsted,,Sat
+09:32:34,8A,South Halsted,,Sat
+21:37:04,8A,South Halsted,,Sun
+16:34:04,8A,South Halsted,,Sat
+11:09:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+11:26:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+10:52:34,8A,South Halsted,,Sat
+17:33:34,8A,South Halsted,,Sun
+18:57:34,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:39:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:15:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:09:18,8A,South Halsted,,Sun
+07:54:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+12:08:04,8A,South Halsted,,Sun
+15:10:49,8A,South Halsted,,Sun
+20:01:34,8A,South Halsted,,Sun
+08:38:34,8A,South Halsted,,Sat
+13:31:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+07:02:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:09:19,8A,South Halsted,,Sun
+16:04:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:39:49,8A,South Halsted,,Sat
+16:52:34,8A,South Halsted,,Sun
+14:57:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+06:01:30,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+18:01:35,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+06:09:18,8A,South Halsted,,Sun
+20:49:04,8A,South Halsted,,Sun
+07:21:48,8A,South Halsted,,Sun
+08:20:34,8A,South Halsted,,Sat
+09:11:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+16:50:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:38:34,8A,South Halsted,,Sat
+07:46:18,8A,South Halsted,,Sun
+08:24:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+19:17:04,8A,South Halsted,,Sun
+08:56:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+11:24:19,8A,South Halsted,,Sat
+12:28:04,8A,South Halsted,,Sun
+10:37:04,8A,South Halsted,,Sat
+09:32:34,8A,South Halsted,,Sat
+14:50:19,8A,South Halsted,,Sun
+11:09:34,8A,South Halsted,,Sun
+12:32:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+08:54:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+12:47:34,8A,South Halsted,,Sun
+08:36:49,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+13:48:49,8A,South Halsted,,Sun
+18:42:04,8A,South Halsted,,Sat
+22:31:18,8A,South Halsted,,Sat
+08:56:34,8A,South Halsted,,Sat
+15:57:49,8A,South Halsted,,Mon,Tue,Thu,Fri
+22:11:48,8A,South Halsted,,Sat
+20:42:48,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+12:32:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:38:34,8A,South Halsted,,Sat
+21:58:48,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+21:52:18,8A,South Halsted,,Sat
+12:28:04,8A,South Halsted,,Sun
+19:31:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+18:15:04,8A,South Halsted,,Sun
+07:40:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+05:46:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+18:38:19,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+14:44:49,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+13:26:34,8A,South Halsted,,Sun
+15:49:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+17:36:35,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+16:19:04,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+21:13:04,8A,South Halsted,,Sun
+20:34:18,8A,South Halsted,,Sat
+17:54:04,8A,South Halsted,,Sun
+08:35:18,8A,South Halsted,,Sun
+08:08:04,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+22:25:04,8A,South Halsted,,Sun
+07:35:34,108,Halsted/95th,,Mon,Tue,Wed,Thu,Fri
+06:06:18,8A,South Halsted,,Mon,Tue,Wed,Thu,Fri
+20:25:04,8A,South Halsted,,Sun
+19:38:04,8A,South Halsted,,Sun
+11:08:04,8A,South Halsted,,Sat
