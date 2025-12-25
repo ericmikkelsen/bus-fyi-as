@@ -318,20 +318,23 @@ export function processStopAndGenerateHTML(
       const arrivalTime = arrivalTimes[idx];
       const tripId = tripIds[idx];
       
-      // Lookup trip, route, and calendar
+      // Lookup trip, route, and calendar (with null checks!)
+      if (!tripMap.has(tripId)) continue;
       const tripInfo = tripMap.get(tripId);
-      if (!tripInfo) continue;
       
       const routeId = tripInfo[0];
       const serviceId = tripInfo[1];
       const headsign = tripInfo[2];
       
-      const routeInfo = routeMap.get(routeId);
-      const routeName = routeInfo ? (routeInfo[0].length > 0 ? routeInfo[0] : routeInfo[1]) : 'Unknown';
+      let routeName = 'Unknown';
+      if (routeMap.has(routeId)) {
+        const routeInfo = routeMap.get(routeId);
+        routeName = routeInfo[0].length > 0 ? routeInfo[0] : routeInfo[1];
+      }
       
-      const calendarInfo = calendarMap.get(serviceId);
       let serviceDays = '';
-      if (calendarInfo) {
+      if (calendarMap.has(serviceId)) {
+        const calendarInfo = calendarMap.get(serviceId);
         const days: string[] = [];
         if (calendarInfo[0] == '1') days.push('Mon');
         if (calendarInfo[1] == '1') days.push('Tue');
