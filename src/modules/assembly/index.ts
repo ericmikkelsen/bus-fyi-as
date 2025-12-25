@@ -18,13 +18,11 @@ export {
   generateCard
 } from './html-generator';
 
-// Export CSV parsing (ultra-fast WASM parsing)
-export {
-  parseCSVLine,
-  parseCSV,
-  getColumnIndex,
-  getColumn
-} from './csv-parser';
+// CSV parsing moved to JavaScript to avoid WASM string memory pressure
+// The parseCSV function in AssemblyScript creates too many temporary string objects
+// when processing even small CSV files (100-200 rows), causing "unreachable" errors.
+// JavaScript handles strings natively without reference counting, so it's more efficient
+// for string-heavy operations like CSV parsing.
 
 // Export data processing (parent-child, time grouping, etc.)
 export {

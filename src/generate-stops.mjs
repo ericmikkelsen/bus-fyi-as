@@ -50,7 +50,7 @@ async function processStopWithWASM(
   
   if (existsSync(stopTimesFilePath)) {
     const content = readFileSync(stopTimesFilePath, 'utf-8');
-    stopTimesForThisStop = parseCSVWithWASM(content, wasmModule);
+    stopTimesForThisStop = parseCSVInJS(content);
   }
   
   // Prepare stop directory
@@ -190,20 +190,33 @@ ${pageContent}</body>
 }
 
 /**
- * Parse CSV using WASM
+ * Parse CSV in JavaScript (not WASM) to avoid string memory pressure
+ * JavaScript handles strings natively without reference counting
  */
-function parseCSVWithWASM(content, wasmModule) {
-  const rows = wasmModule.parseCSV(content);
-  if (rows.length === 0) return [];
+function parseCSVInJS(content) {
+  if (!content || content.trim().length === 0) {
+    return [];
+  }
   
-  const headers = rows[0];
+  const lines = content.trim().split('\n');
+  if (lines.length === 0) return [];
+  
+  // Parse header
+  const headers = lines[0].split(',').map(h => h.trim());
+  
+  // Parse rows
   const records = [];
-  
-  for (let i = 1; i < rows.length; i++) {
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line.length === 0) continue;
+    
+    const values = line.split(',').map(v => v.trim());
     const record = {};
+    
     for (let j = 0; j < headers.length; j++) {
-      record[headers[j]] = rows[i][j] || '';
+      record[headers[j]] = values[j] || '';
     }
+    
     records.push(record);
   }
   
