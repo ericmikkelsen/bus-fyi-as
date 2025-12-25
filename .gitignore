@@ -18,6 +18,7 @@ data
 
 # Build artifacts
 build
+public 
 
 # Editor directories and files
 .vscode/*
