@@ -13,109 +13,17 @@ const rootDir = join(__dirname, '..');
 const NUM_WORKERS = cpus().length;
 
 /**
- * Write file using streams with Buffer - optimized for batching
+ * Write file using streams with Buffer
  */
 async function writeFileStreamFast(filePath, buffer) {
   return new Promise((resolve, reject) => {
-    // Larger buffer for better throughput
-    const stream = createWriteStream(filePath, { highWaterMark: 256 * 1024 });
+    const stream = createWriteStream(filePath, { highWaterMark: 64 * 1024 });
     stream.write(buffer);
     stream.end();
     stream.on('finish', resolve);
     stream.on('error', reject);
   });
 }
-
-/**
- * Format GTFS time string to readable format in JavaScript
- * @param {string} gtfsTime - Time in GTFS format (HH:MM:SS, can be > 24 for times past midnight)
- * @returns {{formatted: string, datetime: string}} - Formatted time and ISO datetime
- */
-function formatTime(gtfsTime) {
-  if (!gtfsTime || gtfsTime.length === 0) {
-    return { formatted: '--:--', datetime: '00:00' };
-  }
-  
-  // Parse time (HH:MM:SS format)
-  const parts = gtfsTime.split(':');
-  if (parts.length < 2) {
-    return { formatted: gtfsTime, datetime: '00:00' };
-  }
-  
-  let hour = parseInt(parts[0], 10);
-  const minute = parseInt(parts[1], 10);
-  
-  if (isNaN(hour) || isNaN(minute)) {
-    return { formatted: gtfsTime, datetime: '00:00' };
-  }
-  
-  // Handle times past midnight (25:00 = 1:00 AM next day)
-  let displayHour = hour;
-  if (hour >= 24) {
-    displayHour = hour - 24;
-  }
-  
-  // Determine AM/PM
-  let period = 'AM';
-  if (displayHour >= 12) {
-    period = 'PM';
-    if (displayHour > 12) {
-      displayHour = displayHour - 12;
-    }
-  }
-  
-  if (displayHour === 0) {
-    displayHour = 12;
-  }
-  
-  // Format minute with leading zero
-  const minuteFormatted = minute < 10 ? '0' + minute : minute.toString();
-  
-  // Build ISO time for datetime attribute
-  let isoHour = hour;
-  if (isoHour >= 24) {
-    isoHour = isoHour - 24;
-  }
-  const isoHourStr = isoHour < 10 ? '0' + isoHour : isoHour.toString();
-  const datetime = isoHourStr + ':' + minuteFormatted;
-  
-  const formatted = displayHour + ':' + minuteFormatted + ' ' + period;
-  
-  return { formatted, datetime };
-}
-
-function formatHourDisplay(hour) {
-  let displayHour = hour;
-  if (hour >= 24) {
-    displayHour = hour - 24;
-  }
-  
-  const period = displayHour >= 12 ? 'PM' : 'AM';
-  let hourDisplay = displayHour;
-  if (displayHour > 12) {
-    hourDisplay = displayHour - 12;
-  } else if (displayHour === 0) {
-    hourDisplay = 12;
-  }
-  
-  return hourDisplay + ':00 ' + period;
-}
-
-/**
- * Get service days string from calendar entry (pure JavaScript)
- */
-function getServiceDaysString(monday, tuesday, wednesday, thursday, friday, saturday, sunday) {
-  const days = [];
-  if (monday === '1') days.push('Monday');
-  if (tuesday === '1') days.push('Tuesday');
-  if (wednesday === '1') days.push('Wednesday');
-  if (thursday === '1') days.push('Thursday');
-  if (friday === '1') days.push('Friday');
-  if (saturday === '1') days.push('Saturday');
-  if (sunday === '1') days.push('Sunday');
-  return days.join(', ');
-}
-
 
 /**
  * Load CSV file and let WASM parse it
@@ -128,13 +36,13 @@ function loadCSVForWASM(filePath) {
 }
 
 /**
- * Process a single stop using pure JavaScript for all logic
+ * Process a single stop using WASM for all logic
  * Reads from pre-split stop_times files to avoid large array processing
  */
 async function processStopWithWASM(
   stopId, stopName, parentId, parentName, childStopData,
-  agency, agencyPath, routeMap, tripMap, calendarMap,
-  distDir
+  agencyPath, agencyName, routeMap, tripMap, calendarMap,
+  wasmModule, distDir
 ) {
   // Read stop-specific stop_times from split file (much smaller dataset)
   const stopTimesFilePath = join(agencyPath, 'stop_times_by_stop', `${stopId}-stop_times.csv`);
@@ -145,50 +53,44 @@ async function processStopWithWASM(
     stopTimesForThisStop = parseCSVInJS(content);
   }
   
-  // Prepare stop directory with agency prefix
-  // Child stops: /[agency]/stops/[parent_id]/[stop_id]/index.html
-  // Parent/regular stops: /[agency]/stops/[stop_id]/index.html
+  // Prepare stop directory
+  // Child stops: /stops/[parent_id]/[stop_id]/index.html
+  // Parent/regular stops: /stops/[stop_id]/index.html
   let stopDir;
   if (parentId) {
     // This is a child stop - create nested path
-    stopDir = join(distDir, agency, 'stops', parentId, stopId);
+    stopDir = join(distDir, 'stops', parentId, stopId);
   } else {
     // This is a parent or regular stop
-    stopDir = join(distDir, agency, 'stops', stopId);
+    stopDir = join(distDir, 'stops', stopId);
   }
   
   if (!existsSync(stopDir)) {
     mkdirSync(stopDir, { recursive: true });
   }
   
-  // Prepare all data in JavaScript, then make ONE WASM call for entire page
-  // This minimizes JavaScript/WASM boundary crossings for better performance
+  // Build header HTML using WASM with as-bind handling memory
+  const parentStopId = parentId || '';
+  const parentStopName = parentName || '';
+  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName, agencyName);
   
-  // 1. Prepare terminal data
+  // Build terminals list HTML using WASM with as-bind handling memory
   const childStopIds = childStopData.map(c => c.id);
   const childStopNames = childStopData.map(c => c.name);
+  const terminalsHtml = wasmModule.TerminalsList(agencyName, stopId, childStopIds, childStopNames);
   
-  // 2. Process schedule data - group, deduplicate, add service days
+  // Build routes section header if parent with routes
+  const hasRoutes = stopTimesForThisStop.length > 0;
+  let routesSectionHeader = '';
+  if (hasRoutes && childStopIds.length > 0) {
+    routesSectionHeader = `\n  <h2>Routes at ${stopName}</h2>\n`;
+  }
+  
+  // Use WASM to group stop times by hour
   const arrivalTimes = stopTimesForThisStop.map(st => st.arrival_time);
   const tripIds = stopTimesForThisStop.map(st => st.trip_id);
   
-  // OPTIMIZATION: Pre-cache trip/route/calendar data for this stop to avoid repeated Map lookups
-  const stopTimeCache = new Array(stopTimesForThisStop.length);
-  for (let i = 0; i < stopTimesForThisStop.length; i++) {
-    const trip = tripMap.get(tripIds[i]);
-    const route = trip ? routeMap.get(trip.route_id) : null;
-    const calendar = trip ? calendarMap.get(trip.service_id) : null;
-    
-    stopTimeCache[i] = {
-      time: arrivalTimes[i],
-      routeName: route ? (route.route_short_name || route.route_long_name) : 'Unknown',
-      headsign: trip?.trip_headsign || '',
-      serviceDays: calendar?._serviceDays || '',
-      routeShortName: route?.route_short_name || '',
-      routeLongName: route?.route_long_name || ''
-    };
-  }
-  
+  // Group by hour in JavaScript (avoid passing large arrays to WASM)
   function getHourFromTime(timeStr) {
     if (!timeStr || timeStr.length === 0) return 0;
     const colonIndex = timeStr.indexOf(':');
@@ -205,23 +107,15 @@ async function processStopWithWASM(
   }
   const hours = Array.from(hoursSet).sort((a, b) => a - b);
   
-  // Prepare deduplicated data for each hour using FLATTENED arrays
-  // This avoids 2D array memory issues in AssemblyScript
-  const hourDisplays = [];
-  const hourStartIndices = [];
-  const flatFormattedTimes = [];
-  const flatDatetimes = [];
-  const flatRouteNames = [];
-  const flatHeadsigns = [];
-  const flatServiceDays = [];
+  // Prepare data for each hour - organize in JavaScript, build strings in WASM
+  const hourArrivalTimes = [];
+  const hourRouteNames = [];
+  const hourHeadsigns = [];
   
   for (let i = 0; i < hours.length; i++) {
     const hour = hours[i];
     
-    // Record start index for this hour
-    hourStartIndices.push(flatFormattedTimes.length);
-    
-    // Filter stop times for this hour
+    // Filter in JavaScript (avoid WASM)
     const indicesForHour = [];
     for (let j = 0; j < arrivalTimes.length; j++) {
       if (getHourFromTime(arrivalTimes[j]) === hour) {
@@ -229,34 +123,73 @@ async function processStopWithWASM(
       }
     }
     
-    // Sort by arrival time
+    // Sort in JavaScript
     const sortedIndices = indicesForHour.sort((a, b) => {
-      return arrivalTimes[a].localeCompare(arrivalTimes[b]);
+      const time1 = arrivalTimes[a];
+      const time2 = arrivalTimes[b];
+      return time1.localeCompare(time2);
     });
     
-    // Deduplicate by time+route+headsign and collect service days
-    const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
+    const timesForHour = [];
+    const routesForHour = [];
+    const headsignsForHour = [];
     
     for (let j = 0; j < sortedIndices.length; j++) {
       const idx = sortedIndices[j];
       const stopTime = stopTimesForThisStop[idx];
       const tripId = tripIds[idx];
       
-      // Fast lookup using Maps
+      // Fast lookup trip and route using Maps
       const trip = tripMap.get(tripId);
       const route = trip ? routeMap.get(trip.route_id) : null;
-      const calendar = trip ? calendarMap.get(trip.service_id) : null;
       
       const routeName = route ? (route.route_short_name || route.route_long_name) : 'Unknown';
-      const time = stopTime.arrival_time;  // Keep GTFS format, WASM will format it
+      // Format time in JavaScript (avoid WASM issues with malformed data)
+      const time = formatTimeInJS(stopTime.arrival_time);
       const headsign = trip?.trip_headsign || '';
       
-      const key = `${time}|${routeName}|${headsign}`;
+      timesForHour.push(time);
+      routesForHour.push(routeName);
+      headsignsForHour.push(headsign);
+    }
+    
+    hourArrivalTimes.push(timesForHour);
+    hourRouteNames.push(routesForHour);
+    hourHeadsigns.push(headsignsForHour);
+  }
+  
+  // Build complete schedule HTML in JavaScript (avoid large data to WASM)
+  let scheduleHtml = '';
+  for (let i = 0; i < hours.length; i++) {
+    const hour = hours[i];
+    const times = hourArrivalTimes[i];
+    const routes = hourRouteNames[i];
+    const headsigns = hourHeadsigns[i];
+    
+    // Format hour header using WASM (single string, safe)
+    const hourHeader = wasmModule.HourHeader(hour);
+    scheduleHtml += hourHeader;
+    
+    // Group entries by time+route+headsign to deduplicate and collect service days
+    const entryMap = new Map(); // key: "time|route|headsign", value: { time, route, headsign, serviceDays: Set }
+    
+    for (let j = 0; j < times.length; j++) {
+      const time = times[j] || '';
+      const route = routes[j] || '';
+      const headsign = headsigns[j] || '';
+      
+      // Get the corresponding stopTime to find service_id
+      const stopTime = stopTimesForThisStop[j];
+      const tripId = stopTime.trip_id;
+      const trip = tripMap.get(tripId);
+      const calendar = trip ? calendarMap.get(trip.service_id) : null;
+      
+      const key = `${time}|${route}|${headsign}`;
       
       if (!entryMap.has(key)) {
         entryMap.set(key, {
           time,
-          routeName,
+          route,
           headsign,
           serviceDaysSet: new Set()
         });
@@ -271,96 +204,64 @@ async function processStopWithWASM(
       }
     }
     
-    // Convert deduplicated entries to FLATTENED arrays, FORMAT TIMES IN JAVASCRIPT
-    const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-    
+    // Build entries in JavaScript to avoid passing large arrays to WASM
+    scheduleHtml += '<ol>\n';
     for (const entry of entryMap.values()) {
-      // Format time in JavaScript (no string operations in WASM!)
-      const timeFormatted = formatTime(entry.time);
-      flatFormattedTimes.push(timeFormatted.formatted);
-      flatDatetimes.push(timeFormatted.datetime);
+      const time = entry.time;
+      const route = entry.route;
+      const headsign = entry.headsign;
       
-      flatRouteNames.push(entry.routeName);
-      flatHeadsigns.push(entry.headsign);
-      
-      // Convert service days Set to sorted, comma-separated string
+      // Convert service days Set to sorted array and join
+      const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
       const serviceDaysArray = Array.from(entry.serviceDaysSet).sort((a, b) => {
         return dayOrder.indexOf(a) - dayOrder.indexOf(b);
       });
-      flatServiceDays.push(serviceDaysArray.join(', '));
-    }
-    
-    // Format hour display in JavaScript (no string operations in WASM!)
-    hourDisplays.push(formatHourDisplay(hour));
-  }
-  
-  // 3. Build HTML in JavaScript using array join (faster than concatenation)
-  // After extensive testing, JavaScript is better for string-heavy HTML generation
-  // WASM is great for computation but creates memory pressure with string concatenation
-  const htmlParts = [
-    '<!DOCTYPE html>\n<html lang="en">\n<head>\n',
-    '  <meta charset="UTF-8">\n',
-    '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n',
-    '  <title>', stopName, '</title>\n',
-    '</head>\n<body>\n',
-    '<h1>', stopName, '</h1>\n'
-  ];
-  
-  if (parentId && parentName) {
-    htmlParts.push('<p><a href="/', agency, '/stops/', parentId, '/">← Back to ', parentName, '</a></p>\n');
-  }
-  htmlParts.push('<p>Stop ID: ', stopId, '</p>\n');
-  
-  // Terminals list
-  if (childStopIds.length > 0) {
-    htmlParts.push('<h2>Terminals</h2>\n<ul>\n');
-    for (let i = 0; i < childStopIds.length; i++) {
-      htmlParts.push('  <li><a href="/', agency, '/stops/', stopId, '/', childStopIds[i], '/">', childStopNames[i], '</a></li>\n');
-    }
-    htmlParts.push('</ul>\n');
-  }
-  
-  // Routes section
-  if (hourDisplays.length > 0) {
-    htmlParts.push('<h2>Routes at ', stopName, '</h2>\n');
-    
-    // Build schedule for each hour
-    for (let i = 0; i < hourDisplays.length; i++) {
-      const startIdx = hourStartIndices[i];
-      const endIdx = (i + 1 < hourStartIndices.length) ? hourStartIndices[i + 1] : flatFormattedTimes.length;
+      const serviceDaysStr = serviceDaysArray.join(', ');
       
-      htmlParts.push('<h3>', hourDisplays[i], '</h3>\n<ol>\n');
-      
-      for (let j = startIdx; j < endIdx; j++) {
-        htmlParts.push('  <li><time datetime="', flatDatetimes[j], '">', flatFormattedTimes[j], '</time> - ', flatRouteNames[j]);
-        if (flatHeadsigns[j]) {
-          htmlParts.push(' to ', flatHeadsigns[j]);
-        }
-        if (flatServiceDays[j]) {
-          htmlParts.push(' ', flatServiceDays[j]);
-        }
-        htmlParts.push('</li>\n');
+      // Build HTML directly in JavaScript
+      scheduleHtml += '  <li>' + time + ' - ' + route;
+      if (headsign) {
+        scheduleHtml += ' to ' + headsign;
       }
-      
-      htmlParts.push('</ol>\n');
+      if (serviceDaysStr) {
+        scheduleHtml += ' ' + serviceDaysStr;
+      }
+      scheduleHtml += '</li>\n';
     }
+    scheduleHtml += '</ol>\n';
   }
   
-  htmlParts.push('</body>\n</html>');
-  const html = htmlParts.join('');
+  // Assemble complete page HTML in JavaScript (avoid WASM template literal issues)
+  const pageContent = stopHeaderHtml + terminalsHtml + routesSectionHeader + scheduleHtml;
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${stopName}</title>
+</head>
+<body>
+${pageContent}</body>
+</html>`;
   
-  // Generate CSV using pre-cached data (MUCH faster!)
+  // Generate CSV with service days using WASM
   const csvLines = ['arrival_time,route_short_name,route_long_name,headsign,service_days'];
   
   for (let i = 0; i < stopTimesForThisStop.length; i++) {
-    const cached = stopTimeCache[i];
+    const stopTime = stopTimesForThisStop[i];
+    const trip = tripMap.get(stopTime.trip_id);
+    const route = trip ? routeMap.get(trip.route_id) : null;
+    const calendar = trip ? calendarMap.get(trip.service_id) : null;
     
-    if (cached.serviceDays) {
-      const routeShort = cached.routeShortName.replace(/,/g, ' ');
-      const routeLong = cached.routeLongName.replace(/,/g, ' ');
-      const headsign = cached.headsign.replace(/,/g, ' ');
+    if (route && calendar) {
+      const routeShort = (route.route_short_name || '').replace(/,/g, ' ');
+      const routeLong = (route.route_long_name || '').replace(/,/g, ' ');
+      const headsign = (trip.trip_headsign || '').replace(/,/g, ' ');
       
-      csvLines.push(`${stopTimesForThisStop[i].arrival_time},${routeShort},${routeLong},${headsign},${cached.serviceDays}`);
+      // Use pre-computed service days string
+      const serviceDays = calendar._serviceDays;
+      
+      csvLines.push(`${stopTime.arrival_time},${routeShort},${routeLong},${headsign},${serviceDays}`);
     }
   }
   
@@ -464,7 +365,7 @@ function formatTimeInJS(timeStr) {
 /**
  * Format elapsed time for logging
  */
-function formatElapsedTime(ms) {
+function formatTime(ms) {
   const seconds = ms / 1000;
   if (seconds < 60) return `${seconds.toFixed(1)}s`;
   const minutes = Math.floor(seconds / 60);
@@ -481,15 +382,24 @@ function logProgress(current, total, label, startTime) {
   const rate = current / (elapsed / 1000);
   const eta = ((total - current) / rate) * 1000;
   
-  console.log(`    ${label}: ${current}/${total} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatElapsedTime(eta)}`);
+  console.log(`    ${label}: ${current}/${total} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
 }
 
 /**
- * Generate stop pages with optimized parallel batching
+ * Generate stop pages with maximum WASM usage
  */
 async function generateStopPages() {
-  console.log('🚀 Maximum Performance Generator (Pure JavaScript)');
-  console.log(`💪 Using optimized batched parallel processing`);
+  console.log('🚀 Maximum Performance Generator (WASM-powered)');
+  console.log(`💪 Using ${NUM_WORKERS} CPU cores + AssemblyScript`);
+  
+  // Load WASM module using ESM bindings (handles string memory automatically)
+  console.log('⚡ Loading AssemblyScript module with ESM bindings...');
+  const wasmLoadStart = Date.now();
+  
+  // Use generated ESM wrapper
+  const wasmModule = await import(join(rootDir, 'dist', 'release.js'));
+  
+  console.log(`  ✓ WASM loaded with ESM bindings in ${((Date.now() - wasmLoadStart) / 1000).toFixed(2)}s`);
   
   const dataDir = join(rootDir, 'data');
   // Use public directory so Vite includes generated files in build
@@ -559,7 +469,7 @@ async function generateStopPages() {
         const percent = ((processed / total) * 100).toFixed(1);
         const rate = processed / ((now - stopTimesParseStart) / 1000);
         const eta = ((total - processed) / rate) * 1000;
-        console.log(`    Splitting: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatElapsedTime(eta)}`);
+        console.log(`    Splitting: ${processed.toLocaleString()}/${total.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatTime(eta)}`);
         lastProgressTime = now;
       }
     });
@@ -620,7 +530,7 @@ async function generateStopPages() {
     
     for (const cal of calendar) {
       // Pre-compute service day string for each calendar entry
-      cal._serviceDays = getServiceDaysString(
+      cal._serviceDays = wasmModule.getServiceDaysString(
         cal.monday, cal.tuesday, cal.wednesday,
         cal.thursday, cal.friday, cal.saturday, cal.sunday
       );
@@ -656,53 +566,46 @@ async function generateStopPages() {
     
     console.log(`  📄 Processing ${stopsToProcess.length} stops...`);
     
-    // OPTIMIZATION: Batch processing in parallel to maximize I/O throughput
-    // Smaller batch size (50) for more frequent progress updates and better tuning
-    const BATCH_SIZE = 50;
-    let processed = 0;
     let lastLog = Date.now();
     const processStartTime = Date.now();
-    
-    for (let batchStart = 0; batchStart < stopsToProcess.length; batchStart += BATCH_SIZE) {
-      const batchEnd = Math.min(batchStart + BATCH_SIZE, stopsToProcess.length);
-      const batch = stopsToProcess.slice(batchStart, batchEnd);
+    for (let i = 0; i < stopsToProcess.length; i++) {
+      const { stop, childStops, parentStop } = stopsToProcess[i];
       
-      // Process batch in parallel
-      const batchPromises = batch.map(({ stop, childStops, parentStop }) => 
+      // Progress logging every 60 seconds
+      if (Date.now() - lastLog > 60000) {
+        logProgress(i + 1, stopsToProcess.length, 'Generating pages', processStartTime);
+        lastLog = Date.now();
+      }
+      
+      promises.push(
         processStopWithWASM(
           stop.stop_id, stop.stop_name, 
           parentStop ? parentStop.stop_id : null,
           parentStop ? parentStop.stop_name : null,
-          childStops, agency, agencyPath, routeMap, tripMap, calendarMap,
-          distDir
+          childStops, agencyPath, agency, routeMap, tripMap, calendarMap,
+          wasmModule, distDir
         )
       );
       
-      await Promise.all(batchPromises);
-      processed += batch.length;
-      
-      // Progress logging every 3 seconds for faster feedback
-      if (Date.now() - lastLog > 3000) {
-        const elapsed = (Date.now() - processStartTime) / 1000;
-        const rate = processed / elapsed;
-        const remaining = stopsToProcess.length - processed;
-        const eta = remaining / rate;
-        const percent = ((processed / stopsToProcess.length) * 100).toFixed(1);
-        console.log(`    ${processed.toLocaleString()}/${stopsToProcess.length.toLocaleString()} (${percent}%) - ${rate.toFixed(0)}/sec - ETA: ${formatElapsedTime(eta * 1000)}`);
+      // Log progress every 60 seconds for large datasets
+      if (stopsToProcess.length > 1000 && Date.now() - lastLog > 60000) {
+        logProgress(i + 1, stopsToProcess.length, 'Generating pages', genStart);
         lastLog = Date.now();
       }
     }
     
-    const genTime = ((Date.now() - genStart) / 1000).toFixed(2);
-    totalStops += stopsToProcess.length;
+    await Promise.all(promises);
     
-    console.log(`  ✅ Generated ${stopsToProcess.length.toLocaleString()} stops in ${genTime}s (${(stopsToProcess.length / genTime).toFixed(0)} pages/sec)`);
+    const genTime = ((Date.now() - genStart) / 1000).toFixed(2);
+    totalStops += promises.length;
+    
+    console.log(`  ✅ Generated ${promises.length} stops in ${genTime}s (${(promises.length / genTime).toFixed(0)} pages/sec)`);
   }
   
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`\n🎉 Complete: ${totalStops} stops in ${elapsed}s`);
   console.log(`⚡ Average: ${(totalStops / elapsed).toFixed(0)} pages/second`);
-  console.log(`🚀 Pure JavaScript architecture for maximum stability + performance!`);
+  console.log(`🚀 Hybrid JavaScript/WASM architecture for stability + performance!`);
   console.log(`📁 Output: public/stops/[stop-id]/index.html + schedule.csv`);
   console.log(`   Vite will serve these files in dev mode and include them in the build`);
 }
