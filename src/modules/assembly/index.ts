@@ -38,6 +38,7 @@ export {
 // Export components
 export { StopHeader } from '../../components/StopHeader';
 export { TerminalsList } from '../../components/TerminalsList';
+export { Time } from '../../components/Time';
 export { 
   formatTime,
   HourHeader, 

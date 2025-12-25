@@ -30,4 +30,5 @@ public
 *.njsproj
 *.sln
 *.sw?
-public/stops/
+# Generated stops (organized by agency)
+public/*/stops/

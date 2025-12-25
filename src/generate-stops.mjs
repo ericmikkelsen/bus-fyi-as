@@ -41,7 +41,7 @@ function loadCSVForWASM(filePath) {
  */
 async function processStopWithWASM(
   stopId, stopName, parentId, parentName, childStopData,
-  agencyPath, routeMap, tripMap, calendarMap,
+  agency, agencyPath, routeMap, tripMap, calendarMap,
   wasmModule, distDir
 ) {
   // Read stop-specific stop_times from split file (much smaller dataset)
@@ -53,16 +53,16 @@ async function processStopWithWASM(
     stopTimesForThisStop = parseCSVInJS(content);
   }
   
-  // Prepare stop directory
-  // Child stops: /stops/[parent_id]/[stop_id]/index.html
-  // Parent/regular stops: /stops/[stop_id]/index.html
+  // Prepare stop directory with agency prefix
+  // Child stops: /[agency]/stops/[parent_id]/[stop_id]/index.html
+  // Parent/regular stops: /[agency]/stops/[stop_id]/index.html
   let stopDir;
   if (parentId) {
     // This is a child stop - create nested path
-    stopDir = join(distDir, 'stops', parentId, stopId);
+    stopDir = join(distDir, agency, 'stops', parentId, stopId);
   } else {
     // This is a parent or regular stop
-    stopDir = join(distDir, 'stops', stopId);
+    stopDir = join(distDir, agency, 'stops', stopId);
   }
   
   if (!existsSync(stopDir)) {
@@ -72,12 +72,12 @@ async function processStopWithWASM(
   // Build header HTML using WASM with as-bind handling memory
   const parentStopId = parentId || '';
   const parentStopName = parentName || '';
-  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName);
+  const stopHeaderHtml = wasmModule.StopHeader(stopName, stopId, parentStopId, parentStopName, agency);
   
   // Build terminals list HTML using WASM with as-bind handling memory
   const childStopIds = childStopData.map(c => c.id);
   const childStopNames = childStopData.map(c => c.name);
-  const terminalsHtml = wasmModule.TerminalsList(stopId, childStopIds, childStopNames);
+  const terminalsHtml = wasmModule.TerminalsList(agency, stopId, childStopIds, childStopNames);
   
   // Build routes section header if parent with routes
   const hasRoutes = stopTimesForThisStop.length > 0;
@@ -218,8 +218,9 @@ async function processStopWithWASM(
       });
       const serviceDaysStr = serviceDaysArray.join(', ');
       
-      // Build HTML directly in JavaScript
-      scheduleHtml += '  <li>' + time + ' - ' + route;
+      // Build HTML directly in JavaScript using Time component from WASM
+      const timeHtml = wasmModule.Time(time);
+      scheduleHtml += '  <li>' + timeHtml + ' - ' + route;
       if (headsign) {
         scheduleHtml += ' to ' + headsign;
       }
@@ -582,7 +583,7 @@ async function generateStopPages() {
           stop.stop_id, stop.stop_name, 
           parentStop ? parentStop.stop_id : null,
           parentStop ? parentStop.stop_name : null,
-          childStops, agencyPath, routeMap, tripMap, calendarMap,
+          childStops, agency, agencyPath, routeMap, tripMap, calendarMap,
           wasmModule, distDir
         )
       );
