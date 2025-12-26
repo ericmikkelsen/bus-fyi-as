@@ -8,10 +8,11 @@ import { TerminalsList } from '../components/TerminalsList';
 
 /**
  * Parse a single CSV line, handling quoted fields with commas
+ * Using Array<string> instead of string concatenation to avoid managed object issues
  */
 function parseCSVLine(line: string): string[] {
   const fields: string[] = [];
-  let field = '';
+  const fieldChars: string[] = [];  // Use array instead of string concatenation!
   let inQuotes = false;
   
   for (let i = 0; i < line.length; i++) {
@@ -20,39 +21,40 @@ function parseCSVLine(line: string): string[] {
     if (char == '"') {
       inQuotes = !inQuotes;
     } else if (char == ',' && !inQuotes) {
-      fields.push(field.trim());
-      field = '';
+      fields.push(fieldChars.join('').trim());
+      fieldChars.length = 0;  // Clear array (AssemblyScript way)
     } else {
-      field += char;
+      fieldChars.push(char);
     }
   }
   
-  fields.push(field.trim());
+  fields.push(fieldChars.join('').trim());
   return fields;
 }
 
 /**
  * Parse CSV content into array of arrays
  * FAST: All done in WASM
+ * Using Array<string> instead of string concatenation
  */
 function parseCSV(content: string): string[][] {
   const result: string[][] = [];
-  let line = '';
+  const lineChars: string[] = [];  // Use array instead of string concatenation!
   
   for (let i = 0; i < content.length; i++) {
     const char = content.charAt(i);
     if (char == '\n' || char == '\r') {
-      if (line.length > 0) {
-        result.push(parseCSVLine(line));
-        line = '';
+      if (lineChars.length > 0) {
+        result.push(parseCSVLine(lineChars.join('')));
+        lineChars.length = 0;  // Clear array
       }
     } else {
-      line += char;
+      lineChars.push(char);
     }
   }
   
-  if (line.length > 0) {
-    result.push(parseCSVLine(line));
+  if (lineChars.length > 0) {
+    result.push(parseCSVLine(lineChars.join('')));
   }
   
   return result;
@@ -254,34 +256,40 @@ export function processStopAndGenerateHTML(
     hoursSet.add(getHourFromTime(arrivalTimes[i]));
   }
   
-  // Convert Set to Array - AssemblyScript way
+  // Convert Set to Array - manually without iterators (avoids managed objects!)
   const hoursArray: i32[] = [];
-  const setValues = hoursSet.values();
-  for (let i = 0; i < setValues.length; i++) {
-    hoursArray.push(setValues[i]);
+  // We need to iterate through all possible hours and check if they're in the set
+  for (let hour = 0; hour <= 27; hour++) {  // GTFS allows times up to 27:xx (next day)
+    if (hoursSet.has(hour)) {
+      hoursArray.push(hour);
+    }
   }
   
-  // Sort hours
-  hoursArray.sort();
+  // Hours are already sorted since we iterate 0-27
   
-  // Start HTML document
-  let html = '<!DOCTYPE html>\n<html lang="en">\n<head>\n';
-  html += '  <meta charset="UTF-8">\n';
-  html += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
-  html += '  <title>' + stopName + '</title>\n';
-  html += '</head>\n<body>\n';
+  // Build HTML document using Array<string> for efficiency
+  const htmlParts: string[] = [];
+  
+  htmlParts.push('<!DOCTYPE html>\n<html lang="en">\n<head>\n');
+  htmlParts.push('  <meta charset="UTF-8">\n');
+  htmlParts.push('  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n');
+  htmlParts.push('  <title>');
+  htmlParts.push(stopName);
+  htmlParts.push('</title>\n</head>\n<body>\n');
   
   // Build stop header
-  html += StopHeader(stopName, stopId, parentStopId, parentStopName, agencyName);
+  htmlParts.push(StopHeader(stopName, stopId, parentStopId, parentStopName, agencyName));
   
   // Build terminals list if there are any
   if (childStopIds.length > 0) {
-    html += TerminalsList(agencyName, stopId, childStopIds, childStopNames);
+    htmlParts.push(TerminalsList(agencyName, stopId, childStopIds, childStopNames));
   }
   
   // Build routes section header (only if there are routes)
   if (hoursArray.length > 0) {
-    html += '<h2>Routes at ' + stopName + '</h2>\n';
+    htmlParts.push('<h2>Routes at ');
+    htmlParts.push(stopName);
+    htmlParts.push('</h2>\n');
   }
   
   // Build schedule for each hour
@@ -289,11 +297,10 @@ export function processStopAndGenerateHTML(
     const hour = hoursArray[h];
     const hourDisplay = formatHourDisplay(hour);
     
-    html += HourHeader(hourDisplay);
-    html += ScheduleListStart();
+    htmlParts.push(HourHeader(hourDisplay));
+    htmlParts.push(ScheduleListStart());
     
     // Get entries for this hour, sorted by time
-    const entriesForHour: string[] = [];
     const indicesForHour: i32[] = [];
     
     for (let i = 0; i < arrivalTimes.length; i++) {
@@ -353,14 +360,14 @@ export function processStopAndGenerateHTML(
       const formattedTime = formatTime(arrivalTime);
       const datetime = getDatetime(arrivalTime);
       
-      html += ScheduleEntry(formattedTime, datetime, routeName, headsign, serviceDays);
+      htmlParts.push(ScheduleEntry(formattedTime, datetime, routeName, headsign, serviceDays));
     }
     
-    html += ScheduleListEnd();
+    htmlParts.push(ScheduleListEnd());
   }
   
   // Close HTML document
-  html += '</body>\n</html>';
+  htmlParts.push('</body>\n</html>');
   
-  return html;
+  return htmlParts.join('');
 }

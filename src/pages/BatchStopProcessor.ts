@@ -33,7 +33,7 @@ export function processBatchStops(
   routesCsv: string,
   calendarCsv: string
 ): string {
-  let result = '';
+  const resultParts: string[] = [];  // Use array instead of concatenation!
   
   const numStops = stopNames.length;
   
@@ -52,15 +52,15 @@ export function processBatchStops(
       calendarCsv
     );
     
-    result += html;
+    resultParts.push(html);
     
     // Add delimiter between stops (but not after the last one)
     if (i < numStops - 1) {
-      result += HTML_DELIMITER;
+      resultParts.push(HTML_DELIMITER);
     }
   }
   
-  return result;
+  return resultParts.join('');
 }
 
 /**
