@@ -162,7 +162,7 @@ async function generateStopPages() {
   console.log('✅ WASM module loaded\n');
 
   // Setup directories
-  const gtfsDir = join(rootDir, 'gtfs_data');
+  const gtfsDir = join(rootDir, 'data');
   const distDir = join(rootDir, 'public');
 
   if (!existsSync(distDir)) {
