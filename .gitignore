@@ -18,7 +18,10 @@ data
 
 # Build artifacts
 build
-public 
+public
+pkg
+target
+Cargo.lock 
 
 # Editor directories and files
 .vscode/*
