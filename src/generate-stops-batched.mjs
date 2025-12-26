@@ -80,14 +80,8 @@ async function processBatch(
   distDir
 ) {
   // Prepare data for batch
-  const stopNames = [];
-  const stopIds = [];
-  const parentIds = [];
-  const parentNames = [];
-  const agencyNames = [];
-  const childIdsArray = [];
-  const childNamesArray = [];
-  const stopTimesCsvArray = [];
+  // Process stops ONE AT A TIME to avoid complex 2D array passing issues
+  const htmlResults = [];
   const stopDirs = [];
 
   for (const stop of batch) {
@@ -107,43 +101,30 @@ async function processBatch(
       mkdirSync(stopDir, { recursive: true });
     }
 
-    stopNames.push(stop.name);
-    stopIds.push(stop.id);
-    parentIds.push(stop.parentId || '');
-    parentNames.push(stop.parentName || '');
-    agencyNames.push(agencyName);
-    childIdsArray.push(stop.childIds || []);
-    childNamesArray.push(stop.childNames || []);
-    stopTimesCsvArray.push(stopTimesCSV);
+    // Call WASM for SINGLE stop (pass comma-separated strings instead of arrays!)
+    const html = wasmModule.processStopAndGenerateHTML(
+      stop.name,
+      stop.id,
+      stop.parentId || '',
+      stop.parentName || '',
+      agencyName,
+      (stop.childIds || []).join(','),
+      (stop.childNames || []).join(','),
+      stopTimesCSV,
+      tripCSV,
+      routeCSV,
+      calendarCSV
+    );
+
+    htmlResults.push(html);
     stopDirs.push(stopDir);
   }
 
-  // Call WASM batch processor
-  const concatenatedHTML = wasmModule.processBatchStops(
-    stopNames,
-    stopIds,
-    parentIds,
-    parentNames,
-    agencyNames,
-    childIdsArray,
-    childNamesArray,
-    stopTimesCsvArray,
-    tripCSV,
-    routeCSV,
-    calendarCSV
-  );
-
-  // Get delimiter
-  const delimiter = wasmModule.getHtmlDelimiter();
-
-  // Split HTML by delimiter
-  const htmlPages = concatenatedHTML.split(delimiter);
-
-  // Write each HTML file
+  // Write all HTML files in parallel
   const writePromises = [];
-  for (let i = 0; i < htmlPages.length; i++) {
+  for (let i = 0; i < htmlResults.length; i++) {
     const htmlFile = join(stopDirs[i], 'index.html');
-    writePromises.push(writeFileStream(htmlFile, htmlPages[i]));
+    writePromises.push(writeFileStream(htmlFile, htmlResults[i]));
   }
 
   await Promise.all(writePromises);

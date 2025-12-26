@@ -201,13 +201,17 @@ export function processStopAndGenerateHTML(
   parentStopId: string,
   parentStopName: string,
   agencyName: string,
-  childStopIds: string[],
-  childStopNames: string[],
+  childStopIdsCSV: string,  // Comma-separated instead of array!
+  childStopNamesCSV: string,  // Comma-separated instead of array!
   stopTimesCSV: string,
   tripData: string,
   routeData: string,
   calendarData: string
 ): string {
+  // Parse child IDs and names from comma-separated strings
+  const childStopIds = childStopIdsCSV.length > 0 ? childStopIdsCSV.split(',') : [];
+  const childStopNames = childStopNamesCSV.length > 0 ? childStopNamesCSV.split(',') : [];
+  
   // Parse CSVs in WASM (FAST!)
   const stopTimeRows = parseCSV(stopTimesCSV);
   const tripRows = parseCSV(tripData);
@@ -346,15 +350,21 @@ export function processStopAndGenerateHTML(
       let serviceDays = '';
       if (calendarMap.has(serviceId)) {
         const calendarInfo = calendarMap.get(serviceId);
-        const days: string[] = [];
-        if (calendarInfo[0] == '1') days.push('Mon');
-        if (calendarInfo[1] == '1') days.push('Tue');
-        if (calendarInfo[2] == '1') days.push('Wed');
-        if (calendarInfo[3] == '1') days.push('Thu');
-        if (calendarInfo[4] == '1') days.push('Fri');
-        if (calendarInfo[5] == '1') days.push('Sat');
-        if (calendarInfo[6] == '1') days.push('Sun');
-        serviceDays = days.join(',');
+        // Build service days string manually to avoid .join() which creates managed objects
+        const dayParts: string[] = [];
+        if (calendarInfo[0] == '1') dayParts.push('Mon');
+        if (calendarInfo[1] == '1') dayParts.push('Tue');
+        if (calendarInfo[2] == '1') dayParts.push('Wed');
+        if (calendarInfo[3] == '1') dayParts.push('Thu');
+        if (calendarInfo[4] == '1') dayParts.push('Fri');
+        if (calendarInfo[5] == '1') dayParts.push('Sat');
+        if (calendarInfo[6] == '1') dayParts.push('Sun');
+        
+        // Manually build comma-separated string without .join()
+        for (let d = 0; d < dayParts.length; d++) {
+          if (d > 0) serviceDays += ',';
+          serviceDays += dayParts[d];
+        }
       }
       
       // Format time and build entry

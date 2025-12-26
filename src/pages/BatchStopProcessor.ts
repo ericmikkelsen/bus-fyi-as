@@ -26,8 +26,8 @@ export function processBatchStops(
   parentIds: string[],
   parentNames: string[],
   agencyNames: string[],
-  childIdsArray: string[][],
-  childNamesArray: string[][],
+  childIdsCSVArray: string[],  // Array of comma-separated strings!
+  childNamesCSVArray: string[],  // Array of comma-separated strings!
   stopTimesCsvArray: string[],
   tripsCsv: string,
   routesCsv: string,
@@ -44,8 +44,8 @@ export function processBatchStops(
       parentIds[i],
       parentNames[i],
       agencyNames[i],
-      childIdsArray[i],
-      childNamesArray[i],
+      childIdsCSVArray[i],  // Already comma-separated
+      childNamesCSVArray[i],  // Already comma-separated
       stopTimesCsvArray[i],
       tripsCsv,
       routesCsv,
