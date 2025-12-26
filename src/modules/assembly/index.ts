@@ -65,3 +65,11 @@ export {
   getHtmlDelimiter
 } from '../../pages/BatchStopProcessor';
 
+// Export chunked processor (returns HTML in small chunks to avoid ESM bindings refcount issues)
+export {
+  getStopHeaderChunk,
+  getHourScheduleChunk,
+  getScheduleHours,
+  getDocumentFooter
+} from '../../pages/StopPageProcessorChunked';
+

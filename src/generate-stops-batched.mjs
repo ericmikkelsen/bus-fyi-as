@@ -70,7 +70,8 @@ function parseStops(stopsPath) {
 }
 
 /**
- * Process batch of stops with WASM
+ * Process batch of stops with WASM using CHUNKED returns to avoid refcount errors
+ * Each WASM call returns small strings (<1-2KB) that JavaScript assembles
  */
 async function processBatch(
   batch,
@@ -82,8 +83,7 @@ async function processBatch(
   wasmModule,
   distDir
 ) {
-  // Prepare data for batch
-  // Process stops ONE AT A TIME to avoid complex 2D array passing issues
+  // Process stops ONE AT A TIME with chunked HTML returns
   const htmlResults = [];
   const stopDirs = [];
 
@@ -104,20 +104,44 @@ async function processBatch(
       mkdirSync(stopDir, { recursive: true });
     }
 
-    // Call WASM for SINGLE stop (pass comma-separated strings instead of arrays!)
-    const html = wasmModule.processStopAndGenerateHTML(
+    // CHUNKED APPROACH: Call WASM multiple times with small returns
+    // This avoids the ESM bindings refcount issue with large strings!
+    
+    // CHUNK 1: Get header and stop info (~500 bytes)
+    const headerHTML = wasmModule.getStopHeaderChunk(
       stop.name,
       stop.id,
       stop.parentId || '',
       stop.parentName || '',
       agencyName,
       (stop.childIds || []).join(','),
-      (stop.childNames || []).join(','),
-      stopTimesCSV,
-      tripCSV,
-      routeCSV,
-      calendarCSV
+      (stop.childNames || []).join(',')
     );
+
+    // CHUNK 2: Get list of hours with schedule data
+    const hoursCSV = wasmModule.getScheduleHours(stopTimesCSV);
+    const hours = hoursCSV.length > 0 ? hoursCSV.split(',').map(h => parseInt(h, 10)) : [];
+
+    // CHUNK 3: Get schedule HTML for each hour (small chunks: ~1-2KB each)
+    const scheduleChunks = [];
+    for (const hour of hours) {
+      const hourHTML = wasmModule.getHourScheduleChunk(
+        hour,
+        stopTimesCSV,
+        tripCSV,
+        routeCSV,
+        calendarCSV
+      );
+      if (hourHTML.length > 0) {
+        scheduleChunks.push(hourHTML);
+      }
+    }
+
+    // CHUNK 4: Get document footer (~20 bytes)
+    const footerHTML = wasmModule.getDocumentFooter();
+
+    // ASSEMBLE in JavaScript (no large string returns from WASM!)
+    const html = headerHTML + scheduleChunks.join('') + footerHTML;
 
     htmlResults.push(html);
     stopDirs.push(stopDir);
