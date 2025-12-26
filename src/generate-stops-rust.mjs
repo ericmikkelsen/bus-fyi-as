@@ -223,9 +223,11 @@ async function generateStopPages() {
   
   // Process each stop
   let processed = 0;
+  let childrenProcessed = 0;
   const totalStops = parentStops.length;
   
   console.log(`Processing ${totalStops} stops...\n`);
+  console.log('Format: [location_type] Stop Name (stop_id) [children]\n');
   
   // Process in batches for progress reporting
   const batchSize = parseInt(process.env.THROTTLE || '50', 10);
@@ -236,6 +238,19 @@ async function generateStopPages() {
     await Promise.all(batch.map(async (stop) => {
       const stopId = stop.stop_id;
       const stopName = stop.stop_name;
+      const locationType = stop.location_type || '0';
+      
+      // Determine stop type
+      let stopType = 'stop';
+      if (locationType === '1') {
+        stopType = 'station';
+      } else if (locationType === '2') {
+        stopType = 'entrance';
+      } else if (locationType === '3') {
+        stopType = 'node';
+      } else if (locationType === '4') {
+        stopType = 'boarding';
+      }
       
       // Find child stops
       const childStops = [];
@@ -247,6 +262,10 @@ async function generateStopPages() {
           });
         }
       }
+      
+      // Log parent stop with children count
+      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
+      console.log(`[${stopType}] ${stopName} (${stopId})${childrenInfo}`);
       
       // Load stop times CSV
       const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
@@ -265,6 +284,9 @@ async function generateStopPages() {
       
       // Process child stops
       for (const childStop of childStops) {
+        // Log child stop indented
+        console.log(`  ↳ [child] ${childStop.name} (${childStop.id})`);
+        
         const childStopTimesPath = join(stopTimesByStopDir, `${childStop.id}-stop_times.csv`);
         let childStopTimesCsv = '';
         
@@ -277,6 +299,8 @@ async function generateStopPages() {
           childStopTimesCsv, routesCsv, tripsCsv, calendarCsv,
           distDir
         );
+        
+        childrenProcessed++;
       }
     }));
     
@@ -293,7 +317,9 @@ async function generateStopPages() {
   const pagesPerSec = (processed / (totalTime / 60 / 60)).toFixed(1);
   
   console.log(`\n✅ Generation complete!`);
-  console.log(`   Total stops: ${processed}`);
+  console.log(`   Parent/standalone stops: ${processed}`);
+  console.log(`   Child stops: ${childrenProcessed}`);
+  console.log(`   Total pages: ${processed + childrenProcessed}`);
   console.log(`   Time: ${totalTime}s`);
   console.log(`   Rate: ${pagesPerSec} pages/sec`);
 }
