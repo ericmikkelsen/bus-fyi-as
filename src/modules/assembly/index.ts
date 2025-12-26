@@ -35,16 +35,11 @@ export {
   sortByArrivalTime
 } from './data-processing';
 
-// Export components
+// Export simple components (return small HTML strings <200 bytes - no ESM bindings issues)
 export { StopHeader } from '../../components/StopHeader';
 export { TerminalsList } from '../../components/TerminalsList';
+export { HourHeader } from '../../components/HourHeader';
 export { Time } from '../../components/Time';
-export { 
-  HourHeader, 
-  ScheduleEntry,
-  ScheduleListStart,
-  ScheduleListEnd
-} from '../../components/ScheduleList';
 
 // Export layouts
 export { BaseLayout } from '../../layouts/BaseLayout';
