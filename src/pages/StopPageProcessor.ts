@@ -12,23 +12,24 @@ import { TerminalsList } from '../components/TerminalsList';
  */
 function parseCSVLine(line: string): string[] {
   const fields: string[] = [];
-  const fieldChars: string[] = [];  // Use array instead of string concatenation!
+  const fieldCodes: i32[] = [];  // Use i32 array for char codes - actual AS stdlib signature
   let inQuotes = false;
   
   for (let i = 0; i < line.length; i++) {
-    const char = line.charAt(i);
+    const charCode = line.charCodeAt(i);  // Get number, not string!
     
-    if (char == '"') {
+    if (charCode == 34) {  // '"' = 34
       inQuotes = !inQuotes;
-    } else if (char == ',' && !inQuotes) {
-      fields.push(fieldChars.join('').trim());
-      fieldChars.length = 0;  // Clear array (AssemblyScript way)
+    } else if (charCode == 44 && !inQuotes) {  // ',' = 44
+      // Convert codes to string only once
+      fields.push(String.fromCharCodes(fieldCodes).trim());
+      fieldCodes.length = 0;
     } else {
-      fieldChars.push(char);
+      fieldCodes.push(charCode);
     }
   }
   
-  fields.push(fieldChars.join('').trim());
+  fields.push(String.fromCharCodes(fieldCodes).trim());
   return fields;
 }
 
@@ -39,22 +40,22 @@ function parseCSVLine(line: string): string[] {
  */
 function parseCSV(content: string): string[][] {
   const result: string[][] = [];
-  const lineChars: string[] = [];  // Use array instead of string concatenation!
+  const lineCodes: i32[] = [];  // Use i32 array for char codes - actual AS stdlib signature
   
   for (let i = 0; i < content.length; i++) {
-    const char = content.charAt(i);
-    if (char == '\n' || char == '\r') {
-      if (lineChars.length > 0) {
-        result.push(parseCSVLine(lineChars.join('')));
-        lineChars.length = 0;  // Clear array
+    const charCode = content.charCodeAt(i);  // Get number, not string!
+    if (charCode == 10 || charCode == 13) {  // '\n' = 10, '\r' = 13
+      if (lineCodes.length > 0) {
+        result.push(parseCSVLine(String.fromCharCodes(lineCodes)));
+        lineCodes.length = 0;
       }
     } else {
-      lineChars.push(char);
+      lineCodes.push(charCode);
     }
   }
   
-  if (lineChars.length > 0) {
-    result.push(parseCSVLine(lineChars.join('')));
+  if (lineCodes.length > 0) {
+    result.push(parseCSVLine(String.fromCharCodes(lineCodes)));
   }
   
   return result;
@@ -130,7 +131,7 @@ function getDatetime(timeStr: string): string {
   
   let colonIndex = -1;
   for (let i = 0; i < timeStr.length; i++) {
-    if (timeStr.charAt(i) == ':') {
+    if (timeStr.charCodeAt(i) == 58) {  // ':' = 58, use charCodeAt!
       colonIndex = i;
       break;
     }
@@ -139,7 +140,7 @@ function getDatetime(timeStr: string): string {
   
   let secondColon = -1;
   for (let i = colonIndex + 1; i < timeStr.length; i++) {
-    if (timeStr.charAt(i) == ':') {
+    if (timeStr.charCodeAt(i) == 58) {  // ':' = 58
       secondColon = i;
       break;
     }
