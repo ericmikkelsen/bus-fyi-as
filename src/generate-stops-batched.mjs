@@ -11,8 +11,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const rootDir = join(__dirname, '..');
 
-// Batch size controlled by environment variable (default: 50)
-const BATCH_SIZE = parseInt(process.env.THROTTLE || '50', 10);
+// Batch size controlled by --throttle argument or environment variable (default: 3)
+// Parse command-line arguments for --throttle=N
+let throttleArg = process.argv.find(arg => arg.startsWith('--throttle='));
+let defaultThrottle = throttleArg ? throttleArg.split('=')[1] : '3';
+const BATCH_SIZE = parseInt(process.env.THROTTLE || defaultThrottle, 10);
 console.log(`Using batch size: ${BATCH_SIZE}`);
 
 /**
