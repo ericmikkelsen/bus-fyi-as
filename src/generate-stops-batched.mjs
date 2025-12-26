@@ -182,6 +182,23 @@ async function generateStopPages() {
     console.log(`Processing agency: ${agency}`);
     const agencyPath = join(gtfsDir, agency);
 
+    // Split stop_times.txt if needed
+    const stopTimesFile = join(agencyPath, 'stop_times.txt');
+    const stopTimesByStopDir = join(agencyPath, 'stop_times_by_stop');
+    
+    if (!existsSync(stopTimesByStopDir) && existsSync(stopTimesFile)) {
+      console.log(`  📂 Splitting stop_times.txt into individual stop files...`);
+      const { splitStopTimesByStopAndRoute } = await import('./modules/streaming-gtfs-parser.mjs');
+      const tripsFile = join(agencyPath, 'trips.txt');
+      
+      await splitStopTimesByStopAndRoute(stopTimesFile, tripsFile, agencyPath, (processed, total) => {
+        if (processed % 100000 === 0 || processed === total) {
+          process.stdout.write(`\r  ⏳ Processed ${processed.toLocaleString()}/${total.toLocaleString()} stop times...`);
+        }
+      });
+      console.log('\n  ✅ Split complete!\n');
+    }
+
     // Load shared CSV files once per agency
     const tripCSV = loadCSV(join(agencyPath, 'trips.txt'));
     const routeCSV = loadCSV(join(agencyPath, 'routes.txt'));

@@ -59,30 +59,31 @@ function parseCSV(content: string): string[][] {
 }
 
 /**
- * Extract hour from GTFS time string
+ * Extract hour from GTFS time string using charCodeAt (no parseInt!)
  * "08:30:00" → 8
  * "14:45:00" → 14
  * "25:30:00" → 25 (next day)
  */
 function getHourFromTime(timeStr: string): i32 {
-  if (timeStr.length == 0) return 0;
+  if (timeStr.length < 2) return 0;
   
-  let colonIndex = -1;
-  for (let i = 0; i < timeStr.length; i++) {
-    if (timeStr.charAt(i) == ':') {
-      colonIndex = i;
-      break;
-    }
+  // Use charCodeAt instead of parseInt
+  const char0 = timeStr.charCodeAt(0);
+  const char1 = timeStr.charCodeAt(1);
+  
+  if (char0 < 48 || char0 > 57) return 0;
+  
+  if (char1 == 58) { // ':' = 58
+    return char0 - 48; // Single digit hour
   }
   
-  if (colonIndex < 0) return 0;
+  if (char1 < 48 || char1 > 57) return 0;
   
-  const hourStr = timeStr.substring(0, colonIndex);
-  return I32.parseInt(hourStr);
+  return (char0 - 48) * 10 + (char1 - 48); // Two digit hour
 }
 
 /**
- * Format time for display
+ * Format time for display using charCodeAt (no parseInt or toString!)
  * "08:30:00" → "8:30 AM"
  * "14:45:00" → "2:45 PM"
  * "25:30:00" → "1:30 AM" (next day)
@@ -90,37 +91,29 @@ function getHourFromTime(timeStr: string): i32 {
 function formatTime(timeStr: string): string {
   if (timeStr.length < 5) return timeStr;
   
-  // Find first colon
-  let firstColon = -1;
-  for (let i = 0; i < timeStr.length; i++) {
-    if (timeStr.charAt(i) == ':') {
-      firstColon = i;
-      break;
-    }
-  }
-  if (firstColon < 0) return timeStr;
-  
-  // Find second colon
-  let secondColon = -1;
-  for (let i = firstColon + 1; i < timeStr.length; i++) {
-    if (timeStr.charAt(i) == ':') {
-      secondColon = i;
-      break;
-    }
-  }
-  if (secondColon < 0) secondColon = timeStr.length;
-  
-  const hourStr = timeStr.substring(0, firstColon);
-  const minuteStr = timeStr.substring(firstColon + 1, secondColon);
-  
-  let hour = I32.parseInt(hourStr);
+  // Extract hour using charCodeAt
+  let hour = getHourFromTime(timeStr);
   if (hour >= 24) hour -= 24; // Handle next day times
   
   const isPM = hour >= 12;
   if (hour == 0) hour = 12;
   else if (hour > 12) hour -= 12;
   
-  const hourDisplay = hour.toString();
+  // Build hour string manually (no toString!)
+  let hourDisplay: string;
+  if (hour < 10) {
+    hourDisplay = String.fromCharCode(48 + hour); // '0' = 48
+  } else if (hour >= 10 && hour < 20) {
+    hourDisplay = '1' + String.fromCharCode(48 + (hour - 10));
+  } else {
+    hourDisplay = '2' + String.fromCharCode(48 + (hour - 20));
+  }
+  
+  // Extract minutes (chars 3-4 or 2-3 depending on hour length)
+  const colonPos = timeStr.indexOf(':');
+  const minuteStart = colonPos + 1;
+  const minuteStr = timeStr.substring(minuteStart, minuteStart + 2);
+  
   const period = isPM ? ' PM' : ' AM';
   
   return hourDisplay + ':' + minuteStr + period;
@@ -155,7 +148,7 @@ function getDatetime(timeStr: string): string {
 }
 
 /**
- * Format hour display
+ * Format hour display using manual string building (no toString!)
  * 8 → "8:00 AM"
  * 14 → "2:00 PM"
  */
@@ -167,8 +160,18 @@ function formatHourDisplay(hour: i32): string {
   if (displayHour == 0) displayHour = 12;
   else if (displayHour > 12) displayHour -= 12;
   
+  // Build hour string manually (no toString!)
+  let hourStr: string;
+  if (displayHour < 10) {
+    hourStr = String.fromCharCode(48 + displayHour);
+  } else if (displayHour >= 10 && displayHour < 20) {
+    hourStr = '1' + String.fromCharCode(48 + (displayHour - 10));
+  } else {
+    hourStr = '2' + String.fromCharCode(48 + (displayHour - 20));
+  }
+  
   const period = isPM ? ' PM' : ' AM';
-  return displayHour.toString() + ':00' + period;
+  return hourStr + ':00' + period;
 }
 
 /**
