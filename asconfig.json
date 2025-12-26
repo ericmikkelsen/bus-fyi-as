@@ -1,14 +1,14 @@
 {
   "targets": {
     "debug": {
-      "outFile": "dist/debug.wasm",
-      "textFile": "dist/debug.wat",
+      "outFile": "build/debug.wasm",
+      "textFile": "build/debug.wat",
       "sourceMap": true,
       "debug": true
     },
     "release": {
-      "outFile": "dist/release.wasm",
-      "textFile": "dist/release.wat",
+      "outFile": "build/release.wasm",
+      "textFile": "build/release.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
       "shrinkLevel": 0,
@@ -18,7 +18,7 @@
       "exportRuntime": false
     },
     "service-worker": {
-      "outFile": "dist/sw.wasm",
+      "outFile": "build/sw.wasm",
       "sourceMap": false,
       "optimizeLevel": 3,
       "shrinkLevel": 2,

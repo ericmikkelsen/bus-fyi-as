@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run asbuild && npm run generate:stops && vite build",
+    "build": "npm run asbuild && vite build && npm run generate:stops",
     "download:gtfs": "node src/download-gtfs.mjs",
     "generate": "npm run asbuild && node src/generator.mjs",
     "generate:stops": "node src/generate-stops-component-based.mjs",
