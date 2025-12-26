@@ -59,3 +59,9 @@ export {
   processStopAndGenerateHTML
 } from '../../pages/StopPageProcessor';
 
+// Export batch processor (processes multiple stops at once and returns concatenated HTML)
+export {
+  processBatchStops,
+  getHtmlDelimiter
+} from '../../pages/BatchStopProcessor';
+
