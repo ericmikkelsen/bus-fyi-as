@@ -122,15 +122,15 @@ function parseCSV(csvText) {
 async function processStop(
   stopId, stopName, parentId, parentName, childStops,
   stopTimesData, routesCsv, tripsCsv, calendarCsv,
-  distDir
+  distDir, agencyId
 ) {
   try {
-    // Prepare stop directory
+    // Prepare stop directory with agency prefix
     let stopDir;
     if (parentId) {
-      stopDir = join(distDir, 'stops', parentId, stopId);
+      stopDir = join(distDir, agencyId, 'stops', parentId, stopId);
     } else {
-      stopDir = join(distDir, 'stops', stopId);
+      stopDir = join(distDir, agencyId, 'stops', stopId);
     }
     
     if (!existsSync(stopDir)) {
@@ -156,6 +156,9 @@ async function processStop(
     // Write to file
     const htmlPath = join(stopDir, 'index.html');
     await writeFile(htmlPath, html);
+    
+    // Return the relative path for logging
+    return htmlPath.replace(distDir + '/', '');
     
   } catch (error) {
     console.error(`Error processing stop ${stopId}:`, error.message);
@@ -185,6 +188,7 @@ async function generateStopPages() {
   
   const dataDir = join(rootDir, 'data', 'cta');
   const distDir = join(rootDir, 'dist');
+  const agencyId = 'cta'; // Extract from data directory name
   
   // Split stop_times if needed
   await splitStopTimes(dataDir);
@@ -257,7 +261,7 @@ async function generateStopPages() {
   const totalStops = parentStops.length;
   
   console.log(`Processing ${totalStops} stops...\n`);
-  console.log('Format: [location_type] [route_types] Stop Name (stop_id) [children]\n');
+  console.log('Format: [location_type] [route_types] Stop Name (stop_id) → filepath\n');
   
   // Process in batches for progress reporting
   const batchSize = parseInt(process.env.THROTTLE || '50', 10);
@@ -336,22 +340,19 @@ async function generateStopPages() {
         .join(', ');
       const routeTypeDisplay = routeTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
       
-      // Log parent stop with children count and route types
-      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
-      console.log(`[${stopType}] ${routeTypeDisplay} ${stopName} (${stopId})${childrenInfo}`);
-      
       // Process parent stop
-      await processStop(
+      const parentFilePath = await processStop(
         stopId, stopName, '', '', childStops,
         stopTimesCsv, routesCsv, tripsCsv, calendarCsv,
-        distDir
+        distDir, agencyId
       );
+      
+      // Log parent stop with children count, route types, and file path
+      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
+      console.log(`[${stopType}] ${routeTypeDisplay} ${stopName} (${stopId})${childrenInfo} → ${parentFilePath}`);
       
       // Process child stops
       for (const childStop of childStops) {
-        // Log child stop indented
-        console.log(`  ↳ [child] ${childStop.name} (${childStop.id})`);
-        
         const childStopTimesPath = join(stopTimesByStopDir, `${childStop.id}-stop_times.csv`);
         let childStopTimesCsv = '';
         
@@ -359,11 +360,14 @@ async function generateStopPages() {
           childStopTimesCsv = readFileSync(childStopTimesPath, 'utf-8');
         }
         
-        await processStop(
+        const childFilePath = await processStop(
           childStop.id, childStop.name, stopId, stopName, [],
           childStopTimesCsv, routesCsv, tripsCsv, calendarCsv,
-          distDir
+          distDir, agencyId
         );
+        
+        // Log child stop indented with file path
+        console.log(`  ↳ [child] ${childStop.name} (${childStop.id}) → ${childFilePath}`);
         
         childrenProcessed++;
       }
@@ -380,15 +384,26 @@ async function generateStopPages() {
   // Generate route type index pages
   console.log(`\n📊 Generating route type index pages...`);
   
-  for (const [routeType, stops] of stopsByRouteType.entries()) {
+  // Sort route types by their names for consistent output
+  const sortedRouteTypes = Array.from(stopsByRouteType.entries())
+    .sort((a, b) => {
+      const nameA = ROUTE_TYPE_NAMES[a[0]] || `Type ${a[0]}`;
+      const nameB = ROUTE_TYPE_NAMES[b[0]] || `Type ${b[0]}`;
+      return nameA.localeCompare(nameB);
+    });
+  
+  for (const [routeType, stops] of sortedRouteTypes) {
     const routeTypeName = ROUTE_TYPE_NAMES[routeType] || `Type ${routeType}`;
-    const stopsJson = JSON.stringify(stops);
+    
+    // Sort stops alphabetically by name
+    const sortedStops = stops.sort((a, b) => a.stop_name.localeCompare(b.stop_name));
+    const stopsJson = JSON.stringify(sortedStops);
     
     // Generate HTML using Rust WASM
     const html = generate_route_type_index_page(routeType, routeTypeName, stopsJson);
     
-    // Write to file
-    const indexDir = join(distDir, 'stops', `type-${routeType}`);
+    // Write to file in agency folder
+    const indexDir = join(distDir, agencyId, 'stops', routeTypeName.toLowerCase().replace(/\s+/g, '-'));
     if (!existsSync(indexDir)) {
       mkdirSync(indexDir, { recursive: true });
     }
@@ -396,7 +411,8 @@ async function generateStopPages() {
     const indexPath = join(indexDir, 'index.html');
     await writeFile(indexPath, html);
     
-    console.log(`  ✅ ${routeTypeName} (${stops.length} stops)`);
+    const relativePath = indexPath.replace(distDir + '/', '');
+    console.log(`  ✅ ${routeTypeName} (${stops.length} stops) → ${relativePath}`);
   }
   
   const endTime = Date.now();
