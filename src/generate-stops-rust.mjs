@@ -267,6 +267,7 @@ async function generateStopPages() {
   // Process each stop
   let processed = 0;
   let childrenProcessed = 0;
+  let stopsWithNoRoutes = 0;
   const totalStops = parentStops.length;
   
   console.log(`Processing ${totalStops} stops...\n`);
@@ -376,16 +377,21 @@ async function generateStopPages() {
       }
       
       // Add parent stop to route type indexes with combined route types (parent + children)
-      for (const routeType of allRouteTypes) {
-        if (!stopsByRouteType.has(routeType)) {
-          stopsByRouteType.set(routeType, []);
+      // Only add if stop has at least one route type
+      if (allRouteTypes.size > 0) {
+        for (const routeType of allRouteTypes) {
+          if (!stopsByRouteType.has(routeType)) {
+            stopsByRouteType.set(routeType, []);
+          }
+          stopsByRouteType.get(routeType).push({
+            stop_id: stopId,
+            stop_name: stopName,
+            location_type: locationType,
+            route_types: Array.from(allRouteTypes)
+          });
         }
-        stopsByRouteType.get(routeType).push({
-          stop_id: stopId,
-          stop_name: stopName,
-          location_type: locationType,
-          route_types: Array.from(allRouteTypes)
-        });
+      } else {
+        stopsWithNoRoutes++;
       }
       
       // Format combined route types for display
@@ -453,6 +459,7 @@ async function generateStopPages() {
   console.log(`\n✅ Generation complete!`);
   console.log(`   Parent/standalone stops: ${processed}`);
   console.log(`   Child stops: ${childrenProcessed}`);
+  console.log(`   Stops with no routes: ${stopsWithNoRoutes}`);
   console.log(`   Route type indexes: ${stopsByRouteType.size}`);
   console.log(`   Total pages: ${processed + childrenProcessed + stopsByRouteType.size}`);
   console.log(`   Time: ${totalTime}s`);
