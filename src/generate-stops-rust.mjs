@@ -356,11 +356,8 @@ async function generateStopPages() {
         distDir, agencyId
       );
       
-      // Log parent stop with children count, route types, and file path
-      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
-      console.log(`[${stopType}] ${routeTypeDisplay} ${stopName} (${stopId})${childrenInfo} → ${parentFilePath}`);
-      
-      // Process child stops
+      // Process child stops and collect log entries BEFORE any console output
+      const childLogEntries = [];
       for (const childStop of childStops) {
         const childStopTimesPath = join(stopTimesByStopDir, `${childStop.id}-stop_times.csv`);
         let childStopTimesCsv = '';
@@ -375,10 +372,19 @@ async function generateStopPages() {
           distDir, agencyId
         );
         
-        // Log child stop indented with file path
-        console.log(`  ↳ [child] ${childStop.name} (${childStop.id}) → ${childFilePath}`);
+        // Store child log entry for later output
+        childLogEntries.push(`  ↳ [child] ${childStop.name} (${childStop.id}) → ${childFilePath}`);
         
         childrenProcessed++;
+      }
+      
+      // Now log parent and children together to prevent interleaving
+      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
+      console.log(`[${stopType}] ${routeTypeDisplay} ${stopName} (${stopId})${childrenInfo} → ${parentFilePath}`);
+      
+      // Log all child stops immediately after parent
+      for (const logEntry of childLogEntries) {
+        console.log(logEntry);
       }
     }));
     
