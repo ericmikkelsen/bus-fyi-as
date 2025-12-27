@@ -3,11 +3,23 @@ import { createWriteStream, existsSync, mkdirSync, readFileSync, readdirSync, cr
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { createInterface } from 'readline';
-import { generate_stop_page } from '../pkg/bus_fyi_wasm.js';
+import { generate_stop_page, generate_route_type_index_page } from '../pkg/bus_fyi_wasm.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const rootDir = join(__dirname, '..');
+
+// GTFS route type names
+const ROUTE_TYPE_NAMES = {
+  '0': 'Tram',
+  '1': 'Subway',
+  '2': 'Rail',
+  '3': 'Bus',
+  '4': 'Ferry',
+  '5': 'Cable Car',
+  '6': 'Gondola',
+  '7': 'Funicular',
+};
 
 /**
  * Split stop_times.txt by stop_id
@@ -194,9 +206,23 @@ async function generateStopPages() {
   const tripsCsv = readFileSync(tripsPath, 'utf-8');
   const calendarCsv = readFileSync(calendarPath, 'utf-8');
   
+  // Parse routes to get route types
+  const routesData = parseCSV(routesCsv);
+  const routeMap = new Map();
+  for (const route of routesData) {
+    routeMap.set(route.route_id, route);
+  }
+  
+  // Parse trips to link routes to stops
+  const tripsData = parseCSV(tripsCsv);
+  const tripToRoute = new Map();
+  for (const trip of tripsData) {
+    tripToRoute.set(trip.trip_id, trip.route_id);
+  }
+  
   console.log(`✅ Loaded ${stopsData.length} stops`);
-  console.log(`✅ Loaded routes CSV (${routesCsv.split('\n').length - 1} entries)`);
-  console.log(`✅ Loaded trips CSV (${tripsCsv.split('\n').length - 1} entries)`);
+  console.log(`✅ Loaded ${routesData.length} routes`);
+  console.log(`✅ Loaded ${tripsData.length} trips`);
   console.log(`✅ Loaded calendar CSV (${calendarCsv.split('\n').length - 1} entries)\n`);
   
   // Build stop map
@@ -221,13 +247,17 @@ async function generateStopPages() {
     process.exit(1);
   }
   
+  // Track stops by route type
+  const stopsByRouteType = new Map();
+  const stopRouteTypes = new Map(); // Map stop_id to Set of route_types
+  
   // Process each stop
   let processed = 0;
   let childrenProcessed = 0;
   const totalStops = parentStops.length;
   
   console.log(`Processing ${totalStops} stops...\n`);
-  console.log('Format: [location_type] Stop Name (stop_id) [children]\n');
+  console.log('Format: [location_type] [route_types] Stop Name (stop_id) [children]\n');
   
   // Process in batches for progress reporting
   const batchSize = parseInt(process.env.THROTTLE || '50', 10);
@@ -263,17 +293,52 @@ async function generateStopPages() {
         }
       }
       
-      // Log parent stop with children count
-      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
-      console.log(`[${stopType}] ${stopName} (${stopId})${childrenInfo}`);
-      
-      // Load stop times CSV
+      // Load stop times to determine route types
       const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
       let stopTimesCsv = '';
+      const routeTypes = new Set();
       
       if (existsSync(stopTimesPath)) {
         stopTimesCsv = readFileSync(stopTimesPath, 'utf-8');
+        
+        // Parse stop times to get trips, then routes, then route_types
+        const stopTimesData = parseCSV(stopTimesCsv);
+        for (const stopTime of stopTimesData) {
+          const routeId = tripToRoute.get(stopTime.trip_id);
+          if (routeId) {
+            const route = routeMap.get(routeId);
+            if (route && route.route_type) {
+              routeTypes.add(route.route_type);
+            }
+          }
+        }
       }
+      
+      // Store route types for this stop
+      stopRouteTypes.set(stopId, routeTypes);
+      
+      // Add to route type index
+      for (const routeType of routeTypes) {
+        if (!stopsByRouteType.has(routeType)) {
+          stopsByRouteType.set(routeType, []);
+        }
+        stopsByRouteType.get(routeType).push({
+          stop_id: stopId,
+          stop_name: stopName,
+          location_type: locationType,
+          route_types: Array.from(routeTypes)
+        });
+      }
+      
+      // Format route types for display
+      const routeTypeNames = Array.from(routeTypes)
+        .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
+        .join(', ');
+      const routeTypeDisplay = routeTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
+      
+      // Log parent stop with children count and route types
+      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
+      console.log(`[${stopType}] ${routeTypeDisplay} ${stopName} (${stopId})${childrenInfo}`);
       
       // Process parent stop
       await processStop(
@@ -312,6 +377,28 @@ async function generateStopPages() {
     console.log(`[${percent}%] Processed ${processed}/${totalStops} stops (${rate} pages/min, ${elapsed}s elapsed)`);
   }
   
+  // Generate route type index pages
+  console.log(`\n📊 Generating route type index pages...`);
+  
+  for (const [routeType, stops] of stopsByRouteType.entries()) {
+    const routeTypeName = ROUTE_TYPE_NAMES[routeType] || `Type ${routeType}`;
+    const stopsJson = JSON.stringify(stops);
+    
+    // Generate HTML using Rust WASM
+    const html = generate_route_type_index_page(routeType, routeTypeName, stopsJson);
+    
+    // Write to file
+    const indexDir = join(distDir, 'stops', `type-${routeType}`);
+    if (!existsSync(indexDir)) {
+      mkdirSync(indexDir, { recursive: true });
+    }
+    
+    const indexPath = join(indexDir, 'index.html');
+    await writeFile(indexPath, html);
+    
+    console.log(`  ✅ ${routeTypeName} (${stops.length} stops)`);
+  }
+  
   const endTime = Date.now();
   const totalTime = ((endTime - startTime) / 1000).toFixed(1);
   const pagesPerSec = (processed / (totalTime / 60 / 60)).toFixed(1);
@@ -319,7 +406,8 @@ async function generateStopPages() {
   console.log(`\n✅ Generation complete!`);
   console.log(`   Parent/standalone stops: ${processed}`);
   console.log(`   Child stops: ${childrenProcessed}`);
-  console.log(`   Total pages: ${processed + childrenProcessed}`);
+  console.log(`   Route type indexes: ${stopsByRouteType.size}`);
+  console.log(`   Total pages: ${processed + childrenProcessed + stopsByRouteType.size}`);
   console.log(`   Time: ${totalTime}s`);
   console.log(`   Rate: ${pagesPerSec} pages/sec`);
 }

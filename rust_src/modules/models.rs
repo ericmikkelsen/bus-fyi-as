@@ -23,6 +23,8 @@ pub struct Route {
     pub route_id: String,
     pub route_short_name: String,
     pub route_long_name: String,
+    #[serde(default)]
+    pub route_type: String,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -41,4 +43,12 @@ pub struct Calendar {
 pub struct ChildStop {
     pub id: String,
     pub name: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct StopInfo {
+    pub stop_id: String,
+    pub stop_name: String,
+    pub location_type: String,
+    pub route_types: Vec<String>,
 }

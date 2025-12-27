@@ -31,3 +31,19 @@ pub fn generate_stop_page(
         calendar_csv,
     )
 }
+
+#[wasm_bindgen]
+pub fn generate_route_type_index_page(
+    route_type: &str,
+    route_type_name: &str,
+    stops_json: &str,
+) -> String {
+    // Parse stops from JSON
+    let stops: Vec<modules::models::StopInfo> = serde_json::from_str(stops_json).unwrap_or_default();
+    
+    pages::route_type_index_page::generate_route_type_index_page(
+        route_type,
+        route_type_name,
+        stops,
+    )
+}
