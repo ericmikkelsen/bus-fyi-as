@@ -213,8 +213,12 @@ async function generateStopPages() {
   // Parse routes to get route types
   const routesData = parseCSV(routesCsv);
   const routeMap = new Map();
+  const routeTypeCount = new Map();
   for (const route of routesData) {
     routeMap.set(route.route_id, route);
+    // Track route type distribution
+    const rt = route.route_type || 'undefined';
+    routeTypeCount.set(rt, (routeTypeCount.get(rt) || 0) + 1);
   }
   
   // Parse trips to link routes to stops
@@ -226,6 +230,11 @@ async function generateStopPages() {
   
   console.log(`✅ Loaded ${stopsData.length} stops`);
   console.log(`✅ Loaded ${routesData.length} routes`);
+  console.log(`   Route types found:`);
+  for (const [routeType, count] of Array.from(routeTypeCount.entries()).sort()) {
+    const typeName = ROUTE_TYPE_NAMES[routeType] || `Type ${routeType}`;
+    console.log(`     ${typeName} (${routeType}): ${count} routes`);
+  }
   console.log(`✅ Loaded ${tripsData.length} trips`);
   console.log(`✅ Loaded calendar CSV (${calendarCsv.split('\n').length - 1} entries)\n`);
   
@@ -286,10 +295,10 @@ async function generateStopPages() {
         stopType = 'boarding';
       }
       
-      // Find child stops
+      // Find child stops - only those that explicitly have THIS stop as parent
       const childStops = [];
       for (const childStop of stopsData) {
-        if (childStop.parent_station === stopId) {
+        if (childStop.parent_station && childStop.parent_station === stopId) {
           childStops.push({
             id: childStop.stop_id,
             name: childStop.stop_name
