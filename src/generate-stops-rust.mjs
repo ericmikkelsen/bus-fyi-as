@@ -330,25 +330,6 @@ async function generateStopPages() {
       // Store route types for this stop
       stopRouteTypes.set(stopId, routeTypes);
       
-      // Add to route type index
-      for (const routeType of routeTypes) {
-        if (!stopsByRouteType.has(routeType)) {
-          stopsByRouteType.set(routeType, []);
-        }
-        stopsByRouteType.get(routeType).push({
-          stop_id: stopId,
-          stop_name: stopName,
-          location_type: locationType,
-          route_types: Array.from(routeTypes)
-        });
-      }
-      
-      // Format route types for display
-      const routeTypeNames = Array.from(routeTypes)
-        .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
-        .join(', ');
-      const routeTypeDisplay = routeTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
-      
       // Process parent stop
       const parentFilePath = await processStop(
         stopId, stopName, '', '', childStops,
@@ -356,8 +337,10 @@ async function generateStopPages() {
         distDir, agencyId
       );
       
-      // Process child stops and collect log entries BEFORE any console output
+      // Process child stops and collect their route types and log entries
       const childLogEntries = [];
+      const allRouteTypes = new Set(routeTypes); // Start with parent's route types
+      
       for (const childStop of childStops) {
         const childStopTimesPath = join(stopTimesByStopDir, `${childStop.id}-stop_times.csv`);
         let childStopTimesCsv = '';
@@ -374,22 +357,10 @@ async function generateStopPages() {
               const route = routeMap.get(routeId);
               if (route && route.route_type) {
                 childRouteTypes.add(route.route_type);
+                allRouteTypes.add(route.route_type); // Add child's route type to parent's collection
               }
             }
           }
-        }
-        
-        // Add child stop to route type indexes
-        for (const routeType of childRouteTypes) {
-          if (!stopsByRouteType.has(routeType)) {
-            stopsByRouteType.set(routeType, []);
-          }
-          stopsByRouteType.get(routeType).push({
-            stop_id: childStop.id,
-            stop_name: childStop.name,
-            location_type: childStop.location_type || '0',
-            route_types: Array.from(childRouteTypes)
-          });
         }
         
         const childFilePath = await processStop(
@@ -403,6 +374,25 @@ async function generateStopPages() {
         
         childrenProcessed++;
       }
+      
+      // Add parent stop to route type indexes with combined route types (parent + children)
+      for (const routeType of allRouteTypes) {
+        if (!stopsByRouteType.has(routeType)) {
+          stopsByRouteType.set(routeType, []);
+        }
+        stopsByRouteType.get(routeType).push({
+          stop_id: stopId,
+          stop_name: stopName,
+          location_type: locationType,
+          route_types: Array.from(allRouteTypes)
+        });
+      }
+      
+      // Format combined route types for display
+      const routeTypeNames = Array.from(allRouteTypes)
+        .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
+        .join(', ');
+      const routeTypeDisplay = allRouteTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
       
       // Now log parent and children together to prevent interleaving
       const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
