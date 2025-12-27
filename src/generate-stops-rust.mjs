@@ -361,9 +361,35 @@ async function generateStopPages() {
       for (const childStop of childStops) {
         const childStopTimesPath = join(stopTimesByStopDir, `${childStop.id}-stop_times.csv`);
         let childStopTimesCsv = '';
+        const childRouteTypes = new Set();
         
         if (existsSync(childStopTimesPath)) {
           childStopTimesCsv = readFileSync(childStopTimesPath, 'utf-8');
+          
+          // Parse stop times to get route types for child stop
+          const childStopTimesData = parseCSV(childStopTimesCsv);
+          for (const stopTime of childStopTimesData) {
+            const routeId = tripToRoute.get(stopTime.trip_id);
+            if (routeId) {
+              const route = routeMap.get(routeId);
+              if (route && route.route_type) {
+                childRouteTypes.add(route.route_type);
+              }
+            }
+          }
+        }
+        
+        // Add child stop to route type indexes
+        for (const routeType of childRouteTypes) {
+          if (!stopsByRouteType.has(routeType)) {
+            stopsByRouteType.set(routeType, []);
+          }
+          stopsByRouteType.get(routeType).push({
+            stop_id: childStop.id,
+            stop_name: childStop.name,
+            location_type: childStop.location_type || '0',
+            route_types: Array.from(childRouteTypes)
+          });
         }
         
         const childFilePath = await processStop(
