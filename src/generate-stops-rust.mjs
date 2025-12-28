@@ -238,9 +238,10 @@ async function generateStopPages() {
   console.log(`✅ Loaded ${tripsData.length} trips`);
   console.log(`✅ Loaded calendar CSV (${calendarCsv.split('\n').length - 1} entries)\n`);
   
-  // Build stop map
+  // Build stop map and categorize stops
   const stopMap = new Map();
   const parentStops = [];
+  const childStopsWithoutParent = []; // Child stops whose parent isn't in our dataset
   
   for (const stop of stopsData) {
     stopMap.set(stop.stop_id, stop);
@@ -250,7 +251,16 @@ async function generateStopPages() {
     }
   }
   
-  console.log(`Found ${parentStops.length} parent/standalone stops\n`);
+  // Find child stops whose parent doesn't exist in our parent stops list
+  const parentStopIds = new Set(parentStops.map(s => s.stop_id));
+  for (const stop of stopsData) {
+    if (stop.parent_station && stop.parent_station !== '' && !parentStopIds.has(stop.parent_station)) {
+      childStopsWithoutParent.push(stop);
+    }
+  }
+  
+  console.log(`Found ${parentStops.length} parent/standalone stops`);
+  console.log(`Found ${childStopsWithoutParent.length} orphaned child stops (parent not in dataset)\n`);
   
   // Check if stop_times is split
   const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
@@ -267,10 +277,11 @@ async function generateStopPages() {
   // Process each stop
   let processed = 0;
   let childrenProcessed = 0;
+  let orphanedStopsProcessed = 0;
   let stopsWithNoRoutes = 0;
-  const totalStops = parentStops.length;
+  const totalStops = parentStops.length + childStopsWithoutParent.length;
   
-  console.log(`Processing ${totalStops} stops...\n`);
+  console.log(`Processing ${parentStops.length} parent/standalone stops + ${childStopsWithoutParent.length} orphaned child stops = ${totalStops} total stops...\n`);
   console.log('Format: [location_type] [route_types] Stop Name (stop_id) → filepath\n');
   
   // Process in batches for progress reporting
@@ -418,6 +429,78 @@ async function generateStopPages() {
     console.log(`[${percent}%] Processed ${processed}/${totalStops} stops (${rate} pages/min, ${elapsed}s elapsed)`);
   }
   
+  // Process orphaned child stops (those whose parent isn't in our dataset)
+  // These are typically individual bus stops that reference a parent that may not exist
+  console.log(`\n📍 Processing ${childStopsWithoutParent.length} orphaned child stops...`);
+  
+  for (let i = 0; i < childStopsWithoutParent.length; i += batchSize) {
+    const batch = childStopsWithoutParent.slice(i, i + batchSize);
+    
+    await Promise.all(batch.map(async (stop) => {
+      const stopId = stop.stop_id;
+      const stopName = stop.stop_name;
+      const locationType = stop.location_type || '0';
+      
+      // Load stop times to determine route types
+      const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
+      let stopTimesCsv = '';
+      const routeTypes = new Set();
+      
+      if (existsSync(stopTimesPath)) {
+        stopTimesCsv = readFileSync(stopTimesPath, 'utf-8');
+        
+        // Parse stop times to get trips, then routes, then route_types
+        const stopTimesData = parseCSV(stopTimesCsv);
+        for (const stopTime of stopTimesData) {
+          const routeId = tripToRoute.get(stopTime.trip_id);
+          if (routeId) {
+            const route = routeMap.get(routeId);
+            if (route && route.route_type) {
+              routeTypes.add(route.route_type);
+            }
+          }
+        }
+      }
+      
+      // Process this orphaned stop
+      const filePath = await processStop(
+        stopId, stopName, '', '', [],
+        stopTimesCsv, routesCsv, tripsCsv, calendarCsv,
+        distDir, agencyId
+      );
+      
+      // Add to route type indexes if it has route types
+      if (routeTypes.size > 0) {
+        for (const routeType of routeTypes) {
+          if (!stopsByRouteType.has(routeType)) {
+            stopsByRouteType.set(routeType, []);
+          }
+          stopsByRouteType.get(routeType).push({
+            stop_id: stopId,
+            stop_name: stopName,
+            location_type: locationType,
+            route_types: Array.from(routeTypes)
+          });
+        }
+        
+        // Log orphaned stop processing
+        const routeTypeNames = Array.from(routeTypes)
+          .sort()
+          .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
+          .join(', ');
+        const routeTypeDisplay = `[${routeTypeNames}]`;
+        console.log(`[orphaned] ${routeTypeDisplay} ${stopName} (${stopId}) → ${filePath}`);
+      } else {
+        stopsWithNoRoutes++;
+      }
+      
+      orphanedStopsProcessed++;
+    }));
+    
+    const orphanedPercent = Math.round((orphanedStopsProcessed / childStopsWithoutParent.length) * 100);
+    console.log(`[${orphanedPercent}%] Processed ${orphanedStopsProcessed}/${childStopsWithoutParent.length} orphaned stops`);
+  }
+  
   // Generate route type index pages
   console.log(`\n📊 Generating route type index pages...`);
   
@@ -454,14 +537,16 @@ async function generateStopPages() {
   
   const endTime = Date.now();
   const totalTime = ((endTime - startTime) / 1000).toFixed(1);
-  const pagesPerSec = (processed / (totalTime / 60 / 60)).toFixed(1);
+  const totalPagesGenerated = processed + childrenProcessed + orphanedStopsProcessed + stopsByRouteType.size;
+  const pagesPerSec = (totalPagesGenerated / (totalTime / 60 / 60)).toFixed(1);
   
   console.log(`\n✅ Generation complete!`);
   console.log(`   Parent/standalone stops: ${processed}`);
   console.log(`   Child stops: ${childrenProcessed}`);
+  console.log(`   Orphaned child stops: ${orphanedStopsProcessed}`);
   console.log(`   Stops with no routes: ${stopsWithNoRoutes}`);
   console.log(`   Route type indexes: ${stopsByRouteType.size}`);
-  console.log(`   Total pages: ${processed + childrenProcessed + stopsByRouteType.size}`);
+  console.log(`   Total pages: ${totalPagesGenerated}`);
   console.log(`   Time: ${totalTime}s`);
   console.log(`   Rate: ${pagesPerSec} pages/sec`);
 }
