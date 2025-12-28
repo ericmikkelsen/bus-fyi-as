@@ -90,6 +90,38 @@ async function splitStopTimes(dataDir) {
 }
 
 /**
+ * Pre-load all stop_times CSV files into memory
+ */
+async function preloadStopTimesFiles(stopTimesByStopDir) {
+  console.log('Pre-loading stop_times CSV files into memory...');
+  const stopTimesCache = new Map();
+  
+  const files = readdirSync(stopTimesByStopDir);
+  const csvFiles = files.filter(f => f.endsWith('-stop_times.csv'));
+  
+  console.log(`  Loading ${csvFiles.length} stop_times files...`);
+  
+  // Load all files in parallel batches for speed
+  const LOAD_BATCH = 1000;
+  for (let i = 0; i < csvFiles.length; i += LOAD_BATCH) {
+    const batch = csvFiles.slice(i, i + LOAD_BATCH);
+    await Promise.all(batch.map(async (file) => {
+      const stopId = file.replace('-stop_times.csv', '');
+      const filePath = join(stopTimesByStopDir, file);
+      const content = readFileSync(filePath, 'utf-8');
+      stopTimesCache.set(stopId, content);
+    }));
+    
+    if ((i + batch.length) % 5000 === 0 || (i + batch.length) === csvFiles.length) {
+      console.log(`    Loaded ${i + batch.length}/${csvFiles.length} files...`);
+    }
+  }
+  
+  console.log(`✅ Pre-loaded ${stopTimesCache.size} stop_times files into memory\n`);
+  return stopTimesCache;
+}
+
+/**
  * Parse CSV content into array of objects
  */
 function parseCSV(csvText) {
@@ -192,6 +224,10 @@ async function generateStopPages() {
   
   // Split stop_times if needed
   await splitStopTimes(dataDir);
+  
+  // Pre-load all stop_times CSV files into memory for fast access
+  const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
+  const stopTimesCache = await preloadStopTimesFiles(stopTimesByStopDir);
   
   console.log('Rust WASM module loaded\n');
   
@@ -323,14 +359,11 @@ async function generateStopPages() {
       // Get child stops from pre-built map (O(1) lookup instead of O(n) scan)
       const childStops = childrenByParent.get(stopId) || [];
       
-      // Load stop times to determine route types
-      const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
-      let stopTimesCsv = '';
+      // Get stop times from pre-loaded cache (no file I/O!)
+      let stopTimesCsv = stopTimesCache.get(stopId) || '';
       const routeTypes = new Set();
       
-      if (existsSync(stopTimesPath)) {
-        stopTimesCsv = readFileSync(stopTimesPath, 'utf-8');
-        
+      if (stopTimesCsv) {
         // Parse stop times to get trips, then routes, then route_types
         const stopTimesData = parseCSV(stopTimesCsv);
         for (const stopTime of stopTimesData) {
@@ -359,13 +392,11 @@ async function generateStopPages() {
       const allRouteTypes = new Set(routeTypes); // Start with parent's route types
       
       for (const childStop of childStops) {
-        const childStopTimesPath = join(stopTimesByStopDir, `${childStop.id}-stop_times.csv`);
-        let childStopTimesCsv = '';
+        // Get child stop times from pre-loaded cache (no file I/O!)
+        let childStopTimesCsv = stopTimesCache.get(childStop.id) || '';
         const childRouteTypes = new Set();
         
-        if (existsSync(childStopTimesPath)) {
-          childStopTimesCsv = readFileSync(childStopTimesPath, 'utf-8');
-          
+        if (childStopTimesCsv) {
           // Parse stop times to get route types for child stop
           const childStopTimesData = parseCSV(childStopTimesCsv);
           for (const stopTime of childStopTimesData) {
@@ -446,14 +477,11 @@ async function generateStopPages() {
       const stopName = stop.stop_name;
       const locationType = stop.location_type || '0';
       
-      // Load stop times to determine route types
-      const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
-      let stopTimesCsv = '';
+      // Get stop times from pre-loaded cache (no file I/O!)
+      let stopTimesCsv = stopTimesCache.get(stopId) || '';
       const routeTypes = new Set();
       
-      if (existsSync(stopTimesPath)) {
-        stopTimesCsv = readFileSync(stopTimesPath, 'utf-8');
-        
+      if (stopTimesCsv) {
         // Parse stop times to get trips, then routes, then route_types
         const stopTimesData = parseCSV(stopTimesCsv);
         for (const stopTime of stopTimesData) {
