@@ -1,9 +1,9 @@
 // Rust WASM Generator - Complete HTML generation in Rust
-import { createWriteStream, existsSync, mkdirSync, readFileSync, readdirSync, createReadStream } from 'fs';
+import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { createInterface } from 'readline';
 import { generate_stop_page, generate_route_type_index_page } from '../pkg/bus_fyi_wasm.js';
+import { splitStopTimes } from './split-stop-times.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -20,74 +20,6 @@ const ROUTE_TYPE_NAMES = {
   '6': 'Gondola',
   '7': 'Funicular',
 };
-
-/**
- * Split stop_times.txt by stop_id
- */
-async function splitStopTimes(dataDir) {
-  console.log('Splitting stop_times.txt by stop...');
-  
-  const stopTimesPath = join(dataDir, 'stop_times.txt');
-  const outputDir = join(dataDir, 'stop_times_by_stop');
-  
-  if (existsSync(outputDir)) {
-    console.log('✅ stop_times_by_stop directory already exists, skipping split\n');
-    return;
-  }
-  
-  mkdirSync(outputDir, { recursive: true });
-  
-  const fileStreams = new Map();
-  let lineCount = 0;
-  let stopCount = 0;
-  
-  const rl = createInterface({
-    input: createReadStream(stopTimesPath),
-    crlfDelay: Infinity
-  });
-  
-  let header = '';
-  let isFirstLine = true;
-  
-  for await (const line of rl) {
-    if (isFirstLine) {
-      header = line + '\n';
-      isFirstLine = false;
-      continue;
-    }
-    
-    lineCount++;
-    
-    // Extract stop_id (3rd column typically)
-    const parts = line.split(',');
-    const stopId = parts[3];
-    
-    if (!stopId) continue;
-    
-    // Get or create stream for this stop
-    if (!fileStreams.has(stopId)) {
-      const filePath = join(outputDir, `${stopId}-stop_times.csv`);
-      const stream = createWriteStream(filePath);
-      stream.write(header);
-      fileStreams.set(stopId, stream);
-      stopCount++;
-    }
-    
-    const stream = fileStreams.get(stopId);
-    stream.write(line + '\n');
-    
-    if (lineCount % 500000 === 0) {
-      console.log(`  Processed ${lineCount.toLocaleString()} lines, ${stopCount} stops...`);
-    }
-  }
-  
-  // Close all streams
-  for (const stream of fileStreams.values()) {
-    stream.end();
-  }
-  
-  console.log(`✅ Split complete: ${lineCount.toLocaleString()} lines into ${stopCount} stop files\n`);
-}
 
 /**
  * Load stop_times CSV for a specific stop (no pre-loading to avoid OOM)
