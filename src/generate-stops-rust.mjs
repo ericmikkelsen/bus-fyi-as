@@ -242,6 +242,7 @@ async function generateStopPages() {
   const stopMap = new Map();
   const parentStops = [];
   const childStopsWithoutParent = []; // Child stops whose parent isn't in our dataset
+  const childrenByParent = new Map(); // Map parent_id -> array of child stops (for O(1) lookup)
   
   for (const stop of stopsData) {
     stopMap.set(stop.stop_id, stop);
@@ -251,11 +252,23 @@ async function generateStopPages() {
     }
   }
   
-  // Find child stops whose parent doesn't exist in our parent stops list
+  // Build parent-to-children mapping and find orphaned children in one pass
   const parentStopIds = new Set(parentStops.map(s => s.stop_id));
   for (const stop of stopsData) {
-    if (stop.parent_station && stop.parent_station !== '' && !parentStopIds.has(stop.parent_station)) {
-      childStopsWithoutParent.push(stop);
+    if (stop.parent_station && stop.parent_station !== '') {
+      if (parentStopIds.has(stop.parent_station)) {
+        // This child has a parent in our dataset
+        if (!childrenByParent.has(stop.parent_station)) {
+          childrenByParent.set(stop.parent_station, []);
+        }
+        childrenByParent.get(stop.parent_station).push({
+          id: stop.stop_id,
+          name: stop.stop_name
+        });
+      } else {
+        // Orphaned child - parent doesn't exist
+        childStopsWithoutParent.push(stop);
+      }
     }
   }
   
@@ -285,7 +298,7 @@ async function generateStopPages() {
   console.log('Format: [location_type] [route_types] Stop Name (stop_id) → filepath\n');
   
   // Process in batches for progress reporting
-  const batchSize = parseInt(process.env.THROTTLE || '50', 10);
+  const batchSize = parseInt(process.env.THROTTLE || '500', 10);
   
   for (let i = 0; i < parentStops.length; i += batchSize) {
     const batch = parentStops.slice(i, i + batchSize);
@@ -307,16 +320,8 @@ async function generateStopPages() {
         stopType = 'boarding';
       }
       
-      // Find child stops - only those that explicitly have THIS stop as parent
-      const childStops = [];
-      for (const childStop of stopsData) {
-        if (childStop.parent_station && childStop.parent_station === stopId) {
-          childStops.push({
-            id: childStop.stop_id,
-            name: childStop.stop_name
-          });
-        }
-      }
+      // Get child stops from pre-built map (O(1) lookup instead of O(n) scan)
+      const childStops = childrenByParent.get(stopId) || [];
       
       // Load stop times to determine route types
       const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
