@@ -156,10 +156,55 @@ async function generateStopCsvs() {
   console.log('🚀 Starting stop CSV generation...\n');
   const startTime = Date.now();
 
-  const dataDir = join(rootDir, 'data');
+  // Get agency from env var or scan data directory
+  const agency = process.env.AGENCY;
+  const baseDataDir = join(rootDir, 'data');
+  
+  let agencies = [];
+  if (agency) {
+    // Use specified agency
+    agencies = [agency];
+    console.log(`Using agency from AGENCY env var: ${agency}\n`);
+  } else {
+    // Scan data directory for agencies
+    if (!existsSync(baseDataDir)) {
+      console.error('❌ data directory not found!');
+      process.exit(1);
+    }
+    
+    const entries = readdirSync(baseDataDir, { withFileTypes: true });
+    agencies = entries
+      .filter(entry => entry.isDirectory() && !entry.name.startsWith('.'))
+      .map(entry => entry.name);
+    
+    if (agencies.length === 0) {
+      console.error('❌ No agency directories found in data/');
+      process.exit(1);
+    }
+    
+    console.log(`Found ${agencies.length} agency(ies): ${agencies.join(', ')}\n`);
+  }
+  
+  // Process each agency
+  for (const agencyName of agencies) {
+    console.log(`\n📂 Processing agency: ${agencyName}`);
+    console.log('='.repeat(50));
+    
+    await generateStopCsvsForAgency(agencyName);
+  }
+  
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`\n✅ All CSV generation complete! Total time: ${elapsed}s\n`);
+}
+
+/**
+ * Generate CSV files for a specific agency
+ */
+async function generateStopCsvsForAgency(agencyName) {
+  const agencyStartTime = Date.now();
+  const dataDir = join(rootDir, 'data', agencyName);
   const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
   const distDir = join(rootDir, 'dist');
-  const agencyId = 'cta'; // TODO: make configurable
 
   // Check if split stop_times files exist, if not, split them
   if (!existsSync(stopTimesByStopDir)) {
@@ -216,10 +261,10 @@ async function generateStopCsvs() {
       let outputDir;
       if (stop.parent_station && stop.parent_station !== '') {
         // Child stop - place in parent's directory
-        outputDir = join(distDir, agencyId, 'stops', stop.parent_station, stopId);
+        outputDir = join(distDir, agencyName, 'stops', stop.parent_station, stopId);
       } else {
         // Parent or standalone stop
-        outputDir = join(distDir, agencyId, 'stops', stopId);
+        outputDir = join(distDir, agencyName, 'stops', stopId);
       }
 
       // Check if HTML file exists in this directory (only generate CSV if HTML exists)
@@ -250,17 +295,17 @@ async function generateStopCsvs() {
 
     processed += batch.length;
     const percent = Math.round((processed / stopTimesFiles.length) * 100);
-    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    const elapsed = ((Date.now() - agencyStartTime) / 1000).toFixed(1);
     const rate = (filesGenerated / (elapsed / 60)).toFixed(1);
 
     console.log(`[${percent}%] Processed ${processed}/${stopTimesFiles.length} stops (${filesGenerated} CSVs generated, ${rate} files/min, ${elapsed}s elapsed)`);
   }
 
-  const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
-  console.log(`\n✅ CSV generation complete!`);
+  const totalTime = ((Date.now() - agencyStartTime) / 1000).toFixed(1);
+  console.log(`\n✅ CSV generation complete for ${agencyName}!`);
   console.log(`   Generated ${filesGenerated} data.csv files`);
   console.log(`   Total time: ${totalTime}s`);
-  console.log(`   Average: ${(filesGenerated / (totalTime / 60)).toFixed(1)} files/min\n`);
+  console.log(`   Average: ${(filesGenerated / (totalTime / 60)).toFixed(1)} files/min`);
 }
 
 // Run the generator
