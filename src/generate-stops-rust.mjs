@@ -90,35 +90,14 @@ async function splitStopTimes(dataDir) {
 }
 
 /**
- * Pre-load all stop_times CSV files into memory
+ * Load stop_times CSV for a specific stop (no pre-loading to avoid OOM)
  */
-async function preloadStopTimesFiles(stopTimesByStopDir) {
-  console.log('Pre-loading stop_times CSV files into memory...');
-  const stopTimesCache = new Map();
-  
-  const files = readdirSync(stopTimesByStopDir);
-  const csvFiles = files.filter(f => f.endsWith('-stop_times.csv'));
-  
-  console.log(`  Loading ${csvFiles.length} stop_times files...`);
-  
-  // Load all files in parallel batches for speed
-  const LOAD_BATCH = 1000;
-  for (let i = 0; i < csvFiles.length; i += LOAD_BATCH) {
-    const batch = csvFiles.slice(i, i + LOAD_BATCH);
-    await Promise.all(batch.map(async (file) => {
-      const stopId = file.replace('-stop_times.csv', '');
-      const filePath = join(stopTimesByStopDir, file);
-      const content = readFileSync(filePath, 'utf-8');
-      stopTimesCache.set(stopId, content);
-    }));
-    
-    if ((i + batch.length) % 5000 === 0 || (i + batch.length) === csvFiles.length) {
-      console.log(`    Loaded ${i + batch.length}/${csvFiles.length} files...`);
-    }
+function loadStopTimesCsv(stopTimesByStopDir, stopId) {
+  const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
+  if (existsSync(stopTimesPath)) {
+    return readFileSync(stopTimesPath, 'utf-8');
   }
-  
-  console.log(`✅ Pre-loaded ${stopTimesCache.size} stop_times files into memory\n`);
-  return stopTimesCache;
+  return '';
 }
 
 /**
@@ -225,9 +204,8 @@ async function generateStopPages() {
   // Split stop_times if needed
   await splitStopTimes(dataDir);
   
-  // Pre-load all stop_times CSV files into memory for fast access
+  // Directory for split stop_times files (loaded on-demand to avoid OOM)
   const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
-  const stopTimesCache = await preloadStopTimesFiles(stopTimesByStopDir);
   
   console.log('Rust WASM module loaded\n');
   
@@ -351,8 +329,8 @@ async function generateStopPages() {
       // Get child stops from pre-built map (O(1) lookup instead of O(n) scan)
       const childStops = childrenByParent.get(stopId) || [];
       
-      // Get stop times from pre-loaded cache (no file I/O!)
-      let stopTimesCsv = stopTimesCache.get(stopId) || '';
+      // Load stop times on-demand (avoid OOM by not pre-loading all files)
+      let stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
       const routeTypes = new Set();
       
       if (stopTimesCsv) {
@@ -384,8 +362,8 @@ async function generateStopPages() {
       const allRouteTypes = new Set(routeTypes); // Start with parent's route types
       
       for (const childStop of childStops) {
-        // Get child stop times from pre-loaded cache (no file I/O!)
-        let childStopTimesCsv = stopTimesCache.get(childStop.id) || '';
+        // Load child stop times on-demand (avoid OOM)
+        let childStopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, childStop.id);
         const childRouteTypes = new Set();
         
         if (childStopTimesCsv) {
@@ -469,8 +447,8 @@ async function generateStopPages() {
       const stopName = stop.stop_name;
       const locationType = stop.location_type || '0';
       
-      // Get stop times from pre-loaded cache (no file I/O!)
-      let stopTimesCsv = stopTimesCache.get(stopId) || '';
+      // Load stop times on-demand (avoid OOM)
+      let stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
       const routeTypes = new Set();
       
       if (stopTimesCsv) {
