@@ -1,15 +1,84 @@
 // Generate CSV files for each stop containing their stop times data
 // This data can be used in service workers for client-side stop list generation
 
-import { createWriteStream, existsSync, mkdirSync, readFileSync, readdirSync } from 'fs';
+import { createWriteStream, existsSync, mkdirSync, readFileSync, readdirSync, createReadStream } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { pipeline } from 'stream/promises';
 import { Readable } from 'stream';
+import { createInterface } from 'readline';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const rootDir = join(__dirname, '..');
+
+/**
+ * Split stop_times.txt by stop_id
+ */
+async function splitStopTimes(dataDir) {
+  console.log('Splitting stop_times.txt by stop...');
+  
+  const stopTimesPath = join(dataDir, 'stop_times.txt');
+  const outputDir = join(dataDir, 'stop_times_by_stop');
+  
+  if (existsSync(outputDir)) {
+    console.log('✅ stop_times_by_stop directory already exists, skipping split\n');
+    return;
+  }
+  
+  mkdirSync(outputDir, { recursive: true });
+  
+  const fileStreams = new Map();
+  let lineCount = 0;
+  let stopCount = 0;
+  
+  const rl = createInterface({
+    input: createReadStream(stopTimesPath),
+    crlfDelay: Infinity
+  });
+  
+  let header = '';
+  let isFirstLine = true;
+  
+  for await (const line of rl) {
+    if (isFirstLine) {
+      header = line + '\n';
+      isFirstLine = false;
+      continue;
+    }
+    
+    lineCount++;
+    
+    // Extract stop_id (3rd column typically)
+    const parts = line.split(',');
+    const stopId = parts[3];
+    
+    if (!stopId) continue;
+    
+    // Get or create stream for this stop
+    if (!fileStreams.has(stopId)) {
+      const filePath = join(outputDir, `${stopId}-stop_times.csv`);
+      const stream = createWriteStream(filePath);
+      stream.write(header);
+      fileStreams.set(stopId, stream);
+      stopCount++;
+    }
+    
+    const stream = fileStreams.get(stopId);
+    stream.write(line + '\n');
+    
+    if (lineCount % 500000 === 0) {
+      console.log(`  Processed ${lineCount.toLocaleString()} lines, ${stopCount} stops...`);
+    }
+  }
+  
+  // Close all streams
+  for (const stream of fileStreams.values()) {
+    stream.end();
+  }
+  
+  console.log(`✅ Split complete: ${lineCount.toLocaleString()} lines into ${stopCount} stop files\n`);
+}
 
 /**
  * Simple CSV parser
@@ -92,11 +161,10 @@ async function generateStopCsvs() {
   const distDir = join(rootDir, 'dist');
   const agencyId = 'cta'; // TODO: make configurable
 
-  // Check if split stop_times files exist
+  // Check if split stop_times files exist, if not, split them
   if (!existsSync(stopTimesByStopDir)) {
-    console.error('❌ stop_times_by_stop directory not found!');
-    console.error('   Please run stop_times splitting first (this should have been done during HTML generation)');
-    process.exit(1);
+    console.log('stop_times_by_stop directory not found, splitting now...\n');
+    await splitStopTimes(dataDir);
   }
 
   // Load routes and trips data
