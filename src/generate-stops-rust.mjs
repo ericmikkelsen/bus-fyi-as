@@ -311,14 +311,6 @@ async function generateStopPages() {
   console.log(`Found ${parentStops.length} parent/standalone stops`);
   console.log(`Found ${childStopsWithoutParent.length} orphaned child stops (parent not in dataset)\n`);
   
-  // Check if stop_times is split
-  const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
-  if (!existsSync(stopTimesByStopDir)) {
-    console.error('❌ stop_times_by_stop directory not found!');
-    console.error('Please run data splitting first.');
-    process.exit(1);
-  }
-  
   // Track stops by route type
   const stopsByRouteType = new Map();
   const stopRouteTypes = new Map(); // Map stop_id to Set of route_types
