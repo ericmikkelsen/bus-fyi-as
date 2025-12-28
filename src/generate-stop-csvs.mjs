@@ -174,7 +174,19 @@ async function generateStopCsvs() {
     
     const entries = readdirSync(baseDataDir, { withFileTypes: true });
     agencies = entries
-      .filter(entry => entry.isDirectory() && !entry.name.startsWith('.'))
+      .filter(entry => {
+        if (!entry.isDirectory() || entry.name.startsWith('.')) {
+          return false;
+        }
+        // Skip stop_times_by_stop directory (it's not an agency)
+        if (entry.name === 'stop_times_by_stop') {
+          return false;
+        }
+        // Only include directories that have required GTFS files
+        const agencyDir = join(baseDataDir, entry.name);
+        return existsSync(join(agencyDir, 'routes.txt')) && 
+               existsSync(join(agencyDir, 'stops.txt'));
+      })
       .map(entry => entry.name);
     
     if (agencies.length === 0) {
