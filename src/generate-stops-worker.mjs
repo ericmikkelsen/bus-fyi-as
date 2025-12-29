@@ -2,7 +2,7 @@
 import { parentPort, workerData } from 'worker_threads';
 import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join } from 'path';
-import { generate_stop_page, extract_stop_route_types, init_routes_and_trips } from '../pkg/bus_fyi_wasm.js';
+import { generate_stop_page_cached, extract_stop_route_types, init_routes_and_trips, init_calendar } from '../pkg/bus_fyi_wasm.js';
 
 const ROUTE_TYPE_NAMES = {
   '0': 'Tram',
@@ -29,11 +29,11 @@ async function writeFile(filePath, content) {
 }
 
 /**
- * Process a single stop and generate HTML using Rust WASM
+ * Process a single stop and generate HTML using Rust WASM (CACHED VERSION - NO CSV PARSING!)
  */
 async function processStop(
   stopId, stopName, parentId, parentName, childStops,
-  stopTimesData, routesCsv, tripsCsv, calendarCsv,
+  stopTimesData,
   distDir, agencyId
 ) {
   try {
@@ -52,17 +52,14 @@ async function processStop(
     // Convert child stops to JSON
     const childStopsJson = JSON.stringify(childStops);
     
-    // Call Rust WASM to generate complete HTML
-    const html = generate_stop_page(
+    // Call Rust WASM to generate complete HTML using cached data (FAST!)
+    const html = generate_stop_page_cached(
       stopId,
       stopName,
       parentId || '',
       parentName || '',
       childStopsJson,
-      stopTimesData,
-      routesCsv,
-      tripsCsv,
-      calendarCsv
+      stopTimesData
     );
     
     // Write to file
@@ -103,8 +100,9 @@ async function processStopsChunk() {
     childrenByParent
   } = workerData;
   
-  // Initialize Rust WASM with cached routes/trips data
+  // Initialize Rust WASM with cached routes/trips/calendar data (ONCE per worker)
   init_routes_and_trips(routesCsv, tripsCsv);
+  init_calendar(calendarCsv);
   
   const results = [];
   
@@ -140,10 +138,10 @@ async function processStopsChunk() {
         routeTypes = new Set(routeTypesArray);
       }
       
-      // Process parent stop
+      // Process parent stop (NO CSV PARAMETERS - uses cached data!)
       const parentFilePath = await processStop(
         stopId, stopName, '', '', childStops,
-        stopTimesCsv, routesCsv, tripsCsv, calendarCsv,
+        stopTimesCsv,
         distDir, agencyId
       );
       
@@ -170,7 +168,7 @@ async function processStopsChunk() {
         
         const childFilePath = await processStop(
           childStop.id, childStop.name, stopId, stopName, [],
-          childStopTimesCsv, routesCsv, tripsCsv, calendarCsv,
+          childStopTimesCsv,
           distDir, agencyId
         );
         
