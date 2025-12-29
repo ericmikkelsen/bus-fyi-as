@@ -33,10 +33,10 @@ pub fn generate(
     // Generate terminals list
     let terminals_html = terminals_list::render(&child_stops, "cta", stop_id);
     
-    // Generate routes section header
-    let mut routes_section_header = String::new();
-    if !stop_times.is_empty() && !child_stops.is_empty() {
-        routes_section_header = format!("\n  <h2>Routes at {}</h2>\n", stop_name);
+    // Generate stop times section header
+    let mut stop_times_section_header = String::new();
+    if !stop_times.is_empty() {
+        stop_times_section_header = format!("\n  <h2>Stop times</h2>\n");
     }
     
     // Group stop times by hour
@@ -95,7 +95,7 @@ pub fn generate(
         }
         
         // Build schedule entries HTML
-        schedule_html.push_str("    <ol>\n");
+        schedule_html.push_str("    <ul>\n");
         
         // Sort entries by time
         let mut entries: Vec<_> = entry_map.values().collect();
@@ -122,7 +122,7 @@ pub fn generate(
             schedule_html.push_str("\n      </li>\n");
         }
         
-        schedule_html.push_str("    </ol>\n");
+        schedule_html.push_str("    </ul>\n");
     }
     
     // Assemble page content
@@ -131,7 +131,7 @@ pub fn generate(
     content.push('\n');
     content.push_str(&terminals_html);
     content.push('\n');
-    content.push_str(&routes_section_header);
+    content.push_str(&stop_times_section_header);
     content.push_str(&schedule_html);
     
     // Wrap in layout
@@ -160,10 +160,10 @@ pub fn generate_cached(
     // Generate terminals list
     let terminals_html = terminals_list::render(&child_stops, "cta", stop_id);
     
-    // Generate routes section header
-    let mut routes_section_header = String::new();
-    if !stop_times.is_empty() && !child_stops.is_empty() {
-        routes_section_header = format!("\n  <h2>Routes at {}</h2>\n", stop_name);
+    // Generate stop times section header
+    let mut stop_times_section_header = String::new();
+    if !stop_times.is_empty() {
+        stop_times_section_header = format!("\n  <h2>Stop times</h2>\n");
     }
     
     // Group stop times by hour
@@ -231,7 +231,7 @@ pub fn generate_cached(
                         }
                         
                         // Build schedule entries HTML
-                        schedule_html.push_str("    <ol>\n");
+                        schedule_html.push_str("    <ul>\n");
                         
                         // Sort entries by time
                         let mut entries: Vec<_> = entry_map.values().collect();
@@ -258,7 +258,7 @@ pub fn generate_cached(
                             schedule_html.push_str("\n      </li>\n");
                         }
                         
-                        schedule_html.push_str("    </ol>\n");
+                        schedule_html.push_str("    </ul>\n");
                     }
                 }
             });
@@ -271,7 +271,7 @@ pub fn generate_cached(
     content.push('\n');
     content.push_str(&terminals_html);
     content.push('\n');
-    content.push_str(&routes_section_header);
+    content.push_str(&stop_times_section_header);
     content.push_str(&schedule_html);
     
     // Wrap in layout
