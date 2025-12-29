@@ -36,18 +36,32 @@ export async function splitStopTimes(dataDir) {
   let header = '';
   let isFirstLine = true;
   
+  let stopIdIndex = -1;
+  
   for await (const line of rl) {
     if (isFirstLine) {
       header = line + '\n';
       isFirstLine = false;
+      
+      // Find stop_id column index from header
+      const headerParts = line.split(',');
+      stopIdIndex = headerParts.findIndex(h => h.trim().toLowerCase() === 'stop_id');
+      
+      if (stopIdIndex === -1) {
+        console.error('❌ Error: stop_id column not found in stop_times.txt header');
+        console.error('   Header columns:', headerParts.join(', '));
+        throw new Error('stop_id column not found in header');
+      }
+      
+      console.log(`✅ Found stop_id at column index ${stopIdIndex}`);
       continue;
     }
     
     lineCount++;
     
-    // Extract stop_id (3rd column typically)
+    // Extract stop_id from the correct column
     const parts = line.split(',');
-    const stopId = parts[3];
+    const stopId = parts[stopIdIndex]?.trim().replace(/^"|"$/g, ''); // Remove quotes if present
     
     if (!stopId) continue;
     
