@@ -4,6 +4,8 @@
 import { createWriteStream, existsSync, mkdirSync, readFileSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { Readable } from 'stream';
+import { pipeline } from 'stream/promises';
 import { splitStopTimes } from './split-stop-times.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -239,8 +241,13 @@ async function generateStopCsvsForAgency(agencyName) {
     const percent = Math.round((processed / stopTimesFiles.length) * 100);
     const elapsed = ((Date.now() - agencyStartTime) / 1000).toFixed(1);
     const rate = (filesGenerated / (elapsed / 60)).toFixed(1);
-
-    console.log(`[${percent}%] Processed ${processed}/${stopTimesFiles.length} stops (${filesGenerated} CSVs generated, ${rate} files/min, ${elapsed}s elapsed)`);
+    
+    // Log every 30 seconds or at 5% intervals
+    const currentTime = Date.now();
+    if (currentTime - lastLogTime >= logInterval || percent % 5 === 0) {
+      console.log(`[${percent}%] Processed ${processed}/${stopTimesFiles.length} stops (${filesGenerated} CSVs generated, ${rate} files/min, ${elapsed}s elapsed)`);
+      lastLogTime = currentTime;
+    }
   }
 
   const totalTime = ((Date.now() - agencyStartTime) / 1000).toFixed(1);

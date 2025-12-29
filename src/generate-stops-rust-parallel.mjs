@@ -78,6 +78,14 @@ async function processStopsWithWorkers(
     chunks.push(stopsChunk.slice(i, i + chunkSize));
   }
   
+  // Track progress
+  const totalStops = stopsChunk.length;
+  let completedStops = 0;
+  let completedHtmlFiles = 0;
+  const startTime = Date.now();
+  let lastLogTime = Date.now();
+  const logInterval = 30000; // 30 seconds
+  
   // Create workers and process chunks in parallel
   const workerPromises = chunks.map((chunk, index) => {
     return new Promise((resolve, reject) => {
@@ -95,7 +103,21 @@ async function processStopsWithWorkers(
       });
       
       worker.on('message', (message) => {
-        if (message.success) {
+        if (message.progress) {
+          // Progress update from worker
+          completedStops += message.processed;
+          completedHtmlFiles += message.htmlFiles;
+          
+          // Log every 30 seconds
+          const currentTime = Date.now();
+          if (currentTime - lastLogTime >= logInterval) {
+            const elapsed = ((currentTime - startTime) / 1000).toFixed(1);
+            const percent = Math.round((completedStops / totalStops) * 100);
+            const rate = (completedHtmlFiles / (elapsed / 60)).toFixed(1);
+            console.log(`[${percent}%] Processed ${completedStops}/${totalStops} stops (${completedHtmlFiles} HTML files written, ${rate} files/min, ${elapsed}s elapsed)`);
+            lastLogTime = currentTime;
+          }
+        } else if (message.success) {
           resolve(message.results);
         } else {
           reject(new Error(message.error));

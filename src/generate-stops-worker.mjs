@@ -105,6 +105,8 @@ async function processStopsChunk() {
   init_calendar(calendarCsv);
   
   const results = [];
+  let processedCount = 0;
+  let htmlFilesWritten = 0;
   
   for (const stop of stopsChunk) {
     try {
@@ -144,6 +146,7 @@ async function processStopsChunk() {
         stopTimesCsv,
         distDir, agencyId
       );
+      htmlFilesWritten++; // Count parent HTML file
       
       // Process child stops and collect route types
       const childLogEntries = [];
@@ -171,6 +174,7 @@ async function processStopsChunk() {
           childStopTimesCsv,
           distDir, agencyId
         );
+        htmlFilesWritten++; // Count child HTML file
         
         childLogEntries.push(`  ↳ [child] "${childStop.name}" (${childStop.id}) → ${childFilePath}`);
         childrenProcessed++;
@@ -178,6 +182,48 @@ async function processStopsChunk() {
       
       // Format route types for display
       const routeTypeNames = Array.from(allRouteTypes)
+        .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
+        .join(', ');
+      const routeTypeDisplay = allRouteTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
+      
+      // Collect result for main thread
+      results.push({
+        stopId,
+        stopName,
+        stopType,
+        locationType,
+        routeTypeDisplay,
+        parentFilePath,
+        childLogEntries,
+        childrenCount: childStops.length,
+        childrenProcessed,
+        allRouteTypes: Array.from(allRouteTypes),
+        hasRoutes: allRouteTypes.size > 0
+      });
+      
+      processedCount++;
+      
+      // Send progress update every 10 stops
+      if (processedCount % 10 === 0) {
+        parentPort.postMessage({ 
+          progress: true, 
+          processed: 10,
+          htmlFiles: 10 + childrenProcessed  // Approximate: 10 parent + children
+        });
+      }
+      
+    } catch (error) {
+      results.push({
+        stopId: stop.stop_id,
+        error: error.message
+      });
+      processedCount++;
+    }
+  }
+  
+  // Send final results back to main thread
+  parentPort.postMessage({ success: true, results });
+}
         .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
         .join(', ');
       const routeTypeDisplay = allRouteTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
