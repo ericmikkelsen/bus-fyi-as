@@ -2,7 +2,7 @@
 import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { generate_stop_page, generate_route_type_index_page } from '../pkg/bus_fyi_wasm.js';
+import { generate_stop_page, generate_route_type_index_page, extract_stop_route_types } from '../pkg/bus_fyi_wasm.js';
 import { splitStopTimes } from './split-stop-times.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -156,22 +156,13 @@ async function generateStopPages() {
   const tripsCsv = readFileSync(tripsPath, 'utf-8');
   const calendarCsv = readFileSync(calendarPath, 'utf-8');
   
-  // Parse routes to get route types
+  // Parse routes for logging route type distribution only
   const routesData = parseCSV(routesCsv);
-  const routeMap = new Map();
   const routeTypeCount = new Map();
   for (const route of routesData) {
-    routeMap.set(route.route_id, route);
-    // Track route type distribution
+    // Track route type distribution for console output
     const rt = route.route_type || 'undefined';
     routeTypeCount.set(rt, (routeTypeCount.get(rt) || 0) + 1);
-  }
-  
-  // Parse trips to link routes to stops
-  const tripsData = parseCSV(tripsCsv);
-  const tripToRoute = new Map();
-  for (const trip of tripsData) {
-    tripToRoute.set(trip.trip_id, trip.route_id);
   }
   
   console.log(`✅ Loaded ${stopsData.length} stops`);
@@ -181,7 +172,9 @@ async function generateStopPages() {
     const typeName = ROUTE_TYPE_NAMES[routeType] || `Type ${routeType}`;
     console.log(`     ${typeName} (${routeType}): ${count} routes`);
   }
-  console.log(`✅ Loaded ${tripsData.length} trips`);
+  // Count trips from CSV (no need to parse for route extraction anymore)
+  const tripsCount = tripsCsv.split('\n').length - 1; // Subtract header
+  console.log(`✅ Loaded ${tripsCount} trips`);
   console.log(`✅ Loaded calendar CSV (${calendarCsv.split('\n').length - 1} entries)\n`);
   
   // Build stop map and categorize stops
@@ -263,20 +256,13 @@ async function generateStopPages() {
       
       // Load stop times on-demand (avoid OOM by not pre-loading all files)
       let stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
-      const routeTypes = new Set();
+      let routeTypes = new Set();
       
       if (stopTimesCsv) {
-        // Parse stop times to get trips, then routes, then route_types
-        const stopTimesData = parseCSV(stopTimesCsv);
-        for (const stopTime of stopTimesData) {
-          const routeId = tripToRoute.get(stopTime.trip_id);
-          if (routeId) {
-            const route = routeMap.get(routeId);
-            if (route && route.route_type) {
-              routeTypes.add(route.route_type);
-            }
-          }
-        }
+        // Use Rust WASM to extract route types (eliminates JavaScript CSV parsing)
+        const routeTypesJson = extract_stop_route_types(stopTimesCsv, routesCsv, tripsCsv);
+        const routeTypesArray = JSON.parse(routeTypesJson);
+        routeTypes = new Set(routeTypesArray);
       }
       
       // Store route types for this stop
@@ -296,20 +282,17 @@ async function generateStopPages() {
       for (const childStop of childStops) {
         // Load child stop times on-demand (avoid OOM)
         let childStopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, childStop.id);
-        const childRouteTypes = new Set();
+        let childRouteTypes = new Set();
         
         if (childStopTimesCsv) {
-          // Parse stop times to get route types for child stop
-          const childStopTimesData = parseCSV(childStopTimesCsv);
-          for (const stopTime of childStopTimesData) {
-            const routeId = tripToRoute.get(stopTime.trip_id);
-            if (routeId) {
-              const route = routeMap.get(routeId);
-              if (route && route.route_type) {
-                childRouteTypes.add(route.route_type);
-                allRouteTypes.add(route.route_type); // Add child's route type to parent's collection
-              }
-            }
+          // Use Rust WASM to extract route types (eliminates JavaScript CSV parsing)
+          const childRouteTypesJson = extract_stop_route_types(childStopTimesCsv, routesCsv, tripsCsv);
+          const childRouteTypesArray = JSON.parse(childRouteTypesJson);
+          childRouteTypes = new Set(childRouteTypesArray);
+          
+          // Add child's route types to parent's collection
+          for (const rt of childRouteTypes) {
+            allRouteTypes.add(rt);
           }
         }
         
@@ -381,20 +364,13 @@ async function generateStopPages() {
       
       // Load stop times on-demand (avoid OOM)
       let stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
-      const routeTypes = new Set();
+      let routeTypes = new Set();
       
       if (stopTimesCsv) {
-        // Parse stop times to get trips, then routes, then route_types
-        const stopTimesData = parseCSV(stopTimesCsv);
-        for (const stopTime of stopTimesData) {
-          const routeId = tripToRoute.get(stopTime.trip_id);
-          if (routeId) {
-            const route = routeMap.get(routeId);
-            if (route && route.route_type) {
-              routeTypes.add(route.route_type);
-            }
-          }
-        }
+        // Use Rust WASM to extract route types (eliminates JavaScript CSV parsing)
+        const routeTypesJson = extract_stop_route_types(stopTimesCsv, routesCsv, tripsCsv);
+        const routeTypesArray = JSON.parse(routeTypesJson);
+        routeTypes = new Set(routeTypesArray);
       }
       
       // Process this orphaned stop
