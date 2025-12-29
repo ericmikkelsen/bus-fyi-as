@@ -224,36 +224,6 @@ async function processStopsChunk() {
   // Send final results back to main thread
   parentPort.postMessage({ success: true, results });
 }
-        .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
-        .join(', ');
-      const routeTypeDisplay = allRouteTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
-      
-      // Collect result for main thread
-      results.push({
-        stopId,
-        stopName,
-        stopType,
-        locationType,
-        routeTypeDisplay,
-        parentFilePath,
-        childLogEntries,
-        childrenCount: childStops.length,
-        childrenProcessed,
-        allRouteTypes: Array.from(allRouteTypes),
-        hasRoutes: allRouteTypes.size > 0
-      });
-      
-    } catch (error) {
-      results.push({
-        stopId: stop.stop_id,
-        error: error.message
-      });
-    }
-  }
-  
-  // Send results back to main thread
-  parentPort.postMessage({ success: true, results });
-}
 
 // Start processing
 processStopsChunk().catch(error => {
