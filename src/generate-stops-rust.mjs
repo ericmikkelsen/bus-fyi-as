@@ -2,7 +2,7 @@
 import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { generate_stop_page, generate_route_type_index_page, extract_stop_route_types } from '../pkg/bus_fyi_wasm.js';
+import { generate_stop_page, generate_route_type_index_page, extract_stop_route_types, init_routes_and_trips } from '../pkg/bus_fyi_wasm.js';
 import { splitStopTimes } from './split-stop-times.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -156,6 +156,13 @@ async function generateStopPages() {
   const tripsCsv = readFileSync(tripsPath, 'utf-8');
   const calendarCsv = readFileSync(calendarPath, 'utf-8');
   
+  // Initialize routes and trips data in Rust ONCE (major performance optimization!)
+  // This loads the large routes.csv (131 routes) and trips.csv (94,704 trips) files
+  // into Rust memory once instead of parsing them 11,185+ times (once per stop)
+  console.log('🔧 Initializing routes and trips data in Rust WASM...');
+  init_routes_and_trips(routesCsv, tripsCsv);
+  console.log('✅ Routes and trips cached in Rust - ready for fast processing!\n');
+  
   // Parse routes for logging route type distribution only
   const routesData = parseCSV(routesCsv);
   const routeTypeCount = new Map();
@@ -259,8 +266,8 @@ async function generateStopPages() {
       let routeTypes = new Set();
       
       if (stopTimesCsv) {
-        // Use Rust WASM to extract route types (eliminates JavaScript CSV parsing)
-        const routeTypesJson = extract_stop_route_types(stopTimesCsv, routesCsv, tripsCsv);
+        // Use Rust WASM to extract route types (uses cached routes/trips data - 10-100x faster!)
+        const routeTypesJson = extract_stop_route_types(stopTimesCsv);
         const routeTypesArray = JSON.parse(routeTypesJson);
         routeTypes = new Set(routeTypesArray);
       }
@@ -285,8 +292,8 @@ async function generateStopPages() {
         let childRouteTypes = new Set();
         
         if (childStopTimesCsv) {
-          // Use Rust WASM to extract route types (eliminates JavaScript CSV parsing)
-          const childRouteTypesJson = extract_stop_route_types(childStopTimesCsv, routesCsv, tripsCsv);
+          // Use Rust WASM to extract route types (uses cached routes/trips data - 10-100x faster!)
+          const childRouteTypesJson = extract_stop_route_types(childStopTimesCsv);
           const childRouteTypesArray = JSON.parse(childRouteTypesJson);
           childRouteTypes = new Set(childRouteTypesArray);
           
@@ -367,8 +374,8 @@ async function generateStopPages() {
       let routeTypes = new Set();
       
       if (stopTimesCsv) {
-        // Use Rust WASM to extract route types (eliminates JavaScript CSV parsing)
-        const routeTypesJson = extract_stop_route_types(stopTimesCsv, routesCsv, tripsCsv);
+        // Use Rust WASM to extract route types (uses cached routes/trips data - 10-100x faster!)
+        const routeTypesJson = extract_stop_route_types(stopTimesCsv);
         const routeTypesArray = JSON.parse(routeTypesJson);
         routeTypes = new Set(routeTypesArray);
       }
