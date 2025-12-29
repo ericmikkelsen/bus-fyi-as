@@ -51,41 +51,18 @@ function parseCSV(csvText) {
 }
 
 /**
- * Pre-load all stop_times CSV files into memory
+ * NOTE: We do NOT pre-load stop_times CSVs into memory anymore.
+ * Instead, workers load the individual stop CSV files on-demand from 
+ * stop_times_by_stop/{stopId}-stop_times.csv
+ * This reduces memory usage from ~100-150MB to ~10-20MB constant.
  */
-function preloadStopTimesCsvs(stopTimesByStopDir) {
-  console.log('📂 Pre-loading stop_times CSV files into memory...');
-  const startTime = Date.now();
-  
-  const stopTimesCsvMap = {};
-  const files = readdirSync(stopTimesByStopDir);
-  
-  let loadedCount = 0;
-  for (const file of files) {
-    if (file.endsWith('-stop_times.csv')) {
-      const stopId = file.replace('-stop_times.csv', '');
-      const filePath = join(stopTimesByStopDir, file);
-      stopTimesCsvMap[stopId] = readFileSync(filePath, 'utf-8');
-      loadedCount++;
-      
-      if (loadedCount % 1000 === 0) {
-        console.log(`  Loaded ${loadedCount}/${files.length} files...`);
-      }
-    }
-  }
-  
-  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-  console.log(`✅ Pre-loaded ${loadedCount} stop_times CSV files in ${elapsed}s\n`);
-  
-  return stopTimesCsvMap;
-}
 
 /**
  * Process stops using worker threads for parallelization
  */
 async function processStopsWithWorkers(
   stopsChunk,
-  stopTimesCsvMap,
+  stopTimesByStopDir,
   routesCsv,
   tripsCsv,
   calendarCsv,
@@ -107,7 +84,7 @@ async function processStopsWithWorkers(
       const worker = new Worker(join(__dirname, 'generate-stops-worker.mjs'), {
         workerData: {
           stopsChunk: chunk,
-          stopTimesCsvMap,
+          stopTimesByStopDir,
           routesCsv,
           tripsCsv,
           calendarCsv,
@@ -174,9 +151,6 @@ async function generateStopPages() {
   
   // Directory for split stop_times files
   const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
-  
-  // Pre-load ALL stop_times CSV files into memory for workers
-  const stopTimesCsvMap = preloadStopTimesCsvs(stopTimesByStopDir);
   
   console.log('Rust WASM module loaded\n');
   
@@ -267,7 +241,7 @@ async function generateStopPages() {
   console.log(`⚡ Processing ${parentStops.length} parent stops with ${workerCount} workers...`);
   const parentResults = await processStopsWithWorkers(
     parentStops,
-    stopTimesCsvMap,
+    stopTimesByStopDir,
     routesCsv,
     tripsCsv,
     calendarCsv,
@@ -321,7 +295,7 @@ async function generateStopPages() {
   console.log(`⚡ Processing ${childStopsWithoutParent.length} orphaned child stops with ${workerCount} workers...`);
   const orphanResults = await processStopsWithWorkers(
     childStopsWithoutParent,
-    stopTimesCsvMap,
+    stopTimesByStopDir,
     routesCsv,
     tripsCsv,
     calendarCsv,

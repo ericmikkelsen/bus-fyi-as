@@ -1,6 +1,6 @@
 // Worker thread for parallel stop processing
 import { parentPort, workerData } from 'worker_threads';
-import { createWriteStream, existsSync, mkdirSync } from 'fs';
+import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { generate_stop_page, extract_stop_route_types, init_routes_and_trips } from '../pkg/bus_fyi_wasm.js';
 
@@ -78,12 +78,23 @@ async function processStop(
 }
 
 /**
+ * Load stop times CSV on-demand from the split files directory
+ */
+function loadStopTimesCsv(stopTimesByStopDir, stopId) {
+  const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
+  if (existsSync(stopTimesPath)) {
+    return readFileSync(stopTimesPath, 'utf-8');
+  }
+  return '';
+}
+
+/**
  * Worker main function - processes a chunk of stops
  */
 async function processStopsChunk() {
   const { 
     stopsChunk,
-    stopTimesCsvMap,
+    stopTimesByStopDir,
     routesCsv,
     tripsCsv,
     calendarCsv,
@@ -118,8 +129,8 @@ async function processStopsChunk() {
       // Get child stops from pre-built map
       const childStops = childrenByParent[stopId] || [];
       
-      // Get stop times from pre-loaded map
-      const stopTimesCsv = stopTimesCsvMap[stopId] || '';
+      // Load stop times CSV on-demand from split files
+      const stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
       let routeTypes = new Set();
       
       if (stopTimesCsv) {
@@ -142,8 +153,8 @@ async function processStopsChunk() {
       let childrenProcessed = 0;
       
       for (const childStop of childStops) {
-        // Get child stop times from pre-loaded map
-        const childStopTimesCsv = stopTimesCsvMap[childStop.id] || '';
+        // Load child stop times CSV on-demand
+        const childStopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, childStop.id);
         let childRouteTypes = new Set();
         
         if (childStopTimesCsv) {
