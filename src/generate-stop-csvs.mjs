@@ -188,6 +188,10 @@ async function generateStopCsvsForAgency(agencyName) {
   let processed = 0;
   let filesGenerated = 0;
   const batchSize = 500;
+  
+  // Progress logging variables
+  let lastLogTime = Date.now();
+  const logInterval = 30000; // 30 seconds
 
   for (let i = 0; i < stopTimesFiles.length; i += batchSize) {
     const batch = stopTimesFiles.slice(i, i + batchSize);
