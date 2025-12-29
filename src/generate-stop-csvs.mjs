@@ -13,7 +13,7 @@ const __dirname = dirname(__filename);
 const rootDir = join(__dirname, '..');
 
 /**
- * Simple CSV parser
+ * Simple CSV parser - handles CSVs with more columns than expected
  */
 function parseCSV(csvText) {
   const lines = csvText.trim().split('\n');
@@ -23,10 +23,15 @@ function parseCSV(csvText) {
   const data = [];
   
   for (let i = 1; i < lines.length; i++) {
-    const values = lines[i].split(',');
+    const line = lines[i].trim();
+    if (!line) continue;
+    
+    const values = line.split(',');
     const obj = {};
+    // Only parse as many fields as we have headers
+    // This allows the CSV to have extra optional columns
     for (let j = 0; j < headers.length; j++) {
-      obj[headers[j]] = values[j];
+      obj[headers[j]] = values[j] || '';
     }
     data.push(obj);
   }

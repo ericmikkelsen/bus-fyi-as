@@ -25,24 +25,32 @@ where
         }
         
         let values: Vec<&str> = line.split(',').collect();
-        if values.len() != headers.len() {
+        // Allow CSV to have more columns than headers (extra optional fields will be ignored)
+        if values.len() < headers.len() {
             continue;
         }
         
-        // Build JSON object string
+        // Build JSON object string, only using the first headers.len() values
         let mut json_obj = String::from("{");
         for (i, header) in headers.iter().enumerate() {
             if i > 0 {
                 json_obj.push(',');
             }
-            json_obj.push_str(&format!("\"{}\":\"{}\"", header, values[i]));
+            // Use only available values, not beyond
+            if i < values.len() {
+                json_obj.push_str(&format!("\"{}\":\"{}\"", header, values[i]));
+            } else {
+                json_obj.push_str(&format!("\"{}\":\"\"", header));
+            }
         }
         json_obj.push('}');
         
         // Parse JSON
         if let Ok(obj) = serde_json::from_str::<T>(&json_obj) {
             // Get first value as key (usually ID field)
-            map.insert(values[0].to_string(), obj);
+            if !values.is_empty() {
+                map.insert(values[0].to_string(), obj);
+            }
         }
     }
     
@@ -73,17 +81,23 @@ where
         }
         
         let values: Vec<&str> = line.split(',').collect();
-        if values.len() != headers.len() {
+        // Allow CSV to have more columns than headers (extra optional fields will be ignored)
+        if values.len() < headers.len() {
             continue;
         }
         
-        // Build JSON object string
+        // Build JSON object string, only using the first headers.len() values
         let mut json_obj = String::from("{");
         for (i, header) in headers.iter().enumerate() {
             if i > 0 {
                 json_obj.push(',');
             }
-            json_obj.push_str(&format!("\"{}\":\"{}\"", header, values[i]));
+            // Use only available values, not beyond
+            if i < values.len() {
+                json_obj.push_str(&format!("\"{}\":\"{}\"", header, values[i]));
+            } else {
+                json_obj.push_str(&format!("\"{}\":\"\"", header));
+            }
         }
         json_obj.push('}');
         
