@@ -1,0 +1,476 @@
+// Rust WASM Generator - Complete HTML generation in Rust
+import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+import { generate_stop_page, generate_route_type_index_page, extract_stop_route_types, init_routes_and_trips } from '../pkg/bus_fyi_wasm.js';
+import { splitStopTimes } from './split-stop-times.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const rootDir = join(__dirname, '..');
+
+// GTFS route type names
+const ROUTE_TYPE_NAMES = {
+  '0': 'Tram',
+  '1': 'Subway',
+  '2': 'Rail',
+  '3': 'Bus',
+  '4': 'Ferry',
+  '5': 'Cable Car',
+  '6': 'Gondola',
+  '7': 'Funicular',
+};
+
+/**
+ * Load stop_times CSV for a specific stop (no pre-loading to avoid OOM)
+ */
+function loadStopTimesCsv(stopTimesByStopDir, stopId) {
+  const stopTimesPath = join(stopTimesByStopDir, `${stopId}-stop_times.csv`);
+  if (existsSync(stopTimesPath)) {
+    return readFileSync(stopTimesPath, 'utf-8');
+  }
+  return '';
+}
+
+/**
+ * Parse CSV content into array of objects
+ */
+function parseCSV(csvText) {
+  if (!csvText || csvText.trim() === '') return [];
+  
+  const lines = csvText.trim().split('\n');
+  if (lines.length < 2) return [];
+  
+  const headers = lines[0].split(',').map(h => h.trim());
+  const data = [];
+  
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) continue;
+    
+    const values = line.split(',').map(v => v.trim());
+    const obj = {};
+    for (let j = 0; j < headers.length; j++) {
+      obj[headers[j]] = values[j] || '';
+    }
+    data.push(obj);
+  }
+  
+  return data;
+}
+
+/**
+ * Process a single stop and generate HTML using Rust WASM
+ */
+async function processStop(
+  stopId, stopName, parentId, parentName, childStops,
+  stopTimesData, routesCsv, tripsCsv, calendarCsv,
+  distDir, agencyId
+) {
+  try {
+    // Prepare stop directory with agency prefix
+    let stopDir;
+    if (parentId) {
+      stopDir = join(distDir, agencyId, 'stops', parentId, stopId);
+    } else {
+      stopDir = join(distDir, agencyId, 'stops', stopId);
+    }
+    
+    if (!existsSync(stopDir)) {
+      mkdirSync(stopDir, { recursive: true });
+    }
+    
+    // Convert child stops to JSON
+    const childStopsJson = JSON.stringify(childStops);
+    
+    // Call Rust WASM to generate complete HTML
+    const html = generate_stop_page(
+      stopId,
+      stopName,
+      parentId || '',
+      parentName || '',
+      childStopsJson,
+      stopTimesData,
+      routesCsv,
+      tripsCsv,
+      calendarCsv
+    );
+    
+    // Write to file
+    const htmlPath = join(stopDir, 'index.html');
+    await writeFile(htmlPath, html);
+    
+    // Return the relative path for logging
+    return htmlPath.replace(distDir + '/', '');
+    
+  } catch (error) {
+    console.error(`Error processing stop ${stopId}:`, error.message);
+    throw error;
+  }
+}
+
+/**
+ * Write file
+ */
+async function writeFile(filePath, content) {
+  return new Promise((resolve, reject) => {
+    const stream = createWriteStream(filePath);
+    stream.write(content);
+    stream.end();
+    stream.on('finish', resolve);
+    stream.on('error', reject);
+  });
+}
+
+/**
+ * Main generation function
+ */
+async function generateStopPages() {
+  const startTime = Date.now();
+  console.log('Starting stop page generation with Rust WASM...\n');
+  
+  const dataDir = join(rootDir, 'data', 'cta');
+  const distDir = join(rootDir, 'dist');
+  const agencyId = 'cta'; // Extract from data directory name
+  
+  // Split stop_times if needed
+  await splitStopTimes(dataDir);
+  
+  // Directory for split stop_times files (loaded on-demand to avoid OOM)
+  const stopTimesByStopDir = join(dataDir, 'stop_times_by_stop');
+  
+  console.log('Rust WASM module loaded\n');
+  
+  // Load GTFS data
+  console.log('Loading GTFS data...');
+  
+  const stopsPath = join(dataDir, 'stops.txt');
+  const routesPath = join(dataDir, 'routes.txt');
+  const tripsPath = join(dataDir, 'trips.txt');
+  const calendarPath = join(dataDir, 'calendar.txt');
+  
+  const stopsData = parseCSV(readFileSync(stopsPath, 'utf-8'));
+  
+  // Load CSV files as strings (Rust will parse them)
+  const routesCsv = readFileSync(routesPath, 'utf-8');
+  const tripsCsv = readFileSync(tripsPath, 'utf-8');
+  const calendarCsv = readFileSync(calendarPath, 'utf-8');
+  
+  // Initialize routes and trips data in Rust ONCE (major performance optimization!)
+  // This loads the large routes.csv (131 routes) and trips.csv (94,704 trips) files
+  // into Rust memory once instead of parsing them 11,185+ times (once per stop)
+  console.log('🔧 Initializing routes and trips data in Rust WASM...');
+  init_routes_and_trips(routesCsv, tripsCsv);
+  console.log('✅ Routes and trips cached in Rust - ready for fast processing!\n');
+  
+  // Parse routes for logging route type distribution only
+  const routesData = parseCSV(routesCsv);
+  const routeTypeCount = new Map();
+  for (const route of routesData) {
+    // Track route type distribution for console output
+    const rt = route.route_type || 'undefined';
+    routeTypeCount.set(rt, (routeTypeCount.get(rt) || 0) + 1);
+  }
+  
+  console.log(`✅ Loaded ${stopsData.length} stops`);
+  console.log(`✅ Loaded ${routesData.length} routes`);
+  console.log(`   Route types found:`);
+  for (const [routeType, count] of Array.from(routeTypeCount.entries()).sort()) {
+    const typeName = ROUTE_TYPE_NAMES[routeType] || `Type ${routeType}`;
+    console.log(`     ${typeName} (${routeType}): ${count} routes`);
+  }
+  // Count trips from CSV (no need to parse for route extraction anymore)
+  const tripsCount = tripsCsv.split('\n').length - 1; // Subtract header
+  console.log(`✅ Loaded ${tripsCount} trips`);
+  console.log(`✅ Loaded calendar CSV (${calendarCsv.split('\n').length - 1} entries)\n`);
+  
+  // Build stop map and categorize stops
+  const stopMap = new Map();
+  const parentStops = [];
+  const childStopsWithoutParent = []; // Child stops whose parent isn't in our dataset
+  const childrenByParent = new Map(); // Map parent_id -> array of child stops (for O(1) lookup)
+  
+  for (const stop of stopsData) {
+    stopMap.set(stop.stop_id, stop);
+    
+    if (!stop.parent_station || stop.parent_station === '') {
+      parentStops.push(stop);
+    }
+  }
+  
+  // Build parent-to-children mapping and find orphaned children in one pass
+  const parentStopIds = new Set(parentStops.map(s => s.stop_id));
+  for (const stop of stopsData) {
+    if (stop.parent_station && stop.parent_station !== '') {
+      if (parentStopIds.has(stop.parent_station)) {
+        // This child has a parent in our dataset
+        if (!childrenByParent.has(stop.parent_station)) {
+          childrenByParent.set(stop.parent_station, []);
+        }
+        childrenByParent.get(stop.parent_station).push({
+          id: stop.stop_id,
+          name: stop.stop_name
+        });
+      } else {
+        // Orphaned child - parent doesn't exist
+        childStopsWithoutParent.push(stop);
+      }
+    }
+  }
+  
+  console.log(`Found ${parentStops.length} parent/standalone stops`);
+  console.log(`Found ${childStopsWithoutParent.length} orphaned child stops (parent not in dataset)\n`);
+  
+  // Track stops by route type
+  const stopsByRouteType = new Map();
+  const stopRouteTypes = new Map(); // Map stop_id to Set of route_types
+  
+  // Process each stop
+  let processed = 0;
+  let childrenProcessed = 0;
+  let orphanedStopsProcessed = 0;
+  let stopsWithNoRoutes = 0;
+  const totalStops = parentStops.length + childStopsWithoutParent.length;
+  
+  console.log(`Processing ${parentStops.length} parent/standalone stops + ${childStopsWithoutParent.length} orphaned child stops = ${totalStops} total stops...\n`);
+  console.log('Format: [location_type] [route_types] Stop Name (stop_id) → filepath\n');
+  
+  // Process in batches for progress reporting
+  const batchSize = parseInt(process.env.THROTTLE || '500', 10);
+  
+  for (let i = 0; i < parentStops.length; i += batchSize) {
+    const batch = parentStops.slice(i, i + batchSize);
+    
+    await Promise.all(batch.map(async (stop) => {
+      const stopId = stop.stop_id;
+      const stopName = stop.stop_name;
+      const locationType = stop.location_type || '0';
+      
+      // Determine stop type
+      let stopType = 'stop';
+      if (locationType === '1') {
+        stopType = 'station';
+      } else if (locationType === '2') {
+        stopType = 'entrance';
+      } else if (locationType === '3') {
+        stopType = 'node';
+      } else if (locationType === '4') {
+        stopType = 'boarding';
+      }
+      
+      // Get child stops from pre-built map (O(1) lookup instead of O(n) scan)
+      const childStops = childrenByParent.get(stopId) || [];
+      
+      // Load stop times on-demand (avoid OOM by not pre-loading all files)
+      let stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
+      let routeTypes = new Set();
+      
+      if (stopTimesCsv) {
+        // Use Rust WASM to extract route types (uses cached routes/trips data - 10-100x faster!)
+        const routeTypesJson = extract_stop_route_types(stopTimesCsv);
+        const routeTypesArray = JSON.parse(routeTypesJson);
+        routeTypes = new Set(routeTypesArray);
+      }
+      
+      // Store route types for this stop
+      stopRouteTypes.set(stopId, routeTypes);
+      
+      // Process parent stop
+      const parentFilePath = await processStop(
+        stopId, stopName, '', '', childStops,
+        stopTimesCsv, routesCsv, tripsCsv, calendarCsv,
+        distDir, agencyId
+      );
+      
+      // Process child stops and collect their route types and log entries
+      const childLogEntries = [];
+      const allRouteTypes = new Set(routeTypes); // Start with parent's route types
+      
+      for (const childStop of childStops) {
+        // Load child stop times on-demand (avoid OOM)
+        let childStopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, childStop.id);
+        let childRouteTypes = new Set();
+        
+        if (childStopTimesCsv) {
+          // Use Rust WASM to extract route types (uses cached routes/trips data - 10-100x faster!)
+          const childRouteTypesJson = extract_stop_route_types(childStopTimesCsv);
+          const childRouteTypesArray = JSON.parse(childRouteTypesJson);
+          childRouteTypes = new Set(childRouteTypesArray);
+          
+          // Add child's route types to parent's collection
+          for (const rt of childRouteTypes) {
+            allRouteTypes.add(rt);
+          }
+        }
+        
+        const childFilePath = await processStop(
+          childStop.id, childStop.name, stopId, stopName, [],
+          childStopTimesCsv, routesCsv, tripsCsv, calendarCsv,
+          distDir, agencyId
+        );
+        
+        // Store child log entry for later output
+        childLogEntries.push(`  ↳ [child] ${childStop.name} (${childStop.id}) → ${childFilePath}`);
+        
+        childrenProcessed++;
+      }
+      
+      // Add parent stop to route type indexes with combined route types (parent + children)
+      // Only add if stop has at least one route type
+      if (allRouteTypes.size > 0) {
+        for (const routeType of allRouteTypes) {
+          if (!stopsByRouteType.has(routeType)) {
+            stopsByRouteType.set(routeType, []);
+          }
+          stopsByRouteType.get(routeType).push({
+            stop_id: stopId,
+            stop_name: stopName,
+            location_type: locationType,
+            route_types: Array.from(allRouteTypes)
+          });
+        }
+      } else {
+        stopsWithNoRoutes++;
+      }
+      
+      // Format combined route types for display
+      const routeTypeNames = Array.from(allRouteTypes)
+        .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
+        .join(', ');
+      const routeTypeDisplay = allRouteTypes.size > 0 ? `[${routeTypeNames}]` : '[No routes]';
+      
+      // Now log parent and children together to prevent interleaving
+      const childrenInfo = childStops.length > 0 ? ` [${childStops.length} children]` : '';
+      console.log(`[${stopType}] ${routeTypeDisplay} ${stopName} (${stopId})${childrenInfo} → ${parentFilePath}`);
+      
+      // Log all child stops immediately after parent
+      for (const logEntry of childLogEntries) {
+        console.log(logEntry);
+      }
+    }));
+    
+    processed += batch.length;
+    const percent = Math.round((processed / totalStops) * 100);
+    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    const rate = (processed / (elapsed / 60)).toFixed(1);
+    
+    console.log(`[${percent}%] Processed ${processed}/${totalStops} stops (${rate} pages/min, ${elapsed}s elapsed)`);
+  }
+  
+  // Process orphaned child stops (those whose parent isn't in our dataset)
+  // These are typically individual bus stops that reference a parent that may not exist
+  console.log(`\n📍 Processing ${childStopsWithoutParent.length} orphaned child stops...`);
+  
+  for (let i = 0; i < childStopsWithoutParent.length; i += batchSize) {
+    const batch = childStopsWithoutParent.slice(i, i + batchSize);
+    
+    await Promise.all(batch.map(async (stop) => {
+      const stopId = stop.stop_id;
+      const stopName = stop.stop_name;
+      const locationType = stop.location_type || '0';
+      
+      // Load stop times on-demand (avoid OOM)
+      let stopTimesCsv = loadStopTimesCsv(stopTimesByStopDir, stopId);
+      let routeTypes = new Set();
+      
+      if (stopTimesCsv) {
+        // Use Rust WASM to extract route types (uses cached routes/trips data - 10-100x faster!)
+        const routeTypesJson = extract_stop_route_types(stopTimesCsv);
+        const routeTypesArray = JSON.parse(routeTypesJson);
+        routeTypes = new Set(routeTypesArray);
+      }
+      
+      // Process this orphaned stop
+      const filePath = await processStop(
+        stopId, stopName, '', '', [],
+        stopTimesCsv, routesCsv, tripsCsv, calendarCsv,
+        distDir, agencyId
+      );
+      
+      // Add to route type indexes if it has route types
+      if (routeTypes.size > 0) {
+        for (const routeType of routeTypes) {
+          if (!stopsByRouteType.has(routeType)) {
+            stopsByRouteType.set(routeType, []);
+          }
+          stopsByRouteType.get(routeType).push({
+            stop_id: stopId,
+            stop_name: stopName,
+            location_type: locationType,
+            route_types: Array.from(routeTypes)
+          });
+        }
+        
+        // Log orphaned stop processing
+        const routeTypeNames = Array.from(routeTypes)
+          .sort()
+          .map(rt => ROUTE_TYPE_NAMES[rt] || `Type ${rt}`)
+          .join(', ');
+        const routeTypeDisplay = `[${routeTypeNames}]`;
+        console.log(`[orphaned] ${routeTypeDisplay} ${stopName} (${stopId}) → ${filePath}`);
+      } else {
+        stopsWithNoRoutes++;
+      }
+      
+      orphanedStopsProcessed++;
+    }));
+    
+    const orphanedPercent = Math.round((orphanedStopsProcessed / childStopsWithoutParent.length) * 100);
+    console.log(`[${orphanedPercent}%] Processed ${orphanedStopsProcessed}/${childStopsWithoutParent.length} orphaned stops`);
+  }
+  
+  // Generate route type index pages
+  console.log(`\n📊 Generating route type index pages...`);
+  
+  // Sort route types by their names for consistent output
+  const sortedRouteTypes = Array.from(stopsByRouteType.entries())
+    .sort((a, b) => {
+      const nameA = ROUTE_TYPE_NAMES[a[0]] || `Type ${a[0]}`;
+      const nameB = ROUTE_TYPE_NAMES[b[0]] || `Type ${b[0]}`;
+      return nameA.localeCompare(nameB);
+    });
+  
+  for (const [routeType, stops] of sortedRouteTypes) {
+    const routeTypeName = ROUTE_TYPE_NAMES[routeType] || `Type ${routeType}`;
+    
+    // Sort stops alphabetically by name
+    const sortedStops = stops.sort((a, b) => a.stop_name.localeCompare(b.stop_name));
+    const stopsJson = JSON.stringify(sortedStops);
+    
+    // Generate HTML using Rust WASM
+    const html = generate_route_type_index_page(routeType, routeTypeName, stopsJson);
+    
+    // Write to file in agency folder
+    const indexDir = join(distDir, agencyId, 'stops', routeTypeName.toLowerCase().replace(/\s+/g, '-'));
+    if (!existsSync(indexDir)) {
+      mkdirSync(indexDir, { recursive: true });
+    }
+    
+    const indexPath = join(indexDir, 'index.html');
+    await writeFile(indexPath, html);
+    
+    const relativePath = indexPath.replace(distDir + '/', '');
+    console.log(`  ✅ ${routeTypeName} (${stops.length} stops) → ${relativePath}`);
+  }
+  
+  const endTime = Date.now();
+  const totalTime = ((endTime - startTime) / 1000).toFixed(1);
+  const totalPagesGenerated = processed + childrenProcessed + orphanedStopsProcessed + stopsByRouteType.size;
+  const pagesPerSec = (totalPagesGenerated / (totalTime / 60 / 60)).toFixed(1);
+  
+  console.log(`\n✅ Generation complete!`);
+  console.log(`   Parent/standalone stops: ${processed}`);
+  console.log(`   Child stops: ${childrenProcessed}`);
+  console.log(`   Orphaned child stops: ${orphanedStopsProcessed}`);
+  console.log(`   Stops with no routes: ${stopsWithNoRoutes}`);
+  console.log(`   Route type indexes: ${stopsByRouteType.size}`);
+  console.log(`   Total pages: ${totalPagesGenerated}`);
+  console.log(`   Time: ${totalTime}s`);
+  console.log(`   Rate: ${pagesPerSec} pages/sec`);
+}
+
+// Run generation
+generateStopPages().catch(error => {
+  console.error('Generation failed:', error);
+  process.exit(1);
+});

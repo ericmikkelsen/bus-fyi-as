@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run install:rust && npm run wasm:build && vite build && npm run generate:stops && npm run generate:stop-csvs",
+    "build": "npm run install:rust && npm run wasm:build && vite build && npm run generate:stops:parallel && npm run generate:stop-csvs",
     "download:gtfs": "node src/download-gtfs.mjs",
     "generate": "npm run asbuild && node src/generator.mjs",
     "generate:stops": "node src/generate-stops-rust.mjs",
+    "generate:stops:parallel": "node src/generate-stops-rust-parallel.mjs",
     "generate:stop-csvs": "node src/generate-stop-csvs.mjs",
     "generate:stops:old": "node src/generate-stops-component-based.mjs",
     "generate:stops:esm": "node src/generate-stops-batched.mjs",
